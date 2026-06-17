@@ -1,0 +1,16 @@
+{
+  "name": "ai-news-hub",
+  "version": "1.0.0",
+  "description": "Daily AI News Summarizer and Interactive Dashboard",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.13.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "rss-parser": "^3.13.0"
+  }
+}

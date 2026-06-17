@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Pulse // Daily Autonomous AI News & Learning for Builders</title>
+  <meta name="description" content="Curated summaries of AI Agents, Models, Tools, Companies, and Learning Opportunities updated daily. Optimized for startups and YC founders.">
+  
+  <!-- Modern Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <!-- Subtle Background Glow Elements -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo-area">
+        <span class="pulse-dot"></span>
+        <h1 class="logo-text">AI PULSE</h1>
+      </div>
+      <p class="tagline">Daily autonomous intelligence feed for YC founders & builders.</p>
+      <div class="meta-row">
+        <span class="badge" id="last-updated">Last Updated: Loading...</span>
+        <span class="badge badge-accent">Model: Gemini Flash</span>
+      </div>
+    </header>
+
+    <!-- Executive Highlights -->
+    <section class="highlights-section glass">
+      <div class="highlights-header">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+        <h2>Executive Briefing</h2>
+      </div>
+      <ul id="highlights-list">
+        <li class="loading-placeholder">Loading today's briefing...</li>
+      </ul>
+    </section>
+
+    <!-- Main Dynamic Feed Grid -->
+    <main class="feed-grid">
+      <!-- AGENTS CARD -->
+      <div class="feed-card glass" id="card-agents">
+        <div class="card-header">
+          <div class="card-icon icon-agents">🤖</div>
+          <h3>Agents</h3>
+        </div>
+        <p class="card-desc">Autonomous architectures, execution sandboxes, and workflows.</p>
+        <div class="card-content" id="agents-feed">
+          <!-- Populated by JavaScript -->
+          <div class="loading-item"></div>
+        </div>
+      </div>
+
+      <!-- MODELS CARD -->
+      <div class="feed-card glass" id="card-models">
+        <div class="card-header">
+          <div class="card-icon icon-models">🧠</div>
+          <h3>Models</h3>
+        </div>
+        <p class="card-desc">LLM releases, algorithmic breakthroughs, and weight checkpoints.</p>
+        <div class="card-content" id="models-feed">
+          <div class="loading-item"></div>
+        </div>
+      </div>
+
+      <!-- TOOLS CARD -->
+      <div class="feed-card glass" id="card-tools">
+        <div class="card-header">
+          <div class="card-icon icon-tools">🛠️</div>
+          <h3>Tools</h3>
+        </div>
+        <p class="card-desc">AI SDKs, vector databases, developer pipelines, and tooling.</p>
+        <div class="card-content" id="tools-feed">
+          <div class="loading-item"></div>
+        </div>
+      </div>
+
+      <!-- COMPANIES CARD -->
+      <div class="feed-card glass" id="card-companies">
+        <div class="card-header">
+          <div class="card-icon icon-companies">🏢</div>
+          <h3>Companies</h3>
+        </div>
+        <p class="card-desc">Lab announcements, infrastructure expansions, and industry plays.</p>
+        <div class="card-content" id="companies-feed">
+          <div class="loading-item"></div>
+        </div>
+      </div>
+
+      <!-- LEARNING CARD -->
+      <div class="feed-card glass highlight-card" id="card-learning">
+        <div class="card-header">
+          <div class="card-icon icon-learning">🎓</div>
+          <h3>Upskilling & Learning</h3>
+        </div>
+        <p class="card-desc">New courses, developer labs, tutorials, and ecosystem guides.</p>
+        <div class="card-content" id="learning-feed">
+          <div class="loading-item"></div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Automated summary pipeline running daily at 9:00 AM.</p>
+      <p class="footer-meta">Powered by <span>Gemini 2.0 Flash</span> & <span>GitHub Actions</span>. <a href="https://github.com" target="_blank" rel="noopener noreferrer">Source Code</a></p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

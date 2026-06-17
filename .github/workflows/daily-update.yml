@@ -1,0 +1,45 @@
+name: Daily AI News Update
+
+on:
+  schedule:
+    - cron: '0 13 * * *' # Daily at 1:00 PM UTC (equivalent to 9:00 AM EDT)
+  workflow_dispatch: # Allows manual execution from the GitHub actions tab
+
+permissions:
+  contents: write # Required to push updated data.json back to the repo
+
+jobs:
+  update-summary:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+        cache: 'npm'
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Generate AI Summary Report
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      run: node index.js
+
+    - name: Commit & Push Changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add data.json
+        
+        # Check if data.json was modified
+        if git diff --quiet && git diff --staged --quiet; then
+          echo "No new updates fetched today."
+        else
+          git commit -m "chore: auto-update daily AI news summaries [skip ci]"
+          git push
+        fi

@@ -1,0 +1,13 @@
+# Environment variables file containing sensitive API keys
+.env
+
+# Node.js dependencies
+node_modules/
+
+# Local logs and outputs
+*.log
+reports/
+
+# OS specific files
+.DS_Store
+Thumbs.db
