@@ -91,18 +91,12 @@ body {
   gap: 0.75rem;
   margin-bottom: 0.75rem;
 }
-.pulse-dot {
-  width: 10px;
-  height: 10px;
-  background-color: var(--color-tools);
-  border-radius: 50%;
-  box-shadow: 0 0 12px var(--color-tools);
-  animation: pulse 2s infinite;
+.logo-svg {
+  filter: drop-shadow(0 0 8px rgba(0, 240, 255, 0.35));
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
-@keyframes pulse {
-  0% { transform: scale(0.95); opacity: 0.5; }
-  50% { transform: scale(1.15); opacity: 1; box-shadow: 0 0 18px var(--color-tools); }
-  100% { transform: scale(0.95); opacity: 0.5; }
+.logo-area:hover .logo-svg {
+  transform: rotate(15deg) scale(1.05);
 }
 .logo-text {
   font-family: 'Space Grotesk', 'Outfit', sans-serif;
