@@ -1,77 +1,108 @@
 {
-  "lastUpdated": "2024-06-17T12:00:00Z",
+  "lastUpdated": "2026-06-17T18:00:00Z",
   "highlights": [
-    "Autonomous AI agents are making significant strides in specialized scientific and legal applications, demonstrating capabilities from optimizing chemical reactions to evolving rule sets.",
-    "New developer tools and frameworks, like Vercel's Eve, are emerging to simplify the creation and deployment of AI agents, alongside crucial evaluation benchmarks for critical domains like life sciences.",
-    "Advances in core AI model architectures, such as MiniMax Sparse Attention, are boosting efficiency for large-scale models, while conversational AI like Google's AMIE continues to show human-level performance in complex medical tasks."
+    "AI agent development is rapidly advancing with new open-source frameworks, enhanced pre-deployment safety mechanisms, and foundational research into distributed agent networks, enabling more robust and collaborative autonomous systems.",
+    "Significant strides are being made in model efficiency and specialized applications, highlighted by novel sparse attention architectures, embodied AI for robotics, and conversational AI demonstrating parity with human experts in complex medical diagnosis.",
+    "Major players like OpenAI and Google are strategically investing in acquisitions, partner networks, and open standards to accelerate enterprise AI adoption and provide critical infrastructure for agentic computing and knowledge management."
   ],
   "agents": [
     {
-      "title": "Near-Autonomous AI Chemist Boosts Medicinal Chemistry",
-      "summary": "OpenAI and Molecule.one have developed a near-autonomous AI chemist using GPT-5.4 that significantly improved a critical drug-making reaction, accelerating medicinal chemistry research and development.",
-      "link": "https://openai.com/index/ai-chemist-improves-reaction",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Self-Evolving AI Agent for Legal Case Retrieval",
-      "summary": "A novel LLM-based agent framework is proposed that automatically creates, validates, and refines query rewriting rules for legal case retrieval, outperforming traditional methods and demonstrating self-evolution without parameter training.",
-      "link": "https://arxiv.org/abs/2606.17220",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Integrating AI Agents from Hugging Face Hub to Robot Hardware",
-      "summary": "This development showcases a pathway to deploy AI agents from the Hugging Face Hub onto physical robot hardware using Strands Agents and LeRobot, enabling practical, real-world robotic applications.",
-      "link": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "source": "Hugging Face Blog"
-    }
-  ],
-  "models": [
-    {
-      "title": "MiniMax Introduces MSA for Efficient Sparse Attention",
-      "summary": "MiniMax released MSA, a sparse attention mechanism significantly reducing per-token attention compute (28.4× at 1M context) while matching GQA performance on benchmarks, enabling more efficient training and inference for large models.",
-      "link": "https://www.marktechpost.com/2026/06/17/minimax-sparse-attention-msa-a-two-branch-block-sparse-attention-trained-on-a-109b-parameter-moe-with-a-3t-token-budget/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Google's AMIE AI Matches Doctors in Complex Disease Management",
-      "summary": "Google AI's conversational system, AMIE, has demonstrated the ability to match primary care physicians in managing complex health conditions, signaling a major step towards advanced medical AI applications.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "MolmoMotion: Language-Guided 3D Motion Forecasting",
-      "summary": "A new model, MolmoMotion, has been introduced for language-guided 3D motion forecasting, enabling more intuitive and precise control over complex animation and simulation tasks.",
-      "link": "https://huggingface.co/blog/allenai/molmomotion",
-      "source": "Hugging Face Blog"
-    }
-  ],
-  "tools": [
-    {
-      "title": "Vercel Launches Eve, Open-Source AI Agent Framework",
-      "summary": "Vercel open-sourced Eve, an Apache-2.0 agent framework featuring durable execution, sandboxes, and approvals, simplifying the development and deployment of file-based AI agents.",
+      "title": "Vercel Releases Eve: Open-Source AI Agent Framework",
+      "summary": "Vercel has open-sourced Eve, an Apache-2.0 agent framework featuring durable execution, sandboxes, approvals, connections, channels, and built-in evals, enabling developers to scaffold and deploy robust agents easily.",
       "link": "https://www.marktechpost.com/2026/06/17/vercel-releases-eve/",
       "source": "MarkTechPost"
     },
     {
-      "title": "OpenAI Introduces LifeSciBench for Life Science AI Evaluation",
-      "summary": "OpenAI released LifeSciBench, an expert-authored benchmark designed to rigorously evaluate AI systems on real-world life science research tasks, crucial for standardizing AI performance in this domain.",
-      "link": "https://openai.com/index/introducing-life-sci-bench",
-      "source": "OpenAI News"
-    }
-  ],
-  "companies": [
-    {
-      "title": "OpenAI Achieves Breakthrough with Autonomous AI Chemist",
-      "summary": "OpenAI, in collaboration with Molecule.one, announced a significant milestone where a near-autonomous AI chemist, powered by GPT-5.4, substantially improved a challenging reaction critical for drug discovery.",
-      "link": "https://openai.com/index/ai-chemist-improves-reaction",
-      "source": "OpenAI News"
+      "title": "Distributed General-Purpose Agent Networks Architecture (arXiv)",
+      "summary": "New research outlines a layered architecture and core mechanisms for open, peer-to-peer agent networks, enabling heterogeneous agents to discover, establish trust, and cooperate on complex tasks, crucial for scalable agent collaboration.",
+      "link": "https://arxiv.org/abs/2606.17368",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Google AI's AMIE Demonstrates Efficacy in Disease Management",
-      "summary": "Google AI announced new research published in Nature, highlighting that its conversational AI system, AMIE, matches the performance of primary care physicians in complex disease management.",
+      "title": "OpenAI’s Deployment Simulation for Agentic Coding Risk Assessment",
+      "summary": "OpenAI introduced Deployment Simulation, a method to predict AI model behavior before release by replaying past conversations and grading completions to estimate undesired behavior rates in agentic coding, enhancing safety and reliability.",
+      "link": "https://www.marktechpost.com/2026/06/16/openai-deployment-simulation/",
+      "source": "MarkTechPost"
+    }
+  ],
+  "models": [
+    {
+      "title": "MiniMax Sparse Attention (MSA) for Efficient MoE Models",
+      "summary": "MiniMax released MSA, a sparse attention mechanism built on Grouped Query Attention, significantly reducing per-token attention compute by 28.4x at 1M context while matching GQA performance, critical for efficient large-scale models.",
+      "link": "https://www.marktechpost.com/2026/06/17/minimax-sparse-attention-msa-a-two-branch-block-sparse-attention-trained-on-a-109b-parameter-moe-with-a-3t-token-budget/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Qwen-RobotSuite: Three Embodied AI Models for Robotics",
+      "summary": "Qwen-RobotSuite introduces three new embodied AI models—RobotManip (VLA for manipulation), RobotWorld (language-conditioned video world model), and RobotNav (navigation)—offering specialized capabilities for advanced robotic perception and control.",
+      "link": "https://www.marktechpost.com/2026/06/16/meet-qwen-robotsuite-three-embodied-ai-models-for-vla-manipulation-video-world-modeling-and-navigation/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Google's AMIE Medical AI Matches Physicians in Health Management",
+      "summary": "New research in 'Nature' demonstrates Google's conversational AI system, AMIE, matches primary care physicians in complex disease management, signaling a significant advance in practical and trustworthy medical AI applications.",
       "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
       "source": "Google AI Blog"
     }
   ],
-  "learning": []
+  "tools": [
+    {
+      "title": "Google Cloud Introduces Open Knowledge Format (OKF)",
+      "summary": "Google Cloud launched OKF, a vendor-neutral Markdown specification for giving AI agents curated context, formalizing the LLM-wiki pattern for standardized and effective knowledge retrieval in agentic systems.",
+      "link": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Vercel Releases Eve: An Open-Source AI Agent Framework",
+      "summary": "Vercel's new Apache-2.0 agent framework, Eve, allows developers to build robust agents as directories of files with durable execution, sandboxes, approvals, and channels, simplifying agent deployment and management.",
+      "link": "https://www.marktechpost.com/2026/06/17/vercel-releases-eve/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Atoms: AI Agent-Powered No-Code App Building Tool",
+      "summary": "Atoms is a new 'vibe coding' tool that leverages AI agents to enable users to build, deploy, and market applications by describing ideas in plain language, significantly lowering the barrier to application development.",
+      "link": "https://www.marktechpost.com/2026/06/16/meet-atoms-a-vibe-coding-tool-that-uses-ai-agents-to-build-deploy-and-market-your-app-no-code/",
+      "source": "MarkTechPost"
+    }
+  ],
+  "companies": [
+    {
+      "title": "OpenAI to Acquire Ona for Codex Expansion",
+      "summary": "OpenAI plans to acquire Ona to expand Codex, providing secure, persistent cloud environments that are critical for developing and deploying long-running AI agents across diverse enterprise workflows.",
+      "link": "https://openai.com/index/openai-to-acquire-ona",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "OpenAI Introduces Partner Network with $150M Investment",
+      "summary": "OpenAI launched its Partner Network, committing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation, fostering broader industry collaboration and scaling AI solutions.",
+      "link": "https://openai.com/index/introducing-openai-partner-network",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Google's AMIE Medical AI for Health Condition Management",
+      "summary": "Google's research published in 'Nature' showcases AMIE, their conversational AI system, effectively matching primary care physicians in managing complex diseases, highlighting a major step in Google's medical AI deployment strategy.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "source": "Google AI Blog"
+    }
+  ],
+  "learning": [
+    {
+      "title": "How to Build Memory-Efficient Transformers with xFormers",
+      "summary": "A comprehensive guide on implementing xFormers for building fast, memory-efficient Transformer models on GPUs, covering techniques like grouped-query attention, ALiBi biases, and packed variable-length sequences.",
+      "link": "https://www.marktechpost.com/2026/06/16/how-to-build-memory-efficient-transformers-with-xformers-using-packed-sequences-gqa-alibi-swiglu-and-causal-attention/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "New OpenAI Academy Courses for Practical AI Skills",
+      "summary": "OpenAI introduced three new Academy courses designed to help individuals build practical AI skills, create repeatable workflows, and effectively apply AI agents in everyday work scenarios, supporting workforce upskilling.",
+      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "How to Build a Parsing Pipeline with Docling Parse",
+      "summary": "A detailed tutorial on constructing a workflow using Docling Parse to analyze PDF documents at a detailed structural level, supporting layout analysis, reading-order reconstruction, and retrieval-ready document preparation.",
+      "link": "https://www.marktechpost.com/2026/06/16/how-to-build-a-parsing-pipeline-with-docling-parse-for-layout-aware-document-intelligence/",
+      "source": "MarkTechPost"
+    }
+  ]
 }
