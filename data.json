@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-06-17T12:00:00Z",
+  "lastUpdated": "2026-06-18T12:00:00Z",
   "highlights": [
-    "The field of agentic AI is advancing significantly, with new research focusing on foundational architectures for distributed agent networks, sophisticated benchmarks for evaluating complex decision-making, and real-world applications demonstrating autonomy in scientific discovery.",
-    "Major AI companies are prioritizing practical deployment and safety, evidenced by new model capabilities, methods for pre-release behavior simulation, and strategic initiatives to accelerate enterprise AI adoption and secure long-running agentic workflows.",
-    "The AI development ecosystem is expanding with critical new benchmarks for specialized domains like clinical speech and life sciences, alongside educational resources aimed at equipping developers and the workforce with essential AI building skills."
+    "OpenAI and Vercel are accelerating AI agent development with new open-source frameworks, enhanced safety evaluation methods, and comprehensive benchmarks for complex domains like life sciences and strategic decision-making.",
+    "Advancements in LLM efficiency continue with innovations in sparse attention mechanisms and KV cache compression, alongside Google's conversational AI AMIE demonstrating physician-level performance in disease management.",
+    "The ecosystem for AI builders is expanding with practical tools for memory-efficient Transformer deployment, agent security scanning, and new learning pathways from OpenAI Academy, emphasizing practical application and responsible development."
   ],
   "agents": [
     {
-      "title": "Distributed General-Purpose Agent Networks: Architecture, Key Mechanisms, and Prototypes",
-      "summary": "This paper proposes a layered architecture for distributed general-purpose agent networks, outlining core mechanisms for semantic announcement, verifiable identity, and open task execution. It provides a system-level foundation for scalable, trustworthy agent collaboration across heterogeneous environments.",
+      "title": "Vercel Releases Eve: An Open-Source AI Agent Framework",
+      "summary": "Vercel open-sourced Eve, an Apache-2.0 agent framework featuring durable execution, sandboxes, and built-in approvals, allowing developers to scaffold and deploy agents effortlessly with `npx eve@latest init` and `vercel deploy`.",
+      "link": "https://www.marktechpost.com/2026/06/17/vercel-releases-eve/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Distributed General-Purpose Agent Networks: Architecture and Mechanisms",
+      "summary": "This paper proposes a layered architecture for open peer-to-peer agent networks, addressing semantic discovery, verifiable identity, and cooperation governance, providing a fundamental framework for scalable and trustworthy agent collaboration.",
       "link": "https://arxiv.org/abs/2606.17368",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Can LLMs Be CEOs? Benchmarking Strategic Resource Reallocation with Multi-Role Agent Simulation",
-      "summary": "CEO-Bench is a new multi-agent benchmark evaluating LLMs on CEO-level strategic resource reallocation, simulating conflicting advice from C-suite advisors. It uncovers systematic failure modes and capability boundaries, guiding the design of future AI-assisted executive systems.",
-      "link": "https://arxiv.org/abs/2606.17459",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-      "summary": "OpenAI and Molecule.one demonstrated a near-autonomous AI chemist, powered by GPT-5.4, that successfully optimized a challenging reaction in medicinal chemistry, showcasing AI's potential to accelerate scientific discovery.",
-      "link": "https://openai.com/index/ai-chemist-improves-reaction",
+      "title": "OpenAI Introduces Deployment Simulation for Agentic Coding",
+      "summary": "OpenAI launched Deployment Simulation to predict AI model behavior before release by replaying past conversations, grading completions to estimate undesired behavior rates, and improving safety for agentic systems through simulated tool calls.",
+      "link": "https://openai.com/index/deployment-simulation",
       "source": "OpenAI News"
     }
   ],
   "models": [
     {
-      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
-      "summary": "Google showcased nine new demos highlighting the advanced capabilities of Gemini Omni and Gemini 3.5, reinforcing their role in driving innovation across various AI applications.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
-      "summary": "JetBrains introduced Mellum2, a 12B Mixture-of-Experts (MoE) model, designed to offer high-performance and efficiency for a range of AI applications, expanding options for developers.",
-      "link": "https://huggingface.co/blog/JetBrains/mellum2-launch",
-      "source": "Hugging Face Blog"
-    },
-    {
-      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-      "summary": "NVIDIA's Nemotron 3.5 Content Safety offers customizable multimodal safety features for global enterprise AI, addressing crucial needs for responsible and secure AI deployment.",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-      "source": "Hugging Face Blog"
-    }
-  ],
-  "tools": [
-    {
-      "title": "Introducing LifeSciBench",
-      "summary": "OpenAI launched LifeSciBench, an expert-authored and reviewed benchmark designed to evaluate AI systems on real-world life science research tasks, providing a standardized framework for progress in the domain.",
+      "title": "OpenAI Introduces LifeSciBench for Life Science Research Evaluation",
+      "summary": "OpenAI launched LifeSciBench, a comprehensive benchmark with 750 expert-authored tasks across seven biological domains, designed to evaluate frontier AI models on real-world life-science research reasoning and decision-making, not just recall.",
       "link": "https://openai.com/index/introducing-life-sci-bench",
       "source": "OpenAI News"
     },
     {
-      "title": "SpeechDx: A Multi-Task Benchmark for Clinical Speech AI",
-      "summary": "SpeechDx is a large-scale, multi-task benchmark for clinical speech AI, featuring 12 datasets and 27 tasks across diverse health conditions, offering a unified framework to track progress in general-purpose clinical speech representations.",
-      "link": "https://arxiv.org/abs/2606.17339",
-      "source": "arXiv cs.AI"
+      "title": "MiniMax Sparse Attention (MSA) for Efficient LLM Inference",
+      "summary": "MiniMax introduced MSA, a sparse attention mechanism built on Grouped Query Attention that significantly reduces per-token attention compute by 28.4x at 1M context while matching GQA performance, critical for efficient large model inference.",
+      "link": "https://www.marktechpost.com/2026/06/17/minimax-sparse-attention-msa-a-two-branch-block-sparse-attention-trained-on-a-109b-parameter-moe-with-a-3t-token-budget/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Predicting model behavior before release by simulating deployment",
-      "summary": "OpenAI introduced Deployment Simulation, a novel method utilizing real conversation data to predict AI model behavior before release, significantly enhancing safety and evaluation accuracy for developers.",
-      "link": "https://openai.com/index/deployment-simulation",
-      "source": "OpenAI News"
+      "title": "Google's AMIE Medical AI Matches Physicians in Disease Management",
+      "summary": "Google's AMIE, a conversational AI system, has demonstrated performance matching primary care physicians in managing complex health conditions, as published in Nature, showcasing its potential for advanced medical decision support.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "source": "Google AI Blog"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Vercel Releases Eve: An Open-Source AI Agent Framework",
+      "summary": "Vercel open-sourced Eve, an Apache-2.0 agent framework in public preview that streamlines agent development with durable execution, sandboxes, and built-in features, enabling quick scaffolding and deployment via Vercel.",
+      "link": "https://www.marktechpost.com/2026/06/17/vercel-releases-eve/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "How to Build Memory-Efficient Transformers with xFormers",
+      "summary": "This guide demonstrates implementing xFormers for building fast, memory-efficient Transformer models on GPUs, covering techniques like grouped-query attention, packed sequences, and ALiBi biases for optimized training and inference.",
+      "link": "https://www.marktechpost.com/2026/06/16/how-to-build-memory-efficient-transformers-with-xformers-using-packed-sequences-gqa-alibi-swiglu-and-causal-attention/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "NVIDIA SkillSpector Guide: Scanning AI Skills for Security Risks",
+      "summary": "A practical guide on using NVIDIA SkillSpector to evaluate AI skills for security risks pre-deployment, detailing how to scan, organize findings with pandas, visualize distributions, and export results in SARIF format for robust security analysis.",
+      "link": "https://www.marktechpost.com/2026/06/17/nvidia-skillspector-guide-scanning-ai-skills-for-security-risks-with-static-analysis-and-sarif-reports/",
+      "source": "MarkTechPost"
     }
   ],
   "companies": [
     {
-      "title": "Introducing the OpenAI Partner Network",
-      "summary": "OpenAI launched its Partner Network with a $150M investment to empower global partners in accelerating enterprise AI adoption, deployment, and transformation, signaling a major push into the enterprise market.",
+      "title": "OpenAI Launches Partner Network with $150M Investment",
+      "summary": "OpenAI launched its Partner Network, committing $150M to accelerate enterprise AI adoption and transformation globally through strategic partnerships, driving widespread deployment of AI solutions across various industries.",
       "link": "https://openai.com/index/introducing-openai-partner-network",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI to acquire Ona",
-      "summary": "OpenAI announced its intent to acquire Ona to expand Codex capabilities with secure, persistent cloud environments, aiming to enable long-running AI agents across complex enterprise workflows.",
+      "title": "OpenAI to Acquire Ona for Enhanced Codex and AI Agents",
+      "summary": "OpenAI announced the acquisition of Ona to enhance Codex with secure, persistent cloud environments, enabling the deployment of long-running AI agents across complex enterprise workflows and expanding its capabilities.",
       "link": "https://openai.com/index/openai-to-acquire-ona",
       "source": "OpenAI News"
     },
     {
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "summary": "Google AI's AMIE, a conversational AI system, demonstrated performance comparable to primary care physicians in managing complex health conditions, as published in Nature, highlighting significant advancements in medical AI.",
+      "title": "Google's AMIE Medical AI Matches Physicians in Disease Management",
+      "summary": "Google Research's AMIE, a conversational AI system, demonstrated performance comparable to primary care physicians in managing complex diseases, marking a significant advancement in AI for healthcare through robust clinical research.",
       "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
       "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "New OpenAI Academy courses for the next era of work",
-      "summary": "OpenAI introduced three new Academy courses designed to equip individuals with practical AI skills, enabling them to create repeatable workflows and effectively apply AI agents in their daily work.",
+      "title": "New OpenAI Academy Courses for the Next Era of Work",
+      "summary": "OpenAI introduced three new Academy courses designed to equip individuals with practical AI skills, including building repeatable workflows and applying agents in everyday professional tasks, fostering AI literacy across the workforce.",
       "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
       "source": "OpenAI News"
     },
     {
-      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
-      "summary": "This technical guide on the Hugging Face Blog delves into advanced PyTorch profiling, specifically optimizing `nn.Linear` to a fused MLP, offering builders insights into improving model efficiency and performance.",
-      "link": "https://huggingface.co/blog/torch-mlp-fusion",
+      "title": "Beyond LoRA: Advanced Fine-Tuning Techniques Explored",
+      "summary": "This article delves into advanced fine-tuning techniques beyond LoRA, examining methods that can potentially surpass the popular parameter-efficient fine-tuning approach for optimizing large language models.",
+      "link": "https://huggingface.co/blog/peft-beyond-lora",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "Check out real-life AI prototypes from the Futures Lab.",
-      "summary": "University of Waterloo students, collaborating with Google's Futures Lab, are developing real-life AI prototypes like sign language tutors, showcasing how academic programs are reshaping future education and work with AI.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
-      "source": "Google AI Blog"
+      "title": "Benchmarking Open Models on Your Own Tooling for Agentic Capabilities",
+      "summary": "This guide provides insights and methods for benchmarking open models against your specific tooling to evaluate their 'agentic' capabilities, helping developers determine if a model is sufficiently autonomous for their applications.",
+      "link": "https://huggingface.co/blog/is-it-agentic-enough",
+      "source": "Hugging Face Blog"
     }
   ]
 }
