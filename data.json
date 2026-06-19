@@ -1,86 +1,86 @@
 {
-  "lastUpdated": "2026-06-18T12:00:00Z",
+  "lastUpdated": "2026-06-19T12:00:00Z",
   "highlights": [
-    "OpenAI and Vercel are accelerating AI agent development with new open-source frameworks, enhanced safety evaluation methods, and comprehensive benchmarks for complex domains like life sciences and strategic decision-making.",
-    "Advancements in LLM efficiency continue with innovations in sparse attention mechanisms and KV cache compression, alongside Google's conversational AI AMIE demonstrating physician-level performance in disease management.",
-    "The ecosystem for AI builders is expanding with practical tools for memory-efficient Transformer deployment, agent security scanning, and new learning pathways from OpenAI Academy, emphasizing practical application and responsible development."
+    "Agentic systems are rapidly shifting from general-purpose assistants to highly specialized, autonomous operational forces, driven by new enterprise-grade governance frameworks and structured feedback loops.",
+    "Unified architectures like ITNet are challenging the historical division between Convolution, Attention, and Recurrence, proving that a single learnable integral transform can synthesize these distinct inductive biases.",
+    "The tools landscape is maturing quickly with OpenAI's acquisition of Ona for persistent agent cloud environments, alongside the emergence of agent-optimized CLIs and standardized Model Context Protocol (MCP) integrations."
   ],
   "agents": [
     {
-      "title": "Vercel Releases Eve: An Open-Source AI Agent Framework",
-      "summary": "Vercel open-sourced Eve, an Apache-2.0 agent framework featuring durable execution, sandboxes, and built-in approvals, allowing developers to scaffold and deploy agents effortlessly with `npx eve@latest init` and `vercel deploy`.",
-      "link": "https://www.marktechpost.com/2026/06/17/vercel-releases-eve/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Distributed General-Purpose Agent Networks: Architecture and Mechanisms",
-      "summary": "This paper proposes a layered architecture for open peer-to-peer agent networks, addressing semantic discovery, verifiable identity, and cooperation governance, providing a fundamental framework for scalable and trustworthy agent collaboration.",
-      "link": "https://arxiv.org/abs/2606.17368",
+      "title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
+      "summary": "Introduces AgenticRei, a runtime policy engine enabling developers to enforce strict security, compliance, and multi-step obligation policies entirely outside the LLM using a high-performance logic engine.",
+      "link": "https://arxiv.org/abs/2606.19464",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "OpenAI Introduces Deployment Simulation for Agentic Coding",
-      "summary": "OpenAI launched Deployment Simulation to predict AI model behavior before release by replaying past conversations, grading completions to estimate undesired behavior rates, and improving safety for agentic systems through simulated tool calls.",
-      "link": "https://openai.com/index/deployment-simulation",
-      "source": "OpenAI News"
+      "title": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
+      "summary": "A production-grade risk supervision framework combining graph foundation models and deterministic guards to deploy low-latency, auditable agentic workflows in complex financial domains.",
+      "link": "https://arxiv.org/abs/2606.19501",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "Uncertainty Decomposition for Clarification Seeking in LLM Agents",
+      "summary": "A zero-shot, prompt-based uncertainty method that allows autonomous agents to detect underspecified tasks and proactively seek clarification, preventing catastrophic silent failures.",
+      "link": "https://arxiv.org/abs/2606.19559",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "OpenAI Introduces LifeSciBench for Life Science Research Evaluation",
-      "summary": "OpenAI launched LifeSciBench, a comprehensive benchmark with 750 expert-authored tasks across seven biological domains, designed to evaluate frontier AI models on real-world life-science research reasoning and decision-making, not just recall.",
-      "link": "https://openai.com/index/introducing-life-sci-bench",
-      "source": "OpenAI News"
+      "title": "ITNet: A Learnable Integral Transform That Subsumes Convolution, Attention, and Recurrence",
+      "summary": "Introduces a unified architecture that models convolutions, self-attention, and state-space recurrences as special cases of a learnable integral transform, matching specialized modality models.",
+      "link": "https://arxiv.org/abs/2606.19538",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "MiniMax Sparse Attention (MSA) for Efficient LLM Inference",
-      "summary": "MiniMax introduced MSA, a sparse attention mechanism built on Grouped Query Attention that significantly reduces per-token attention compute by 28.4x at 1M context while matching GQA performance, critical for efficient large model inference.",
-      "link": "https://www.marktechpost.com/2026/06/17/minimax-sparse-attention-msa-a-two-branch-block-sparse-attention-trained-on-a-109b-parameter-moe-with-a-3t-token-budget/",
-      "source": "MarkTechPost"
+      "title": "GLM-5.2: Built for Long-Horizon Tasks",
+      "summary": "An open-weight model optimized specifically for complex, long-horizon developer tasks and extended reasoning workflows.",
+      "link": "https://huggingface.co/blog/zai-org/glm-52-blog",
+      "source": "Hugging Face Blog"
     },
     {
-      "title": "Google's AMIE Medical AI Matches Physicians in Disease Management",
-      "summary": "Google's AMIE, a conversational AI system, has demonstrated performance matching primary care physicians in managing complex health conditions, as published in Nature, showcasing its potential for advanced medical decision support.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "source": "Google AI Blog"
+      "title": "Diffusion Language Models: An Experimental Analysis",
+      "summary": "Systematically benchmarks Diffusion Language Models (DLMs) against 8 reasoning/coding tasks, charting precise trade-offs between iterative denoising steps and computational efficiency.",
+      "link": "https://arxiv.org/abs/2606.19475",
+      "source": "arXiv cs.AI"
     }
   ],
   "tools": [
     {
-      "title": "Vercel Releases Eve: An Open-Source AI Agent Framework",
-      "summary": "Vercel open-sourced Eve, an Apache-2.0 agent framework in public preview that streamlines agent development with durable execution, sandboxes, and built-in features, enabling quick scaffolding and deployment via Vercel.",
-      "link": "https://www.marktechpost.com/2026/06/17/vercel-releases-eve/",
-      "source": "MarkTechPost"
+      "title": "Predicting Model Behavior Before Release by Simulating Deployment",
+      "summary": "Introduces OpenAI's Deployment Simulation pipeline, which models user interactions with pre-release LLMs to accurately predict post-deployment safety and functional issues.",
+      "link": "https://openai.com/index/deployment-simulation",
+      "source": "OpenAI News"
     },
     {
-      "title": "How to Build Memory-Efficient Transformers with xFormers",
-      "summary": "This guide demonstrates implementing xFormers for building fast, memory-efficient Transformer models on GPUs, covering techniques like grouped-query attention, packed sequences, and ALiBi biases for optimized training and inference.",
-      "link": "https://www.marktechpost.com/2026/06/16/how-to-build-memory-efficient-transformers-with-xformers-using-packed-sequences-gqa-alibi-swiglu-and-causal-attention/",
-      "source": "MarkTechPost"
+      "title": "Designing the hf CLI as an Agent-Optimized Way to Work with the Hub",
+      "summary": "Redesigns Hugging Face's command-line interface with machine-readable outputs and agent-friendly commands, allowing autonomous AI agents to seamlessly fetch, upload, and update models.",
+      "link": "https://huggingface.co/blog/hf-cli-for-agents",
+      "source": "Hugging Face Blog"
     },
     {
-      "title": "NVIDIA SkillSpector Guide: Scanning AI Skills for Security Risks",
-      "summary": "A practical guide on using NVIDIA SkillSpector to evaluate AI skills for security risks pre-deployment, detailing how to scan, organize findings with pandas, visualize distributions, and export results in SARIF format for robust security analysis.",
-      "link": "https://www.marktechpost.com/2026/06/17/nvidia-skillspector-guide-scanning-ai-skills-for-security-risks-with-static-analysis-and-sarif-reports/",
-      "source": "MarkTechPost"
+      "title": "Toten: Knowledge-Based Ontological Tokenization Of Physical Quantities",
+      "summary": "A structured, ontological tokenizer that replaces statistically blind Byte-Pair Encoding for engineering numbers and physical units, ensuring flawless numerical reconstruction.",
+      "link": "https://arxiv.org/abs/2606.19626",
+      "source": "arXiv cs.AI"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Launches Partner Network with $150M Investment",
-      "summary": "OpenAI launched its Partner Network, committing $150M to accelerate enterprise AI adoption and transformation globally through strategic partnerships, driving widespread deployment of AI solutions across various industries.",
-      "link": "https://openai.com/index/introducing-openai-partner-network",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "OpenAI to Acquire Ona for Enhanced Codex and AI Agents",
-      "summary": "OpenAI announced the acquisition of Ona to enhance Codex with secure, persistent cloud environments, enabling the deployment of long-running AI agents across complex enterprise workflows and expanding its capabilities.",
+      "title": "OpenAI to Acquire Ona",
+      "summary": "OpenAI announces its plan to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents to run reliably across enterprise workflows.",
       "link": "https://openai.com/index/openai-to-acquire-ona",
       "source": "OpenAI News"
     },
     {
-      "title": "Google's AMIE Medical AI Matches Physicians in Disease Management",
-      "summary": "Google Research's AMIE, a conversational AI system, demonstrated performance comparable to primary care physicians in managing complex diseases, marking a significant advancement in AI for healthcare through robust clinical research.",
+      "title": "Introducing the OpenAI Partner Network",
+      "summary": "OpenAI launches a $150M partner initiative aimed at helping global enterprise system integrators, consultants, and builders scale and deploy large-scale AI automation safely.",
+      "link": "https://openai.com/index/introducing-openai-partner-network",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "AMIE: Conversational Medical AI Matches PCPs in Nature Study",
+      "summary": "Google's conversational healthcare AI system demonstrates primary-care level accuracy and management in a newly published Nature study on complex disease management.",
       "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
       "source": "Google AI Blog"
     }
@@ -88,20 +88,20 @@
   "learning": [
     {
       "title": "New OpenAI Academy Courses for the Next Era of Work",
-      "summary": "OpenAI introduced three new Academy courses designed to equip individuals with practical AI skills, including building repeatable workflows and applying agents in everyday professional tasks, fostering AI literacy across the workforce.",
+      "summary": "Practical, workflow-driven learning pathways designed to teach builders how to configure repeatable agentic structures and deploy them to production.",
       "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
       "source": "OpenAI News"
     },
     {
-      "title": "Beyond LoRA: Advanced Fine-Tuning Techniques Explored",
-      "summary": "This article delves into advanced fine-tuning techniques beyond LoRA, examining methods that can potentially surpass the popular parameter-efficient fine-tuning approach for optimizing large language models.",
-      "link": "https://huggingface.co/blog/peft-beyond-lora",
+      "title": "Profiling in PyTorch: From nn.Linear to a Fused MLP",
+      "summary": "A deep-dive technical guide that teaches developers how to profile neural networks, analyze memory overhead, and write custom fused MLP kernels for maximum hardware performance.",
+      "link": "https://huggingface.co/blog/torch-mlp-fusion",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "Benchmarking Open Models on Your Own Tooling for Agentic Capabilities",
-      "summary": "This guide provides insights and methods for benchmarking open models against your specific tooling to evaluate their 'agentic' capabilities, helping developers determine if a model is sufficiently autonomous for their applications.",
-      "link": "https://huggingface.co/blog/is-it-agentic-enough",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "summary": "A hands-on guide showing developers how to build autonomous agent loops that orchestrate and chain multiple isolated Hugging Face Spaces to generate complex assets.",
+      "link": "https://huggingface.co/blog/mishig/spaces-agents-md",
       "source": "Hugging Face Blog"
     }
   ]
