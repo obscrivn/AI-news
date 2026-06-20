@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-06-19T12:00:00Z",
+  "lastUpdated": "2026-06-20T09:23:59Z",
   "highlights": [
-    "Agentic systems are rapidly shifting from general-purpose assistants to highly specialized, autonomous operational forces, driven by new enterprise-grade governance frameworks and structured feedback loops.",
-    "Unified architectures like ITNet are challenging the historical division between Convolution, Attention, and Recurrence, proving that a single learnable integral transform can synthesize these distinct inductive biases.",
-    "The tools landscape is maturing quickly with OpenAI's acquisition of Ona for persistent agent cloud environments, alongside the emergence of agent-optimized CLIs and standardized Model Context Protocol (MCP) integrations."
+    "Significant advancements in agentic AI systems are focusing on self-correction, memory, and robust runtime governance, promising more autonomous and reliable AI applications for builders.",
+    "New model releases and foundational research are driving efficiency, specialized capabilities like multilingual search and medical AI, and exploring unified neural network architectures to push performance boundaries.",
+    "Major AI companies are intensifying enterprise AI adoption through new tools, strategic partnerships, comprehensive safety benchmarks, and expanded learning opportunities to empower the workforce."
   ],
   "agents": [
     {
-      "title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
-      "summary": "Introduces AgenticRei, a runtime policy engine enabling developers to enforce strict security, compliance, and multi-step obligation policies entirely outside the LLM using a high-performance logic engine.",
+      "title": "Perplexity Launches Brain: A Self-Improving Memory System for Agents",
+      "summary": "Perplexity's new 'Brain' system provides a self-improving memory for its Computer agent, building a context graph of work and learning overnight to significantly enhance correctness, recall, and cost efficiency.",
+      "link": "https://www.marktechpost.com/2026/06/18/perplexity-launches-brain/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "NVIDIA AI Introduce SpatialClaw: Training-Free Agent for Spatial Reasoning",
+      "summary": "SpatialClaw is a novel training-free agent that leverages code as its action interface for 3D spatial reasoning, writing Python in a persistent kernel to compose perception tools without explicit training.",
+      "link": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Deontic Policies for Runtime Governance of Agentic AI Systems (AgenticRei)",
+      "summary": "This research introduces AgenticRei, a deontic policy framework for runtime governance of LLM-driven agents, addressing complex security, privacy, and compliance challenges by managing obligations, dispensations, and policy conflicts.",
       "link": "https://arxiv.org/abs/2606.19464",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
-      "summary": "A production-grade risk supervision framework combining graph foundation models and deterministic guards to deploy low-latency, auditable agentic workflows in complex financial domains.",
-      "link": "https://arxiv.org/abs/2606.19501",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Uncertainty Decomposition for Clarification Seeking in LLM Agents",
-      "summary": "A zero-shot, prompt-based uncertainty method that allows autonomous agents to detect underspecified tasks and proactively seek clarification, preventing catastrophic silent failures.",
-      "link": "https://arxiv.org/abs/2606.19559",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "ITNet: A Learnable Integral Transform That Subsumes Convolution, Attention, and Recurrence",
-      "summary": "Introduces a unified architecture that models convolutions, self-attention, and state-space recurrences as special cases of a learnable integral transform, matching specialized modality models.",
+      "title": "OpenAI Releases LifeSciBench: 750-Task Benchmark for Life-Science AI",
+      "summary": "OpenAI's LifeSciBench is an expert-authored, 750-task benchmark designed to rigorously evaluate AI models on real-world life-science research, grading reasoning and decision-making capabilities beyond simple recall across seven biological domains.",
+      "link": "https://www.marktechpost.com/2026/06/17/openai-releases-lifescibench-a-750-task-benchmark-grading-ai-models-on-real-life-science-research-with-expert-written-rubric/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "ITNet: A Learnable Integral Transform Unifying Neural Network Architectures",
+      "summary": "The Integral Transform Network (ITNet) introduces a unified architecture with a learnable integral kernel that can recover the behaviors of convolution, self-attention, and autoregressive recurrence, matching specialized baselines across various modalities.",
       "link": "https://arxiv.org/abs/2606.19538",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "GLM-5.2: Built for Long-Horizon Tasks",
-      "summary": "An open-weight model optimized specifically for complex, long-horizon developer tasks and extended reasoning workflows.",
-      "link": "https://huggingface.co/blog/zai-org/glm-52-blog",
-      "source": "Hugging Face Blog"
-    },
-    {
-      "title": "Diffusion Language Models: An Experimental Analysis",
-      "summary": "Systematically benchmarks Diffusion Language Models (DLMs) against 8 reasoning/coding tasks, charting precise trade-offs between iterative denoising steps and computational efficiency.",
-      "link": "https://arxiv.org/abs/2606.19475",
-      "source": "arXiv cs.AI"
+      "title": "Liquid AI Introduces LFM2.5-Embedding-350M and LFM2.5-ColBERT-350M for Multilingual Search",
+      "summary": "Liquid AI has released LFM2.5 Retrievers, combining a dense bi-encoder and ColBERT late-interaction model, optimized for fast and efficient multilingual search across 11 languages, particularly on edge devices.",
+      "link": "https://www.marktechpost.com/2026/06/19/liquid-ai-introduces-lfm2-5-embedding-350m-and-lfm2-5-colbert-350m-dense-bi-encoder-and-late-interaction-models-for-fast-multilingual-search-across-11-languages/",
+      "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Predicting Model Behavior Before Release by Simulating Deployment",
-      "summary": "Introduces OpenAI's Deployment Simulation pipeline, which models user interactions with pre-release LLMs to accurately predict post-deployment safety and functional issues.",
-      "link": "https://openai.com/index/deployment-simulation",
-      "source": "OpenAI News"
+      "title": "Yandex Open-Sources YaFF: Zero-Copy Wire Format for Protobuf",
+      "summary": "Yandex has open-sourced YaFF, a zero-copy wire format for the Protobuf ecosystem, enabling near-struct read speeds and reporting 10–20% CPU savings at production scale for high-performance applications.",
+      "link": "https://www.marktechpost.com/2026/06/20/yandex-open-sources-yaff-a-zero-copy-wire-format-for-protobuf-with-near-struct-read-speed/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Designing the hf CLI as an Agent-Optimized Way to Work with the Hub",
-      "summary": "Redesigns Hugging Face's command-line interface with machine-readable outputs and agent-friendly commands, allowing autonomous AI agents to seamlessly fetch, upload, and update models.",
-      "link": "https://huggingface.co/blog/hf-cli-for-agents",
+      "title": "The Open Source Community is Backing OpenEnv for Agentic RL",
+      "summary": "OpenEnv is gaining significant open-source community support as a framework dedicated to developing and deploying agentic Reinforcement Learning systems, facilitating advanced RL research and applications.",
+      "link": "https://huggingface.co/blog/openenv-agentic-rl",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "Toten: Knowledge-Based Ontological Tokenization Of Physical Quantities",
-      "summary": "A structured, ontological tokenizer that replaces statistically blind Byte-Pair Encoding for engineering numbers and physical units, ensuring flawless numerical reconstruction.",
-      "link": "https://arxiv.org/abs/2606.19626",
-      "source": "arXiv cs.AI"
+      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Enterprise AI",
+      "summary": "NVIDIA's Nemotron 3.5 Content Safety offers customizable multimodal safety features, providing critical capabilities for global enterprises to ensure secure and compliant deployment of AI applications.",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI to Acquire Ona",
-      "summary": "OpenAI announces its plan to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents to run reliably across enterprise workflows.",
+      "title": "OpenAI to Acquire Ona for Codex Expansion and Agentic Workflows",
+      "summary": "OpenAI plans to acquire Ona to expand its Codex capabilities, aiming to provide secure, persistent cloud environments that enable the development and deployment of long-running AI agents across diverse enterprise workflows.",
       "link": "https://openai.com/index/openai-to-acquire-ona",
       "source": "OpenAI News"
     },
     {
-      "title": "Introducing the OpenAI Partner Network",
-      "summary": "OpenAI launches a $150M partner initiative aimed at helping global enterprise system integrators, consultants, and builders scale and deploy large-scale AI automation safely.",
+      "title": "OpenAI Launches Partner Network with $150M Investment to Accelerate Enterprise AI",
+      "summary": "OpenAI has introduced a new Partner Network, backed by a $150 million investment, designed to empower global partners in accelerating enterprise AI adoption, deployment, and digital transformation.",
       "link": "https://openai.com/index/introducing-openai-partner-network",
       "source": "OpenAI News"
     },
     {
-      "title": "AMIE: Conversational Medical AI Matches PCPs in Nature Study",
-      "summary": "Google's conversational healthcare AI system demonstrates primary-care level accuracy and management in a newly published Nature study on complex disease management.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "source": "Google AI Blog"
+      "title": "OpenAI Enhances ChatGPT Enterprise with New Usage Analytics and Spend Controls",
+      "summary": "OpenAI has released new usage analytics and updated spend controls for ChatGPT Enterprise, providing organizations with better tools to manage costs, monitor AI usage, and scale their AI solutions with confidence.",
+      "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "New OpenAI Academy Courses for the Next Era of Work",
-      "summary": "Practical, workflow-driven learning pathways designed to teach builders how to configure repeatable agentic structures and deploy them to production.",
+      "title": "New OpenAI Academy Courses for Building Practical AI Skills and Agents",
+      "summary": "OpenAI has launched three new Academy courses aimed at helping individuals acquire practical AI skills, establish repeatable workflows, and effectively apply AI agents in their daily professional tasks.",
       "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
       "source": "OpenAI News"
     },
     {
-      "title": "Profiling in PyTorch: From nn.Linear to a Fused MLP",
-      "summary": "A deep-dive technical guide that teaches developers how to profile neural networks, analyze memory overhead, and write custom fused MLP kernels for maximum hardware performance.",
-      "link": "https://huggingface.co/blog/torch-mlp-fusion",
-      "source": "Hugging Face Blog"
+      "title": "Tutorial: Build a Forecasting Pipeline with TimeCopilot and Foundation Models",
+      "summary": "This guide demonstrates how to construct an end-to-end forecasting workflow using TimeCopilot, leveraging foundation models and automated anomaly detection to generate probabilistic forecasts and visualize future trends.",
+      "link": "https://www.marktechpost.com/2026/06/20/how-to-build-a-forecasting-pipeline-with-timecopilot-using-foundation-models-and-automated-anomaly-detection/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-      "summary": "A hands-on guide showing developers how to build autonomous agent loops that orchestrate and chain multiple isolated Hugging Face Spaces to generate complex assets.",
-      "link": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "source": "Hugging Face Blog"
+      "title": "Salesforce CodeGen Tutorial: Generate, Validate, and Rerank Python Functions",
+      "summary": "A comprehensive tutorial on implementing an end-to-end workflow for Salesforce CodeGen, covering function extraction, syntax/safety checks, unit-test validation, multi-turn program synthesis, and reranking best-of-N candidates.",
+      "link": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks/",
+      "source": "MarkTechPost"
     }
   ]
 }
