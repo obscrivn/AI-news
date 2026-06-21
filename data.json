@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-06-20T09:23:59Z",
+  "lastUpdated": "2026-06-21T07:00:00Z",
   "highlights": [
-    "Significant advancements in agentic AI systems are focusing on self-correction, memory, and robust runtime governance, promising more autonomous and reliable AI applications for builders.",
-    "New model releases and foundational research are driving efficiency, specialized capabilities like multilingual search and medical AI, and exploring unified neural network architectures to push performance boundaries.",
-    "Major AI companies are intensifying enterprise AI adoption through new tools, strategic partnerships, comprehensive safety benchmarks, and expanded learning opportunities to empower the workforce."
+    "AI agents are evolving with self-improving memory systems and enhanced customization, enabling more robust and specialized automation.",
+    "New models are emerging with strong reasoning capabilities and efficient multilingual search, making advanced AI more accessible for diverse applications and edge deployment.",
+    "Major AI companies are intensifying their enterprise focus through strategic partnerships, acquisitions, and improved management tools, alongside open-sourcing critical development tools for prompt optimization and performance."
   ],
   "agents": [
     {
       "title": "Perplexity Launches Brain: A Self-Improving Memory System for Agents",
-      "summary": "Perplexity's new 'Brain' system provides a self-improving memory for its Computer agent, building a context graph of work and learning overnight to significantly enhance correctness, recall, and cost efficiency.",
-      "link": "https://www.marktechpost.com/2026/06/18/perplexity-launches-brain/",
+      "summary": "Perplexity has launched Brain, a self-improving memory system for its Computer agent that builds a traceable context graph, learns overnight, and improves correctness, recall, and cost, offering a significant leap in agent autonomy.",
+      "link": "https://www.marktechpost.com/2026/06/18/perplexity-lunches-brain/",
       "source": "MarkTechPost"
     },
     {
-      "title": "NVIDIA AI Introduce SpatialClaw: Training-Free Agent for Spatial Reasoning",
-      "summary": "SpatialClaw is a novel training-free agent that leverages code as its action interface for 3D spatial reasoning, writing Python in a persistent kernel to compose perception tools without explicit training.",
+      "title": "Nous Research Updates Hermes Agent with Blank Slate Mode for Toolset Pinning",
+      "summary": "Nous Research has updated its open-source Hermes Agent with a Blank Slate mode, allowing developers to start with minimal tools and precisely opt-in to specific functionalities, enhancing control and security for agent operations.",
+      "link": "https://www.marktechpost.com/2026/06/20/nous-research-updates-hermes-agent-with-a-blank-slate-mode-that-pins-toolsets-via-platform_toolsets-cli-and-disabled_toolsets/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "NVIDIA AI Introduces SpatialClaw: Training-Free Agent for Spatial Reasoning via Code",
+      "summary": "NVIDIA AI unveiled SpatialClaw, a training-free agent that leverages Python code in a persistent kernel to compose perception tools, enabling advanced 3D spatial reasoning for complex tasks.",
       "link": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning/",
       "source": "MarkTechPost"
-    },
-    {
-      "title": "Deontic Policies for Runtime Governance of Agentic AI Systems (AgenticRei)",
-      "summary": "This research introduces AgenticRei, a deontic policy framework for runtime governance of LLM-driven agents, addressing complex security, privacy, and compliance challenges by managing obligations, dispensations, and policy conflicts.",
-      "link": "https://arxiv.org/abs/2606.19464",
-      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "OpenAI Releases LifeSciBench: 750-Task Benchmark for Life-Science AI",
-      "summary": "OpenAI's LifeSciBench is an expert-authored, 750-task benchmark designed to rigorously evaluate AI models on real-world life-science research, grading reasoning and decision-making capabilities beyond simple recall across seven biological domains.",
-      "link": "https://www.marktechpost.com/2026/06/17/openai-releases-lifescibench-a-750-task-benchmark-grading-ai-models-on-real-life-science-research-with-expert-written-rubric/",
+      "title": "OpenAI Improves Health Intelligence in ChatGPT with GPT-5.5 Instant",
+      "summary": "OpenAI's GPT-5.5 Instant model now significantly improves ChatGPT’s health and wellness responses through stronger reasoning, better context understanding, and clearer communication, informed by physician evaluations.",
+      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Liquid AI Releases LFM2.5 Models for Fast Multilingual Search",
+      "summary": "Liquid AI has introduced LFM2.5-Embedding-350M and LFM2.5-ColBERT-350M, dense bi-encoder and late-interaction models designed for fast, accurate multilingual search across 11 languages, optimized for edge devices.",
+      "link": "https://www.marktechpost.com/2026/06/19/liquid-ai-introduces-lfm2-5-embedding-350m-and-lfm2-5-colbert-350m-dense-bi-encoder-and-late-interaction-models-for-fast-multilingual-search-across-11-languages/",
       "source": "MarkTechPost"
     },
     {
-      "title": "ITNet: A Learnable Integral Transform Unifying Neural Network Architectures",
-      "summary": "The Integral Transform Network (ITNet) introduces a unified architecture with a learnable integral kernel that can recover the behaviors of convolution, self-attention, and autoregressive recurrence, matching specialized baselines across various modalities.",
-      "link": "https://arxiv.org/abs/2606.19538",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Liquid AI Introduces LFM2.5-Embedding-350M and LFM2.5-ColBERT-350M for Multilingual Search",
-      "summary": "Liquid AI has released LFM2.5 Retrievers, combining a dense bi-encoder and ColBERT late-interaction model, optimized for fast and efficient multilingual search across 11 languages, particularly on edge devices.",
-      "link": "https://www.marktechpost.com/2026/06/19/liquid-ai-introduces-lfm2-5-embedding-350m-and-lfm2-5-colbert-350m-dense-bi-encoder-and-late-interaction-models-for-fast-multilingual-search-across-11-languages/",
+      "title": "VibeThinker-3B: A New 3B Dense Reasoning Model Matches Top Performers",
+      "summary": "VibeThinker-3B, a 3B MIT-licensed dense reasoning model built on Qwen2.5-Coder-3B, has been released, demonstrating performance comparable to DeepSeek V3.2 and Kimi K2.5 on verifiable benchmarks.",
+      "link": "https://www.marktechpost.com/2026/06/19/vibethinker-3b-a-3b-dense-reasoning-model-built-on-qwen2-5-coder-3b-with-the-spectrum-to-signal-post-training-pipeline/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Yandex Open-Sources YaFF: Zero-Copy Wire Format for Protobuf",
-      "summary": "Yandex has open-sourced YaFF, a zero-copy wire format for the Protobuf ecosystem, enabling near-struct read speeds and reporting 10–20% CPU savings at production scale for high-performance applications.",
+      "title": "Cisco AI Open-Sources FAPO: Pipeline-Aware Prompt Optimization System",
+      "summary": "Cisco Foundation AI has open-sourced FAPO (Fully Automated Prompt Optimization), a Claude Code-driven system that autonomously optimizes multi-step LLM pipelines by attributing failures and proposing variants, significantly improving accuracy.",
+      "link": "https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Yandex Open-Sources YaFF: Zero-Copy Wire Format for Protobuf with Near-Struct Speed",
+      "summary": "Yandex has open-sourced YaFF, a zero-copy wire format for the Protobuf ecosystem, offering near-struct read speeds and CPU savings (10-20% in production), optimizing data handling while maintaining the .proto file as the single source of truth.",
       "link": "https://www.marktechpost.com/2026/06/20/yandex-open-sources-yaff-a-zero-copy-wire-format-for-protobuf-with-near-struct-read-speed/",
       "source": "MarkTechPost"
     },
     {
-      "title": "The Open Source Community is Backing OpenEnv for Agentic RL",
-      "summary": "OpenEnv is gaining significant open-source community support as a framework dedicated to developing and deploying agentic Reinforcement Learning systems, facilitating advanced RL research and applications.",
-      "link": "https://huggingface.co/blog/openenv-agentic-rl",
-      "source": "Hugging Face Blog"
-    },
-    {
-      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Enterprise AI",
-      "summary": "NVIDIA's Nemotron 3.5 Content Safety offers customizable multimodal safety features, providing critical capabilities for global enterprises to ensure secure and compliant deployment of AI applications.",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-      "source": "Hugging Face Blog"
+      "title": "OpenAI Introduces LifeSciBench: A Benchmark for Life Science AI Evaluation",
+      "summary": "OpenAI has launched LifeSciBench, an expert-authored and reviewed benchmark designed to evaluate AI systems on real-world life science research tasks and decision-making, providing a critical tool for advancing AI in scientific discovery.",
+      "link": "https://openai.com/index/introducing-life-sci-bench",
+      "source": "OpenAI News"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI to Acquire Ona for Codex Expansion and Agentic Workflows",
-      "summary": "OpenAI plans to acquire Ona to expand its Codex capabilities, aiming to provide secure, persistent cloud environments that enable the development and deployment of long-running AI agents across diverse enterprise workflows.",
-      "link": "https://openai.com/index/openai-to-acquire-ona",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "OpenAI Launches Partner Network with $150M Investment to Accelerate Enterprise AI",
-      "summary": "OpenAI has introduced a new Partner Network, backed by a $150 million investment, designed to empower global partners in accelerating enterprise AI adoption, deployment, and digital transformation.",
+      "title": "OpenAI Launches Partner Network with $150M Investment",
+      "summary": "OpenAI has launched its Partner Network, committing $150 million to help global partners accelerate enterprise AI adoption, deployment, and transformation, fostering broader integration of AI solutions.",
       "link": "https://openai.com/index/introducing-openai-partner-network",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Enhances ChatGPT Enterprise with New Usage Analytics and Spend Controls",
-      "summary": "OpenAI has released new usage analytics and updated spend controls for ChatGPT Enterprise, providing organizations with better tools to manage costs, monitor AI usage, and scale their AI solutions with confidence.",
+      "title": "OpenAI to Acquire Ona for Enhanced Codex and AI Agents",
+      "summary": "OpenAI plans to acquire Ona to expand Codex capabilities with secure, persistent cloud environments, enabling the development and deployment of long-running AI agents across diverse enterprise workflows.",
+      "link": "https://openai.com/index/openai-to-acquire-ona",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "OpenAI Enhances ChatGPT Enterprise with Usage Analytics and Spend Controls",
+      "summary": "OpenAI has introduced new usage analytics and updated spend controls for ChatGPT Enterprise, providing organizations with better tools to manage costs and confidently scale their AI deployments.",
       "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "New OpenAI Academy Courses for Building Practical AI Skills and Agents",
-      "summary": "OpenAI has launched three new Academy courses aimed at helping individuals acquire practical AI skills, establish repeatable workflows, and effectively apply AI agents in their daily professional tasks.",
-      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Tutorial: Build a Forecasting Pipeline with TimeCopilot and Foundation Models",
-      "summary": "This guide demonstrates how to construct an end-to-end forecasting workflow using TimeCopilot, leveraging foundation models and automated anomaly detection to generate probabilistic forecasts and visualize future trends.",
-      "link": "https://www.marktechpost.com/2026/06/20/how-to-build-a-forecasting-pipeline-with-timecopilot-using-foundation-models-and-automated-anomaly-detection/",
+      "title": "Tutorial: Build a Web Crawling Pipeline with Crawlee for Python and RAG Export",
+      "summary": "A new tutorial demonstrates building a complete Crawlee for Python workflow, covering web crawling with various tools, data normalization, link graph generation, and exporting RAG-ready JSONL chunks.",
+      "link": "https://www.marktechpost.com/2026/06/20/crawlee-for-python-build-a-web-crawling-pipeline-with-robots-handling-link-graphs-and-rag-chunk-export/",
       "source": "MarkTechPost"
     },
     {
       "title": "Salesforce CodeGen Tutorial: Generate, Validate, and Rerank Python Functions",
-      "summary": "A comprehensive tutorial on implementing an end-to-end workflow for Salesforce CodeGen, covering function extraction, syntax/safety checks, unit-test validation, multi-turn program synthesis, and reranking best-of-N candidates.",
+      "summary": "This tutorial provides an end-to-end workflow for Salesforce CodeGen, detailing how to generate, validate with unit tests and safety checks, and rerank Python functions for robust program synthesis.",
       "link": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks/",
       "source": "MarkTechPost"
+    },
+    {
+      "title": "OpenAI Academy Launches New Courses for Practical AI Skills",
+      "summary": "OpenAI has introduced three new Academy courses designed to help individuals build practical AI skills, create repeatable workflows, and apply AI agents effectively in their daily work environments.",
+      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "source": "OpenAI News"
     }
   ]
 }
