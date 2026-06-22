@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-06-21T07:00:00Z",
+  "lastUpdated": "2026-06-22T17:45:09.326Z",
   "highlights": [
-    "AI agents are evolving with self-improving memory systems and enhanced customization, enabling more robust and specialized automation.",
-    "New models are emerging with strong reasoning capabilities and efficient multilingual search, making advanced AI more accessible for diverse applications and edge deployment.",
-    "Major AI companies are intensifying their enterprise focus through strategic partnerships, acquisitions, and improved management tools, alongside open-sourcing critical development tools for prompt optimization and performance."
+    "MoonMath AI Open-Sources a HIP Attention Kernel for AMD MI300X That Beats AITER v3 on Every Shape and Rounding Mode",
+    "How to Design Python-First Interactive Dashboards with Prefab Reactive UI Components and Static HTML Export",
+    "The 7 Types of Agent Memory: A Technical Guide for AI Engineers"
   ],
   "agents": [
     {
-      "title": "Perplexity Launches Brain: A Self-Improving Memory System for Agents",
-      "summary": "Perplexity has launched Brain, a self-improving memory system for its Computer agent that builds a traceable context graph, learns overnight, and improves correctness, recall, and cost, offering a significant leap in agent autonomy.",
-      "link": "https://www.marktechpost.com/2026/06/18/perplexity-lunches-brain/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Nous Research Updates Hermes Agent with Blank Slate Mode for Toolset Pinning",
-      "summary": "Nous Research has updated its open-source Hermes Agent with a Blank Slate mode, allowing developers to start with minimal tools and precisely opt-in to specific functionalities, enhancing control and security for agent operations.",
+      "title": "Nous Research Updates Hermes Agent With a Blank Slate Mode That Pins Toolsets via platform_toolsets.cli and disabled_toolsets",
+      "summary": "Nous Research has added a Blank Slate setup mode to its open-source Hermes Agent. It starts an agent with everything off except provider, model, File ...",
       "link": "https://www.marktechpost.com/2026/06/20/nous-research-updates-hermes-agent-with-a-blank-slate-mode-that-pins-toolsets-via-platform_toolsets-cli-and-disabled_toolsets/",
       "source": "MarkTechPost"
     },
     {
-      "title": "NVIDIA AI Introduces SpatialClaw: Training-Free Agent for Spatial Reasoning via Code",
-      "summary": "NVIDIA AI unveiled SpatialClaw, a training-free agent that leverages Python code in a persistent kernel to compose perception tools, enabling advanced 3D spatial reasoning for complex tasks.",
-      "link": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning/",
+      "title": "How to Build a Forecasting Pipeline with TimeCopilot Using Foundation Models and Automated Anomaly Detection",
+      "summary": "We build an end-to-end forecasting workflow with TimeCopilot on a panel of real airline passenger data and a synthetic seasonal series with injected a...",
+      "link": "https://www.marktechpost.com/2026/06/20/how-to-build-a-forecasting-pipeline-with-timecopilot-using-foundation-models-and-automated-anomaly-detection/",
       "source": "MarkTechPost"
+    },
+    {
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry researc...",
+      "link": "https://openai.com/index/ai-chemist-improves-reaction",
+      "source": "OpenAI News"
     }
   ],
   "models": [
     {
-      "title": "OpenAI Improves Health Intelligence in ChatGPT with GPT-5.5 Instant",
-      "summary": "OpenAI's GPT-5.5 Instant model now significantly improves ChatGPT’s health and wellness responses through stronger reasoning, better context understanding, and clearer communication, informed by physician evaluations.",
-      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Liquid AI Releases LFM2.5 Models for Fast Multilingual Search",
-      "summary": "Liquid AI has introduced LFM2.5-Embedding-350M and LFM2.5-ColBERT-350M, dense bi-encoder and late-interaction models designed for fast, accurate multilingual search across 11 languages, optimized for edge devices.",
-      "link": "https://www.marktechpost.com/2026/06/19/liquid-ai-introduces-lfm2-5-embedding-350m-and-lfm2-5-colbert-350m-dense-bi-encoder-and-late-interaction-models-for-fast-multilingual-search-across-11-languages/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "VibeThinker-3B: A New 3B Dense Reasoning Model Matches Top Performers",
-      "summary": "VibeThinker-3B, a 3B MIT-licensed dense reasoning model built on Qwen2.5-Coder-3B, has been released, demonstrating performance comparable to DeepSeek V3.2 and Kimi K2.5 on verifiable benchmarks.",
-      "link": "https://www.marktechpost.com/2026/06/19/vibethinker-3b-a-3b-dense-reasoning-model-built-on-qwen2-5-coder-3b-with-the-spectrum-to-signal-post-training-pipeline/",
-      "source": "MarkTechPost"
-    }
-  ],
-  "tools": [
-    {
-      "title": "Cisco AI Open-Sources FAPO: Pipeline-Aware Prompt Optimization System",
-      "summary": "Cisco Foundation AI has open-sourced FAPO (Fully Automated Prompt Optimization), a Claude Code-driven system that autonomously optimizes multi-step LLM pipelines by attributing failures and proposing variants, significantly improving accuracy.",
+      "title": "Cisco AI Introduces FAPO: Pipeline-Aware Prompt Optimization With Step-Level Failure Attribution and Claude Code Orchestration",
+      "summary": "Cisco Foundation AI has open-sourced FAPO (Fully Automated Prompt Optimization), a Claude Code-driven system that autonomously optimizes multi-step LL...",
       "link": "https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Yandex Open-Sources YaFF: Zero-Copy Wire Format for Protobuf with Near-Struct Speed",
-      "summary": "Yandex has open-sourced YaFF, a zero-copy wire format for the Protobuf ecosystem, offering near-struct read speeds and CPU savings (10-20% in production), optimizing data handling while maintaining the .proto file as the single source of truth.",
-      "link": "https://www.marktechpost.com/2026/06/20/yandex-open-sources-yaff-a-zero-copy-wire-format-for-protobuf-with-near-struct-read-speed/",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at s...",
+      "link": "https://openai.com/index/daybreak-securing-the-world",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+      "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "source": "OpenAI News"
+    }
+  ],
+  "tools": [
+    {
+      "title": "MoonMath AI Open-Sources a HIP Attention Kernel for AMD MI300X That Beats AITER v3 on Every Shape and Rounding Mode",
+      "summary": "The HIP kernel uses one-instruction asm wrappers and an eight-wave pipeline to outperform AMD's AITER v3 on MI300X.\nThe post MoonMath AI Open-Sources ...",
+      "link": "https://www.marktechpost.com/2026/06/22/moonmath-ai-open-sources-a-hip-attention-kernel-for-amd-mi300x-that-beats-aiter-v3-on-every-shape-and-rounding-mode/",
       "source": "MarkTechPost"
     },
     {
-      "title": "OpenAI Introduces LifeSciBench: A Benchmark for Life Science AI Evaluation",
-      "summary": "OpenAI has launched LifeSciBench, an expert-authored and reviewed benchmark designed to evaluate AI systems on real-world life science research tasks and decision-making, providing a critical tool for advancing AI in scientific discovery.",
-      "link": "https://openai.com/index/introducing-life-sci-bench",
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated co...",
+      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
       "source": "OpenAI News"
+    },
+    {
+      "title": "5 ways Google Search can level up your thrift and vintage shopping",
+      "summary": "Uncover second-hand scores with AI tools in Google Search and Shopping.",
+      "link": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+      "source": "Google AI Blog"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Launches Partner Network with $150M Investment",
-      "summary": "OpenAI has launched its Partner Network, committing $150 million to help global partners accelerate enterprise AI adoption, deployment, and transformation, fostering broader integration of AI solutions.",
-      "link": "https://openai.com/index/introducing-openai-partner-network",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert r...",
+      "link": "https://openai.com/index/patch-the-planet",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI to Acquire Ona for Enhanced Codex and AI Agents",
-      "summary": "OpenAI plans to acquire Ona to expand Codex capabilities with secure, persistent cloud environments, enabling the development and deployment of long-running AI agents across diverse enterprise workflows.",
-      "link": "https://openai.com/index/openai-to-acquire-ona",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Enhances ChatGPT Enterprise with Usage Analytics and Spend Controls",
-      "summary": "OpenAI has introduced new usage analytics and updated spend controls for ChatGPT Enterprise, providing organizations with better tools to manage costs and confidently scale their AI deployments.",
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
       "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Tutorial: Build a Web Crawling Pipeline with Crawlee for Python and RAG Export",
-      "summary": "A new tutorial demonstrates building a complete Crawlee for Python workflow, covering web crawling with various tools, data normalization, link graph generation, and exporting RAG-ready JSONL chunks.",
+      "title": "How to Design Python-First Interactive Dashboards with Prefab Reactive UI Components and Static HTML Export",
+      "summary": "In this tutorial, we build a Prefab application that creates interactive dashboards entirely in Python. We design an operations dashboard with reactiv...",
+      "link": "https://www.marktechpost.com/2026/06/21/how-to-design-python-first-interactive-dashboards-with-prefab-reactive-ui-components-and-static-html-export/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "The 7 Types of Agent Memory: A Technical Guide for AI Engineers",
+      "summary": "LLMs are stateless by default. Agent memory fixes that. This guide breaks down all 7 types — working, semantic, episodic, procedural, retrieval, param...",
+      "link": "https://www.marktechpost.com/2026/06/21/the-7-types-of-agent-memory-a-technical-guide-for-ai-engineers/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Crawlee for Python: Build a Web Crawling Pipeline with Robots Handling, Link Graphs, and RAG Chunk Export",
+      "summary": "In this tutorial, we build a complete Crawlee for Python workflow from setup to AI-ready output. We generate a local demo website, then crawl it with ...",
       "link": "https://www.marktechpost.com/2026/06/20/crawlee-for-python-build-a-web-crawling-pipeline-with-robots-handling-link-graphs-and-rag-chunk-export/",
       "source": "MarkTechPost"
-    },
-    {
-      "title": "Salesforce CodeGen Tutorial: Generate, Validate, and Rerank Python Functions",
-      "summary": "This tutorial provides an end-to-end workflow for Salesforce CodeGen, detailing how to generate, validate with unit tests and safety checks, and rerank Python functions for robust program synthesis.",
-      "link": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "OpenAI Academy Launches New Courses for Practical AI Skills",
-      "summary": "OpenAI has introduced three new Academy courses designed to help individuals build practical AI skills, create repeatable workflows, and apply AI agents effectively in their daily work environments.",
-      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "source": "OpenAI News"
     }
   ]
 }
