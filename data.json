@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-06-22T17:45:09.326Z",
+  "lastUpdated": "2026-06-23T07:20:44Z",
   "highlights": [
-    "MoonMath AI Open-Sources a HIP Attention Kernel for AMD MI300X That Beats AITER v3 on Every Shape and Rounding Mode",
-    "How to Design Python-First Interactive Dashboards with Prefab Reactive UI Components and Static HTML Export",
-    "The 7 Types of Agent Memory: A Technical Guide for AI Engineers"
+    "The AI agent landscape is rapidly evolving with xAI, SkillHarness, and PEAR introducing advancements in autonomous execution, safety, and dynamic multi-agent coordination for enhanced reliability.",
+    "Significant model innovations include Sakana AI's Fugu for intelligent LLM orchestration and Google's AMIE achieving human-level performance in complex medical diagnosis.",
+    "OpenAI is aggressively expanding its enterprise footprint through new security tool suites, strategic acquisitions like Ona, and major enterprise deployments, while also bolstering practical AI skill development."
   ],
   "agents": [
     {
-      "title": "Nous Research Updates Hermes Agent With a Blank Slate Mode That Pins Toolsets via platform_toolsets.cli and disabled_toolsets",
-      "summary": "Nous Research has added a Blank Slate setup mode to its open-source Hermes Agent. It starts an agent with everything off except provider, model, File ...",
-      "link": "https://www.marktechpost.com/2026/06/20/nous-research-updates-hermes-agent-with-a-blank-slate-mode-that-pins-toolsets-via-platform_toolsets-cli-and-disabled_toolsets/",
+      "title": "xAI Launches /goal in Grok Build for Autonomous Coding Tasks",
+      "summary": "xAI introduced '/goal' in Grok Build, enabling agents to perform long-running, autonomous multi-step coding tasks with built-in verification, enhancing agent reliability and goal completion.",
+      "link": "https://www.marktechpost.com/2026/06/22/xai-launches-goal-in-grok-build-adding-long-running-autonomous-execution-with-built-in-verification-for-multi-step-coding-tasks/",
       "source": "MarkTechPost"
     },
     {
-      "title": "How to Build a Forecasting Pipeline with TimeCopilot Using Foundation Models and Automated Anomaly Detection",
-      "summary": "We build an end-to-end forecasting workflow with TimeCopilot on a panel of real airline passenger data and a synthetic seasonal series with injected a...",
-      "link": "https://www.marktechpost.com/2026/06/20/how-to-build-a-forecasting-pipeline-with-timecopilot-using-foundation-models-and-automated-anomaly-detection/",
-      "source": "MarkTechPost"
+      "title": "SkillHarness: Harnessing Safe Skills for Computer-Use Agents",
+      "summary": "SkillHarness is a new framework for learning and utilizing safe skills in Computer-Use Agents (CUAs), critically reducing unsafe operations and improving execution stability in dynamic environments.",
+      "link": "https://arxiv.org/abs/2606.20636",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry researc...",
-      "link": "https://openai.com/index/ai-chemist-improves-reaction",
-      "source": "OpenAI News"
+      "title": "PEAR: Permutation-Equivariant Adaptive Routing Multi-Agent Debate",
+      "summary": "PEAR introduces a permutation-equivariant adaptive routing protocol for multi-agent debate, significantly improving LLM reliability and reducing positional biases by dynamically reconfiguring communication roles across rounds.",
+      "link": "https://arxiv.org/abs/2606.20621",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "Cisco AI Introduces FAPO: Pipeline-Aware Prompt Optimization With Step-Level Failure Attribution and Claude Code Orchestration",
-      "summary": "Cisco Foundation AI has open-sourced FAPO (Fully Automated Prompt Optimization), a Claude Code-driven system that autonomously optimizes multi-step LL...",
-      "link": "https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration/",
+      "title": "Sakana AI Launches Sakana Fugu: Orchestration Model for Frontier LLMs",
+      "summary": "Sakana AI introduced Fugu, an orchestration model designed to intelligently route tasks across a swappable pool of frontier LLMs, leading to superior performance in coding, reasoning, and agentic benchmarks.",
+      "link": "https://www.marktechpost.com/2026/06/22/sakana-ai-launches-sakana-fugu-an-orchestration-model-that-routes-tasks-across-a-swappable-pool-of-frontier-llms/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at s...",
-      "link": "https://openai.com/index/daybreak-securing-the-world",
-      "source": "OpenAI News"
+      "title": "Google's AMIE Medical AI Matches Physicians in Disease Management",
+      "summary": "New research highlights Google's conversational medical AI, AMIE, demonstrating its capability to match primary care physicians in managing complex health conditions, signaling a significant advancement in healthcare AI.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
-      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-      "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "source": "OpenAI News"
+      "title": "GLM-5.2: Built for Long-Horizon Tasks",
+      "summary": "GLM-5.2 is announced as a new large language model specifically engineered for long-horizon tasks, providing enhanced capabilities for complex, multi-step operations that require sustained context.",
+      "link": "https://huggingface.co/blog/zai-org/glm-52-blog",
+      "source": "Hugging Face Blog"
     }
   ],
   "tools": [
     {
-      "title": "MoonMath AI Open-Sources a HIP Attention Kernel for AMD MI300X That Beats AITER v3 on Every Shape and Rounding Mode",
-      "summary": "The HIP kernel uses one-instruction asm wrappers and an eight-wave pipeline to outperform AMD's AITER v3 on MI300X.\nThe post MoonMath AI Open-Sources ...",
-      "link": "https://www.marktechpost.com/2026/06/22/moonmath-ai-open-sources-a-hip-attention-kernel-for-amd-mi300x-that-beats-aiter-v3-on-every-shape-and-rounding-mode/",
+      "title": "Prime Intellect Releases prime-rl 0.6.0 for Trillion-Parameter MoE Models",
+      "summary": "Prime Intellect launched prime-rl 0.6.0, an open framework for asynchronous reinforcement learning, optimized for training trillion-parameter Mixture-of-Experts (MoE) models on agentic RL workloads with high efficiency.",
+      "link": "https://www.marktechpost.com/2026/06/23/prime-intellect-releases-prime-rl-0-6-0-to-train-trillion-parameter-moe-models-on-agentic-rl-workloads/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
-      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated co...",
-      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-      "source": "OpenAI News"
+      "title": "Cisco AI Introduces FAPO: Pipeline-Aware Prompt Optimization",
+      "summary": "Cisco Foundation AI open-sourced FAPO (Fully Automated Prompt Optimization), a Claude Code-driven system for autonomously optimizing multi-step LLM pipelines from baseline prompts to target accuracy.",
+      "link": "https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "5 ways Google Search can level up your thrift and vintage shopping",
-      "summary": "Uncover second-hand scores with AI tools in Google Search and Shopping.",
-      "link": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
-      "source": "Google AI Blog"
+      "title": "MoonMath AI Open-Sources HIP Attention Kernel for AMD MI300X",
+      "summary": "MoonMath AI has open-sourced a HIP attention kernel for AMD MI300X, which significantly outperforms AMD's AITER v3 across various shapes and rounding modes, offering crucial performance gains for developers on AMD hardware.",
+      "link": "https://www.marktechpost.com/2026/06/22/moonmath-ai-open-sources-a-hip-attention-kernel-for-amd-mi300x-that-beats-aiter-v3-on-every-shape-and-rounding-mode/",
+      "source": "MarkTechPost"
     }
   ],
   "companies": [
     {
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert r...",
-      "link": "https://openai.com/index/patch-the-planet",
+      "title": "OpenAI Launches Daybreak: AI-Powered Security Tools",
+      "summary": "OpenAI introduced Daybreak, a suite of new security tools including Codex Security and GPT-5.5-Cyber, designed to help organizations find, validate, and patch vulnerabilities at scale, enhancing global cybersecurity.",
+      "link": "https://openai.com/index/daybreak-securing-the-world",
       "source": "OpenAI News"
     },
     {
-      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "title": "OpenAI to Acquire Ona to Expand Codex and Agent Capabilities",
+      "summary": "OpenAI announced its plan to acquire Ona, a move intended to expand Codex capabilities with secure, persistent cloud environments, thereby enabling the deployment of long-running AI agents across complex enterprise workflows.",
+      "link": "https://openai.com/index/openai-to-acquire-ona",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Samsung Electronics Adopts ChatGPT and Codex for Employees",
+      "summary": "Samsung Electronics has deployed ChatGPT Enterprise and Codex to its global workforce, marking one of OpenAI's largest enterprise AI rollouts and a significant validation of AI integration in corporate environments.",
       "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "New usage analytics and updated spend controls for enterprises",
-      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
-      "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "How to Design Python-First Interactive Dashboards with Prefab Reactive UI Components and Static HTML Export",
-      "summary": "In this tutorial, we build a Prefab application that creates interactive dashboards entirely in Python. We design an operations dashboard with reactiv...",
-      "link": "https://www.marktechpost.com/2026/06/21/how-to-design-python-first-interactive-dashboards-with-prefab-reactive-ui-components-and-static-html-export/",
-      "source": "MarkTechPost"
+      "title": "New OpenAI Academy Courses for Practical AI Skills",
+      "summary": "OpenAI introduced three new Academy courses designed to equip individuals with practical AI skills, foster repeatable workflows, and facilitate the effective application of AI agents in everyday work scenarios.",
+      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "source": "OpenAI News"
     },
     {
       "title": "The 7 Types of Agent Memory: A Technical Guide for AI Engineers",
-      "summary": "LLMs are stateless by default. Agent memory fixes that. This guide breaks down all 7 types — working, semantic, episodic, procedural, retrieval, param...",
+      "summary": "This technical guide for AI engineers comprehensively breaks down the 7 types of agent memory, detailing what each stores, where it lives, and when to implement it, which is essential for building robust and intelligent AI agents.",
       "link": "https://www.marktechpost.com/2026/06/21/the-7-types-of-agent-memory-a-technical-guide-for-ai-engineers/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Crawlee for Python: Build a Web Crawling Pipeline with Robots Handling, Link Graphs, and RAG Chunk Export",
-      "summary": "In this tutorial, we build a complete Crawlee for Python workflow from setup to AI-ready output. We generate a local demo website, then crawl it with ...",
-      "link": "https://www.marktechpost.com/2026/06/20/crawlee-for-python-build-a-web-crawling-pipeline-with-robots-handling-link-graphs-and-rag-chunk-export/",
-      "source": "MarkTechPost"
+      "title": "Build Real Agentic Apps Using CUGA: Two Dozen Working Examples",
+      "summary": "Hugging Face and IBM Research offer a practical guide, 'CUGA: two dozen working examples on a lightweight harness,' for building real agentic applications, accelerating developer adoption with ready-to-use code.",
+      "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "source": "Hugging Face Blog"
     }
   ]
 }
