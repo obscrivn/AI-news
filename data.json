@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2026-06-23T07:20:44Z",
+  "lastUpdated": "2026-06-24T12:00:00Z",
   "highlights": [
-    "The AI agent landscape is rapidly evolving with xAI, SkillHarness, and PEAR introducing advancements in autonomous execution, safety, and dynamic multi-agent coordination for enhanced reliability.",
-    "Significant model innovations include Sakana AI's Fugu for intelligent LLM orchestration and Google's AMIE achieving human-level performance in complex medical diagnosis.",
-    "OpenAI is aggressively expanding its enterprise footprint through new security tool suites, strategic acquisitions like Ona, and major enterprise deployments, while also bolstering practical AI skill development."
+    "Production-grade agent security and validation are taking center stage, highlighted by the introduction of automated dynamic red-teaming (RIFT-Bench) and compilable reasoning trace verifiers (VeryTrace).",
+    "Hardware-software co-design reaches a new milestone with OpenAI and Broadcom co-developing 'Jalapeño', a custom silicon chip designed to drastically optimize scaling and energy efficiency for LLM inference.",
+    "The open-source ecosystem is shifting from raw fine-tuning to advanced reasoning distillation (SGPO) and structured, edge-optimized paradigms like shared cross-origin model storage for browser-based AI."
   ],
   "agents": [
     {
-      "title": "xAI Launches /goal in Grok Build for Autonomous Coding Tasks",
-      "summary": "xAI introduced '/goal' in Grok Build, enabling agents to perform long-running, autonomous multi-step coding tasks with built-in verification, enhancing agent reliability and goal completion.",
-      "link": "https://www.marktechpost.com/2026/06/22/xai-launches-goal-in-grok-build-adding-long-running-autonomous-execution-with-built-in-verification-for-multi-step-coding-tasks/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "SkillHarness: Harnessing Safe Skills for Computer-Use Agents",
-      "summary": "SkillHarness is a new framework for learning and utilizing safe skills in Computer-Use Agents (CUAs), critically reducing unsafe operations and improving execution stability in dynamic environments.",
-      "link": "https://arxiv.org/abs/2606.20636",
+      "title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
+      "summary": "A novel graph-based dynamic red-teaming framework that automatically extracts agent structures and deploys adaptive adversarial probes to systematically evaluate system security.",
+      "link": "https://arxiv.org/abs/2606.23927",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "PEAR: Permutation-Equivariant Adaptive Routing Multi-Agent Debate",
-      "summary": "PEAR introduces a permutation-equivariant adaptive routing protocol for multi-agent debate, significantly improving LLM reliability and reducing positional biases by dynamically reconfiguring communication roles across rounds.",
-      "link": "https://arxiv.org/abs/2606.20621",
+      "title": "ReMMD-Agent: Realistic Multilingual Multi-Image Agentic Verification",
+      "summary": "An agentic verification framework utilizing a persistent-memory architecture to decompose complex, multilingual, and multi-image posts into atomic claims for robust misinformation detection.",
+      "link": "https://dang-ai.github.io/ReMMD",
       "source": "arXiv cs.AI"
+    },
+    {
+      "title": "Agentic Resource Discovery: Let agents search",
+      "summary": "A new architectural design allowing autonomous AI agents to dynamically discover, search, and integrate unknown external APIs and resources to solve complex tasks.",
+      "link": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+      "source": "Hugging Face Blog"
     }
   ],
   "models": [
     {
-      "title": "Sakana AI Launches Sakana Fugu: Orchestration Model for Frontier LLMs",
-      "summary": "Sakana AI introduced Fugu, an orchestration model designed to intelligently route tasks across a swappable pool of frontier LLMs, leading to superior performance in coding, reasoning, and agentic benchmarks.",
-      "link": "https://www.marktechpost.com/2026/06/22/sakana-ai-launches-sakana-fugu-an-orchestration-model-that-routes-tasks-across-a-swappable-pool-of-frontier-llms/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Google's AMIE Medical AI Matches Physicians in Disease Management",
-      "summary": "New research highlights Google's conversational medical AI, AMIE, demonstrating its capability to match primary care physicians in managing complex health conditions, signaling a significant advancement in healthcare AI.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "source": "Google AI Blog"
-    },
-    {
       "title": "GLM-5.2: Built for Long-Horizon Tasks",
-      "summary": "GLM-5.2 is announced as a new large language model specifically engineered for long-horizon tasks, providing enhanced capabilities for complex, multi-step operations that require sustained context.",
+      "summary": "A major update to the GLM model series optimized specifically for high-context coherence and executing multi-step operational agent workflows over extended horizons.",
       "link": "https://huggingface.co/blog/zai-org/glm-52-blog",
       "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Improving Health Intelligence in ChatGPT with GPT-5.5 Instant",
+      "summary": "OpenAI introduces GPT-5.5 Instant, featuring advanced clinical reasoning, sharper context management, and physician-validated safety protocols for medical and wellness workflows.",
+      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Beyond Trajectory Imitation: Strategy-Guided Policy Optimization for LLM Reasoning",
+      "summary": "Introduces SGPO, a reinforcement learning method that distills reusable problem-solving strategies rather than static trajectories, showing major accuracy gains across math benchmarks.",
+      "link": "https://arxiv.org/abs/2606.24064",
+      "source": "arXiv cs.AI"
     }
   ],
   "tools": [
     {
-      "title": "Prime Intellect Releases prime-rl 0.6.0 for Trillion-Parameter MoE Models",
-      "summary": "Prime Intellect launched prime-rl 0.6.0, an open framework for asynchronous reinforcement learning, optimized for training trillion-parameter Mixture-of-Experts (MoE) models on agentic RL workloads with high efficiency.",
-      "link": "https://www.marktechpost.com/2026/06/23/prime-intellect-releases-prime-rl-0-6-0-to-train-trillion-parameter-moe-models-on-agentic-rl-workloads/",
-      "source": "MarkTechPost"
+      "title": "VeryTrace: Verifying Reasoning Traces through Compilable Formalism",
+      "summary": "A zero-shot verification-and-repair framework that formalizes LLM reasoning steps into an executable Domain-Specific Language (DSL) to systematically eliminate reasoning errors.",
+      "link": "https://arxiv.org/abs/2606.24124",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Cisco AI Introduces FAPO: Pipeline-Aware Prompt Optimization",
-      "summary": "Cisco Foundation AI open-sourced FAPO (Fully Automated Prompt Optimization), a Claude Code-driven system for autonomously optimizing multi-step LLM pipelines from baseline prompts to target accuracy.",
-      "link": "https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration/",
-      "source": "MarkTechPost"
+      "title": "Deployment Simulation: Predicting Model Behavior Before Release",
+      "summary": "An OpenAI-developed methodology that simulates deployment environments using real-world interaction data to evaluate and fix safety and compliance issues before models ship.",
+      "link": "https://openai.com/index/deployment-simulation",
+      "source": "OpenAI News"
     },
     {
-      "title": "MoonMath AI Open-Sources HIP Attention Kernel for AMD MI300X",
-      "summary": "MoonMath AI has open-sourced a HIP attention kernel for AMD MI300X, which significantly outperforms AMD's AITER v3 across various shapes and rounding modes, offering crucial performance gains for developers on AMD hardware.",
-      "link": "https://www.marktechpost.com/2026/06/22/moonmath-ai-open-sources-a-hip-attention-kernel-for-amd-mi300x-that-beats-aiter-v3-on-every-shape-and-rounding-mode/",
-      "source": "MarkTechPost"
+      "title": "Cross-Origin Storage API in Transformers.js",
+      "summary": "Enables edge AI applications using Transformers.js to share downloaded model weights across different origins, drastically reducing cold start times and bandwidth usage.",
+      "link": "https://huggingface.co/blog/cross-origin-storage",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Launches Daybreak: AI-Powered Security Tools",
-      "summary": "OpenAI introduced Daybreak, a suite of new security tools including Codex Security and GPT-5.5-Cyber, designed to help organizations find, validate, and patch vulnerabilities at scale, enhancing global cybersecurity.",
-      "link": "https://openai.com/index/daybreak-securing-the-world",
+      "title": "OpenAI and Broadcom Unveil Jalapeño LLM-Optimized Inference Chip",
+      "summary": "OpenAI and Broadcom have co-developed 'Jalapeño', a custom-built ASIC engineered specifically to maximize throughput and energy efficiency during large-scale LLM inference.",
+      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI to Acquire Ona to Expand Codex and Agent Capabilities",
-      "summary": "OpenAI announced its plan to acquire Ona, a move intended to expand Codex capabilities with secure, persistent cloud environments, thereby enabling the deployment of long-running AI agents across complex enterprise workflows.",
-      "link": "https://openai.com/index/openai-to-acquire-ona",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Samsung Electronics Adopts ChatGPT and Codex for Employees",
-      "summary": "Samsung Electronics has deployed ChatGPT Enterprise and Codex to its global workforce, marking one of OpenAI's largest enterprise AI rollouts and a significant validation of AI integration in corporate environments.",
+      "title": "Samsung Electronics Deploys ChatGPT Enterprise and Codex Globally",
+      "summary": "Samsung rolls out ChatGPT Enterprise and Codex to its global workforce, representing one of the largest corporate AI deployments to accelerate software and operational workflows.",
       "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "OpenAI Launches $150M Partner Network for Enterprise Adoption",
+      "summary": "A major enterprise initiative backed by $150 million to establish global partnerships, helping organizations accelerate deployment, integration, and scaling of advanced AI solutions.",
+      "link": "https://openai.com/index/introducing-openai-partner-network",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "New OpenAI Academy Courses for Practical AI Skills",
-      "summary": "OpenAI introduced three new Academy courses designed to equip individuals with practical AI skills, foster repeatable workflows, and facilitate the effective application of AI agents in everyday work scenarios.",
-      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "The 7 Types of Agent Memory: A Technical Guide for AI Engineers",
-      "summary": "This technical guide for AI engineers comprehensively breaks down the 7 types of agent memory, detailing what each stores, where it lives, and when to implement it, which is essential for building robust and intelligent AI agents.",
-      "link": "https://www.marktechpost.com/2026/06/21/the-7-types-of-agent-memory-a-technical-guide-for-ai-engineers/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Build Real Agentic Apps Using CUGA: Two Dozen Working Examples",
-      "summary": "Hugging Face and IBM Research offer a practical guide, 'CUGA: two dozen working examples on a lightweight harness,' for building real agentic applications, accelerating developer adoption with ready-to-use code.",
+      "title": "Build Real Agentic Apps Using CUGA",
+      "summary": "A comprehensive guide featuring two dozen production-ready, hands-on examples built on a lightweight harness to help developers quickly build secure, real-world agentic applications.",
       "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Beyond LoRA: A Deep Dive into Advanced Fine-Tuning Techniques",
+      "summary": "An educational guide exploring parameter-efficient fine-tuning alternatives that go beyond traditional LoRA, outlining when and how to deploy them for optimal model convergence.",
+      "link": "https://huggingface.co/blog/peft-beyond-lora",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Is It Agentic Enough? Benchmarking Open Models on Your Own Tooling",
+      "summary": "A practical walkthrough showing how to build custom evaluation benchmarks to test how effectively open-source models can leverage proprietary API tools and workflows.",
+      "link": "https://huggingface.co/blog/is-it-agentic-enough",
       "source": "Hugging Face Blog"
     }
   ]
