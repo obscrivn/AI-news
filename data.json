@@ -1,108 +1,108 @@
 {
   "lastUpdated": "2026-06-26T12:00:00Z",
   "highlights": [
-    "The AI landscape is seeing a surge in agentic systems, with new foundational guides and architectures enhancing trustworthiness and addressing complex challenges like memory consolidation and multi-agent reliability.",
-    "Hardware innovation continues to drive AI efficiency, highlighted by new LLM-optimized inference chips, while advanced tools for fine-tuning and enterprise security empower developers and organizations.",
-    "Major players like OpenAI are not only pushing model capabilities, exemplified by GPT-5's scientific breakthroughs and medical AI advancements, but also actively shaping ethical AI deployment and global standards."
+    "OpenAI is making significant strides in AI infrastructure with a custom LLM inference chip, while also pushing agentic capabilities, evidenced by GPT-5's scientific problem-solving and expanded enterprise adoption.",
+    "The AI research community is intensively focused on robust evaluation and governance for autonomous agents, introducing new multi-dimensional benchmarks and formalizing critical failure modes like 'instruction bleed'.",
+    "Developers gain new tools and insights for building and optimizing AI, including simplified vLLM deployment, advanced fine-tuning techniques, and specialized environments for agent evaluation in complex domains like quantitative finance."
   ],
   "agents": [
     {
-      "title": "The Hitchhiker's Guide to Agentic AI: From Foundations to Systems",
-      "summary": "A new comprehensive practitioner's guide covers building autonomous AI systems from LLM foundations, alignment, and reasoning layers to agent design patterns, inter-agent coordination, and production deployment, serving as a full-stack reference for developers.",
-      "link": "https://arxiv.org/abs/2606.24937",
+      "title": "How agents are transforming work",
+      "summary": "New OpenAI research indicates that AI agents are enabling longer, more complex tasks and significantly expanding productivity across various roles, pointing towards broad applicability in future workforces.",
+      "link": "https://openai.com/index/how-agents-are-transforming-work",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Governing Actions, Not Agents: Institutional Attestation as a Governance Model for Autonomous AI Systems",
+      "summary": "This paper proposes a governance model for autonomous AI agents that ensures safety and accountability by requiring independently attested evidence for high-risk actions, crucial for responsible deployment in critical fields.",
+      "link": "https://arxiv.org/abs/2606.26298",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory",
-      "summary": "Introduces TrustMem, a framework improving memory consolidation for LLM agents by verifying memory updates and optimizing behaviors, significantly reducing omissions, corruption, and hallucinations in long-term memory.",
-      "link": "https://arxiv.org/abs/2606.25161",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Diagnosing and Mitigating Compounding Failures in Agentic Persuasion via Taxonomic Strategy Retrieval",
-      "summary": "Proposes Taxonomic Strategy RAG (TS-RAG) to prevent compounding errors in agentic persuasion by decoupling argumentative structure from content, leading to improved logical transfer and enabling lightweight agents to outperform stronger opponents.",
-      "link": "https://arxiv.org/abs/2606.24976",
+      "title": "AlgoEvolve: LLM-driven Meta-evolution of Algorithmic Trading Programs",
+      "summary": "AlgoEvolve introduces an LLM-driven evolutionary framework that generates, evaluates, and iteratively improves executable trading strategies, demonstrating the viability of continual program synthesis in dynamic, complex financial environments.",
+      "link": "https://arxiv.org/abs/2606.26173",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
       "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-      "summary": "GPT-5 Pro demonstrated advanced reasoning capabilities by helping an immunologist solve a complex T-cell mystery, showcasing its potential for accelerating scientific discovery in high-impact research areas like cancer and autoimmune diseases.",
+      "summary": "GPT-5 Pro demonstrated advanced reasoning capabilities by helping an immunologist solve a complex, long-standing scientific mystery, highlighting its potential for accelerating research and discovery in challenging domains.",
       "link": "https://openai.com/index/gpt-5-immunology-mystery",
       "source": "OpenAI News"
     },
     {
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "summary": "Google's conversational AI system, AMIE, has demonstrated performance matching primary care physicians in complex disease management, indicating a significant step towards autonomous medical AI applications.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "source": "Google AI Blog"
+      "title": "Refusal Lives Downstream of Persona in Chat Models",
+      "summary": "Research shows that controlling model refusal in chat models is linked to persona steering, offering a crucial insight for developers aiming to build safer and more predictable LLMs by understanding and manipulating their core behaviors.",
+      "link": "https://arxiv.org/abs/2606.26161",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Omni-Perception Policy Optimization for Multimodal Emotion Reasoning",
-      "summary": "Introduces OPPO, a reinforcement learning framework that optimizes multimodal perception in emotion-oriented Omni-MLLMs, improving the utilization of visual/acoustic/emotion cues and reducing cross-modal hallucinations for more faithful reasoning.",
-      "link": "https://arxiv.org/abs/2606.25325",
+      "title": "Detecting and Controlling Sycophancy with Cascading Linear Features",
+      "summary": "This work introduces an iterative data generation pipeline that improves the detection and control of model sycophancy, enabling more reliable steering of LLM behavior with lower computational demand and better interpretability.",
+      "link": "https://arxiv.org/abs/2606.26155",
       "source": "arXiv cs.AI"
     }
   ],
   "tools": [
     {
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "summary": "OpenAI and Broadcom introduced 'Jalapeño,' a custom AI chip specifically designed for LLM inference, promising significant improvements in performance, efficiency, and scalability for AI systems.",
-      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "source": "OpenAI News"
+      "title": "OpenFinGym: A Verifiable Multi-Task Gym Environment for Evaluating Quant Agents",
+      "summary": "OpenFinGym provides a unified, verifiable multi-task environment for quantitative finance agent development, enabling comprehensive evaluation across forecasting, trading, and risk management in real-market scenarios.",
+      "link": "https://arxiv.org/abs/2606.26350",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "summary": "OpenAI launched new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations identify, validate, and patch vulnerabilities at scale, strengthening cybersecurity defenses.",
-      "link": "https://openai.com/index/daybreak-securing-the-world",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-      "summary": "Details how NVIDIA NeMo AutoModel can significantly accelerate the fine-tuning of Transformer models, providing a crucial tool for developers looking to optimize their LLM deployment workflows efficiently.",
-      "link": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "summary": "This announcement simplifies the deployment of vLLM servers on Hugging Face Jobs with a single command, making high-performance LLM inference serving more accessible and efficient for developers.",
+      "link": "https://huggingface.co/blog/vllm-jobs",
       "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Introducing LifeSciBench",
+      "summary": "OpenAI has released LifeSciBench, an expert-authored and reviewed benchmark designed to evaluate AI systems on real-world life science research tasks, providing a critical tool for assessing domain-specific AI capabilities.",
+      "link": "https://openai.com/index/introducing-life-sci-bench",
+      "source": "OpenAI News"
     }
   ],
   "companies": [
     {
-      "title": "How agents are transforming work",
-      "summary": "OpenAI published new research demonstrating that AI agents are enabling longer, more complex tasks, expanding productivity across various roles, and highlighting their strategic vision for the future of work.",
-      "link": "https://openai.com/index/how-agents-are-transforming-work",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "summary": "OpenAI and Broadcom introduced 'Jalapeño,' a custom AI chip specifically designed for LLM inference, promising to significantly enhance performance, efficiency, and scalability for AI systems.",
+      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
       "source": "OpenAI News"
     },
     {
       "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-      "summary": "Samsung Electronics has deployed ChatGPT Enterprise and Codex to its global workforce, marking one of the largest enterprise AI rollouts by OpenAI and demonstrating significant corporate adoption of advanced AI tools.",
+      "summary": "Samsung Electronics has deployed ChatGPT Enterprise and Codex to its global workforce, marking one of OpenAI’s largest enterprise AI rollouts and demonstrating massive corporate adoption of advanced AI tools.",
       "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
       "source": "OpenAI News"
     },
     {
-      "title": "Helping build shared standards for advanced AI",
-      "summary": "OpenAI is actively contributing to the development of shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through initiatives like the Appia Foundation to ensure responsible AI development.",
-      "link": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "summary": "OpenAI unveiled new Daybreak tools, including Codex Security and GPT-5.5-Cyber, designed to help organizations find, validate, and patch software vulnerabilities at scale using AI-powered solutions.",
+      "link": "https://openai.com/index/daybreak-securing-the-world",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "The Hitchhiker's Guide to Agentic AI: From Foundations to Systems",
-      "summary": "A comprehensive practitioner's reference for building autonomous AI systems, covering foundational LLM architectures, alignment, reasoning layers, agent design patterns, inter-agent coordination, and production deployment, equipping builders with full-stack knowledge.",
-      "link": "https://arxiv.org/abs/2606.24937",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
-      "summary": "IBM Research and Hugging Face offer a practical guide with 24 working examples using the lightweight CUGA harness, enabling developers to build and understand real-world agentic applications efficiently.",
-      "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
-      "source": "Hugging Face Blog"
-    },
-    {
       "title": "Codex-maxxing for long-running work",
-      "summary": "This guide demonstrates how to effectively use Codex for managing complex, long-running projects by preserving context and orchestrating intricate workflows beyond single prompts, enhancing developer productivity for challenging tasks.",
+      "summary": "This guide teaches developers how to leverage Codex effectively to preserve context and manage complex, long-running projects, enabling more efficient and sustained AI-assisted development workflows.",
       "link": "https://openai.com/index/codex-maxxing-long-running-work",
       "source": "OpenAI News"
+    },
+    {
+      "title": "How we used Gemini to build Google I/O 2026",
+      "summary": "Google shares a behind-the-scenes look at how Gemini was utilized to produce Google I/O 2026, offering insights into practical applications of AI for large-scale event management and content creation.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "source": "Google AI Blog"
+    },
+    {
+      "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+      "summary": "This article explores advanced fine-tuning techniques that aim to surpass the performance of LoRA, providing valuable knowledge for developers looking to optimize their models for specific tasks.",
+      "link": "https://huggingface.co/blog/peft-beyond-lora",
+      "source": "Hugging Face Blog"
     }
   ]
 }
