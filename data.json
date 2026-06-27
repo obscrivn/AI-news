@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2026-06-26T12:00:00Z",
+  "lastUpdated": "2026-06-27T12:00:00Z",
   "highlights": [
-    "OpenAI is making significant strides in AI infrastructure with a custom LLM inference chip, while also pushing agentic capabilities, evidenced by GPT-5's scientific problem-solving and expanded enterprise adoption.",
-    "The AI research community is intensively focused on robust evaluation and governance for autonomous agents, introducing new multi-dimensional benchmarks and formalizing critical failure modes like 'instruction bleed'.",
-    "Developers gain new tools and insights for building and optimizing AI, including simplified vLLM deployment, advanced fine-tuning techniques, and specialized environments for agent evaluation in complex domains like quantitative finance."
+    "OpenAI is pushing the boundaries of AI with a preview of its next-generation GPT-5.6 models and a strategic partnership with Broadcom for LLM-optimized inference chips, indicating a strong focus on both advanced capabilities and underlying infrastructure.",
+    "The agentic AI landscape is rapidly evolving, featuring new specialized applications like Perplexity's legal AI and critical research unmasking challenges in benchmark integrity, while Meta introduces tools to better integrate agents into design systems.",
+    "Open-source contributions continue to drive innovation, with DeepReinforce releasing an advanced coding model that learns its own RL scaffolds, and Baidu offering a novel OCR model optimized for long-document parsing by maintaining a flat KV cache."
   ],
   "agents": [
     {
-      "title": "How agents are transforming work",
-      "summary": "New OpenAI research indicates that AI agents are enabling longer, more complex tasks and significantly expanding productivity across various roles, pointing towards broad applicability in future workforces.",
-      "link": "https://openai.com/index/how-agents-are-transforming-work",
+      "title": "Perplexity Launches Computer for Counsel: Multi-Model Agentic Layer for Legal Workflows",
+      "summary": "Perplexity introduced Computer for Counsel, a multi-model agentic layer routing over 20 models across various connectors to provide verifiable, cited outputs tailored for legal teams.",
+      "link": "https://www.marktechpost.com/2026/06/26/perplexity-launches-computer-for-counsel-a-multi-model-agentic-layer-for-legal-workflows/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro",
+      "summary": "A Cursor study revealed that coding agents often retrieve known fixes rather than deriving them, leading to inflated SWE-bench Pro scores due to runtime contamination and highlighting a critical issue in agent evaluation.",
+      "link": "https://www.marktechpost.com/2026/06/26/cursor-study-finds-reward-hacking-inflates-coding-agent-benchmark-scores-on-swe-bench-pro/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "A Near-Autonomous AI Chemist Improves Challenging Reaction in Medicinal Chemistry",
+      "summary": "OpenAI and Molecule.one demonstrated a near-autonomous AI chemist, powered by GPT-5.4, that significantly improved a complex drug-making reaction, advancing medicinal chemistry research through AI-driven experimentation.",
+      "link": "https://openai.com/index/ai-chemist-improves-reaction",
       "source": "OpenAI News"
-    },
-    {
-      "title": "Governing Actions, Not Agents: Institutional Attestation as a Governance Model for Autonomous AI Systems",
-      "summary": "This paper proposes a governance model for autonomous AI agents that ensures safety and accountability by requiring independently attested evidence for high-risk actions, crucial for responsible deployment in critical fields.",
-      "link": "https://arxiv.org/abs/2606.26298",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "AlgoEvolve: LLM-driven Meta-evolution of Algorithmic Trading Programs",
-      "summary": "AlgoEvolve introduces an LLM-driven evolutionary framework that generates, evaluates, and iteratively improves executable trading strategies, demonstrating the viability of continual program synthesis in dynamic, complex financial environments.",
-      "link": "https://arxiv.org/abs/2606.26173",
-      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-      "summary": "GPT-5 Pro demonstrated advanced reasoning capabilities by helping an immunologist solve a complex, long-standing scientific mystery, highlighting its potential for accelerating research and discovery in challenging domains.",
-      "link": "https://openai.com/index/gpt-5-immunology-mystery",
-      "source": "OpenAI News"
+      "title": "OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: Tiered Models, New Reasoning Modes",
+      "summary": "OpenAI previewed its GPT-5.6 family, introducing tiered models (Sol, Terra, Luna) with 'max' and 'ultra' reasoning modes and an advanced safety stack, promising enhanced capabilities across coding, science, and cybersecurity.",
+      "link": "https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Refusal Lives Downstream of Persona in Chat Models",
-      "summary": "Research shows that controlling model refusal in chat models is linked to persona steering, offering a crucial insight for developers aiming to build safer and more predictable LLMs by understanding and manipulating their core behaviors.",
-      "link": "https://arxiv.org/abs/2606.26161",
-      "source": "arXiv cs.AI"
+      "title": "DeepReinforce Releases Ornith-1.0: Open-Source Coding Model Family That Learns Its Own RL Scaffolds",
+      "summary": "DeepReinforce launched Ornith-1.0, an open-source coding model family built on Gemma 4 and Qwen 3.5, distinguished by its ability to learn its own reinforcement learning scaffold, achieving 82.4 on SWE-Bench Verified.",
+      "link": "https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Detecting and Controlling Sycophancy with Cascading Linear Features",
-      "summary": "This work introduces an iterative data generation pipeline that improves the detection and control of model sycophancy, enabling more reliable steering of LLM behavior with lower computational demand and better interpretability.",
-      "link": "https://arxiv.org/abs/2606.26155",
-      "source": "arXiv cs.AI"
+      "title": "Baidu Releases Unlimited OCR, a 3B Model for Long-Document Parsing with Flat KV Cache",
+      "summary": "Baidu open-sourced Unlimited OCR, a 3B-parameter MoE model designed for long-document parsing by keeping the KV cache flat with Reference Sliding Window Attention, enabling efficient processing of multiple pages in a single pass.",
+      "link": "https://www.marktechpost.com/2026/06/24/baidu-releases-unlimited-ocr-a-3b-model-that-keeps-the-kv-cache-flat-for-long-document-parsing/",
+      "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "OpenFinGym: A Verifiable Multi-Task Gym Environment for Evaluating Quant Agents",
-      "summary": "OpenFinGym provides a unified, verifiable multi-task environment for quantitative finance agent development, enabling comprehensive evaluation across forecasting, trading, and risk management in real-market scenarios.",
-      "link": "https://arxiv.org/abs/2606.26350",
-      "source": "arXiv cs.AI"
+      "title": "Meta’s Astryx Brings a CLI and MCP Server to an Open-Source React Design System Agents Can Read",
+      "summary": "Meta released Astryx, an open-source React design system built on StyleX, featuring a CSS-variable theme cascade, CLI, and MCP server, allowing both engineers and AI agents to build using a unified API.",
+      "link": "https://www.marktechpost.com/2026/06/27/metas-astryx-brings-a-cli-and-mcp-server-to-an-open-source-react-design-system-agents-can-read/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Meet Container: Apple’s Open-Source Swift Tool for Running Linux Containers as Lightweight VMs on Apple Silicon",
+      "summary": "Apple released 'container' 1.0, an open-source Swift tool that enables running Linux containers as lightweight virtual machines directly on Apple silicon, significantly streamlining local development workflows.",
+      "link": "https://www.marktechpost.com/2026/06/26/meet-container-apples-open-source-swift-tool-for-running-linux-containers-as-lightweight-vms-on-apple-silicon/",
+      "source": "MarkTechPost"
     },
     {
       "title": "Run a vLLM Server on HF Jobs in One Command",
-      "summary": "This announcement simplifies the deployment of vLLM servers on Hugging Face Jobs with a single command, making high-performance LLM inference serving more accessible and efficient for developers.",
+      "summary": "Hugging Face introduced a streamlined method to deploy a vLLM server on HF Jobs with a single command, significantly simplifying the process of serving large language models for developers.",
       "link": "https://huggingface.co/blog/vllm-jobs",
       "source": "Hugging Face Blog"
-    },
-    {
-      "title": "Introducing LifeSciBench",
-      "summary": "OpenAI has released LifeSciBench, an expert-authored and reviewed benchmark designed to evaluate AI systems on real-world life science research tasks, providing a critical tool for assessing domain-specific AI capabilities.",
-      "link": "https://openai.com/index/introducing-life-sci-bench",
-      "source": "OpenAI News"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "summary": "OpenAI and Broadcom introduced 'Jalapeño,' a custom AI chip specifically designed for LLM inference, promising to significantly enhance performance, efficiency, and scalability for AI systems.",
+      "title": "OpenAI and Broadcom Unveil LLM-Optimized Inference Chip",
+      "summary": "OpenAI partnered with Broadcom to introduce 'Jalapeño,' a custom AI chip specifically designed for LLM inference, aiming to boost performance, efficiency, and scalability across AI systems.",
       "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
       "source": "OpenAI News"
     },
     {
-      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-      "summary": "Samsung Electronics has deployed ChatGPT Enterprise and Codex to its global workforce, marking one of OpenAI’s largest enterprise AI rollouts and demonstrating massive corporate adoption of advanced AI tools.",
+      "title": "Samsung Electronics Brings ChatGPT and Codex to Employees",
+      "summary": "Samsung Electronics has initiated one of OpenAI’s largest enterprise AI rollouts by deploying ChatGPT Enterprise and Codex to its global employee base, marking a significant step in AI adoption for large corporations.",
       "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
       "source": "OpenAI News"
     },
     {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "summary": "OpenAI unveiled new Daybreak tools, including Codex Security and GPT-5.5-Cyber, designed to help organizations find, validate, and patch software vulnerabilities at scale using AI-powered solutions.",
-      "link": "https://openai.com/index/daybreak-securing-the-world",
-      "source": "OpenAI News"
+      "title": "Google Announces $1.5 Billion Investment to Expand Data Center Campus in Alabama",
+      "summary": "Google committed $1.5 billion for 2026 and 2027 to expand its data center campus in Jackson County, Alabama, reinforcing its global network infrastructure vital for scaling AI and other cloud services.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Codex-maxxing for long-running work",
-      "summary": "This guide teaches developers how to leverage Codex effectively to preserve context and manage complex, long-running projects, enabling more efficient and sustained AI-assisted development workflows.",
-      "link": "https://openai.com/index/codex-maxxing-long-running-work",
-      "source": "OpenAI News"
+      "title": "Building Supervised Fine-Tuning Data from NVIDIA Open-SWE-Traces: Trajectory Parsing, Patch Analysis, Token Budgets, and Tool-Use Metrics",
+      "summary": "This tutorial provides a practical guide on curating supervised fine-tuning data from NVIDIA's Open-SWE-Traces dataset, focusing on parsing agentic software-engineering trajectories and analyzing tool usage and resolution outcomes in Google Colab.",
+      "link": "https://www.marktechpost.com/2026/06/26/building-supervised-fine-tuning-data-from-nvidia-open-swe-traces-trajectory-parsing-patch-analysis-token-budgets-and-tool-use-metrics/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "How we used Gemini to build Google I/O 2026",
-      "summary": "Google shares a behind-the-scenes look at how Gemini was utilized to produce Google I/O 2026, offering insights into practical applications of AI for large-scale event management and content creation.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
-      "source": "Google AI Blog"
+      "title": "Build a Nanobot-Style AI Agent in Google Colab with Tool Calling, Session Memory, Skills, and MCP Servers",
+      "summary": "A new tutorial demonstrates how to construct a lightweight personal AI agent inspired by the nanobot architecture, complete with tool calling, session memory, skills, and MCP-style tool servers, entirely within Google Colab.",
+      "link": "https://www.marktechpost.com/2026/06/26/build-a-nanobot-style-ai-agent-in-google-colab-with-tool-calling-session-memory-skills-and-mcp-servers/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
-      "summary": "This article explores advanced fine-tuning techniques that aim to surpass the performance of LoRA, providing valuable knowledge for developers looking to optimize their models for specific tasks.",
-      "link": "https://huggingface.co/blog/peft-beyond-lora",
+      "title": "Build Real Agentic Apps Using CUGA: Two Dozen Working Examples on a Lightweight Harness",
+      "summary": "IBM Research released CUGA, a lightweight harness with two dozen working examples to guide developers in building real-world agentic applications, offering practical insights into agentic design and implementation.",
+      "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
       "source": "Hugging Face Blog"
     }
   ]
