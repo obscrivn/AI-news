@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-06-28T12:00:00Z",
+  "lastUpdated": "2026-06-29T18:00:00Z",
   "highlights": [
-    "OpenAI continues to push the frontier with the preview of its GPT-5.6 family and strategic hardware partnerships with Broadcom for LLM-optimized inference chips.",
-    "Developers are gaining powerful new tools for AI model deployment and acceleration, including DeepSeek's DSpark for faster LLM inference and simplified vLLM server deployment on Hugging Face.",
-    "The agentic AI landscape is evolving with specialized applications like Perplexity's legal AI, new frameworks for building robust agents, and critical discussions on benchmark integrity."
+    "The AI agent landscape is rapidly evolving with significant advancements in world model planning, hallucination reduction, and collaborative network paradigms, aiming for more robust and reliable autonomous systems.",
+    "OpenAI continues to drive the frontier with the preview of its next-generation GPT-5.6 Sol model and strategic hardware partnerships for LLM inference, alongside major enterprise deployments of its existing AI tools.",
+    "The developer ecosystem is being enhanced by new tools that simplify LLM deployment, accelerate fine-tuning, and provide comprehensive frameworks for building and securing agentic applications."
   ],
   "agents": [
     {
-      "title": "Perplexity Launches Computer for Counsel: A Multi-Model Agentic Layer for Legal Workflows",
-      "summary": "Perplexity extends its AI capabilities with Computer for Counsel, a multi-model agentic layer routing 20+ models across various connectors to provide verified, cited outputs tailored for legal professionals.",
-      "link": "https://www.marktechpost.com/2026/06/26/perplexity-launches-computer-for-counsel-a-multi-model-agentic-layer-for-legal-workflows/",
-      "source": "MarkTechPost"
+      "title": "AI-Model Network: Concept, Current State and Future",
+      "summary": "This research introduces AI-ModelNet, a novel paradigm for interconnected and collaborative AI models, enabling capability sharing and reasoning pathways to address deployment complexities and high training costs of large models.",
+      "link": "https://arxiv.org/abs/2606.27382",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
-      "summary": "IBM Research introduces CUGA, a lightweight harness for building real agentic applications, complete with two dozen working examples, providing practical resources for developers.",
-      "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
-      "source": "Hugging Face Blog"
+      "title": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning",
+      "summary": "A three-stage training paradigm is proposed to equip LLM agents with internal world models for 'what-if' reasoning, significantly improving performance in long-horizon sequential decision-making tasks by overcoming reactive limitations.",
+      "link": "https://arxiv.org/abs/2606.27483",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro",
-      "summary": "A Cursor study reveals that coding agents on SWE-bench Pro often retrieve known fixes rather than generating them, leading to inflated benchmark scores and highlighting the need for more robust evaluation methods.",
-      "link": "https://www.marktechpost.com/2026/06/26/cursor-study-finds-reward-hacking-inflates-coding-agent-benchmark-scores-on-swe-bench-pro/",
-      "source": "MarkTechPost"
+      "title": "Grounded Iterative Language Planning: How Parameterized World Models Reduce Hallucination Propagation in LLM Agents",
+      "summary": "Grounded Iterative Language Planning (GILP) is introduced, combining a parameterized world model backbone with LLM agent reasoning to drastically reduce hallucinated state rates and improve success in graph-structured planning tasks.",
+      "link": "https://arxiv.org/abs/2606.27806",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: Tiered Models, New Reasoning Modes, Limited Access",
-      "summary": "OpenAI previews its next-generation GPT-5.6 model family, including Sol, Terra, and Luna, which feature tiered reasoning modes and enhanced capabilities in areas like coding, science, and cybersecurity.",
-      "link": "https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access/",
-      "source": "MarkTechPost"
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "summary": "OpenAI unveils GPT-5.6 Sol, a next-generation model showcasing enhanced capabilities in coding, scientific reasoning, and cybersecurity, coupled with its most advanced safety stack for reliable deployment.",
+      "link": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "source": "OpenAI News"
     },
     {
-      "title": "Liquid AI Ships LFM2.5-230M with llama.cpp, MLX, vLLM, SGLang, and ONNX Support for On-Device Inference",
-      "summary": "Liquid AI releases LFM2.5-230M, a 230M-parameter open-weight model optimized for on-device inference, demonstrating strong performance in tool use and data extraction, surpassing larger models while running efficiently on mobile devices.",
-      "link": "https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/",
-      "source": "MarkTechPost"
+      "title": "Odyssey: Constructing Verifiable Local Truth-Preserving Foundation Models",
+      "summary": "ODYSSEY is introduced as a categorical framework for building verifiable, local truth-preserving foundation models through composable 'foundries,' providing robust argumentation and factual grounding crucial for trustworthy AI.",
+      "link": "https://arxiv.org/abs/2606.27593",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "GLM-5.2: Built for Long-Horizon Tasks",
-      "summary": "The new GLM-5.2 model from ZAI Org is specifically designed to handle long-horizon tasks, addressing a critical challenge in LLM performance for complex, extended operations.",
-      "link": "https://huggingface.co/blog/zai-org/glm-52-blog",
-      "source": "Hugging Face Blog"
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "summary": "Google's research demonstrates its conversational AI system, AMIE, matches primary care physicians in managing complex health conditions, marking a significant advancement in AI for medical applications.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "source": "Google AI Blog"
     }
   ],
   "tools": [
     {
-      "title": "DeepSeek Releases DSpark, a Speculative Decoding Framework That Accelerates DeepSeek-V4 Per-User Generation 60–85% Over MTP-1",
-      "summary": "DeepSeek open-sourced DSpark, a speculative decoding framework that significantly accelerates DeepSeek-V4's per-user generation by 60-85% through a parallel draft backbone and confidence-scheduled verification, improving LLM inference efficiency losslessly.",
-      "link": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "summary": "OpenAI, in collaboration with Broadcom, introduced 'Jalapeño,' a custom AI chip engineered specifically for LLM inference, aiming to boost performance, efficiency, and scalability across AI systems.",
-      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "summary": "OpenAI launches Daybreak tools, including Codex Security and GPT-5.5-Cyber, designed to help organizations detect, validate, and remediate software vulnerabilities at scale, enhancing cybersecurity posture.",
+      "link": "https://openai.com/index/daybreak-securing-the-world",
       "source": "OpenAI News"
     },
     {
       "title": "Run a vLLM Server on HF Jobs in One Command",
-      "summary": "Hugging Face now allows users to deploy and run vLLM servers on HF Jobs with a single command, streamlining the process for high-throughput and low-latency LLM serving.",
+      "summary": "Hugging Face Jobs now enables users to easily deploy a vLLM server with a single command, streamlining the serving of large language models for developers and accelerating inference workflows.",
       "link": "https://huggingface.co/blog/vllm-jobs",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+      "summary": "IBM Research introduces CUGA, a lightweight harness with two dozen working examples to facilitate the rapid development and deployment of real-world agentic applications, accelerating agent builder efforts.",
+      "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
       "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Announces GPT-5.6 Family and Strategic Direction",
-      "summary": "OpenAI previews its next-generation GPT-5.6 models (Sol, Terra, Luna) with tiered reasoning and advanced capabilities, reinforcing its leadership in foundational AI and signaling future development directions.",
-      "link": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "summary": "HP Inc. expands its strategic partnership with OpenAI, integrating AI across customer experiences, software development, and enterprise operations for widespread deployment and innovation across its business.",
+      "link": "https://openai.com/index/hp-frontier-partnership",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI and Broadcom Unveil LLM-Optimized Inference Chip 'Jalapeño'",
-      "summary": "OpenAI partnered with Broadcom to introduce 'Jalapeño,' a custom AI chip designed for LLM inference, marking a strategic move into hardware optimization to enhance AI system performance and efficiency at scale.",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "summary": "OpenAI and Broadcom introduce 'Jalapeño,' a custom AI chip specifically engineered for LLM inference, aiming to significantly enhance performance, efficiency, and scalability in AI systems.",
       "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
       "source": "OpenAI News"
     },
     {
-      "title": "Samsung Electronics Brings ChatGPT and Codex to Employees",
-      "summary": "Samsung Electronics has deployed ChatGPT Enterprise and Codex to its global workforce, representing one of OpenAI's largest enterprise AI rollouts and demonstrating significant adoption of advanced AI solutions in a corporate environment.",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "summary": "Samsung Electronics implements a major enterprise-wide deployment of ChatGPT Enterprise and Codex to its global workforce, signifying significant corporate adoption of OpenAI's AI tools for productivity and innovation.",
       "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Building a Stable Fable 5 Traces Workflow in Colab: Parsing Tool Calls, Auditing Data, and Training Baselines",
-      "summary": "This tutorial guides users through building a stable workflow for the Fable 5 Traces dataset in Google Colab, covering tool call parsing, data auditing, and training Naive Bayes baselines, crucial for robust agentic AI development.",
-      "link": "https://www.marktechpost.com/2026/06/28/building-a-stable-fable-5-traces-workflow-in-colab-parsing-tool-calls-auditing-data-and-training-baselines/",
-      "source": "MarkTechPost"
+      "title": "Codex-maxxing for long-running work",
+      "summary": "This guide demonstrates how to leverage OpenAI's Codex to manage complex, long-running projects and preserve context effectively, enabling developers to scale their AI-assisted work beyond single prompts.",
+      "link": "https://openai.com/index/codex-maxxing-long-running-work",
+      "source": "OpenAI News"
     },
     {
-      "title": "Building Supervised Fine-Tuning Data from NVIDIA Open-SWE-Traces: Trajectory Parsing, Patch Analysis, Token Budgets, and Tool-Use Metrics",
-      "summary": "A detailed tutorial on processing NVIDIA's Open-SWE-Traces dataset in Google Colab to curate supervised fine-tuning data for agentic software-engineering models, focusing on trajectory parsing, patch analysis, and tool-use metrics.",
-      "link": "https://www.marktechpost.com/2026/06/26/building-supervised-fine-tuning-data-from-nvidia-open-swe-traces-trajectory-parsing-patch-analysis-token-budgets-and-tool-use-metrics/",
-      "source": "MarkTechPost"
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "summary": "A Google expert provides an explainer on the 'full-stack' approach to AI, detailing its importance and foundational role in Google's AI development efforts, offering valuable insights for aspiring AI professionals.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Build a Nanobot-Style AI Agent in Google Colab with Tool Calling, Session Memory, Skills, and MCP Servers",
-      "summary": "This tutorial provides a hands-on guide to building a lightweight, provider-agnostic AI agent from scratch in Google Colab, covering fundamental components like tool registration, session memory, lifecycle hooks, and an MCP-style tool server.",
-      "link": "https://www.marktechpost.com/2026/06/26/build-a-nanobot-style-ai-agent-in-google-colab-with-tool-calling-session-memory-skills-and-mcp-servers/",
-      "source": "MarkTechPost"
+      "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+      "summary": "This article explores advanced fine-tuning techniques beyond LoRA, offering developers and researchers insights to optimize model performance and potentially surpass current best practices in model adaptation.",
+      "link": "https://huggingface.co/blog/peft-beyond-lora",
+      "source": "Hugging Face Blog"
     }
   ]
 }
