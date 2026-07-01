@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-06-30T00:00:00Z",
+  "lastUpdated": "2026-07-01T12:00:00Z",
   "highlights": [
-    "OpenAI unveiled GPT-5.6 Sol, a next-generation model with advanced capabilities in coding, science, and cybersecurity, coupled with significant enterprise adoption and strategic hardware partnerships.",
-    "A strong research trend emerged in enhancing AI agent reliability and foresight through world models, focusing on reducing hallucination and enabling more robust, future-aware planning.",
-    "Major companies are deepening AI integration and addressing foundational challenges, seen in HP's strategic partnership with OpenAI, Broadcom's LLM-optimized chip collaboration, and new frameworks for verifiable, truth-preserving foundation models."
+    "OpenAI continues to drive the frontier with a preview of its next-generation GPT-5.6 Sol model and a custom LLM-optimized inference chip developed with Broadcom, signaling advancements in both model capability and hardware efficiency.",
+    "The agentic AI landscape is rapidly evolving with new frameworks focusing on verifiable behavioral governance (AgentBound), self-evolving workflows for hardware refactoring (AgRefactor), and hierarchical knowledge management for ML engineering (HASTE).",
+    "Practical deployment and security remain key priorities, as evidenced by OpenAI's Daybreak tools for cybersecurity vulnerability management and Hugging Face's simplified vLLM server deployment on its Jobs platform."
   ],
   "agents": [
     {
-      "title": "Unified Agentic Training for World Model Planning",
-      "summary": "This paper proposes 'Internalizing the Future,' a three-stage training paradigm to equip LLM agents with internal world models for 'what-if' reasoning, transitioning them from reactive to proactively future-aware planning in long-horizon tasks.",
-      "link": "https://arxiv.org/abs/2606.27483",
+      "title": "AgentBound: Verifiable Behavioral Governance for Autonomous AI Agents",
+      "summary": "A new runtime governance framework, AgentBound, provides verifiable behavioral oversight for autonomous AI agents, ensuring accountability through delegated authorization, owner-signed constitutions, and cryptographically verifiable receipts.",
+      "link": "https://arxiv.org/abs/2606.30970",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Grounded Iterative Language Planning Reduces Hallucination in LLM Agents",
-      "summary": "Introduces GILP, a method that combines a small parameterized world model backbone with API-based LLM reasoning, significantly reducing hallucinated state changes and improving task success rates in graph-structured planning by enforcing consistency.",
-      "link": "https://arxiv.org/abs/2606.27806",
+      "title": "AgRefactor: Self-Evolving Agentic Workflow for HLS Compatibility and Performance",
+      "summary": "AgRefactor introduces a self-evolving multi-agent workflow for refactoring software into High-Level Synthesis (HLS) compatible programs, significantly improving efficiency and robustness for hardware acceleration.",
+      "link": "https://arxiv.org/abs/2606.30949",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "ATOD: Annealed Turn-aware On-policy Distillation for Multi-turn Agents",
-      "summary": "This hybrid online distillation algorithm efficiently trains small language model agents for long-horizon interactive tasks by synergistically combining on-policy distillation and reinforcement learning, often outperforming teacher models.",
-      "link": "https://arxiv.org/abs/2606.27814",
+      "title": "HASTE: Hierarchical Accumulation of Skills for Transfer-Efficient ML Engineering",
+      "summary": "HASTE is a hierarchical multi-agent system that organizes cross-competition knowledge into tiered scopes, dramatically boosting transfer efficiency and reducing compute costs for ML engineering tasks.",
+      "link": "https://arxiv.org/abs/2606.30911",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "OpenAI Previews GPT-5.6 Sol, Next-Generation Model",
-      "summary": "OpenAI previewed GPT-5.6 Sol, a new flagship model boasting enhanced capabilities in coding, science, and cybersecurity, integrating its most advanced safety stack for cutting-edge performance and reliability.",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "summary": "OpenAI previews GPT-5.6 Sol, its next-generation model with enhanced capabilities in coding, science, and cybersecurity, integrated with advanced safety features.",
       "link": "https://openai.com/index/previewing-gpt-5-6-sol",
       "source": "OpenAI News"
     },
     {
-      "title": "Odyssey: Verifiable Local Truth-Preserving Foundation Models",
-      "summary": "Introduces ODYSSEY, a categorical framework for constructing verifiable, local truth-preserving foundation models using composable 'foundries,' addressing critical challenges in model transparency, argumentation, and reliability.",
-      "link": "https://arxiv.org/abs/2606.27593",
+      "title": "A Three-Phase Foundation Model for Tax-Aware Personalized Portfolio Management",
+      "summary": "A novel three-phase deep reinforcement learning system for personalized, tax-aware portfolio management uses a ticker-identity-free encoder, a Mixture-of-Experts architecture, and inference-time personalization for diverse investment goals.",
+      "link": "https://arxiv.org/abs/2606.30997",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Google's AMIE Medical AI Matches Physicians in Disease Management",
-      "summary": "New research in 'Nature' demonstrates Google's conversational AI system, AMIE, performs on par with primary care physicians in managing complex health conditions, showcasing significant progress in specialized AI for high-stakes medical applications.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "source": "Google AI Blog"
+      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "summary": "Hugging Face and Cerebras are collaborating to bring Gemma 4 to real-time voice AI applications, enhancing performance and deployment capabilities for conversational systems.",
+      "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "source": "Hugging Face Blog"
     }
   ],
   "tools": [
     {
-      "title": "Run vLLM Server on Hugging Face Jobs in One Command",
-      "summary": "Hugging Face now enables developers to deploy vLLM servers efficiently on their platform with a single command, significantly streamlining the setup for high-performance LLM inference and model serving.",
-      "link": "https://huggingface.co/blog/vllm-jobs",
-      "source": "Hugging Face Blog"
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "summary": "OpenAI and Broadcom introduced 'Jalapeño,' a custom AI chip specifically optimized for Large Language Model (LLM) inference, aiming to deliver significant improvements in performance and efficiency for AI systems.",
+      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Introduces Daybreak Security Tools for Organizations",
-      "summary": "OpenAI launched new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch software vulnerabilities at scale, bolstering enterprise cybersecurity defenses.",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "summary": "OpenAI's new Daybreak tools, including Codex Security and GPT-5.5-Cyber, offer scalable solutions for organizations to find, validate, and patch cybersecurity vulnerabilities.",
       "link": "https://openai.com/index/daybreak-securing-the-world",
       "source": "OpenAI News"
     },
     {
-      "title": "CUGA: Lightweight Harness with Examples for Agentic Apps",
-      "summary": "IBM Research released CUGA via Hugging Face, providing a lightweight harness with two dozen working examples for building real agentic applications, offering practical resources for developers to explore and implement agent technology.",
-      "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "summary": "Hugging Face now allows users to deploy high-performance vLLM servers on Hugging Face Jobs with a single command, streamlining the setup for LLM inference environments.",
+      "link": "https://huggingface.co/blog/vllm-jobs",
       "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "HP Inc. Launches Strategic Partnership with OpenAI",
-      "summary": "HP Inc. expanded its 'Frontier' partnership with OpenAI, committing to deploy AI across customer experiences, software development, and enterprise operations, signaling a major corporate embrace of AI integration.",
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "summary": "HP Inc. expanded its strategic partnership with OpenAI, committing to integrate AI across its customer experiences, software development, and enterprise operations for broad impact.",
       "link": "https://openai.com/index/hp-frontier-partnership",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI and Broadcom Unveil LLM-Optimized Inference Chip",
-      "summary": "OpenAI and Broadcom collaborated to introduce 'Jalapeño,' a custom AI chip specifically engineered for LLM inference, aiming to boost performance, efficiency, and scalability across large-scale AI systems.",
-      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "title": "How ChatGPT adoption has expanded",
+      "summary": "New OpenAI data reveals widespread global expansion of ChatGPT adoption, with users increasing engagement and exploring diverse capabilities across various regions and languages.",
+      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
       "source": "OpenAI News"
     },
     {
-      "title": "Samsung Electronics Deploys ChatGPT and Codex to Employees",
-      "summary": "Samsung Electronics initiated one of OpenAI’s largest enterprise AI rollouts, deploying ChatGPT Enterprise and Codex to its employees worldwide, underscoring the growing corporate reliance on advanced AI for productivity and internal operations.",
-      "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "source": "OpenAI News"
+      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+      "summary": "Google UK released its Economic Impact Report, outlining strategies to unlock Britain's next era of productivity by fostering AI adoption and building a nation of AI trailblazers.",
+      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
+      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "ICML 2026 Tutorial: Verifiable Foundation Models with Odyssey",
-      "summary": "A 2.5-hour tutorial at ICML 2026 will introduce the ODYSSEY categorical framework, offering deep insights into constructing verifiable, local truth-preserving foundation models and their underlying architectural components.",
-      "link": "https://arxiv.org/abs/2606.27593",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Google AI Expert Explains 'Full-Stack AI' Approach",
-      "summary": "A Google AI expert provides a comprehensive explanation of what it means to take a 'full-stack' approach to AI, offering valuable foundational knowledge for developers and strategists on core AI development principles.",
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "summary": "A Google AI expert clarifies the concept of a 'full-stack' approach to AI, providing essential foundational knowledge for developers and strategists building comprehensive AI systems.",
       "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
       "source": "Google AI Blog"
     },
     {
-      "title": "Hugging Face Blog: Build Agentic Apps with CUGA Examples",
-      "summary": "IBM Research's release of CUGA, detailed on the Hugging Face Blog, offers a practical learning opportunity with two dozen working examples and a lightweight harness for building real-world agentic applications.",
-      "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
-      "source": "Hugging Face Blog"
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "summary": "Google released nine new video demonstrations showcasing the advanced capabilities of Gemini Omni and Gemini 3.5, offering practical insights into these powerful multimodal models.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "source": "Google AI Blog"
+    },
+    {
+      "title": "Codex-maxxing for long-running work",
+      "summary": "A guide on 'Codex-maxxing' demonstrates how to leverage Codex to manage complex, long-running projects and effectively preserve context beyond single prompts, boosting developer productivity.",
+      "link": "https://openai.com/index/codex-maxxing-long-running-work",
+      "source": "OpenAI News"
     }
   ]
 }
