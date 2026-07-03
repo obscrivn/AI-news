@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-07-02T12:00:00Z",
+  "lastUpdated": "2026-07-03T12:00:00Z",
   "highlights": [
-    "Frontier AI models are rapidly advancing, with OpenAI previewing GPT-5.6 Sol and Anthropic redeploying Claude Fable 5 with enhanced cybersecurity features and policy adjustments.",
-    "A significant focus on agent reliability and safety is emerging, highlighted by new frameworks for verifiable workflows, managed autonomy in cyber-physical systems, and mobile integration for AI agents.",
-    "Major tech companies are strategically investing in both model innovation, specialized hardware like LLM-optimized inference chips, and practical tools to support the growing AI developer ecosystem."
+    "OpenAI is advancing its flagship models with GPT-5.6 Sol, alongside strategic partnerships like HP, signaling deep enterprise integration and advanced capabilities in coding and science.",
+    "The AI research landscape is witnessing novel architectural developments, including the efficient Wiola SLM and practical diffusion language models for interactive medical drafting, expanding model versatility.",
+    "Innovation in AI agents is accelerating, with new multi-agent systems for code summarization, online world modeling, and critical advancements in user-involved permission management and specialized hardware for efficient inference."
   ],
   "agents": [
     {
-      "title": "Managed Autonomy: Gear-Based Safety for Cyber-Physical AI Agents",
-      "summary": "A new control system, 'Managed Autonomy,' is introduced to provide gear-based safety and governance for single and multi-agent cyber-physical systems, ensuring stable and verifiable operations in real-world scenarios.",
-      "link": "https://arxiv.org/abs/2607.00334",
+      "title": "Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases",
+      "summary": "Introduces a multi-agent framework for summarizing large, complex codebases bottom-up, improving semantic consistency and keyword coverage by leveraging specialized agents for summarization, keyword extraction, and quality assurance.",
+      "link": "https://arxiv.org/abs/2607.01425",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Mnemosyne: Agentic Transaction Processing for AI Workflow Validation",
-      "summary": "Mnemosyne introduces Agentic Transaction Processing (ATP), a framework for validating and repairing AI-generated workflows to ensure correctness and safety through deterministic admission under declared constraints.",
-      "link": "https://arxiv.org/abs/2607.00269",
+      "title": "OPINE-World: Programmatic World Modeling with Ontology-error-Prioritized Interactive Exploration",
+      "summary": "Presents OPINE-World, an LLM agent that learns object-centric programmatic world models online from interaction, demonstrating high skill-acquisition efficiency on tasks like ARC-AGI-3 by coupling hypothesis and test agents.",
+      "link": "https://arxiv.org/abs/2607.01531",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "OpenClaw: Mobile Companion Apps for Self-Hosted AI Agent Gateways",
-      "summary": "OpenClaw has released iOS and Android companion node apps that connect mobile phones to self-hosted AI agent gateways, extending local-first AI agents with device hardware like cameras, location, and voice.",
-      "link": "https://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway/",
-      "source": "MarkTechPost"
+      "title": "Janus: a Playground for User-Involved Agentic Permission Management",
+      "summary": "Introduces Janus, a playground system and evaluation framework for user-involved agentic permission management, demonstrating that user input is critical for privacy and security and highlighting the need to account for user behavior like permission fatigue.",
+      "link": "https://arxiv.org/abs/2607.01510",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "OpenAI Previews GPT-5.6 Sol: Next-Generation Capabilities",
-      "summary": "OpenAI has previewed GPT-5.6 Sol, a next-generation model boasting stronger capabilities in coding, science, and cybersecurity, coupled with its most advanced safety stack, indicating significant advancements in frontier AI.",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model featuring stronger capabilities in coding, science, and cybersecurity, coupled with its most advanced safety stack for enhanced performance and security.",
       "link": "https://openai.com/index/previewing-gpt-5-6-sol",
       "source": "OpenAI News"
     },
     {
-      "title": "Anthropic Redeploys Claude Fable 5 with New Cybersecurity Classifier",
-      "summary": "Anthropic has redeployed Claude Fable 5 following the lifting of US export controls, integrating a new safety classifier to mitigate specific vulnerabilities and proposing a jailbreak severity framework with industry partners.",
-      "link": "https://www.marktechpost.com/2026/07/01/anthropic-redeploys-claude-fable-5-on-july-1-after-us-export-controls-lift-adds-new-cybersecurity-classifier/",
-      "source": "MarkTechPost"
+      "title": "The Wiola Architecture for Efficient Small Language Models",
+      "summary": "Presents Wiola, a fully original Small Language Model (SLM) architecture built from first principles with five novel components, offering a new family of efficient models compatible with HuggingFace Transformers.",
+      "link": "https://arxiv.org/abs/2607.01394",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Google AI Introduces TabFM: Zero-Shot Tabular Foundation Model",
-      "summary": "Google Research has launched TabFM, a hybrid-attention foundation model for tabular data that enables zero-shot classification and regression through in-context learning, eliminating the need for per-dataset training or feature engineering.",
-      "link": "https://www.marktechpost.com/2026/07/01/google-ai-introduces-tabfm-a-hybrid-attention-tabular-foundation-model-for-zero-shot-classification-and-regression/",
-      "source": "MarkTechPost"
+      "title": "Discrete Diffusion Language Models for Interactive Radiology Report Drafting",
+      "summary": "Adapts a mixture-of-experts diffusion language model, DiffusionGemma-26B, for interactive radiology report drafting, demonstrating competitive performance with faster decoding and a unique any-order infill capability for real-world medical applications.",
+      "link": "https://arxiv.org/abs/2607.01436",
+      "source": "arXiv cs.AI"
     }
   ],
   "tools": [
     {
-      "title": "OpenAI Introduces GeneBench-Pro: Genomics AI Benchmark",
-      "summary": "OpenAI has introduced GeneBench-Pro, a new benchmark designed to test AI performance in genomics, biology, and scientific research using complex, real-world datasets, providing a standardized evaluation for scientific AI.",
-      "link": "https://openai.com/index/introducing-genebench-pro",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "summary": "OpenAI and Broadcom unveil Jalapeño, a custom AI chip specifically designed for LLM inference, aiming to significantly improve performance, efficiency, and scalability for AI systems.",
+      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
       "source": "OpenAI News"
     },
     {
-      "title": "PHREEQC-MCQ-200: Diagnostic Benchmark for Tool-Augmented Scientific Agents",
-      "summary": "A new benchmark, PHREEQC-MCQ-200, is released for evaluating tool-augmented LLM agents on deterministic aqueous-geochemistry simulations, emphasizing diagnostic analysis beyond mere accuracy to pinpoint computation chain failures.",
-      "link": "https://arxiv.org/abs/2607.00436",
-      "source": "arXiv cs.AI"
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, designed to help organizations find, validate, and patch vulnerabilities at scale, enhancing cybersecurity posture.",
+      "link": "https://openai.com/index/daybreak-securing-the-world",
+      "source": "OpenAI News"
     },
     {
-      "title": "ghealth: Open-Source CLI for Google Health API Data",
-      "summary": "ghealth, an open-source CLI, is now available for the Google Health API, providing a single Go binary that exposes over 40 Fitbit Air data types as agent-ready JSON for developers.",
-      "link": "https://www.marktechpost.com/2026/07/02/the-google-health-api-got-a-cli-ghealth-is-an-open-source-tool-for-your-fitbit-air-data/",
-      "source": "MarkTechPost"
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "summary": "Provides a streamlined method to deploy a vLLM server on Hugging Face Jobs with a single command, enabling developers to quickly set up and utilize efficient LLM inference endpoints.",
+      "link": "https://huggingface.co/blog/vllm-jobs",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Previews GPT-5.6 Sol: Next-Generation Capabilities",
-      "summary": "OpenAI's preview of GPT-5.6 Sol highlights their continued leadership in foundational AI, showcasing advancements in coding, science, and cybersecurity, coupled with enhanced safety measures.",
-      "link": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "summary": "HP Inc. scales its OpenAI Frontier partnership to strategically deploy AI across customer experiences, software development, and enterprise operations, accelerating AI integration in business.",
+      "link": "https://openai.com/index/hp-frontier-partnership",
       "source": "OpenAI News"
     },
     {
-      "title": "Anthropic Redeploys Claude Fable 5 After Export Controls Lift",
-      "summary": "Anthropic's redeployment of Claude Fable 5, alongside a new cybersecurity classifier, demonstrates their commitment to responsible AI development and adapting to global regulatory landscapes.",
-      "link": "https://www.marktechpost.com/2026/07/01/anthropic-redeploys-claude-fable-5-on-july-1-after-us-export-controls-lift-adds-new-cybersecurity-classifier/",
-      "source": "MarkTechPost"
+      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "summary": "Hugging Face and Cerebras collaborate to integrate Gemma 4 into real-time voice AI applications, advancing the deployment of high-performance models for conversational technologies.",
+      "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "source": "Hugging Face Blog"
     },
     {
-      "title": "OpenAI and Broadcom Unveil LLM-Optimized Inference Chip",
-      "summary": "OpenAI and Broadcom have collaborated to introduce Jalapeño, a custom AI chip specifically designed for LLM inference, aiming to significantly improve performance, efficiency, and scalability for AI systems.",
-      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "source": "OpenAI News"
+      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+      "summary": "Google announces a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama, reinforcing its global network infrastructure for AI and cloud services.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Tutorial: Turning Research PDFs into Structured JSON with Lift",
-      "summary": "This tutorial demonstrates a robust workflow for converting research PDFs into structured JSON using Lift, focusing on schema-guided field-level evaluation for repeatable and high-quality data extraction.",
-      "link": "https://www.marktechpost.com/2026/07/01/using-lift-to-turn-research-pdfs-into-structured-json-with-controlled-schema-guided-field-level-evaluation/",
-      "source": "MarkTechPost"
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "summary": "An expert explainer from Google clarifying the 'full-stack' approach to AI, providing foundational knowledge for understanding comprehensive AI system development and deployment.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Research: Constructing Epistemic AI Literacy in Co-Programming",
-      "summary": "New research introduces 'Epistemic AI Literacy' (EAIL) to understand how students interact with GenAI in programming, revealing a prevalence of non-mastery aims and less reliable epistemic strategies, vital for designing effective AI education.",
-      "link": "https://arxiv.org/abs/2607.00211",
-      "source": "arXiv cs.AI"
+      "title": "How we used Gemini to build Google I/O 2026",
+      "summary": "Explores how Google engineers leveraged Gemini AI to produce Google I/O 2026, offering insights and a practical case study on applying advanced AI for complex event production.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Tutorial: Building Reliable Python Workflows with Baidu’s CUP Toolkit",
-      "summary": "A tutorial exploring Baidu's 'Common Useful Python' (CUP) library as a utility toolkit to build stronger, more reliable Python workflows, covering essential modules like logging, caching, and concurrency for developers.",
-      "link": "https://www.marktechpost.com/2026/06/30/cup-common-useful-python-building-reliable-python-workflows-with-baidus-utility-toolkit/",
-      "source": "MarkTechPost"
+      "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+      "summary": "An in-depth exploration and comparison of various fine-tuning techniques beyond LoRA, providing practitioners with valuable insights to optimize model performance and efficiency.",
+      "link": "https://huggingface.co/blog/peft-beyond-lora",
+      "source": "Hugging Face Blog"
     }
   ]
 }
