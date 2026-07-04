@@ -1,66 +1,66 @@
 {
-  "lastUpdated": "2026-07-03T12:00:00Z",
+  "lastUpdated": "2026-07-01T20:00:00Z",
   "highlights": [
-    "OpenAI is advancing its flagship models with GPT-5.6 Sol, alongside strategic partnerships like HP, signaling deep enterprise integration and advanced capabilities in coding and science.",
-    "The AI research landscape is witnessing novel architectural developments, including the efficient Wiola SLM and practical diffusion language models for interactive medical drafting, expanding model versatility.",
-    "Innovation in AI agents is accelerating, with new multi-agent systems for code summarization, online world modeling, and critical advancements in user-involved permission management and specialized hardware for efficient inference."
+    "OpenAI is pushing the boundaries of AI capabilities with previews of next-generation models like GPT-5.6 Sol, emphasizing advancements in coding, science, and cybersecurity, alongside new benchmarks for scientific AI.",
+    "Significant strides are being made in AI infrastructure, including the introduction of custom LLM-optimized inference chips and AI-powered security tools, vital for scalable and secure deployment of advanced AI systems.",
+    "The burgeoning field of AI agents is seeing rapid development, with new research exploring their transformative impact on work and the introduction of specialized benchmarks and security considerations for enterprise adoption."
   ],
   "agents": [
     {
-      "title": "Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases",
-      "summary": "Introduces a multi-agent framework for summarizing large, complex codebases bottom-up, improving semantic consistency and keyword coverage by leveraging specialized agents for summarization, keyword extraction, and quality assurance.",
-      "link": "https://arxiv.org/abs/2607.01425",
-      "source": "arXiv cs.AI"
+      "title": "How agents are transforming work",
+      "summary": "OpenAI research demonstrates how AI agents are fundamentally changing work processes by enabling longer, more complex tasks, significantly boosting productivity across various roles and industries.",
+      "link": "https://openai.com/index/how-agents-are-transforming-work",
+      "source": "OpenAI News"
     },
     {
-      "title": "OPINE-World: Programmatic World Modeling with Ontology-error-Prioritized Interactive Exploration",
-      "summary": "Presents OPINE-World, an LLM agent that learns object-centric programmatic world models online from interaction, demonstrating high skill-acquisition efficiency on tasks like ARC-AGI-3 by coupling hypothesis and test agents.",
-      "link": "https://arxiv.org/abs/2607.01531",
-      "source": "arXiv cs.AI"
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "summary": "IBM Research introduces a new benchmark, ScarfBench, specifically designed to evaluate AI agents' performance in complex enterprise tasks like migrating Java frameworks, aiding in the development of more robust business automation solutions.",
+      "link": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "source": "Hugging Face Blog"
     },
     {
-      "title": "Janus: a Playground for User-Involved Agentic Permission Management",
-      "summary": "Introduces Janus, a playground system and evaluation framework for user-involved agentic permission management, demonstrating that user input is critical for privacy and security and highlighting the need to account for user behavior like permission fatigue.",
-      "link": "https://arxiv.org/abs/2607.01510",
-      "source": "arXiv cs.AI"
+      "title": "MosaicLeaks: Can your research agent keep a secret?",
+      "summary": "This research from ServiceNow highlights critical security and privacy challenges with AI agents, urging developers to consider data leakage risks and implement robust safeguards when building agentic systems.",
+      "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "source": "Hugging Face Blog"
     }
   ],
   "models": [
     {
       "title": "Previewing GPT-5.6 Sol: a next-generation model",
-      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model featuring stronger capabilities in coding, science, and cybersecurity, coupled with its most advanced safety stack for enhanced performance and security.",
+      "summary": "OpenAI offers a preview of GPT-5.6 Sol, a new flagship model boasting enhanced capabilities in critical areas like coding, science, and cybersecurity, coupled with an advanced safety stack, setting new performance benchmarks.",
       "link": "https://openai.com/index/previewing-gpt-5-6-sol",
       "source": "OpenAI News"
     },
     {
-      "title": "The Wiola Architecture for Efficient Small Language Models",
-      "summary": "Presents Wiola, a fully original Small Language Model (SLM) architecture built from first principles with five novel components, offering a new family of efficient models compatible with HuggingFace Transformers.",
-      "link": "https://arxiv.org/abs/2607.01394",
-      "source": "arXiv cs.AI"
+      "title": "Introducing GeneBench-Pro",
+      "summary": "OpenAI unveils GeneBench-Pro, a novel benchmark designed to rigorously test AI model performance in genomics, biology, and scientific research using complex, real-world datasets, fostering innovation in specialized AI applications.",
+      "link": "https://openai.com/index/introducing-genebench-pro",
+      "source": "OpenAI News"
     },
     {
-      "title": "Discrete Diffusion Language Models for Interactive Radiology Report Drafting",
-      "summary": "Adapts a mixture-of-experts diffusion language model, DiffusionGemma-26B, for interactive radiology report drafting, demonstrating competitive performance with faster decoding and a unique any-order infill capability for real-world medical applications.",
-      "link": "https://arxiv.org/abs/2607.01436",
-      "source": "arXiv cs.AI"
+      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "summary": "Hugging Face partners with Cerebras to optimize and deploy Gemma 4 for real-time voice AI applications, showcasing how specialized hardware and models can deliver high-performance solutions for demanding use cases.",
+      "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "source": "Hugging Face Blog"
     }
   ],
   "tools": [
     {
       "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "summary": "OpenAI and Broadcom unveil Jalapeño, a custom AI chip specifically designed for LLM inference, aiming to significantly improve performance, efficiency, and scalability for AI systems.",
+      "summary": "OpenAI and Broadcom introduce 'Jalapeño,' a custom AI chip specifically engineered for LLM inference, promising significant improvements in performance, efficiency, and scalability for deploying large language models.",
       "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
       "source": "OpenAI News"
     },
     {
       "title": "Daybreak: Tools for securing every organization in the world",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, designed to help organizations find, validate, and patch vulnerabilities at scale, enhancing cybersecurity posture.",
+      "summary": "OpenAI launches new Daybreak tools, including Codex Security and GPT-5.5-Cyber, empowering organizations to leverage AI for discovering, validating, and patching software vulnerabilities at an unprecedented scale.",
       "link": "https://openai.com/index/daybreak-securing-the-world",
       "source": "OpenAI News"
     },
     {
       "title": "Run a vLLM Server on HF Jobs in One Command",
-      "summary": "Provides a streamlined method to deploy a vLLM server on Hugging Face Jobs with a single command, enabling developers to quickly set up and utilize efficient LLM inference endpoints.",
+      "summary": "Hugging Face simplifies the deployment of vLLM servers on its Jobs platform, enabling developers to quickly set up and scale high-throughput inference for large language models with a single command.",
       "link": "https://huggingface.co/blog/vllm-jobs",
       "source": "Hugging Face Blog"
     }
@@ -68,39 +68,39 @@
   "companies": [
     {
       "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-      "summary": "HP Inc. scales its OpenAI Frontier partnership to strategically deploy AI across customer experiences, software development, and enterprise operations, accelerating AI integration in business.",
+      "summary": "HP Inc. is expanding its strategic partnership with OpenAI, integrating AI across customer experiences, software development, and enterprise operations to drive innovation and efficiency at a corporate scale.",
       "link": "https://openai.com/index/hp-frontier-partnership",
       "source": "OpenAI News"
     },
     {
-      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-      "summary": "Hugging Face and Cerebras collaborate to integrate Gemma 4 into real-time voice AI applications, advancing the deployment of high-performance models for conversational technologies.",
-      "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-      "source": "Hugging Face Blog"
+      "title": "How ChatGPT adoption has expanded",
+      "summary": "New OpenAI Signals data reveals accelerated global adoption of ChatGPT, demonstrating increasing user engagement, exploration of diverse capabilities, and robust growth across various regions and languages.",
+      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "source": "OpenAI News"
     },
     {
-      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
-      "summary": "Google announces a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama, reinforcing its global network infrastructure for AI and cloud services.",
-      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
-      "source": "Google AI Blog"
+      "title": "Mapping Europe’s AI Workforce Opportunity",
+      "summary": "An OpenAI report analyzes how AI is poised to transform the European job market, identifying occupations likely to undergo automation, experience growth, or require workflow adaptation, offering strategic insights for workforce planning.",
+      "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "source": "OpenAI News"
     }
   ],
   "learning": [
     {
+      "title": "Codex-maxxing for long-running work",
+      "summary": "This article provides a practical guide on leveraging OpenAI's Codex to maintain context and efficiently manage complex, long-running projects, enabling developers to push the boundaries of AI-assisted productivity.",
+      "link": "https://openai.com/index/codex-maxxing-long-running-work",
+      "source": "OpenAI News"
+    },
+    {
       "title": "Ask an AI expert: What exactly is the full stack?",
-      "summary": "An expert explainer from Google clarifying the 'full-stack' approach to AI, providing foundational knowledge for understanding comprehensive AI system development and deployment.",
+      "summary": "A Google AI expert explains the 'full-stack' approach to AI development, offering foundational knowledge essential for understanding how to integrate and build comprehensive AI solutions from infrastructure to application.",
       "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
       "source": "Google AI Blog"
     },
     {
-      "title": "How we used Gemini to build Google I/O 2026",
-      "summary": "Explores how Google engineers leveraged Gemini AI to produce Google I/O 2026, offering insights and a practical case study on applying advanced AI for complex event production.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
-      "source": "Google AI Blog"
-    },
-    {
       "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
-      "summary": "An in-depth exploration and comparison of various fine-tuning techniques beyond LoRA, providing practitioners with valuable insights to optimize model performance and efficiency.",
+      "summary": "This guide delves into advanced fine-tuning methods beyond the popular LoRA technique, providing insights and experiments for developers aiming to achieve superior model performance and efficiency in specialized tasks.",
       "link": "https://huggingface.co/blog/peft-beyond-lora",
       "source": "Hugging Face Blog"
     }
