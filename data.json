@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-07-01T12:00:00Z",
+  "lastUpdated": "2026-07-07T12:00:00Z",
   "highlights": [
-    "OpenAI unveiled GPT-5.6 Sol, a next-generation model with enhanced capabilities in coding, science, and cybersecurity, alongside new Daybreak security tools like Codex Security and GPT-5.5-Cyber.",
-    "The AI ecosystem is seeing rapid advancements in agent capabilities, marked by new benchmarks like GeneBench-Pro for genomics AI and ScarfBench for enterprise Java migration agents, alongside foundational hardware innovation from OpenAI and Broadcom's LLM-optimized Jalapeño chip.",
-    "Key partnerships, such as HP Inc.'s expanded collaboration with OpenAI, and developer tooling improvements, like Hugging Face simplifying vLLM server deployment, are enabling greater enterprise AI adoption and operational efficiency for builders."
+    "The AI landscape is seeing a surge in specialized agentic systems, with new multi-agent workbenches for scientific research and autonomous agents for hardware development and robotics demonstrating advanced problem-solving capabilities.",
+    "Major advancements in foundation models continue, highlighted by OpenAI's preview of GPT-5.6 Sol and Meituan's release of a massive 1.6T-parameter open MoE model featuring a native 1-million-token context, pushing the boundaries of model scale and performance.",
+    "Critical infrastructure and developer tools are evolving rapidly, from the introduction of LLM-optimized inference chips by OpenAI and Broadcom to comprehensive open-source AI workbenches and advanced cybersecurity tools by OpenAI's Daybreak initiative."
   ],
   "agents": [
     {
-      "title": "How agents are transforming work",
-      "summary": "New OpenAI research highlights how AI agents are enabling longer, more complex tasks, significantly expanding productivity across various roles by transforming workflows.",
-      "link": "https://openai.com/index/how-agents-are-transforming-work",
-      "source": "OpenAI News"
+      "title": "Anthropic Launches Claude Science Beta: Multi-Agent AI Workbench for Reproducible Science",
+      "summary": "Anthropic's Claude Science Beta provides a multi-agent AI workbench for reproducible scientific pipelines in genomics, proteomics, and cheminformatics, coordinating domain specialists and ensuring citation accuracy with full code history.",
+      "link": "https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-      "summary": "IBM Research introduces ScarfBench, a new benchmark designed to rigorously test and evaluate the performance of AI agents specifically tailored for complex enterprise Java framework migration tasks.",
-      "link": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "source": "Hugging Face Blog"
+      "title": "NVIDIA HORIZON: Hands-Free Agent for Git Worktrees Hits 100% RTL Benchmark Completion",
+      "summary": "NVIDIA's HORIZON is a hands-free agent framework that autonomously evolves Git worktrees, achieving 100% completion on RTL benchmarks, signifying a major advance in automated hardware design and verification for developers.",
+      "link": "https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
-      "summary": "This guide provides practical methods for developers to benchmark the 'agentic' capabilities of open models using their own tools, ensuring effective integration and performance validation for agent-driven applications.",
-      "link": "https://huggingface.co/blog/is-it-agentic-enough",
-      "source": "Hugging Face Blog"
+      "title": "NVIDIA AI Introduces ASPIRE: Self-Improving Robotics Framework for Long Tasks",
+      "summary": "NVIDIA AI's ASPIRE is a self-improving robotics framework that writes and refines robot control programs, distills validated repairs into a skill library, and demonstrates significant zero-shot transfer capabilities on complex, long-horizon tasks, enabling faster robotics development.",
+      "link": "https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks/",
+      "source": "MarkTechPost"
     }
   ],
   "models": [
     {
-      "title": "Previewing GPT-5.6 Sol: a next-generation model",
-      "summary": "OpenAI previews GPT-5.6 Sol, a powerful next-generation model engineered with significantly stronger capabilities in coding, scientific research, and cybersecurity, coupled with its most advanced safety protocols to date.",
+      "title": "OpenAI Previews GPT-5.6 Sol: Next-Generation Model with Enhanced Capabilities",
+      "summary": "OpenAI has previewed GPT-5.6 Sol, a next-generation model boasting enhanced capabilities in coding, scientific research, and cybersecurity, coupled with their most advanced safety framework, offering builders a powerful new foundation.",
       "link": "https://openai.com/index/previewing-gpt-5-6-sol",
       "source": "OpenAI News"
     },
     {
-      "title": "Introducing GeneBench-Pro",
-      "summary": "OpenAI unveils GeneBench-Pro, a novel benchmark designed to evaluate AI model performance rigorously in genomics, biology, and scientific research using complex, real-world datasets.",
-      "link": "https://openai.com/index/introducing-genebench-pro",
-      "source": "OpenAI News"
+      "title": "Meituan Releases LongCat-2.0: 1.6T-Parameter Open MoE Model with 1M Context",
+      "summary": "Meituan introduces LongCat-2.0, an open 1.6 trillion-parameter Mixture-of-Experts model featuring a native 1-million-token context built on LongCat Sparse Attention, designed for high-performance training and serving on domestic AI ASIC superpods.",
+      "link": "https://www.marktechpost.com/2026/07/05/meituan-releases-longcat-2-0-a-1-6t-parameter-open-moe-model-with-native-1m-context-and-longcat-sparse-attention/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-      "summary": "Hugging Face and Cerebras collaborate to optimize Gemma 4, enabling its application for real-time voice AI scenarios, delivering enhanced performance and efficiency for conversational applications.",
-      "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-      "source": "Hugging Face Blog"
+      "title": "OpenAI Introduces GeneBench-Pro: New Benchmark for Scientific AI Performance",
+      "summary": "OpenAI has introduced GeneBench-Pro, a new benchmark designed to test AI performance in genomics, biology, and scientific research using complex, real-world datasets, facilitating more robust evaluation of scientific AI models.",
+      "link": "https://openai.com/index/introducing-genebench-pro",
+      "source": "OpenAI News"
     }
   ],
   "tools": [
     {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, empowering organizations to proactively find, validate, and patch software vulnerabilities at scale with advanced AI assistance.",
-      "link": "https://openai.com/index/daybreak-securing-the-world",
-      "source": "OpenAI News"
+      "title": "Synthetic Sciences Releases OpenScience: Open-Source, Model-Agnostic AI Workbench",
+      "summary": "Synthetic Sciences has launched OpenScience, an Apache-2.0 licensed, model-agnostic AI workbench for scientific research across ML, biology, physics, and chemistry, offering 250+ editable skills and scientific databases on self-hosted infrastructure.",
+      "link": "https://www.marktechpost.com/2026/07/05/synthetic-sciences-releases-openscience-an-open-source-model-agnostic-ai-workbench-for-machine-learning-biology-physics-and-chemistry-research/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "summary": "OpenAI and Broadcom have collaborated to introduce \"Jalapeño,\" a custom AI chip specifically engineered for large language model (LLM) inference, promising significant improvements in performance, efficiency, and scalability for AI systems.",
+      "title": "OpenAI and Broadcom Unveil Jalapeño: LLM-Optimized Inference Chip",
+      "summary": "OpenAI and Broadcom have collaborated to introduce Jalapeño, a new custom AI chip specifically engineered for LLM inference, aiming to significantly enhance performance, efficiency, and scalability for AI systems.",
       "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
       "source": "OpenAI News"
     },
     {
-      "title": "Run a vLLM Server on HF Jobs in One Command",
-      "summary": "Hugging Face simplifies LLM deployment by enabling users to run a vLLM server on Hugging Face Jobs with a single command, streamlining the process of serving large models for developers.",
-      "link": "https://huggingface.co/blog/vllm-jobs",
-      "source": "Hugging Face Blog"
+      "title": "OpenAI Introduces Daybreak Tools for Global Organizational Security",
+      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, designed to help organizations at scale find, validate, and patch vulnerabilities, bolstering cybersecurity defenses with advanced AI capabilities.",
+      "link": "https://openai.com/index/daybreak-securing-the-world",
+      "source": "OpenAI News"
     }
   ],
   "companies": [
     {
-      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-      "summary": "HP Inc. has scaled its strategic Frontier partnership with OpenAI to deeply embed AI across its customer experiences, software development processes, and enterprise operations, accelerating its AI transformation.",
+      "title": "HP Inc. Launches Strategic Partnership with OpenAI for AI Integration",
+      "summary": "HP Inc. is expanding its strategic 'Frontier' partnership with OpenAI to integrate AI across its customer experiences, software development, and broader enterprise operations, signaling a significant push towards AI-driven transformation.",
       "link": "https://openai.com/index/hp-frontier-partnership",
       "source": "OpenAI News"
     },
     {
-      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-      "summary": "GPT-5 Pro proved instrumental in resolving a long-standing immunology mystery, providing critical insights into T cell behavior that could accelerate research in cancer and autoimmune diseases.",
-      "link": "https://openai.com/index/gpt-5-immunology-mystery",
+      "title": "ChatGPT Adoption Continues Global Expansion",
+      "summary": "New data from OpenAI reveals significant global expansion in ChatGPT adoption, with users increasing engagement, exploring diverse capabilities, and driving growth across various regions and languages, indicating broad market penetration.",
+      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
       "source": "OpenAI News"
     },
     {
-      "title": "How ChatGPT adoption has expanded",
-      "summary": "New OpenAI Signals data demonstrates robust global expansion of ChatGPT adoption, with users increasingly leveraging its diverse capabilities, driving growth across various regions and languages.",
-      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "source": "OpenAI News"
+      "title": "Google Invests $1.5 Billion in Alabama Data Center Expansion",
+      "summary": "Google announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama, reinforcing its infrastructure presence and commitment to regional development critical for AI operations.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Codex-maxxing for long-running work",
-      "summary": "This guide details how developers can maximize Codex's capabilities to maintain context, manage complex projects efficiently, and sustain productive workflows beyond single prompts.",
-      "link": "https://openai.com/index/codex-maxxing-long-running-work",
-      "source": "OpenAI News"
+      "title": "Guide to Training Gemma-3 for Structured Mathematical Reasoning",
+      "summary": "A detailed workflow demonstrates how to train Gemma-3 for structured mathematical reasoning using Tunix GRPO, LoRA adapters for lightweight training, and GSM8K rewards, enabling builders to improve model performance on complex math problems.",
+      "link": "https://www.marktechpost.com/2026/07/05/training-gemma-3-for-structured-mathematical-reasoning-with-tunix-grpo-lora-adapters-and-gsm8k-rewards/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Ask an AI expert: What exactly is the full stack?",
-      "summary": "A Google expert demystifies the \"full-stack AI\" approach, explaining its foundational importance in AI development and offering insights into building comprehensive AI solutions.",
+      "title": "Structured PDF-to-JSON: A Guide to Open-Source Extraction Models in 2026",
+      "summary": "A comprehensive guide outlines current open-source models and methods for converting unstructured PDF data into structured JSON format on private hardware, addressing a critical need for enterprise data processing workflows.",
+      "link": "https://www.marktechpost.com/2026/07/04/structured-pdf-to-json-a-guide-to-open-source-extraction-models-in-2026/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Ask an AI Expert: Explaining the Full-Stack AI Approach",
+      "summary": "A Google AI expert provides an explanation of the 'full-stack AI' approach, clarifying its components and significance as a foundational strategy in AI development, offering valuable conceptual understanding for builders.",
       "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
       "source": "Google AI Blog"
-    },
-    {
-      "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
-      "summary": "This article explores advanced fine-tuning techniques beyond LoRA, providing insights into methods that can potentially outperform the popular approach for optimizing large language models.",
-      "link": "https://huggingface.co/blog/peft-beyond-lora",
-      "source": "Hugging Face Blog"
     }
   ]
 }
