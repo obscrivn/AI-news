@@ -1,108 +1,108 @@
 {
   "lastUpdated": "2026-07-07T12:00:00Z",
   "highlights": [
-    "The AI landscape is seeing a surge in specialized agentic systems, with new multi-agent workbenches for scientific research and autonomous agents for hardware development and robotics demonstrating advanced problem-solving capabilities.",
-    "Major advancements in foundation models continue, highlighted by OpenAI's preview of GPT-5.6 Sol and Meituan's release of a massive 1.6T-parameter open MoE model featuring a native 1-million-token context, pushing the boundaries of model scale and performance.",
-    "Critical infrastructure and developer tools are evolving rapidly, from the introduction of LLM-optimized inference chips by OpenAI and Broadcom to comprehensive open-source AI workbenches and advanced cybersecurity tools by OpenAI's Daybreak initiative."
+    "The AI landscape is witnessing a rapid deployment of highly capable Mixture-of-Experts (MoE) models with extended context windows, exemplified by Tencent's Hy3 and Meituan's LongCat-2.0, enhancing performance for complex and long-context tasks.",
+    "OpenAI is leading innovation with new model capabilities, including low-latency GPT-Realtime models for voice agents and a preview of the next-generation GPT-5.6 Sol, alongside strategic hardware collaborations like the LLM-optimized inference chip with Broadcom.",
+    "The development of AI agents is accelerating, with research focusing on advanced orchestration for open-ended discovery, object-centric environment modeling for improved learning, and applications in critical domains such as medical diagnosis and cybersecurity."
   ],
   "agents": [
     {
-      "title": "Anthropic Launches Claude Science Beta: Multi-Agent AI Workbench for Reproducible Science",
-      "summary": "Anthropic's Claude Science Beta provides a multi-agent AI workbench for reproducible scientific pipelines in genomics, proteomics, and cheminformatics, coordinating domain specialists and ensuring citation accuracy with full code history.",
-      "link": "https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta/",
+      "title": "OpenAI Releases GPT-Realtime-2.1 and GPT-Realtime-2.1-mini for Low-Latency Voice Agents in the API",
+      "summary": "OpenAI has updated its API with GPT-Realtime-2.1 and a new mini variant, designed for low-latency voice agents, along with a 25% reduction in p95 latency. This enables developers to build highly responsive conversational AI systems at improved cost-efficiency.",
+      "link": "https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/",
       "source": "MarkTechPost"
     },
     {
-      "title": "NVIDIA HORIZON: Hands-Free Agent for Git Worktrees Hits 100% RTL Benchmark Completion",
-      "summary": "NVIDIA's HORIZON is a hands-free agent framework that autonomously evolves Git worktrees, achieving 100% completion on RTL benchmarks, signifying a major advance in automated hardware design and verification for developers.",
-      "link": "https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/",
-      "source": "MarkTechPost"
+      "title": "iFLYTEK-Embodied-Omni Technical Report",
+      "summary": "iFLYTEK-Embodied-Omni introduces a unified multimodal foundation model for general-purpose embodied agents, integrating vision, language, and action into a single framework. This architecture improves instruction understanding, world modeling, and precise control for complex agent tasks.",
+      "link": "https://arxiv.org/abs/2607.02542",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "NVIDIA AI Introduces ASPIRE: Self-Improving Robotics Framework for Long Tasks",
-      "summary": "NVIDIA AI's ASPIRE is a self-improving robotics framework that writes and refines robot control programs, distills validated repairs into a skill library, and demonstrates significant zero-shot transfer capabilities on complex, long-horizon tasks, enabling faster robotics development.",
-      "link": "https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks/",
-      "source": "MarkTechPost"
+      "title": "SwarmResearch: Orchestrating Coding Agents for Open-Ended Discovery",
+      "summary": "SwarmResearch is an orchestrator-subagent framework that uses a Shepherd Agent to steer a population of Search Agents, each with local context, for open-ended code optimization. This approach enhances high-level exploration and discovers better solutions compared to existing multi-agent techniques.",
+      "link": "https://arxiv.org/abs/2607.02807",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "OpenAI Previews GPT-5.6 Sol: Next-Generation Model with Enhanced Capabilities",
-      "summary": "OpenAI has previewed GPT-5.6 Sol, a next-generation model boasting enhanced capabilities in coding, scientific research, and cybersecurity, coupled with their most advanced safety framework, offering builders a powerful new foundation.",
+      "title": "OpenAI Previews GPT-5.6 Sol: a Next-Generation Model",
+      "summary": "OpenAI has previewed GPT-5.6 Sol, its next-generation model, boasting enhanced capabilities in coding, science, and cybersecurity, coupled with its most advanced safety stack. This indicates a significant leap in performance across critical domains for developers.",
       "link": "https://openai.com/index/previewing-gpt-5-6-sol",
       "source": "OpenAI News"
     },
     {
-      "title": "Meituan Releases LongCat-2.0: 1.6T-Parameter Open MoE Model with 1M Context",
-      "summary": "Meituan introduces LongCat-2.0, an open 1.6 trillion-parameter Mixture-of-Experts model featuring a native 1-million-token context built on LongCat Sparse Attention, designed for high-performance training and serving on domestic AI ASIC superpods.",
+      "title": "Meituan Releases LongCat-2.0: A 1.6T-Parameter Open MoE Model with Native 1M Context and LongCat Sparse Attention",
+      "summary": "Meituan unveiled LongCat-2.0, an open 1.6 trillion-parameter Mixture-of-Experts (MoE) model featuring a native 1-million-token context window. This model provides unprecedented long-context capabilities for demanding applications, trained on domestic AI ASIC superpods.",
       "link": "https://www.marktechpost.com/2026/07/05/meituan-releases-longcat-2-0-a-1-6t-parameter-open-moe-model-with-native-1m-context-and-longcat-sparse-attention/",
       "source": "MarkTechPost"
     },
     {
-      "title": "OpenAI Introduces GeneBench-Pro: New Benchmark for Scientific AI Performance",
-      "summary": "OpenAI has introduced GeneBench-Pro, a new benchmark designed to test AI performance in genomics, biology, and scientific research using complex, real-world datasets, facilitating more robust evaluation of scientific AI models.",
-      "link": "https://openai.com/index/introducing-genebench-pro",
-      "source": "OpenAI News"
+      "title": "Tencent Releases Hy3: An Open 295B Mixture-of-Experts (MoE) Model with 21B Active Parameters and 256K Context",
+      "summary": "Tencent's Hy3 is an open 295B Mixture-of-Experts model, activating 21B parameters per token, featuring a 256K context window under Apache 2.0 license. It excels in reasoning, agentic, and long-context tasks, offering a powerful open-source option for developers.",
+      "link": "https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model/",
+      "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Synthetic Sciences Releases OpenScience: Open-Source, Model-Agnostic AI Workbench",
-      "summary": "Synthetic Sciences has launched OpenScience, an Apache-2.0 licensed, model-agnostic AI workbench for scientific research across ML, biology, physics, and chemistry, offering 250+ editable skills and scientific databases on self-hosted infrastructure.",
+      "title": "Synthetic Sciences Releases OpenScience: An Open-Source, Model-Agnostic AI Workbench for Scientific Research",
+      "summary": "OpenScience, an Apache-2.0 AI workbench from Synthetic Sciences, offers a model-agnostic platform for scientific research, compatible with any LLM via API keys. It provides 250+ editable skills and scientific databases, deployable on custom infrastructure.",
       "link": "https://www.marktechpost.com/2026/07/05/synthetic-sciences-releases-openscience-an-open-source-model-agnostic-ai-workbench-for-machine-learning-biology-physics-and-chemistry-research/",
       "source": "MarkTechPost"
     },
     {
-      "title": "OpenAI and Broadcom Unveil Jalapeño: LLM-Optimized Inference Chip",
-      "summary": "OpenAI and Broadcom have collaborated to introduce Jalapeño, a new custom AI chip specifically engineered for LLM inference, aiming to significantly enhance performance, efficiency, and scalability for AI systems.",
-      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "source": "OpenAI News"
+      "title": "VERITAS: Towards a General-Purpose Replication Tool for Scientific Research",
+      "summary": "VERITAS is a new domain-agnostic replication framework built around CLI coding agents, designed to automate the verification of scientific research by extracting claims, running methodologies, and judging findings against experimental evidence. It achieves state-of-the-art performance on benchmarks, providing a crucial tool for reproducibility.",
+      "link": "https://arxiv.org/abs/2607.02931",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "OpenAI Introduces Daybreak Tools for Global Organizational Security",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, designed to help organizations at scale find, validate, and patch vulnerabilities, bolstering cybersecurity defenses with advanced AI capabilities.",
-      "link": "https://openai.com/index/daybreak-securing-the-world",
-      "source": "OpenAI News"
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "summary": "Hugging Face now enables users to deploy a vLLM server on HF Jobs with a single command, significantly simplifying the process of serving large language models for inference. This streamlines development workflows and enhances accessibility for model deployment.",
+      "link": "https://huggingface.co/blog/vllm-jobs",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "HP Inc. Launches Strategic Partnership with OpenAI for AI Integration",
-      "summary": "HP Inc. is expanding its strategic 'Frontier' partnership with OpenAI to integrate AI across its customer experiences, software development, and broader enterprise operations, signaling a significant push towards AI-driven transformation.",
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "summary": "HP Inc. has scaled its strategic partnership with OpenAI to deploy AI across customer experiences, software development, and enterprise operations, demonstrating a significant corporate commitment to integrating advanced AI.",
       "link": "https://openai.com/index/hp-frontier-partnership",
       "source": "OpenAI News"
     },
     {
-      "title": "ChatGPT Adoption Continues Global Expansion",
-      "summary": "New data from OpenAI reveals significant global expansion in ChatGPT adoption, with users increasing engagement, exploring diverse capabilities, and driving growth across various regions and languages, indicating broad market penetration.",
-      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "summary": "OpenAI and Broadcom have introduced Jalapeño, a custom AI chip specifically designed for LLM inference, aiming to significantly improve performance, efficiency, and scalability for AI systems. This represents a strategic hardware collaboration for AI infrastructure.",
+      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
       "source": "OpenAI News"
     },
     {
-      "title": "Google Invests $1.5 Billion in Alabama Data Center Expansion",
-      "summary": "Google announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama, reinforcing its infrastructure presence and commitment to regional development critical for AI operations.",
-      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
-      "source": "Google AI Blog"
+      "title": "OpenAI Introduces Daybreak Initiative for Global Cybersecurity with New Tools",
+      "summary": "OpenAI launched the Daybreak initiative, featuring new tools like Codex Security and GPT-5.5-Cyber, designed to help organizations find, validate, and patch vulnerabilities at scale. This strategic move positions OpenAI to secure global organizations and support open-source maintainers.",
+      "link": "https://openai.com/index/daybreak-securing-the-world",
+      "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Guide to Training Gemma-3 for Structured Mathematical Reasoning",
-      "summary": "A detailed workflow demonstrates how to train Gemma-3 for structured mathematical reasoning using Tunix GRPO, LoRA adapters for lightweight training, and GSM8K rewards, enabling builders to improve model performance on complex math problems.",
-      "link": "https://www.marktechpost.com/2026/07/05/training-gemma-3-for-structured-mathematical-reasoning-with-tunix-grpo-lora-adapters-and-gsm8k-rewards/",
+      "title": "Building a Scaffold-Split Random Forest QSAR Co-Scientist for EGFR Inhibitor Discovery Using ChEMBL, RDKit, SHAP, and BRICS",
+      "summary": "This tutorial guides builders through constructing an autonomous AI co-scientist for drug discovery, leveraging ChEMBL, RDKit, SHAP, and BRICS to identify and generate novel EGFR inhibitor candidates. It provides practical steps for applying ML to molecular design.",
+      "link": "https://www.marktechpost.com/2026/07/06/building-a-scaffold-split-random-forest-qsar-co-scientist-for-egfr-inhibitor-discovery-using-chembl-rdkit-shap-and-brics/",
       "source": "MarkTechPost"
     },
     {
       "title": "Structured PDF-to-JSON: A Guide to Open-Source Extraction Models in 2026",
-      "summary": "A comprehensive guide outlines current open-source models and methods for converting unstructured PDF data into structured JSON format on private hardware, addressing a critical need for enterprise data processing workflows.",
+      "summary": "A comprehensive guide provides an overview of open-source models and methods for converting unstructured PDF data into structured JSON, a critical step for integrating vast amounts of enterprise data with LLMs and agents for analytical tasks.",
       "link": "https://www.marktechpost.com/2026/07/04/structured-pdf-to-json-a-guide-to-open-source-extraction-models-in-2026/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Ask an AI Expert: Explaining the Full-Stack AI Approach",
-      "summary": "A Google AI expert provides an explanation of the 'full-stack AI' approach, clarifying its components and significance as a foundational strategy in AI development, offering valuable conceptual understanding for builders.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
-      "source": "Google AI Blog"
+      "title": "Training Gemma-3 for Structured Mathematical Reasoning with Tunix GRPO, LoRA Adapters, and GSM8K Rewards",
+      "summary": "This guide details an end-to-end GRPO training workflow for fine-tuning Gemma-3, improving its mathematical reasoning by defining reward functions for format adherence and numeric correctness, and utilizing LoRA adapters for efficient training.",
+      "link": "https://www.marktechpost.com/2026/07/05/training-gemma-3-for-structured-mathematical-reasoning-with-tunix-grpo-lora-adapters-and-gsm8k-rewards/",
+      "source": "MarkTechPost"
     }
   ]
 }
