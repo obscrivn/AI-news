@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-07-07T12:00:00Z",
+  "lastUpdated": "2026-07-08T00:00:00Z",
   "highlights": [
-    "The AI landscape is witnessing a rapid deployment of highly capable Mixture-of-Experts (MoE) models with extended context windows, exemplified by Tencent's Hy3 and Meituan's LongCat-2.0, enhancing performance for complex and long-context tasks.",
-    "OpenAI is leading innovation with new model capabilities, including low-latency GPT-Realtime models for voice agents and a preview of the next-generation GPT-5.6 Sol, alongside strategic hardware collaborations like the LLM-optimized inference chip with Broadcom.",
-    "The development of AI agents is accelerating, with research focusing on advanced orchestration for open-ended discovery, object-centric environment modeling for improved learning, and applications in critical domains such as medical diagnosis and cybersecurity."
+    "AI agent systems are making significant strides with new capabilities for auditable scientific discovery, industrial automation (CAD), and enhanced memory architectures that dramatically improve long-horizon task performance.",
+    "Major model advancements include OpenAI's GPT-5.6 Sol, pushing boundaries in coding and scientific reasoning, and Google's AMIE, demonstrating physician-level performance in complex medical diagnosis.",
+    "The AI infrastructure ecosystem is rapidly evolving with custom LLM inference chips (OpenAI/Broadcom Jalapeño), new security tool suites, and expanded API capabilities (Google Gemini Managed Agents) that streamline development and deployment."
   ],
   "agents": [
     {
-      "title": "OpenAI Releases GPT-Realtime-2.1 and GPT-Realtime-2.1-mini for Low-Latency Voice Agents in the API",
-      "summary": "OpenAI has updated its API with GPT-Realtime-2.1 and a new mini variant, designed for low-latency voice agents, along with a 25% reduction in p95 latency. This enables developers to build highly responsive conversational AI systems at improved cost-efficiency.",
-      "link": "https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "iFLYTEK-Embodied-Omni Technical Report",
-      "summary": "iFLYTEK-Embodied-Omni introduces a unified multimodal foundation model for general-purpose embodied agents, integrating vision, language, and action into a single framework. This architecture improves instruction understanding, world modeling, and precise control for complex agent tasks.",
-      "link": "https://arxiv.org/abs/2607.02542",
+      "title": "Prompt-to-Paper: Agentic AI System for Bioinformatics",
+      "summary": "Introduces Prompt-to-Paper, a multi-agent framework that generates scientific manuscripts grounded in verifiable literature and executes real bioinformatics experiments, improving quality assessment and reducing fabrication.",
+      "link": "https://arxiv.org/abs/2607.05456",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "SwarmResearch: Orchestrating Coding Agents for Open-Ended Discovery",
-      "summary": "SwarmResearch is an orchestrator-subagent framework that uses a Shepherd Agent to steer a population of Search Agents, each with local context, for open-ended code optimization. This approach enhances high-level exploration and discovers better solutions compared to existing multi-agent techniques.",
-      "link": "https://arxiv.org/abs/2607.02807",
+      "title": "FirstResearch: Auditable Question Formation for LLM Scientific Discovery Agents",
+      "summary": "Introduces FirstResearch, a framework for LLM scientific discovery agents that generates auditable research questions through structured Research Question Certificates, exposing mechanisms, assumptions, and falsifiable hypotheses.",
+      "link": "https://arxiv.org/abs/2607.05682",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "Memory in the Loop: In-Process Retrieval as ExtendedWorking Memory for Language Agents",
+      "summary": "Explores in-process retrieval for language agents, demonstrating that a sub-millisecond in-process memory store significantly reduces redundant actions and improves recall, turning memory into extended working memory.",
+      "link": "https://arxiv.org/abs/2607.05690",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "OpenAI Previews GPT-5.6 Sol: a Next-Generation Model",
-      "summary": "OpenAI has previewed GPT-5.6 Sol, its next-generation model, boasting enhanced capabilities in coding, science, and cybersecurity, coupled with its most advanced safety stack. This indicates a significant leap in performance across critical domains for developers.",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model featuring enhanced capabilities in coding, science, and cybersecurity, coupled with its most advanced safety stack for cutting-edge AI applications.",
       "link": "https://openai.com/index/previewing-gpt-5-6-sol",
       "source": "OpenAI News"
     },
     {
-      "title": "Meituan Releases LongCat-2.0: A 1.6T-Parameter Open MoE Model with Native 1M Context and LongCat Sparse Attention",
-      "summary": "Meituan unveiled LongCat-2.0, an open 1.6 trillion-parameter Mixture-of-Experts (MoE) model featuring a native 1-million-token context window. This model provides unprecedented long-context capabilities for demanding applications, trained on domestic AI ASIC superpods.",
-      "link": "https://www.marktechpost.com/2026/07/05/meituan-releases-longcat-2-0-a-1-6t-parameter-open-moe-model-with-native-1m-context-and-longcat-sparse-attention/",
-      "source": "MarkTechPost"
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "summary": "New research published in Nature demonstrates that Google's conversational AI system, AMIE, matches primary care physicians in complex disease management, indicating a major step for medical AI.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Tencent Releases Hy3: An Open 295B Mixture-of-Experts (MoE) Model with 21B Active Parameters and 256K Context",
-      "summary": "Tencent's Hy3 is an open 295B Mixture-of-Experts model, activating 21B parameters per token, featuring a 256K context window under Apache 2.0 license. It excels in reasoning, agentic, and long-context tasks, offering a powerful open-source option for developers.",
-      "link": "https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model/",
-      "source": "MarkTechPost"
+      "title": "Foundation Models for Automatic CAD Generation",
+      "summary": "Presents LLMForge, a multi-model text-to-CAD framework with JSON-schema validation and iterative refinement, demonstrating compact instruction-tuned models can achieve high mesh success rates for parametric 3D designs.",
+      "link": "https://arxiv.org/abs/2607.05573",
+      "source": "arXiv cs.AI"
     }
   ],
   "tools": [
     {
-      "title": "Synthetic Sciences Releases OpenScience: An Open-Source, Model-Agnostic AI Workbench for Scientific Research",
-      "summary": "OpenScience, an Apache-2.0 AI workbench from Synthetic Sciences, offers a model-agnostic platform for scientific research, compatible with any LLM via API keys. It provides 250+ editable skills and scientific databases, deployable on custom infrastructure.",
-      "link": "https://www.marktechpost.com/2026/07/05/synthetic-sciences-releases-openscience-an-open-source-model-agnostic-ai-workbench-for-machine-learning-biology-physics-and-chemistry-research/",
-      "source": "MarkTechPost"
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip specifically designed for LLM inference, aiming to significantly improve performance, efficiency, and scalability across AI systems.",
+      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "source": "OpenAI News"
     },
     {
-      "title": "VERITAS: Towards a General-Purpose Replication Tool for Scientific Research",
-      "summary": "VERITAS is a new domain-agnostic replication framework built around CLI coding agents, designed to automate the verification of scientific research by extracting claims, running methodologies, and judging findings against experimental evidence. It achieves state-of-the-art performance on benchmarks, providing a crucial tool for reproducibility.",
-      "link": "https://arxiv.org/abs/2607.02931",
-      "source": "arXiv cs.AI"
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to enable organizations to efficiently find, validate, and patch vulnerabilities at scale, enhancing cybersecurity posture.",
+      "link": "https://openai.com/index/daybreak-securing-the-world",
+      "source": "OpenAI News"
     },
     {
-      "title": "Run a vLLM Server on HF Jobs in One Command",
-      "summary": "Hugging Face now enables users to deploy a vLLM server on HF Jobs with a single command, significantly simplifying the process of serving large language models for inference. This streamlines development workflows and enhances accessibility for model deployment.",
-      "link": "https://huggingface.co/blog/vllm-jobs",
-      "source": "Hugging Face Blog"
+      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+      "summary": "Google announces expanded capabilities for Managed Agents in Gemini API, including background tasks and remote MCP, empowering developers to build more reliable and production-ready AI agents.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "source": "Google AI Blog"
     }
   ],
   "companies": [
     {
       "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-      "summary": "HP Inc. has scaled its strategic partnership with OpenAI to deploy AI across customer experiences, software development, and enterprise operations, demonstrating a significant corporate commitment to integrating advanced AI.",
+      "summary": "HP Inc. is scaling its OpenAI Frontier partnership to integrate AI across customer experiences, software development, and enterprise operations, signaling a significant enterprise-wide AI deployment.",
       "link": "https://openai.com/index/hp-frontier-partnership",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "summary": "OpenAI and Broadcom have introduced Jalapeño, a custom AI chip specifically designed for LLM inference, aiming to significantly improve performance, efficiency, and scalability for AI systems. This represents a strategic hardware collaboration for AI infrastructure.",
-      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+      "summary": "Australian Payments Plus is leveraging ChatGPT Enterprise and Codex to accelerate operations, enhance quality, and manage payments complexity, integrating AI while maintaining human oversight.",
+      "link": "https://openai.com/index/australian-payments-plus",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Introduces Daybreak Initiative for Global Cybersecurity with New Tools",
-      "summary": "OpenAI launched the Daybreak initiative, featuring new tools like Codex Security and GPT-5.5-Cyber, designed to help organizations find, validate, and patch vulnerabilities at scale. This strategic move positions OpenAI to secure global organizations and support open-source maintainers.",
-      "link": "https://openai.com/index/daybreak-securing-the-world",
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "summary": "MUFG is adopting ChatGPT Enterprise to transform into an AI-native organization, improving internal workflows and delivering new AI-powered financial services at scale.",
+      "link": "https://openai.com/index/mufg",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Building a Scaffold-Split Random Forest QSAR Co-Scientist for EGFR Inhibitor Discovery Using ChEMBL, RDKit, SHAP, and BRICS",
-      "summary": "This tutorial guides builders through constructing an autonomous AI co-scientist for drug discovery, leveraging ChEMBL, RDKit, SHAP, and BRICS to identify and generate novel EGFR inhibitor candidates. It provides practical steps for applying ML to molecular design.",
-      "link": "https://www.marktechpost.com/2026/07/06/building-a-scaffold-split-random-forest-qsar-co-scientist-for-egfr-inhibitor-discovery-using-chembl-rdkit-shap-and-brics/",
-      "source": "MarkTechPost"
+      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+      "summary": "Google hosted an AI summit for NYC educators and industry leaders to shape the future of AI in classrooms, fostering collaboration on integrating AI into K-12 education.",
+      "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Structured PDF-to-JSON: A Guide to Open-Source Extraction Models in 2026",
-      "summary": "A comprehensive guide provides an overview of open-source models and methods for converting unstructured PDF data into structured JSON, a critical step for integrating vast amounts of enterprise data with LLMs and agents for analytical tasks.",
-      "link": "https://www.marktechpost.com/2026/07/04/structured-pdf-to-json-a-guide-to-open-source-extraction-models-in-2026/",
-      "source": "MarkTechPost"
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "summary": "University of Waterloo students are developing real-life AI prototypes, such as sign language tutors, through the Futures Lab, showcasing innovative applications and educational impact.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Training Gemma-3 for Structured Mathematical Reasoning with Tunix GRPO, LoRA Adapters, and GSM8K Rewards",
-      "summary": "This guide details an end-to-end GRPO training workflow for fine-tuning Gemma-3, improving its mathematical reasoning by defining reward functions for format adherence and numeric correctness, and utilizing LoRA adapters for efficient training.",
-      "link": "https://www.marktechpost.com/2026/07/05/training-gemma-3-for-structured-mathematical-reasoning-with-tunix-grpo-lora-adapters-and-gsm8k-rewards/",
-      "source": "MarkTechPost"
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "summary": "A Google expert provides a clear explanation of what it means to take a full-stack approach to AI, offering foundational understanding for developers and practitioners.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+      "source": "Google AI Blog"
     }
   ]
 }
