@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2026-07-08T00:00:00Z",
+  "lastUpdated": "2024-07-09T12:00:00Z",
   "highlights": [
-    "AI agent systems are making significant strides with new capabilities for auditable scientific discovery, industrial automation (CAD), and enhanced memory architectures that dramatically improve long-horizon task performance.",
-    "Major model advancements include OpenAI's GPT-5.6 Sol, pushing boundaries in coding and scientific reasoning, and Google's AMIE, demonstrating physician-level performance in complex medical diagnosis.",
-    "The AI infrastructure ecosystem is rapidly evolving with custom LLM inference chips (OpenAI/Broadcom Jalapeño), new security tool suites, and expanded API capabilities (Google Gemini Managed Agents) that streamline development and deployment."
+    "AI agents are evolving rapidly with new frameworks for self-optimization and significant gains in enterprise efficiency through better orchestration, reducing costs and increasing task completion.",
+    "Major model advancements include OpenAI's full-duplex voice models for natural interaction and NVIDIA's compressed MoE LLM delivering over 2x throughput, alongside new open-source models for robotics and vision.",
+    "Developer tools are simplifying AI application deployment and management, with Google AI Studio integrating GitHub import and enhanced Gemini API capabilities for production-ready agent building."
   ],
   "agents": [
     {
-      "title": "Prompt-to-Paper: Agentic AI System for Bioinformatics",
-      "summary": "Introduces Prompt-to-Paper, a multi-agent framework that generates scientific manuscripts grounded in verifiable literature and executes real bioinformatics experiments, improving quality assessment and reducing fabrication.",
-      "link": "https://arxiv.org/abs/2607.05456",
+      "title": "SpaceXAI Releases Grok 4.5 for Coding and Agentic Tasks",
+      "summary": "SpaceXAI has released Grok 4.5, a Cursor-trained model optimized for coding, agentic tasks, and knowledge work, offering competitive pricing at $2 per million input tokens and ranking #1 on legal agent benchmarks.",
+      "link": "https://www.marktechpost.com/2026/07/08/spacexai-releases-grok-4-5/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Iterative Tool Optimization for Self-Evolving LLM Agents (EvoSOP)",
+      "summary": "A new framework, EvoSOP, enables LLM agents to self-evolve by synthesizing atomic actions into reusable Standard Operating Procedures, significantly boosting task success rates and reducing interaction rounds.",
+      "link": "https://arxiv.org/abs/2607.07321",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "FirstResearch: Auditable Question Formation for LLM Scientific Discovery Agents",
-      "summary": "Introduces FirstResearch, a framework for LLM scientific discovery agents that generates auditable research questions through structured Research Question Certificates, exposing mechanisms, assumptions, and falsifiable hypotheses.",
-      "link": "https://arxiv.org/abs/2607.05682",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Memory in the Loop: In-Process Retrieval as ExtendedWorking Memory for Language Agents",
-      "summary": "Explores in-process retrieval for language agents, demonstrating that a sub-millisecond in-process memory store significantly reduces redundant actions and improves recall, turning memory into extended working memory.",
-      "link": "https://arxiv.org/abs/2607.05690",
+      "title": "The Harness Effect: Optimizing Token Economics in Enterprise Agentic AI",
+      "summary": "Research demonstrates that the orchestration layer (harness) in enterprise agentic AI is crucial for efficiency, reducing blended cost per task by 41% and tokens per task by 38% while maintaining quality across various models.",
+      "link": "https://arxiv.org/abs/2607.06906",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "Previewing GPT-5.6 Sol: a next-generation model",
-      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model featuring enhanced capabilities in coding, science, and cybersecurity, coupled with its most advanced safety stack for cutting-edge AI applications.",
-      "link": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "source": "OpenAI News"
+      "title": "OpenAI Releases GPT-Live and GPT-Live-1 mini: Full-Duplex Voice Models",
+      "summary": "OpenAI has introduced GPT-Live, a new generation of full-duplex voice models now powering ChatGPT Voice, enabling simultaneous listening and speaking with deeper reasoning delegated to GPT-5.5 for more natural human-AI interaction.",
+      "link": "https://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "summary": "New research published in Nature demonstrates that Google's conversational AI system, AMIE, matches primary care physicians in complex disease management, indicating a major step for medical AI.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "source": "Google AI Blog"
+      "title": "NVIDIA Releases Nemotron-Labs-3-Puzzle-75B-A9B: Compressed Hybrid MoE LLM",
+      "summary": "NVIDIA's new Nemotron-Labs-3-Puzzle-75B-A9B is a compressed hybrid MoE LLM that delivers 2.03x server throughput at matched user throughput, significantly improving efficiency for large-scale language model inference.",
+      "link": "https://www.marktechpost.com/2026/07/09/nvidia-releases-nemotron-labs-3-puzzle-75b-a9b-a-compressed-hybrid-moe-llm-delivering-2-03x-server-throughput-at-matched-user-throughput/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Foundation Models for Automatic CAD Generation",
-      "summary": "Presents LLMForge, a multi-model text-to-CAD framework with JSON-schema validation and iterative refinement, demonstrating compact instruction-tuned models can achieve high mesh success rates for parametric 3D designs.",
-      "link": "https://arxiv.org/abs/2607.05573",
-      "source": "arXiv cs.AI"
+      "title": "Robbyant Releases LingBot-VLA 2.0: Open-Source 6B Vision-Language-Action Model",
+      "summary": "Ant Group's Robbyant has open-sourced LingBot-VLA 2.0, a 6B vision-language-action model for cross-embodiment robot manipulation, trained on extensive robot trajectory and human video data for versatile control.",
+      "link": "https://www.marktechpost.com/2026/07/08/lingbot-vla-2-0/",
+      "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip specifically designed for LLM inference, aiming to significantly improve performance, efficiency, and scalability across AI systems.",
-      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "source": "OpenAI News"
+      "title": "Google AI Studio Adds Import from GitHub for Deployable Apps",
+      "summary": "Google AI Studio now allows direct import from GitHub in Build mode, transforming existing repositories into runtime-compatible formats for easier iteration and deployment of AI applications.",
+      "link": "https://www.marktechpost.com/2026/07/09/google-ai-studio-adds-import-from-github/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to enable organizations to efficiently find, validate, and patch vulnerabilities at scale, enhancing cybersecurity posture.",
-      "link": "https://openai.com/index/daybreak-securing-the-world",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
-      "summary": "Google announces expanded capabilities for Managed Agents in Gemini API, including background tasks and remote MCP, empowering developers to build more reliable and production-ready AI agents.",
+      "title": "Expanding Managed Agents in Gemini API for Developers",
+      "summary": "Google is enhancing Managed Agents in the Gemini API with new capabilities, including background tasks and remote Multi-Agent Coordination Protocol (MCP), to help developers build reliable, production-ready AI agents.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
       "source": "Google AI Blog"
+    },
+    {
+      "title": "One-Click Deployment from Hugging Face to Amazon SageMaker Studio",
+      "summary": "Hugging Face now offers a one-click integration to deploy models directly to Amazon SageMaker Studio, streamlining MLOps workflows and making it easier for developers to manage and scale their AI models.",
+      "link": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-      "summary": "HP Inc. is scaling its OpenAI Frontier partnership to integrate AI across customer experiences, software development, and enterprise operations, signaling a significant enterprise-wide AI deployment.",
+      "title": "OpenAI and Broadcom Unveil LLM-Optimized Inference Chip",
+      "summary": "OpenAI and Broadcom have introduced Jalapeño, a custom AI chip designed for LLM inference, aiming to significantly improve performance, efficiency, and scalability across AI systems.",
+      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "OpenAI Outlines Approach to Government and National Security Partnerships",
+      "summary": "OpenAI has published its principles for engaging with government and national security sectors, emphasizing responsible AI use, democratic accountability, and public safety in strategic collaborations.",
+      "link": "https://openai.com/index/government-national-security-partnerships",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "HP Inc. Scales Frontier Strategic Partnership with OpenAI",
+      "summary": "HP Inc. is expanding its OpenAI Frontier partnership to integrate AI across customer experiences, software development, and enterprise operations, aiming to deploy advanced AI capabilities at scale.",
       "link": "https://openai.com/index/hp-frontier-partnership",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
-      "summary": "Australian Payments Plus is leveraging ChatGPT Enterprise and Codex to accelerate operations, enhance quality, and manage payments complexity, integrating AI while maintaining human oversight.",
-      "link": "https://openai.com/index/australian-payments-plus",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "MUFG aims to become AI-native with OpenAI",
-      "summary": "MUFG is adopting ChatGPT Enterprise to transform into an AI-native organization, improving internal workflows and delivering new AI-powered financial services at scale.",
-      "link": "https://openai.com/index/mufg",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
-      "summary": "Google hosted an AI summit for NYC educators and industry leaders to shape the future of AI in classrooms, fostering collaboration on integrating AI into K-12 education.",
+      "title": "NVIDIA’s Cosmos-Framework Tutorial: Building Miniature World Models in Colab",
+      "summary": "NVIDIA released a tutorial for their cosmos-framework, guiding developers through designing and training a Colab-friendly miniature of Cosmos 3 World Models using an omnimodal Mixture-of-Transformers for future latent state prediction.",
+      "link": "https://www.marktechpost.com/2026/07/08/nvidias-cosmos-framework-tutorial-designing-a-colab-friendly-miniature-of-cosmos-3-world-models-with-omnimodal-mixture-of-transformers/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "OpenAI Academy Helps K–12 Educators Build Practical AI Skills",
+      "summary": "OpenAI Academy, in partnership with the Walton Family Foundation, is launching 'AI Skills Jams' to provide K–12 educators with hands-on training to build practical AI skills for classroom integration.",
+      "link": "https://openai.com/index/k-12-educators-practical-skills",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "NYC AI Summit: Google and Leaders Shape AI's Future in Classrooms",
+      "summary": "Google, alongside the New York Jobs CEO Council and Urban Assembly, hosted an AI summit in NYC for 150 education and industry leaders to discuss and shape the future integration of AI in K–12 classrooms.",
       "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "Check out real-life AI prototypes from the Futures Lab.",
-      "summary": "University of Waterloo students are developing real-life AI prototypes, such as sign language tutors, through the Futures Lab, showcasing innovative applications and educational impact.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "Ask an AI expert: What exactly is the full stack?",
-      "summary": "A Google expert provides a clear explanation of what it means to take a full-stack approach to AI, offering foundational understanding for developers and practitioners.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
       "source": "Google AI Blog"
     }
   ]
