@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-07-10T12:00:00Z",
+  "lastUpdated": "2026-07-11T00:00:00Z",
   "highlights": [
-    "OpenAI has launched GPT-5.6 with multi-tier options and crucial programmatic tool calling, while Meta released Muse Spark 1.1, a multimodal model geared for complex agentic tasks on their new API.",
-    "Significant advancements in AI agent efficiency are emerging, with new research demonstrating how optimized orchestration can drastically cut token costs and how agents can self-evolve by creating higher-order tools.",
-    "Industry adoption accelerates, highlighted by GPT-5.6's integration into Microsoft 365 Copilot, Google's enhanced managed agent capabilities for developers, and Google Research's new health-focused foundation model, SensorFM."
+    "OpenAI's GPT-5.6 release with programmatic tool calling and tiered models sets a new standard for intelligent agent orchestration and cost-efficiency.",
+    "Major advancements in specialized foundation models, from Google's SensorFM for wearable health to Ant Group's LingBot-VA 2.0 for physical AI, underscore the increasing domain-specific capabilities of AI.",
+    "The rise of proactive enterprise agents and enhanced developer tools for agent building, coupled with improved LLM serving, highlights a strong industry push towards autonomous AI systems and streamlined deployment."
   ],
   "agents": [
     {
+      "title": "OpenAI Releases GPT-5.6 With Programmatic Tool Calling",
+      "summary": "OpenAI's GPT-5.6 introduces programmatic tool calling, allowing models to execute JavaScript for orchestrating tools efficiently within an isolated V8 runtime, significantly reducing token usage and enhancing agent capabilities.",
+      "link": "https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/",
+      "source": "MarkTechPost"
+    },
+    {
       "title": "ChatGPT is now a partner for your most ambitious work",
-      "summary": "OpenAI has launched 'ChatGPT Work', a new agent capable of taking action across multiple applications and files, persisting on projects for extended periods, and transforming high-level goals into completed tasks.",
+      "summary": "ChatGPT Work is introduced as an agent capable of taking actions across applications and files, persisting on projects for extended periods, and transforming complex goals into completed work.",
       "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
       "source": "OpenAI News"
     },
     {
-      "title": "From Atomic Actions to Standard Operating Procedures: Iterative Tool Optimization for Self-Evolving LLM Agents",
-      "summary": "EvoSOP, a new framework, empowers LLM agents to achieve self-evolution by synthesizing granular atomic actions into reusable Standard Operating Procedures (SOPs), which significantly boosts task success rates and reduces interaction rounds.",
-      "link": "https://arxiv.org/abs/2607.07321",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "The Harness Effect: How Orchestration Design Sets the Token Economics of Enterprise Agentic AI",
-      "summary": "New research reveals that the orchestration layer (harness) is critical for enterprise agentic AI, demonstrating that effective design can cut blended cost per task by 41% and median wall-clock time by 44% while maintaining quality.",
-      "link": "https://arxiv.org/abs/2607.06906",
+      "title": "Agentic Neural Architecture Search",
+      "summary": "AgentNAS proposes a method where an LLM generates a seed architecture and decomposes it into a slotted architecture for conventional Neural Architecture Search, automating task-specific search space definition and setting new state-of-the-art on 11 tasks.",
+      "link": "https://arxiv.org/abs/2607.07984",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "OpenAI Releases GPT-5.6 (Sol, Terra, Luna): A Three-Tier Model Family With Programmatic Tool Calling in the Responses API",
-      "summary": "OpenAI has released GPT-5.6 in three tiers (Sol, Terra, Luna), featuring a significant developer advancement with Programmatic Tool Calling, enabling models to orchestrate tools by executing JavaScript in an isolated V8 runtime, drastically cutting token usage.",
+      "title": "OpenAI Releases GPT-5.6 (Sol, Terra, Luna): A Three-Tier Model Family",
+      "summary": "OpenAI's new GPT-5.6 family (Sol, Terra, Luna) offers enhanced intelligence and cost-performance, with Sol leading in coding agent benchmarks and introducing programmatic tool calling for advanced orchestration.",
       "link": "https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Google Research Introduces SensorFM: A Wearable Health Foundation Model Pretrained on One Trillion Minutes of Sensor Data",
-      "summary": "Google Research, DeepMind, and collaborators unveiled SensorFM, a wearable health foundation model pretrained on over a trillion minutes of unlabeled sensor data from 5,000,000 participants, demonstrating superior performance on 34 of 35 tasks over feature-engineered baselines.",
+      "title": "Google Research Introduces SensorFM: Wearable Health Foundation Model",
+      "summary": "SensorFM is a new wearable health foundation model from Google, pretrained on over one trillion minutes of sensor data from 5 million participants, demonstrating superior performance on 34 of 35 health tasks.",
       "link": "https://www.marktechpost.com/2026/07/10/google-research-introduces-sensorfm-a-wearable-health-foundation-model-pretrained-on-one-trillion-minutes-of-sensor-data/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Meta Superintelligence Labs Releases Muse Spark 1.1: A Multimodal Reasoning Model for Agentic Tasks on Meta Model API",
-      "summary": "Meta Superintelligence Labs launched Muse Spark 1.1, a multimodal reasoning model designed for agentic tasks, featuring a 1,000,000-token context window and zero-shot generalization to new tools, available via a public preview of the Meta Model API.",
-      "link": "https://www.marktechpost.com/2026/07/09/meta-superintelligence-labs-releases-muse-spark-1-1/",
+      "title": "Ant Group’s Robbyant Unveils LingBot-VA 2.0: Causal Video-Action Model for Physical AI",
+      "summary": "LingBot-VA 2.0 is a Physical AI video-action foundation model built natively for embodied intelligence, featuring Foresight Reasoning, real-time re-grounding, and high-frequency asynchronous control for advanced robotic applications.",
+      "link": "https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Google AI Studio Adds Import from GitHub to Build a Deployable App",
-      "summary": "Google AI Studio now supports importing GitHub repositories directly into Build mode, allowing developers to transform existing code into a runtime-compatible format for iteration and deployment, streamlining the application development workflow.",
-      "link": "https://www.marktechpost.com/2026/07/09/google-ai-studio-adds-import-from-github/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
-      "summary": "Google is enhancing Managed Agents in the Gemini API with new capabilities like background tasks and remote Multi-Agent Coordination Protocol (MCP), enabling developers to build more reliable and production-ready AI agents.",
+      "title": "Expanding Managed Agents in Gemini API: Background Tasks, Remote MCP and More",
+      "summary": "Google is expanding Managed Agents in the Gemini API with new capabilities like background tasks and remote Multi-Cloud Platform (MCP) support, enabling developers to build more reliable and production-ready agents.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
       "source": "Google AI Blog"
     },
     {
       "title": "Native-speed vLLM transformers modeling backend",
-      "summary": "Hugging Face has introduced a native-speed vLLM transformers modeling backend, significantly optimizing the inference performance for large language models, allowing developers to serve LLMs with greater efficiency.",
+      "summary": "This development introduces a native-speed vLLM transformers modeling backend, significantly boosting LLM serving efficiency and throughput for developers deploying large language models.",
       "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+      "summary": "SkyPilot integration with Hugging Face offers zero-egress storage, allowing developers to run AI workloads across any cloud while storing data on Hugging Face without incurring egress fees, simplifying multi-cloud data management.",
+      "link": "https://huggingface.co/blog/skypilot-hf-storage",
       "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
+      "title": "OpenAI Releases GPT-5.6: Frontier Intelligence that Scales with Your Ambition",
+      "summary": "OpenAI officially launched GPT-5.6 across three tiers (Sol, Terra, Luna), emphasizing enhanced intelligence, performance, and the crucial new programmatic tool calling feature for advanced developer applications.",
+      "link": "https://openai.com/index/gpt-5-6",
+      "source": "OpenAI News"
+    },
+    {
       "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "summary": "OpenAI announced that GPT-5.6 is now the preferred model powering Microsoft 365 Copilot, delivering stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork to enable faster, higher-quality work for enterprise users.",
+      "summary": "Microsoft 365 Copilot now uses GPT-5.6 as its preferred model, integrating stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork to accelerate and improve work quality for enterprise users.",
       "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
       "source": "OpenAI News"
     },
     {
-      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
-      "summary": "Deutsche Telekom is transforming into an AI-native telco by leveraging OpenAI's technology to revolutionize customer service, enhance employee workflows, optimize network operations, and innovate the future of voice communications.",
-      "link": "https://openai.com/index/deutsche-telekom",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Netflix AI Team Cuts Wide-Partition Read Latency from Seconds to Milliseconds by Splitting Cassandra Partitions Per ID",
-      "summary": "Netflix engineers have dramatically reduced wide-partition read latency in Apache Cassandra from seconds to milliseconds by implementing dynamic partitioning, which detects and splits oversized partitions per TimeSeries ID on the read path.",
-      "link": "https://www.marktechpost.com/2026/07/08/netflix-ai-team-cuts-wide-partition-read-latency-from-seconds-to-milliseconds-by-splitting-cassandra-partitions-per-id/",
+      "title": "Meta Superintelligence Labs Releases Muse Spark 1.1: A Multimodal Reasoning Model for Agentic Tasks",
+      "summary": "Meta Superintelligence Labs released Muse Spark 1.1, a multimodal reasoning model designed for agentic tasks with a 1,000,000-token context window and multi-agent delegation, alongside a public preview of the Meta Model API.",
+      "link": "https://www.marktechpost.com/2026/07/09/meta-superintelligence-labs-releases-muse-spark-1-1/",
       "source": "MarkTechPost"
     }
   ],
   "learning": [
     {
-      "title": "Helping K–12 educators build practical AI skills",
-      "summary": "OpenAI Academy, in partnership with the Walton Family Foundation, is launching 'AI Skills Jams' to provide K–12 educators with hands-on training to build practical AI skills for effective classroom integration.",
-      "link": "https://openai.com/index/k-12-educators-practical-skills",
+      "title": "How to Build a T4-Friendly Autonomous Data Science Agent",
+      "summary": "A comprehensive guide on building an autonomous data science agent using DeepAnalyze-8B, covering environment setup, model loading for limited GPU memory, sandboxed code execution, and iterative analysis for generating analyst-grade reports.",
+      "link": "https://www.marktechpost.com/2026/07/10/how-to-build-a-t4-friendly-autonomous-data-science-agent-with-deepanalyze-8b-sandboxed-code-execution-and-iterative-analysis/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning",
+      "summary": "This survey and benchmark dataset provide a dual-view approach to medical LLMs, connecting clinical practice with computational methods and evaluating 18 state-of-the-art models across five levels of medical reasoning capability.",
+      "link": "https://arxiv.org/abs/2607.07761",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "Introducing GeneBench-Pro",
+      "summary": "OpenAI introduces GeneBench-Pro, a new benchmark designed to test and evaluate AI performance in genomics, biology, and scientific research using complex, real-world datasets, aiding in the development of robust scientific AI.",
+      "link": "https://openai.com/index/introducing-genebench-pro",
       "source": "OpenAI News"
-    },
-    {
-      "title": "Ask an AI expert: What exactly is the full stack?",
-      "summary": "A Google expert provides a clear explanation of what it means to adopt a 'full-stack' approach to AI development, outlining why this comprehensive methodology is fundamental to Google's long-standing AI work.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
-      "summary": "This technical guide, the third part of a series on PyTorch profiling, focuses specifically on optimizing attention mechanisms within models, offering practical insights for developers to enhance model performance and efficiency.",
-      "link": "https://huggingface.co/blog/torch-attention-profile",
-      "source": "Hugging Face Blog"
     }
   ]
 }
