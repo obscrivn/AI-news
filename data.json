@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2024-07-12T08:00:00.000000",
+  "lastUpdated": "2026-07-13T12:00:00Z",
   "highlights": [
-    "OpenAI's release of the GPT-5.6 model family, featuring enhanced intelligence, cost-efficiency, and groundbreaking programmatic tool calling, marks a significant leap in AI capabilities for developers.",
-    "The agentic AI landscape is rapidly evolving with new frameworks like Google's expanded Managed Agents API and Meta's multimodal Muse Spark 1.1, empowering developers to build more autonomous and sophisticated AI systems.",
-    "Specialized foundation models are emerging across critical domains, including Google's SensorFM for wearable health data and Ant Group's LingBot-VA 2.0 for physical AI, demonstrating a trend towards highly tailored and impactful AI applications."
+    "The AI agent landscape is rapidly evolving with new frameworks focusing on reliability and efficiency, highlighted by breakthroughs in autonomous planning and robust training systems.",
+    "Major model advancements include OpenAI's release of GPT-5.6 and new voice capabilities, alongside specialized foundation models for critical domains like wearable health and neuroimaging.",
+    "Developer tools are enhancing the AI ecosystem with significant performance optimizations for multi-agent systems and new comprehensive benchmarks for rigorous agent evaluation, complementing practical coding guides."
   ],
   "agents": [
     {
-      "title": "ChatGPT is now a partner for your most ambitious work",
-      "summary": "OpenAI introduces ChatGPT Work, an advanced agent capable of taking autonomous action across multiple applications and files, enabling sustained project engagement and transforming high-level goals into completed tasks.",
+      "title": "ChatGPT Work: A New Action-Taking Agent Partner",
+      "summary": "OpenAI introduces ChatGPT Work, an agent capable of executing actions across applications and files, designed to manage complex projects over extended periods and transform goals into completed tasks.",
       "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
       "source": "OpenAI News"
     },
     {
-      "title": "Meta Superintelligence Labs Releases Muse Spark 1.1 for Agentic Tasks",
-      "summary": "Meta Superintelligence Labs unveils Muse Spark 1.1, a multimodal reasoning model optimized for agentic tasks with a 1,000,000-token compacting context window, enabling zero-shot tool generalization and multi-agent delegation via the Meta Model API.",
-      "link": "https://www.marktechpost.com/2026/07/09/meta-superintelligence-labs-releases-muse-spark-1-1/",
+      "title": "Stanford Introduces TRACE: Agentic Training for Recurrent Failures",
+      "summary": "Stanford researchers developed TRACE, a capability-targeted agentic training system that diagnoses recurrent agent failures, synthesizes specific RL environments, trains LoRA adapters, and significantly improves agent performance on complex benchmarks.",
+      "link": "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Expanding Managed Agents in Gemini API",
-      "summary": "Google announces new capabilities for Managed Agents in the Gemini API, including support for background tasks and remote MCP, empowering developers to build more reliable and production-ready AI agents.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "source": "Google AI Blog"
+      "title": "GATS: Graph-Augmented Tree Search for Efficient Agent Planning",
+      "summary": "GATS is a new planning framework that combines UCB1-based tree search with a layered world model to eliminate LLM calls during agent planning, achieving 100% success rates on complex tasks with zero LLM inference cost and deterministic plans.",
+      "link": "https://arxiv.org/abs/2607.08894",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "OpenAI Releases GPT-5.6 (Sol, Terra, Luna) Model Family",
-      "summary": "OpenAI announces the general availability of GPT-5.6, a three-tier model family (Sol, Terra, Luna) delivering significant intelligence gains, higher performance per dollar, and enhanced capabilities for complex tasks, setting new benchmarks in AI.",
-      "link": "https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/",
-      "source": "MarkTechPost"
+      "title": "OpenAI Introduces GPT-5.6: Frontier Intelligence That Scales",
+      "summary": "OpenAI officially released GPT-5.6, touted as frontier intelligence offering more capability per token and stronger performance per dollar, designed to handle the most demanding workloads for enterprises and developers.",
+      "link": "https://openai.com/index/gpt-5-6",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Introducing GPT-Live: New Voice Models for Natural Human-AI Interaction",
+      "summary": "OpenAI announced GPT-Live, a new generation of advanced voice models designed for highly natural human-AI interaction, which now powers the enhanced ChatGPT Voice experience.",
+      "link": "https://openai.com/index/introducing-gpt-live",
+      "source": "OpenAI News"
     },
     {
       "title": "Google Research Introduces SensorFM: Wearable Health Foundation Model",
-      "summary": "Google Research unveils SensorFM, a wearable health foundation model pretrained on over one trillion minutes of unlabeled sensor data from 5 million participants, outperforming feature-engineered baselines on 34 of 35 tasks with frozen embeddings.",
+      "summary": "Google Research unveiled SensorFM, a wearable health foundation model pretrained on over one trillion minutes of unlabeled sensor data from millions of participants, demonstrating superior performance on diverse health monitoring tasks.",
       "link": "https://www.marktechpost.com/2026/07/10/google-research-introduces-sensorfm-a-wearable-health-foundation-model-pretrained-on-one-trillion-minutes-of-sensor-data/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Ant Group’s Robbyant Unveils LingBot-VA 2.0: Causal Video-Action Model for Physical AI",
-      "summary": "Ant Group's Robbyant releases LingBot-VA 2.0, a Physical AI video-action foundation model built natively for embodiment, featuring Foresight Reasoning to predict future states and achieve 225 Hz asynchronous control for real-time interaction.",
-      "link": "https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "OpenAI Introduces Programmatic Tool Calling in GPT-5.6 API",
-      "summary": "OpenAI's GPT-5.6 now includes Programmatic Tool Calling, allowing models to generate and execute JavaScript in an isolated V8 runtime to orchestrate tools efficiently, significantly reducing prompt and total token usage for developers.",
-      "link": "https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/",
+      "title": "KV-PRM: Efficient Process Reward Modeling for Multi-Agent Test-Time Scaling",
+      "summary": "KV-PRM significantly optimizes process reward models by using KV-cache transfer instead of text re-encoding, reducing scoring costs by up to 5,000x in FLOPs and boosting efficiency for long multi-agent rollouts.",
+      "link": "https://arxiv.org/abs/2607.09153",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "Prime Intellect Releases Verifiers v1: Composable Agentic RL Training Systems",
+      "summary": "Prime Intellect launched Verifiers v1, a rewritten core for agentic RL training and evaluation that separates environments into composable tasksets, harnesses, and runtimes, enabling flexible and robust agent development.",
+      "link": "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Native-speed vLLM transformers modeling backend",
-      "summary": "Hugging Face introduces a native-speed vLLM transformers modeling backend, providing significant performance improvements for deploying and serving large language models by optimizing inference operations.",
-      "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-      "source": "Hugging Face Blog"
-    },
-    {
-      "title": "From Hugging Face to Amazon SageMaker Studio in one click",
-      "summary": "Hugging Face now offers a one-click integration to Amazon SageMaker Studio, streamlining the deployment and management of Hugging Face models directly within AWS's fully managed machine learning service.",
-      "link": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-      "source": "Hugging Face Blog"
+      "title": "Long-Horizon-Terminal-Bench: A New Benchmark for Long-Horizon Agents",
+      "summary": "This benchmark introduces 46 long-horizon tasks with dense reward-based grading, challenging AI agents beyond simple problems and offering a more complete picture of their capabilities in multi-step, iterative workflows.",
+      "link": "https://arxiv.org/abs/2607.08964",
+      "source": "arXiv cs.AI"
     }
   ],
   "companies": [
     {
-      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
-      "summary": "Deutsche Telekom is transforming into an AI-native telco by leveraging OpenAI technologies to revolutionize customer service, optimize employee workflows, enhance network operations, and shape the future of voice interactions.",
+      "title": "Mira Murati’s Thinking Machines Lab Advocates Human-Centered AI with Customizable Model Weights",
+      "summary": "Thinking Machines Lab, led by Mira Murati, published a technical case for human-centered AI, emphasizing human participation, model ownership, and decentralized alignment through customizable model weights like Tinker's LoRA fine-tuning.",
+      "link": "https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Deutsche Telekom Rewires Telecommunications with AI Powered by OpenAI",
+      "summary": "Deutsche Telekom is transforming into an AI-native telco by integrating OpenAI's technologies to enhance customer service, optimize employee workflows, streamline network operations, and innovate the future of voice communication.",
       "link": "https://openai.com/index/deutsche-telekom",
       "source": "OpenAI News"
     },
     {
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "summary": "GPT-5.6 becomes the preferred model for Microsoft 365 Copilot, powering stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork to enable faster and higher-quality work for enterprise users.",
-      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-      "summary": "Hugging Face partners with Cerebras to optimize Gemma 4 for real-time voice AI applications, demonstrating a collaboration to deploy advanced language models on specialized hardware for high-performance inference.",
-      "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-      "source": "Hugging Face Blog"
+      "title": "Google Expands Managed Agents in Gemini API for Production-Ready Development",
+      "summary": "Google is announcing new capabilities for Managed Agents within the Gemini API, enabling developers to build more reliable and production-ready AI agents with advanced features like background tasks and remote Multi-Context Proxies (MCP).",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "A Coding Guide to NVIDIA’s Tile-Based GPU Programming: From cuTile and Triton Kernels to Flash Attention",
-      "summary": "This tutorial provides a comprehensive coding guide to NVIDIA's tile-based GPU programming, covering cuTile and Triton kernels, and demonstrating implementations of key AI operations like flash attention for efficient hardware utilization.",
-      "link": "https://www.marktechpost.com/2026/07/11/a-coding-guide-to-nvidias-tile-based-gpu-programming-from-cutile-and-triton-kernels-to-flash-attention/",
+      "title": "Guide to Loop Engineering: Turning AI Agents Into Autonomous ML Research Loops",
+      "summary": "This guide introduces 'Loop Engineering,' detailing how to design AI agents, using concepts like 'autoresearch' and 'Bilevel Autoresearch,' to create autonomous machine learning research workflows that replace manual back-and-forth interactions.",
+      "link": "https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering/",
       "source": "MarkTechPost"
     },
     {
       "title": "How to Build a T4-Friendly Autonomous Data Science Agent with DeepAnalyze-8B",
-      "summary": "A practical guide to building an autonomous data science agent using DeepAnalyze-8B, sandboxed code execution, and iterative analysis, optimized for T4 GPUs to perform end-to-end data cleaning, analysis, and report generation.",
+      "summary": "A practical guide on constructing an autonomous data science agent using DeepAnalyze-8B, covering stable Colab runtime setup, 4-bit model loading for GPU memory efficiency, sandboxed code execution, and iterative data analysis.",
       "link": "https://www.marktechpost.com/2026/07/10/how-to-build-a-t4-friendly-autonomous-data-science-agent-with-deepanalyze-8b-sandboxed-code-execution-and-iterative-analysis/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Helping K–12 educators build practical AI skills",
-      "summary": "OpenAI Academy, in collaboration with the Walton Family Foundation, is launching AI Skills Jams to provide K–12 educators with hands-on training and practical AI skills for effective integration into classroom learning.",
-      "link": "https://openai.com/index/k-12-educators-practical-skills",
-      "source": "OpenAI News"
+      "title": "A Coding Guide to NVIDIA’s Tile-Based GPU Programming: From cuTile to Flash Attention",
+      "summary": "This tutorial provides a comprehensive coding guide to NVIDIA's tile-based GPU programming, exploring cuTile and Triton kernels, and demonstrating implementations of key operations like matrix multiplication and Flash Attention for performance optimization.",
+      "link": "https://www.marktechpost.com/2026/07/11/a-coding-guide-to-nvidias-tile-based-gpu-programming-from-cutile-and-triton-kernels-to-flash-attention/",
+      "source": "MarkTechPost"
     }
   ]
 }
