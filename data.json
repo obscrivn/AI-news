@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-07-13T12:00:00Z",
+  "lastUpdated": "2026-07-14T12:00:00Z",
   "highlights": [
-    "The AI agent landscape is rapidly evolving with new frameworks focusing on reliability and efficiency, highlighted by breakthroughs in autonomous planning and robust training systems.",
-    "Major model advancements include OpenAI's release of GPT-5.6 and new voice capabilities, alongside specialized foundation models for critical domains like wearable health and neuroimaging.",
-    "Developer tools are enhancing the AI ecosystem with significant performance optimizations for multi-agent systems and new comprehensive benchmarks for rigorous agent evaluation, complementing practical coding guides."
+    "The AI agent landscape is rapidly evolving with new robust training systems, enhanced API capabilities, and the emergence of autonomous agents like ChatGPT Work, promising to revolutionize complex task automation.",
+    "Significant model advancements include Mistral AI's 8B robot navigation model requiring only an RGB camera, OpenAI's new frontier GPT-5.6, and a novel neuroimaging foundation model, pushing the boundaries of perception and intelligence.",
+    "Developers are gaining powerful new tools for building and evaluating AI systems, from open-source AI-ready documentation frameworks to composable RL training environments and efficient LLM deployment utilities."
   ],
   "agents": [
     {
-      "title": "ChatGPT Work: A New Action-Taking Agent Partner",
-      "summary": "OpenAI introduces ChatGPT Work, an agent capable of executing actions across applications and files, designed to manage complex projects over extended periods and transform goals into completed tasks.",
-      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "source": "OpenAI News"
+      "title": "Closed-Loop Control with Rule-Aligned Small Language Models and Multi-Agent Self-Correction",
+      "summary": "This work demonstrates a practical framework using compact SLMs, combined with a validator and re-prompting agent, to achieve robust, reconfigurable autonomous control in industrial settings at the edge with low latency.",
+      "link": "https://arxiv.org/abs/2607.09713",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Stanford Introduces TRACE: Agentic Training for Recurrent Failures",
-      "summary": "Stanford researchers developed TRACE, a capability-targeted agentic training system that diagnoses recurrent agent failures, synthesizes specific RL environments, trains LoRA adapters, and significantly improves agent performance on complex benchmarks.",
+      "title": "Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System",
+      "summary": "TRACE diagnoses capability gaps in agentic LLMs from their failure trajectories, synthesizes targeted training environments, and trains LoRA adapters to route tokens across experts, significantly improving agent reliability and performance on complex tasks.",
       "link": "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/",
       "source": "MarkTechPost"
     },
     {
-      "title": "GATS: Graph-Augmented Tree Search for Efficient Agent Planning",
-      "summary": "GATS is a new planning framework that combines UCB1-based tree search with a layered world model to eliminate LLM calls during agent planning, achieving 100% success rates on complex tasks with zero LLM inference cost and deterministic plans.",
-      "link": "https://arxiv.org/abs/2607.08894",
-      "source": "arXiv cs.AI"
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "summary": "OpenAI introduces \"ChatGPT Work,\" positioning it as an advanced agent capable of taking action across various applications and files, persisting on projects for hours, and converting high-level goals into completed work.",
+      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "source": "OpenAI News"
     }
   ],
   "models": [
     {
-      "title": "OpenAI Introduces GPT-5.6: Frontier Intelligence That Scales",
-      "summary": "OpenAI officially released GPT-5.6, touted as frontier intelligence offering more capability per token and stronger performance per dollar, designed to handle the most demanding workloads for enterprises and developers.",
+      "title": "Mistral AI Releases Robostral Navigate: An 8B Model for Single RGB Camera Robot Navigation",
+      "summary": "Mistral AI's Robostral Navigate is an 8B embodied navigation model that allows robots to navigate complex environments using only an RGB camera, achieving high success rates through innovative training methods without LiDAR or depth sensors.",
+      "link": "https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "summary": "OpenAI announces GPT-5.6, touting increased intelligence, stronger performance per dollar, and enhanced capability on demand, positioning it as a frontier model for tackling challenging work.",
       "link": "https://openai.com/index/gpt-5-6",
       "source": "OpenAI News"
     },
     {
-      "title": "Introducing GPT-Live: New Voice Models for Natural Human-AI Interaction",
-      "summary": "OpenAI announced GPT-Live, a new generation of advanced voice models designed for highly natural human-AI interaction, which now powers the enhanced ChatGPT Voice experience.",
-      "link": "https://openai.com/index/introducing-gpt-live",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Google Research Introduces SensorFM: Wearable Health Foundation Model",
-      "summary": "Google Research unveiled SensorFM, a wearable health foundation model pretrained on over one trillion minutes of unlabeled sensor data from millions of participants, demonstrating superior performance on diverse health monitoring tasks.",
-      "link": "https://www.marktechpost.com/2026/07/10/google-research-introduces-sensorfm-a-wearable-health-foundation-model-pretrained-on-one-trillion-minutes-of-sensor-data/",
+      "title": "Meet NeuroVFM: A New Neuroimaging Foundation Model Trained With Vol-JEPA",
+      "summary": "NeuroVFM, a generalist neuroimaging foundation model, is trained on millions of clinical MRI and CT volumes using Vol-JEPA, enabling it to learn brain anatomy and pathology from uncurated data without radiology-report labels.",
+      "link": "https://www.marktechpost.com/2026/07/12/meet-neurovfm-a-new-neuroimaging-foundation-model-trained-with-vol-jepa-on-uncurated-clinical-mri-and-ct-volumes/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "KV-PRM: Efficient Process Reward Modeling for Multi-Agent Test-Time Scaling",
-      "summary": "KV-PRM significantly optimizes process reward models by using KV-cache transfer instead of text re-encoding, reducing scoring costs by up to 5,000x in FLOPs and boosting efficiency for long multi-agent rollouts.",
-      "link": "https://arxiv.org/abs/2607.09153",
-      "source": "arXiv cs.AI"
+      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+      "summary": "Google introduces new capabilities for Managed Agents in Gemini API, empowering developers to build reliable, production-ready agents with features like background tasks and remote Multi-Channel Proxies (MCP).",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Prime Intellect Releases Verifiers v1: Composable Agentic RL Training Systems",
-      "summary": "Prime Intellect launched Verifiers v1, a rewritten core for agentic RL training and evaluation that separates environments into composable tasksets, harnesses, and runtimes, enabling flexible and robust agent development.",
-      "link": "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1/",
+      "title": "Meet Blume: An Open-Source, Zero-Config Documentation Framework That Ships AI-Ready Docs",
+      "summary": "Blume is an open-source, MIT-licensed documentation framework that generates static, AI-ready documentation from Markdown/MDX folders, including local search, 30+ MDX components, and built-in AI tooling (llms.txt, MCP server).",
+      "link": "https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Long-Horizon-Terminal-Bench: A New Benchmark for Long-Horizon Agents",
-      "summary": "This benchmark introduces 46 long-horizon tasks with dense reward-based grading, challenging AI agents beyond simple problems and offering a more complete picture of their capabilities in multi-step, iterative workflows.",
-      "link": "https://arxiv.org/abs/2607.08964",
-      "source": "arXiv cs.AI"
+      "title": "Prime Intellect Releases Verifiers v1: Composable Tasksets, Harnesses, and Runtimes for Agentic RL Training",
+      "summary": "Prime Intellect's Verifiers v1 offers a rewritten core for agentic RL, enabling composable tasksets, harnesses, and runtimes for streamlined training and evaluations, with full prime-rl support at launch.",
+      "link": "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1/",
+      "source": "MarkTechPost"
     }
   ],
   "companies": [
     {
-      "title": "Mira Murati’s Thinking Machines Lab Advocates Human-Centered AI with Customizable Model Weights",
-      "summary": "Thinking Machines Lab, led by Mira Murati, published a technical case for human-centered AI, emphasizing human participation, model ownership, and decentralized alignment through customizable model weights like Tinker's LoRA fine-tuning.",
-      "link": "https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights/",
-      "source": "MarkTechPost"
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "summary": "GPT-5.6 is now the preferred model powering Microsoft 365 Copilot, delivering enhanced AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality enterprise work.",
+      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "source": "OpenAI News"
     },
     {
-      "title": "Deutsche Telekom Rewires Telecommunications with AI Powered by OpenAI",
-      "summary": "Deutsche Telekom is transforming into an AI-native telco by integrating OpenAI's technologies to enhance customer service, optimize employee workflows, streamline network operations, and innovate the future of voice communication.",
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "summary": "Deutsche Telekom is transforming into an \"AI-native telco\" through its partnership with OpenAI, leveraging AI to enhance customer service, optimize employee workflows, improve network operations, and innovate the future of voice communication.",
       "link": "https://openai.com/index/deutsche-telekom",
       "source": "OpenAI News"
     },
     {
-      "title": "Google Expands Managed Agents in Gemini API for Production-Ready Development",
-      "summary": "Google is announcing new capabilities for Managed Agents within the Gemini API, enabling developers to build more reliable and production-ready AI agents with advanced features like background tasks and remote Multi-Context Proxies (MCP).",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "source": "Google AI Blog"
+      "title": "A Theory of Least Autonomy in AI",
+      "summary": "This paper proposes \"least autonomy\" as a foundational principle for agentic AI systems, defining a compositional blast radius and an agent influence graph to manage and audit AI capabilities across enterprise workflows, crucial for secure and responsible deployment.",
+      "link": "https://arxiv.org/abs/2607.09744",
+      "source": "arXiv cs.AI"
     }
   ],
   "learning": [
     {
-      "title": "Guide to Loop Engineering: Turning AI Agents Into Autonomous ML Research Loops",
-      "summary": "This guide introduces 'Loop Engineering,' detailing how to design AI agents, using concepts like 'autoresearch' and 'Bilevel Autoresearch,' to create autonomous machine learning research workflows that replace manual back-and-forth interactions.",
+      "title": "Building a VideoAgent-Style Multi-Agent System: Intent Parsing, Graph Planning, and Tool Routing for Video Editing Tasks",
+      "summary": "This tutorial provides a practical, API-key-free guide to reconstructing the VideoAgent workflow, detailing how to build components like an intent parser, graph planner, and tool router for automated video editing tasks from natural language.",
+      "link": "https://www.marktechpost.com/2026/07/13/building-a-videoagent-style-multi-agent-system-intent-parsing-graph-planning-and-tool-routing-for-video-editing-tasks/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Guide to Loop Engineering: How AI Agents Turn Into Autonomous ML Research Loops",
+      "summary": "This guide explains \"loop engineering,\" an advanced AI pattern that replaces manual back-and-forth interactions with autonomous, self-correcting ML research loops, drawing insights from verified autoresearch artifacts.",
       "link": "https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering/",
       "source": "MarkTechPost"
     },
     {
-      "title": "How to Build a T4-Friendly Autonomous Data Science Agent with DeepAnalyze-8B",
-      "summary": "A practical guide on constructing an autonomous data science agent using DeepAnalyze-8B, covering stable Colab runtime setup, 4-bit model loading for GPU memory efficiency, sandboxed code execution, and iterative data analysis.",
-      "link": "https://www.marktechpost.com/2026/07/10/how-to-build-a-t4-friendly-autonomous-data-science-agent-with-deepanalyze-8b-sandboxed-code-execution-and-iterative-analysis/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "A Coding Guide to NVIDIA’s Tile-Based GPU Programming: From cuTile to Flash Attention",
-      "summary": "This tutorial provides a comprehensive coding guide to NVIDIA's tile-based GPU programming, exploring cuTile and Triton kernels, and demonstrating implementations of key operations like matrix multiplication and Flash Attention for performance optimization.",
-      "link": "https://www.marktechpost.com/2026/07/11/a-coding-guide-to-nvidias-tile-based-gpu-programming-from-cutile-and-triton-kernels-to-flash-attention/",
-      "source": "MarkTechPost"
+      "title": "How sales and data science teams use ChatGPT Work",
+      "summary": "OpenAI provides practical examples and guides for sales and data science teams to leverage ChatGPT Work, showcasing how it can automate pipeline briefs, forecast reviews, root-cause analyses, and other core professional tasks.",
+      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "source": "OpenAI News"
     }
   ]
 }
