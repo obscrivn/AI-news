@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2026-07-14T12:00:00Z",
+  "lastUpdated": "2026-07-15T00:00:00Z",
   "highlights": [
-    "The AI agent landscape is rapidly evolving with new robust training systems, enhanced API capabilities, and the emergence of autonomous agents like ChatGPT Work, promising to revolutionize complex task automation.",
-    "Significant model advancements include Mistral AI's 8B robot navigation model requiring only an RGB camera, OpenAI's new frontier GPT-5.6, and a novel neuroimaging foundation model, pushing the boundaries of perception and intelligence.",
-    "Developers are gaining powerful new tools for building and evaluating AI systems, from open-source AI-ready documentation frameworks to composable RL training environments and efficient LLM deployment utilities."
+    "The agentic era continues to accelerate with new training systems like Stanford's TRACE improving LLM agent reliability and OpenAI positioning ChatGPT as a versatile partner for complex, multi-step workflows.",
+    "Significant strides are being made in model efficiency and accessibility, as exemplified by PrismML's Bonsai 27B enabling large models on edge devices and Google's LiteRT.js bringing high-performance .tflite inference directly to web browsers.",
+    "Major tech players are expanding their AI ecosystems, with OpenAI releasing frontier models like GPT-5.6 and Google enhancing developer tooling for agents, alongside substantial infrastructure investments to support future AI capabilities."
   ],
   "agents": [
     {
-      "title": "Closed-Loop Control with Rule-Aligned Small Language Models and Multi-Agent Self-Correction",
-      "summary": "This work demonstrates a practical framework using compact SLMs, combined with a validator and re-prompting agent, to achieve robust, reconfigurable autonomous control in industrial settings at the edge with low latency.",
-      "link": "https://arxiv.org/abs/2607.09713",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System",
-      "summary": "TRACE diagnoses capability gaps in agentic LLMs from their failure trajectories, synthesizes targeted training environments, and trains LoRA adapters to route tokens across experts, significantly improving agent reliability and performance on complex tasks.",
+      "title": "Stanford Introduces TRACE for Capability-Targeted Agentic Training",
+      "summary": "Stanford researchers developed TRACE, a system that diagnoses recurrent agent failures, synthesizes specific reinforcement learning environments, and trains LoRA adapters to significantly improve LLM agent performance and reliability on complex tasks like SWE-bench.",
       "link": "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/",
       "source": "MarkTechPost"
     },
     {
-      "title": "ChatGPT is now a partner for your most ambitious work",
-      "summary": "OpenAI introduces \"ChatGPT Work,\" positioning it as an advanced agent capable of taking action across various applications and files, persisting on projects for hours, and converting high-level goals into completed work.",
+      "title": "Closed-Loop Control with SLMs and Multi-Agent Self-Correction",
+      "summary": "This research demonstrates a practical closed-loop control framework using a compact Qwen2.5-1.5B Small Language Model (SLM) for autonomous industrial operations, achieving high action-alignment accuracy and robust physical regulation through a validator-guided self-correction loop.",
+      "link": "https://arxiv.org/abs/2607.09713",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "ChatGPT Work: A Partner for Ambitious Projects",
+      "summary": "OpenAI announced ChatGPT Work, an agent capable of taking action across user applications and files, persisting for hours on complex projects, and transforming high-level goals into completed work, making it a powerful tool for builders.",
       "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
       "source": "OpenAI News"
     }
   ],
   "models": [
     {
-      "title": "Mistral AI Releases Robostral Navigate: An 8B Model for Single RGB Camera Robot Navigation",
-      "summary": "Mistral AI's Robostral Navigate is an 8B embodied navigation model that allows robots to navigate complex environments using only an RGB camera, achieving high success rates through innovative training methods without LiDAR or depth sensors.",
-      "link": "https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "summary": "OpenAI announces GPT-5.6, touting increased intelligence, stronger performance per dollar, and enhanced capability on demand, positioning it as a frontier model for tackling challenging work.",
+      "title": "GPT-5.6: Frontier Intelligence for Scalable Ambition",
+      "summary": "OpenAI unveiled GPT-5.6, touted as a frontier intelligence model offering enhanced performance per dollar, more intelligence from every token, and increased capability on demand for demanding, complex workloads.",
       "link": "https://openai.com/index/gpt-5-6",
       "source": "OpenAI News"
     },
     {
-      "title": "Meet NeuroVFM: A New Neuroimaging Foundation Model Trained With Vol-JEPA",
-      "summary": "NeuroVFM, a generalist neuroimaging foundation model, is trained on millions of clinical MRI and CT volumes using Vol-JEPA, enabling it to learn brain anatomy and pathology from uncurated data without radiology-report labels.",
-      "link": "https://www.marktechpost.com/2026/07/12/meet-neurovfm-a-new-neuroimaging-foundation-model-trained-with-vol-jepa-on-uncurated-clinical-mri-and-ct-volumes/",
+      "title": "PrismML Releases Bonsai 27B: Efficient Qwen3.6-27B for Edge Devices",
+      "summary": "PrismML introduced Bonsai 27B, a 1-bit and ternary quantized version of Qwen3.6-27B, drastically reducing its memory footprint to enable efficient execution of this 27B parameter model on resource-constrained devices like laptops and mobile phones.",
+      "link": "https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Mistral AI Releases Robostral Navigate: 8B Model for Single-Camera Robot Navigation",
+      "summary": "Mistral AI launched Robostral Navigate, an 8B embodied navigation model that empowers robots to navigate complex environments using only a single RGB camera, eliminating the need for LiDAR or depth sensors and achieving high success rates.",
+      "link": "https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
-      "summary": "Google introduces new capabilities for Managed Agents in Gemini API, empowering developers to build reliable, production-ready agents with features like background tasks and remote Multi-Channel Proxies (MCP).",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "source": "Google AI Blog"
+      "title": "Google Releases LiteRT.js: Run .tflite Models in Browsers via WebGPU",
+      "summary": "Google released LiteRT.js, a JavaScript binding for LiteRT that enables on-device inference of .tflite models directly in web browsers using WebGPU, delivering significant performance gains of up to 60x over CPU paths.",
+      "link": "https://www.marktechpost.com/2026/07/15/google-releases-litert-js-a-javascript-binding-of-litert-that-runs-tflite-models-in-browsers-via-webgpu/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Meet Blume: An Open-Source, Zero-Config Documentation Framework That Ships AI-Ready Docs",
-      "summary": "Blume is an open-source, MIT-licensed documentation framework that generates static, AI-ready documentation from Markdown/MDX folders, including local search, 30+ MDX components, and built-in AI tooling (llms.txt, MCP server).",
+      "title": "Meet Blume: Open-Source, Zero-Config AI-Ready Documentation Framework",
+      "summary": "Hayden Bleasel introduced Blume, an open-source, MIT-licensed documentation framework that generates static, AI-ready documentation sites from Markdown or MDX folders, featuring local search, 30+ MDX components, and LLM integration with zero configuration.",
       "link": "https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Prime Intellect Releases Verifiers v1: Composable Tasksets, Harnesses, and Runtimes for Agentic RL Training",
-      "summary": "Prime Intellect's Verifiers v1 offers a rewritten core for agentic RL, enabling composable tasksets, harnesses, and runtimes for streamlined training and evaluations, with full prime-rl support at launch.",
-      "link": "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1/",
-      "source": "MarkTechPost"
+      "title": "Expanding Managed Agents in Gemini API for Developers",
+      "summary": "Google announced new capabilities for Managed Agents in the Gemini API, including background tasks and remote MCP, empowering developers to build more reliable, scalable, and production-ready AI agents.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "source": "Google AI Blog"
     }
   ],
   "companies": [
     {
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "summary": "GPT-5.6 is now the preferred model powering Microsoft 365 Copilot, delivering enhanced AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality enterprise work.",
-      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "title": "OpenAI: Managing AI Investments in the Agentic Era",
+      "summary": "OpenAI provided strategic guidance for enterprises on optimizing AI investments in the agentic era, emphasizing the importance of measuring useful work per dollar, improving efficiency, and scaling high-value workflows to maximize returns.",
+      "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
       "source": "OpenAI News"
     },
     {
-      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
-      "summary": "Deutsche Telekom is transforming into an \"AI-native telco\" through its partnership with OpenAI, leveraging AI to enhance customer service, optimize employee workflows, improve network operations, and innovate the future of voice communication.",
+      "title": "Deutsche Telekom Rewiring Telecoms with AI via OpenAI",
+      "summary": "Deutsche Telekom is transforming into an AI-native telecommunications company by leveraging OpenAI's technology to revolutionize customer service, employee workflows, network operations, and the future of voice, showcasing comprehensive AI integration.",
       "link": "https://openai.com/index/deutsche-telekom",
       "source": "OpenAI News"
     },
     {
-      "title": "A Theory of Least Autonomy in AI",
-      "summary": "This paper proposes \"least autonomy\" as a foundational principle for agentic AI systems, defining a compositional blast radius and an agent influence graph to manage and audit AI capabilities across enterprise workflows, crucial for secure and responsible deployment.",
-      "link": "https://arxiv.org/abs/2607.09744",
-      "source": "arXiv cs.AI"
+      "title": "Google Invests $1.5 Billion to Expand Alabama Data Center",
+      "summary": "Google announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama, strengthening its global infrastructure and supporting the increasing demands of AI operations.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Building a VideoAgent-Style Multi-Agent System: Intent Parsing, Graph Planning, and Tool Routing for Video Editing Tasks",
-      "summary": "This tutorial provides a practical, API-key-free guide to reconstructing the VideoAgent workflow, detailing how to build components like an intent parser, graph planner, and tool router for automated video editing tasks from natural language.",
+      "title": "Building a VideoAgent-Style Multi-Agent System Tutorial",
+      "summary": "This tutorial provides a comprehensive guide to building a multi-agent system for video editing, covering intent parsing, graph planning, and tool routing, enabling natural-language driven video manipulation and artifact production.",
       "link": "https://www.marktechpost.com/2026/07/13/building-a-videoagent-style-multi-agent-system-intent-parsing-graph-planning-and-tool-routing-for-video-editing-tasks/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Guide to Loop Engineering: How AI Agents Turn Into Autonomous ML Research Loops",
-      "summary": "This guide explains \"loop engineering,\" an advanced AI pattern that replaces manual back-and-forth interactions with autonomous, self-correcting ML research loops, drawing insights from verified autoresearch artifacts.",
-      "link": "https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering/",
-      "source": "MarkTechPost"
+      "title": "Getting Started with ChatGPT",
+      "summary": "This guide introduces new users to ChatGPT, offering simple steps to initiate conversations and discover practical ways to utilize AI for writing, brainstorming, and solving problems.",
+      "link": "https://openai.com/academy/getting-started",
+      "source": "OpenAI News"
     },
     {
-      "title": "How sales and data science teams use ChatGPT Work",
-      "summary": "OpenAI provides practical examples and guides for sales and data science teams to leverage ChatGPT Work, showcasing how it can automate pipeline briefs, forecast reviews, root-cause analyses, and other core professional tasks.",
-      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "title": "How Data Science Teams Use ChatGPT Work",
+      "summary": "This article demonstrates how data science teams can leverage ChatGPT Work to streamline their analytical processes, generating root-cause briefs, impact readouts, KPI memos, and dashboard specs from real work inputs.",
+      "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "source": "OpenAI News"
     }
   ]
