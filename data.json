@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2026-07-15T00:00:00Z",
+  "lastUpdated": "2026-07-16T15:00:00Z",
   "highlights": [
-    "The agentic era continues to accelerate with new training systems like Stanford's TRACE improving LLM agent reliability and OpenAI positioning ChatGPT as a versatile partner for complex, multi-step workflows.",
-    "Significant strides are being made in model efficiency and accessibility, as exemplified by PrismML's Bonsai 27B enabling large models on edge devices and Google's LiteRT.js bringing high-performance .tflite inference directly to web browsers.",
-    "Major tech players are expanding their AI ecosystems, with OpenAI releasing frontier models like GPT-5.6 and Google enhancing developer tooling for agents, alongside substantial infrastructure investments to support future AI capabilities."
+    "OpenAI has unveiled GPT-5.6, now integrated into Microsoft 365 Copilot, and GPT-Live for enhanced voice AI, alongside launching GPT-Red for improved safety and a Bio Bug Bounty program.",
+    "The agentic AI landscape is rapidly evolving with SpaceXAI open-sourcing its Grok Build agent harness, Google expanding Managed Agents in Gemini API, and Oracle introducing a robust, database-native memory substrate for long-horizon enterprise agents.",
+    "New open-source models are pushing boundaries, including Thinking Machines Lab's 975B multimodal Inkling MoE and PrismML's Bonsai 27B, offering 1-bit and ternary quantized versions of Qwen3.6-27B for efficient edge device deployment."
   ],
   "agents": [
     {
-      "title": "Stanford Introduces TRACE for Capability-Targeted Agentic Training",
-      "summary": "Stanford researchers developed TRACE, a system that diagnoses recurrent agent failures, synthesizes specific reinforcement learning environments, and trains LoRA adapters to significantly improve LLM agent performance and reliability on complex tasks like SWE-bench.",
-      "link": "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Closed-Loop Control with SLMs and Multi-Agent Self-Correction",
-      "summary": "This research demonstrates a practical closed-loop control framework using a compact Qwen2.5-1.5B Small Language Model (SLM) for autonomous industrial operations, achieving high action-alignment accuracy and robust physical regulation through a validator-guided self-correction loop.",
-      "link": "https://arxiv.org/abs/2607.09713",
+      "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
+      "summary": "SPINE is an agentic framework designed to debug and deploy bimanual robots with minimal expertise, improving operationalization success and reducing time-to-teleoperation for scalable Embodied AI by bridging the cyber-physical gap.",
+      "link": "https://arxiv.org/abs/2607.13049",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "ChatGPT Work: A Partner for Ambitious Projects",
-      "summary": "OpenAI announced ChatGPT Work, an agent capable of taking action across user applications and files, persisting for hours on complex projects, and transforming high-level goals into completed work, making it a powerful tool for builders.",
+      "title": "Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents",
+      "summary": "Oracle Agent Memory provides a database-native, enterprise-grade memory substrate for long-horizon AI agents, managing task state, user preferences, and procedural knowledge, offering significant efficiency over flat-history baselines.",
+      "link": "https://arxiv.org/abs/2607.13157",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "summary": "ChatGPT Work introduces an agentic capability to take action across applications and files, enabling it to manage and complete long-horizon projects from a high-level goal into finished work.",
       "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
       "source": "OpenAI News"
     }
   ],
   "models": [
     {
-      "title": "GPT-5.6: Frontier Intelligence for Scalable Ambition",
-      "summary": "OpenAI unveiled GPT-5.6, touted as a frontier intelligence model offering enhanced performance per dollar, more intelligence from every token, and increased capability on demand for demanding, complex workloads.",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "summary": "GPT-5.6 is announced as a frontier intelligence model, offering increased intelligence per token, stronger performance per dollar, and enhanced capabilities for tackling complex and ambitious work.",
       "link": "https://openai.com/index/gpt-5-6",
       "source": "OpenAI News"
     },
     {
-      "title": "PrismML Releases Bonsai 27B: Efficient Qwen3.6-27B for Edge Devices",
-      "summary": "PrismML introduced Bonsai 27B, a 1-bit and ternary quantized version of Qwen3.6-27B, drastically reducing its memory footprint to enable efficient execution of this 27B parameter model on resource-constrained devices like laptops and mobile phones.",
-      "link": "https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones/",
+      "title": "Thinking Machines Lab Releases Inkling: A 975B-Parameter Open-Weights Multimodal MoE With 41B Active Parameters And Controllable Thinking Effort",
+      "summary": "Thinking Machines Lab released Inkling, a 975B-parameter open-weights multimodal Mixture-of-Experts (MoE) model with 41B active parameters and a 1M-token context, designed as a customizable base with controllable thinking effort.",
+      "link": "https://www.marktechpost.com/2026/07/15/thinking-machines-lab-releases-inkling-a-975b-parameter-open-weights-multimodal-moe-with-41b-active-parameters-and-controllable-thinking-effort/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Mistral AI Releases Robostral Navigate: 8B Model for Single-Camera Robot Navigation",
-      "summary": "Mistral AI launched Robostral Navigate, an 8B embodied navigation model that empowers robots to navigate complex environments using only a single RGB camera, eliminating the need for LiDAR or depth sensors and achieving high success rates.",
-      "link": "https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera/",
+      "title": "PrismML Releases Bonsai 27B: 1-bit and Ternary Builds of Qwen3.6-27B That Run on Laptops and Phones",
+      "summary": "PrismML unveiled Bonsai 27B, offering 1-bit and ternary quantized builds of Qwen3.6-27B, specifically optimized to run efficiently on resource-constrained devices like laptops and phones, making powerful models more accessible.",
+      "link": "https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Google Releases LiteRT.js: Run .tflite Models in Browsers via WebGPU",
-      "summary": "Google released LiteRT.js, a JavaScript binding for LiteRT that enables on-device inference of .tflite models directly in web browsers using WebGPU, delivering significant performance gains of up to 60x over CPU paths.",
+      "title": "Google Releases LiteRT.js: A JavaScript Binding of LiteRT That Runs .tflite Models in Browsers via WebGPU",
+      "summary": "Google launched LiteRT.js, a JavaScript binding for its LiteRT inference library, enabling direct execution of .tflite models in browsers via WebAssembly and WebGPU, offering up to 60x performance gains for on-device AI.",
       "link": "https://www.marktechpost.com/2026/07/15/google-releases-litert-js-a-javascript-binding-of-litert-that-runs-tflite-models-in-browsers-via-webgpu/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Meet Blume: Open-Source, Zero-Config AI-Ready Documentation Framework",
-      "summary": "Hayden Bleasel introduced Blume, an open-source, MIT-licensed documentation framework that generates static, AI-ready documentation sites from Markdown or MDX folders, featuring local search, 30+ MDX components, and LLM integration with zero configuration.",
-      "link": "https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder/",
+      "title": "SpaceXAI Open-Sources Grok Build: The Rust Agent Harness, TUI, and Tool Layer Behind Its Coding CLI",
+      "summary": "SpaceXAI open-sources Grok Build, a Rust-based agent harness, TUI, and tool layer, providing developers with the core infrastructure used in its powerful coding CLI for building custom AI agents.",
+      "link": "https://www.marktechpost.com/2026/07/15/spacexai-open-sources-grok-build-the-rust-agent-harness-tui-and-tool-layer-behind-its-coding-cli/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Expanding Managed Agents in Gemini API for Developers",
-      "summary": "Google announced new capabilities for Managed Agents in the Gemini API, including background tasks and remote MCP, empowering developers to build more reliable, scalable, and production-ready AI agents.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "source": "Google AI Blog"
+      "title": "Harness Handbook: Making Evolving Agent Harnesses Readable,Navigable, and Editable",
+      "summary": "The Harness Handbook and Behavior-Guided Progressive Disclosure (BGPD) streamline the evolution of AI agent harnesses by automatically synthesizing behavior-centric representations and guiding developers to relevant source code, improving edit plan quality and reducing planner tokens.",
+      "link": "https://arxiv.org/abs/2607.13285",
+      "source": "arXiv cs.AI"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI: Managing AI Investments in the Agentic Era",
-      "summary": "OpenAI provided strategic guidance for enterprises on optimizing AI investments in the agentic era, emphasizing the importance of measuring useful work per dollar, improving efficiency, and scaling high-value workflows to maximize returns.",
-      "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "summary": "GPT-5.6 is now the preferred model powering Microsoft 365 Copilot, delivering enhanced AI capabilities across Word, Excel, and PowerPoint for faster, higher-quality work and productivity.",
+      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
       "source": "OpenAI News"
     },
     {
-      "title": "Deutsche Telekom Rewiring Telecoms with AI via OpenAI",
-      "summary": "Deutsche Telekom is transforming into an AI-native telecommunications company by leveraging OpenAI's technology to revolutionize customer service, employee workflows, network operations, and the future of voice, showcasing comprehensive AI integration.",
+      "title": "The US is advancing AI safety through state and federal action",
+      "summary": "OpenAI proposes a 'reverse federalism' approach, advocating for state laws to inform and build a comprehensive national framework for safe and democratic AI governance in the US.",
+      "link": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "summary": "Deutsche Telekom is transforming into an AI-native telco by integrating OpenAI technologies to enhance customer service, optimize employee workflows, and innovate network operations, redefining the future of telecommunications.",
       "link": "https://openai.com/index/deutsche-telekom",
       "source": "OpenAI News"
-    },
-    {
-      "title": "Google Invests $1.5 Billion to Expand Alabama Data Center",
-      "summary": "Google announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama, strengthening its global infrastructure and supporting the increasing demands of AI operations.",
-      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
-      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Building a VideoAgent-Style Multi-Agent System Tutorial",
-      "summary": "This tutorial provides a comprehensive guide to building a multi-agent system for video editing, covering intent parsing, graph planning, and tool routing, enabling natural-language driven video manipulation and artifact production.",
-      "link": "https://www.marktechpost.com/2026/07/13/building-a-videoagent-style-multi-agent-system-intent-parsing-graph-planning-and-tool-routing-for-video-editing-tasks/",
+      "title": "Patter SDK Guide to Building a Restaurant Booking Phone Agent with Dynamic Variables, Guardrails, Latency Dashboards, and Eval Checks",
+      "summary": "A guide to the Patter SDK demonstrates building a voice agent for restaurant bookings, featuring dynamic variables, guardrails, callable tools, latency dashboards, and deterministic eval checks for robust, real-world deployment.",
+      "link": "https://www.marktechpost.com/2026/07/16/patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Getting Started with ChatGPT",
-      "summary": "This guide introduces new users to ChatGPT, offering simple steps to initiate conversations and discover practical ways to utilize AI for writing, brainstorming, and solving problems.",
-      "link": "https://openai.com/academy/getting-started",
-      "source": "OpenAI News"
+      "title": "Building a Gin Config Controlled PyTorch Pipeline with Configurable MLP Variants, Cosine Scheduling, and Runtime Parameter Overrides",
+      "summary": "This guide details constructing a Gin Config-controlled PyTorch pipeline, allowing experimental variables to be managed via .gin files for configurable MLP variants, optimizers, and schedulers, enabling flexible and reproducible model training.",
+      "link": "https://www.marktechpost.com/2026/07/15/building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "How Data Science Teams Use ChatGPT Work",
-      "summary": "This article demonstrates how data science teams can leverage ChatGPT Work to streamline their analytical processes, generating root-cause briefs, impact readouts, KPI memos, and dashboard specs from real work inputs.",
-      "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "title": "How sales teams use ChatGPT Work",
+      "summary": "ChatGPT Work empowers sales teams to automate the creation of pipeline briefs, meeting prep packets, and forecast reviews from real work inputs, enhancing productivity and strategic planning.",
+      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "source": "OpenAI News"
     }
   ]
