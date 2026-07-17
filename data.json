@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2026-07-16T15:00:00Z",
+  "lastUpdated": "2026-07-17T12:00:00Z",
   "highlights": [
-    "OpenAI has unveiled GPT-5.6, now integrated into Microsoft 365 Copilot, and GPT-Live for enhanced voice AI, alongside launching GPT-Red for improved safety and a Bio Bug Bounty program.",
-    "The agentic AI landscape is rapidly evolving with SpaceXAI open-sourcing its Grok Build agent harness, Google expanding Managed Agents in Gemini API, and Oracle introducing a robust, database-native memory substrate for long-horizon enterprise agents.",
-    "New open-source models are pushing boundaries, including Thinking Machines Lab's 975B multimodal Inkling MoE and PrismML's Bonsai 27B, offering 1-bit and ternary quantized versions of Qwen3.6-27B for efficient edge device deployment."
+    "The AI landscape is marked by significant advancements in frontier models, with OpenAI's GPT-5.6 driving enterprise applications and new open-source models like Moonshot AI's Kimi K3 pushing contextual understanding.",
+    "Developer tools and agentic frameworks are rapidly maturing, offering enhanced capabilities for browser-based AI inference, robust agent memory solutions, and open-source harnesses for building sophisticated AI agents.",
+    "A strong emphasis is emerging on the practical deployment and governance of AI, with OpenAI introducing AI investment scorecards and new frameworks addressing critical aspects like AI-native insurance for agentic systems."
   ],
   "agents": [
     {
+      "title": "ChatGPT is Now a Partner for Your Most Ambitious Work",
+      "summary": "OpenAI has positioned ChatGPT Work as an autonomous agent capable of executing long-horizon projects across apps and files, transforming complex goals into finished work for enterprise users.",
+      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "source": "OpenAI News"
+    },
+    {
       "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
-      "summary": "SPINE is an agentic framework designed to debug and deploy bimanual robots with minimal expertise, improving operationalization success and reducing time-to-teleoperation for scalable Embodied AI by bridging the cyber-physical gap.",
+      "summary": "A new agentic framework, SPINE, is introduced to streamline the debugging and deployment of bimanual robots, significantly reducing the need for expert calibration and speeding up embodied AI operationalization.",
       "link": "https://arxiv.org/abs/2607.13049",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents",
-      "summary": "Oracle Agent Memory provides a database-native, enterprise-grade memory substrate for long-horizon AI agents, managing task state, user preferences, and procedural knowledge, offering significant efficiency over flat-history baselines.",
-      "link": "https://arxiv.org/abs/2607.13157",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "ChatGPT is now a partner for your most ambitious work",
-      "summary": "ChatGPT Work introduces an agentic capability to take action across applications and files, enabling it to manage and complete long-horizon projects from a high-level goal into finished work.",
-      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "source": "OpenAI News"
+      "title": "OpenAI Details GPT-Red: An Internal Automated Red-Teaming Model",
+      "summary": "OpenAI developed GPT-Red, an internal attacker model trained via self-play, which outperformed human red-teamers in identifying prompt injection vulnerabilities, improving AI safety and robustness for defender LLMs like GPT-5.6 Sol.",
+      "link": "https://www.marktechpost.com/2026/07/16/openai-details-gpt-red-an-internal-automated-red-teaming-model-that-beat-human-red-teamers-84-to-13-on-prompt-injection/",
+      "source": "MarkTechPost"
     }
   ],
   "models": [
     {
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "summary": "GPT-5.6 is announced as a frontier intelligence model, offering increased intelligence per token, stronger performance per dollar, and enhanced capabilities for tackling complex and ambitious work.",
+      "title": "GPT-5.6: Frontier Intelligence That Scales With Your Ambition",
+      "summary": "OpenAI releases GPT-5.6, touted as a frontier intelligence model offering superior performance per dollar and enhanced capabilities for complex tasks, marking a significant step forward in scalable AI ambition.",
       "link": "https://openai.com/index/gpt-5-6",
       "source": "OpenAI News"
     },
     {
-      "title": "Thinking Machines Lab Releases Inkling: A 975B-Parameter Open-Weights Multimodal MoE With 41B Active Parameters And Controllable Thinking Effort",
-      "summary": "Thinking Machines Lab released Inkling, a 975B-parameter open-weights multimodal Mixture-of-Experts (MoE) model with 41B active parameters and a 1M-token context, designed as a customizable base with controllable thinking effort.",
-      "link": "https://www.marktechpost.com/2026/07/15/thinking-machines-lab-releases-inkling-a-975b-parameter-open-weights-multimodal-moe-with-41b-active-parameters-and-controllable-thinking-effort/",
+      "title": "Moonshot AI Releases Kimi K3: A 2.8 Trillion Parameter Open MoE Model With 1M Context",
+      "summary": "Moonshot AI introduced Kimi K3, a massive 2.8-trillion-parameter open Mixture-of-Experts (MoE) model featuring Kimi Delta Attention and a 1-million-token context window, expanding the frontier for large-scale open models.",
+      "link": "https://www.marktechpost.com/2026/07/16/moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open-moe-model-with-kimi-delta-attention-and-1m-context/",
       "source": "MarkTechPost"
     },
     {
-      "title": "PrismML Releases Bonsai 27B: 1-bit and Ternary Builds of Qwen3.6-27B That Run on Laptops and Phones",
-      "summary": "PrismML unveiled Bonsai 27B, offering 1-bit and ternary quantized builds of Qwen3.6-27B, specifically optimized to run efficiently on resource-constrained devices like laptops and phones, making powerful models more accessible.",
-      "link": "https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones/",
+      "title": "NVIDIA AI Releases Nemotron 3 Embed: An Open Embedding Collection Ranks #1 on RTEB",
+      "summary": "NVIDIA AI released Nemotron 3 Embed, an open embedding collection with an 8B checkpoint that achieved the #1 ranking on RTEB, offering high-performance retrieval accuracy and support for 32,768-token inputs.",
+      "link": "https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-checkpoint-ranks-1-on-rteb/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
       "title": "Google Releases LiteRT.js: A JavaScript Binding of LiteRT That Runs .tflite Models in Browsers via WebGPU",
-      "summary": "Google launched LiteRT.js, a JavaScript binding for its LiteRT inference library, enabling direct execution of .tflite models in browsers via WebAssembly and WebGPU, offering up to 60x performance gains for on-device AI.",
+      "summary": "Google introduced LiteRT.js, a JavaScript binding enabling direct execution of .tflite models in browsers using WebAssembly and WebGPU, delivering up to 60x performance gains for on-device inference.",
       "link": "https://www.marktechpost.com/2026/07/15/google-releases-litert-js-a-javascript-binding-of-litert-that-runs-tflite-models-in-browsers-via-webgpu/",
       "source": "MarkTechPost"
     },
     {
-      "title": "SpaceXAI Open-Sources Grok Build: The Rust Agent Harness, TUI, and Tool Layer Behind Its Coding CLI",
-      "summary": "SpaceXAI open-sources Grok Build, a Rust-based agent harness, TUI, and tool layer, providing developers with the core infrastructure used in its powerful coding CLI for building custom AI agents.",
-      "link": "https://www.marktechpost.com/2026/07/15/spacexai-open-sources-grok-build-the-rust-agent-harness-tui-and-tool-layer-behind-its-coding-cli/",
-      "source": "MarkTechPost"
+      "title": "Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents",
+      "summary": "This report details Oracle Agent Memory, a database-native memory substrate built on Oracle Database to address the complex lifecycle of state retention, retrieval, and revision required for practical, long-horizon AI agents in enterprise deployments.",
+      "link": "https://arxiv.org/abs/2607.13157",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Harness Handbook: Making Evolving Agent Harnesses Readable,Navigable, and Editable",
-      "summary": "The Harness Handbook and Behavior-Guided Progressive Disclosure (BGPD) streamline the evolution of AI agent harnesses by automatically synthesizing behavior-centric representations and guiding developers to relevant source code, improving edit plan quality and reducing planner tokens.",
-      "link": "https://arxiv.org/abs/2607.13285",
-      "source": "arXiv cs.AI"
+      "title": "SpaceXAI Open-Sources Grok Build: The Rust Agent Harness, TUI, and Tool Layer Behind Its Coding CLI",
+      "summary": "SpaceXAI has open-sourced Grok Build, providing the Rust agent harness, terminal user interface (TUI), and tool dispatch layer that powers its coding CLI, enabling developers to build similar agentic systems.",
+      "link": "https://www.marktechpost.com/2026/07/15/spacexai-open-sources-grok-build-the-rust-agent-harness-tui-and-tool-layer-behind-its-coding-cli/",
+      "source": "MarkTechPost"
     }
   ],
   "companies": [
     {
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "summary": "GPT-5.6 is now the preferred model powering Microsoft 365 Copilot, delivering enhanced AI capabilities across Word, Excel, and PowerPoint for faster, higher-quality work and productivity.",
+      "title": "A Scorecard for the AI Age",
+      "summary": "OpenAI's CFO, Sarah Friar, introduced a practical AI scorecard for enterprises to measure ROI by focusing on useful work, cost per successful task, dependability, and return on compute, guiding strategic AI investments.",
+      "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "GPT-5.6 Is Now the Preferred Model in Microsoft 365 Copilot",
+      "summary": "OpenAI announced that GPT-5.6 is now the preferred model powering Microsoft 365 Copilot, delivering enhanced AI capabilities across Microsoft's productivity suite for faster and higher-quality work.",
       "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
       "source": "OpenAI News"
     },
     {
-      "title": "The US is advancing AI safety through state and federal action",
-      "summary": "OpenAI proposes a 'reverse federalism' approach, advocating for state laws to inform and build a comprehensive national framework for safe and democratic AI governance in the US.",
-      "link": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
-      "summary": "Deutsche Telekom is transforming into an AI-native telco by integrating OpenAI technologies to enhance customer service, optimize employee workflows, and innovate network operations, redefining the future of telecommunications.",
-      "link": "https://openai.com/index/deutsche-telekom",
-      "source": "OpenAI News"
+      "title": "AI-Native Insurance for Agentic AI: Pricing, Underwriting, and End-to-End Automation",
+      "summary": "This paper develops an AI-native mathematical framework for underwriting, pricing, and contract design tailored for agentic AI deployments, addressing new insurance challenges posed by autonomous AI systems.",
+      "link": "https://arxiv.org/abs/2607.13230",
+      "source": "arXiv cs.AI"
     }
   ],
   "learning": [
     {
       "title": "Patter SDK Guide to Building a Restaurant Booking Phone Agent with Dynamic Variables, Guardrails, Latency Dashboards, and Eval Checks",
-      "summary": "A guide to the Patter SDK demonstrates building a voice agent for restaurant bookings, featuring dynamic variables, guardrails, callable tools, latency dashboards, and deterministic eval checks for robust, real-world deployment.",
+      "summary": "This guide provides a comprehensive walkthrough of building a robust voice agent for restaurant bookings using the Patter SDK, covering dynamic variables, guardrails, performance tracking, and evaluation checks for real-world deployment.",
       "link": "https://www.marktechpost.com/2026/07/16/patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks/",
       "source": "MarkTechPost"
     },
     {
       "title": "Building a Gin Config Controlled PyTorch Pipeline with Configurable MLP Variants, Cosine Scheduling, and Runtime Parameter Overrides",
-      "summary": "This guide details constructing a Gin Config-controlled PyTorch pipeline, allowing experimental variables to be managed via .gin files for configurable MLP variants, optimizers, and schedulers, enabling flexible and reproducible model training.",
+      "summary": "A detailed guide on constructing a flexible PyTorch training pipeline using Gin Config, allowing experiment variables to be managed via `.gin` files and enabling runtime parameter overrides without modifying source code.",
       "link": "https://www.marktechpost.com/2026/07/15/building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides/",
       "source": "MarkTechPost"
     },
     {
-      "title": "How sales teams use ChatGPT Work",
-      "summary": "ChatGPT Work empowers sales teams to automate the creation of pipeline briefs, meeting prep packets, and forecast reviews from real work inputs, enhancing productivity and strategic planning.",
-      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "title": "Getting Started with ChatGPT",
+      "summary": "An introductory guide from OpenAI providing fundamental steps to use ChatGPT, helping new users start conversations and discover effective ways to write, brainstorm, and solve problems with AI.",
+      "link": "https://openai.com/academy/getting-started",
       "source": "OpenAI News"
     }
   ]
