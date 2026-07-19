@@ -1,106 +1,106 @@
 {
-  "lastUpdated": "2026-07-17T12:00:00Z",
+  "lastUpdated": "2024-07-19T12:00:00Z",
   "highlights": [
-    "OpenAI has advanced frontier AI with the release of GPT-5.6 and the introduction of \"ChatGPT Work\" as an autonomous agent, signaling a significant leap in AI capabilities for complex, multi-step tasks.",
-    "Enterprises are now focusing on practical AI integration, with new scorecards for measuring ROI and expanded API tools for building production-ready agents, moving towards scalable and efficient AI deployments.",
-    "The ecosystem for AI builders is maturing, offering enhanced tools for fine-tuning video/image models at scale and native-speed LLM serving, alongside practical guides for leveraging AI in diverse professional workflows."
+    "The AI landscape is rapidly advancing agentic capabilities, with new memory architectures and frameworks enabling more autonomous and persistent AI systems for enterprise workflows.",
+    "OpenAI has released GPT-5.6, signaling a new frontier in model intelligence and efficiency, already being integrated into major platforms like Microsoft 365 Copilot, while open-source MoE models continue to evolve with strong performance and cost considerations.",
+    "Developers are gaining powerful new tools for building and fine-tuning AI, from NVIDIA's agentic Vision AI SDK and enhanced Gemini API for production agents to comprehensive open-source platforms for LLM, RAG, and agent development."
   ],
   "agents": [
     {
-      "title": "ChatGPT Work Introduced as Autonomous Agent",
-      "summary": "OpenAI's ChatGPT Work now functions as an autonomous agent, capable of taking action across applications and files to complete ambitious projects from a given goal, marking a step towards more capable AI assistants for complex tasks.",
+      "title": "Google Cloud’s Always-On Memory Agent Replaces RAG with Continuous LLM Consolidation",
+      "summary": "Google Cloud introduces a novel Always-On Memory Agent, built on Google ADK and Gemini 3.1 Flash-Lite, that treats memory as a running process, eliminating the need for vector databases and embeddings for continuous LLM consolidation.",
+      "link": "https://www.marktechpost.com/2026/07/18/google-clouds-always-on-memory-agent-replaces-rag-and-embeddings-with-continuous-llm-consolidation-on-gemini-3-1-flash-lite/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Perplexity AI Releases WANDR: Open Benchmark for Research Agents",
+      "summary": "Perplexity AI launched WANDR, an open benchmark and evaluation harness with 500 evidence-heavy tasks, designed to test research agents' ability to discover and cite multiple qualifying entities with verifiable evidence, with Perplexity Search as Code leading the initial scores.",
+      "link": "https://www.marktechpost.com/2026/07/19/perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "ChatGPT Is Now a Partner for Ambitious Workflows",
+      "summary": "OpenAI positions ChatGPT Work as an advanced agent capable of taking action across user applications and files, sustaining projects for extended periods, and transforming complex goals into completed tasks, marking a significant leap in autonomous AI capabilities.",
       "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
       "source": "OpenAI News"
-    },
-    {
-      "title": "Cars24 Achieves Scaled Conversations with OpenAI Agents",
-      "summary": "Cars24 leverages OpenAI-powered voice and chat agents to manage over 1 million monthly conversation minutes, recover lost leads, and integrate agentic workflows across teams, showcasing real-world enterprise agent deployment.",
-      "link": "https://openai.com/index/cars24",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Lessons from Building AI Agents with Shippy",
-      "summary": "Allen Institute for AI shares practical insights gained from developing Shippy, offering valuable lessons for builders on constructing effective and robust AI agents.",
-      "link": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-      "source": "Hugging Face Blog"
     }
   ],
   "models": [
     {
-      "title": "OpenAI Unveils GPT-5.6 for Frontier Intelligence",
-      "summary": "OpenAI announces GPT-5.6, a new frontier intelligence model promising enhanced capabilities, stronger performance per dollar, and greater capacity for complex workloads, enabling ambitious AI applications.",
+      "title": "GPT-5.6: Frontier Intelligence That Scales with Your Ambition",
+      "summary": "OpenAI announces GPT-5.6, offering more intelligence from every token, stronger performance per dollar, and enhanced capabilities on demand for the most demanding workloads, setting a new benchmark for frontier AI models.",
       "link": "https://openai.com/index/gpt-5-6",
       "source": "OpenAI News"
     },
     {
-      "title": "GPT-5.6 Powers Microsoft 365 Copilot",
-      "summary": "GPT-5.6 is now the preferred model for Microsoft 365 Copilot, delivering stronger AI capabilities across key applications like Word and Excel, accelerating high-quality work within enterprise environments.",
+      "title": "GPT-5.6 Becomes Preferred Model in Microsoft 365 Copilot",
+      "summary": "GPT-5.6 has been integrated as the preferred model for Microsoft 365 Copilot, delivering stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork to enable faster, higher-quality work for enterprise users.",
       "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
       "source": "OpenAI News"
     },
     {
-      "title": "GPT-Red Enhances AI Robustness Through Self-Improvement",
-      "summary": "OpenAI introduces GPT-Red, an automated red teaming system utilizing self-play to improve AI safety, alignment, and prompt injection robustness, crucial for developing more secure and dependable models.",
-      "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "source": "OpenAI News"
+      "title": "Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared",
+      "summary": "This comparison evaluates three open Mixture-of-Experts (MoE) flagship models—Kimi K3, DeepSeek V4 Pro, and GLM-5.2—across benchmarks, license terms, and real serving costs, providing critical insights for developers selecting large-scale open models.",
+      "link": "https://www.marktechpost.com/2026/07/18/kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-moe-models-compared-on-benchmarks-license-and-serving-cost/",
+      "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Gemini API Expands Managed Agents Capabilities",
-      "summary": "Google announces new capabilities for Managed Agents in the Gemini API, including background tasks and remote MCP, empowering developers to build reliable and production-ready AI agents more effectively.",
+      "title": "NVIDIA Released DeepStream 9.1 with Agentic AI for Vision AI",
+      "summary": "NVIDIA DeepStream 9.1 introduces 13 agentic skills, enabling coding agents to build multi-camera video analytics pipelines from natural language, alongside Multi-View 3D Tracking and automatic camera calibration, significantly enhancing intelligent vision system development.",
+      "link": "https://www.marktechpost.com/2026/07/18/nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-ai-with-13-skills-and-multi-view-3d-tracking/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Expanding Managed Agents in Gemini API for Production-Ready Agents",
+      "summary": "Google announces new capabilities for Managed Agents in the Gemini API, empowering developers to build reliable, production-ready agents with features like background tasks and remote Multi-Channel Processors, streamlining advanced agent development.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
       "source": "Google AI Blog"
     },
     {
-      "title": "Scalable Fine-tuning for Video & Image Models with NVIDIA NeMo and Diffusers",
-      "summary": "A new integration allows fine-tuning video and image models at scale using NVIDIA NeMo Automodel and Hugging Face Diffusers, providing builders with powerful tools for custom model development.",
-      "link": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
-      "source": "Hugging Face Blog"
-    },
-    {
-      "title": "Native-Speed vLLM Transformers Backend Released",
-      "summary": "Hugging Face introduces a native-speed vLLM transformers modeling backend, significantly improving the performance and efficiency of large language model serving for optimized deployment.",
-      "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-      "source": "Hugging Face Blog"
+      "title": "10 Open-Source No-Code AI Platforms for Building LLM Apps, RAG, and Agents",
+      "summary": "This roundup presents 10 open-source no-code and low-code platforms, each with verified licenses and repositories, for rapidly building LLM applications, RAG systems, and AI agents, offering diverse options for accelerated AI development.",
+      "link": "https://www.marktechpost.com/2026/07/18/10-open-source-no-code-ai-platforms-for-building-llm-apps-rag-systems-and-ai-agents/",
+      "source": "MarkTechPost"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Introduces AI Scorecard for ROI Measurement",
-      "summary": "OpenAI's CFO, Sarah Friar, presents a practical AI scorecard to help enterprises measure ROI through useful work, cost per successful task, dependability, and return on compute, guiding strategic AI investments.",
-      "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "title": "How Cars24 Scales Conversations and Builds Faster with OpenAI",
+      "summary": "Cars24 leverages OpenAI-powered voice and chat agents to manage over 1 million monthly conversation minutes, recover 12% of lost leads, and integrate agentic workflows across teams, showcasing significant operational scaling and efficiency gains.",
+      "link": "https://openai.com/index/cars24",
       "source": "OpenAI News"
     },
     {
-      "title": "Deutsche Telekom Transforms into AI-Native Telco with OpenAI",
-      "summary": "Deutsche Telekom is leveraging OpenAI to become an AI-native telecommunications company, revolutionizing customer service, employee workflows, and network operations, showcasing large-scale enterprise AI adoption.",
+      "title": "How Deutsche Telekom Is Rewiring Telecommunications with AI",
+      "summary": "Deutsche Telekom is transforming into an AI-native telco by adopting OpenAI solutions to enhance customer service, optimize employee workflows, streamline network operations, and innovate the future of voice communications.",
       "link": "https://openai.com/index/deutsche-telekom",
       "source": "OpenAI News"
     },
     {
-      "title": "Managing AI Investments in the Agentic Era",
-      "summary": "OpenAI provides guidance for enterprises on managing AI investments in the agentic era, focusing on measuring useful work per dollar and scaling high-value workflows to improve efficiency and maximize returns.",
-      "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+      "title": "OpenAI Introduces a Scorecard for the AI Age",
+      "summary": "Sarah Friar, OpenAI's CFO, introduces a practical AI scorecard designed to measure ROI through key metrics such as useful work produced, cost per successful task, dependability, and return on compute, providing a framework for strategic AI investment.",
+      "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Getting Started with ChatGPT",
-      "summary": "A foundational guide from OpenAI to help new users and builders understand how to effectively use ChatGPT for writing, brainstorming, and problem-solving, accelerating AI adoption.",
-      "link": "https://openai.com/academy/getting-started",
-      "source": "OpenAI News"
+      "title": "Fine-Tuning Qwen3 with LoRA Using NVIDIA NeMo AutoModel: Google Colab Tutorial",
+      "summary": "A comprehensive Google Colab workflow tutorial guides users through fine-tuning Qwen3 with LoRA using NVIDIA NeMo AutoModel on a single GPU, covering setup, precision adaptation, and result comparison for practical model customization.",
+      "link": "https://www.marktechpost.com/2026/07/18/fine-tuning-qwen3-with-lora-using-nvidia-nemo-automodel-a-complete-single-gpu-google-colab-workflow-tutorial/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "ChatGPT Work for Data Science Teams",
-      "summary": "This guide demonstrates how data science teams can utilize ChatGPT Work to generate root-cause briefs, impact readouts, and KPI memos from real work inputs, streamlining analytical workflows.",
-      "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "source": "OpenAI News"
+      "title": "Build an Agentic Event Venue Operator with MongoDB Atlas, Voyage, and LangGraph",
+      "summary": "This tutorial teaches how to build an advanced agent with persistent memory, operational context, and write-back capabilities, moving beyond basic agent demos by integrating MongoDB Atlas, Voyage, and LangGraph for complex use cases.",
+      "link": "https://www.marktechpost.com/2026/07/17/build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "ChatGPT Work for Sales Teams",
-      "summary": "A practical guide illustrating how sales teams can leverage ChatGPT Work to create pipeline briefs, meeting prep packets, and account plans, enabling more efficient and informed sales operations.",
+      "title": "How Sales Teams Use ChatGPT Work for Enhanced Productivity",
+      "summary": "This guide demonstrates how sales teams can leverage ChatGPT Work to streamline tasks such as creating pipeline briefs, preparing for meetings, conducting forecast reviews, developing account plans, and diagnosing stalled deals from real work inputs.",
       "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "source": "OpenAI News"
     }
