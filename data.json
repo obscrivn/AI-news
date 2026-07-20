@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2024-07-19T12:00:00Z",
+  "lastUpdated": "2024-07-20T12:00:00Z",
   "highlights": [
-    "The AI landscape is rapidly advancing agentic capabilities, with new memory architectures and frameworks enabling more autonomous and persistent AI systems for enterprise workflows.",
-    "OpenAI has released GPT-5.6, signaling a new frontier in model intelligence and efficiency, already being integrated into major platforms like Microsoft 365 Copilot, while open-source MoE models continue to evolve with strong performance and cost considerations.",
-    "Developers are gaining powerful new tools for building and fine-tuning AI, from NVIDIA's agentic Vision AI SDK and enhanced Gemini API for production agents to comprehensive open-source platforms for LLM, RAG, and agent development."
+    "The AI landscape is rapidly advancing with significant developments in agentic AI, including specialized research agents, local voice assistants, and safety frameworks, alongside new benchmarks for complex tool-use and reasoning.",
+    "Major players like Alibaba and OpenAI are pushing the boundaries with frontier multimodal models, while specialized models for healthcare and text-to-SQL tasks are addressing domain-specific intelligence needs.",
+    "There's a growing emphasis on efficient local LLMs and flexible cloud-agnostic deployment, supported by new tools and integrations from NVIDIA and Hugging Face that empower developers to build and scale AI solutions across diverse environments."
   ],
   "agents": [
     {
-      "title": "Google Cloud’s Always-On Memory Agent Replaces RAG with Continuous LLM Consolidation",
-      "summary": "Google Cloud introduces a novel Always-On Memory Agent, built on Google ADK and Gemini 3.1 Flash-Lite, that treats memory as a running process, eliminating the need for vector databases and embeddings for continuous LLM consolidation.",
+      "title": "Google Cloud’s Always-On Memory Agent",
+      "summary": "Google Cloud introduced an Always-On Memory Agent, a reference implementation using continuous LLM consolidation on Gemini 3.1 Flash-Lite, which replaces traditional RAG and embeddings for persistent memory management without vector databases.",
       "link": "https://www.marktechpost.com/2026/07/18/google-clouds-always-on-memory-agent-replaces-rag-and-embeddings-with-continuous-llm-consolidation-on-gemini-3-1-flash-lite/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Perplexity AI Releases WANDR: Open Benchmark for Research Agents",
-      "summary": "Perplexity AI launched WANDR, an open benchmark and evaluation harness with 500 evidence-heavy tasks, designed to test research agents' ability to discover and cite multiple qualifying entities with verifiable evidence, with Perplexity Search as Code leading the initial scores.",
-      "link": "https://www.marktechpost.com/2026/07/19/perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep/",
-      "source": "MarkTechPost"
+      "title": "AnovaX: A Local, Multi-Agent Voice Assistant with LLM Planning",
+      "summary": "AnovaX is a local-first, multi-agent voice assistant that runs entirely on the user's desktop, using an LLM planner and specialized child agents to automate complex tasks, offering robust adaptive recovery and remote control capabilities.",
+      "link": "https://arxiv.org/abs/2607.15367",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "ChatGPT Is Now a Partner for Ambitious Workflows",
-      "summary": "OpenAI positions ChatGPT Work as an advanced agent capable of taking action across user applications and files, sustaining projects for extended periods, and transforming complex goals into completed tasks, marking a significant leap in autonomous AI capabilities.",
-      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "source": "OpenAI News"
+      "title": "SeerGuard: A Safety Framework for Mobile GUI Agents via World Model Prediction",
+      "summary": "SeerGuard is a new safety framework that prevents critical errors in mobile GUI agents by performing pre-execution instruction-level screening and action-level risk assessment through a unified safety-augmented world model.",
+      "link": "https://arxiv.org/abs/2607.15550",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "GPT-5.6: Frontier Intelligence That Scales with Your Ambition",
-      "summary": "OpenAI announces GPT-5.6, offering more intelligence from every token, stronger performance per dollar, and enhanced capabilities on demand for the most demanding workloads, setting a new benchmark for frontier AI models.",
+      "title": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model",
+      "summary": "Alibaba's Qwen team previewed Qwen3.8-Max, a 2.4 trillion-parameter multimodal MoE model positioned as a frontier intelligence, now available for preview on Token Plan and Qoder.",
+      "link": "https://www.marktechpost.com/2026/07/19/alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "summary": "OpenAI has released GPT-5.6, a new frontier model offering increased intelligence, stronger performance per dollar, and enhanced capabilities for demanding workloads, now also the preferred model for Microsoft 365 Copilot.",
       "link": "https://openai.com/index/gpt-5-6",
       "source": "OpenAI News"
     },
     {
-      "title": "GPT-5.6 Becomes Preferred Model in Microsoft 365 Copilot",
-      "summary": "GPT-5.6 has been integrated as the preferred model for Microsoft 365 Copilot, delivering stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork to enable faster, higher-quality work for enterprise users.",
-      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared",
-      "summary": "This comparison evaluates three open Mixture-of-Experts (MoE) flagship models—Kimi K3, DeepSeek V4 Pro, and GLM-5.2—across benchmarks, license terms, and real serving costs, providing critical insights for developers selecting large-scale open models.",
-      "link": "https://www.marktechpost.com/2026/07/18/kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-moe-models-compared-on-benchmarks-license-and-serving-cost/",
+      "title": "Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database",
+      "summary": "Feyn Labs launched SQRL, a text-to-SQL model family that inspects databases with read-only probes before generating queries, achieving 70.6% execution accuracy on BIRD Dev and offering self-hostable checkpoints.",
+      "link": "https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "NVIDIA Released DeepStream 9.1 with Agentic AI for Vision AI",
-      "summary": "NVIDIA DeepStream 9.1 introduces 13 agentic skills, enabling coding agents to build multi-camera video analytics pipelines from natural language, alongside Multi-View 3D Tracking and automatic camera calibration, significantly enhancing intelligent vision system development.",
+      "title": "NVIDIA Released DeepStream 9.1: Bringing Agentic AI to Vision AI",
+      "summary": "NVIDIA DeepStream 9.1 introduces 13 agentic skills enabling natural-language pipeline creation for multi-camera video analytics, alongside Multi-View 3D Tracking and AutoMagicCalib for simplified calibration.",
       "link": "https://www.marktechpost.com/2026/07/18/nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-ai-with-13-skills-and-multi-view-3d-tracking/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Expanding Managed Agents in Gemini API for Production-Ready Agents",
-      "summary": "Google announces new capabilities for Managed Agents in the Gemini API, empowering developers to build reliable, production-ready agents with features like background tasks and remote Multi-Channel Processors, streamlining advanced agent development.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "source": "Google AI Blog"
+      "title": "ToolVerse: Unlocking Massive Environments and Long-Horizon Tasks for Agentic Reinforcement Learning",
+      "summary": "ToolVerse is a comprehensive framework that scales agentic RL environments, building massive executable training grounds from nearly 400 real-world protocols and enabling agents to perform complex, long-horizon reasoning with extensive tool integration.",
+      "link": "https://arxiv.org/abs/2607.15660",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "10 Open-Source No-Code AI Platforms for Building LLM Apps, RAG, and Agents",
-      "summary": "This roundup presents 10 open-source no-code and low-code platforms, each with verified licenses and repositories, for rapidly building LLM applications, RAG systems, and AI agents, offering diverse options for accelerated AI development.",
-      "link": "https://www.marktechpost.com/2026/07/18/10-open-source-no-code-ai-platforms-for-building-llm-apps-rag-systems-and-ai-agents/",
-      "source": "MarkTechPost"
+      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+      "summary": "Google is expanding Managed Agents in Gemini API with new capabilities like background tasks and remote Model Context Protocols, enabling developers to build more reliable and production-ready agents.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "source": "Google AI Blog"
     }
   ],
   "companies": [
     {
-      "title": "How Cars24 Scales Conversations and Builds Faster with OpenAI",
-      "summary": "Cars24 leverages OpenAI-powered voice and chat agents to manage over 1 million monthly conversation minutes, recover 12% of lost leads, and integrate agentic workflows across teams, showcasing significant operational scaling and efficiency gains.",
-      "link": "https://openai.com/index/cars24",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "summary": "OpenAI announced that GPT-5.6 is now the preferred model powering Microsoft 365 Copilot, delivering stronger AI capabilities across various applications like Word, Excel, and PowerPoint for enhanced productivity.",
+      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
       "source": "OpenAI News"
     },
     {
-      "title": "How Deutsche Telekom Is Rewiring Telecommunications with AI",
-      "summary": "Deutsche Telekom is transforming into an AI-native telco by adopting OpenAI solutions to enhance customer service, optimize employee workflows, streamline network operations, and innovate the future of voice communications.",
-      "link": "https://openai.com/index/deutsche-telekom",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "OpenAI Introduces a Scorecard for the AI Age",
-      "summary": "Sarah Friar, OpenAI's CFO, introduces a practical AI scorecard designed to measure ROI through key metrics such as useful work produced, cost per successful task, dependability, and return on compute, providing a framework for strategic AI investment.",
+      "title": "A scorecard for the AI age",
+      "summary": "OpenAI's CFO, Sarah Friar, introduced a practical AI scorecard for enterprises to measure ROI by focusing on useful work generated, cost per successful task, dependability, and return on compute.",
       "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "How Cars24 scales conversations and builds faster with OpenAI",
+      "summary": "Cars24 leveraged OpenAI-powered voice and chat agents to manage over 1 million monthly conversation minutes, recover 12% of lost leads, and implement agentic workflows across their organization.",
+      "link": "https://openai.com/index/cars24",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Fine-Tuning Qwen3 with LoRA Using NVIDIA NeMo AutoModel: Google Colab Tutorial",
-      "summary": "A comprehensive Google Colab workflow tutorial guides users through fine-tuning Qwen3 with LoRA using NVIDIA NeMo AutoModel on a single GPU, covering setup, precision adaptation, and result comparison for practical model customization.",
+      "title": "Fine-Tuning Qwen3 with LoRA Using NVIDIA NeMo AutoModel: A Complete Single-GPU Google Colab Workflow Tutorial",
+      "summary": "A comprehensive Google Colab tutorial demonstrates an end-to-end workflow for fine-tuning Qwen3 with LoRA using NVIDIA NeMo AutoModel on a single GPU, covering installation, precision adaptation, and result comparison.",
       "link": "https://www.marktechpost.com/2026/07/18/fine-tuning-qwen3-with-lora-using-nvidia-nemo-automodel-a-complete-single-gpu-google-colab-workflow-tutorial/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Build an Agentic Event Venue Operator with MongoDB Atlas, Voyage, and LangGraph",
-      "summary": "This tutorial teaches how to build an advanced agent with persistent memory, operational context, and write-back capabilities, moving beyond basic agent demos by integrating MongoDB Atlas, Voyage, and LangGraph for complex use cases.",
-      "link": "https://www.marktechpost.com/2026/07/17/build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph/",
-      "source": "MarkTechPost"
+      "title": "What building Shippy taught us about building agents",
+      "summary": "This blog post shares valuable lessons learned from developing 'Shippy,' an agent, providing practical insights and best practices for others embarking on agent-building projects.",
+      "link": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "source": "Hugging Face Blog"
     },
     {
-      "title": "How Sales Teams Use ChatGPT Work for Enhanced Productivity",
-      "summary": "This guide demonstrates how sales teams can leverage ChatGPT Work to streamline tasks such as creating pipeline briefs, preparing for meetings, conducting forecast reviews, developing account plans, and diagnosing stalled deals from real work inputs.",
-      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "title": "How data science teams use ChatGPT Work",
+      "summary": "This article details how data science teams can leverage ChatGPT Work to streamline tasks such as creating root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specifications from real-world data inputs.",
+      "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "source": "OpenAI News"
     }
   ]
