@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-07-21T00:00:00Z",
+  "lastUpdated": "2026-07-22T15:00:00Z",
   "highlights": [
-    "OpenAI's latest releases signal a major push towards agentic AI, with ChatGPT Work offering ambitious task completion and GPT-5.6 becoming Microsoft 365 Copilot's preferred model, democratizing advanced AI capabilities across enterprise workflows.",
-    "The model landscape continues to diversify rapidly, highlighted by NVIDIA's on-device Cosmos 3 Edge for robotics and Alibaba's preview of the massive Qwen3.8-Max multimodal model, alongside critical advancements in RAG and RLHF.",
-    "Developers gain powerful new tools with Meta open-sourcing its agent-ready Astryx design system and Hugging Face expanding multi-cloud deployment options, complemented by practical guides for running and fine-tuning small LLMs locally, fostering broader AI accessibility."
+    "The AI landscape is increasingly focused on the operationalization and safety of agentic systems, with new runtime architectures and evaluation frameworks emerging to ensure reliable and trustworthy deployments.",
+    "Major companies are significantly investing in AI infrastructure and expanding enterprise-grade AI solutions, empowering businesses from startups to large corporations with advanced tools and agent platforms.",
+    "Developers are gaining access to sophisticated tools and techniques for scalable LLM orchestration, precise model control, and efficient AI tool discovery, alongside advancements in training stability and constrained decoding."
   ],
   "agents": [
     {
-      "title": "ChatGPT is now a partner for your most ambitious work",
-      "summary": "OpenAI announced ChatGPT Work, an agent capable of taking actions across applications and files, persisting on projects for hours, and converting high-level goals into completed tasks, significantly extending enterprise productivity.",
-      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "title": "Introducing OpenAI Presence: Enterprise AI Agent Platform",
+      "summary": "OpenAI launched Presence, a robust enterprise AI agent platform enabling organizations to deploy trusted voice and chat agents for diverse customer and internal workflows, providing a ready-to-use solution for business automation.",
+      "link": "https://openai.com/index/introducing-openai-presence",
       "source": "OpenAI News"
     },
     {
-      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
-      "summary": "Google is expanding its Managed Agents in Gemini API with new capabilities like background tasks and remote Multi-Agent Coordination Protocol (MCP), enabling developers to build more reliable and production-ready AI agents.",
+      "title": "Expanding Managed Agents in Gemini API: Background Tasks, Remote MCP, and More",
+      "summary": "Google is enhancing Managed Agents in the Gemini API with new capabilities, including background tasks and remote Multi-Context Processing (MCP), allowing developers to build more reliable and production-ready AI agents.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
       "source": "Google AI Blog"
     },
     {
-      "title": "Deterministic Replay for AI Agent Systems",
-      "summary": "This paper introduces agrepl, a developer-first CLI framework providing deterministic replay of AI agent executions by intercepting and serializing external interactions, crucial for debugging and reproducing agent behavior reliably.",
-      "link": "https://arxiv.org/abs/2607.16200",
+      "title": "Phionyx: Deterministic AI Runtime Architecture with Structured State Management and Pre-Response Governance",
+      "summary": "Phionyx introduces a deterministic AI runtime architecture for agents, treating LLM outputs as noisy sensor measurements and enforcing reproducible state evolution via a structured state vector. This enables auditability, governance, and architectural privacy, crucial for reliable agent deployment.",
+      "link": "https://arxiv.org/abs/2607.18246",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "summary": "OpenAI unveiled GPT-5.6, touted for delivering increased intelligence per token, stronger performance per dollar, and enhanced on-demand capability for complex tasks, marking a significant advancement in frontier AI models.",
-      "link": "https://openai.com/index/gpt-5-6",
-      "source": "OpenAI News"
+      "title": "S2T-RLHF: Hierarchical Credit Assignment for Stable Preference-Based RLHF",
+      "summary": "S2T-RLHF proposes a sentence-to-token reward decomposition framework that improves the training stability and robustness of preference-based RLHF, addressing the challenge of ambiguous credit assignment with a granularity-aware approach without requiring reward-model retraining.",
+      "link": "https://arxiv.org/abs/2607.18258",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "NVIDIA Releases Cosmos 3 Edge: A 4B-Parameter Open World Model That Reasons and Generates Robot Actions On-Device",
-      "summary": "NVIDIA has released Cosmos 3 Edge, a 4-billion-parameter open world model designed for on-device deployment, enabling robots and vision AI agents to understand surroundings, reason in real time, and generate local actions.",
-      "link": "https://www.marktechpost.com/2026/07/21/nvidia-releases-cosmos-3-edge-a-4b-parameter-open-world-model-that-reasons-and-generates-robot-actions-on-device/",
-      "source": "MarkTechPost"
+      "title": "Probabilistic Concept-Aware Steering for Trustworthy LLM Inference",
+      "summary": "This framework introduces Probabilistic Concept-Aware Steering (PCS) to guide LLM generation with concept-driven steering vectors and probabilistic strength calibration. PCS ensures trustworthy LLM inference by preserving task competence while enabling controllable, safety-oriented semantic bias.",
+      "link": "https://arxiv.org/abs/2607.18259",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot’s Kimi K3 Open-Weight Launch",
-      "summary": "Alibaba's Qwen team previewed Qwen3.8-Max, a 2.4 trillion-parameter multimodal MoE model, offering a glimpse into a new generation of highly capable models for multimodal understanding and generation.",
-      "link": "https://www.marktechpost.com/2026/07/19/alibabas-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch/",
-      "source": "MarkTechPost"
+      "title": "Cross-Dialect Generalization Without Retraining: Schema-Derived Constrained Decoding for MLIR",
+      "summary": "This research introduces schema-derived constrained decoding for MLIR, enabling smaller LLMs to match or exceed larger models in generating valid MLIR code without retraining. It provides a practical inference-time technique for developers working with extensible compiler infrastructure.",
+      "link": "https://arxiv.org/abs/2607.18254",
+      "source": "arXiv cs.AI"
     }
   ],
   "tools": [
     {
-      "title": "Meta Open-Sources Astryx: An Agent-Ready React Design System With 150+ Accessible Components, Seven Themes, and a CLI",
-      "summary": "Meta has open-sourced Astryx, an agent-ready React design system with over 150 accessible components, seven themes, and a CLI, providing developers a mature, MIT-licensed toolkit for building sophisticated UIs.",
-      "link": "https://www.marktechpost.com/2026/07/21/meta-open-sources-astryx-an-agent-ready-react-design-system-with-150-accessible-components-seven-themes-and-a-cli/",
-      "source": "MarkTechPost"
+      "title": "BatchDAG: LLM-Planned Execution Graphs for Scalable Ad-Hoc Analysis Over Enterprise Data",
+      "summary": "BatchDAG is an orchestration layer where LLMs generate typed directed acyclic graphs for scalable, ad-hoc analysis over enterprise datasets. It dramatically reduces LLM calls and processing time by employing entity-aware batching and parallel execution, replacing complex hand-engineered workflows with natural language instructions.",
+      "link": "https://arxiv.org/abs/2607.18241",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "From Hugging Face to Amazon SageMaker Studio in one click",
-      "summary": "Hugging Face announced a one-click integration with Amazon SageMaker Studio, allowing developers to seamlessly deploy and manage Hugging Face models within AWS MLOps workflows, accelerating production timelines.",
-      "link": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-      "source": "Hugging Face Blog"
+      "title": "AI Tool Discovery at Scale: All You Need is DNS (ToolDNS)",
+      "summary": "ToolDNS is a radical framework that retrofits semantic AI tool discovery onto the Domain Name System, transforming complex semantic searches into lightweight, O(log N) name resolutions. This decentralized approach slashes discovery latency and search space, critical for the coming era of autonomous AI agents.",
+      "link": "https://arxiv.org/abs/2607.18242",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
-      "summary": "Hugging Face partnered with SkyPilot to enable running AI workloads across any cloud provider with zero-egress storage, allowing developers to leverage diverse compute resources while unifying data management.",
-      "link": "https://huggingface.co/blog/skypilot-hf-storage",
-      "source": "Hugging Face Blog"
+      "title": "PEARL: Solver-in-the-Loop Interactive Optimization Modeling from Natural Language",
+      "summary": "PEARL is a system for interactive optimization modeling that integrates Python execution and mathematical programming solvers directly into the LLM loop. It enables iterative model revision based on solver feedback, significantly improving verified solve rates for complex optimization tasks.",
+      "link": "https://arxiv.org/abs/2607.18256",
+      "source": "arXiv cs.AI"
     }
   ],
   "companies": [
     {
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "summary": "OpenAI announced GPT-5.6 is now the preferred model powering Microsoft 365 Copilot, signifying a deep integration that enhances AI capabilities across Microsoft's productivity suite for faster, higher-quality enterprise work.",
-      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "title": "Introducing the ChatGPT for small business program",
+      "summary": "OpenAI launched a program to empower small businesses with ChatGPT Work, helping entrepreneurs build AI skills, automate tasks, and leverage AI for growth. This initiative expands access to advanced AI capabilities for a crucial economic sector.",
+      "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
       "source": "OpenAI News"
     },
     {
-      "title": "Safety and alignment in an era of long-horizon models",
-      "summary": "OpenAI shared critical lessons and improved safeguards from deploying long-running AI models, addressing new safety risks and observed failures through iterative deployment to ensure responsible AI development.",
-      "link": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "title": "Building AI infrastructure with the Effingham County community",
+      "summary": "OpenAI announced Project Camellia, a significant investment in AI infrastructure in Effingham County, Georgia. This commitment includes responsible energy use, community investment, job creation, and access to advanced AI, signaling a foundational expansion for future AI capabilities.",
+      "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
       "source": "OpenAI News"
     },
     {
-      "title": "A scorecard for the AI age",
-      "summary": "OpenAI CFO Sarah Friar introduced a practical AI scorecard, providing a framework to measure AI investments by tracking ROI through useful work, cost per successful task, dependability, and return on compute.",
-      "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
-      "source": "OpenAI News"
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "summary": "Google's research in 'Nature' demonstrates that their conversational AI system, AMIE, can match primary care physicians in managing complex health conditions. This highlights Google's advancements in high-stakes AI applications and potential for significant impact in healthcare.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Best Local LLMs You Can Run on a Single 24GB GPU in 2026: Qwen, Gemma, Mistral, DeepSeek Compared",
-      "summary": "This guide offers a practical comparison of six open-weight LLMs (Qwen, Gemma, Mistral, DeepSeek) that can run on a single 24GB GPU, detailing VRAM fit, licensing, and best-fit use cases for developers focused on local inference.",
-      "link": "https://www.marktechpost.com/2026/07/19/best-local-llms-you-can-run-on-a-single-24gb-gpu-in-2026-qwen-gemma-mistral-deepseek-compared/",
-      "source": "MarkTechPost"
+      "title": "How sales teams use ChatGPT Work",
+      "summary": "This guide from OpenAI Academy shows sales teams how to leverage ChatGPT Work for creating pipeline briefs, meeting prep, forecast reviews, account plans, and stalled-deal diagnoses, providing practical AI skills for business professionals.",
+      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "source": "OpenAI News"
     },
     {
-      "title": "Democratizing AI with Small Language Models: Structured Benchmarking and Parameter-Efficient Fine-Tuning for Local Deployment",
-      "summary": "This research provides a controlled evaluation of small language models (135M-3B parameters) on a specialized benchmark, demonstrating that a disciplined workflow of benchmarking and low-cost parameter-efficient fine-tuning can make sub-3B models viable for local, niche workloads.",
-      "link": "https://arxiv.org/abs/2607.16202",
-      "source": "arXiv cs.AI"
+      "title": "How data science teams use ChatGPT Work",
+      "summary": "OpenAI Academy offers insights into how data science teams can use ChatGPT Work to generate root-cause briefs, impact readouts, KPI memos, and dashboard specifications, streamlining analytical workflows and improving communication.",
+      "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "source": "OpenAI News"
     },
     {
-      "title": "What building Shippy taught us about building agents",
-      "summary": "This article shares key insights and lessons learned from developing 'Shippy,' an AI agent, offering practical guidance for builders on the complexities and best practices involved in constructing robust and effective agent systems.",
-      "link": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-      "source": "Hugging Face Blog"
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "summary": "A Google expert explains the concept of a 'full-stack approach' to AI, providing foundational knowledge for developers and strategists on why this comprehensive methodology is critical for successful AI development.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+      "source": "Google AI Blog"
     }
   ]
 }
