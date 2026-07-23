@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-07-22T15:00:00Z",
+  "lastUpdated": "2026-07-23T14:30:00Z",
   "highlights": [
-    "The AI landscape is increasingly focused on the operationalization and safety of agentic systems, with new runtime architectures and evaluation frameworks emerging to ensure reliable and trustworthy deployments.",
-    "Major companies are significantly investing in AI infrastructure and expanding enterprise-grade AI solutions, empowering businesses from startups to large corporations with advanced tools and agent platforms.",
-    "Developers are gaining access to sophisticated tools and techniques for scalable LLM orchestration, precise model control, and efficient AI tool discovery, alongside advancements in training stability and constrained decoding."
+    "The AI industry is witnessing a strong push towards robust agentic AI, with new runtime architectures, security plugins, and advanced evaluation frameworks designed to enhance governance, safety, and reliability.",
+    "Significant performance optimizations in foundational AI components are emerging, including ultra-fast tokenizers and efficient model routing solutions, which promise to drastically reduce inference costs and accelerate development workflows.",
+    "Major model providers are expanding their offerings with cost-optimized tiers and open-weight models, specifically targeting critical applications like code vulnerability detection and complex agentic coding, making advanced AI more accessible for enterprise use."
   ],
   "agents": [
     {
-      "title": "Introducing OpenAI Presence: Enterprise AI Agent Platform",
-      "summary": "OpenAI launched Presence, a robust enterprise AI agent platform enabling organizations to deploy trusted voice and chat agents for diverse customer and internal workflows, providing a ready-to-use solution for business automation.",
-      "link": "https://openai.com/index/introducing-openai-presence",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Expanding Managed Agents in Gemini API: Background Tasks, Remote MCP, and More",
-      "summary": "Google is enhancing Managed Agents in the Gemini API with new capabilities, including background tasks and remote Multi-Context Processing (MCP), allowing developers to build more reliable and production-ready AI agents.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "Phionyx: Deterministic AI Runtime Architecture with Structured State Management and Pre-Response Governance",
-      "summary": "Phionyx introduces a deterministic AI runtime architecture for agents, treating LLM outputs as noisy sensor measurements and enforcing reproducible state evolution via a structured state vector. This enables auditability, governance, and architectural privacy, crucial for reliable agent deployment.",
+      "title": "Phionyx: A Deterministic AI Runtime Architecture with Structured State Management and Pre-Response Governance",
+      "summary": "Phionyx introduces a deterministic AI runtime architecture prioritizing governance and auditability. It treats LLM outputs as sensor measurements, ensuring reproducible behavior through structured state management and pre-response control, vital for reliable AI deployment.",
       "link": "https://arxiv.org/abs/2607.18246",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI",
+      "summary": "This research introduces SysAdmin, a benchmark to measure \"power-seeking\" behaviors in frontier language models within a high-fidelity Linux sandbox. Findings indicate minimal spontaneous power-seeking but highlight other failure modes like specification gaming, informing critical AI safety evaluations.",
+      "link": "https://arxiv.org/abs/2607.18239",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "BatchDAG: LLM-Planned Execution Graphs for Scalable Ad-Hoc Analysis Over Enterprise Data",
+      "summary": "BatchDAG enables LLMs to generate and evaluate execution graphs for scalable, cross-entity analysis over enterprise datasets. It solves context overflow and latency issues by optimizing LLM calls and employing structured JSON data flow, providing comparable quality to expert-designed pipelines at reduced cost.",
+      "link": "https://arxiv.org/abs/2607.18241",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "S2T-RLHF: Hierarchical Credit Assignment for Stable Preference-Based RLHF",
-      "summary": "S2T-RLHF proposes a sentence-to-token reward decomposition framework that improves the training stability and robustness of preference-based RLHF, addressing the challenge of ambiguous credit assignment with a granularity-aware approach without requiring reward-model retraining.",
-      "link": "https://arxiv.org/abs/2607.18258",
-      "source": "arXiv cs.AI"
+      "title": "Google Releases Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "summary": "Google introduced new Gemini Flash tiers (3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber) designed for agentic workloads. These models offer improved token efficiency and lower pricing, significantly reducing operational costs for developers building AI agents.",
+      "link": "https://www.marktechpost.com/2026/07/21/google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Probabilistic Concept-Aware Steering for Trustworthy LLM Inference",
-      "summary": "This framework introduces Probabilistic Concept-Aware Steering (PCS) to guide LLM generation with concept-driven steering vectors and probabilistic strength calibration. PCS ensures trustworthy LLM inference by preserving task competence while enabling controllable, safety-oriented semantic bias.",
-      "link": "https://arxiv.org/abs/2607.18259",
-      "source": "arXiv cs.AI"
+      "title": "Cisco Foundation AI Releases Antares: 350M and 1B Open-Weight Models That Localize Known Vulnerabilities Inside Real Codebases",
+      "summary": "Cisco Foundation AI launched Antares, a family of open-weight language models (350M and 1B parameters) specialized in localizing known vulnerabilities within codebases. These models offer a highly cost-effective and performant solution for security analysis, outperforming larger, more expensive alternatives.",
+      "link": "https://www.marktechpost.com/2026/07/21/cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-models-that-localize-known-vulnerabilities-inside-real-codebases/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Cross-Dialect Generalization Without Retraining: Schema-Derived Constrained Decoding for MLIR",
-      "summary": "This research introduces schema-derived constrained decoding for MLIR, enabling smaller LLMs to match or exceed larger models in generating valid MLIR code without retraining. It provides a practical inference-time technique for developers working with extensible compiler infrastructure.",
-      "link": "https://arxiv.org/abs/2607.18254",
-      "source": "arXiv cs.AI"
+      "title": "Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class on SWE-Bench Multilingual",
+      "summary": "Poolside released Laguna S 2.1, an 118B open-weight Mixture-of-Experts coding model with a 1M-token context window. It demonstrates superior performance on agentic coding benchmarks, matching or exceeding much larger models while being runnable on a single NVIDIA DGX Spark.",
+      "link": "https://www.marktechpost.com/2026/07/21/poolside-releases-laguna-s-2-1/",
+      "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "BatchDAG: LLM-Planned Execution Graphs for Scalable Ad-Hoc Analysis Over Enterprise Data",
-      "summary": "BatchDAG is an orchestration layer where LLMs generate typed directed acyclic graphs for scalable, ad-hoc analysis over enterprise datasets. It dramatically reduces LLM calls and processing time by employing entity-aware batching and parallel execution, replacing complex hand-engineered workflows with natural language instructions.",
-      "link": "https://arxiv.org/abs/2607.18241",
-      "source": "arXiv cs.AI"
+      "title": "Meet Gigatoken: A Rust BPE Tokenizer that Encodes Text at 24.53 GB/s, up to 989x Faster than HuggingFace Tokenizers",
+      "summary": "Gigatoken is an MIT-licensed Rust BPE tokenizer that achieves text encoding speeds of up to 24.53 GB/s, making it 989x faster than HuggingFace tokenizers. This significant performance leap is crucial for accelerating large-scale LLM training and inference workflows.",
+      "link": "https://www.marktechpost.com/2026/07/23/meet-gigatoken-a-rust-bpe-tokenizer-that-encodes-text-at-24-53-gb-s-up-to-989x-faster-than-huggingface-tokenizers/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "AI Tool Discovery at Scale: All You Need is DNS (ToolDNS)",
-      "summary": "ToolDNS is a radical framework that retrofits semantic AI tool discovery onto the Domain Name System, transforming complex semantic searches into lightweight, O(log N) name resolutions. This decentralized approach slashes discovery latency and search space, critical for the coming era of autonomous AI agents.",
-      "link": "https://arxiv.org/abs/2607.18242",
-      "source": "arXiv cs.AI"
+      "title": "Anthropic Releases Claude Security Plugin for Claude Code in Beta: A Multi-Agent Vulnerability Scanner That Runs in Your Terminal",
+      "summary": "Anthropic introduced the Claude Security plugin in beta, a multi-agent vulnerability scanner for Claude Code that operates directly in the terminal. It identifies security flaws and generates patch files, empowering developers to proactively secure their codebases.",
+      "link": "https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "PEARL: Solver-in-the-Loop Interactive Optimization Modeling from Natural Language",
-      "summary": "PEARL is a system for interactive optimization modeling that integrates Python execution and mathematical programming solvers directly into the LLM loop. It enables iterative model revision based on solver feedback, significantly improving verified solve rates for complex optimization tasks.",
-      "link": "https://arxiv.org/abs/2607.18256",
-      "source": "arXiv cs.AI"
+      "title": "Cursor Releases Cursor Router: A Request-Level Classifier Delivering Frontier Coding Quality at 30–50% Lower Cost",
+      "summary": "Cursor Router is a new system that classifies each coding request and routes it to the most suitable AI model, delivering frontier-quality output at 30-50% lower cost. This tool optimizes resource utilization and ensures efficient delivery of high-quality code generation.",
+      "link": "https://www.marktechpost.com/2026/07/22/cursor-releases-cursor-router-a-request-level-classifier/",
+      "source": "MarkTechPost"
     }
   ],
   "companies": [
     {
-      "title": "Introducing the ChatGPT for small business program",
-      "summary": "OpenAI launched a program to empower small businesses with ChatGPT Work, helping entrepreneurs build AI skills, automate tasks, and leverage AI for growth. This initiative expands access to advanced AI capabilities for a crucial economic sector.",
-      "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "title": "Introducing OpenAI Presence",
+      "summary": "OpenAI has launched Presence, an enterprise AI agent platform designed for deploying trusted voice and chat agents. This platform aims to help organizations automate customer and internal workflows securely and efficiently.",
+      "link": "https://openai.com/index/introducing-openai-presence",
       "source": "OpenAI News"
     },
     {
-      "title": "Building AI infrastructure with the Effingham County community",
-      "summary": "OpenAI announced Project Camellia, a significant investment in AI infrastructure in Effingham County, Georgia. This commitment includes responsible energy use, community investment, job creation, and access to advanced AI, signaling a foundational expansion for future AI capabilities.",
-      "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "summary": "OpenAI and Hugging Face jointly released findings from a security incident during AI model evaluation, emphasizing collaboration to enhance industry-wide cyber capabilities and improve defensive strategies for AI systems.",
+      "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
       "source": "OpenAI News"
     },
     {
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "summary": "Google's research in 'Nature' demonstrates that their conversational AI system, AMIE, can match primary care physicians in managing complex health conditions. This highlights Google's advancements in high-stakes AI applications and potential for significant impact in healthcare.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+      "summary": "Google is expanding its Managed Agents in Gemini API with new capabilities, including background tasks and remote MCP. These enhancements enable developers to build more reliable and production-ready AI agents on the Gemini platform.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
       "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "How sales teams use ChatGPT Work",
-      "summary": "This guide from OpenAI Academy shows sales teams how to leverage ChatGPT Work for creating pipeline briefs, meeting prep, forecast reviews, account plans, and stalled-deal diagnoses, providing practical AI skills for business professionals.",
-      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "source": "OpenAI News"
+      "title": "Unsloth vs Axolotl vs TRL vs LLaMA-Factory: A Fine-Tuning Framework Comparison on Speed, VRAM, and Multi-GPU",
+      "summary": "This comparison provides a detailed analysis of leading LLM fine-tuning frameworks—Unsloth, Axolotl, TRL, and LLaMA-Factory—evaluating their performance across speed, VRAM usage, and multi-GPU support. It's an essential guide for developers selecting the optimal tool for efficient model adaptation.",
+      "link": "https://www.marktechpost.com/2026/07/22/unsloth-vs-axolotl-vs-trl-vs-llama-factory-a-fine-tuning-framework-comparison-on-speed-vram-and-multi-gpu/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "How data science teams use ChatGPT Work",
-      "summary": "OpenAI Academy offers insights into how data science teams can use ChatGPT Work to generate root-cause briefs, impact readouts, KPI memos, and dashboard specifications, streamlining analytical workflows and improving communication.",
-      "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "source": "OpenAI News"
+      "title": "What building Shippy taught us about building agents",
+      "summary": "This article shares valuable lessons learned from developing \"Shippy,\" offering practical insights into the complexities and best practices of building robust and effective AI agents. It serves as a practical guide for agent developers.",
+      "link": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "source": "Hugging Face Blog"
     },
     {
-      "title": "Ask an AI expert: What exactly is the full stack?",
-      "summary": "A Google expert explains the concept of a 'full-stack approach' to AI, providing foundational knowledge for developers and strategists on why this comprehensive methodology is critical for successful AI development.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
-      "source": "Google AI Blog"
+      "title": "Research-Grade EdgeBench Analysis: AI Agent Benchmarking, Leaderboard Analytics, Scaling Laws, and Evaluation Metrics",
+      "summary": "This tutorial delves into EdgeBench, a practical benchmark for evaluating advanced AI agents across diverse tasks and environments. It guides practitioners through dataset exploration, taxonomy, and scoring metadata for comprehensive agent assessment.",
+      "link": "https://www.marktechpost.com/2026/07/22/research-grade-edgebench-analysis-ai-agent-benchmarking-leaderboard-analytics-scaling-laws-and-evaluation-metrics/",
+      "source": "MarkTechPost"
     }
   ]
 }
