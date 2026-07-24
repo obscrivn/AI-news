@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-07-23T14:30:00Z",
+  "lastUpdated": "2026-07-24T00:00:00Z",
   "highlights": [
-    "The AI industry is witnessing a strong push towards robust agentic AI, with new runtime architectures, security plugins, and advanced evaluation frameworks designed to enhance governance, safety, and reliability.",
-    "Significant performance optimizations in foundational AI components are emerging, including ultra-fast tokenizers and efficient model routing solutions, which promise to drastically reduce inference costs and accelerate development workflows.",
-    "Major model providers are expanding their offerings with cost-optimized tiers and open-weight models, specifically targeting critical applications like code vulnerability detection and complex agentic coding, making advanced AI more accessible for enterprise use."
+    "AI agents are rapidly maturing with new enterprise platforms from OpenAI and enhanced developer tools from Google, enabling builders to deploy robust, production-ready agentic workflows for specialized tasks like autonomous test management.",
+    "Significant breakthroughs in LLM inference optimization are delivering unprecedented speedups for models like dLLMs (up to 105x) and improving sampling efficiency, while new benchmarks drive autonomous kernel optimization and agent-driven inference improvements.",
+    "Leading AI companies are strategically expanding into high-value sectors, notably healthcare with ChatGPT's new medical record integration and Google's validated medical AI, alongside targeted programs to empower small businesses and integrate AI more deeply into core products."
   ],
   "agents": [
     {
-      "title": "Phionyx: A Deterministic AI Runtime Architecture with Structured State Management and Pre-Response Governance",
-      "summary": "Phionyx introduces a deterministic AI runtime architecture prioritizing governance and auditability. It treats LLM outputs as sensor measurements, ensuring reproducible behavior through structured state management and pre-response control, vital for reliable AI deployment.",
-      "link": "https://arxiv.org/abs/2607.18246",
+      "title": "AINTMA: Agentic AI for Autonomous Test Management",
+      "summary": "This new multi-agent AI architecture transforms software quality assurance into an autonomous intelligence ecosystem, deploying specialized agents for test discovery, risk assessment, and generative quality narratives, demonstrating significant ROI and efficiency gains.",
+      "link": "https://arxiv.org/abs/2607.20452",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI",
-      "summary": "This research introduces SysAdmin, a benchmark to measure \"power-seeking\" behaviors in frontier language models within a high-fidelity Linux sandbox. Findings indicate minimal spontaneous power-seeking but highlight other failure modes like specification gaming, informing critical AI safety evaluations.",
-      "link": "https://arxiv.org/abs/2607.18239",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "BatchDAG: LLM-Planned Execution Graphs for Scalable Ad-Hoc Analysis Over Enterprise Data",
-      "summary": "BatchDAG enables LLMs to generate and evaluate execution graphs for scalable, cross-entity analysis over enterprise datasets. It solves context overflow and latency issues by optimizing LLM calls and employing structured JSON data flow, providing comparable quality to expert-designed pipelines at reduced cost.",
-      "link": "https://arxiv.org/abs/2607.18241",
-      "source": "arXiv cs.AI"
-    }
-  ],
-  "models": [
-    {
-      "title": "Google Releases Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-      "summary": "Google introduced new Gemini Flash tiers (3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber) designed for agentic workloads. These models offer improved token efficiency and lower pricing, significantly reducing operational costs for developers building AI agents.",
-      "link": "https://www.marktechpost.com/2026/07/21/google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Cisco Foundation AI Releases Antares: 350M and 1B Open-Weight Models That Localize Known Vulnerabilities Inside Real Codebases",
-      "summary": "Cisco Foundation AI launched Antares, a family of open-weight language models (350M and 1B parameters) specialized in localizing known vulnerabilities within codebases. These models offer a highly cost-effective and performant solution for security analysis, outperforming larger, more expensive alternatives.",
-      "link": "https://www.marktechpost.com/2026/07/21/cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-models-that-localize-known-vulnerabilities-inside-real-codebases/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class on SWE-Bench Multilingual",
-      "summary": "Poolside released Laguna S 2.1, an 118B open-weight Mixture-of-Experts coding model with a 1M-token context window. It demonstrates superior performance on agentic coding benchmarks, matching or exceeding much larger models while being runnable on a single NVIDIA DGX Spark.",
-      "link": "https://www.marktechpost.com/2026/07/21/poolside-releases-laguna-s-2-1/",
-      "source": "MarkTechPost"
-    }
-  ],
-  "tools": [
-    {
-      "title": "Meet Gigatoken: A Rust BPE Tokenizer that Encodes Text at 24.53 GB/s, up to 989x Faster than HuggingFace Tokenizers",
-      "summary": "Gigatoken is an MIT-licensed Rust BPE tokenizer that achieves text encoding speeds of up to 24.53 GB/s, making it 989x faster than HuggingFace tokenizers. This significant performance leap is crucial for accelerating large-scale LLM training and inference workflows.",
-      "link": "https://www.marktechpost.com/2026/07/23/meet-gigatoken-a-rust-bpe-tokenizer-that-encodes-text-at-24-53-gb-s-up-to-989x-faster-than-huggingface-tokenizers/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Anthropic Releases Claude Security Plugin for Claude Code in Beta: A Multi-Agent Vulnerability Scanner That Runs in Your Terminal",
-      "summary": "Anthropic introduced the Claude Security plugin in beta, a multi-agent vulnerability scanner for Claude Code that operates directly in the terminal. It identifies security flaws and generates patch files, empowering developers to proactively secure their codebases.",
-      "link": "https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Cursor Releases Cursor Router: A Request-Level Classifier Delivering Frontier Coding Quality at 30–50% Lower Cost",
-      "summary": "Cursor Router is a new system that classifies each coding request and routes it to the most suitable AI model, delivering frontier-quality output at 30-50% lower cost. This tool optimizes resource utilization and ensures efficient delivery of high-quality code generation.",
-      "link": "https://www.marktechpost.com/2026/07/22/cursor-releases-cursor-router-a-request-level-classifier/",
-      "source": "MarkTechPost"
-    }
-  ],
-  "companies": [
-    {
-      "title": "Introducing OpenAI Presence",
-      "summary": "OpenAI has launched Presence, an enterprise AI agent platform designed for deploying trusted voice and chat agents. This platform aims to help organizations automate customer and internal workflows securely and efficiently.",
+      "title": "Introducing OpenAI Presence for Enterprise",
+      "summary": "OpenAI has launched Presence, a dedicated enterprise AI agent platform designed to help organizations securely deploy trusted voice and chat agents for critical customer and internal workflows.",
       "link": "https://openai.com/index/introducing-openai-presence",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "summary": "OpenAI and Hugging Face jointly released findings from a security incident during AI model evaluation, emphasizing collaboration to enhance industry-wide cyber capabilities and improve defensive strategies for AI systems.",
-      "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "title": "Expanding Managed Agents in Gemini API",
+      "summary": "Google is enhancing Managed Agents in Gemini API with new capabilities like background tasks and remote Multi-agent Control Plane (MCP), empowering developers to build more reliable and production-ready AI agents.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "source": "Google AI Blog"
+    }
+  ],
+  "models": [
+    {
+      "title": "DC-Leap: Training-Free Acceleration of dLLMs",
+      "summary": "DC-Leap is a training-free framework that achieves substantial speedups (up to 105x) for Diffusion Large Language Models (dLLMs) without compromising quality, through a dynamic contiguous verification strategy and draft-guided decoding.",
+      "link": "https://arxiv.org/abs/2607.20467",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "Robust Critics: Defending LLMs Against Multi-Turn Attacks",
+      "summary": "This framework, Dialogue Critic Guided Sampling (DCGS), infers user intent at every turn of dialogue to robustly defend LLMs against multi-turn attacks by learning value and regret-based critics, outperforming existing safety baselines.",
+      "link": "https://arxiv.org/abs/2607.20472",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "Google's AMIE Medical AI for Health Conditions",
+      "summary": "New research published in 'Nature' validates Google's conversational AI system, AMIE, demonstrating its capability to match primary care physicians in complex disease management, opening new avenues for medical AI applications.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "source": "Google AI Blog"
+    }
+  ],
+  "tools": [
+    {
+      "title": "JAXBench: Benchmarking Autonomous TPU Kernel Optimization",
+      "summary": "JAXBench is a new TPU-native benchmark suite comprising 50 JAX workloads, designed to drive progress in autonomous AI-generated kernel optimization on Google Cloud TPUs and support open-source contributions.",
+      "link": "https://arxiv.org/abs/2607.20466",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "SonicSampler: Unified Kernels for LLM Sampling and Speculative Verification",
+      "summary": "SonicSampler introduces unified, tile-aware Triton kernels that vertically fuse the complete LLM sampling pipeline, achieving up to 16x speedup over state-of-the-art baselines for heterogeneous speculative decoding workloads.",
+      "link": "https://arxiv.org/abs/2607.20475",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "InferenceBench: Benchmark for LLM Inference Optimization by AI Agents",
+      "summary": "InferenceBench is a new benchmark for evaluating AI agents on open-ended LLM inference optimization tasks, revealing that current agents can improve performance significantly but still fall short of systematic hyperparameter search.",
+      "link": "https://arxiv.org/abs/2607.20468",
+      "source": "arXiv cs.AI"
+    }
+  ],
+  "companies": [
+    {
+      "title": "Launching Health in ChatGPT with Record Integration",
+      "summary": "OpenAI has launched 'Health in ChatGPT' for eligible U.S. users, allowing secure connection of medical records and Apple Health data to provide personalized health insights and enhance understanding of medical information.",
+      "link": "https://openai.com/index/health-in-chatgpt",
       "source": "OpenAI News"
     },
     {
-      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
-      "summary": "Google is expanding its Managed Agents in Gemini API with new capabilities, including background tasks and remote MCP. These enhancements enable developers to build more reliable and production-ready AI agents on the Gemini platform.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "title": "Introducing ChatGPT for Small Business Program",
+      "summary": "OpenAI launched a new program dedicated to small businesses, aiming to help entrepreneurs build AI skills, automate workflows, and leverage ChatGPT Work for growth.",
+      "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Connect More Apps to Google Search AI Mode",
+      "summary": "Google is expanding its Search platform to allow users to securely link and interact with their favorite services directly within AI Mode, significantly enhancing the utility and integration of AI-powered search.",
+      "link": "https://blog.google/products-and-platforms/products/search/connected-apps/",
       "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Unsloth vs Axolotl vs TRL vs LLaMA-Factory: A Fine-Tuning Framework Comparison on Speed, VRAM, and Multi-GPU",
-      "summary": "This comparison provides a detailed analysis of leading LLM fine-tuning frameworks—Unsloth, Axolotl, TRL, and LLaMA-Factory—evaluating their performance across speed, VRAM usage, and multi-GPU support. It's an essential guide for developers selecting the optimal tool for efficient model adaptation.",
-      "link": "https://www.marktechpost.com/2026/07/22/unsloth-vs-axolotl-vs-trl-vs-llama-factory-a-fine-tuning-framework-comparison-on-speed-vram-and-multi-gpu/",
-      "source": "MarkTechPost"
+      "title": "A Scorecard for the AI Age by OpenAI CFO",
+      "summary": "OpenAI's CFO, Sarah Friar, introduced a practical AI scorecard to help businesses measure Return on Investment (ROI) from AI, focusing on metrics like useful work, cost per successful task, and dependability.",
+      "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "source": "OpenAI News"
     },
     {
-      "title": "What building Shippy taught us about building agents",
-      "summary": "This article shares valuable lessons learned from developing \"Shippy,\" offering practical insights into the complexities and best practices of building robust and effective AI agents. It serves as a practical guide for agent developers.",
+      "title": "Lessons Learned from Building Shippy Agents",
+      "summary": "Hugging Face shared valuable insights and practical lessons gleaned from building 'Shippy,' offering guidance for developers and researchers working on constructing and deploying AI agents.",
       "link": "https://huggingface.co/blog/allenai/shippy-tech-blog",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "Research-Grade EdgeBench Analysis: AI Agent Benchmarking, Leaderboard Analytics, Scaling Laws, and Evaluation Metrics",
-      "summary": "This tutorial delves into EdgeBench, a practical benchmark for evaluating advanced AI agents across diverse tasks and environments. It guides practitioners through dataset exploration, taxonomy, and scoring metadata for comprehensive agent assessment.",
-      "link": "https://www.marktechpost.com/2026/07/22/research-grade-edgebench-analysis-ai-agent-benchmarking-leaderboard-analytics-scaling-laws-and-evaluation-metrics/",
-      "source": "MarkTechPost"
+      "title": "Profiling in PyTorch (Part 3): Attention is All You Profile",
+      "summary": "This guide, part of a series on PyTorch profiling, focuses on optimizing attention mechanisms, providing essential knowledge for developers looking to enhance the performance of their AI models.",
+      "link": "https://huggingface.co/blog/torch-attention-profile",
+      "source": "Hugging Face Blog"
     }
   ]
 }
