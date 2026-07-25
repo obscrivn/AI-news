@@ -1,106 +1,106 @@
 {
-  "lastUpdated": "2026-07-24T00:00:00Z",
+  "lastUpdated": "2026-07-23T12:00:00Z",
   "highlights": [
-    "AI agents are rapidly maturing with new enterprise platforms from OpenAI and enhanced developer tools from Google, enabling builders to deploy robust, production-ready agentic workflows for specialized tasks like autonomous test management.",
-    "Significant breakthroughs in LLM inference optimization are delivering unprecedented speedups for models like dLLMs (up to 105x) and improving sampling efficiency, while new benchmarks drive autonomous kernel optimization and agent-driven inference improvements.",
-    "Leading AI companies are strategically expanding into high-value sectors, notably healthcare with ChatGPT's new medical record integration and Google's validated medical AI, alongside targeted programs to empower small businesses and integrate AI more deeply into core products."
+    "OpenAI is aggressively expanding its market reach with new enterprise AI agent platforms, specialized health integrations, and programs for small businesses, alongside significant infrastructure investments.",
+    "Google is enhancing its developer ecosystem with expanded agent capabilities in the Gemini API and seamless app integrations with Search, while also pushing boundaries in medical AI research.",
+    "The broader AI community is seeing advancements in model efficiency (4-bit diffusion inference), streamlined MLOps workflows (cloud integrations), and robust tools for physical AI and robotics development."
   ],
   "agents": [
     {
-      "title": "AINTMA: Agentic AI for Autonomous Test Management",
-      "summary": "This new multi-agent AI architecture transforms software quality assurance into an autonomous intelligence ecosystem, deploying specialized agents for test discovery, risk assessment, and generative quality narratives, demonstrating significant ROI and efficiency gains.",
-      "link": "https://arxiv.org/abs/2607.20452",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Introducing OpenAI Presence for Enterprise",
-      "summary": "OpenAI has launched Presence, a dedicated enterprise AI agent platform designed to help organizations securely deploy trusted voice and chat agents for critical customer and internal workflows.",
+      "title": "Introducing OpenAI Presence",
+      "summary": "OpenAI Presence is an enterprise AI agent platform for deploying trusted voice and chat agents to automate customer and internal workflows, providing a direct solution for organizations.",
       "link": "https://openai.com/index/introducing-openai-presence",
       "source": "OpenAI News"
     },
     {
-      "title": "Expanding Managed Agents in Gemini API",
-      "summary": "Google is enhancing Managed Agents in Gemini API with new capabilities like background tasks and remote Multi-agent Control Plane (MCP), empowering developers to build more reliable and production-ready AI agents.",
+      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+      "summary": "Google expands Managed Agents in Gemini API with new capabilities like background tasks and remote MCP, enabling developers to build reliable, production-ready agents.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
       "source": "Google AI Blog"
+    },
+    {
+      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+      "summary": "LeRobot v0.6.0 is released, offering improved features for imagining, evaluating, and enhancing robotic AI systems, crucial for developers building physical AI agents.",
+      "link": "https://huggingface.co/blog/lerobot-release-v060",
+      "source": "Hugging Face Blog"
     }
   ],
   "models": [
     {
-      "title": "DC-Leap: Training-Free Acceleration of dLLMs",
-      "summary": "DC-Leap is a training-free framework that achieves substantial speedups (up to 105x) for Diffusion Large Language Models (dLLMs) without compromising quality, through a dynamic contiguous verification strategy and draft-guided decoding.",
-      "link": "https://arxiv.org/abs/2607.20467",
-      "source": "arXiv cs.AI"
+      "title": "Safety and alignment in an era of long-horizon models",
+      "summary": "OpenAI shares insights on deploying long-running AI models, detailing emerging safety risks, observed failures, and improved safeguards through iterative development, crucial for builders creating persistent AI systems.",
+      "link": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "source": "OpenAI News"
     },
     {
-      "title": "Robust Critics: Defending LLMs Against Multi-Turn Attacks",
-      "summary": "This framework, Dialogue Critic Guided Sampling (DCGS), infers user intent at every turn of dialogue to robustly defend LLMs against multi-turn attacks by learning value and regret-based critics, outperforming existing safety baselines.",
-      "link": "https://arxiv.org/abs/2607.20472",
-      "source": "arXiv cs.AI"
+      "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+      "summary": "Nunchaku 4-bit diffusion inference is now integrated into Diffusers, enabling significantly more efficient and faster deployment of diffusion models, crucial for optimizing resource usage.",
+      "link": "https://huggingface.co/blog/nunchaku-diffusers",
+      "source": "Hugging Face Blog"
     },
     {
-      "title": "Google's AMIE Medical AI for Health Conditions",
-      "summary": "New research published in 'Nature' validates Google's conversational AI system, AMIE, demonstrating its capability to match primary care physicians in complex disease management, opening new avenues for medical AI applications.",
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "summary": "New research published in Nature demonstrates Google's conversational AI system, AMIE, matching primary care physicians in complex disease management, showcasing advanced medical AI application.",
       "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
       "source": "Google AI Blog"
     }
   ],
   "tools": [
     {
-      "title": "JAXBench: Benchmarking Autonomous TPU Kernel Optimization",
-      "summary": "JAXBench is a new TPU-native benchmark suite comprising 50 JAX workloads, designed to drive progress in autonomous AI-generated kernel optimization on Google Cloud TPUs and support open-source contributions.",
-      "link": "https://arxiv.org/abs/2607.20466",
-      "source": "arXiv cs.AI"
+      "title": "Connect more of your apps to Search",
+      "summary": "Google is enabling users to securely link and interact with their preferred services directly within AI Mode in Search, opening new integration possibilities for app developers.",
+      "link": "https://blog.google/products-and-platforms/products/search/connected-apps/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "SonicSampler: Unified Kernels for LLM Sampling and Speculative Verification",
-      "summary": "SonicSampler introduces unified, tile-aware Triton kernels that vertically fuse the complete LLM sampling pipeline, achieving up to 16x speedup over state-of-the-art baselines for heterogeneous speculative decoding workloads.",
-      "link": "https://arxiv.org/abs/2607.20475",
-      "source": "arXiv cs.AI"
+      "title": "Native-speed vLLM transformers modeling backend",
+      "summary": "A new native-speed vLLM transformers modeling backend is introduced, providing significant performance enhancements for large language model inference and deployment, boosting builder efficiency.",
+      "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "source": "Hugging Face Blog"
     },
     {
-      "title": "InferenceBench: Benchmark for LLM Inference Optimization by AI Agents",
-      "summary": "InferenceBench is a new benchmark for evaluating AI agents on open-ended LLM inference optimization tasks, revealing that current agents can improve performance significantly but still fall short of systematic hyperparameter search.",
-      "link": "https://arxiv.org/abs/2607.20468",
-      "source": "arXiv cs.AI"
+      "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+      "summary": "SkyPilot now supports running AI workloads across any cloud while storing data on Hugging Face with zero-egress, enabling flexible and cost-effective multi-cloud deployments for developers.",
+      "link": "https://huggingface.co/blog/skypilot-hf-storage",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "Launching Health in ChatGPT with Record Integration",
-      "summary": "OpenAI has launched 'Health in ChatGPT' for eligible U.S. users, allowing secure connection of medical records and Apple Health data to provide personalized health insights and enhance understanding of medical information.",
+      "title": "Launching Health in ChatGPT",
+      "summary": "ChatGPT now securely integrates medical records and Apple Health for eligible U.S. users, offering personalized health insights and expanding AI's role in healthcare.",
       "link": "https://openai.com/index/health-in-chatgpt",
       "source": "OpenAI News"
     },
     {
-      "title": "Introducing ChatGPT for Small Business Program",
-      "summary": "OpenAI launched a new program dedicated to small businesses, aiming to help entrepreneurs build AI skills, automate workflows, and leverage ChatGPT Work for growth.",
+      "title": "Introducing the ChatGPT for small business program",
+      "summary": "OpenAI launched a program to help small businesses develop AI skills, automate operations, and grow using ChatGPT Work, democratizing AI access for entrepreneurs.",
       "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
       "source": "OpenAI News"
     },
     {
-      "title": "Connect More Apps to Google Search AI Mode",
-      "summary": "Google is expanding its Search platform to allow users to securely link and interact with their favorite services directly within AI Mode, significantly enhancing the utility and integration of AI-powered search.",
-      "link": "https://blog.google/products-and-platforms/products/search/connected-apps/",
-      "source": "Google AI Blog"
+      "title": "Building AI infrastructure with the Effingham County community",
+      "summary": "OpenAI announced Project Camellia, a major infrastructure investment in Georgia, emphasizing responsible energy, community development, and local access to AI technologies.",
+      "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "A Scorecard for the AI Age by OpenAI CFO",
-      "summary": "OpenAI's CFO, Sarah Friar, introduced a practical AI scorecard to help businesses measure Return on Investment (ROI) from AI, focusing on metrics like useful work, cost per successful task, and dependability.",
+      "title": "A scorecard for the AI age",
+      "summary": "OpenAI's CFO introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute, providing a framework for business leaders.",
       "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
       "source": "OpenAI News"
     },
     {
-      "title": "Lessons Learned from Building Shippy Agents",
-      "summary": "Hugging Face shared valuable insights and practical lessons gleaned from building 'Shippy,' offering guidance for developers and researchers working on constructing and deploying AI agents.",
-      "link": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-      "source": "Hugging Face Blog"
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "summary": "A Google expert explains the concept of a full-stack AI approach, clarifying its foundational importance in developing robust AI systems for practitioners.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Profiling in PyTorch (Part 3): Attention is All You Profile",
-      "summary": "This guide, part of a series on PyTorch profiling, focuses on optimizing attention mechanisms, providing essential knowledge for developers looking to enhance the performance of their AI models.",
+      "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+      "summary": "This technical tutorial focuses on advanced profiling techniques in PyTorch, specifically for optimizing attention mechanisms in deep learning models, crucial for performance tuning.",
       "link": "https://huggingface.co/blog/torch-attention-profile",
       "source": "Hugging Face Blog"
     }
