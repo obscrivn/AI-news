@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-07-28T12:00:00Z",
+  "lastUpdated": "2026-07-29T12:00:00Z",
   "highlights": [
-    "The AI ecosystem is experiencing a rapid expansion in specialized agentic models and platforms, particularly in critical domains like cybersecurity and enterprise AI, indicating a maturing landscape for practical deployments.",
-    "Significant developer tools and performance optimizations are emerging, focusing on accelerating LLM inference on edge devices, enhancing agent memory systems, and streamlining the integration of advanced AI capabilities into workflows.",
-    "Leading AI companies like OpenAI and Google are broadening their market reach through new product launches, strategic programs for small businesses, and advanced multimodal features, while also emphasizing responsible AI and security through industry collaborations."
+    "AI agents are rapidly advancing, offering robust solutions from optimizing edge-based procedural guidance to deploying hierarchical systems for online advertising, demonstrating enhanced adaptability and real-world business value.",
+    "New AI models are pushing boundaries in critical domains, including highly accurate medical diagnostics, advanced e-commerce recommendations, and physically-informed spatio-temporal forecasting, showcasing significant application-specific breakthroughs.",
+    "Developer tools and infrastructure continue to evolve, with agentic harnesses for high-performance kernel optimization, expanded capabilities for managed agent platforms, and crucial industry collaborations addressing model security and deployment efficiencies."
   ],
   "agents": [
     {
-      "title": "FlowEvo: Self-Evolving Agents through Co-Evolution of Workflows and Skills",
-      "summary": "This training-free framework allows AI agents to automatically compile successful task traces into reusable skills, enabling them to self-evolve and refine problem-solving capabilities over time without model parameter updates. It significantly improves long-term agent performance and efficiency on complex tasks.",
-      "link": "https://arxiv.org/abs/2607.21596",
+      "title": "ProcAgent: An Agentic Framework for Procedural Task Guidance on Edge with Human-in-the-Loop",
+      "summary": "ProcAgent introduces a fully on-device, vision-based agent for real-time adaptive guidance on edge hardware, utilizing a propose-and-verify architecture to offer responsive interaction and privacy-conscious assistance for complex procedural tasks.",
+      "link": "https://arxiv.org/abs/2607.24770",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Kimi AI and kvcache-ai Open Source ‘AgentENV’ for Agentic RL Training",
-      "summary": "Kimi AI and kvcache-ai open-sourced AgentENV, a distributed system designed to power agentic Reinforcement Learning (RL) training, utilizing Firecracker microVMs for rapid snapshot, resume, and forking, thus providing robust infrastructure for complex agent development.",
-      "link": "https://www.marktechpost.com/2026/07/27/kimi-ai-and-kvcache-ai-open-sources-agentenv/",
-      "source": "MarkTechPost"
+      "title": "HOBA: Hierarchical On-Policy Bidding Agents for Adaptive Online Advertising",
+      "summary": "HOBA is a hierarchical reinforcement learning framework for online advertising that intelligently decouples strategic reasoning and bid execution, achieving a significant +3.6% increase in target cost in large-scale online deployments by dynamically selecting optimal bidding strategies.",
+      "link": "https://arxiv.org/abs/2607.24779",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Coupled Hierarchical Search for Agentic Workflow Synthesis",
-      "summary": "HierFlow introduces a training-free, test-time hierarchical search architecture that automates agentic workflow design by merging feedback-guided topology adjustments with a fast MCTS-inspired tree search, delivering optimal results and computational efficiency for complex problem-solving.",
-      "link": "https://arxiv.org/abs/2607.21609",
+      "title": "RSMeM: Knowledge-Enhanced Memory Evolution for Remote Sensing Agents with Systematic Evaluation",
+      "summary": "RSMeM introduces a knowledge-enhanced memory mechanism for remote sensing agents, bootstrapping them with pre-distilled domain knowledge and iteratively refining online experience to achieve robust multi-step tool execution and improved accuracy on EarthBench with minimal additional tokens.",
+      "link": "https://arxiv.org/abs/2607.24772",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "Microsoft AI Releases MAI-Cyber-1-Flash: 5B-Active-Parameter Cyber Model",
-      "summary": "Microsoft AI launched MAI-Cyber-1-Flash, a 5B-active-parameter sparse MoE model specifically for cyber defense, achieving 95.95% on CyberGym when integrated into Microsoft's multi-model agentic scanning harness. This significantly enhances security operations by handling up to 90% of tasks.",
-      "link": "https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym/",
-      "source": "MarkTechPost"
+      "title": "GrocLM: Grocery Category Recommendation in E-Commerce with Large Language Models",
+      "summary": "GROCLM is a fine-tuned language model engineered for grocery category recommendation in e-commerce, employing a LoRA-based training strategy to embed cyclical purchasing patterns and demonstrating a 7.5% relative improvement in cart-adds per impression in live production.",
+      "link": "https://arxiv.org/abs/2607.24764",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Black Forest Labs Releases FLUX 3: A Multimodal Flow Model",
-      "summary": "Black Forest Labs introduced FLUX 3, a multimodal foundation model capable of learning from images, videos, and audio within a single architecture, also uniquely offering video, audio, and robot action prediction from one set of weights. This represents a step towards unified multimodal understanding.",
-      "link": "https://www.marktechpost.com/2026/07/26/black-forest-labs-releases-flux-3-a-multimodal-flow-model-for-image-video-audio-and-robot-action-prediction/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Google Research Shows AMIE Medical AI Helps Manage Health Conditions",
-      "summary": "New Google research published in Nature demonstrates that AMIE, their conversational AI system, can match primary care physicians in complex disease management, showcasing its significant potential to aid in healthcare.",
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "summary": "New research published in 'Nature' reveals Google's conversational AI system, AMIE, matches primary care physicians in managing complex health conditions, signaling a significant breakthrough for AI-driven medical diagnostics and personalized patient care.",
       "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
       "source": "Google AI Blog"
+    },
+    {
+      "title": "Atmospheric Diffusion-Guided Spatio-Temporal Transformer for Nuclear Radiation Forecasting",
+      "summary": "NRFormer+ presents a spatio-temporal Transformer model for nationwide nuclear radiation forecasting, integrating an atmospheric diffusion module to inject physical signals and achieve state-of-the-art accuracy by effectively modeling non-stationary temporal and density-adaptive spatial dynamics.",
+      "link": "https://arxiv.org/abs/2607.24774",
+      "source": "arXiv cs.AI"
     }
   ],
   "tools": [
     {
-      "title": "AgentKVShift: Efficient KV Cache Reuse for Agentic Memory Systems",
-      "summary": "AgentKVShift introduces a training-free, probe-guided KV residual correction method that significantly boosts prefill speed for memory-augmented LLM agents by efficiently reusing KV cache, achieving 2-3.5x speedups with minimal recomputation. It delivers near full recompute performance while refreshing only 10-30% of the cache.",
-      "link": "https://arxiv.org/abs/2607.21604",
+      "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
+      "summary": "Kernel Forge is an open-source agentic harness that leverages LLMs and Monte Carlo Tree Search to generate and optimize CUDA kernels for PyTorch models, achieving significant speedups (e.g., 2.83x on softmax) across diverse workloads and providing a GUI for monitoring and debugging.",
+      "link": "https://arxiv.org/abs/2607.24762",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Perplexity Releases pplx: CLI for Search API in Terminal",
-      "summary": "Perplexity launched pplx, an official single-binary command-line client for its Search API, enabling coding agents and developers to integrate powerful web search and content fetching directly into their terminal workflows. This provides critical real-time information access for AI systems.",
-      "link": "https://www.marktechpost.com/2026/07/27/perplexity-releases-pplx/",
-      "source": "MarkTechPost"
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "summary": "Google announces expanded capabilities for Managed Agents in Gemini API, including support for Gemini 3.6 Flash and advanced hooks, empowering developers to build more reliable and production-ready AI agents with enhanced control and flexibility.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Expanding Managed Agents in Gemini API for Production-Ready Agents",
-      "summary": "Google is enhancing Managed Agents in the Gemini API with new capabilities, including background tasks and remote MCP, empowering developers to build and deploy more reliable and production-ready AI agents for complex, long-running workflows.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "source": "Google AI Blog"
+      "title": "Introducing OpenAI Presence",
+      "summary": "OpenAI launches Presence, an enterprise AI agent platform designed to help organizations securely deploy trusted voice and chat agents for customer service and internal workflow automation, streamlining business processes with proven AI capabilities.",
+      "link": "https://openai.com/index/introducing-openai-presence",
+      "source": "OpenAI News"
     }
   ],
   "companies": [
     {
-      "title": "Introducing OpenAI Presence: Enterprise AI Agent Platform",
-      "summary": "OpenAI launched 'OpenAI Presence,' an enterprise AI agent platform to help organizations deploy trusted voice and chat agents for customer and internal workflows, streamlining business operations with AI.",
-      "link": "https://openai.com/index/introducing-openai-presence",
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "summary": "OpenAI and Hugging Face collaborated to investigate a security incident during AI model evaluation, sharing early findings to highlight advanced cyber capabilities and provide crucial lessons for enhancing AI security practices.",
+      "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Launches Health in ChatGPT for Personalized Insights",
-      "summary": "OpenAI now offers 'Health in ChatGPT' for eligible U.S. users, allowing secure connection of medical records and Apple Health to provide personalized insights and enhance understanding of individual health data. This marks a significant move into personal health AI.",
+      "title": "Launching Health in ChatGPT",
+      "summary": "OpenAI introduces 'Health in ChatGPT,' allowing eligible U.S. users to securely connect medical records and Apple Health, enabling personalized health insights and a better understanding of their well-being directly through the platform.",
       "link": "https://openai.com/index/health-in-chatgpt",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Introduces ChatGPT for Small Business Program",
-      "summary": "OpenAI initiated the 'ChatGPT for Small Business' program, aiming to empower entrepreneurs by helping them build AI skills, automate tasks, and foster growth through tailored use of ChatGPT Work.",
-      "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "title": "Scientific computing in the age of agentic AI",
+      "summary": "OpenAI highlights a new field report demonstrating how AI coding agents are revolutionizing scientific computing, accelerating software development and discovery in genomics and other scientific domains, underscoring the transformative impact of agentic AI.",
+      "link": "https://openai.com/index/scientific-computing-agentic-ai",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Tutorial: Deploying 1-Bit Bonsai-27B Model with PrismML llama.cpp",
-      "summary": "This tutorial provides a practical guide for deploying the 1-bit Bonsai-27B language model using PrismML's llama.cpp fork, leveraging specialized CUDA kernels for efficient 1-bit GGUF quantization and OpenAI-compatible local inference workflows. This is crucial for optimizing LLM deployment on resource-constrained devices.",
-      "link": "https://www.marktechpost.com/2026/07/28/deploying-a-1-bit-bonsai-27b-model-with-prismml-llama-cpp-and-openai-compatible-local-inference-workflows/",
-      "source": "MarkTechPost"
+      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+      "summary": "Google, in collaboration with the New York Jobs CEO Council and Urban Assembly, hosted an AI summit for 150 education and industry leaders, fostering discussions to shape the future of AI integration and curriculum development in classrooms.",
+      "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Guide: Designing Skill-Driven Financial Analysis Agents with Claude and Python",
-      "summary": "A comprehensive tutorial on designing advanced skill-driven financial analysis agents using Claude, Python, and MCP Connectors, demonstrating how to reproduce Anthropic’s architecture for automated deliverables. This empowers developers to build sophisticated financial AI tools.",
-      "link": "https://www.marktechpost.com/2026/07/27/designing-skill-driven-financial-analysis-agents-with-claude-python-mcp-connectors-and-automated-deliverables/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Lessons Learned from Building Shippy: Insights for Agent Developers",
-      "summary": "The Hugging Face Blog features insights from the AllenAI team on what they learned while building 'Shippy,' offering valuable practical lessons and best practices for developers engaged in constructing and refining AI agents. This provides experiential knowledge for agent development.",
-      "link": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+      "summary": "Hugging Face provides a detailed technical guide on advanced profiling techniques in PyTorch, specifically focusing on optimizing and understanding the performance implications of attention mechanisms within AI models to enhance efficiency.",
+      "link": "https://huggingface.co/blog/torch-attention-profile",
       "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "summary": "A Google expert offers a comprehensive explanation of the 'full-stack' approach to AI, elucidating its foundational role and significance in developing robust and scalable artificial intelligence systems.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+      "source": "Google AI Blog"
     }
   ]
 }
