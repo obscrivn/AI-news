@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-07-29T12:00:00Z",
+  "lastUpdated": "2024-07-30T12:00:00Z",
   "highlights": [
-    "AI agents are rapidly advancing, offering robust solutions from optimizing edge-based procedural guidance to deploying hierarchical systems for online advertising, demonstrating enhanced adaptability and real-world business value.",
-    "New AI models are pushing boundaries in critical domains, including highly accurate medical diagnostics, advanced e-commerce recommendations, and physically-informed spatio-temporal forecasting, showcasing significant application-specific breakthroughs.",
-    "Developer tools and infrastructure continue to evolve, with agentic harnesses for high-performance kernel optimization, expanded capabilities for managed agent platforms, and crucial industry collaborations addressing model security and deployment efficiencies."
+    "AI agent development is rapidly accelerating with new open-source frameworks for reinforcement learning, specialized agents for critical applications like clinical reasoning and hardware verification, and enhanced managed agent platforms from major providers.",
+    "Efficiency and cost-effectiveness are key themes, with new tools enabling significant reductions in token costs for LLMs, faster inference on commodity hardware, and optimized training frameworks for large-scale models.",
+    "Major AI companies are expanding their reach and impact, evidenced by OpenAI providing free access to advanced models for academic research, launching health data integration in ChatGPT, and introducing enterprise-grade agent platforms."
   ],
   "agents": [
     {
-      "title": "ProcAgent: An Agentic Framework for Procedural Task Guidance on Edge with Human-in-the-Loop",
-      "summary": "ProcAgent introduces a fully on-device, vision-based agent for real-time adaptive guidance on edge hardware, utilizing a propose-and-verify architecture to offer responsive interaction and privacy-conscious assistance for complex procedural tasks.",
-      "link": "https://arxiv.org/abs/2607.24770",
-      "source": "arXiv cs.AI"
+      "title": "Kimi AI and kvcache-ai Open Sources 'AgentENV': A Distributed System for Agentic Reinforcement Learning (RL) Training",
+      "summary": "Kimi AI and kvcache-ai have open-sourced AgentENV, an MIT-licensed distributed system that powers agentic reinforcement learning training. It leverages Firecracker microVMs for millisecond snapshot/resume and 16-way forking, offering an E2B-compatible API for scalable agent development.",
+      "link": "https://www.marktechpost.com/2026/07/27/kimi-ai-and-kvcache-ai-open-sources-agentenv/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "HOBA: Hierarchical On-Policy Bidding Agents for Adaptive Online Advertising",
-      "summary": "HOBA is a hierarchical reinforcement learning framework for online advertising that intelligently decouples strategic reasoning and bid execution, achieving a significant +3.6% increase in target cost in large-scale online deployments by dynamically selecting optimal bidding strategies.",
-      "link": "https://arxiv.org/abs/2607.24779",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "RSMeM: Knowledge-Enhanced Memory Evolution for Remote Sensing Agents with Systematic Evaluation",
-      "summary": "RSMeM introduces a knowledge-enhanced memory mechanism for remote sensing agents, bootstrapping them with pre-distilled domain knowledge and iteratively refining online experience to achieve robust multi-step tool execution and improved accuracy on EarthBench with minimal additional tokens.",
-      "link": "https://arxiv.org/abs/2607.24772",
-      "source": "arXiv cs.AI"
-    }
-  ],
-  "models": [
-    {
-      "title": "GrocLM: Grocery Category Recommendation in E-Commerce with Large Language Models",
-      "summary": "GROCLM is a fine-tuned language model engineered for grocery category recommendation in e-commerce, employing a LoRA-based training strategy to embed cyclical purchasing patterns and demonstrating a 7.5% relative improvement in cart-adds per impression in live production.",
-      "link": "https://arxiv.org/abs/2607.24764",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "summary": "New research published in 'Nature' reveals Google's conversational AI system, AMIE, matches primary care physicians in managing complex health conditions, signaling a significant breakthrough for AI-driven medical diagnostics and personalized patient care.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "Atmospheric Diffusion-Guided Spatio-Temporal Transformer for Nuclear Radiation Forecasting",
-      "summary": "NRFormer+ presents a spatio-temporal Transformer model for nationwide nuclear radiation forecasting, integrating an atmospheric diffusion module to inject physical signals and achieve state-of-the-art accuracy by effectively modeling non-stationary temporal and density-adaptive spatial dynamics.",
-      "link": "https://arxiv.org/abs/2607.24774",
-      "source": "arXiv cs.AI"
-    }
-  ],
-  "tools": [
-    {
-      "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
-      "summary": "Kernel Forge is an open-source agentic harness that leverages LLMs and Monte Carlo Tree Search to generate and optimize CUDA kernels for PyTorch models, achieving significant speedups (e.g., 2.83x on softmax) across diverse workloads and providing a GUI for monitoring and debugging.",
-      "link": "https://arxiv.org/abs/2607.24762",
+      "title": "GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning",
+      "summary": "GuideSkill introduces an external reasoning layer that compiles clinical practice guidelines into executable functions, significantly improving LLM agent accuracy in diagnostic reasoning. It supports both guideline-initialized and case-evolved skills, offering a model-agnostic mechanism for combining structured knowledge with case-derived patterns.",
+      "link": "https://arxiv.org/abs/2607.26160",
       "source": "arXiv cs.AI"
     },
     {
       "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "summary": "Google announces expanded capabilities for Managed Agents in Gemini API, including support for Gemini 3.6 Flash and advanced hooks, empowering developers to build more reliable and production-ready AI agents with enhanced control and flexibility.",
+      "summary": "Google has significantly expanded its Gemini API Managed Agents with new capabilities, including support for Gemini 3.6 Flash, enhanced hooks, background tasks, and remote MCP. These updates enable developers to build more reliable and production-ready AI agents with advanced control and scalability.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
       "source": "Google AI Blog"
+    }
+  ],
+  "models": [
+    {
+      "title": "Liquid AI Releases LFM2.5-Encoder-230M and LFM2.5-Encoder-350M: Bidirectional Encoders That Stay Fast at 8K Context on CPU",
+      "summary": "Liquid AI has released LFM2.5-Encoder-230M and LFM2.5-Encoder-350M, two open-weight bidirectional encoders built on the LFM2 hybrid backbone. These models achieve fast inference at 8K context on CPUs, with the 350M model ranking highly across 17 tasks on GLUE, SuperGLUE, and multilingual suites.",
+      "link": "https://www.marktechpost.com/2026/07/29/liquid-ai-releases-lfm2-5-encoder-230m-and-lfm2-5-encoder-350m-bidirectional-encoders-that-stay-fast-at-8k-context-on-cpu/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Introducing OpenAI Presence",
-      "summary": "OpenAI launches Presence, an enterprise AI agent platform designed to help organizations securely deploy trusted voice and chat agents for customer service and internal workflow automation, streamlining business processes with proven AI capabilities.",
-      "link": "https://openai.com/index/introducing-openai-presence",
+      "title": "Microsoft AI Releases MAI-Cyber-1-Flash: A 5B-Active-Parameter Cyber Model That Pushes MDASH to 95.95% on CyberGym",
+      "summary": "Microsoft AI has launched MAI-Cyber-1-Flash, a specialized 5B active-parameter sparse MoE model for cyber defense. This model, a fine-tune of MAI-Code-1-Flash with a 256k context window, runs within Microsoft's MDASH agentic scanning harness, significantly boosting its performance on CyberGym benchmarks.",
+      "link": "https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "summary": "OpenAI's GPT-5.6 introduces significant advancements in AI efficiency, optimizing across models, inference, and agentic workflows. This development aims to provide enhanced intelligence at a lower cost, making advanced AI capabilities more accessible and practical for diverse applications.",
+      "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
       "source": "OpenAI News"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Tencent Open-Sources AngelSpec: A Unified Training Framework for MTP and Block-Parallel Speculative Decoding on Hy3 Models",
+      "summary": "Tencent has open-sourced AngelSpec, a torch-native framework that unifies training for speculative-decoding draft models across six architectures. It introduces DFly, a block-diffusion drafter, and integrates D-cut, delivering 1.98–2.40x speedup for autoregressive decoding on HY3-295B-A21B.",
+      "link": "https://www.marktechpost.com/2026/07/30/tencent-open-sources-angelspec-a-unified-training-framework-for-mtp-and-block-parallel-speculative-decoding-on-hy3-models/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Meet Token Saver: An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
+      "summary": "Marktechpost AI has released Token Saver, an open-source MCP extension for Claude Desktop that significantly reduces PDF token consumption by 90-99% using local Hybrid RAG. This tool ensures absolute document privacy while offering substantial cost savings for Claude users.",
+      "link": "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Fireworks AI Releases Fireworks Nexus: A Drop-In Routing and Cost-Control Layer That Moves Routine Coding Work to Open-Weight Models",
+      "summary": "Fireworks AI has launched Fireworks Nexus, an AI management and routing platform for engineering organizations. It connects existing coding tools to a managed layer of open-weight models, designed to significantly reduce AI operational costs by intelligently routing routine coding tasks to more efficient solutions.",
+      "link": "https://www.marktechpost.com/2026/07/28/fireworks-ai-releases-fireworks-nexus-a-drop-in-routing-and-cost-control-layer-that-moves-routine-coding-work-to-open-weight-models/",
+      "source": "MarkTechPost"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "summary": "OpenAI and Hugging Face collaborated to investigate a security incident during AI model evaluation, sharing early findings to highlight advanced cyber capabilities and provide crucial lessons for enhancing AI security practices.",
-      "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "summary": "OpenAI is providing free access to its most advanced ChatGPT models for 100,000 academic researchers, aiming to accelerate scientific research, foster collaboration, and drive new discoveries across various fields.",
+      "link": "https://openai.com/index/chatgpt-for-academic-researchers",
       "source": "OpenAI News"
     },
     {
       "title": "Launching Health in ChatGPT",
-      "summary": "OpenAI introduces 'Health in ChatGPT,' allowing eligible U.S. users to securely connect medical records and Apple Health, enabling personalized health insights and a better understanding of their well-being directly through the platform.",
+      "summary": "OpenAI is launching 'Health in ChatGPT,' allowing eligible U.S. users to securely connect their medical records and Apple Health data. This feature provides personalized insights and enhanced understanding of individual health information directly within ChatGPT.",
       "link": "https://openai.com/index/health-in-chatgpt",
       "source": "OpenAI News"
     },
     {
-      "title": "Scientific computing in the age of agentic AI",
-      "summary": "OpenAI highlights a new field report demonstrating how AI coding agents are revolutionizing scientific computing, accelerating software development and discovery in genomics and other scientific domains, underscoring the transformative impact of agentic AI.",
-      "link": "https://openai.com/index/scientific-computing-agentic-ai",
+      "title": "Introducing OpenAI Presence",
+      "summary": "OpenAI has introduced OpenAI Presence, a proven enterprise AI agent platform designed to help organizations deploy trusted voice and chat agents. It streamlines customer and internal workflows by providing secure and reliable agent capabilities.",
+      "link": "https://openai.com/index/introducing-openai-presence",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
-      "summary": "Google, in collaboration with the New York Jobs CEO Council and Urban Assembly, hosted an AI summit for 150 education and industry leaders, fostering discussions to shape the future of AI integration and curriculum development in classrooms.",
-      "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
-      "source": "Google AI Blog"
+      "title": "Prompt Engineering vs Loop Engineering vs Graph Engineering: What Changes at Each Layer",
+      "summary": "This article differentiates between Prompt Engineering, Loop Engineering, and Graph Engineering, clarifying their distinct roles and applications in AI development. It addresses common misconceptions about these terms, providing a foundational understanding for AI practitioners.",
+      "link": "https://www.marktechpost.com/2026/07/29/prompt-engineering-vs-loop-engineering-vs-graph-engineering/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
-      "summary": "Hugging Face provides a detailed technical guide on advanced profiling techniques in PyTorch, specifically focusing on optimizing and understanding the performance implications of attention mechanisms within AI models to enhance efficiency.",
-      "link": "https://huggingface.co/blog/torch-attention-profile",
-      "source": "Hugging Face Blog"
+      "title": "Building Non-Interactive Agentic Coding Workflows with Moonshot AI’s Kimi CLI, JSONL Streaming, Testing, and Session Memory",
+      "summary": "This tutorial demonstrates how to configure and operate Moonshot AI’s Kimi CLI as a fully non-interactive AI coding agent. It covers installation, API authentication, building a reusable Python wrapper, and applying Kimi to solve coding tasks, emphasizing session memory and testing.",
+      "link": "https://www.marktechpost.com/2026/07/28/building-non-interactive-agentic-coding-workflows-with-moonshot-ais-kimi-cli-jsonl-streaming-testing-and-session-memory/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Ask an AI expert: What exactly is the full stack?",
-      "summary": "A Google expert offers a comprehensive explanation of the 'full-stack' approach to AI, elucidating its foundational role and significance in developing robust and scalable artificial intelligence systems.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
-      "source": "Google AI Blog"
+      "title": "Position: Evaluation Scores Are Perishable Knowledge Claims",
+      "summary": "This paper argues that AI evaluation scores are perishable epistemic claims, highlighting 'trust inflation' when aggregating diverse signals. It proposes treating scores with explicit metadata—formality tier, scope declaration, and expiration date—to ensure transparency and prevent misinterpretation, especially with weakest-link aggregation.",
+      "link": "https://arxiv.org/abs/2607.26191",
+      "source": "arXiv cs.AI"
     }
   ]
 }
