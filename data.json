@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-07-31T23:59:59Z",
+  "lastUpdated": "2026-08-01T12:00:00Z",
   "highlights": [
-    "Agentic AI advancements across scientific discovery, clinical reasoning, and enterprise deployment are gaining traction, simultaneously spurring critical discussions on security and reliability.",
-    "Leading AI firms like OpenAI and Google are aggressively expanding their model efficiency, platform capabilities, and specialized agent offerings for developers and diverse industries.",
-    "The AI community confronts core challenges in evaluation, including benchmark projectibility and the transient nature of performance scores, while also optimizing for infrastructure efficiency like GPU utilization."
+    "The AI landscape is seeing significant advancements in multimodal generation with MiniMax H3's omni-modal video model and Google DeepMind's physical AI for robotics.",
+    "Developer productivity tools are emerging, notably JetBrains' open-source KotlinLLM for runtime code generation and Supabase Evals for benchmarking coding agents on real-world tasks.",
+    "Major platforms continue to expand their agent capabilities and model efficiency, with Google enhancing Gemini API Managed Agents and OpenAI integrating health features into ChatGPT while optimizing GPT-5.6 price-performance."
   ],
   "agents": [
     {
-      "title": "EvoPINN: Agentic Discovery of Executable Algorithms for Physics-Informed Neural Networks",
-      "summary": "This research introduces EvoPINN, an agentic framework that enables LLM agents to autonomously discover and refine executable algorithms for Physics-Informed Neural Networks (PINNs), significantly improving PDE solution accuracy and demonstrating the potential for agents to invent novel scientific computing methods.",
-      "link": "https://arxiv.org/abs/2607.26490",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "ClinLens: Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science",
-      "summary": "CLINLENS introduces a new benchmark of 200 executable tasks over linked MIMIC resources, revealing a substantial gap between runnable submissions and correct clinical analyses for long-horizon coding agents handling complex longitudinal multimodal clinical data.",
-      "link": "https://arxiv.org/abs/2607.26155",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "summary": "Google is expanding its Gemini API Managed Agents with new capabilities like 3.6 Flash model integration and custom hooks, empowering developers to build more reliable and production-ready AI agents with advanced control and efficiency.",
+      "title": "Gemini API Managed Agents Gain 3.6 Flash, Hooks, and More",
+      "summary": "Google has significantly enhanced its Gemini API Managed Agents with new capabilities including 3.6 Flash integration and hooks, empowering developers to build more reliable and production-ready AI agents.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
       "source": "Google AI Blog"
+    },
+    {
+      "title": "Nous Research Integrates Hermes Agent with Buzz, Block's Open Source Nostr Workspace",
+      "summary": "Nous Research introduced three integration paths for its Hermes Agent with Buzz, Block's open-source Nostr workspace, enabling seamless human-AI agent collaboration and deployment in a self-hostable environment.",
+      "link": "https://www.marktechpost.com/2026/07/31/nous-research-ships-three-integration-paths-for-hermes-agent-and-buzz-blocks-open-source-nostr-workspace-for-humans-and-agents/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Scientific Computing Accelerated by Agentic AI",
+      "summary": "A new field report from OpenAI highlights how AI coding agents are revolutionizing scientific computing, modernizing software development and accelerating discovery across fields like genomics.",
+      "link": "https://openai.com/index/scientific-computing-agentic-ai",
+      "source": "OpenAI News"
     }
   ],
   "models": [
     {
-      "title": "Advancing the price-performance frontier with GPT-5.6",
-      "summary": "OpenAI has significantly improved the price-performance ratio for GPT-5.6 (Luna and Terra), making advanced AI workflows more affordable and efficient for enterprises deploying at scale.",
-      "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "source": "OpenAI News"
+      "title": "MiniMax Releases MiniMax H3: Omni-Modal Video Model with 2K Clips and Native Stereo Audio",
+      "summary": "MiniMax unveiled MiniMax H3, a groundbreaking general-purpose omni-modal model capable of generating 15-second 2K video clips with native stereo audio, unifying text, image, video, and audio contexts for comprehensive generation.",
+      "link": "https://www.marktechpost.com/2026/08/01/minimax-releases-minimax-h3-an-omni-modal-video-model-that-generates-15-second-2k-clips-with-native-stereo-audio/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
-      "summary": "This development introduces LFM2.5-Encoders, enabling fast and efficient long-context inference directly on CPUs, which significantly broadens accessibility and reduces infrastructure costs for deploying advanced language models without specialized hardware.",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
-      "source": "Hugging Face Blog"
+      "title": "Google DeepMind Ships Three Physical AI Models for Robotics Control and Collaboration",
+      "summary": "Google DeepMind released Gemini Robotics 2, an intelligence layer for next-gen robots, featuring models for whole-body humanoid control, embodied reasoning (ER 2), and on-device adaptation for multi-robot collaboration.",
+      "link": "https://www.marktechpost.com/2026/07/30/google-deepmind-gemini-robotics-2-whole-body-control-dexterity-multi-robot-collaboration/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
-      "summary": "Research reveals that RL-tuned models achieve superior mathematical reasoning by developing more structured, linearly separable internal representations and hierarchical processing compared to SFT models, providing critical insights for future reasoning model architectures.",
-      "link": "https://arxiv.org/abs/2607.26119",
-      "source": "arXiv cs.AI"
+      "title": "PolyAI Releases Dialog-RSN-1: An Audio-Native Dialog Model",
+      "summary": "PolyAI introduced Dialog-RSN-1, an innovative audio-native dialog model that directly processes caller audio, fusing turn-taking, speech recognition, function calling, and response generation into a single system for sub-300ms responses.",
+      "link": "https://www.marktechpost.com/2026/07/30/polyai-releases-dialog-rsn-1-an-audio-native-dialog-model-that-fuses-turn-taking-speech-recognition-function-calling-and-response/",
+      "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "TraceCoder: Explainable and Auditable Code Generation with Position-Key Snippet Versioning",
-      "summary": "TraceCoder offers a novel system for explainable and auditable AI-generated code by recording full provenance of code changes and LLM explanations, enabling developers to trust and debug agentic coding solutions critical for production deployments.",
-      "link": "https://arxiv.org/abs/2607.26307",
-      "source": "arXiv cs.AI"
+      "title": "JetBrains Open-Sources KotlinLLM: Smart Macros for Runtime Code Generation",
+      "summary": "JetBrains Research open-sourced KotlinLLM, an IntelliJ IDEA plugin prototype that introduces 'Smart macros' for generating and hot-reloading Kotlin source code at runtime using LLMs, significantly enhancing developer agility and scenarios completion.",
+      "link": "https://www.marktechpost.com/2026/07/31/jetbrains-research-open-sources-kotlinllm-intellij-plugin-kotlin-runtime-llm/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
-      "summary": "This article highlights the critical importance of efficient GPU utilization and management, framing idle GPUs as a significant wasted resource and advocating for better solutions to optimize infrastructure costs and accelerate AI development at scale.",
-      "link": "https://huggingface.co/blog/Dharma-AI/gpu-management",
-      "source": "Hugging Face Blog"
+      "title": "Supabase Releases Evals: An Open Source Benchmark for Coding Agents",
+      "summary": "Supabase has open-sourced 'supabase/evals', an Apache-2.0 benchmark and framework designed to evaluate coding agents like Claude Code and Codex against real Supabase tasks, providing deterministic scoring and LLM-as-a-judge capabilities.",
+      "link": "https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "From Hugging Face to Amazon SageMaker Studio in one click",
-      "summary": "Hugging Face now offers seamless, one-click deployment of models and datasets to Amazon SageMaker Studio, significantly simplifying and accelerating MLOps workflows for developers building and deploying AI solutions in the cloud.",
-      "link": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-      "source": "Hugging Face Blog"
+      "title": "Tencent Open-Sources AngelSpec: Unified Training Framework for Speculative Decoding",
+      "summary": "Tencent released AngelSpec, an open-source torch-native framework that unifies training for speculative-decoding draft models, introducing DFly for block-diffusion drafting and D-cut for adaptive verification budgeting, leading to significant inference speedups.",
+      "link": "https://www.marktechpost.com/2026/07/30/tencent-open-sources-angelspec-a-unified-training-framework-for-mtp-and-block-parallel-speculative-decoding-on-hy3-models/",
+      "source": "MarkTechPost"
     }
   ],
   "companies": [
     {
-      "title": "Introducing OpenAI Presence",
-      "summary": "OpenAI has launched Presence, an enterprise AI agent platform enabling organizations to confidently deploy trusted voice and chat agents for customer service and internal operational workflows.",
-      "link": "https://openai.com/index/introducing-openai-presence",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-      "summary": "Hugging Face details a significant security incident involving a Frontier Lab Agent intrusion, providing a technical timeline and critical insights into vulnerabilities and defense strategies for agentic AI systems, impacting the broader AI safety community.",
-      "link": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "source": "Hugging Face Blog"
-    },
-    {
-      "title": "Launching Health in ChatGPT",
-      "summary": "OpenAI introduces Health in ChatGPT, allowing eligible U.S. users to securely connect medical records and Apple Health data for personalized health insights, marking a significant expansion into the healthcare sector with personalized AI applications.",
+      "title": "OpenAI Launches Health in ChatGPT, Integrating Medical Records and Apple Health",
+      "summary": "OpenAI has introduced 'Health in ChatGPT', allowing eligible U.S. users to securely connect medical records and Apple Health data for personalized health insights and better understanding of their well-being.",
       "link": "https://openai.com/index/health-in-chatgpt",
       "source": "OpenAI News"
+    },
+    {
+      "title": "OpenAI Advances GPT-5.6 Price-Performance Frontier",
+      "summary": "OpenAI announced lower pricing for GPT-5.6 models (Luna and Terra), emphasizing its commitment to efficient models that enable enterprises to deploy AI workflows at scale with improved price-performance.",
+      "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Google Vids Updates Introduce Gemini Omni and Personal Avatars for Video Creation",
+      "summary": "Google Vids received two significant updates, Gemini Omni and personal avatars, designed to simplify video creation and editing, making the process more intuitive and accessible for users.",
+      "link": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-      "summary": "OpenAI is providing 100,000 academic researchers with free access to its most advanced ChatGPT models, aiming to accelerate scientific research, foster collaboration, and drive new discoveries across various fields.",
+      "title": "OpenAI Provides Free ChatGPT Access to 100,000 Academic Researchers",
+      "summary": "OpenAI is offering 100,000 academic researchers free access to its most advanced AI models via ChatGPT, aiming to significantly accelerate scientific research, collaboration, and discovery across various disciplines.",
       "link": "https://openai.com/index/chatgpt-for-academic-researchers",
       "source": "OpenAI News"
     },
     {
-      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
-      "summary": "OpenAI reveals how two specific API settings dramatically improved GPT-5.6's performance on the ARC-AGI-3 benchmark, offering actionable techniques for developers to enhance model efficiency and reasoning capabilities.",
+      "title": "OpenAI Shares How Two Settings Tripled ARC-AGI-3 Scores for GPT-5.6",
+      "summary": "OpenAI detailed how enabling specific API settings for GPT-5.6 led to a threefold increase in scores on the ARC-AGI-3 benchmark, providing valuable insights for developers to enhance model performance and efficiency through reasoning and compaction.",
       "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
       "source": "OpenAI News"
     },
     {
-      "title": "Scientific computing in the age of agentic AI",
-      "summary": "A new field report from OpenAI demonstrates how AI coding agents are revolutionizing scientific computing, accelerating software development and discovery in domains like genomics, and highlighting essential new skills for researchers and developers.",
-      "link": "https://openai.com/index/scientific-computing-agentic-ai",
-      "source": "OpenAI News"
+      "title": "LingBot-Map Tutorial: GPU-Aware Inference and Point Cloud Export for 3D Reconstruction",
+      "summary": "This tutorial provides a comprehensive guide to implementing a streaming 3D reconstruction pipeline using LingBot-Map, covering GPU-aware configuration, GCTStream model inference, and exporting consistent 3D scenes as PLY and NPZ artifacts.",
+      "link": "https://www.marktechpost.com/2026/07/31/lingbot-map-tutorial-gpu-aware-inference-and-point-cloud-export/",
+      "source": "MarkTechPost"
     }
   ]
 }
