@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-08-02T12:00:00Z",
+  "lastUpdated": "2026-08-03T12:00:00Z",
   "highlights": [
-    "Major platforms are enhancing their agent-building capabilities, with Google releasing advanced Gemini API features and NVIDIA launching a PyTorch-native agentic RL framework.",
-    "The LLM and multimodal model landscape continues to diversify with AMD's open MoE LLM and MiniMax's omni-modal video generation model, alongside critical price-performance advancements in OpenAI's GPT-5.6.",
-    "New open-source tools like Supabase Evals and JetBrains KotlinLLM are empowering developers with better evaluation and productivity for AI-driven coding."
+    "AI agents are maturing with unified architectures for orchestration and self-evolving capabilities, complemented by new API tools enabling robust production deployments for developers.",
+    "Major AI developers like OpenAI and Google are pushing model efficiency and accessibility, with GPT-5.6 offering better price-performance and new features extending into critical sectors like healthcare.",
+    "The industry is intensifying its focus on AI safety and evaluation, with new benchmarks and frameworks emerging to scrutinize agent performance, reasoning, and ethical deployment in real-world, high-stakes environments."
   ],
   "agents": [
     {
+      "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+      "summary": "This paper introduces a layered architecture for Agentic AI, integrating Ollama for LLM inference and OpenClaw for agent runtime orchestration, demonstrating emergent capabilities like persistent memory and tool use from system-level integration. It provides a unified architectural foundation for building scalable, secure, and trustworthy autonomous AI agents.",
+      "link": "https://arxiv.org/abs/2607.28629",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "SciToolAgent-Evo: An Ontology-Aware Self-Evolving Agent for Open-World Scientific Tool Acquisition",
+      "summary": "SciToolAgent-Evo is an ontology-aware, self-evolving agent designed for open-world scientific tool acquisition, distilling knowledge from contrastive trajectories and dynamically integrating new tools. This enables highly flexible and adaptive scientific automation by autonomously expanding tool utilization.",
+      "link": "https://arxiv.org/abs/2607.28692",
+      "source": "arXiv cs.AI"
+    },
+    {
       "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "summary": "Google enhances its Gemini API with Managed Agents 3.6 Flash, new hooks, and capabilities for developers to build more reliable and production-ready AI agents.",
+      "summary": "Google announced new capabilities for Managed Agents in the Gemini API, including support for Gemini 3.6 Flash and advanced hooks, empowering developers to build more reliable and production-ready AI agents. These enhancements facilitate building complex agent workflows with greater control and efficiency.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
       "source": "Google AI Blog"
-    },
-    {
-      "title": "DeepSeek Upgrades DeepSeek-V4-Flash-0731 with Major Agentic and Coding Gains",
-      "summary": "DeepSeek has re-post-trained its V4-Flash-0731 model, delivering significant improvements in agentic reasoning and coding capabilities without changing the underlying architecture.",
-      "link": "https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Scientific computing in the age of agentic AI",
-      "summary": "OpenAI highlights how AI coding agents are revolutionizing scientific computing, accelerating software development and discovery in fields like genomics.",
-      "link": "https://openai.com/index/scientific-computing-agentic-ai",
-      "source": "OpenAI News"
     }
   ],
   "models": [
     {
-      "title": "AMD Releases Instella-MoE-16B-A3B: A Fully Open Mixture-of-Experts LLM With 2.8B Active Parameters Trained On Instinct GPUs",
-      "summary": "AMD has launched Instella-MoE-16B-A3B, a fully open Mixture-of-Experts LLM with 2.8B active parameters, trained on their Instinct GPUs, and released all training artifacts.",
-      "link": "https://www.marktechpost.com/2026/08/01/amd-instella-moe-16b-a3b-fully-open-mixture-of-experts-llm/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "MiniMax Releases MiniMax H3: An Omni-Modal Video Model That Generates 15-Second 2K Clips With Native Stereo Audio",
-      "summary": "MiniMax introduced H3, an omni-modal video generation model capable of producing 15-second 2K clips with native stereo audio from unified text, image, video, and audio contexts.",
-      "link": "https://www.marktechpost.com/2026/08/01/minimax-releases-minimax-h3-an-omni-modal-video-model-that-generates-15-second-2k-clips-with-native-stereo-audio/",
-      "source": "MarkTechPost"
-    },
-    {
       "title": "Advancing the price-performance frontier with GPT-5.6",
-      "summary": "OpenAI has lowered pricing for GPT-5.6 (Luna and Terra), optimizing models for greater efficiency to help enterprises deploy AI workflows at scale.",
+      "summary": "OpenAI announced lower pricing for GPT-5.6 (Luna and Terra versions) combined with increased efficiency, making advanced AI capabilities more accessible and cost-effective for enterprise deployment and large-scale AI workflows.",
       "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
       "source": "OpenAI News"
+    },
+    {
+      "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
+      "summary": "ThinkReset improves LLM long-horizon reasoning by explicitly constructing reusable intermediate interfaces, effectively combating redundancy accumulation, context overflow, and error anchoring. This approach consistently enhances success rates for complex, multi-step problems under fixed context windows.",
+      "link": "https://arxiv.org/abs/2607.28642",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "summary": "New research published in 'Nature' demonstrates that Google's conversational AI system, AMIE, can match primary care physicians in managing complex diseases, highlighting its significant potential for accurate and robust clinical decision support in healthcare.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "source": "Google AI Blog"
     }
   ],
   "tools": [
     {
-      "title": "NVIDIA AI Releases Molt: A PyTorch-Native Agentic Reinforcement Learning Framework",
-      "summary": "NVIDIA AI introduced Molt, a PyTorch-native agentic reinforcement learning framework designed to simplify algorithm modification and streamline distributed training workflows.",
-      "link": "https://www.marktechpost.com/2026/08/01/nvidia-ai-releases-molt-a-pytorch-native-agentic-reinforcement-learning-framework/",
-      "source": "MarkTechPost"
+      "title": "Native-speed vLLM transformers modeling backend",
+      "summary": "This announcement details a native-speed vLLM transformers modeling backend, promising significant performance boosts for running transformer models. This is critical for developers building low-latency and high-throughput AI applications.",
+      "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "source": "Hugging Face Blog"
     },
     {
-      "title": "Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks",
-      "summary": "Supabase open-sourced Evals, an Apache-2.0 benchmark and framework that evaluates coding agents against real-world Supabase tasks within containerized environments.",
-      "link": "https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks/",
-      "source": "MarkTechPost"
+      "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
+      "summary": "TAPR (Task-Aware Prompt Rewriter) is an RL-trained model that automatically reformulates user prompts into task-optimized versions, leading to consistent performance gains for downstream LLMs on diverse tasks. This tool makes advanced LLMs more accessible and effective for non-expert users.",
+      "link": "https://arxiv.org/abs/2607.28657",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "JetBrains Open-Sources KotlinLLM: Smart Macros That Generate Kotlin Source Code at Runtime and Hot-Reload It Through JDI",
-      "summary": "JetBrains Research released KotlinLLM, an IntelliJ plugin that uses LLM-powered smart macros to generate and hot-reload Kotlin source code at runtime via JDI.",
-      "link": "https://www.marktechpost.com/2026/07/31/jetbrains-research-open-sources-kotlinllm-intellij-plugin-kotlin-runtime-llm/",
-      "source": "MarkTechPost"
+      "title": "An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents",
+      "summary": "This paper presents a production-ready extraction layer for knowledge graph construction, utilizing an ontology-guided LLM for entity and relationship extraction and a refinement pipeline with deduplication. It addresses LLM inconsistencies and improves data quality from diverse documents for robust KG creation.",
+      "link": "https://arxiv.org/abs/2607.28662",
+      "source": "arXiv cs.AI"
     }
   ],
   "companies": [
     {
-      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-      "summary": "OpenAI is granting 100,000 academic researchers free access to its most advanced ChatGPT models to accelerate scientific research and foster collaboration.",
-      "link": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "summary": "OpenAI announced achieving ten breakthroughs on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity. This highlights OpenAI's deep research capabilities and commitment to fundamental scientific progress.",
+      "link": "https://openai.com/index/ten-advances-in-mathematics",
       "source": "OpenAI News"
     },
     {
-      "title": "Disrupting a Criminal Scam Operation",
-      "summary": "OpenAI successfully disrupted a Cambodia-based criminal scam operation that was misusing ChatGPT for investment, romance, gambling, and impersonation schemes.",
-      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "title": "Launching Health in ChatGPT",
+      "summary": "OpenAI launched 'Health in ChatGPT' for eligible U.S. users, allowing secure connection of medical records and Apple Health data for personalized health insights. This marks a significant expansion of ChatGPT's capabilities into the regulated healthcare sector.",
+      "link": "https://openai.com/index/health-in-chatgpt",
       "source": "OpenAI News"
     },
     {
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-      "summary": "Hugging Face disclosed a detailed technical timeline of a July 2026 security incident involving a Frontier Lab Agent intrusion, emphasizing transparency in AI security.",
-      "link": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "source": "Hugging Face Blog"
+      "title": "Safety, or Just Capability? A Validity Audit of Agent-Safety Benchmarks",
+      "summary": "A critical audit of agent-safety benchmarks reveals significant inconsistencies, small-panel artifacts, and a negative correlation between model capability and misalignment safety. This study urges greater specificity in safety claims for AI agents and highlights the need for robust evaluation methodologies.",
+      "link": "https://arxiv.org/abs/2607.28685",
+      "source": "arXiv cs.AI"
     }
   ],
   "learning": [
     {
-      "title": "Accelerating Transformer Training with NVIDIA Transformer Engine, Fused Kernels, BF16, FP8, and GPU Benchmarking",
-      "summary": "This tutorial guides users through optimizing transformer workloads using NVIDIA Transformer Engine, implementing FP8 delayed scaling, and benchmarking model performance in PyTorch.",
-      "link": "https://www.marktechpost.com/2026/08/01/accelerating-transformer-training-with-nvidia-transformer-engine-fused-kernels-bf16-fp8-and-gpu-benchmarking/",
-      "source": "MarkTechPost"
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "summary": "OpenAI is granting free access to ChatGPT's most advanced AI models to 100,000 academic researchers, aiming to accelerate scientific research, collaboration, and discovery. This initiative democratizes access to frontier AI for the scientific community.",
+      "link": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "source": "OpenAI News"
     },
     {
-      "title": "End-to-End Forecasting with TimesFM 2.5: Backtesting, Covariates, Anomaly Detection, and Scalable Colab Deployment",
-      "summary": "A comprehensive tutorial demonstrating an end-to-end time-series forecasting workflow using TimesFM 2.5, covering data generation, model compilation, backtesting, and anomaly detection.",
-      "link": "https://www.marktechpost.com/2026/08/01/end-to-end-forecasting-with-timesfm-2-5-backtesting-covariates-anomaly-detection-and-scalable-colab-deployment/",
-      "source": "MarkTechPost"
+      "title": "Univé builds an AI-ready workforce",
+      "summary": "Univé successfully transformed its workforce into an 'AI-ready' one using ChatGPT Enterprise, showcasing a blueprint for combining leadership, responsible governance, and employee-led innovation to integrate AI at scale. This provides a valuable case study for enterprise AI adoption.",
+      "link": "https://openai.com/index/unive",
+      "source": "OpenAI News"
     },
     {
-      "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
-      "summary": "The third part of a PyTorch profiling series, this article delves into optimizing attention mechanisms, a critical component for improving performance in transformer models.",
-      "link": "https://huggingface.co/blog/torch-attention-profile",
-      "source": "Hugging Face Blog"
+      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+      "summary": "Google, in collaboration with the New York Jobs CEO Council and Urban Assembly, hosted an AI summit for educators and industry leaders to shape the integration of AI into classrooms and workforce development programs. This initiative fosters AI education and talent preparation.",
+      "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+      "source": "Google AI Blog"
     }
   ]
 }
