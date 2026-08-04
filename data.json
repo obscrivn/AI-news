@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2026-08-03T12:00:00Z",
+  "lastUpdated": "2026-08-04T12:00:00Z",
   "highlights": [
-    "AI agents are maturing with unified architectures for orchestration and self-evolving capabilities, complemented by new API tools enabling robust production deployments for developers.",
-    "Major AI developers like OpenAI and Google are pushing model efficiency and accessibility, with GPT-5.6 offering better price-performance and new features extending into critical sectors like healthcare.",
-    "The industry is intensifying its focus on AI safety and evaluation, with new benchmarks and frameworks emerging to scrutinize agent performance, reasoning, and ethical deployment in real-world, high-stakes environments."
+    "The AI landscape sees major strides in agent reliability and efficiency, with new research tackling inherent failure modes in self-improving LLM agents and providing deep insights into production-scale agentic workloads.",
+    "Model performance and cost-efficiency remain a key focus, highlighted by OpenAI's GPT-5.6 advancements in price-performance and the introduction of advanced architectures like Motif-Mamba for long-sequence modeling.",
+    "Developer tools are evolving to address critical production challenges, including novel compilers for deep learning performance, sophisticated hallucination detection kits for RAG systems, and frameworks for granular energy attribution in batched LLM serving."
   ],
   "agents": [
     {
-      "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
-      "summary": "This paper introduces a layered architecture for Agentic AI, integrating Ollama for LLM inference and OpenClaw for agent runtime orchestration, demonstrating emergent capabilities like persistent memory and tool use from system-level integration. It provides a unified architectural foundation for building scalable, secure, and trustworthy autonomous AI agents.",
-      "link": "https://arxiv.org/abs/2607.28629",
+      "title": "AutoFOAM: The Self-Refining Autonomous OpenFOAM Agent",
+      "summary": "AutoFOAM is a self-evolving LLM agent that automates complex OpenFOAM Computational Fluid Dynamics (CFD) simulations from natural language instructions, enabling faster prototyping and democratizing advanced CFD workflows.",
+      "link": "https://arxiv.org/abs/2608.00003",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "SciToolAgent-Evo: An Ontology-Aware Self-Evolving Agent for Open-World Scientific Tool Acquisition",
-      "summary": "SciToolAgent-Evo is an ontology-aware, self-evolving agent designed for open-world scientific tool acquisition, distilling knowledge from contrastive trajectories and dynamically integrating new tools. This enables highly flexible and adaptive scientific automation by autonomously expanding tool utilization.",
-      "link": "https://arxiv.org/abs/2607.28692",
+      "title": "Memory Reward Inflation in Self-Improving LLM Agents",
+      "summary": "This research identifies and addresses the 'Echo Gap,' a failure mode in self-improving LLM agents where incorrect memories receive inflated rewards, leading to compounding errors. The LUCID algorithm offers an answer-free solution to improve agent accuracy.",
+      "link": "https://arxiv.org/abs/2608.00017",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "summary": "Google announced new capabilities for Managed Agents in the Gemini API, including support for Gemini 3.6 Flash and advanced hooks, empowering developers to build more reliable and production-ready AI agents. These enhancements facilitate building complex agent workflows with greater control and efficiency.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "source": "Google AI Blog"
+      "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
+      "summary": "A large-scale analysis of GitHub Copilot traces reveals distinctive workload properties for AI coding agents, providing empirical foundations for designing agent-native infrastructure and improving resource orchestration.",
+      "link": "https://arxiv.org/abs/2608.00101",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
+      "title": "Motif-Mamba: network motif improved mamba for long-range sequence modeling",
+      "summary": "Motif-Mamba introduces a structured state space model that enhances Mamba's capabilities for efficient long-range sequence modeling by augmenting it with a motif-constrained low-rank recurrent pathway, improving cross-dimensional communication.",
+      "link": "https://arxiv.org/abs/2608.00027",
+      "source": "arXiv cs.AI"
+    },
+    {
       "title": "Advancing the price-performance frontier with GPT-5.6",
-      "summary": "OpenAI announced lower pricing for GPT-5.6 (Luna and Terra versions) combined with increased efficiency, making advanced AI capabilities more accessible and cost-effective for enterprise deployment and large-scale AI workflows.",
+      "summary": "OpenAI announces lower pricing for GPT-5.6 (Luna and Terra) and highlights its enhanced efficiency, enabling enterprises to deploy AI workflows at scale with improved intelligence per dollar.",
       "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
       "source": "OpenAI News"
     },
     {
-      "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
-      "summary": "ThinkReset improves LLM long-horizon reasoning by explicitly constructing reusable intermediate interfaces, effectively combating redundancy accumulation, context overflow, and error anchoring. This approach consistently enhances success rates for complex, multi-step problems under fixed context windows.",
-      "link": "https://arxiv.org/abs/2607.28642",
+      "title": "Enhancing LLMs with Context-Specific Knowledge for Mitigating Misinformation in SMEs: A RAG-based Modeling and Analysis",
+      "summary": "This paper presents VectorRAG and GraphRAG approaches to mitigate hallucinations and misinformation risks in LLMs used by SMEs, demonstrating significant improvements in response quality for reliable decision-making.",
+      "link": "https://arxiv.org/abs/2608.00006",
       "source": "arXiv cs.AI"
-    },
-    {
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "summary": "New research published in 'Nature' demonstrates that Google's conversational AI system, AMIE, can match primary care physicians in managing complex diseases, highlighting its significant potential for accurate and robust clinical decision support in healthcare.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "source": "Google AI Blog"
     }
   ],
   "tools": [
     {
-      "title": "Native-speed vLLM transformers modeling backend",
-      "summary": "This announcement details a native-speed vLLM transformers modeling backend, promising significant performance boosts for running transformer models. This is critical for developers building low-latency and high-throughput AI applications.",
-      "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-      "source": "Hugging Face Blog"
-    },
-    {
-      "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
-      "summary": "TAPR (Task-Aware Prompt Rewriter) is an RL-trained model that automatically reformulates user prompts into task-optimized versions, leading to consistent performance gains for downstream LLMs on diverse tasks. This tool makes advanced LLMs more accessible and effective for non-expert users.",
-      "link": "https://arxiv.org/abs/2607.28657",
+      "title": "Nova: An End-to-End MLIR Compiler for Deep Learning",
+      "summary": "Nova is a new automated end-to-end JIT compiler for deep learning that achieves absolute control over hardware mapping, enabling aggressive whole-graph optimizations, reduced memory footprint, and performance comparable to cuBLAS and XLA.",
+      "link": "https://arxiv.org/abs/2608.00029",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents",
-      "summary": "This paper presents a production-ready extraction layer for knowledge graph construction, utilizing an ontology-guided LLM for entity and relationship extraction and a refinement pipeline with deduplication. It addresses LLM inconsistencies and improves data quality from diverse documents for robust KG creation.",
-      "link": "https://arxiv.org/abs/2607.28662",
+      "title": "SIRIN: A Unified Toolkit for Detecting Contextual Hallucinations in Retrieval-Augmented and Memory-Grounded LLM Systems",
+      "summary": "SIRIN is a comprehensive toolkit and interactive web UI designed to detect contextual hallucinations in RAG and memory-grounded LLM systems, providing response- and span-level inspection with a lightweight plugin design for new detectors.",
+      "link": "https://arxiv.org/abs/2608.00033",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "Request-Level Energy Attribution for Batched LLM Serving",
+      "summary": "JouleShare introduces an attribution framework to accurately measure request-level energy consumption in batched LLM serving, revealing that token-proportional attribution is unreliable and providing a calibrated model for fairer cost accounting.",
+      "link": "https://arxiv.org/abs/2608.00026",
       "source": "arXiv cs.AI"
     }
   ],
   "companies": [
     {
-      "title": "Ten advances in mathematics and theoretical computer science",
-      "summary": "OpenAI announced achieving ten breakthroughs on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity. This highlights OpenAI's deep research capabilities and commitment to fundamental scientific progress.",
-      "link": "https://openai.com/index/ten-advances-in-mathematics",
+      "title": "Apple is getting this wrong",
+      "summary": "OpenAI publicly addresses Apple's lawsuit, correcting claims about its employees and sharing documented messages, indicating escalating legal and competitive tensions in the AI industry.",
+      "link": "https://openai.com/index/apple-is-getting-this-wrong",
       "source": "OpenAI News"
     },
     {
-      "title": "Launching Health in ChatGPT",
-      "summary": "OpenAI launched 'Health in ChatGPT' for eligible U.S. users, allowing secure connection of medical records and Apple Health data for personalized health insights. This marks a significant expansion of ChatGPT's capabilities into the regulated healthcare sector.",
-      "link": "https://openai.com/index/health-in-chatgpt",
+      "title": "Building abundant intelligence",
+      "summary": "OpenAI outlines its full-stack strategy to make advanced AI more capable, affordable, and widely useful, covering advancements across models, inference, and agentic workflows to deliver more intelligence per dollar.",
+      "link": "https://openai.com/index/building-abundant-intelligence",
       "source": "OpenAI News"
     },
     {
-      "title": "Safety, or Just Capability? A Validity Audit of Agent-Safety Benchmarks",
-      "summary": "A critical audit of agent-safety benchmarks reveals significant inconsistencies, small-panel artifacts, and a negative correlation between model capability and misalignment safety. This study urges greater specificity in safety claims for AI agents and highlights the need for robust evaluation methodologies.",
-      "link": "https://arxiv.org/abs/2607.28685",
-      "source": "arXiv cs.AI"
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "summary": "Google announces new capabilities for Managed Agents in Gemini API, including 3.6 Flash and hooks, empowering developers to build more reliable and production-ready AI agents.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
+      "title": "Inside our 353,000-person vibe coding course",
+      "summary": "Google's Kaggle AI Agents Intensive course successfully engaged 353,000 learners in a no-cost program focused on building and deploying the next generation of AI agents, signaling a massive push for developer upskilling.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "source": "Google AI Blog"
+    },
+    {
       "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-      "summary": "OpenAI is granting free access to ChatGPT's most advanced AI models to 100,000 academic researchers, aiming to accelerate scientific research, collaboration, and discovery. This initiative democratizes access to frontier AI for the scientific community.",
+      "summary": "OpenAI is providing free access to its most advanced ChatGPT models for 100,000 academic researchers, aiming to accelerate scientific research, collaboration, and discovery by empowering the academic community.",
       "link": "https://openai.com/index/chatgpt-for-academic-researchers",
       "source": "OpenAI News"
     },
     {
-      "title": "Univé builds an AI-ready workforce",
-      "summary": "Univé successfully transformed its workforce into an 'AI-ready' one using ChatGPT Enterprise, showcasing a blueprint for combining leadership, responsible governance, and employee-led innovation to integrate AI at scale. This provides a valuable case study for enterprise AI adoption.",
-      "link": "https://openai.com/index/unive",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
-      "summary": "Google, in collaboration with the New York Jobs CEO Council and Urban Assembly, hosted an AI summit for educators and industry leaders to shape the integration of AI into classrooms and workforce development programs. This initiative fosters AI education and talent preparation.",
-      "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "summary": "A Google AI expert clarifies the concept of 'full-stack AI,' explaining its foundational role in Google's AI strategy and offering valuable insights for anyone seeking to understand the comprehensive approach to AI development.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
       "source": "Google AI Blog"
     }
   ]
