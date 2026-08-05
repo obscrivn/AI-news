@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-08-04T12:00:00Z",
+  "lastUpdated": "2026-08-05T12:00:00Z",
   "highlights": [
-    "The AI landscape sees major strides in agent reliability and efficiency, with new research tackling inherent failure modes in self-improving LLM agents and providing deep insights into production-scale agentic workloads.",
-    "Model performance and cost-efficiency remain a key focus, highlighted by OpenAI's GPT-5.6 advancements in price-performance and the introduction of advanced architectures like Motif-Mamba for long-sequence modeling.",
-    "Developer tools are evolving to address critical production challenges, including novel compilers for deep learning performance, sophisticated hallucination detection kits for RAG systems, and frameworks for granular energy attribution in batched LLM serving."
+    "AI agent development is rapidly advancing with new open-source harnesses for enterprise deployment and critical research addressing reliability issues like memory reward inflation.",
+    "Significant breakthroughs in LLM and deep learning infrastructure, including a high-performance MLIR compiler and specialized RAG testing toolkits, are making AI deployments more efficient and robust.",
+    "Major players like NVIDIA and OpenAI are pushing the frontier with open vision-language-action models for autonomous systems and enhanced price-performance for their latest LLMs, alongside vital new guides for securing AI in production."
   ],
   "agents": [
     {
+      "title": "Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web",
+      "summary": "Y Combinator has open-sourced QM, a multiplayer agent harness providing isolated workspaces and scoped memory within Slack and web environments, allowing flexible deployment without vendor lock-in for various LLMs.",
+      "link": "https://www.marktechpost.com/2026/08/03/y-combinator-open-sources-qm-multiplayer-ai-agent-harness/",
+      "source": "MarkTechPost"
+    },
+    {
       "title": "AutoFOAM: The Self-Refining Autonomous OpenFOAM Agent",
-      "summary": "AutoFOAM is a self-evolving LLM agent that automates complex OpenFOAM Computational Fluid Dynamics (CFD) simulations from natural language instructions, enabling faster prototyping and democratizing advanced CFD workflows.",
+      "summary": "AutoFOAM is a self-evolving LLM agent that automates the creation, evaluation, and evolution of OpenFOAM simulations based solely on natural language instructions, democratizing advanced Computational Fluid Dynamics workflows.",
       "link": "https://arxiv.org/abs/2608.00003",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Memory Reward Inflation in Self-Improving LLM Agents",
-      "summary": "This research identifies and addresses the 'Echo Gap,' a failure mode in self-improving LLM agents where incorrect memories receive inflated rewards, leading to compounding errors. The LUCID algorithm offers an answer-free solution to improve agent accuracy.",
-      "link": "https://arxiv.org/abs/2608.00017",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
-      "summary": "A large-scale analysis of GitHub Copilot traces reveals distinctive workload properties for AI coding agents, providing empirical foundations for designing agent-native infrastructure and improving resource orchestration.",
-      "link": "https://arxiv.org/abs/2608.00101",
-      "source": "arXiv cs.AI"
+      "title": "CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams",
+      "summary": "CopilotKit released Channels SDK, an MIT-licensed library enabling developers to deploy existing AG-UI agents directly into enterprise platforms like Slack and Microsoft Teams with minimal setup and a documented runtime contract.",
+      "link": "https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/",
+      "source": "MarkTechPost"
     }
   ],
   "models": [
     {
-      "title": "Motif-Mamba: network motif improved mamba for long-range sequence modeling",
-      "summary": "Motif-Mamba introduces a structured state space model that enhances Mamba's capabilities for efficient long-range sequence modeling by augmenting it with a motif-constrained low-rank recurrent pathway, improving cross-dimensional communication.",
-      "link": "https://arxiv.org/abs/2608.00027",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Advancing the price-performance frontier with GPT-5.6",
-      "summary": "OpenAI announces lower pricing for GPT-5.6 (Luna and Terra) and highlights its enhanced efficiency, enabling enterprises to deploy AI workflows at scale with improved intelligence per dollar.",
-      "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "source": "OpenAI News"
+      "title": "NVIDIA Releases Alpamayo 2 Super: A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
+      "summary": "NVIDIA's new Alpamayo 2 Super, a 34B open vision-language-action model under a permissive license, offers advanced capabilities for autonomous driving by generating trajectories, causation traces, and grounded VQA from a single pass.",
+      "link": "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving/",
+      "source": "MarkTechPost"
     },
     {
       "title": "Enhancing LLMs with Context-Specific Knowledge for Mitigating Misinformation in SMEs: A RAG-based Modeling and Analysis",
-      "summary": "This paper presents VectorRAG and GraphRAG approaches to mitigate hallucinations and misinformation risks in LLMs used by SMEs, demonstrating significant improvements in response quality for reliable decision-making.",
+      "summary": "This research presents VectorRAG and GraphRAG approaches that significantly reduce hallucinations and misinformation in LLMs for Small and Medium Enterprises (SMEs), demonstrating improved reliability and contextual relevance for business decision-making.",
       "link": "https://arxiv.org/abs/2608.00006",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "Energy Efficiency of Locally Deployed LLMs: A Preliminary Quantitative GPU Power Benchmark on Consumer Hardware",
+      "summary": "A new benchmark quantifies the energy efficiency of locally deployed LLMs on consumer GPUs, revealing that model architecture and quantization strategies significantly impact energy cost per token, vital for sustainable on-premise inference.",
+      "link": "https://arxiv.org/abs/2608.00008",
       "source": "arXiv cs.AI"
     }
   ],
   "tools": [
     {
       "title": "Nova: An End-to-End MLIR Compiler for Deep Learning",
-      "summary": "Nova is a new automated end-to-end JIT compiler for deep learning that achieves absolute control over hardware mapping, enabling aggressive whole-graph optimizations, reduced memory footprint, and performance comparable to cuBLAS and XLA.",
+      "summary": "Nova is an automated end-to-end JIT compiler for deep learning that achieves significant performance boosts and up to 29% memory reduction over PyTorch and XLA, enabling larger model training on consumer GPUs without Out-Of-Memory errors.",
       "link": "https://arxiv.org/abs/2608.00029",
       "source": "arXiv cs.AI"
     },
     {
       "title": "SIRIN: A Unified Toolkit for Detecting Contextual Hallucinations in Retrieval-Augmented and Memory-Grounded LLM Systems",
-      "summary": "SIRIN is a comprehensive toolkit and interactive web UI designed to detect contextual hallucinations in RAG and memory-grounded LLM systems, providing response- and span-level inspection with a lightweight plugin design for new detectors.",
+      "summary": "SIRIN is an interactive web UI and unified toolkit for detecting contextual hallucinations in RAG and agentic LLM systems, consolidating three detector paradigms to provide span-level inspection and faithfulness gating for robust AI applications.",
       "link": "https://arxiv.org/abs/2608.00033",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Request-Level Energy Attribution for Batched LLM Serving",
-      "summary": "JouleShare introduces an attribution framework to accurately measure request-level energy consumption in batched LLM serving, revealing that token-proportional attribution is unreliable and providing a calibrated model for fairer cost accounting.",
-      "link": "https://arxiv.org/abs/2608.00026",
+      "title": "RAG-TESTER: Automated End-to-End Testing of Retrieval-Augmented Large Language Models",
+      "summary": "RagTester is an automated testing framework that generates diverse test cases and evaluates RAG systems end-to-end, effectively exposing failures related to inaccurate retrieval, unsupported answers, and incomplete context usage for robust deployment.",
+      "link": "https://arxiv.org/abs/2608.00054",
       "source": "arXiv cs.AI"
     }
   ],
   "companies": [
     {
-      "title": "Apple is getting this wrong",
-      "summary": "OpenAI publicly addresses Apple's lawsuit, correcting claims about its employees and sharing documented messages, indicating escalating legal and competitive tensions in the AI industry.",
-      "link": "https://openai.com/index/apple-is-getting-this-wrong",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "summary": "OpenAI has shared details on recent third-party cybersecurity evaluation incidents and outlined new safeguards, reinforcing their commitment to strengthening AI model testing and security for safer deployments.",
+      "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
       "source": "OpenAI News"
     },
     {
-      "title": "Building abundant intelligence",
-      "summary": "OpenAI outlines its full-stack strategy to make advanced AI more capable, affordable, and widely useful, covering advancements across models, inference, and agentic workflows to deliver more intelligence per dollar.",
-      "link": "https://openai.com/index/building-abundant-intelligence",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "summary": "OpenAI unveiled GPT-Live, a real-time system enabling continuous, low-latency voice interaction with AI through a turnless speech model and efficient architecture, enhancing natural and responsive conversational experiences.",
+      "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
       "source": "OpenAI News"
     },
     {
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "summary": "Google announces new capabilities for Managed Agents in Gemini API, including 3.6 Flash and hooks, empowering developers to build more reliable and production-ready AI agents.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "source": "Google AI Blog"
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "summary": "OpenAI announced reduced pricing for its GPT-5.6 Luna and Terra models and highlighted model efficiencies, enabling enterprises to deploy AI workflows more affordably and at scale with improved cost-effectiveness.",
+      "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Inside our 353,000-person vibe coding course",
-      "summary": "Google's Kaggle AI Agents Intensive course successfully engaged 353,000 learners in a no-cost program focused on building and deploying the next generation of AI agents, signaling a massive push for developer upskilling.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-      "source": "Google AI Blog"
+      "title": "Building an Advanced AI Skill Security Auditing Pipeline with NVIDIA SkillSpector, LangGraph, YARA Rules, SARIF, and CI Policy Gates",
+      "summary": "This tutorial guides developers through building an end-to-end security assessment pipeline for AI agent skills, covering malicious prompt injection, credential access, risky dependencies, and CI deployment gates using NVIDIA SkillSpector and LangGraph.",
+      "link": "https://www.marktechpost.com/2026/08/04/building-an-advanced-ai-skill-security-auditing-pipeline-with-nvidia-skillspector-langgraph-yara-rules-sarif-and-ci-policy-gates/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-      "summary": "OpenAI is providing free access to its most advanced ChatGPT models for 100,000 academic researchers, aiming to accelerate scientific research, collaboration, and discovery by empowering the academic community.",
-      "link": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "source": "OpenAI News"
+      "title": "How to Secure AI Agents, MCP Servers, and LLM Apps in Production",
+      "summary": "This guide provides a practical framework for securing AI agents, MCP servers, and LLM applications in production, addressing the unique security challenges of generative AI with a five-layer attack surface map, misconfiguration checklist, and runtime guardrails.",
+      "link": "https://www.marktechpost.com/2026/08/03/how-to-secure-ai-agents-mcp-servers-and-llm-apps-in-production/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Ask an AI expert: What exactly is the full stack?",
-      "summary": "A Google AI expert clarifies the concept of 'full-stack AI,' explaining its foundational role in Google's AI strategy and offering valuable insights for anyone seeking to understand the comprehensive approach to AI development.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
-      "source": "Google AI Blog"
+      "title": "Pixel-Native RAG: A Practical Guide to Visual Document Indexing",
+      "summary": "This practical guide introduces PixelRAG, an end-to-end system for visual document indexing that processes web pages and PDFs as images, enabling developers to build high-performance visual RAG systems beyond traditional text parsing.",
+      "link": "https://www.marktechpost.com/2026/08/04/pixel-native-rag-a-practical-guide-to-visual-document-indexing/",
+      "source": "MarkTechPost"
     }
   ]
 }
