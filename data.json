@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-08-05T12:00:00Z",
+  "lastUpdated": "2026-08-06T12:00:00Z",
   "highlights": [
-    "AI agent development is rapidly advancing with new open-source harnesses for enterprise deployment and critical research addressing reliability issues like memory reward inflation.",
-    "Significant breakthroughs in LLM and deep learning infrastructure, including a high-performance MLIR compiler and specialized RAG testing toolkits, are making AI deployments more efficient and robust.",
-    "Major players like NVIDIA and OpenAI are pushing the frontier with open vision-language-action models for autonomous systems and enhanced price-performance for their latest LLMs, alongside vital new guides for securing AI in production."
+    "Agentic AI is rapidly advancing with new open-source harnesses for sub-agents, capabilities for cross-platform skill transfer, and groundbreaking infrastructure for population-scale simulated-user evaluation.",
+    "Frontier model development focuses on both raw intelligence and deployment efficiency, introducing specialized models for autonomous driving, significant performance boosts for Mixture-of-Experts training, and overall price-performance improvements for leading LLMs.",
+    "Security, reliability, and responsible AI practices are becoming paramount, evidenced by transparent disclosures of cyber evaluations and incidents, new verification methodologies for agents, and official responses to high-profile legal challenges."
   ],
   "agents": [
     {
-      "title": "Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web",
-      "summary": "Y Combinator has open-sourced QM, a multiplayer agent harness providing isolated workspaces and scoped memory within Slack and web environments, allowing flexible deployment without vendor lock-in for various LLMs.",
-      "link": "https://www.marktechpost.com/2026/08/03/y-combinator-open-sources-qm-multiplayer-ai-agent-harness/",
+      "title": "Prime Intellect Releases Prime Agent: An Open-Source RLM Harness Where Sub-Agents Are Function Calls Inside Persistent IPython Kernel",
+      "summary": "Prime Intellect open-sourced Prime Agent, an RLM harness transforming sub-agent calls into function calls within a persistent IPython kernel, featuring a Continual Harness for mid-run agent self-editing and achieving 95.5% on ARC-AGI-3.",
+      "link": "https://www.marktechpost.com/2026/08/06/prime-intellect-releases-prime-agent/",
       "source": "MarkTechPost"
     },
     {
-      "title": "AutoFOAM: The Self-Refining Autonomous OpenFOAM Agent",
-      "summary": "AutoFOAM is a self-evolving LLM agent that automates the creation, evaluation, and evolution of OpenFOAM simulations based solely on natural language instructions, democratizing advanced Computational Fluid Dynamics workflows.",
-      "link": "https://arxiv.org/abs/2608.00003",
+      "title": "Microsoft’s SkillOpt Shows Optimized Agent Skill Artifacts Transfer Across Model Scales and Between Codex and Claude Code Harnesses",
+      "summary": "Microsoft's SkillOpt demonstrates optimized agent skill artifacts can transfer effectively across different model scales and code harnesses (Codex to Claude), significantly boosting performance in new environments and highlighting crucial agent skill portability.",
+      "link": "https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "MatrAIx: Simulating the World with 8.3 Billion Persona Agents",
+      "summary": "MatrAIx introduces a population-scale simulated-user evaluation infrastructure, featuring 8.3 billion persona records and diverse environments to test AI systems and digital products with heterogeneous users, capturing varied preferences and behaviors.",
+      "link": "https://arxiv.org/abs/2608.04205",
       "source": "arXiv cs.AI"
-    },
-    {
-      "title": "CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams",
-      "summary": "CopilotKit released Channels SDK, an MIT-licensed library enabling developers to deploy existing AG-UI agents directly into enterprise platforms like Slack and Microsoft Teams with minimal setup and a documented runtime contract.",
-      "link": "https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/",
-      "source": "MarkTechPost"
     }
   ],
   "models": [
     {
       "title": "NVIDIA Releases Alpamayo 2 Super: A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
-      "summary": "NVIDIA's new Alpamayo 2 Super, a 34B open vision-language-action model under a permissive license, offers advanced capabilities for autonomous driving by generating trajectories, causation traces, and grounded VQA from a single pass.",
+      "summary": "NVIDIA released Alpamayo 2 Super, a 34B open Vision-Language-Action model under OpenMDW-1.1, specifically designed for robotaxis and autonomous driving, featuring a 32B Cosmos 3 Super Reasoner backbone and 2.3B diffusion action decoder.",
       "link": "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Enhancing LLMs with Context-Specific Knowledge for Mitigating Misinformation in SMEs: A RAG-based Modeling and Analysis",
-      "summary": "This research presents VectorRAG and GraphRAG approaches that significantly reduce hallucinations and misinformation in LLMs for Small and Medium Enterprises (SMEs), demonstrating improved reliability and contextual relevance for business decision-making.",
-      "link": "https://arxiv.org/abs/2608.00006",
-      "source": "arXiv cs.AI"
+      "title": "Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks",
+      "summary": "Cursor Research open-sourced Mixture-of-Kittens (MoK), a deterministic MoE training megakernel that fuses communication and computation, achieving up to 2.37x faster performance than baselines on GB300 NVL72 racks.",
+      "link": "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Energy Efficiency of Locally Deployed LLMs: A Preliminary Quantitative GPU Power Benchmark on Consumer Hardware",
-      "summary": "A new benchmark quantifies the energy efficiency of locally deployed LLMs on consumer GPUs, revealing that model architecture and quantization strategies significantly impact energy cost per token, vital for sustainable on-premise inference.",
-      "link": "https://arxiv.org/abs/2608.00008",
-      "source": "arXiv cs.AI"
+      "title": "Advancing the price-performance frontier with GPT-5.6 / How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "summary": "OpenAI announces lower pricing for GPT-5.6 (Luna and Terra) and highlights its fusion of frontier intelligence with efficiency across models, inference, and agentic workflows, delivering more useful intelligence per dollar for developers and enterprises.",
+      "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "source": "OpenAI News"
     }
   ],
   "tools": [
     {
-      "title": "Nova: An End-to-End MLIR Compiler for Deep Learning",
-      "summary": "Nova is an automated end-to-end JIT compiler for deep learning that achieves significant performance boosts and up to 29% memory reduction over PyTorch and XLA, enabling larger model training on consumer GPUs without Out-Of-Memory errors.",
-      "link": "https://arxiv.org/abs/2608.00029",
-      "source": "arXiv cs.AI"
+      "title": "CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams",
+      "summary": "CopilotKit open-sourced the Channels SDK, an MIT-licensed library enabling developers to run existing AG-UI agents within Slack and Microsoft Teams, offering five platform adapters for seamless integration and deployment.",
+      "link": "https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "SIRIN: A Unified Toolkit for Detecting Contextual Hallucinations in Retrieval-Augmented and Memory-Grounded LLM Systems",
-      "summary": "SIRIN is an interactive web UI and unified toolkit for detecting contextual hallucinations in RAG and agentic LLM systems, consolidating three detector paradigms to provide span-level inspection and faithfulness gating for robust AI applications.",
-      "link": "https://arxiv.org/abs/2608.00033",
-      "source": "arXiv cs.AI"
+      "title": "Reflex Open Sources XY: A Rust-Backed Super-Fast Python Charting Library That Keeps 100 Million Point Charts Interactive",
+      "summary": "Reflex released XY, an Apache-2.0 Python charting library leveraging Rust and WebGL2 for native-speed rendering, maintaining interactivity for up to 100 million points with minimal render times and exact f64 column preservation.",
+      "link": "https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "RAG-TESTER: Automated End-to-End Testing of Retrieval-Augmented Large Language Models",
-      "summary": "RagTester is an automated testing framework that generates diverse test cases and evaluates RAG systems end-to-end, effectively exposing failures related to inaccurate retrieval, unsupported answers, and incomplete context usage for robust deployment.",
-      "link": "https://arxiv.org/abs/2608.00054",
-      "source": "arXiv cs.AI"
+      "title": "Native-speed vLLM transformers modeling backend",
+      "summary": "A native-speed vLLM transformers modeling backend is introduced, significantly improving the inference performance for large language models by optimizing the underlying computational operations, crucial for efficient deployment.",
+      "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
       "title": "Third-party cyber evaluations involving OpenAI models",
-      "summary": "OpenAI has shared details on recent third-party cybersecurity evaluation incidents and outlined new safeguards, reinforcing their commitment to strengthening AI model testing and security for safer deployments.",
+      "summary": "OpenAI addresses recent third-party cybersecurity evaluation incidents, detailing new safeguards and practices to strengthen the testing and evaluation of its AI models, ensuring robust security and trustworthiness.",
       "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
       "source": "OpenAI News"
     },
     {
-      "title": "How we built a realtime system for responsive voice AI in six months",
-      "summary": "OpenAI unveiled GPT-Live, a real-time system enabling continuous, low-latency voice interaction with AI through a turnless speech model and efficient architecture, enhancing natural and responsive conversational experiences.",
-      "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "title": "Apple is getting this wrong",
+      "summary": "OpenAI publicly responds to Apple's lawsuit, refuting claims about its employees and providing documentation of the events, asserting its position in the high-profile legal dispute.",
+      "link": "https://openai.com/index/apple-is-getting-this-wrong",
       "source": "OpenAI News"
     },
     {
-      "title": "Advancing the price-performance frontier with GPT-5.6",
-      "summary": "OpenAI announced reduced pricing for its GPT-5.6 Luna and Terra models and highlighted model efficiencies, enabling enterprises to deploy AI workflows more affordably and at scale with improved cost-effectiveness.",
-      "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "source": "OpenAI News"
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more (and Expanding Managed Agents in Gemini API)",
+      "summary": "Google announces expanded capabilities for Managed Agents in Gemini API, including Gemini 3.6 Flash integration, new hooks, background tasks, and remote MCP, empowering developers to build even more reliable and production-ready AI agents.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Building an Advanced AI Skill Security Auditing Pipeline with NVIDIA SkillSpector, LangGraph, YARA Rules, SARIF, and CI Policy Gates",
-      "summary": "This tutorial guides developers through building an end-to-end security assessment pipeline for AI agent skills, covering malicious prompt injection, credential access, risky dependencies, and CI deployment gates using NVIDIA SkillSpector and LangGraph.",
-      "link": "https://www.marktechpost.com/2026/08/04/building-an-advanced-ai-skill-security-auditing-pipeline-with-nvidia-skillspector-langgraph-yara-rules-sarif-and-ci-policy-gates/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "How to Secure AI Agents, MCP Servers, and LLM Apps in Production",
-      "summary": "This guide provides a practical framework for securing AI agents, MCP servers, and LLM applications in production, addressing the unique security challenges of generative AI with a five-layer attack surface map, misconfiguration checklist, and runtime guardrails.",
-      "link": "https://www.marktechpost.com/2026/08/03/how-to-secure-ai-agents-mcp-servers-and-llm-apps-in-production/",
+      "title": "End-to-End Bayesian Marketing Mix Modeling with Google Meridian: Media Measurement, ROI Analysis, and Budget Optimization",
+      "summary": "This tutorial outlines building a complete Bayesian marketing mix modeling workflow using Google Meridian, covering data preparation, schema mapping, and ROI-based definition for media measurement and budget optimization.",
+      "link": "https://www.marktechpost.com/2026/08/05/end-to-end-bayesian-marketing-mix-modeling-with-google-meridian-media-measurement-roi-analysis-and-budget-optimization/",
       "source": "MarkTechPost"
     },
     {
       "title": "Pixel-Native RAG: A Practical Guide to Visual Document Indexing",
-      "summary": "This practical guide introduces PixelRAG, an end-to-end system for visual document indexing that processes web pages and PDFs as images, enabling developers to build high-performance visual RAG systems beyond traditional text parsing.",
+      "summary": "This practical guide introduces PixelRAG, an end-to-end system for visual document indexing that processes web pages and PDFs as images, enabling the construction of high-performance, multimodal RAG systems.",
       "link": "https://www.marktechpost.com/2026/08/04/pixel-native-rag-a-practical-guide-to-visual-document-indexing/",
       "source": "MarkTechPost"
+    },
+    {
+      "title": "Inside our 353,000-person vibe coding course",
+      "summary": "Kaggle's 'AI Agents Intensive' with Google successfully engaged 353,000 learners in a free coding course focused on building and deploying cutting-edge AI agents, fostering a large community of AI builders.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "source": "Google AI Blog"
     }
   ]
 }
