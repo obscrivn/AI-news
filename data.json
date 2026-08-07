@@ -1,106 +1,106 @@
 {
-  "lastUpdated": "2026-08-06T12:00:00Z",
+  "lastUpdated": "2026-08-07T12:00:00Z",
   "highlights": [
-    "Agentic AI is rapidly advancing with new open-source harnesses for sub-agents, capabilities for cross-platform skill transfer, and groundbreaking infrastructure for population-scale simulated-user evaluation.",
-    "Frontier model development focuses on both raw intelligence and deployment efficiency, introducing specialized models for autonomous driving, significant performance boosts for Mixture-of-Experts training, and overall price-performance improvements for leading LLMs.",
-    "Security, reliability, and responsible AI practices are becoming paramount, evidenced by transparent disclosures of cyber evaluations and incidents, new verification methodologies for agents, and official responses to high-profile legal challenges."
+    "The AI agent ecosystem is rapidly maturing, with new open-source tools enabling polyglot unit testing and powerful research harnesses, alongside specialized agent-first browsers and advanced frameworks for enterprise application integration.",
+    "The model landscape sees significant advancements in specialized, open-weight models for on-device agentic tasks and autonomous driving, while frontier models like OpenAI's GPT-5.6 receive performance upgrades, wider access, and reduced pricing.",
+    "Enterprise adoption of AI is yielding substantial business impact across various sectors, demonstrated by improved productivity and efficiency, complemented by major platforms enhancing their managed agent APIs for production-ready development."
   ],
   "agents": [
     {
-      "title": "Prime Intellect Releases Prime Agent: An Open-Source RLM Harness Where Sub-Agents Are Function Calls Inside Persistent IPython Kernel",
-      "summary": "Prime Intellect open-sourced Prime Agent, an RLM harness transforming sub-agent calls into function calls within a persistent IPython kernel, featuring a Continual Harness for mid-run agent self-editing and achieving 95.5% on ARC-AGI-3.",
+      "title": "Microsoft Open Sources code-testing-generator: Polyglot Unit-Test Agent",
+      "summary": "Microsoft open-sourced `code-testing-generator`, a polyglot unit-test agent that automatically detects language, test frameworks, and conventions to plan, write, run, and validate tests, achieving 92.1% task completion.",
+      "link": "https://www.marktechpost.com/2026/08/06/microsoft-open-sources-code-testing-generator/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Prime Intellect Releases Prime Agent: Open-Source RLM Harness",
+      "summary": "Prime Intellect open-sourced Prime Agent, a coding and research harness built on a Recursive Language Model and a Continual Harness, allowing sub-agents as functions within a persistent IPython kernel and enabling self-editing agent behavior.",
       "link": "https://www.marktechpost.com/2026/08/06/prime-intellect-releases-prime-agent/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Microsoft’s SkillOpt Shows Optimized Agent Skill Artifacts Transfer Across Model Scales and Between Codex and Claude Code Harnesses",
-      "summary": "Microsoft's SkillOpt demonstrates optimized agent skill artifacts can transfer effectively across different model scales and code harnesses (Codex to Claude), significantly boosting performance in new environments and highlighting crucial agent skill portability.",
-      "link": "https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability/",
+      "title": "Meta AI Releases Muse Code (Beta): Terminal Coding Agent",
+      "summary": "Meta Superintelligence Labs launched Muse Code, a terminal coding agent powered by Muse Spark 1.2, designed for planning, writing, and validating code across large repositories with persistent background agents and replay-exact logging for robust sessions.",
+      "link": "https://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/",
       "source": "MarkTechPost"
-    },
-    {
-      "title": "MatrAIx: Simulating the World with 8.3 Billion Persona Agents",
-      "summary": "MatrAIx introduces a population-scale simulated-user evaluation infrastructure, featuring 8.3 billion persona records and diverse environments to test AI systems and digital products with heterogeneous users, capturing varied preferences and behaviors.",
-      "link": "https://arxiv.org/abs/2608.04205",
-      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "NVIDIA Releases Alpamayo 2 Super: A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
-      "summary": "NVIDIA released Alpamayo 2 Super, a 34B open Vision-Language-Action model under OpenMDW-1.1, specifically designed for robotaxis and autonomous driving, featuring a 32B Cosmos 3 Super Reasoner backbone and 2.3B diffusion action decoder.",
+      "title": "Liquid AI Releases LFM2.5-2.6B: On-Device Agentic Model",
+      "summary": "Liquid AI released LFM2.5-2.6B, an on-device agentic model with 2.69B parameters, 128K context, and tool-calling capabilities, offering open weights in GGUF, MLX, and ONNX formats for efficient local deployment.",
+      "link": "https://www.marktechpost.com/2026/08/06/liquid-ai-lfm2-5-2-6b-on-device-agentic-model/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "NVIDIA Releases Alpamayo 2 Super: 34B Open VLA Model for Autonomous Driving",
+      "summary": "NVIDIA released Alpamayo 2 Super, a 34B open vision-language-action (VLA) model designed for robotaxis and autonomous driving, featuring a 32B reasoner backbone and a 2.3B diffusion action decoder under a permissive license.",
       "link": "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks",
-      "summary": "Cursor Research open-sourced Mixture-of-Kittens (MoK), a deterministic MoE training megakernel that fuses communication and computation, achieving up to 2.37x faster performance than baselines on GB300 NVL72 racks.",
-      "link": "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Advancing the price-performance frontier with GPT-5.6 / How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "summary": "OpenAI announces lower pricing for GPT-5.6 (Luna and Terra) and highlights its fusion of frontier intelligence with efficiency across models, inference, and agentic workflows, delivering more useful intelligence per dollar for developers and enterprises.",
-      "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "title": "Improving GPT‑5.6 Sol in ChatGPT and Expanding Access to GPT-5.6 Luna",
+      "summary": "OpenAI announced improvements to GPT-5.6 Sol within ChatGPT, offering better accuracy and consistency, while also expanding free user access and unlimited daily chats with GPT-5.6 Luna, along with overall lower pricing for GPT-5.6 models.",
+      "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
       "source": "OpenAI News"
     }
   ],
   "tools": [
     {
-      "title": "CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams",
-      "summary": "CopilotKit open-sourced the Channels SDK, an MIT-licensed library enabling developers to run existing AG-UI agents within Slack and Microsoft Teams, offering five platform adapters for seamless integration and deployment.",
+      "title": "Cloudflare Introduces Kitesurf: Agent-First Web Browser in V8 Isolates",
+      "summary": "Cloudflare released Kitesurf, a stateless web browser built for AI agents that runs entirely in V8 isolates on Cloudflare Workers, prioritizing machine-readable content, scalability, and isolation over human-facing features.",
+      "link": "https://www.marktechpost.com/2026/08/06/cloudflare-introduces-kitesurf-an-agent-first-web-browser-that-runs-entirely-in-v8-isolates-on-cloudflare-workers/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "CopilotKit Open Sources Channels SDK for AG-UI Agents in Slack/Teams",
+      "summary": "CopilotKit open-sourced its Channels SDK, an MIT-licensed library enabling any existing AG-UI agent to run directly inside popular communication platforms like Slack and Microsoft Teams via platform adapters.",
       "link": "https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Reflex Open Sources XY: A Rust-Backed Super-Fast Python Charting Library That Keeps 100 Million Point Charts Interactive",
-      "summary": "Reflex released XY, an Apache-2.0 Python charting library leveraging Rust and WebGL2 for native-speed rendering, maintaining interactivity for up to 100 million points with minimal render times and exact f64 column preservation.",
-      "link": "https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Native-speed vLLM transformers modeling backend",
-      "summary": "A native-speed vLLM transformers modeling backend is introduced, significantly improving the inference performance for large language models by optimizing the underlying computational operations, crucial for efficient deployment.",
-      "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-      "source": "Hugging Face Blog"
-    }
-  ],
-  "companies": [
-    {
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "summary": "OpenAI addresses recent third-party cybersecurity evaluation incidents, detailing new safeguards and practices to strengthen the testing and evaluation of its AI models, ensuring robust security and trustworthiness.",
-      "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Apple is getting this wrong",
-      "summary": "OpenAI publicly responds to Apple's lawsuit, refuting claims about its employees and providing documentation of the events, asserting its position in the high-profile legal dispute.",
-      "link": "https://openai.com/index/apple-is-getting-this-wrong",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more (and Expanding Managed Agents in Gemini API)",
-      "summary": "Google announces expanded capabilities for Managed Agents in Gemini API, including Gemini 3.6 Flash integration, new hooks, background tasks, and remote MCP, empowering developers to build even more reliable and production-ready AI agents.",
+      "title": "Gemini API Managed Agents: 3.6 Flash, Hooks, and More for Production-Ready Agents",
+      "summary": "Google is expanding capabilities in Managed Agents for the Gemini API, introducing features like 3.6 Flash and hooks to empower developers in building more reliable and production-ready AI agents for diverse applications.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
       "source": "Google AI Blog"
     }
   ],
+  "companies": [
+    {
+      "title": "HSP GRUPPE Builds AI Capabilities for Tax Advisory with ChatGPT Enterprise",
+      "summary": "HSP GRUPPE leveraged ChatGPT Enterprise to enhance productivity, improve work quality, and create additional capacity for tax advisory and client services, demonstrating significant enterprise adoption of OpenAI technology.",
+      "link": "https://openai.com/index/hsp-gruppe",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Circles Powers Telco Personalization with OpenAI Technology",
+      "summary": "Circles utilized the OpenAI API and Codex to create AI-native telco experiences, achieving notable business outcomes including a 22% increase in ARPU, a 9% reduction in churn, and improved development efficiency.",
+      "link": "https://openai.com/index/circles",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "OpenAI Disrupts a Criminal Scam Operation Using ChatGPT",
+      "summary": "OpenAI successfully disrupted a Cambodia-based criminal scam operation that was exploiting ChatGPT to facilitate investment, romance, gambling, and impersonation schemes, showcasing its commitment to combating malicious AI use.",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "source": "OpenAI News"
+    }
+  ],
   "learning": [
     {
-      "title": "End-to-End Bayesian Marketing Mix Modeling with Google Meridian: Media Measurement, ROI Analysis, and Budget Optimization",
-      "summary": "This tutorial outlines building a complete Bayesian marketing mix modeling workflow using Google Meridian, covering data preparation, schema mapping, and ROI-based definition for media measurement and budget optimization.",
+      "title": "Adaptive Experimentation with Meta’s Ax: A Practical Coding Guide",
+      "summary": "This tutorial offers a practical guide to adaptive experimentation using Meta’s Ax with the modern Client API, detailing a complete workflow for tuning a RandomForest model while balancing predictive accuracy and model footprint.",
+      "link": "https://www.marktechpost.com/2026/08/06/adaptive-experimentation-with-metas-ax-a-practical-coding-guide/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "End-to-End Bayesian Marketing Mix Modeling with Google Meridian: A Tutorial",
+      "summary": "This guide provides a comprehensive tutorial on building an end-to-end Bayesian marketing mix modeling workflow using Google Meridian, covering media measurement, ROI analysis, and budget optimization for practitioners.",
       "link": "https://www.marktechpost.com/2026/08/05/end-to-end-bayesian-marketing-mix-modeling-with-google-meridian-media-measurement-roi-analysis-and-budget-optimization/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Pixel-Native RAG: A Practical Guide to Visual Document Indexing",
-      "summary": "This practical guide introduces PixelRAG, an end-to-end system for visual document indexing that processes web pages and PDFs as images, enabling the construction of high-performance, multimodal RAG systems.",
-      "link": "https://www.marktechpost.com/2026/08/04/pixel-native-rag-a-practical-guide-to-visual-document-indexing/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Inside our 353,000-person vibe coding course",
-      "summary": "Kaggle's 'AI Agents Intensive' with Google successfully engaged 353,000 learners in a free coding course focused on building and deploying cutting-edge AI agents, fostering a large community of AI builders.",
+      "title": "Kaggle’s AI Agents Intensive: Recap of a 353,000-person Coding Course",
+      "summary": "A recap of Kaggle’s large-scale 'AI Agents Intensive' course, co-hosted with Google, which brought over 353,000 learners together in a no-cost program to build and deploy advanced AI agents, highlighting a major global upskilling initiative.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
       "source": "Google AI Blog"
     }
