@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2026-08-08T12:00:00Z",
+  "lastUpdated": "2024-08-09T12:00:00Z",
   "highlights": [
-    "The latest AI news highlights a strong focus on enhancing agent capabilities, with new frameworks and memory systems emerging to simplify development and improve governance.",
-    "Significant model releases include open-weights safety classifiers and on-device agentic models, pushing performance and accessibility boundaries.",
-    "Developer tools are expanding rapidly, offering specialized browsers for agents and advanced APIs for building robust, production-ready AI applications, alongside a focus on foundational research and strategic vision."
+    "The AI agent development ecosystem is rapidly maturing with the release of new open-source frameworks and tools designed for enhanced debugging, memory management, and simplified object-oriented construction of complex agents.",
+    "Significant advancements in large language models include new releases pushing the boundaries of context windows for on-premise deployment, highly efficient open-weights multimodal safety classifiers, and compact agentic models optimized for on-device execution.",
+    "Major AI companies are strategically enhancing their core products and services, demonstrated by OpenAI's improved ChatGPT models and broader access, alongside proactive measures in cybersecurity and disrupting malicious AI use."
   ],
   "agents": [
     {
+      "title": "Meet Shepherd: Open-Source Python Substrate for Meta-Agents",
+      "summary": "Shepherd is an MIT-licensed Python runtime that records agent-environment interactions in a Git-like trace, enabling meta-agents to fork, replay, and revert any agent run, significantly improving debugging and development of complex AI agents.",
+      "link": "https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/",
+      "source": "MarkTechPost"
+    },
+    {
       "title": "NVIDIA AI Releases NOOA: Object-Oriented Python Framework for Agents",
-      "summary": "NVIDIA Labs has open-sourced NOOA, a model-agnostic Python framework that collapses AI agent development into a single Python class, streamlining the creation of actions, state, and prompts.",
+      "summary": "NVIDIA's NOOA (NVIDIA Object-Oriented Agents) is a model-agnostic Python framework that simplifies AI agent development by consolidating prompt templates, tool schemas, callback code, and workflow graphs into a single Python class.",
       "link": "https://www.marktechpost.com/2026/08/07/nvidia-ai-releases-nooa-an-object-oriented-python-framework/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Tencent Cloud Open-Sources TencentDB Agent Memory v2.0",
-      "summary": "Tencent Cloud released TencentDB Agent Memory v2.0, a self-hosted, MIT-licensed team-level memory hub that transforms conversations and code into governed, reusable assets for AI coding agents, enhancing asset visibility and version control.",
-      "link": "https://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Prime Intellect Releases Prime Agent: Open-Source RLM Harness",
-      "summary": "Prime Intellect has open-sourced Prime Agent, a coding and research harness built on a Recursive Language Model (RLM) where sub-agents are function calls within a persistent IPython kernel, allowing agents to edit their own prompts and skills mid-run.",
-      "link": "https://www.marktechpost.com/2026/08/06/prime-intellect-releases-prime-agent/",
+      "title": "Microsoft Open-Sources code-testing-generator: Polyglot Unit-Test Agent",
+      "summary": "Microsoft has open-sourced 'code-testing-generator,' a unit-test agent that intelligently plans, writes, runs, and validates tests across multiple languages and frameworks, achieving 92.1% task completion on internal benchmarks, outperforming stock GitHub Copilot.",
+      "link": "https://www.marktechpost.com/2026/08/06/microsoft-open-sources-code-testing-generator/",
       "source": "MarkTechPost"
     }
   ],
   "models": [
     {
-      "title": "Mistral AI Releases Shieldstral 1.0 3B: Open-Weights Safety Classifier",
-      "summary": "Mistral AI introduced Shieldstral 1.0 3B, an open-weights, policy-adaptive multimodal safety classifier that offers content moderation as a yes/no question, matching models seven times its size in performance while remaining compact for on-device deployment.",
+      "title": "Pokee-Isaac 28B: 10M-Token Context Agentic Model for On-Premise",
+      "summary": "Pokee AI released Pokee-Isaac 28B, a 28B text-only foundation model featuring an unprecedented 10M-token context window designed for secure deployment inside customer boundaries, showcasing superior performance on long-context benchmarks.",
+      "link": "https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Mistral AI Releases Shieldstral 1.0 3B: Open-Weights Multimodal Safety Classifier",
+      "summary": "Mistral AI unveiled Shieldstral 1.0 3B, an open-weights, policy-adaptive multimodal safety classifier that frames content moderation as a flexible, inference-time query, matching performance of models 7x its size while fitting into 16GB VRAM.",
       "link": "https://www.marktechpost.com/2026/08/07/mistral-ai-releases-shieldstral-1-0-3b/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Liquid AI Releases LFM2.5-2.6B: On-Device Agentic Model",
-      "summary": "Liquid AI unveiled LFM2.5-2.6B, an open-weights, agentic model designed for on-device execution, featuring 128K context, tool calling, and multi-step task completion with high decoding speeds in a small memory footprint.",
+      "title": "Liquid AI Releases LFM2.5-2.6B: On-Device Agentic Model with Open Weights",
+      "summary": "Liquid AI introduced LFM2.5-2.6B, a 2.69B parameter agentic model capable of planning, tool calling, and multi-step tasks entirely on-device with a 128K context window, offering open weights in various formats for efficient local AI development.",
       "link": "https://www.marktechpost.com/2026/08/06/liquid-ai-lfm2-5-2-6b-on-device-agentic-model/",
       "source": "MarkTechPost"
-    },
-    {
-      "title": "OpenAI Improves GPT‑5.6 Sol and Expands GPT-5.6 Luna Access",
-      "summary": "OpenAI announced improvements to GPT-5.6 Sol in ChatGPT, enhancing its accuracy and consistency, and expanded access to the powerful GPT-5.6 Luna for all free users, making advanced AI more widely available.",
-      "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "source": "OpenAI News"
     }
   ],
   "tools": [
     {
-      "title": "Cloudflare Introduces Kitesurf: Agent-First Web Browser",
-      "summary": "Cloudflare released Kitesurf, a stateless, agent-first web browser running entirely in V8 Isolates on Cloudflare Workers, optimized for machine-readable content and scalability with significantly lower CPU and memory usage than Chromium.",
-      "link": "https://www.marktechpost.com/2026/08/06/cloudflare-introduces-kitesurf-an-agent-first-web-browser-that-runs-entirely-in-v8-isolates-on-cloudflare-workers/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Google Expands Gemini API Managed Agents with 3.6 Flash, Hooks",
-      "summary": "Google announced new capabilities for Managed Agents in the Gemini API, including support for Gemini 3.6 Flash and custom hooks, enabling developers to build more reliable and production-ready AI agents with enhanced flexibility.",
+      "title": "Gemini API Managed Agents: 3.6 Flash, Hooks, and More",
+      "summary": "Google is expanding its Gemini API with new capabilities for Managed Agents, including Gemini 3.6 Flash support and developer hooks, empowering builders to create more reliable and production-ready AI agents.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
       "source": "Google AI Blog"
     },
     {
-      "title": "OpenAI's Realtime System for Responsive Voice AI (GPT-Live)",
-      "summary": "OpenAI detailed the engineering behind GPT-Live, a real-time system for continuous voice interaction that uses a turnless speech model and low-latency architecture, enabling faster and more natural AI conversations.",
-      "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "source": "OpenAI News"
+      "title": "Tencent Cloud Open-Sources TencentDB Agent Memory v2.0: Team-Level Memory Hub",
+      "summary": "Tencent Cloud open-sourced TencentDB Agent Memory v2.0, an MIT-licensed, self-hosted memory hub for AI coding agents that governs conversations, documents, and code into reusable assets, enhancing collaborative agent development.",
+      "link": "https://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Native-speed vLLM transformers modeling backend",
+      "summary": "Hugging Face announced a native-speed vLLM transformers modeling backend, offering significant inference optimization for transformer models, which enhances deployment efficiency and reduces latency for AI applications.",
+      "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Responds to Critical Cyber Capabilities Frontier",
-      "summary": "OpenAI shared preliminary cybersecurity evaluations for Astra and outlined proactive steps to strengthen safeguards and security controls, addressing the evolving landscape of advanced AI cyber capabilities.",
-      "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "title": "OpenAI Improves GPT-5.6 Sol in ChatGPT and Expands Free Access to GPT-5.6 Luna",
+      "summary": "OpenAI announced improvements to GPT-5.6 Sol within ChatGPT, enhancing accuracy and consistency, while also expanding access to the powerful GPT-5.6 Luna model for free users, broadening advanced AI capabilities.",
+      "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Reports Ten Advances in Math and Theoretical Computer Science",
-      "summary": "OpenAI announced new research results on long-standing open problems in mathematics and theoretical computer science, including advancements in geometry, cryptography, and complexity, showcasing foundational scientific progress.",
-      "link": "https://openai.com/index/ten-advances-in-mathematics",
+      "title": "OpenAI Addresses Apple's Baseless Lawsuit and Claims",
+      "summary": "OpenAI issued a public statement directly addressing Apple's lawsuit, correcting claims about its employees and sharing documented communications to clarify the situation, highlighting a significant legal and competitive development.",
+      "link": "https://openai.com/index/apple-is-getting-this-wrong",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Details 'Building Abundant Intelligence' Strategy",
-      "summary": "OpenAI described its full-stack approach to 'building abundant intelligence,' focusing on making advanced AI more capable, affordable, and widely useful across various applications and societal needs.",
-      "link": "https://openai.com/index/building-abundant-intelligence",
+      "title": "OpenAI Disrupts Criminal Scam Operation Using ChatGPT",
+      "summary": "OpenAI successfully disrupted a Cambodia-based scam operation that exploited ChatGPT for various malicious schemes including investment, romance, gambling, and impersonation, demonstrating proactive measures against AI misuse.",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Google's 353,000-Person AI Agents Intensive Course Recap",
-      "summary": "Google recapped its highly successful, no-cost AI Agents Intensive on Kaggle, which empowered 353,000 learners to build and deploy the next generation of AI agents, highlighting a massive global upskilling effort.",
+      "title": "Google's AI Agents Intensive: 353,000-Person Coding Course Recap",
+      "summary": "Google highlighted the success of its free Kaggle AI Agents Intensive, a massive course that equipped 353,000 learners to build and deploy advanced AI agents, fostering a new wave of AI development skills.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
       "source": "Google AI Blog"
     },
     {
-      "title": "Designing Scalable Interactive Visualizations with Reflex XY",
-      "summary": "A comprehensive tutorial guides through using the Reflex XY Python library to build high-performance, interactive charts capable of handling million-point datasets, real-time streaming, and creating custom visual plugins.",
-      "link": "https://www.marktechpost.com/2026/08/08/designing-scalable-interactive-visualizations-with-reflex-xy-composition-million-point-rendering-streaming-custom-marks-and-export/",
+      "title": "Building a Multimodal RAG Pipeline with NVIDIA NeMo Retriever",
+      "summary": "This tutorial guides developers through constructing an advanced multimodal retrieval-augmented generation (RAG) pipeline using NVIDIA NeMo Retriever, covering environment setup, PDF extraction, hosted NIMs, reranking, and grounded generation.",
+      "link": "https://www.marktechpost.com/2026/08/07/building-a-multimodal-rag-pipeline-with-nvidia-nemo-retriever-hosted-nims-lancedb-reranking-and-grounded-generation/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Building a Multimodal RAG Pipeline with NVIDIA NeMo Retriever",
-      "summary": "This tutorial details constructing an advanced multimodal retrieval-augmented generation (RAG) pipeline using NVIDIA NeMo Retriever, hosted NIMs, LanceDB, and grounded generation techniques for enhanced AI applications.",
-      "link": "https://www.marktechpost.com/2026/08/07/building-a-multimodal-rag-pipeline-with-nvidia-nemo-retriever-hosted-nims-lancedb-reranking-and-grounded-generation/",
+      "title": "IMDb Sentiment Analysis with DistilBERT LoRA and TF-IDF Baselines",
+      "summary": "This comprehensive tutorial provides a guide to building a robust sentiment analysis workflow, combining classical TF-IDF baselines with modern DistilBERT + LoRA techniques, focusing on interpretability, calibration, robustness, and semi-supervised learning.",
+      "link": "https://www.marktechpost.com/2026/08/09/imdb-sentiment-analysis-with-distilbert-lora-tf-idf-baselines-calibration-interpretability-robustness-testing-and-semi-supervised-learning/",
       "source": "MarkTechPost"
     }
   ]
