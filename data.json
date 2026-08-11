@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2026-08-10T00:00:00Z",
+  "lastUpdated": "2026-08-11T09:23:45Z",
   "highlights": [
-    "The AI landscape is experiencing rapid advancements in real-time, multimodal interaction, with new full-duplex LLMs from ByteDance and NVIDIA enabling more natural and interactive human-AI communication.",
-    "The AI agent ecosystem is maturing significantly, marked by the release of open-source frameworks for agent development lifecycle management, automated design, and robust memory solutions, empowering builders to create more reliable and sophisticated agents.",
-    "Major players like OpenAI and Google are not only enhancing their flagship models with improved performance and expanded access but also rolling out robust developer tools and platforms, streamlining the creation and deployment of production-ready AI solutions."
+    "The AI landscape is seeing a surge in highly efficient, open-source agentic and multimodal models, now capable of running on consumer-grade hardware and enabling real-time, full-duplex interactions.",
+    "Major platforms like Google and OpenAI are enhancing their developer tools with advanced API capabilities for building robust agents and offering new specialized models, particularly in cybersecurity and enterprise applications.",
+    "The community-driven learning and open-source initiatives are accelerating, with massive online courses on AI agents and critical advancements in tools for managing, observing, and efficiently training large language models."
   ],
   "agents": [
     {
-      "title": "Meet Shepherd: An Open-Source Python Substrate for Agent Development",
-      "summary": "Shepherd is an MIT-licensed Python runtime that records agent-environment interactions as Git-like execution traces, allowing meta-agents to fork, replay, and revert runs, accelerating agent development and debugging by up to 5x.",
+      "title": "Meta AI Releases Muse Glimmer: 30B Open-Weights Agentic Model for Consumer GPUs",
+      "summary": "Meta's Muse Glimmer is a 30B open-weights agentic model, available under Apache 2.0, designed to fit 24 GB VRAM on a single consumer GPU and decode 3.1x faster with DFlash speculation, significantly boosting accessibility for local agent development.",
+      "link": "https://www.marktechpost.com/2026/08/10/meta-ai-releases-muse-glimmer/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Shepherd: Open-Source Python Substrate for Meta-Agent Management",
+      "summary": "Shepherd is an MIT-licensed Python runtime substrate that allows meta-agents to fork, replay, and revert any agent run by recording every interaction in a Git-like execution trace, addressing challenges in debugging and auditing complex agent behaviors.",
       "link": "https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/",
       "source": "MarkTechPost"
     },
     {
-      "title": "ADIAS: Automated Design Framework for Interactive Agentic Systems",
-      "summary": "ADIAS is a new framework that streamlines agent design through issue-centric optimization, maintaining persistent issue states to guide focused full-code modifications, outperforming baselines by 25.2% on interactive benchmarks.",
-      "link": "https://arxiv.org/abs/2608.06410",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Shape Your Feed (SYF): LLM-based Agentic System for Conversational Recommendation",
-      "summary": "SYF is a three-tier LLM-based agentic framework that enables real-time, multimodal co-curation of content in industrial recommendation systems, allowing users to explicitly steer their feeds and improving relevance.",
-      "link": "https://arxiv.org/abs/2608.06632",
-      "source": "arXiv cs.AI"
+      "title": "Gemini API Managed Agents Expanded with 3.6 Flash, Hooks, and Background Tasks",
+      "summary": "Google has significantly enhanced its Gemini API Managed Agents with new capabilities like 3.6 Flash support, hooks, background tasks, and remote MCP, enabling developers to build more reliable and production-ready AI agents.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "source": "Google AI Blog"
     }
   ],
   "models": [
     {
-      "title": "ByteDance SeedRealtime: Native Audio-Visual Full-Duplex LLM for Omni-Modal Interaction",
-      "summary": "SeedRealtime by ByteDance fuses audio, video, and text in a single architecture, enabling real-time, continuous multimodal interaction, a significant step towards truly omni-modal AI.",
+      "title": "ByteDance Seed Introduces SeedRealtime: Native Audio-Visual Full-Duplex LLM",
+      "summary": "ByteDance's SeedRealtime is a groundbreaking native audio-visual full-duplex LLM that fuses audio, video, and text in a single architecture, enabling real-time, continuous multimodal interaction as a step towards omni-modal AI.",
       "link": "https://www.marktechpost.com/2026/08/09/bytedance-seed-introduces-seedrealtime-a-native-audio-visual-full-duplex-llm-that-watches-listens-and-speaks-in-one-model/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Meta Releases Muse Glimmer: Local, Agentic, Multimodal, Open-Source Model",
-      "summary": "Meta's Muse Glimmer is a new open-source, agentic, and multimodal model designed for local deployment, empowering developers to build highly capable and private AI applications.",
-      "link": "https://huggingface.co/blog/muse-glimmer",
-      "source": "Hugging Face Blog"
+      "title": "NVIDIA Releases NemotronLabs VoiceChat 11B: Open Full-Duplex Speech-to-Speech Model",
+      "summary": "NVIDIA has released NemotronLabs VoiceChat 11B, an open full-duplex speech-to-speech model featuring ~450 ms turn-taking latency and live tool calling, making it ideal for building highly responsive conversational AI applications.",
+      "link": "https://www.marktechpost.com/2026/08/09/nvidia-releases-nemotronlabs-voicechat-11b-an-open-full-duplex-speech-to-speech-model-with-450-ms-turn-taking-and-live-tool-calling/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Mistral AI Releases Shieldstral 1.0 3B: Open-Weights Policy-Adaptive Multimodal Safety Classifier",
-      "summary": "Mistral AI's Shieldstral 1.0 3B is an open-weights, multimodal safety classifier that allows operators to define content moderation policies via plain-language queries at inference time, matching larger models in performance.",
-      "link": "https://www.marktechpost.com/2026/08/07/mistral-ai-releases-shieldstral-1-0-3b/",
+      "title": "webAI Releases TwIL-LM: Formal-Logic Models for Autoformalization on Local Hardware",
+      "summary": "webAI's TwIL-LM is a new family of 1.7B and 3B formal-logic models designed for autoformalization, translating English into first-order logic and running efficiently on local hardware (CPU or 4GB VRAM), making advanced logical reasoning more accessible.",
+      "link": "https://www.marktechpost.com/2026/08/10/webai-releases-twil-lm-a-1-7b-and-3b-formal-logic-model-family-for-autoformalization-on-local-hardware/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Tencent Cloud Open-Sources TencentDB Agent Memory v2.0 for AI Coding Agents",
-      "summary": "TencentDB Agent Memory v2.0 is an MIT-licensed, self-hosted memory hub for AI coding agents, organizing conversations, documents, and code into governed assets with ACL-based visibility and version control.",
-      "link": "https://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Comprehensive Comparison of Top LLM Observability and Evaluation Platforms in 2026",
-      "summary": "A detailed comparison of leading LLM observability and evaluation platforms, including Langfuse, LangSmith, Braintrust, and Arize, provides builders with critical insights into tracing, evaluation, monitoring, and pricing for production-grade LLMs.",
+      "title": "Top LLM Observability and Evaluation Platforms in 2026 Reviewed",
+      "summary": "A comprehensive 2026 comparison of leading LLM observability and evaluation platforms including Langfuse, LangSmith, Braintrust, and Arize, providing critical insights for deep tracing, evaluation, and production monitoring of AI applications.",
       "link": "https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Google Expands Gemini API Managed Agents with 3.6 Flash and Hooks",
-      "summary": "Google's Gemini API Managed Agents now offer new capabilities, including 3.6 Flash and hooks, empowering developers to build more reliable and production-ready AI agents for diverse applications.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "title": "Data-Centric Parallel (DCP) for Efficient Variable Long Sequence Training",
+      "summary": "Data-Centric Parallel (DCP) introduces a novel approach to distributed deep learning, dynamically adjusting runtime settings based on sequence length to achieve up to 2.88x speedup for training models on variable long sequences with minimal code changes.",
+      "link": "https://arxiv.org/abs/2608.07524",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "Google Vids Updates Introduce Gemini Omni and Personal Avatars for Video Creation",
+      "summary": "Google Vids now includes Gemini Omni and personal avatars, making AI-powered video creation significantly easier by simplifying the process of generating, editing, and starring in professional-quality videos.",
+      "link": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
       "source": "Google AI Blog"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Improves GPT-5.6 Sol and Expands GPT-5.6 Luna Access for Free Users",
-      "summary": "OpenAI has enhanced GPT-5.6 Sol with better accuracy and consistency within ChatGPT, while also expanding access to the advanced GPT-5.6 Luna model for all free users, increasing accessibility to powerful AI.",
+      "title": "OpenAI Introduces GPT-5.6-Cyber for Cyber Defense via Daybreak Red",
+      "summary": "OpenAI has launched GPT-5.6-Cyber, a specialized frontier model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing, expanding critical AI capabilities for cyber defense.",
+      "link": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "OpenAI Improves GPT-5.6 Sol and Expands Free Access to GPT-5.6 Luna",
+      "summary": "ChatGPT now features an improved GPT-5.6 Sol with enhanced accuracy and consistency, alongside expanded access to GPT-5.6 Luna, offering free users unlimited everyday chats and significant performance boosts for paid subscribers.",
       "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Details Engineering Behind Real-Time, Responsive Voice AI (GPT-Live)",
-      "summary": "OpenAI shares insights into the development of GPT-Live, a real-time system for continuous voice interaction, showcasing a turnless speech model and low-latency architecture that enables faster and more natural AI conversations.",
-      "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Meta Launches Muse Glimmer: Local, Agentic, Multimodal, Open-Source Model",
-      "summary": "Meta's release of Muse Glimmer signifies a strong push into open-source, locally deployable, agentic, and multimodal AI, empowering developers and researchers with advanced capabilities outside of proprietary ecosystems.",
-      "link": "https://huggingface.co/blog/muse-glimmer",
-      "source": "Hugging Face Blog"
+      "title": "Google Enhances Marketing Workflows with New AI Tools in Ads & Analytics",
+      "summary": "Google is evolving marketing strategies with new AI and agentic experiences across Google Ads and Google Analytics, designed to simplify workflows, automate tasks, and provide deeper insights for businesses.",
+      "link": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Kaggle’s AI Agents Intensive: A Massive Free Coding Course by Google",
-      "summary": "Google and Kaggle successfully launched a no-cost 'AI Agents Intensive' coding course, attracting 353,000 learners to build and deploy AI agents, significantly advancing global AI upskilling.",
+      "title": "Kaggle’s AI Agents Intensive: A 353,000-Person Coding Course Recap",
+      "summary": "Google and Kaggle's AI Agents Intensive successfully brought over 350,000 learners together in a no-cost course focused on building and deploying the next generation of AI agents, highlighting a massive global upskilling effort.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
       "source": "Google AI Blog"
     },
     {
-      "title": "Tutorial: Building Multimodal RAG Pipeline with NVIDIA NeMo Retriever",
-      "summary": "This tutorial provides a comprehensive guide to constructing an advanced multimodal Retrieval-Augmented Generation (RAG) pipeline, leveraging NVIDIA NeMo Retriever, hosted NIMs, and LanceDB for robust AI applications.",
-      "link": "https://www.marktechpost.com/2026/08/07/building-a-multimodal-rag-pipeline-with-nvidia-nemo-retriever-hosted-nims-lancedb-reranking-and-grounded-generation/",
-      "source": "MarkTechPost"
+      "title": "OpenAI Introduces New Education Plugins for ChatGPT Work and Codex",
+      "summary": "OpenAI has released new education plugins for ChatGPT Work and Codex, providing K–12 teachers, college educators, and students with advanced tools for learning, teaching, research, and building, fostering AI-powered educational innovation.",
+      "link": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "source": "OpenAI News"
     },
     {
-      "title": "Tutorial: Robust Sentiment Analysis with DistilBERT LoRA and Semi-Supervised Learning",
-      "summary": "This comprehensive tutorial guides users through building a robust sentiment analysis workflow, combining classical TF-IDF with modern parameter-efficient fine-tuning (DistilBERT + LoRA) for scalable and interpretable sentiment inference.",
-      "link": "https://www.marktechpost.com/2026/08/09/imdb-sentiment-analysis-with-distilbert-lora-tf-idf-baselines-calibration-interpretability-robustness-testing-and-semi-supervised-learning/",
+      "title": "Guide: Implementing a MiniMax-H3 Multimodal Video and Audio Generation Pipeline",
+      "summary": "This comprehensive guide demonstrates how to implement a programmable MiniMax-H3 multimodal generation pipeline using ComfyUI as a headless backend, covering hardware profiling, model downloading, graph construction, and joint video-audio decoding for builders.",
+      "link": "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis/",
       "source": "MarkTechPost"
     }
   ]
