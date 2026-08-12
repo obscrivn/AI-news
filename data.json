@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-08-11T09:23:45Z",
+  "lastUpdated": "2024-05-15T12:00:00Z",
   "highlights": [
-    "The AI landscape is seeing a surge in highly efficient, open-source agentic and multimodal models, now capable of running on consumer-grade hardware and enabling real-time, full-duplex interactions.",
-    "Major platforms like Google and OpenAI are enhancing their developer tools with advanced API capabilities for building robust agents and offering new specialized models, particularly in cybersecurity and enterprise applications.",
-    "The community-driven learning and open-source initiatives are accelerating, with massive online courses on AI agents and critical advancements in tools for managing, observing, and efficiently training large language models."
+    "Open-source AI models are pushing frontiers in agentic and multimodal capabilities, with NVIDIA releasing an open 30B MoE for agent execution and Meta introducing a 30B agentic model deployable on consumer GPUs.",
+    "Real-time, multimodal AI agents are advancing rapidly, exemplified by ByteDance's omni-modal LLM for continuous interaction and Google's AMIE demonstrating real-time clinical video consultations.",
+    "Tools for LLM observability, efficient training, and robust evaluation are maturing, crucial for developers to deploy reliable and cost-effective AI systems in production environments."
   ],
   "agents": [
     {
-      "title": "Meta AI Releases Muse Glimmer: 30B Open-Weights Agentic Model for Consumer GPUs",
-      "summary": "Meta's Muse Glimmer is a 30B open-weights agentic model, available under Apache 2.0, designed to fit 24 GB VRAM on a single consumer GPU and decode 3.1x faster with DFlash speculation, significantly boosting accessibility for local agent development.",
-      "link": "https://www.marktechpost.com/2026/08/10/meta-ai-releases-muse-glimmer/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Shepherd: Open-Source Python Substrate for Meta-Agent Management",
-      "summary": "Shepherd is an MIT-licensed Python runtime substrate that allows meta-agents to fork, replay, and revert any agent run by recording every interaction in a Git-like execution trace, addressing challenges in debugging and auditing complex agent behaviors.",
-      "link": "https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Gemini API Managed Agents Expanded with 3.6 Flash, Hooks, and Background Tasks",
-      "summary": "Google has significantly enhanced its Gemini API Managed Agents with new capabilities like 3.6 Flash support, hooks, background tasks, and remote MCP, enabling developers to build more reliable and production-ready AI agents.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "title": "Google's AMIE Medical AI System Demonstrates Real-Time Video Consultations",
+      "summary": "Google's AMIE, a research medical AI system, achieved a significant milestone by demonstrating real-time clinical video consultation capabilities in a simulated setting, showcasing advanced diagnostic and interactive potential for healthcare AI.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
       "source": "Google AI Blog"
+    },
+    {
+      "title": "LLM Agents Master Negotiation with Private Information in Supply Chains",
+      "summary": "New research benchmarks LLM agents in complex supply chain negotiations with private information, revealing high value creation and predictable surplus division, while also establishing an equilibrium-referenced audit for their reliability and economic impact in autonomous procurement.",
+      "link": "https://arxiv.org/abs/2608.07538",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "CMU-Drive Introduces Benchmark and V2V-VLA Model for Cooperative Autonomous Driving",
+      "summary": "CMU-Drive launches a closed-loop, end-to-end benchmark for cooperative multi-agent autonomous driving and proposes V2V-VLA models to integrate cooperative perception, reasoning, and planning, establishing a new foundation for future research in multi-agent CAVs.",
+      "link": "https://arxiv.org/abs/2608.07621",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "ByteDance Seed Introduces SeedRealtime: Native Audio-Visual Full-Duplex LLM",
-      "summary": "ByteDance's SeedRealtime is a groundbreaking native audio-visual full-duplex LLM that fuses audio, video, and text in a single architecture, enabling real-time, continuous multimodal interaction as a step towards omni-modal AI.",
+      "title": "NVIDIA Releases Nemotron 3.5 Lightning, a 30B Open MoE for Agent Execution",
+      "summary": "NVIDIA AI unveils Nemotron 3.5 Lightning, an open 30B MoE with 3B active parameters, specifically targeting the agent execution layer, complemented by the NeMo Switchyard Model Router to optimize model selection at each step.",
+      "link": "https://www.marktechpost.com/2026/08/11/nvidia-ai-releases-nemotron-3-5-lightning-and-nemo-switchyard/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Meta AI Launches Muse Glimmer: A 30B Open-Weights Agentic Model for Consumer GPUs",
+      "summary": "Meta AI releases Muse Glimmer, a 30B open-weights agentic model designed to run efficiently on a single consumer GPU (24 GB VRAM), delivering 3.1x faster decoding with DFlash speculation and available under Apache 2.0.",
+      "link": "https://www.marktechpost.com/2026/08/10/meta-ai-releases-muse-glimmer/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "ByteDance Seed Introduces SeedRealtime: A Native Audio-Visual Full-Duplex LLM",
+      "summary": "ByteDance's Seed team introduces SeedRealtime, a groundbreaking native audio-visual full-duplex LLM that unifies audio, video, and text in a single architecture, enabling real-time, continuous multimodal interaction toward omni-modal AI.",
       "link": "https://www.marktechpost.com/2026/08/09/bytedance-seed-introduces-seedrealtime-a-native-audio-visual-full-duplex-llm-that-watches-listens-and-speaks-in-one-model/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "NVIDIA Releases NemotronLabs VoiceChat 11B: Open Full-Duplex Speech-to-Speech Model",
-      "summary": "NVIDIA has released NemotronLabs VoiceChat 11B, an open full-duplex speech-to-speech model featuring ~450 ms turn-taking latency and live tool calling, making it ideal for building highly responsive conversational AI applications.",
-      "link": "https://www.marktechpost.com/2026/08/09/nvidia-releases-nemotronlabs-voicechat-11b-an-open-full-duplex-speech-to-speech-model-with-450-ms-turn-taking-and-live-tool-calling/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "webAI Releases TwIL-LM: Formal-Logic Models for Autoformalization on Local Hardware",
-      "summary": "webAI's TwIL-LM is a new family of 1.7B and 3B formal-logic models designed for autoformalization, translating English into first-order logic and running efficiently on local hardware (CPU or 4GB VRAM), making advanced logical reasoning more accessible.",
-      "link": "https://www.marktechpost.com/2026/08/10/webai-releases-twil-lm-a-1-7b-and-3b-formal-logic-model-family-for-autoformalization-on-local-hardware/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Top LLM Observability and Evaluation Platforms in 2026 Reviewed",
-      "summary": "A comprehensive 2026 comparison of leading LLM observability and evaluation platforms including Langfuse, LangSmith, Braintrust, and Arize, providing critical insights for deep tracing, evaluation, and production monitoring of AI applications.",
+      "title": "MarkTechPost Compares Top LLM Observability and Evaluation Platforms of 2026",
+      "summary": "A verified 2026 comparison reviews leading LLM observability and evaluation platforms like Langfuse, LangSmith, Braintrust, and Arize, detailing tracing depth, evaluation capabilities, production monitoring, and pricing for developers building robust LLM applications.",
       "link": "https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Data-Centric Parallel (DCP) for Efficient Variable Long Sequence Training",
-      "summary": "Data-Centric Parallel (DCP) introduces a novel approach to distributed deep learning, dynamically adjusting runtime settings based on sequence length to achieve up to 2.88x speedup for training models on variable long sequences with minimal code changes.",
+      "title": "Data-Centric Parallel (DCP) Accelerates Training for Variable Long Sequences",
+      "summary": "Data-Centric Parallel (DCP) is introduced as a new method to dynamically adjust runtime settings based on batch sequence length, achieving up to 2.88x speedup on H200 GPUs and simplifying the training of deep learning models on variable long sequences with minimal code changes.",
       "link": "https://arxiv.org/abs/2608.07524",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Google Vids Updates Introduce Gemini Omni and Personal Avatars for Video Creation",
-      "summary": "Google Vids now includes Gemini Omni and personal avatars, making AI-powered video creation significantly easier by simplifying the process of generating, editing, and starring in professional-quality videos.",
-      "link": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-      "source": "Google AI Blog"
+      "title": "TeXFix-Bench: A Multi-Format Benchmark for LLM-Based Document Source Repair",
+      "summary": "TeXFix-Bench is released as an empirically grounded, multi-format benchmark for evaluating LLM-based document source repair across LaTeX, Typst, and Markdown, based on a mined fault taxonomy and highlighting that compile success alone overstates repair quality.",
+      "link": "https://arxiv.org/abs/2608.07617",
+      "source": "arXiv cs.AI"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Introduces GPT-5.6-Cyber for Cyber Defense via Daybreak Red",
-      "summary": "OpenAI has launched GPT-5.6-Cyber, a specialized frontier model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing, expanding critical AI capabilities for cyber defense.",
-      "link": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "title": "OpenAI Daybreak Models Now Available on AWS for Enterprise Cybersecurity",
+      "summary": "OpenAI's Daybreak cybersecurity capabilities, including GPT-5.6-Cyber for authorized vulnerability research, are now available through Amazon Bedrock, expanding access to frontier cyber models for enterprise security workflows via AWS.",
+      "link": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Improves GPT-5.6 Sol and Expands Free Access to GPT-5.6 Luna",
-      "summary": "ChatGPT now features an improved GPT-5.6 Sol with enhanced accuracy and consistency, alongside expanded access to GPT-5.6 Luna, offering free users unlimited everyday chats and significant performance boosts for paid subscribers.",
+      "title": "OpenAI Report Reveals How Enterprises Adopt Agentic AI for Execution",
+      "summary": "OpenAI research provides insights into how enterprises are transitioning from AI assistance to execution, actively adopting agentic AI with ChatGPT and Codex to drive operational transformation, with frontier firms leading AI adoption.",
+      "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "OpenAI Improves GPT-5.6 Sol in ChatGPT and Expands Luna Access for Free Users",
+      "summary": "ChatGPT introduces an improved GPT-5.6 Sol with enhanced accuracy and consistency for paid users, alongside expanded access to GPT-5.6 Luna for free users, offering unlimited everyday chats and broadening advanced AI capabilities to a wider audience.",
       "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
       "source": "OpenAI News"
-    },
-    {
-      "title": "Google Enhances Marketing Workflows with New AI Tools in Ads & Analytics",
-      "summary": "Google is evolving marketing strategies with new AI and agentic experiences across Google Ads and Google Analytics, designed to simplify workflows, automate tasks, and provide deeper insights for businesses.",
-      "link": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
-      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Kaggle’s AI Agents Intensive: A 353,000-Person Coding Course Recap",
-      "summary": "Google and Kaggle's AI Agents Intensive successfully brought over 350,000 learners together in a no-cost course focused on building and deploying the next generation of AI agents, highlighting a massive global upskilling effort.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-      "source": "Google AI Blog"
+      "title": "Tutorial: Building a Quantitative Trading Strategy with OctoBot and Backtesting",
+      "summary": "A comprehensive tutorial guides users through building and validating a complete quantitative trading strategy using OctoBot and OctoBot-Script, covering rule-based strategy configuration, walk-forward backtesting, parameter optimization, and interactive analysis.",
+      "link": "https://www.marktechpost.com/2026/08/11/building-and-validating-a-quantitative-trading-strategy-with-octobot-walk-forward-backtesting-parameter-optimization-and-interactive-analysis/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "OpenAI Introduces New Education Plugins for ChatGPT Work and Codex",
-      "summary": "OpenAI has released new education plugins for ChatGPT Work and Codex, providing K–12 teachers, college educators, and students with advanced tools for learning, teaching, research, and building, fostering AI-powered educational innovation.",
-      "link": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Guide: Implementing a MiniMax-H3 Multimodal Video and Audio Generation Pipeline",
-      "summary": "This comprehensive guide demonstrates how to implement a programmable MiniMax-H3 multimodal generation pipeline using ComfyUI as a headless backend, covering hardware profiling, model downloading, graph construction, and joint video-audio decoding for builders.",
+      "title": "Guide: Implementing a Multimodal Video and Audio Generation Pipeline with ComfyUI APIs",
+      "summary": "This guide demonstrates how to implement a complete, programmable MiniMax-H3 multimodal generation pipeline leveraging ComfyUI as a headless backend, detailing setup for automated inference, hardware profiling, dynamic graph construction, and joint video-audio decoding.",
       "link": "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis/",
       "source": "MarkTechPost"
+    },
+    {
+      "title": "Google and Kaggle Host 353,000-Person AI Agents Intensive Course",
+      "summary": "Google and Kaggle collaborated to host a massive 'AI Agents Intensive' no-cost coding course, bringing together 353,000 learners to build and deploy the next generation of AI agents, providing a significant global upskilling opportunity.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "source": "Google AI Blog"
     }
   ]
 }
