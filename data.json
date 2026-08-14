@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-08-13T12:00:00Z",
+  "lastUpdated": "2026-08-14T12:00:00Z",
   "highlights": [
-    "AI agent systems are rapidly maturing, with new frameworks for dynamic governance and memory-augmented lifelong learning demonstrating significant improvements in collaborative outcomes and scientific applications.",
-    "Frontier models continue to push boundaries, featuring advancements such as 500K context LLMs, human-video-trained world-action models, and specialized open-weight models optimized for local deployment in diverse applications like video generation.",
-    "Major AI companies are expanding enterprise offerings for agentic AI and cybersecurity, alongside new monetization strategies and significant efforts in providing developer tools and large-scale educational opportunities to accelerate AI adoption and building."
+    "Agentic AI systems are rapidly evolving, with new frameworks enabling more governable multi-LLM collaborations and cost-effective simulation of large agent societies.",
+    "Frontier models are pushing boundaries with significant performance gains, specialized applications for critical domains like cybersecurity, and new open-source multimodal releases.",
+    "The ecosystem for AI builders is expanding with integrated development platforms for agents, advanced prompt optimization techniques, and broader cloud availability of frontier models."
   ],
   "agents": [
     {
       "title": "Dynamic Governance of Multi-LLM Agent Systems",
-      "summary": "This paper introduces an Experience Orchestrator (EO), a control-theoretic governance layer that significantly improves collaborative conversational outcomes in multi-LLM agent systems, achieving a 32 percentage point lift in high-intent advisor contact rates in simulations.",
+      "summary": "This research introduces the Experience Orchestrator (EO), a control-theoretic governance layer that significantly improves collaborative outcomes in multi-LLM agent systems by providing a missing shared goal function, enabling more effective visitor guidance in simulated financial services.",
       "link": "https://arxiv.org/abs/2608.11207",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "P&ID Pilot: LLM-driven Automation for Process Diagram Engineering",
-      "summary": "Introduces P&ID Pilot, an end-to-end AI pipeline coupling GA/LLM-driven synthesis with an LLM-based transformation agent to automate process flow diagram creation and conversion to validated piping and instrumentation diagrams, significantly reducing manual engineering effort.",
-      "link": "https://arxiv.org/abs/2608.11220",
+      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
+      "summary": "This paper presents a method to simulate large LLM-agent societies affordably on a laptop by replacing full LLM agents with low-parameter models fitted from cheaper queries, making large-scale agent research and development accessible without extensive compute resources.",
+      "link": "https://arxiv.org/abs/2608.11215",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
-      "summary": "This paper presents a method to cost-effectively simulate large LLM-agent societies on a laptop by replacing individual LLM agents with low-parameter surrogate models, enabling scalable research into macroscopic phase behaviors and scaling trends.",
-      "link": "https://arxiv.org/abs/2608.11215",
+      "title": "LLMs in Process Diagram Engineering: From Optimal PFDs to Validated P&IDs",
+      "summary": "P&ID Pilot is introduced as an end-to-end AI pipeline combining genetic algorithms and LLMs to automate the creation and validation of process flow and piping and instrumentation diagrams, enabling significant reductions in manual engineering effort for industrial design.",
+      "link": "https://arxiv.org/abs/2608.11220",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "SpaceXAI Releases Grok 4.6: 500K-Context Frontier Model for Agents & Knowledge Work",
-      "summary": "SpaceXAI launched Grok 4.6, a post-training upgrade with 500K context, a new xhigh reasoning level, and performance tying GPT-5.6 Sol Max on the AI Index, maintaining competitive pricing for long-running agents and knowledge work.",
-      "link": "https://www.marktechpost.com/2026/08/12/spacexai-releases-grok-4-6/",
-      "source": "MarkTechPost"
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "summary": "OpenAI is previewing \"Ultrafast\" mode for GPT-5.6 Sol, offering up to 14 times faster generation speeds (750 output tokens/second) powered by Cerebras, enabling developers to build highly responsive AI applications.",
+      "link": "https://openai.com/index/previewing-ultrafast",
+      "source": "OpenAI News"
     },
     {
-      "title": "Dyna-2: World-Action Model Pre-Trained on 1 Million Hours of Human Video",
-      "summary": "Dyna Robotics released Dyna-2, a world-action model pre-trained on over one million hours of egocentric human video, establishing scaling laws and demonstrating significant cross-embodiment generalization for robotic applications.",
-      "link": "https://www.marktechpost.com/2026/08/13/dyna-robotics-introduces-dyna-2-a-world-action-model-pre-trained-on-1-million-hours-of-human-video/",
-      "source": "MarkTechPost"
+      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "summary": "Meta has released Muse Glimmer, an open-source, local, agentic, and multimodal model, empowering developers with full control and flexibility to build advanced AI applications that process and generate various types of data on-device.",
+      "link": "https://huggingface.co/blog/muse-glimmer",
+      "source": "Hugging Face Blog"
     },
     {
-      "title": "LTX-2.5: NVIDIA-Accelerated Open-Weights World Model for Local Video Generation",
-      "summary": "LTX-2.5 delivers frontier video generation capabilities to local NVIDIA hardware, enabling 6.8-second clips with native multishot and day-one ComfyUI integration via an open-weights world model, making advanced video production accessible.",
-      "link": "https://www.marktechpost.com/2026/08/11/the-video-production-stack-now-fits-on-one-desk-ltx-2-5-launches-as-nvidia-accelerated-open-weights-world-model/",
-      "source": "MarkTechPost"
+      "title": "Expanding Daybreak as the Cyber Defense Window Narrows: Meet GPT-5.6-Cyber",
+      "summary": "OpenAI introduces GPT-5.6-Cyber, a specialized cybersecurity model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing, providing advanced AI capabilities for cyber defense.",
+      "link": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "source": "OpenAI News"
     }
   ],
   "tools": [
     {
-      "title": "Gemini API Managed Agents Expands with 3.6 Flash, Hooks, and More",
-      "summary": "Google's Gemini API Managed Agents now features expanded capabilities including 3.6 Flash and hooks, enabling developers to build and deploy more reliable, production-ready AI agents with advanced control.",
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "summary": "Google announces new capabilities for Managed Agents in Gemini API, including 3.6 Flash and hooks, to help developers build reliable, production-ready AI agents with enhanced control and flexibility.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
       "source": "Google AI Blog"
     },
     {
-      "title": "SAPO: Segment-level Automatic Prompt Optimization Method",
-      "summary": "SAPO (Segment-level Automatic Prompt Optimization) is introduced as a new method that decomposes prompts into segments for targeted improvements, demonstrating superior performance over leading APO baselines across various benchmarks.",
-      "link": "https://arxiv.org/abs/2608.11219",
-      "source": "arXiv cs.AI"
+      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "summary": "This integrated offering provides a unified platform for recording robot data, training LeRobot models, and deploying Strands Agents using Hugging Face Storage Buckets, streamlining the entire lifecycle of agent development and deployment.",
+      "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "source": "Hugging Face Blog"
     },
     {
-      "title": "NVIDIA Magpie TTS for Low-Latency Multilingual Voice Agents",
-      "summary": "NVIDIA's Magpie TTS provides open-weights models and comprehensive deployment control for creating low-latency, multilingual voice agents, offering builders powerful tools for real-time speech applications.",
-      "link": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
-      "source": "Hugging Face Blog"
+      "title": "From Monolithic to Modular: Segment-level Automatic Prompt Optimization (SAPO)",
+      "summary": "SAPO introduces a segment-level automatic prompt optimization method that decomposes prompts into components for targeted improvements, leading to superior and more robust performance for LLMs across various tasks compared to monolithic optimization.",
+      "link": "https://arxiv.org/abs/2608.11219",
+      "source": "arXiv cs.AI"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Daybreak Cybersecurity Models Now on AWS Bedrock",
-      "summary": "OpenAI's Daybreak cybersecurity models, including GPT-5.6-Cyber, are now accessible via Amazon Bedrock and approved partners, democratizing access to frontier AI capabilities for enterprise security workflows.",
+      "title": "Daybreak models are now available on AWS",
+      "summary": "OpenAI's Daybreak cybersecurity capabilities, including frontier cyber models, are now available through Amazon Bedrock, enabling enterprises to integrate advanced AI security workflows directly within their AWS environments.",
       "link": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Initiates Ad Testing in ChatGPT to Support Free Access",
-      "summary": "OpenAI has begun testing ads in ChatGPT to support free access, implementing clear labeling, answer independence, robust privacy protections, and user control over the ad experience.",
-      "link": "https://openai.com/index/testing-ads-in-chatgpt",
-      "source": "OpenAI News"
+      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+      "summary": "Google's AMIE research medical AI system has demonstrated real-time clinical video consultation capabilities in simulated environments, marking a significant step towards practical AI assistance in healthcare diagnostics and patient interaction.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Enterprises Shift to Agentic AI for Execution, Beyond Assistance",
-      "summary": "OpenAI research indicates a significant trend where frontier enterprises are moving beyond AI assistance to deploy agentic AI for execution, leveraging models like ChatGPT and Codex for high-impact operational improvements.",
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "summary": "OpenAI research highlights how leading enterprises are shifting beyond basic AI assistance to implementing agentic AI for execution, demonstrating a growing trend in leveraging AI to automate complex tasks and drive operational efficiency.",
       "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Guide to Custom LLM Post-Training with AllenAI Open Instruct Tulu 3",
-      "summary": "A comprehensive guide from AllenAI details building custom LLM post-training pipelines using methods like SFT, DPO, RLVR, and GRPO, optimized for efficient execution on 16GB hardware without needing heavy distributed infrastructure.",
-      "link": "https://www.marktechpost.com/2026/08/12/allenai-open-instruct-tulu-3-post-training-with-sft-dpo-rlvr-grpo-and-verifier-based-evaluation/",
-      "source": "MarkTechPost"
+      "title": "The builder’s guide to GPT‑5.6",
+      "summary": "OpenAI has released a comprehensive guide for developers to learn how to effectively utilize GPT-5.6, offering insights into building faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "source": "OpenAI News"
     },
     {
-      "title": "Guide: MiniMax-H3 Multimodal Video/Audio Generation with ComfyUI APIs",
-      "summary": "A detailed guide demonstrates implementing a programmable MiniMax-H3 multimodal video and audio generation pipeline using ComfyUI as a headless backend, covering automated inference setup, model loading, and joint decoding.",
-      "link": "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Kaggle’s AI Agents Intensive with Google: Free AI Upskilling Course",
-      "summary": "Kaggle and Google hosted a no-cost \"AI Agents Intensive\" course, attracting 353,000 learners to build and deploy advanced AI agents, showcasing a significant initiative for large-scale AI upskilling.",
+      "title": "Inside our 353,000-person vibe coding course",
+      "summary": "Google and Kaggle successfully hosted a no-cost \"AI Agents Intensive\" course, attracting over 353,000 learners to build and deploy advanced AI agents, fostering a massive community of AI developers.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
       "source": "Google AI Blog"
+    },
+    {
+      "title": "What We Learned by Reproducing 2,200 papers from ICML",
+      "summary": "Hugging Face shares critical insights gained from reproducing 2,200 ICML papers, providing valuable lessons on reproducibility and practical challenges in machine learning research for the wider AI community.",
+      "link": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "source": "Hugging Face Blog"
     }
   ]
 }
