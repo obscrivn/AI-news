@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-08-15T16:00:00Z",
+  "lastUpdated": "2026-08-15T12:00:00Z",
   "highlights": [
-    "Post-training scaling is taking center stage as providers like Z.ai and OpenAI upgrade coding, cybersecurity, and reasoning capabilities dramatically without retraining base architectures.",
-    "Hardware-efficient and on-device execution are experiencing massive breakthroughs, demonstrated by ultra-compact tool-calling models like Needle 2 running on only 28MB of RAM and Liquid AI's LFM2.5-VL-3B enabling local screen processing.",
-    "Autonomous agent design is maturing from basic retrieval loops into complex, governed architectures featuring self-evolving memory systems and strict bitemporal safety contracts."
+    "The AI landscape is seeing a surge in specialized, efficient models, with notable releases like Needle 2 for edge computing and NVIDIA's Nemotron 3.5 Lightning, indicating a push towards more accessible and tailored AI deployments.",
+    "Major platforms are enhancing their agentic capabilities through powerful models such as Google's Gemini 3.7 Flash and new API features like OpenAI's Ultrafast mode, empowering developers to build high-performance, production-ready AI agents.",
+    "A strong emphasis on practical, end-to-end guides for fine-tuning, post-training, and deploying advanced LLMs demonstrates a growing need to democratize complex AI development techniques for builders."
   ],
   "agents": [
     {
-      "title": "MindMemOS: A Portable and Self-Evolving Memory Operating Layer for AI Agents",
-      "summary": "This framework introduces a self-evolving memory layer for AI agents that automatically optimizes schema structures and consolidates redundant records via validation-driven evolutionary search.",
-      "link": "https://arxiv.org/abs/2608.12428",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Governed Persistent Memory: Auditable State Semantics for Long-Horizon Agents",
-      "summary": "Introduces a bitemporal state-transition framework that governs agent memory to prevent the output of stale, retracted, or contradictory information in high-stakes environments.",
-      "link": "https://arxiv.org/abs/2608.12476",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "AstraZeneca's Research Assistant Agentic System for Biomedical R&D",
-      "summary": "Details a production-scale agentic system deployed at AstraZeneca that unifies scientific literature, knowledge graphs, and experimental data for multi-step clinical and chemistry research.",
-      "link": "https://arxiv.org/abs/2608.12395",
-      "source": "arXiv cs.AI"
-    }
-  ],
-  "models": [
-    {
-      "title": "Google AI Releases Gemini 3.7 Flash for Coding and Agentic Workflows",
-      "summary": "Google's updated multimodal reasoning model features customizable thinking configurations and substantial performance jumps in coding benchmarks at an aggressive pricing of $0.75 per 1M input tokens.",
+      "title": "Google AI Releases Gemini 3.7 Flash for Coding and Agents",
+      "summary": "Google AI launched Gemini 3.7 Flash, a refined model with algorithmic improvements to its reasoning core, significantly boosting performance on complex coding and agentic tasks while maintaining a competitive price point of $0.75/1M input tokens.",
       "link": "https://www.marktechpost.com/2026/08/13/google-ai-just-released-gemini-3-7-flash/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Z.ai Launches GLM-5.3 Powered Entirely by Post-Training Scaling",
-      "summary": "Reusing its predecessor's 743B parameter base model, GLM-5.3 achieves major performance jumps in complex coding and cybersecurity tasks solely through scaled long-horizon environment training.",
-      "link": "https://www.marktechpost.com/2026/08/14/z-ai-ships-glm-5-3-without-retraining-the-base-model-better-at-complex-coding-and-long-horizon-tasks/",
+      "title": "Gemini API Managed Agents Expanded with 3.6 Flash and Hooks",
+      "summary": "Google announced new capabilities for Managed Agents in the Gemini API, including support for 3.6 Flash and developer hooks, enabling builders to create more reliable and production-ready AI agents with advanced control and integration options.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "source": "Google AI Blog"
+    },
+    {
+      "title": "AMIE: Google's Medical AI System for Real-Time Clinical Video Consultations",
+      "summary": "Google introduced AMIE, a research medical AI system capable of real-time clinical video consultations in simulated settings, demonstrating a significant advancement in AI applications for high-stakes healthcare scenarios.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+      "source": "Google AI Blog"
+    }
+  ],
+  "models": [
+    {
+      "title": "Needle 2: Open 45M-Parameter Tool-Calling Model for Edge Devices",
+      "summary": "Cactus Compute released Needle 2, an open 45M-parameter model optimized for tool calling and structured extraction on devices without GPUs or NPUs. It ships as a 14MB binary and uses only 28MB of RAM, making it ideal for ultra-efficient edge AI applications.",
+      "link": "https://www.marktechpost.com/2026/08/13/cactus-compute-needle-2-45m-parameter-tool-calling-model/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Needle 2: An Open 45M-Parameter Tool-Calling Model for RAM-Constrained Devices",
-      "summary": "A highly optimized, 14MB open-source binary model designed to execute complex tool-calling and structured extraction within a tiny 28MB RAM footprint without relying on GPUs or NPUs.",
-      "link": "https://www.marktechpost.com/2026/08/13/cactus-compute-needle-2-45m-parameter-tool-calling-model/",
-      "source": "MarkTechPost"
-    }
-  ],
-  "tools": [
-    {
-      "title": "NVIDIA Nemotron 3.5 Lightning & NeMo Switchyard Router",
-      "summary": "An open 30B MoE model paired with a programmatic routing layer that directs agent execution steps dynamically to the most cost-efficient capable model.",
+      "title": "NVIDIA Releases Nemotron 3.5 Lightning: A 30B Open MoE and NeMo Switchyard Router",
+      "summary": "NVIDIA AI unveiled Nemotron 3.5 Lightning, a 30B open Mixture-of-Experts (MoE) model with 3B active parameters, specifically designed for the agent execution layer. It includes the NeMo Switchyard model router for efficient, cost-optimized task routing.",
       "link": "https://www.marktechpost.com/2026/08/11/nvidia-ai-releases-nemotron-3-5-lightning-and-nemo-switchyard/",
       "source": "MarkTechPost"
     },
     {
-      "title": "OpenAI Previews Ultrafast Mode for GPT-5.6 Sol via Cerebras",
-      "summary": "A new API service tier powered by Cerebras hardware that serves GPT-5.6 Sol at up to 14x speeds, hitting a throughput of 750 output tokens per second.",
+      "title": "Meta Introduces Muse Glimmer: Local, Agentic, Multimodal, and Open Source",
+      "summary": "Meta announced Muse Glimmer, a new open-source model that combines local execution, agentic capabilities, and multimodal understanding, offering developers a versatile foundation for building advanced AI applications with full deployment control.",
+      "link": "https://huggingface.co/blog/muse-glimmer",
+      "source": "Hugging Face Blog"
+    }
+  ],
+  "tools": [
+    {
+      "title": "OpenAI Previews Ultrafast Mode: GPT-5.6 Sol Up to 14X Faster",
+      "summary": "OpenAI introduced 'Ultrafast' mode, a new API service tier for GPT-5.6 Sol, powered by Cerebras technology, which delivers up to 14 times faster inference speeds (750 output tokens per second), drastically reducing latency for API users.",
       "link": "https://openai.com/index/previewing-ultrafast",
       "source": "OpenAI News"
     },
     {
-      "title": "Gemini API Managed Agents: Support for Hooks, Background Tasks, and Remote MCP",
-      "summary": "Google adds robust developer capabilities to its Managed Agents API, allowing background task execution, event-driven hooks, and remote Model Context Protocol integration.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "source": "Google AI Blog"
+      "title": "NeMo Switchyard Model Router for Agent Execution Layers",
+      "summary": "NVIDIA's NeMo Switchyard is a new model router released alongside Nemotron 3.5 Lightning, designed to route each agent execution step to the most cost-effective and capable model, optimizing performance and resource utilization for AI agents.",
+      "link": "https://www.marktechpost.com/2026/08/11/nvidia-ai-releases-nemotron-3-5-lightning-and-nemo-switchyard/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Integrated Workflow for Robotics with Strands Agents, LeRobot, and Hugging Face Storage",
+      "summary": "A new integrated workflow enables developers to record, train, and deploy robotics agents from a single environment, combining Strands Agents, LeRobot, and Hugging Face Storage Buckets to streamline the entire development lifecycle for robotics AI.",
+      "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Unveils GPT-5.6-Cyber for Authorized Vulnerability Research",
-      "summary": "Released under OpenAI's Daybreak program, GPT-5.6-Cyber is a tailored model for vulnerability research, exploit validation, and authorized security assessments.",
-      "link": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Liquid AI Releases LFM2.5-VL-3B On-Device Vision-Language Model",
-      "summary": "Built for edge deployment, this 3.1B parameter model fits in roughly 3GB and enables low-latency screen-reading, object grounding, and tool calling directly on consumer hardware.",
-      "link": "https://www.marktechpost.com/2026/08/13/liquid-ai-lfm2-5-vl-3b-on-device-vision-language-model/",
+      "title": "Google AI Releases Gemini 3.7 Flash for Coding and Agents at Competitive Pricing",
+      "summary": "Google AI launched Gemini 3.7 Flash, a significant update to its model line offering enhanced reasoning for coding and agentic tasks. This release positions Google competitively with aggressive introductory pricing, reinforcing its commitment to advanced AI development.",
+      "link": "https://www.marktechpost.com/2026/08/13/google-ai-just-released-gemini-3-7-flash/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Google Updates Workspace with Gemini Omni Video Avatars in Google Vids",
-      "summary": "Google has rolled out deep workspace integrations, combining Gemini Omni capabilities and customized personal avatars to streamline professional video creation workflows.",
-      "link": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-      "source": "Google AI Blog"
+      "title": "OpenAI Appoints Dali Rajic as Chief Revenue Officer",
+      "summary": "OpenAI announced the appointment of Dali Rajic as Chief Revenue Officer, a strategic move to lead its global revenue organization and accelerate the adoption of AI solutions across businesses, signaling a stronger focus on commercial growth and enterprise value realization.",
+      "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "OpenAI's Daybreak Cybersecurity Models Now Available on AWS",
+      "summary": "OpenAI and AWS have partnered to make Daybreak cybersecurity capabilities available through Amazon Bedrock, expanding enterprise access to OpenAI’s frontier cyber models for security workflows and reinforcing strategic cloud integrations.",
+      "link": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "The Builder's Guide to GPT-5.6 Agentic Optimization",
-      "summary": "OpenAI's official developer playbook on utilizing smarter model selection, low-latency configuration, and the revised Responses API to build robust agent applications.",
-      "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "AllenAI Tulu 3 Post-Training Guide: SFT, DPO, and GRPO on 16GB Hardware",
-      "summary": "A comprehensive practical blueprint for setting up custom LLM post-training pipelines locally using advanced verifier-based rewards and RL techniques without needing complex distributed clusters.",
-      "link": "https://www.marktechpost.com/2026/08/12/allenai-open-instruct-tulu-3-post-training-with-sft-dpo-rlvr-grpo-and-verifier-based-evaluation/",
+      "title": "Fine-Tuning Tool-Calling LLMs: A Complete Guide",
+      "summary": "This guide provides an end-to-end pipeline for fine-tuning tool-calling language models using XYZ-Aquila-SFT and Qwen3, covering trajectory parsing, structured tool-call extraction, ChatML rendering, and efficient LoRA adaptation with PyTorch.",
+      "link": "https://www.marktechpost.com/2026/08/15/fine-tuning-tool-calling-llms-a-complete-guide-using-xyz-aquila-sft-and-qwen3/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Kaggle & Google AI Agents Intensive Recap 2026",
-      "summary": "A massive open educational initiative summarizing major curriculum steps, repositories, and lessons learned for developers deploying modern agent architectures.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-      "source": "Google AI Blog"
+      "title": "Guide to Creating Reasoning-Focused LLMs with SupraLabs Corpus",
+      "summary": "A practical guide detailing the complete workflow for building compact, reasoning-focused language models. It covers streaming and curating the SupraLabs reasoning corpus, applying quality filters, and fine-tuning with SmolLM2-135M-Instruct and LoRA for resource-efficient development.",
+      "link": "https://www.marktechpost.com/2026/08/13/a-practical-guide-to-streaming-curating-and-fine-tuning-the-supralabs-reasoning-corpus/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "AllenAI Open Instruct Tulu 3: Comprehensive Post-Training Guide",
+      "summary": "This guide outlines how to build a custom LLM post-training pipeline using AllenAI's Open Instruct framework, covering Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), and Reinforcement Learning with Verifiable Rewards (GRPO), optimized for 16GB hardware.",
+      "link": "https://www.marktechpost.com/2026/08/12/allenai-open-instruct-tulu-3-post-training-with-sft-dpo-rlvr-grpo-and-verifier-based-evaluation/",
+      "source": "MarkTechPost"
     }
   ]
 }
