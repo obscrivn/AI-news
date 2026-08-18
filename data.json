@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2026-08-17T12:00:00Z",
+  "lastUpdated": "2026-08-18T13:29:10Z",
   "highlights": [
-    "A notable trend sees the release of highly efficient and specialized AI models, including compact vision-language models for on-device deployment and small, open-source tool-calling models, significantly broadening the scope for accessible AI applications.",
-    "Leading companies like Google and OpenAI are intensifying their focus on advanced agent capabilities and cybersecurity, launching new model iterations, high-performance API tiers, and dedicated cyber defense models to meet growing enterprise demands.",
-    "The developer ecosystem is being enriched with new open-source agent frameworks and comprehensive guides for fine-tuning LLMs, empowering builders to create sophisticated, secure, and reasoning-focused AI agents and specialized models."
+    "AI Agents are evolving rapidly, with new open-source frameworks like Google's SAM enabling secure, zero-trust P2P communication, alongside specialized agents for tasks like CUDA kernel optimization and self-correcting logic synthesis.",
+    "Open-source models are expanding their frontier, demonstrated by MiniMax-Music3 generating full songs and Meta's Muse Glimmer offering local, agentic, and multimodal capabilities, while highly efficient edge models like Needle 2 push on-device AI performance.",
+    "The AI ecosystem is maturing with a focus on developer enablement and responsible deployment, featuring vendor-neutral application servers like OGX, integrated MLOps workflows, and critical industry discussions around global AI governance and ethical use, including OpenAI's targeted product for teens."
   ],
   "agents": [
     {
-      "title": "DeepSeek AI Releases DeepSeek Harness: An MIT-Licensed Agent Harness",
-      "summary": "DeepSeek Harness is an MIT-licensed, plugin-based agent framework offering flexible runtime modes and provider-agnostic model routing, accelerating the development of robust AI agents. This developer preview provides a foundational platform where every capability integrates as a Cordis plugin.",
-      "link": "https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/",
+      "title": "Meet SAM (Sovereign Agent Mesh): A Zero-Config, Zero-Trust P2P Network for AI Agents",
+      "summary": "Google open-sourced SAM (Sovereign Agent Mesh), an Apache-2.0 licensed zero-config, zero-trust P2P overlay network. It enables autonomous agents to securely discover and interact with each other's tools across diverse environments without exposing internal endpoints, using OIDC-derived Biscuit capability tokens for offline authorization.",
+      "link": "https://www.marktechpost.com/2026/08/18/meet-sam-sovereign-agent-mesh-a-zero-config-zero-trust-p2p-network-for-ai-agents/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Agentao: A Governed Local-First Runtime for Tool-Using LLM Agents",
-      "summary": "Agentao introduces a governed local-first runtime for tool-using LLM agents, explicitly separating model-generated actions from host-authorized execution through permissions. This open-source system enhances auditability, security, and inspectability for agents operating in host-controlled local environments.",
-      "link": "https://arxiv.org/abs/2608.13574",
-      "source": "arXiv cs.AI"
+      "title": "ByteDance Seed and Tsinghua AIR Introduces CUDA Agent: A Large-Scale Agentic RL System for CUDA Kernel Generation",
+      "summary": "ByteDance Seed and Tsinghua AIR launched CUDA Agent, an agentic reinforcement learning system that trains LLMs to generate GPU kernels outperforming traditional compilers. This system targets the challenge of producing optimized, fast CUDA code from frontier models, offering significant performance gains.",
+      "link": "https://www.marktechpost.com/2026/08/17/bytedance-seed-and-tsinghua-air-introduces-cuda-agent-a-large-scale-agentic-rl-system-for-cuda-kernel-generation/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Gemini API Managed Agents: 3.6 Flash, Hooks, and More",
-      "summary": "Google expands Gemini API's Managed Agents with new capabilities like Gemini 3.6 Flash support and hooks, enabling developers to build more reliable and production-ready AI agents. These enhancements streamline the creation of sophisticated agents for diverse applications.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "source": "Google AI Blog"
+      "title": "SKILL: Self-correcting Knowledge-guided Iterative Large Language Model Agent for Logic Optimization",
+      "summary": "SKILL introduces a Self-correcting Knowledge-guided Iterative Large Language Model Agent that unifies multi-agent LLM reasoning and RL for logic synthesis optimization. Coordinating specialized LLMs with a PPO-based RL agent and a novel self-correcting module, it achieves 12.4% PDA improvement over expert flows and an 86.3% success rate on complex logic systems.",
+      "link": "https://arxiv.org/abs/2608.14579",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "Google AI Releases Gemini 3.7 Flash: Coding and Agent Model",
-      "summary": "Google's Gemini 3.7 Flash, an algorithmic refinement of 3.6 Flash, offers enhanced coding and agent capabilities across multimodal inputs with a 1M-token context. Available via API at a competitive $0.75/1M input tokens, it significantly boosts performance in coding and workflow automation tasks.",
-      "link": "https://www.marktechpost.com/2026/08/13/google-ai-just-released-gemini-3-7-flash/",
+      "title": "MiniMax Releases MiniMax-Music3: An Open-Weights Music Model Generating Complete Five-Minute Songs From Lyrics and a Structured Caption",
+      "summary": "MiniMax released MiniMax-Music3, an open-weights text-to-music model capable of generating complete five-minute stereo WAV songs from lyrics and structured captions in a single pass. This offers significant capabilities for creative AI-driven music generation, providing builders with a powerful foundation for audio applications.",
+      "link": "https://www.marktechpost.com/2026/08/17/minimax-releases-minimax-music3/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Liquid AI Releases LFM2.5-VL-3B: On-Device Vision-Language Model",
-      "summary": "Liquid AI introduces LFM2.5-VL-3B, a compact 3.1B-parameter vision-language model designed for efficient on-device deployment. It excels in screen reading, object grounding, and function calling, consuming minimal RAM and achieving high token decoding speeds on edge hardware.",
-      "link": "https://www.marktechpost.com/2026/08/13/liquid-ai-lfm2-5-vl-3b-on-device-vision-language-model/",
+      "title": "Cartesia Ships Sonic-3.6: A Streaming TTS Model That Now Leads Both Artificial Analysis Speech Arenas",
+      "summary": "Cartesia released Sonic-3.6, a streaming text-to-speech model built on state space models, achieving top rankings on Artificial Analysis speech leaderboards with sub-90ms time-to-first-audio. This high-performance, low-latency solution is available via Cartesia's API, crucial for real-time and conversational AI applications.",
+      "link": "https://www.marktechpost.com/2026/08/18/cartesia-ships-sonic-3-6-a-streaming-tts-model-that-now-leads-both-artificial-analysis-speech-arenas/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Meta Releases Muse Glimmer: Local, Agentic, Multimodal, Open Source",
-      "summary": "Meta launches Muse Glimmer, a new open-source model that is local, agentic, and multimodal, empowering on-device AI applications and community-driven innovation. This release provides robust capabilities for developers building intelligent systems at the edge.",
+      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "summary": "Meta released Muse Glimmer, an open-source, local, agentic, and multimodal AI model. This offers developers a versatile foundation for integrating local-first, multimodal perception and action capabilities into their applications, advancing on-device AI and complex interactive systems.",
       "link": "https://huggingface.co/blog/muse-glimmer",
       "source": "Hugging Face Blog"
     }
   ],
   "tools": [
     {
-      "title": "OpenAI Previews Ultrafast Mode: GPT-5.6 Sol at 14X Speed",
-      "summary": "OpenAI introduces Ultrafast mode, a new API service tier that runs GPT-5.6 Sol up to 14 times faster, delivering up to 750 output tokens per second, powered by Cerebras. This significant speed boost enables developers to achieve unprecedented throughput for their high-demand AI applications.",
-      "link": "https://openai.com/index/previewing-ultrafast",
-      "source": "OpenAI News"
+      "title": "OGX: An Open-Source, Vendor-Neutral Generative AI Application Server",
+      "summary": "OGX (Open GenAI Stack) is an open-source, vendor-neutral AI application server and Python library that unifies APIs for major frontier labs. It enables developers to build agentic AI applications with pluggable backends (inference engines, vector DBs, safety) without code changes, supporting model-agnostic and flexible deployment.",
+      "link": "https://arxiv.org/abs/2608.14580",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Google Sheets Canvas: Bring Spreadsheet Data to Life with AI",
-      "summary": "Google Sheets introduces 'Sheets canvas,' a new AI-powered feature enabling users to transform raw spreadsheet data into interactive dashboards, custom trackers, and more using simple natural language prompts. This tool significantly enhances data visualization and productivity within Google Workspace.",
-      "link": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "Hugging Face Integrates Strands Agents & LeRobot for Robotics MLOps",
-      "summary": "Hugging Face now integrates Strands Agents and LeRobot with Storage Buckets, providing a streamlined, end-to-end platform for recording, training, and deploying robot-manipulation data and models. This unified workflow empowers developers to efficiently manage their robotics AI development lifecycle.",
+      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "summary": "This update details an integrated workflow for recording, training, and deploying ML models and agents using Strands Agents, LeRobot, and Hugging Face Storage Buckets. It streamlines the entire MLOps lifecycle from data capture to production deployment, offering a cohesive platform for AI development.",
       "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
       "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Bring your spreadsheet data to life with Sheets canvas",
+      "summary": "Sheets canvas introduces a new capability for Google Sheets, allowing users to transform data into interactive dashboards, trackers, and charts with simple prompts. This enhances data visualization and user interaction within spreadsheets, democratizing access to AI-powered insights for a broad user base.",
+      "link": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+      "source": "Google AI Blog"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Expands Daybreak Cyber Defense with GPT-5.6-Cyber",
-      "summary": "OpenAI expands its Daybreak initiative, launching GPT-5.6-Cyber for authorized cybersecurity applications and making these frontier models available to approved partners via AWS Bedrock. This strategic move strengthens enterprise defenses against evolving cyber threats.",
-      "link": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "title": "Position: AI Governance Needs ISO-like Interoperability Protocols, Not Just Laws",
+      "summary": "This paper advocates for ISO-like interoperability protocols and standardized AI \"nutrition labels\" for global AI governance, rather than relying solely on fragmented laws. It aims to enable machine-readable risk communication across borders, simplify compliance for SMEs, and build public trust in AI deployments.",
+      "link": "https://arxiv.org/abs/2608.14568",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "summary": "OpenAI launched ChatGPT for Teens, a version tailored for learning with enhanced built-in protections, healthy-use features, and parental controls. This strategic product aims to empower adolescents to use AI confidently and critically in an educational context while prioritizing safety.",
+      "link": "https://openai.com/index/chatgpt-for-teens",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Begins Testing Ads in ChatGPT",
-      "summary": "OpenAI commences testing advertisements within ChatGPT to support continued free access, committing to clear labeling, robust privacy protections, and user control. This initiative aims to explore monetization strategies while maintaining the user experience and answer independence.",
+      "title": "Testing ads in ChatGPT",
+      "summary": "OpenAI is testing ads in ChatGPT to support free access, with strict adherence to clear labeling, answer independence, strong privacy protections, and user control. This represents a significant step in ChatGPT's monetization strategy, impacting its future business model and user experience.",
       "link": "https://openai.com/index/testing-ads-in-chatgpt",
       "source": "OpenAI News"
-    },
-    {
-      "title": "Google AI Introduces New AI Tools for Marketing Evolution",
-      "summary": "Google introduces new AI and agentic experiences across Google Ads and Google Analytics, designed to simplify marketing workflows and enhance efficiency for businesses. These updates aim to empower marketing professionals with more intelligent tools for campaign optimization and insights.",
-      "link": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
-      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Guide: Fine-Tuning Tool-Calling LLMs with XYZ-Aquila-SFT and Qwen3",
-      "summary": "This comprehensive tutorial provides a complete guide for implementing an end-to-end fine-tuning pipeline for tool-calling language models. It covers crucial steps from parsing trajectories and structured tool-call extraction to efficient LoRA adaptation using PyTorch.",
+      "title": "Inside our 353,000-person vibe coding course",
+      "summary": "Kaggle's AI Agents Intensive, in partnership with Google, provided a free coding course to 353,000 learners, focusing on building and deploying AI agents. This massive initiative highlights a significant opportunity for global upskilling in cutting-edge AI development.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "source": "Google AI Blog"
+    },
+    {
+      "title": "Fine-Tuning Tool-Calling LLMs: A Complete Guide Using XYZ-Aquila-SFT and Qwen3",
+      "summary": "A detailed guide outlines an end-to-end fine-tuning pipeline for tool-calling language models, including parsing trajectories, structured tool-call extraction, ChatML rendering, and efficient LoRA adaptation with PyTorch. This is crucial for developers customizing LLMs for specific tool-use cases and enhancing model utility.",
       "link": "https://www.marktechpost.com/2026/08/15/fine-tuning-tool-calling-llms-a-complete-guide-using-xyz-aquila-sft-and-qwen3/",
       "source": "MarkTechPost"
     },
     {
-      "title": "The Builder’s Guide to GPT-5.6 by OpenAI",
-      "summary": "OpenAI's new guide for builders teaches startups how to leverage GPT-5.6 to create faster, more cost-efficient AI agents. It focuses on smart model selection and new Responses API capabilities, empowering developers to optimize their agentic AI solutions.",
-      "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Guide: Create a Reasoning-Focused LLM with SupraLabs Corpus",
-      "summary": "This practical guide offers a complete workflow for building compact, reasoning-focused language models by streaming, curating, and fine-tuning the SupraLabs reasoning corpus from Hugging Face. It demonstrates an end-to-end pipeline for developing specialized small models efficiently.",
-      "link": "https://www.marktechpost.com/2026/08/13/a-practical-guide-to-streaming-curating-and-fine-tuning-the-supralabs-reasoning-corpus/",
+      "title": "Developing an End-to-End Document Intelligence Pipeline with docTR for OCR, Layout Analysis, KIE, Benchmarking, and Searchable PDFs",
+      "summary": "A comprehensive guide is available for building an end-to-end document intelligence pipeline using docTR, covering OCR, layout analysis, key information extraction (KIE), and searchable PDF creation. This provides practical steps for production-ready document processing, enabling builders to tackle complex data extraction challenges.",
+      "link": "https://www.marktechpost.com/2026/08/17/end-to-end-document-intelligence-pipeline-with-doctr-for-ocr/",
       "source": "MarkTechPost"
     }
   ]
