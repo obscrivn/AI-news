@@ -1,106 +1,106 @@
 {
-  "lastUpdated": "2026-08-20T12:00:00Z",
+  "lastUpdated": "2026-08-21T12:00:00Z",
   "highlights": [
-    "The AI agent landscape is rapidly evolving with new foundational infrastructure and specialized capabilities, including a zero-trust P2P network and agents for highly optimized code generation.",
-    "Significant advancements in AI models and deployment tools are enhancing performance and accessibility, featuring SOTA streaming TTS, ultrafast frontier model inference, and a new open-source multimodal agentic model.",
-    "Major companies like OpenAI and Google are focusing on critical aspects such as data privacy for frontier models, democratizing AI development, and addressing ethical considerations in national security and global AI equity."
+    "The AI landscape is seeing significant advancements in agentic systems, with new open-source frameworks for secure multi-agent communication and enhanced platform capabilities for building reliable, production-ready agents.",
+    "Open-source models continue to push boundaries, including Meta's new multimodal agentic model and MiniMax's full song generation, alongside critical performance boosts for existing large language models.",
+    "Developer tools are streamlining AI deployment and integration, exemplified by NVIDIA's simplified C++ inference for Hugging Face models and Google's AI-powered data visualization within Sheets, making advanced AI more accessible for builders."
   ],
   "agents": [
     {
       "title": "Google Open-Sources SAM: Zero-Config, Zero-Trust P2P Network for AI Agents",
-      "summary": "Google has open-sourced SAM (Sovereign Agent Mesh), a zero-config, zero-trust P2P overlay network enabling autonomous AI agents to discover and interact securely across diverse environments without exposing internal endpoints.",
+      "summary": "Google has open-sourced SAM (Sovereign Agent Mesh), providing a zero-config, zero-trust P2P overlay network for autonomous agents to discover and interact securely across diverse environments, without exposing internal endpoints.",
       "link": "https://www.marktechpost.com/2026/08/18/meet-sam-sovereign-agent-mesh-a-zero-config-zero-trust-p2p-network-for-ai-agents/",
       "source": "MarkTechPost"
     },
     {
-      "title": "ByteDance & Tsinghua Introduce CUDA Agent for Optimized GPU Kernel Generation",
-      "summary": "ByteDance Seed and Tsinghua AIR released CUDA Agent, an agentic reinforcement learning system that trains large language models to write GPU kernels that outperform compiler-generated code, targeting stubborn performance gaps.",
+      "title": "ByteDance & Tsinghua AIR Introduce CUDA Agent for Optimized GPU Kernel Generation",
+      "summary": "ByteDance Seed and Tsinghua AIR released CUDA Agent, an agentic reinforcement learning system that enables large language models to write GPU kernels that outperform traditional compilers, targeting the generation of highly optimized, fast CUDA code.",
       "link": "https://www.marktechpost.com/2026/08/17/bytedance-seed-and-tsinghua-air-introduces-cuda-agent-a-large-scale-agentic-rl-system-for-cuda-kernel-generation/",
       "source": "MarkTechPost"
     },
     {
-      "title": "FinSkillBench: New Benchmark for AI Agents in Investment Management",
-      "summary": "FinSkillBench is introduced as an evaluation suite to measure AI agent effectiveness in financial domain skills for investment management tasks, emphasizing that reliable procedural skills are as crucial as model choice for high-stakes applications.",
-      "link": "https://arxiv.org/abs/2608.18099",
-      "source": "arXiv cs.AI"
+      "title": "Google Expands Gemini API Managed Agents with Background Tasks and Remote MCP",
+      "summary": "Google is introducing new capabilities for Managed Agents in Gemini API, including support for background tasks and remote Multi-Cloud-Provider (MCP) functionality, enabling developers to build more reliable and production-ready agent systems.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "source": "Google AI Blog"
     }
   ],
   "models": [
     {
-      "title": "Meta Releases Muse Glimmer: Local, Agentic, Multimodal, and Open Source",
-      "summary": "Meta introduced Muse Glimmer, a new open-source model that is local, agentic, and multimodal, providing a powerful and versatile foundation for developing advanced AI applications with enhanced flexibility.",
+      "title": "Meta Releases Muse Glimmer: Local, Agentic, Multimodal, and Open Source Model",
+      "summary": "Meta has launched Muse Glimmer, an open-source, local, and agentic multimodal model, representing a significant advancement in accessible and versatile AI, combining various modalities with agentic capabilities.",
       "link": "https://huggingface.co/blog/muse-glimmer",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "Cartesia Ships Sonic-3.6: Streaming TTS Model Leads Speech Leaderboards",
-      "summary": "Cartesia released Sonic-3.6, a streaming text-to-speech model built on state space models, which now leads both Artificial Analysis speech leaderboards with sub-90ms time-to-first-audio, offering high-performance speech synthesis.",
-      "link": "https://www.marktechpost.com/2026/08/18/cartesia-ships-sonic-3-6-a-streaming-tts-model-that-now-leads-both-artificial-analysis-speech-arenas/",
+      "title": "MiniMax Releases MiniMax-Music3: Open-Weights Model Generates Full 5-Minute Songs",
+      "summary": "MiniMax released MiniMax-Music3, an open-weights text-to-music model capable of generating complete five-minute songs from lyrics and structured captions in a single pass, offering a powerful tool for music creation.",
+      "link": "https://www.marktechpost.com/2026/08/17/minimax-releases-minimax-music3/",
       "source": "MarkTechPost"
     },
     {
-      "title": "OpenAI Previews Ultrafast Mode: GPT-5.6 Sol at 14X Speed",
-      "summary": "OpenAI is previewing Ultrafast mode, a new API service tier running GPT-5.6 Sol up to 14 times faster and delivering up to 750 output tokens per second, significantly boosting inference speed for developers.",
-      "link": "https://openai.com/index/previewing-ultrafast",
-      "source": "OpenAI News"
+      "title": "Liquid AI Releases LFM2.5-DSpark Draft Models for Up to 3.18x Faster Decoding",
+      "summary": "Liquid AI has released LFM2.5-DSpark Draft Models, introducing speculative decoding to LFM2.5, which delivers up to 3.18x faster decoding without altering model outputs, significantly improving inference efficiency.",
+      "link": "https://www.marktechpost.com/2026/08/20/liquid-ai-releases-lfm2-5-dspark-draft-models-that-deliver-up-to-3-18x-faster-decoding/",
+      "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "NVIDIA Releases TensorRT Model Connect Public Preview: HF to C++ in Two Commands",
-      "summary": "NVIDIA's TensorRT Model Connect, now in public preview, is an Apache-2.0 project enabling direct conversion from Hugging Face or local checkpoints to end-to-end native C++ TensorRT inference with just two commands, eliminating intermediate ONNX export.",
+      "title": "NVIDIA TensorRT Model Connect in Public Preview: Hugging Face to Native C++ Inference in Two Commands",
+      "summary": "NVIDIA released TensorRT Model Connect, an Apache-2.0 project that enables seamless, two-command conversion from Hugging Face checkpoints to end-to-end TensorRT C++ inference, eliminating the need for intermediate ONNX export and boosting deployment efficiency.",
       "link": "https://www.marktechpost.com/2026/08/18/nvidia-releases-tensorrt-model-connect-in-public-preview-hugging-face-checkpoint-to-native-c-inference-in-two-commands/",
       "source": "MarkTechPost"
     },
     {
-      "title": "DeepSeek AI Releases MIT-Licensed Agent Harness in Developer Preview",
-      "summary": "DeepSeek AI released DeepSeek Harness v0.1 in developer preview, an MIT-licensed agent framework where every capability is a Cordis plugin, offering flexible runtime modes and provider-agnostic model routing for builders.",
-      "link": "https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/",
+      "title": "S1-mini: Superwhisper’s 462 MB Open-Weights Text Normalizer for ASR Transcripts",
+      "summary": "Superwhisper launched S1-mini, a 462 MB open-weights text normalizer designed to process raw ASR transcripts by removing fillers and resolving self-corrections locally, producing clean, written text for enhanced downstream applications.",
+      "link": "https://www.marktechpost.com/2026/08/20/meet-s1-mini-superwhispers-462-mb-open-weights-text-normalizer-that-turns-raw-asr-transcripts-into-clean-written-text/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Google Sheets Canvas Brings Spreadsheet Data to Life with AI",
-      "summary": "Google introduced Sheets canvas, an AI-powered feature for Google Sheets that allows users to transform data into interactive dashboards, custom study trackers, and more using simple prompts, enhancing data visualization and productivity.",
+      "title": "Sheets Canvas Brings AI-Powered Interactive Dashboards to Google Sheets",
+      "summary": "Google Sheets introduces Sheets canvas, transforming spreadsheet data into interactive dashboards, custom trackers, and more with simple prompts, making advanced data visualization and analysis accessible for all users.",
       "link": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
       "source": "Google AI Blog"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Offers Zero Data Retention for Frontier Models, Previews Private Safety Processing",
-      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing, a move to enhance data privacy and trust for enterprises deploying frontier AI models in sensitive environments.",
-      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Replit Expands Software Creation Access with OpenAI's GPT-5.6 Luna",
-      "summary": "Replit introduced Free Mode, powered by OpenAI's GPT-5.6 Luna, allowing anyone to turn ideas into working software without concerns about token costs, significantly democratizing access to AI-assisted development.",
+      "title": "Replit Expands Software Creation Access with GPT-5.6 Luna Free Mode",
+      "summary": "Replit, powered by OpenAI's GPT-5.6 Luna, introduces Free Mode, allowing anyone to turn ideas into working software without worrying about token costs, significantly lowering the barrier to entry for software development.",
       "link": "https://openai.com/index/replit",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Launches Initiative to Strengthen Democratic Oversight in National Security",
-      "summary": "OpenAI is leading an initiative to bolster democratic oversight of AI within national security, providing government institutions with tools, training, and expertise to responsibly integrate and manage AI technologies.",
-      "link": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "title": "OpenAI Offers Zero Data Retention for Frontier Models to Enhance Privacy",
+      "summary": "OpenAI reaffirms its commitment to data privacy by offering Zero Data Retention for eligible API customers using frontier models and previews Private Safety Processing, enabling advanced AI safety without compromising user data privacy.",
+      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
       "source": "OpenAI News"
+    },
+    {
+      "title": "UPDF Launches as a Lightweight Adobe Alternative for the Agentic Era",
+      "summary": "UPDF introduced a lightweight Adobe alternative built for the agentic era, offering direct PDF editing, 14-format conversion, 38-language OCR, and ten integrated AI agents to streamline document management and transformation.",
+      "link": "https://www.marktechpost.com/2026/08/20/meet-updf-a-lightweight-adobe-alternative-built-for-the-agentic-era/",
+      "source": "MarkTechPost"
     }
   ],
   "learning": [
     {
-      "title": "Guide: Auditing Preference Biases & Fine-Tuning LLMs with DPO, TRL, LoRA",
-      "summary": "This tutorial offers an end-to-end workflow for fine-tuning language models using Direct Preference Optimization (DPO), demonstrating how to audit biases in datasets like Anthropic HH-RLHF and implement robust training with TRL and LoRA.",
+      "title": "Tutorial: Fine-Tuning LLMs with DPO on Anthropic HH-RLHF Using TRL and LoRA",
+      "summary": "This tutorial provides an end-to-end workflow for fine-tuning language models using Direct Preference Optimization (DPO), demonstrating how to audit preference biases, implement robust training pipelines with TRL and LoRA, and evaluate model performance.",
       "link": "https://www.marktechpost.com/2026/08/20/auditing-preference-biases-and-fine-tuning-language-models-with-direct-preference-optimization-on-anthropic-hh-rlhf-using-trl-and-lora/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Complete Guide: Fine-Tuning Tool-Calling LLMs with XYZ-Aquila-SFT and Qwen3",
-      "summary": "This comprehensive guide provides a complete pipeline for fine-tuning tool-calling language models, covering trajectory parsing, structured tool-call extraction, Qwen-compatible ChatML rendering, and efficient LoRA adaptation using PyTorch.",
-      "link": "https://www.marktechpost.com/2026/08/15/fine-tuning-tool-calling-llms-a-complete-guide-using-xyz-aquila-sft-and-qwen3/",
-      "source": "MarkTechPost"
+      "title": "The Builder’s Guide to GPT-5.6: Building Faster, Cost-Efficient AI Agents",
+      "summary": "OpenAI released a guide for builders, demonstrating how startups can leverage GPT-5.6 with smarter model selection and new Responses API capabilities to construct faster, more cost-efficient AI agents.",
+      "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "source": "OpenAI News"
     },
     {
-      "title": "Google/Kaggle's AI Agents Intensive Course Reaches 353,000 Learners",
-      "summary": "Google AI Blog recapped its successful AI Agents Intensive with Kaggle, a no-cost course that engaged over 353,000 participants in building and deploying the next generation of AI agents, fostering widespread AI literacy.",
+      "title": "Recap: Kaggle’s AI Agents Intensive with Google Trains 353,000 Learners",
+      "summary": "A recap of Kaggle’s massive AI Agents Intensive with Google highlights a no-cost course that brought together 353,000 learners to build and deploy the next generation of AI agents, showcasing significant community engagement in AI upskilling.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
       "source": "Google AI Blog"
     }
