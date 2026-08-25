@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2026-08-24T12:00:00Z",
+  "lastUpdated": "2026-08-25T12:00:00Z",
   "highlights": [
-    "AI agent capabilities are significantly advancing, with new frameworks enabling more robust, memory-aware, and specialized autonomous systems for complex tasks.",
-    "Major strides are being made in enterprise AI safety and efficient model deployment, driven by new tools optimizing performance and privacy features from leading providers.",
-    "The democratization of AI continues, with open-source model releases, free access to advanced coding tools, and comprehensive educational initiatives empowering a broader range of developers and users."
+    "AI models are seeing significant efficiency gains through innovations like boundary-prediction architectures for information extraction and 4-bit quantization techniques that surpass full-precision performance.",
+    "The agentic AI landscape is rapidly evolving with new robot foundation models capable of one-shot task learning and critical tools such as field-aware RAG routers and agent-readiness scoring for web services.",
+    "Major platforms like OpenAI and Google are enhancing developer offerings with improved model price-performance (GPT-5.6), expanding enterprise AI safety protocols, and launching initiatives for ethical AI governance and literacy."
   ],
   "agents": [
     {
-      "title": "Harvey Introduces Harvey Tenet: Long-Horizon Legal Agent Work",
-      "summary": "Harvey Tenet, a Kimi K3 base model post-trained with Fireworks, significantly enhances long-horizon legal agent task completion, enabling specialized, high-performance AI for complex legal workflows.",
-      "link": "https://www.marktechpost.com/2026/08/23/harvey-tenet-post-trained-kimi-k3-legal-agent-model/",
+      "title": "Generalist AI Releases GEN-1.5: A Robot Foundation Model That Learns New Tasks From One 3–12 Second Demo",
+      "summary": "Generalist AI's GEN-1.5 is a robot foundation model that enables learning new physical tasks from a single 3-12 second sensorimotor demonstration, performing them in-context without fine-tuning or programming, achieving 59% success across diverse manipulation tasks.",
+      "link": "https://www.marktechpost.com/2026/08/24/generalist-ai-releases-gen-1-5-a-robot-foundation-model-that-learns-new-tasks-from-one-3-12-second-demo/",
       "source": "MarkTechPost"
     },
     {
-      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
-      "summary": "This paper formalizes Spec-Driven Agentic Development (SDAD), a paradigm leveraging frontier coding agents to boost software development velocity and precision by prioritizing specification quality and multi-agent verification.",
-      "link": "https://arxiv.org/abs/2608.20341",
+      "title": "SchemaRouter: Field-Aware Tool Routing for Efficient Heterogeneous Agentic RAG",
+      "summary": "SchemaRouter is a lightweight routing layer that optimizes heterogeneous agentic RAG systems by deterministically selecting tools and fields from a schema graph, reducing token usage and latency while improving accuracy and provenance grounding for complex queries.",
+      "link": "https://arxiv.org/abs/2608.21375",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
-      "summary": "PrimeAgentOrchestrator (PAO) is a system that spawns new coding agents pre-loaded with relevant context and memories from personal databases, improving agent efficiency and knowledge retention across sessions by bridging heterogeneous memory systems.",
-      "link": "https://arxiv.org/abs/2608.20342",
-      "source": "arXiv cs.AI"
+      "title": "Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora’s 100+ Checks",
+      "summary": "Vercel and Ora have launched 'Is Agentic,' a free tool providing a readiness score for public websites regarding AI agent interaction, auditing them against 118 checks to help developers optimize their sites for agentic use.",
+      "link": "https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks/",
+      "source": "MarkTechPost"
     }
   ],
   "models": [
     {
-      "title": "Anthropic Brings Claude Mythos 5 to Claude Security",
-      "summary": "Anthropic has integrated its cyber-capable Claude Mythos 5 model into Claude Security, providing enterprise teams with frontier vulnerability scanning capabilities and suggested patches, without requiring direct model access, for enhanced software supply chain security.",
-      "link": "https://www.marktechpost.com/2026/08/21/anthropic-brings-claude-mythos-5-to-claude-security/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Meta Introduces Muse Glimmer: Local, Agentic, Multimodal, and Open Source",
-      "summary": "Meta has released Muse Glimmer, an open-source model that is local, agentic, and multimodal, providing developers with a powerful and flexible foundation for building advanced AI applications with full deployment control.",
-      "link": "https://huggingface.co/blog/muse-glimmer",
+      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "summary": "This research introduces 'Quantization-Aware Healing,' a technique enabling a compressed 4-bit model to outperform its full-precision counterpart, achieving significant efficiency gains in AI without compromising accuracy.",
+      "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
-      "summary": "This research introduces Latent Intent Verification (LIV), a lightweight defense that detects harmful intent in LLMs by analyzing early-layer activations, outperforming standard guardrails against semantic camouflage attacks without model retraining.",
-      "link": "https://arxiv.org/abs/2608.20378",
-      "source": "arXiv cs.AI"
+      "title": "Fastino Releases GLiNER2.5: A Boundary-Prediction Architecture That Removes Span Enumeration From Information Extraction",
+      "summary": "Fastino's GLiNER2.5 improves information extraction by replacing span enumeration with boundary prediction, offering CPU-runnable Apache 2.0 checkpoints, joint entity-relation decoding, span attributes, and 4,096-word context for enhanced performance.",
+      "link": "https://www.marktechpost.com/2026/08/24/fastino-releases-gliner2-5-a-boundary-prediction-architecture-that-removes-span-enumeration-from-information-extraction/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Google Research Introduces ME-POIs: A Mobility-Informed Framework that Adds “How a Place Is Used” to Text-Based POI Embeddings",
+      "summary": "Google Research's ME-POIs framework enriches text-based Point-of-Interest (POI) embeddings by integrating aggregate human movement data, providing insights into a place's usage and significantly boosting performance on map-enrichment tasks.",
+      "link": "https://www.marktechpost.com/2026/08/24/google-research-introduces-me-pois-a-mobility-informed-framework-that-adds-how-a-place-is-used-to-text-based-poi-embeddings/",
+      "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Meet FreeToken: Edge-Native MoE Serving Engine for 753B GLM-5.2 on Single GPU",
-      "summary": "FreeToken is an edge-native MoE serving engine that enables running massive 753B GLM-5.2 models on a single workstation GPU by optimizing cache misses, significantly democratizing access to frontier models for local execution.",
+      "title": "Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU",
+      "summary": "FreeToken is an edge-native Mixture-of-Experts (MoE) serving engine that enables running massive 753B GLM-5.2 models on a single workstation GPU by intelligently managing cache misses, unlocking local deployment of frontier models.",
       "link": "https://www.marktechpost.com/2026/08/23/meet-freetoken-an-edge-native-moe-serving-engine-that-runs-753b-glm-5-2-on-a-single-workstation-gpu/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Nexus: Optimizing Agentic LLMs on Unified Memory with KV-Cache Splicing and Decoupled Tool Routing",
-      "summary": "Nexus optimizes agentic LLM performance on unified memory by decoupling tool routing from schema prefill costs using an INT8 semantic lookaside buffer, delivering up to 1.7x speedup in time-to-first-token and significant token savings.",
-      "link": "https://arxiv.org/abs/2608.20397",
+      "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
+      "summary": "KVBoost is a chunk-level KV cache reuse system that significantly accelerates LLM inference by allowing content reuse regardless of position, achieving 4.49x lower time-to-first-token without accuracy loss, and outperforming prefix caching.",
+      "link": "https://arxiv.org/abs/2608.21362",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Gemini API Managed Agents: 3.6 Flash, Hooks, and Expanded Capabilities",
-      "summary": "Google's Gemini API Managed Agents receive new capabilities, including 3.6 Flash, hooks, background tasks, and remote MCP support, empowering developers to build more reliable and production-ready AI agents efficiently.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "source": "Google AI Blog"
+      "title": "AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance",
+      "summary": "AIREP introduces a new protocol for recording AI runtime governance decisions as signed, verifiable objects, ensuring auditable and tamper-detectable accountability for AI outputs and policy adherence across different systems.",
+      "link": "https://arxiv.org/abs/2608.21363",
+      "source": "arXiv cs.AI"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Offers Zero Data Retention for Frontier Models",
-      "summary": "OpenAI reaffirms its Zero Data Retention policy for eligible API customers and previews Private Safety Processing, enabling advanced AI safety measures without compromising user data privacy, crucial for enterprise adoption.",
-      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro and Replit expands access to software creation with GPT-5.6 Luna",
+      "summary": "OpenAI has made GPT-5.6 available in Kiro, enhancing price-performance for developers in software creation, and partnered with Replit to introduce Free Mode powered by GPT-5.6 Luna, democratizing access to building software.",
+      "link": "https://openai.com/index/gpt-5-6-in-kiro",
       "source": "OpenAI News"
     },
     {
-      "title": "Replit Expands Software Creation Access with GPT-5.6 Luna Free Mode",
-      "summary": "Replit introduces Free Mode, powered by OpenAI's GPT-5.6 Luna, democratizing software creation by allowing anyone to turn ideas into working applications without worrying about token costs, significantly lowering the barrier to entry for developers.",
-      "link": "https://openai.com/index/replit",
+      "title": "OpenAI Disrupts New Covert Influence Campaign from Russia",
+      "summary": "OpenAI proactively banned Russia-origin accounts using AI to run a covert influence campaign, demonstrating its commitment to combating malicious AI use and upholding ethical governance standards.",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
       "source": "OpenAI News"
     },
     {
-      "title": "Asana Cleared 5 Years of Engineering Work in 2 Weeks with Codex",
-      "summary": "Asana leveraged OpenAI Codex to replace an outdated testing system in just two weeks, accomplishing work that was projected to take five years for approximately $12K, demonstrating massive productivity gains and cost efficiency in software development.",
-      "link": "https://openai.com/index/asana",
-      "source": "OpenAI News"
+      "title": "IBM Spyre-Accelerated RAG on LinuxONE: Secure, High-Throughput Enterprise AI Inference",
+      "summary": "IBM introduces a cloud-native RAG architecture on LinuxONE with Spyre accelerators, providing secure, high-throughput enterprise AI inference that keeps sensitive data within a single hardware perimeter, reducing latency up to 20x for regulated industries.",
+      "link": "https://arxiv.org/abs/2608.21393",
+      "source": "arXiv cs.AI"
     }
   ],
   "learning": [
     {
       "title": "The Developer’s Guide to NeMo Guardrails for Enterprise AI Safety",
-      "summary": "This tutorial provides a comprehensive guide to designing production-grade safety for LLM-based applications using NeMo Guardrails, covering advanced techniques like PII redaction, retrieval filtering, and policy-based tool gating for secure and compliant AI assistants.",
+      "summary": "This tutorial provides developers with a guide to implementing production-grade AI safety using the NeMo Guardrails framework, covering layered architectures, PII redaction, retrieval filtering, and policy-based tool gating for LLM applications.",
       "link": "https://www.marktechpost.com/2026/08/22/the-developers-guide-to-nemo-guardrails-for-enterprise-ai-safety/",
       "source": "MarkTechPost"
     },
     {
-      "title": "The Builder’s Guide to GPT‑5.6",
-      "summary": "OpenAI has released a new builder's guide for GPT-5.6, offering practical insights and new API capabilities to help startups and developers build faster, more cost-efficient AI agents with smarter model selection.",
-      "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "source": "OpenAI News"
+      "title": "Building an End-to-End Document Intelligence Pipeline with deepDoctection",
+      "summary": "This guide outlines how to construct a complete document intelligence pipeline using deepDoctection, demonstrating configuration of layout analysis, OCR, table extraction, and custom entity recognition for structured JSONL data crucial for RAG workflows.",
+      "link": "https://www.marktechpost.com/2026/08/23/building-an-end-to-end-document-intelligence-pipeline-with-deepdoctection/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Building an End-to-End Document Intelligence Pipeline with deepDoctection",
-      "summary": "This tutorial guides developers through creating a robust document intelligence pipeline using deepDoctection, covering configuring layout analysis, OCR, table extraction, custom entity recognition, and structured JSONL data generation for RAG workflows.",
-      "link": "https://www.marktechpost.com/2026/08/23/building-an-end-to-end-document-intelligence-pipeline-with-deepdoctection/",
+      "title": "Scientific Data Analysis with LabPlot in Python: Signal Processing, Spectral Peak Fitting, Visualization, and Batch Automation",
+      "summary": "This tutorial explores a LabPlot-inspired scientific data analysis workflow in Python, focusing on signal processing, Fourier analysis, peak detection, curve integration, visualization, and batch automation using reusable components.",
+      "link": "https://www.marktechpost.com/2026/08/23/scientific-data-analysis-with-labplot-in-python-signal-processing-spectral-peak-fitting-visualization-and-batch-automation/",
       "source": "MarkTechPost"
     }
   ]
