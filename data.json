@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-08-27T18:00:00Z",
+  "lastUpdated": "2026-08-28T20:00:00Z",
   "highlights": [
-    "OpenAI accelerates infrastructure control with its new custom 'Jalapeño' inference silicon while simultaneously rolling out GPT-5.6 on the Kiro platform, signaling a massive push for better AI price-performance.",
-    "AI agent design is rapidly moving toward production-ready architectures, fueled by decentralized discovery environments like 'The Station' and FSM-based execution monitoring tools that replace opaque trace histories.",
-    "Evaluation benchmarks are tightening rigor around real-world deployment, exposing severe silent failures in NL2SQL models on enterprise databases and illustrating how sensitive RAG pipelines are to prompt-rendering formats."
+    "The AI development ecosystem is rapidly evolving with new open-source tools like Vercel's `vgpu` for WebGPU shaders and advanced frameworks like GROUND for reliable enterprise LLM analytics, complemented by OpenAI's custom Jalapeño chip boosting inference efficiency.",
+    "Major advancements in multimodal AI models are observed, with Google releasing Gemini 3.5 Transcribe for high-accuracy speech-to-text and Chinese labs independently converging on highly efficient multimodal MoE architectures, signaling a significant trend in model design.",
+    "AI's practical application and upskilling opportunities are expanding, demonstrated by a massive Google/Kaggle AI agents coding course, studies highlighting ChatGPT's benefits in critical thinking, and enhanced agent deployment capabilities through updated Gemini API features and sandbox comparisons."
   ],
   "agents": [
     {
-      "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
-      "summary": "Introduces 'The Station,' a decentralized multi-agent system where heterogeneous LLM agents autonomously collaborate to solve open math problems, successfully proving new theorems and setting bounds on classical mathematical problems.",
-      "link": "https://arxiv.org/abs/2608.23691",
+      "title": "Best Agent Sandboxes in 2026: Cold Start, Per-Second Pricing, and Network Policy Across E2B, Daytona, Modal, Cloudflare, and Vercel",
+      "summary": "A critical comparison of leading AI agent sandboxes, detailing burst cold start, per-second pricing, and policy features across platforms like E2B, Daytona, Modal, Cloudflare, and Vercel, providing essential deployment insights for builders.",
+      "link": "https://www.marktechpost.com/2026/08/27/best-agent-sandboxes-2026-cold-start-pricing-network-policy/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
+      "summary": "CIFQA is a novel multi-agent LLM framework designed for calculation-intensive financial queries, achieving high accuracy by combining specialized agents with deterministic tools, outperforming direct LLM baselines in reliability for high-stakes applications.",
+      "link": "https://arxiv.org/abs/2608.26114",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Automata from Agent Traces: Failure and Next-Step Prediction",
-      "summary": "A model-agnostic framework that collapses unstructured agent logs into compact, discrete Finite State Machines (FSMs), achieving up to 0.94 AUROC in early-failure prediction and serving as a safety-auditing substrate.",
-      "link": "https://arxiv.org/abs/2608.23670",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
-      "summary": "Proposes an agent control framework that records iterative refinements as parent-edit-child transitions, allowing LLM agents to optimize competitive multi-objective material properties much more effectively than standard memory stores.",
-      "link": "https://arxiv.org/abs/2608.23631",
-      "source": "arXiv cs.AI"
-    }
-  ],
-  "models": [
-    {
-      "title": "GPT-5.6 Released in Kiro",
-      "summary": "OpenAI has integrated GPT-5.6 into the Kiro environment, focusing on delivering next-generation price-performance for developers looking to plan, review, build, and test software.",
-      "link": "https://openai.com/index/gpt-5-6-in-kiro",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "MolEmb: Multimodal Large Language Models Can Be Strong Molecular Embedding Models",
-      "summary": "A lightweight alignment framework that enables MLLMs to generate molecular embeddings conditioned on language-based context, matching or exceeding specialists on downstream property prediction and retrieval.",
-      "link": "https://arxiv.org/abs/2608.23646",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Quantization-Aware Healing: Highly Compressed 4-bit Models",
-      "summary": "Presents a novel compression method that heals quantization errors during execution, producing highly-efficient 4-bit models that can outperform their uncompressed full-precision counterparts.",
-      "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "source": "Hugging Face Blog"
-    }
-  ],
-  "tools": [
-    {
-      "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for NL2SQL",
-      "summary": "An open, multi-tier enterprise-grade benchmark designed to test text-to-SQL systems across four database engines, demonstrating massive performance drops and high rates of silent semantic failures on realistic enterprise schemas.",
-      "link": "https://arxiv.org/abs/2608.23569",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "STEP-KTODER: Function-Level Execution Feedback for Code Preference Optimization",
-      "summary": "Decomposes code generation tasks into module-level functions and applies unit-test-based process supervision to significantly surpass human-as-a-judge annotations in LLM preference tuning.",
-      "link": "https://arxiv.org/abs/2608.23632",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
-      "summary": "A benchmark control showing that the exact visual or semantic template format of retrieved memory inputs causes up to a 72-point swing in RAG evaluation scores, indicating formatting is as crucial as retrieval quality.",
-      "link": "https://arxiv.org/abs/2608.23568",
-      "source": "arXiv cs.AI"
-    }
-  ],
-  "companies": [
-    {
-      "title": "OpenAI Announces Custom 'Jalapeño' Inference Silicon",
-      "summary": "Reveals OpenAI's custom hardware accelerator 'Jalapeño,' built to deliver ultra-fast token generation and low-latency throughput specifically designed for advanced, modern inference workloads.",
-      "link": "https://openai.com/index/jalapeno-first-results",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Zero Data Retention & Private Safety Processing for Frontier Models",
-      "summary": "OpenAI guarantees zero data retention for eligible API endpoints and introduces a preview of Private Safety Processing to execute model alignment safeguards while preserving maximum user data privacy.",
-      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Managed Agents in Gemini API Gets 3.6 Flash Support and Hooks",
-      "summary": "Google introduces programmatic hooks and Gemini 3.6 Flash capability into its Gemini API Managed Agents framework, giving developers finer state control for production agent applications.",
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "summary": "Google enhances Gemini API Managed Agents with new capabilities including 3.6 Flash support and hooks, empowering developers to build and deploy more reliable and production-ready AI agents efficiently.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
       "source": "Google AI Blog"
     }
   ],
+  "models": [
+    {
+      "title": "Google AI Releases Gemini 3.5 Transcribe: A Speech-to-Text Model Reporting 2.6% Average WER Across 85+ Languages",
+      "summary": "Google AI launched Gemini 3.5 Transcribe, a state-of-the-art speech-to-text model featuring separate streaming and batch endpoints for flexibility, achieving a low 2.6% average WER across 85+ languages and significantly faster finalization.",
+      "link": "https://www.marktechpost.com/2026/08/27/google-ai-releases-gemini-3-5-transcribe-a-speech-to-text-model-reporting-2-6-average-wer-across-85-languages/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Cohere Releases Parse 5 (parse-v5.0): A 2.3B Vision Language Model That Turns Enterprise Documents Into Markdown",
+      "summary": "Cohere's new Parse 5 (parse-v5.0) is a 2.3B VLM that transforms enterprise documents (PDFs, slides, images) into structured Markdown with rich metadata, streamlining document processing and data extraction for businesses.",
+      "link": "https://www.marktechpost.com/2026/08/27/cohere-releases-parse-5-parse-v5-0-a-2-3b-vision-language-model-that-turns-enterprise-documents-into-markdown/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture",
+      "summary": "Z.ai and Alibaba's Qwen team independently converged on near-identical efficient multimodal MoE architectures (3:1 linear hybrids, compressed indexers, gated residuals, Muon training) with their GLM-5.3-Flash and Qwen3.8-Flash-Next models, signaling a significant trend in model design.",
+      "link": "https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/",
+      "source": "MarkTechPost"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders",
+      "summary": "Vercel AI open-sourced `vgpu`, a TypeScript WebGPU library that treats `.wgsl` files as importable TypeScript modules, enabling developers to run AI agent shaders consistently across browsers, headless Node.js, and CI mocks with a small footprint.",
+      "link": "https://www.marktechpost.com/2026/08/28/vercel-vgpu-webgpu-library-open-source/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "GROUND: Reducing Hallucinations in LLM-Based Enterprise Analytics Through Governed Semantic Definitions",
+      "summary": "GROUND is a new framework that virtually eliminates hallucinations and enforces security in LLM-based enterprise analytics by grounding SQL generation in governed semantic layers and validating against strict business rules, ensuring reliable data access.",
+      "link": "https://arxiv.org/abs/2608.26157",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "summary": "OpenAI's custom inference chip, Jalapeño, demonstrates industry-leading speed and power efficiency for AI inference, delivering higher throughput and lower latency, which is crucial for scalable deployment of modern AI models.",
+      "link": "https://openai.com/index/jalapeno-first-results",
+      "source": "OpenAI News"
+    }
+  ],
+  "companies": [
+    {
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "summary": "OpenAI partnered with Thailand’s MHESI to launch an eight-week accelerator program, supporting 10 health, wellness, and education AI startups in developing and scaling their products.",
+      "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "summary": "OpenAI is expanding ChatGPT for Teachers to 55 additional U.S. school districts, providing secure AI tools, training, and support to over 100,000 educators and staff, significantly broadening its educational impact.",
+      "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "summary": "OpenAI took decisive action to ban Russia-origin accounts involved in a covert influence campaign using AI to promote disinformation, underscoring the company's commitment to combating malicious AI use.",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "source": "OpenAI News"
+    }
+  ],
   "learning": [
     {
-      "title": "Kaggle AI Agents Intensive Course Recap",
-      "summary": "Highlights curriculum takeaways and deployment patterns from a massive 353,000-person practical agent-building cohort hosted by Google.",
+      "title": "Inside our 353,000-person vibe coding course",
+      "summary": "Kaggle and Google successfully hosted a no-cost \"AI Agents Intensive\" coding course for 353,000 learners, empowering a massive community to build and deploy the next generation of AI applications.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
       "source": "Google AI Blog"
     },
     {
-      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-      "summary": "A technical step-by-step guide explaining how to design, connect, and scale complex agentic workflows and interactive UIs natively using Gradio.",
-      "link": "https://huggingface.co/blog/gradio-workflow-guide",
-      "source": "Hugging Face Blog"
+      "title": "From In-Silico to Wet-Lab: Evaluating AI Protein Design Performance",
+      "summary": "A practical tutorial leveraging Anthropic's 1,440 AI-designed protein binder dataset to benchmark structure predictors, guiding researchers on best practices for rigorous cross-validation and evaluating experimental success in AI protein design.",
+      "link": "https://www.marktechpost.com/2026/08/27/from-in-silico-to-wet-lab-evaluating-ai-protein-design-performance/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-      "summary": "An in-depth developer guide on implementing and optimizing late-interaction, multi-vector text embeddings to power higher-recall retrieval engines.",
-      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "source": "Hugging Face Blog"
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "summary": "A randomized study involving over 1,000 students reveals that integrating ChatGPT with critical-thinking training significantly enhances student performance and originality on complex university assignments.",
+      "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "source": "OpenAI News"
     }
   ]
 }
