@@ -1,108 +1,102 @@
 {
-  "lastUpdated": "2026-08-28T20:00:00Z",
+  "lastUpdated": "2026-08-29T17:02:31.208Z",
   "highlights": [
-    "The AI development ecosystem is rapidly evolving with new open-source tools like Vercel's `vgpu` for WebGPU shaders and advanced frameworks like GROUND for reliable enterprise LLM analytics, complemented by OpenAI's custom Jalapeño chip boosting inference efficiency.",
-    "Major advancements in multimodal AI models are observed, with Google releasing Gemini 3.5 Transcribe for high-accuracy speech-to-text and Chinese labs independently converging on highly efficient multimodal MoE architectures, signaling a significant trend in model design.",
-    "AI's practical application and upskilling opportunities are expanding, demonstrated by a massive Google/Kaggle AI agents coding course, studies highlighting ChatGPT's benefits in critical thinking, and enhanced agent deployment capabilities through updated Gemini API features and sandbox comparisons."
+    "Google AI Releases Gemini Omni 1.1 Flash: 40-Second Scene Extension, First/Last Frame Control, and 4K Upscaling",
+    "Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning",
+    "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture"
   ],
   "agents": [
     {
-      "title": "Best Agent Sandboxes in 2026: Cold Start, Per-Second Pricing, and Network Policy Across E2B, Daytona, Modal, Cloudflare, and Vercel",
-      "summary": "A critical comparison of leading AI agent sandboxes, detailing burst cold start, per-second pricing, and policy features across platforms like E2B, Daytona, Modal, Cloudflare, and Vercel, providing essential deployment insights for builders.",
-      "link": "https://www.marktechpost.com/2026/08/27/best-agent-sandboxes-2026-cold-start-pricing-network-policy/",
+      "title": "Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders",
+      "summary": "Vercel has open-sourced vgpu, the WebGPU library it built to ship the shaders on vercel.com. It treats .wgsl files as importable TypeScript modules, r...",
+      "link": "https://www.marktechpost.com/2026/08/28/vercel-vgpu-webgpu-library-open-source/",
       "source": "MarkTechPost"
     },
     {
-      "title": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
-      "summary": "CIFQA is a novel multi-agent LLM framework designed for calculation-intensive financial queries, achieving high accuracy by combining specialized agents with deterministic tools, outperforming direct LLM baselines in reliability for high-stakes applications.",
-      "link": "https://arxiv.org/abs/2608.26114",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "summary": "Google enhances Gemini API Managed Agents with new capabilities including 3.6 Flash support and hooks, empowering developers to build and deploy more reliable and production-ready AI agents efficiently.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "source": "Google AI Blog"
-    }
-  ],
-  "models": [
-    {
       "title": "Google AI Releases Gemini 3.5 Transcribe: A Speech-to-Text Model Reporting 2.6% Average WER Across 85+ Languages",
-      "summary": "Google AI launched Gemini 3.5 Transcribe, a state-of-the-art speech-to-text model featuring separate streaming and batch endpoints for flexibility, achieving a low 2.6% average WER across 85+ languages and significantly faster finalization.",
+      "summary": "Google has released Gemini 3.5 Transcribe, a speech-to-text model that ships as two separate endpoints rather than one. The streaming endpoint deliver...",
       "link": "https://www.marktechpost.com/2026/08/27/google-ai-releases-gemini-3-5-transcribe-a-speech-to-text-model-reporting-2-6-average-wer-across-85-languages/",
       "source": "MarkTechPost"
     },
     {
+      "title": "Best Agent Sandboxes in 2026: Cold Start, Per-Second Pricing, and Network Policy Across E2B, Daytona, Modal, Cloudflare, and Vercel",
+      "summary": "Every agent that writes code needs somewhere to run it, and no two vendors quote the same units. This comparison measures burst cold start across E2B,...",
+      "link": "https://www.marktechpost.com/2026/08/27/best-agent-sandboxes-2026-cold-start-pricing-network-policy/",
+      "source": "MarkTechPost"
+    }
+  ],
+  "models": [
+    {
+      "title": "Google AI Releases Gemini Omni 1.1 Flash: 40-Second Scene Extension, First/Last Frame Control, and 4K Upscaling",
+      "summary": "We look at Gemini Omni 1.1 Flash, Google's production update to its native multimodal video generation and editing model. We break down what changed: ...",
+      "link": "https://www.marktechpost.com/2026/08/29/google-ai-releases-gemini-omni-1-1-flash-40-second-scene-extension-first-last-frame-control-and-4k-upscaling/",
+      "source": "MarkTechPost"
+    },
+    {
       "title": "Cohere Releases Parse 5 (parse-v5.0): A 2.3B Vision Language Model That Turns Enterprise Documents Into Markdown",
-      "summary": "Cohere's new Parse 5 (parse-v5.0) is a 2.3B VLM that transforms enterprise documents (PDFs, slides, images) into structured Markdown with rich metadata, streamlining document processing and data extraction for businesses.",
+      "summary": "Cohere has released Parse (parse-v5.0), a 2.3B-parameter vision language model that converts PDFs, slides and images into Markdown with HTML tables, b...",
       "link": "https://www.marktechpost.com/2026/08/27/cohere-releases-parse-5-parse-v5-0-a-2-3b-vision-language-model-that-turns-enterprise-documents-into-markdown/",
       "source": "MarkTechPost"
     },
     {
-      "title": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture",
-      "summary": "Z.ai and Alibaba's Qwen team independently converged on near-identical efficient multimodal MoE architectures (3:1 linear hybrids, compressed indexers, gated residuals, Muon training) with their GLM-5.3-Flash and Qwen3.8-Flash-Next models, signaling a significant trend in model design.",
-      "link": "https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/",
+      "title": "Google Research Introduces GlucoFM: A 0.72M-Parameter Dual-Stream Foundation Model for Continuous Glucose Monitoring",
+      "summary": "Google Research and UNSW Sydney released GlucoFM, a self-supervised foundation model that splits a CGM trace into a slow physiological stream and a tr...",
+      "link": "https://www.marktechpost.com/2026/08/26/google-research-introduces-glucofm-a-0-72m-parameter-dual-stream-foundation-model-for-continuous-glucose-monitoring/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders",
-      "summary": "Vercel AI open-sourced `vgpu`, a TypeScript WebGPU library that treats `.wgsl` files as importable TypeScript modules, enabling developers to run AI agent shaders consistently across browsers, headless Node.js, and CI mocks with a small footprint.",
-      "link": "https://www.marktechpost.com/2026/08/28/vercel-vgpu-webgpu-library-open-source/",
-      "source": "MarkTechPost"
+      "title": "5 ways AI Mode in Search helps you enjoy the real world",
+      "summary": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert ticke...",
+      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "GROUND: Reducing Hallucinations in LLM-Based Enterprise Analytics Through Governed Semantic Definitions",
-      "summary": "GROUND is a new framework that virtually eliminates hallucinations and enforces security in LLM-based enterprise analytics by grounding SQL generation in governed semantic layers and validating against strict business rules, ensuring reliable data access.",
-      "link": "https://arxiv.org/abs/2608.26157",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "summary": "OpenAI's custom inference chip, Jalapeño, demonstrates industry-leading speed and power efficiency for AI inference, delivering higher throughput and lower latency, which is crucial for scalable deployment of modern AI models.",
-      "link": "https://openai.com/index/jalapeno-first-results",
-      "source": "OpenAI News"
+      "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+      "summary": "No description available.",
+      "link": "https://huggingface.co/blog/pwc-search",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "Supporting Thailand’s next generation of AI startups",
-      "summary": "OpenAI partnered with Thailand’s MHESI to launch an eight-week accelerator program, supporting 10 health, wellness, and education AI startups in developing and scaling their products.",
-      "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the countr...",
+      "link": "https://openai.com/index/expanding-our-presence-in-brazil",
       "source": "OpenAI News"
     },
     {
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "summary": "OpenAI is expanding ChatGPT for Teachers to 55 additional U.S. school districts, providing secure AI tools, training, and support to over 100,000 educators and staff, significantly broadening its educational impact.",
-      "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "title": "How loveholidays is making everyone a builder with Codex",
+      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster...",
+      "link": "https://openai.com/index/loveholidays",
       "source": "OpenAI News"
     },
     {
       "title": "Disrupting a new covert influence campaign from Russia",
-      "summary": "OpenAI took decisive action to ban Russia-origin accounts involved in a covert influence campaign using AI to promote disinformation, underscoring the company's commitment to combating malicious AI use.",
+      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the ...",
       "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Inside our 353,000-person vibe coding course",
-      "summary": "Kaggle and Google successfully hosted a no-cost \"AI Agents Intensive\" coding course for 353,000 learners, empowering a massive community to build and deploy the next generation of AI applications.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "From In-Silico to Wet-Lab: Evaluating AI Protein Design Performance",
-      "summary": "A practical tutorial leveraging Anthropic's 1,440 AI-designed protein binder dataset to benchmark structure predictors, guiding researchers on best practices for rigorous cross-validation and evaluating experimental success in AI protein design.",
-      "link": "https://www.marktechpost.com/2026/08/27/from-in-silico-to-wet-lab-evaluating-ai-protein-design-performance/",
+      "title": "Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning",
+      "summary": "Pollen Robotics, the Bordeaux robotics team at Hugging Face, opened pre-orders for Microduck — a 25 cm bipedal robot where every movement is a neural ...",
+      "link": "https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "summary": "A randomized study involving over 1,000 students reveals that integrating ChatGPT with critical-thinking training significantly enhances student performance and originality on complex university assignments.",
-      "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "source": "OpenAI News"
+      "title": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture",
+      "summary": "Z.ai and Qwen independently shipped near-identical architectures: 3:1 linear hybrids, compressed indexers, gated residuals, and Muon training.\nThe pos...",
+      "link": "https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "From In-Silico to Wet-Lab: Evaluating AI Protein Design Performance",
+      "summary": "In this tutorial, we analyze Anthropic’s 1,440 AI-designed protein binder dataset to benchmark 10 leading structure predictors. Discover how target id...",
+      "link": "https://www.marktechpost.com/2026/08/27/from-in-silico-to-wet-lab-evaluating-ai-protein-design-performance/",
+      "source": "MarkTechPost"
     }
   ]
 }
