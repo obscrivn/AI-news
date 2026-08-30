@@ -1,102 +1,108 @@
 {
-  "lastUpdated": "2026-08-29T17:02:31.208Z",
+  "lastUpdated": "2026-08-30T10:00:00Z",
   "highlights": [
-    "Google AI Releases Gemini Omni 1.1 Flash: 40-Second Scene Extension, First/Last Frame Control, and 4K Upscaling",
-    "Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning",
-    "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture"
+    "OpenAI accelerates its hardware and software vertical integration, unveiling the custom 'Jalapeño' inference silicon alongside launching GPT-5.6 in the Kiro developer environment.",
+    "The translation of AI agents into physical spaces gains standardization and cost-efficiency via Anthropic's Model Hardware Standard (MHS) and Hugging Face's $399 Microduck bipedal robot.",
+    "Web-native agentic tooling reaches production-grade maturity with Google expanding Managed Agents with Gemini 3.6 Flash and Vercel open-sourcing vgpu for deterministic agent shaders."
   ],
   "agents": [
     {
-      "title": "Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders",
-      "summary": "Vercel has open-sourced vgpu, the WebGPU library it built to ship the shaders on vercel.com. It treats .wgsl files as importable TypeScript modules, r...",
-      "link": "https://www.marktechpost.com/2026/08/28/vercel-vgpu-webgpu-library-open-source/",
+      "title": "Anthropic Model Hardware Standard (MHS) Research Preview",
+      "summary": "Anthropic released a shared driver specification over MCP, allowing AI agents to safely discover and operate physical laboratory and manufacturing equipment with safety limits enforced in the driver.",
+      "link": "https://www.marktechpost.com/2026/08/29/anthropic-opens-a-research-preview-of-the-model-hardware-standard-mhs-a-shared-specification-for-ai-agents-to-safely-operate-physical-devices/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Google AI Releases Gemini 3.5 Transcribe: A Speech-to-Text Model Reporting 2.6% Average WER Across 85+ Languages",
-      "summary": "Google has released Gemini 3.5 Transcribe, a speech-to-text model that ships as two separate endpoints rather than one. The streaming endpoint deliver...",
-      "link": "https://www.marktechpost.com/2026/08/27/google-ai-releases-gemini-3-5-transcribe-a-speech-to-text-model-reporting-2-6-average-wer-across-85-languages/",
+      "title": "Code-as-World: Agentic Video-to-Physics Compilation",
+      "summary": "This framework compiles real-world video into editable, verified MuJoCo scene code, establishing a closed agentic loop to train models in rigorous, interactive physical reasoning.",
+      "link": "https://www.marktechpost.com/2026/08/29/mirros-code-as-world-executable-world-representations/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Best Agent Sandboxes in 2026: Cold Start, Per-Second Pricing, and Network Policy Across E2B, Daytona, Modal, Cloudflare, and Vercel",
-      "summary": "Every agent that writes code needs somewhere to run it, and no two vendors quote the same units. This comparison measures burst cold start across E2B,...",
-      "link": "https://www.marktechpost.com/2026/08/27/best-agent-sandboxes-2026-cold-start-pricing-network-policy/",
-      "source": "MarkTechPost"
+      "title": "Expanding Managed Agents in Gemini API",
+      "summary": "Google introduced Gemini 3.6 Flash and tool hook capabilities directly into the Gemini API Managed Agents ecosystem, streamlining the orchestration of reliable, multi-turn AI workflows.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "source": "Google AI Blog"
     }
   ],
   "models": [
     {
-      "title": "Google AI Releases Gemini Omni 1.1 Flash: 40-Second Scene Extension, First/Last Frame Control, and 4K Upscaling",
-      "summary": "We look at Gemini Omni 1.1 Flash, Google's production update to its native multimodal video generation and editing model. We break down what changed: ...",
+      "title": "OpenAI Releases GPT-5.6 in Kiro",
+      "summary": "Offering advanced reasoning and software engineering planning capabilities, OpenAI launched GPT-5.6 in the Kiro environment with a focus on optimization and cost-efficiency for builders.",
+      "link": "https://openai.com/index/gpt-5-6-in-kiro",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Google Gemini Omni 1.1 Flash",
+      "summary": "This production update for native multimodal video generation introduces up to 40-second scene extensions, precise first-and-last frame pinning, 4K upscaling, and character consistency mapping.",
       "link": "https://www.marktechpost.com/2026/08/29/google-ai-releases-gemini-omni-1-1-flash-40-second-scene-extension-first-last-frame-control-and-4k-upscaling/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Cohere Releases Parse 5 (parse-v5.0): A 2.3B Vision Language Model That Turns Enterprise Documents Into Markdown",
-      "summary": "Cohere has released Parse (parse-v5.0), a 2.3B-parameter vision language model that converts PDFs, slides and images into Markdown with HTML tables, b...",
+      "title": "Cohere Releases Parse 5 (v5.0)",
+      "summary": "A 2.3B parameter document intelligence vision-language model designed to cheaply and securely convert enterprise PDFs, charts, and slide decks into highly structured, clean Markdown documents.",
       "link": "https://www.marktechpost.com/2026/08/27/cohere-releases-parse-5-parse-v5-0-a-2-3b-vision-language-model-that-turns-enterprise-documents-into-markdown/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Google Research Introduces GlucoFM: A 0.72M-Parameter Dual-Stream Foundation Model for Continuous Glucose Monitoring",
-      "summary": "Google Research and UNSW Sydney released GlucoFM, a self-supervised foundation model that splits a CGM trace into a slow physiological stream and a tr...",
-      "link": "https://www.marktechpost.com/2026/08/26/google-research-introduces-glucofm-a-0-72m-parameter-dual-stream-foundation-model-for-continuous-glucose-monitoring/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "5 ways AI Mode in Search helps you enjoy the real world",
-      "summary": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert ticke...",
-      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
-      "source": "Google AI Blog"
+      "title": "Hugging Face and Pollen Robotics Unveil Microduck",
+      "summary": "A $399 open-source, 25 cm bipedal robot with an Apache-2.0 training stack that enables desk-side sim-to-real reinforcement learning using MuJoCo and ONNX neural policies.",
+      "link": "https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
-      "summary": "No description available.",
-      "link": "https://huggingface.co/blog/pwc-search",
+      "title": "Vercel AI Open-Sources vgpu Library",
+      "summary": "vgpu treats WGSL shader files as importable TypeScript modules, allowing developers to execute deterministic GPU-accelerated effects in browsers, headless Node.js, and CI environments.",
+      "link": "https://www.marktechpost.com/2026/08/28/vercel-vgpu-webgpu-library-open-source/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Streaming Robotics Data Loop with Strands, LeRobot, and HF Buckets",
+      "summary": "This integration combines Amazon's Strands Agents with LeRobot and Hugging Face Storage Buckets, enabling developers to record physical demonstrations, train models, and deploy neural policies from a single location.",
+      "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
       "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "Expanding OpenAI’s presence in Brazil",
-      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the countr...",
-      "link": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "title": "OpenAI Unveils Custom Inference Silicon 'Jalapeño'",
+      "summary": "OpenAI announced its custom-designed 'Jalapeño' inference chip, reporting industry-leading throughput, low latency, and highly efficient energy consumption profiles for next-generation frontier models.",
+      "link": "https://openai.com/index/jalapeno-first-results",
       "source": "OpenAI News"
     },
     {
-      "title": "How loveholidays is making everyone a builder with Codex",
-      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster...",
-      "link": "https://openai.com/index/loveholidays",
+      "title": "OpenAI Wounds Down Cursor Contract Post-SpaceX Acquisition",
+      "summary": "Following SpaceX's acquisition of the popular AI-native code editor Cursor, OpenAI announced it is winding down its contract to provide commercial frontier models to the Cursor platform.",
+      "link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
       "source": "OpenAI News"
     },
     {
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the ...",
-      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "title": "OpenAI and Hugging Face Post-Incident Joint Security Report",
+      "summary": "OpenAI released findings and remediation paths following a joint security investigation with Hugging Face, detailing new measures for pipeline hardening, access control, and model integrity checking.",
+      "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning",
-      "summary": "Pollen Robotics, the Bordeaux robotics team at Hugging Face, opened pre-orders for Microduck — a 25 cm bipedal robot where every movement is a neural ...",
-      "link": "https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot/",
+      "title": "Kaggle AI Agents Intensive Guide and Recap",
+      "summary": "Google details the curriculum and developer takeaways from its 353,000-person, zero-cost Kaggle intensive on creating, executing, and monitoring complex autonomous agent graphs.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "source": "Google AI Blog"
+    },
+    {
+      "title": "Ensemble Weather Forecasting with NVIDIA Earth2Studio",
+      "summary": "A developer guide to setting up Earth2Studio, utilizing PyTorch, and building custom turbine-level wind diagnostics to transform global atmospheric forecasts into local energy predictions.",
+      "link": "https://www.marktechpost.com/2026/08/29/building-custom-batched-ensemble-weather-forecasting-with-nvidia-earth2studio/",
       "source": "MarkTechPost"
     },
     {
-      "title": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture",
-      "summary": "Z.ai and Qwen independently shipped near-identical architectures: 3:1 linear hybrids, compressed indexers, gated residuals, and Muon training.\nThe pos...",
-      "link": "https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "From In-Silico to Wet-Lab: Evaluating AI Protein Design Performance",
-      "summary": "In this tutorial, we analyze Anthropic’s 1,440 AI-designed protein binder dataset to benchmark 10 leading structure predictors. Discover how target id...",
-      "link": "https://www.marktechpost.com/2026/08/27/from-in-silico-to-wet-lab-evaluating-ai-protein-design-performance/",
-      "source": "MarkTechPost"
+      "title": "Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "summary": "A hands-on technical tutorial for training late-interaction, multi-vector embedding models to build highly accurate and robust document search pipelines.",
+      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "source": "Hugging Face Blog"
     }
   ]
 }
