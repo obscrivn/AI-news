@@ -1,106 +1,106 @@
 {
-  "lastUpdated": "2026-08-31T05:04:10Z",
+  "lastUpdated": "2026-09-01T16:00:00Z",
   "highlights": [
-    "AI agents are rapidly advancing towards practical real-world deployment, with Anthropic introducing a standard for safe physical device interaction and Google enhancing agent training environments for adaptive learning.",
-    "OpenAI showcases robust commercial growth, hitting a $1 billion annualized revenue run rate for ChatGPT Ads, alongside strategic advancements in custom inference hardware with their new Jalapeño chip.",
-    "The open-source community is significantly empowering builders, delivering a high-performance WebGPU library for AI agent shaders and an affordable, open-source bipedal robot platform for reinforcement learning."
+    "Leading AI companies are rapidly advancing core model capabilities, evidenced by Google's new zero-shot multivariate time series forecasting model and OpenAI's custom inference chip designed for superior speed and efficiency.",
+    "The development of more robust and safer AI agents is accelerating, with Anthropic's new Model Hardware Standard facilitating secure physical device operation and novel frameworks emerging for efficient GUI agent training.",
+    "Tooling for AI development and deployment is expanding significantly, including Hugging Face's WebGPU kernels for local AI and Google's enhanced Gemini API, making powerful AI capabilities more accessible for builders."
   ],
   "agents": [
     {
-      "title": "Anthropic Opens a Research Preview of the Model Hardware Standard (MHS)",
-      "summary": "Anthropic unveiled MHS, a shared driver specification enabling AI agents to safely discover and operate physical devices, drastically reducing instrument integration time from weeks to hours.",
+      "title": "Anthropic Introduces Model Hardware Standard (MHS) for Safe AI Agent Operation",
+      "summary": "Anthropic opened a research preview of MHS, a shared driver specification enabling AI agents to safely discover and operate physical devices, drastically reducing integration time for hardware interaction while enforcing safety limits.",
       "link": "https://www.marktechpost.com/2026/08/29/anthropic-opens-a-research-preview-of-the-model-hardware-standard-mhs-a-shared-specification-for-ai-agents-to-safely-operate-physical-devices/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Google AI Introduces EnvHarness: Adaptive Training Worlds for Agents",
-      "summary": "Google AI released EnvHarness, an Apache-2.0 programmable layer that transforms static agent benchmarks into adaptive training environments, improving skill acquisition and reducing execution steps.",
-      "link": "https://www.marktechpost.com/2026/08/30/google-ai-introduces-envharness-a-programmable-layer-that-turns-static-agent-environments-into-adaptive-training-worlds/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "WM-R1: Training GUI Agents with World Models and RL",
-      "summary": "WM-R1 is a novel reinforcement learning framework for mobile GUI agents that trains with world models instead of real environments, significantly reducing resource costs and improving stability by embedding world models directly into the agent's reasoning process.",
+      "title": "WM-R1: Reinforcement Learning Framework Trains GUI Agents with World Models",
+      "summary": "WM-R1 introduces the first reinforcement learning framework for mobile GUI agents that leverages world models for training instead of real environments, significantly reducing resource costs and improving stability by enabling agents to reason about action consequences.",
       "link": "https://arxiv.org/abs/2608.27508",
       "source": "arXiv cs.AI"
+    },
+    {
+      "title": "Princeton, Ant Group, and Stanford Introduce AQuA for Autonomous Factor Discovery in Quantitative Finance",
+      "summary": "Researchers unveiled AQuA, a two-part agentic framework addressing the challenge of data corruption in quantitative finance by allowing autonomous factor discovery and model development without agents corrupting their own evidence, enhancing research integrity.",
+      "link": "https://www.marktechpost.com/2026/09/01/aqua-a-two-part-agentic-framework-for-autonomous-factor-discovery/",
+      "source": "MarkTechPost"
     }
   ],
   "models": [
     {
-      "title": "Google AI Releases Gemini Omni 1.1 Flash: Scene Extension, Frame Control, and 4K Upscaling",
-      "summary": "Google's Gemini Omni 1.1 Flash enhances multimodal video generation and editing with up to 40-second scene extension, precise first/last frame control, and 4K upscaling, offering greater creative flexibility.",
-      "link": "https://www.marktechpost.com/2026/08/29/google-ai-releases-gemini-omni-1-1-flash-40-second-scene-extension-first-last-frame-control-and-4k-upscaling/",
+      "title": "Google AI Releases TimesFM-3: Zero-Shot Foundation Model for Multivariate Time Series Forecasting",
+      "summary": "Google Research released TimesFM-3, a 330M parameter foundation model natively pretrained for multivariate time series forecasting, achieving top ranks on major benchmarks without task-specific fine-tuning, though under a non-commercial license.",
+      "link": "https://www.marktechpost.com/2026/08/31/google-ai-releases-timesfm-3-a-330m-parameter-zero-shot-foundation-model-for-multivariate-time-series-forecasting/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Nemotron 3.5 Content Safety Moderator: Compact, Multimodal, Multilingual Safety Model",
-      "summary": "Nemotron 3.5 CS is a compact 4B vision-language safety moderator that classifies prompts, images, and responses across 12 languages, providing safety labels and optional reasoning traces for custom policy enforcement.",
+      "title": "Nemotron 3.5 Content Safety Moderator: Compact Multimodal, Multilingual, Reasoning-Enabled",
+      "summary": "NVIDIA introduced Nemotron 3.5 CS, a compact 4B vision-language model for joint content safety moderation of user prompts, images, and assistant responses across 12 languages, capable of providing reasoning traces for policy application and audit.",
       "link": "https://arxiv.org/abs/2608.27548",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "summary": "OpenAI has made GPT‑5.6 available in Kiro, offering developers improved price-performance for planning, building, reviewing, and testing software.",
-      "link": "https://openai.com/index/gpt-5-6-in-kiro",
-      "source": "OpenAI News"
+      "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Local Model",
+      "summary": "A study demonstrates that a single 9 GB open-weight model (Qwen2.5-14B) can encapsulate 41 years of Jeopardy! knowledge, achieving 67.0% accuracy on over half a million clues, showing portable and essentially free access to vast cultural knowledge.",
+      "link": "https://arxiv.org/abs/2608.27459",
+      "source": "arXiv cs.AI"
     }
   ],
   "tools": [
     {
-      "title": "Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders",
-      "summary": "Vercel released vgpu, an open-source TypeScript WebGPU library that simplifies the use of shaders for AI agents in web environments, enabling performant graphics and deterministic testing across platforms.",
-      "link": "https://www.marktechpost.com/2026/08/28/vercel-vgpu-webgpu-library-open-source/",
-      "source": "MarkTechPost"
+      "title": "@huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "summary": "Hugging Face released @huggingface/kernels, providing over 200 WebGPU kernels for local AI inference, enabling developers to run advanced AI models efficiently directly within web browsers with hardware acceleration.",
+      "link": "https://huggingface.co/blog/webgpu-kernels",
+      "source": "Hugging Face Blog"
     },
     {
-      "title": "OpenClaw Releases OpenClaw 2.0: Guided Model Setup and Faster Control UI",
-      "summary": "OpenClaw 2.0 brings significant enhancements including guided model setup, a drastically faster Control UI startup (575 ms), and introduces shared cloud sessions, improving collaboration and developer experience.",
-      "link": "https://www.marktechpost.com/2026/08/30/openclaw-releases-openclaw-2-0-guided-model-setup-575-ms-control-ui-startup-and-one-trust-boundary-per-gateway/",
-      "source": "MarkTechPost"
+      "title": "Gemini API Managed Agents Expands with Flash, Hooks, and New Capabilities",
+      "summary": "Google announced new capabilities for Managed Agents in the Gemini API, including 3.6 Flash and hooks, empowering developers to build more reliable and production-ready AI agents with advanced features and greater control.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Hugging Face Unveils Microduck: A $399 Open-Source RL Biped Robot",
-      "summary": "Hugging Face, through Pollen Robotics, launched Microduck, a $399 open-source bipedal robot for reinforcement learning, making sim-to-real robotics research accessible with a full training stack and hardware.",
-      "link": "https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot/",
+      "title": "Keenable AI Open-Sources NEEDLE: Live Search Benchmark Rebuilds Query Set Hourly",
+      "summary": "Keenable AI open-sourced NEEDLE, a live search benchmark that rebuilds its query set every hour, preventing search agents from gaming the evaluation process by reading static answer keys, ensuring robust and fair assessment of web search APIs.",
+      "link": "https://www.marktechpost.com/2026/08/31/keenable-ai-open-sources-needle-a-live-search-benchmark-that-rebuilds-its-query-set-every-hour/",
       "source": "MarkTechPost"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI: ChatGPT Ads Reaches $1 Billion Annualized Revenue",
-      "summary": "OpenAI's ChatGPT Ads has achieved a $1 billion annualized revenue run rate, demonstrating significant commercial success and enabling broader access to AI through its free and affordable options globally.",
+      "title": "OpenAI’s ChatGPT Ads Reaches $1 Billion Annualized Revenue Run Rate",
+      "summary": "OpenAI announced that ChatGPT Ads has hit a $1 billion annualized revenue run rate and is expanding globally, marking a significant commercial milestone that supports broader access to AI through free and affordable options.",
       "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI's Jalapeño Chip Shows Industry-Leading AI Inference Speed and Efficiency",
-      "summary": "OpenAI announced first results for Jalapeño, their custom inference chip, showcasing superior speed and power efficiency for AI inference, promising higher throughput and lower latency for modern models.",
+      "title": "OpenAI’s Jalapeño Custom Inference Chip Shows Industry-Leading Speed and Efficiency",
+      "summary": "OpenAI's custom inference chip, Jalapeño, demonstrated industry-leading speed and power efficiency for AI inference, promising higher throughput and lower latency for modern models, indicating a strategic advantage in AI hardware.",
       "link": "https://openai.com/index/jalapeno-first-results",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Supports Thailand’s Next Generation of AI Startups",
-      "summary": "OpenAI, in partnership with Thailand's MHESI, launched an eight-week accelerator program to help 10 health, wellness, and education startups develop AI prototypes into trusted products, fostering local AI innovation.",
-      "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "source": "OpenAI News"
+      "title": "Google Pics: Easy Image Creation and Editing Now in Google Workspace",
+      "summary": "Google launched Google Pics, an image creation and editing tool built on its Nano Banana model, now available in Google Workspace, providing users with easy-to-use AI capabilities for visual content directly within their productivity suite.",
+      "link": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Google AI's 353,000-Person AI Agents Intensive Coding Course",
-      "summary": "Kaggle's free AI Agents Intensive, powered by Google, successfully brought together over 350,000 learners to build and deploy the next generation of AI agents, fostering a massive community of AI builders.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-      "source": "Google AI Blog"
-    },
-    {
       "title": "Building Custom Batched Ensemble Weather Forecasting with NVIDIA Earth2Studio",
-      "summary": "This tutorial provides a practical guide on constructing an ensemble weather forecasting workflow using NVIDIA Earth2Studio, covering installation, model loading, data retrieval, and custom diagnostic implementation for real-world applications.",
+      "summary": "This tutorial guides users through building an ensemble weather forecasting workflow using NVIDIA Earth2Studio, covering installation, model loading, data retrieval, and implementing custom diagnostics for practical application.",
       "link": "https://www.marktechpost.com/2026/08/29/building-custom-batched-ensemble-weather-forecasting-with-nvidia-earth2studio/",
       "source": "MarkTechPost"
     },
     {
+      "title": "Kaggle’s AI Agents Intensive: 353,000-Person Coding Course for AI Agents",
+      "summary": "Google and Kaggle concluded a massive no-cost 'AI Agents Intensive' course, bringing together 353,000 learners to build and deploy the next generation of AI agents, fostering widespread skill development in agentic AI.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "source": "Google AI Blog"
+    },
+    {
       "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-      "summary": "This guide delves into the advanced techniques for training and fine-tuning multi-vector embedding models using Sentence Transformers, providing builders with methods to enhance semantic search and retrieval performance.",
+      "summary": "Hugging Face released a guide on training and finetuning multi-vector embedding models using Sentence Transformers, providing essential knowledge for developers to create highly effective contextual embeddings for diverse AI applications.",
       "link": "https://huggingface.co/blog/train-multi-vector-encoder",
       "source": "Hugging Face Blog"
     }
