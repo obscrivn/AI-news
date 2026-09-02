@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-09-01T16:00:00Z",
+  "lastUpdated": "2026-09-02T17:06:02.920Z",
   "highlights": [
-    "Leading AI companies are rapidly advancing core model capabilities, evidenced by Google's new zero-shot multivariate time series forecasting model and OpenAI's custom inference chip designed for superior speed and efficiency.",
-    "The development of more robust and safer AI agents is accelerating, with Anthropic's new Model Hardware Standard facilitating secure physical device operation and novel frameworks emerging for efficient GUI agent training.",
-    "Tooling for AI development and deployment is expanding significantly, including Hugging Face's WebGPU kernels for local AI and Google's enhanced Gemini API, making powerful AI capabilities more accessible for builders."
+    "Anthropic Introduces Enterprise Frontier Safeguards (EFS): Zero-Data-Retention Privacy Plus Cross-Session Misuse Detection",
+    "Meta Superintelligence Labs Releases Muse Voice Transcribe: One Real-Time Model for Streaming ASR, Diarization, and Endpointing",
+    "Perplexity Releases Hybrid Compute on Mac: Cloud Agents Orchestrate Down to a Local Model, Gated On Device"
   ],
   "agents": [
     {
-      "title": "Anthropic Introduces Model Hardware Standard (MHS) for Safe AI Agent Operation",
-      "summary": "Anthropic opened a research preview of MHS, a shared driver specification enabling AI agents to safely discover and operate physical devices, drastically reducing integration time for hardware interaction while enforcing safety limits.",
-      "link": "https://www.marktechpost.com/2026/08/29/anthropic-opens-a-research-preview-of-the-model-hardware-standard-mhs-a-shared-specification-for-ai-agents-to-safely-operate-physical-devices/",
+      "title": "Perplexity Releases Hybrid Compute on Mac: Cloud Agents Orchestrate Down to a Local Model, Gated On Device",
+      "summary": "Agentic assistants have a structural problem: the context that makes them useful — deal documents, privileged files, client records — is exactly the c...",
+      "link": "https://www.marktechpost.com/2026/09/01/perplexity-releases-hybrid-compute-on-mac-cloud-agents-orchestrate-down-to-a-local-model-gated-on-device/",
       "source": "MarkTechPost"
     },
     {
-      "title": "WM-R1: Reinforcement Learning Framework Trains GUI Agents with World Models",
-      "summary": "WM-R1 introduces the first reinforcement learning framework for mobile GUI agents that leverages world models for training instead of real environments, significantly reducing resource costs and improving stability by enabling agents to reason about action consequences.",
-      "link": "https://arxiv.org/abs/2608.27508",
-      "source": "arXiv cs.AI"
+      "title": "Keenable AI Open-Sources NEEDLE: A Live Search Benchmark That Rebuilds Its Query Set Every Hour",
+      "summary": "How do you benchmark a web search API when the thing being tested can read the answer key? A search agent has a fetch tool. If the gold labels sit in ...",
+      "link": "https://www.marktechpost.com/2026/08/31/keenable-ai-open-sources-needle-a-live-search-benchmark-that-rebuilds-its-query-set-every-hour/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Princeton, Ant Group, and Stanford Introduce AQuA for Autonomous Factor Discovery in Quantitative Finance",
-      "summary": "Researchers unveiled AQuA, a two-part agentic framework addressing the challenge of data corruption in quantitative finance by allowing autonomous factor discovery and model development without agents corrupting their own evidence, enhancing research integrity.",
-      "link": "https://www.marktechpost.com/2026/09/01/aqua-a-two-part-agentic-framework-for-autonomous-factor-discovery/",
+      "title": "Lowest-Latency Inference APIs for Voice and Realtime Agents: A Time to First Token TTFT-First Benchmark",
+      "summary": "Voice agents fail on latency long before they fail on intelligence. Time to first token is the metric most teams use to choose an inference API, and i...",
+      "link": "https://www.marktechpost.com/2026/08/30/lowest-latency-inference-apis-for-voice-and-realtime-agents-a-time-to-first-token-ttft-first-benchmark/",
       "source": "MarkTechPost"
     }
   ],
   "models": [
     {
-      "title": "Google AI Releases TimesFM-3: Zero-Shot Foundation Model for Multivariate Time Series Forecasting",
-      "summary": "Google Research released TimesFM-3, a 330M parameter foundation model natively pretrained for multivariate time series forecasting, achieving top ranks on major benchmarks without task-specific fine-tuning, though under a non-commercial license.",
-      "link": "https://www.marktechpost.com/2026/08/31/google-ai-releases-timesfm-3-a-330m-parameter-zero-shot-foundation-model-for-multivariate-time-series-forecasting/",
+      "title": "Anthropic Releases Claude Fable 5.1 and Claude Mythos 5.1: 52.6% on Terminal-Bench-Science and 75% Cheaper Cache Reads",
+      "summary": "Anthropic has released Claude Fable 5.1 and Claude Mythos 5.1, the same model behind two different safeguard layers. Fable 5.1 is generally available ...",
+      "link": "https://www.marktechpost.com/2026/09/01/anthropic-releases-claude-fable-5-1-and-claude-mythos-5-1-52-6-on-terminal-bench-science-and-75-cheaper-cache-reads/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Nemotron 3.5 Content Safety Moderator: Compact Multimodal, Multilingual, Reasoning-Enabled",
-      "summary": "NVIDIA introduced Nemotron 3.5 CS, a compact 4B vision-language model for joint content safety moderation of user prompts, images, and assistant responses across 12 languages, capable of providing reasoning traces for policy application and audit.",
-      "link": "https://arxiv.org/abs/2608.27548",
-      "source": "arXiv cs.AI"
+      "title": "Gradium AI Releases New Default TTS Model: 81.0% Hard-Case Pass Rate at 216 ms Time-to-First-Audio",
+      "summary": "Speed and accuracy usually pull against each other in text-to-speech. Gradium AI's new default model reports both: an 81.0% human-rated pass rate on 5...",
+      "link": "https://www.marktechpost.com/2026/08/31/gradium-ai-releases-new-default-tts-model-81-0-hard-case-pass-rate-at-216-ms-time-to-first-audio/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Local Model",
-      "summary": "A study demonstrates that a single 9 GB open-weight model (Qwen2.5-14B) can encapsulate 41 years of Jeopardy! knowledge, achieving 67.0% accuracy on over half a million clues, showing portable and essentially free access to vast cultural knowledge.",
-      "link": "https://arxiv.org/abs/2608.27459",
-      "source": "arXiv cs.AI"
+      "title": "Google AI Releases TimesFM-3: A 330M Parameter Zero-Shot Foundation Model For Multivariate Time Series Forecasting",
+      "summary": "Google Research has released TimesFM-3, a 330 million parameter time series foundation model that forecasts multiple related series in a single forwar...",
+      "link": "https://www.marktechpost.com/2026/08/31/google-ai-releases-timesfm-3-a-330m-parameter-zero-shot-foundation-model-for-multivariate-time-series-forecasting/",
+      "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "@huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "summary": "Hugging Face released @huggingface/kernels, providing over 200 WebGPU kernels for local AI inference, enabling developers to run advanced AI models efficiently directly within web browsers with hardware acceleration.",
-      "link": "https://huggingface.co/blog/webgpu-kernels",
-      "source": "Hugging Face Blog"
-    },
-    {
-      "title": "Gemini API Managed Agents Expands with Flash, Hooks, and New Capabilities",
-      "summary": "Google announced new capabilities for Managed Agents in the Gemini API, including 3.6 Flash and hooks, empowering developers to build more reliable and production-ready AI agents with advanced features and greater control.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
       "source": "Google AI Blog"
     },
     {
-      "title": "Keenable AI Open-Sources NEEDLE: Live Search Benchmark Rebuilds Query Set Hourly",
-      "summary": "Keenable AI open-sourced NEEDLE, a live search benchmark that rebuilds its query set every hour, preventing search agents from gaming the evaluation process by reading static answer keys, ensuring robust and fair assessment of web search APIs.",
-      "link": "https://www.marktechpost.com/2026/08/31/keenable-ai-open-sources-needle-a-live-search-benchmark-that-rebuilds-its-query-set-every-hour/",
-      "source": "MarkTechPost"
+      "title": "5 ways AI Mode in Search helps you enjoy the real world",
+      "summary": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert ticke...",
+      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+      "source": "Google AI Blog"
+    },
+    {
+      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "summary": "No description available.",
+      "link": "https://huggingface.co/blog/webgpu-kernels",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI’s ChatGPT Ads Reaches $1 Billion Annualized Revenue Run Rate",
-      "summary": "OpenAI announced that ChatGPT Ads has hit a $1 billion annualized revenue run rate and is expanding globally, marking a significant commercial milestone that supports broader access to AI through free and affordable options.",
-      "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "title": "Anthropic Introduces Enterprise Frontier Safeguards (EFS): Zero-Data-Retention Privacy Plus Cross-Session Misuse Detection",
+      "summary": "Anthropic announced Enterprise Frontier Safeguards on September 1, 2026, an architecture that stores monitoring data in the customer's own cloud accou...",
+      "link": "https://www.marktechpost.com/2026/09/02/anthropic-enterprise-frontier-safeguards-efs/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the fi...",
+      "link": "https://openai.com/index/gilbert-tobin",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI’s Jalapeño Custom Inference Chip Shows Industry-Leading Speed and Efficiency",
-      "summary": "OpenAI's custom inference chip, Jalapeño, demonstrated industry-leading speed and power efficiency for AI inference, promising higher throughput and lower latency for modern models, indicating a strategic advantage in AI hardware.",
-      "link": "https://openai.com/index/jalapeno-first-results",
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the countr...",
+      "link": "https://openai.com/index/expanding-our-presence-in-brazil",
       "source": "OpenAI News"
-    },
-    {
-      "title": "Google Pics: Easy Image Creation and Editing Now in Google Workspace",
-      "summary": "Google launched Google Pics, an image creation and editing tool built on its Nano Banana model, now available in Google Workspace, providing users with easy-to-use AI capabilities for visual content directly within their productivity suite.",
-      "link": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Building Custom Batched Ensemble Weather Forecasting with NVIDIA Earth2Studio",
-      "summary": "This tutorial guides users through building an ensemble weather forecasting workflow using NVIDIA Earth2Studio, covering installation, model loading, data retrieval, and implementing custom diagnostics for practical application.",
-      "link": "https://www.marktechpost.com/2026/08/29/building-custom-batched-ensemble-weather-forecasting-with-nvidia-earth2studio/",
+      "title": "Meta Superintelligence Labs Releases Muse Voice Transcribe: One Real-Time Model for Streaming ASR, Diarization, and Endpointing",
+      "summary": "Most production voice stacks are three systems stitched together. One model transcribes, a second separates speakers, and a detector decides when the ...",
+      "link": "https://www.marktechpost.com/2026/09/01/meta-superintelligence-labs-releases-muse-voice-transcribe-one-real-time-model-for-streaming-asr-diarization-and-endpointing/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Kaggle’s AI Agents Intensive: 353,000-Person Coding Course for AI Agents",
-      "summary": "Google and Kaggle concluded a massive no-cost 'AI Agents Intensive' course, bringing together 353,000 learners to build and deploy the next generation of AI agents, fostering widespread skill development in agentic AI.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-      "source": "Google AI Blog"
+      "title": "Researchers from Princeton, Ant Group and Stanford Introduce AQuA: A Two-Part Agentic Framework for Autonomous Factor Discovery and Model Development in Quantitative Finance",
+      "summary": "Quantitative research agents that write their own experiments can corrupt the evidence they later learn from. A leaky feature that scores well gets st...",
+      "link": "https://www.marktechpost.com/2026/09/01/aqua-a-two-part-agentic-framework-for-autonomous-factor-discovery/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-      "summary": "Hugging Face released a guide on training and finetuning multi-vector embedding models using Sentence Transformers, providing essential knowledge for developers to create highly effective contextual embeddings for diverse AI applications.",
-      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "source": "Hugging Face Blog"
+      "title": "HyperWorld: Hypergraph-Structured State Serialization Improves Learned Textual World Models",
+      "summary": "arXiv:2609.00002v1 Announce Type: new \nAbstract: World models enable language-model agents to predict environment dynamics and plan before acting. In ...",
+      "link": "https://arxiv.org/abs/2609.00002",
+      "source": "arXiv cs.AI"
     }
   ]
 }
