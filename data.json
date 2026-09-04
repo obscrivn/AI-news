@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2026-09-03T12:00:00Z",
+  "lastUpdated": "2026-09-04T16:47:33.885Z",
   "highlights": [
-    "Major AI developers are pushing advanced models, including specialized versions for cyber defense and enhanced enterprise features, alongside significant performance and cost optimizations for builders.",
-    "The ecosystem for building AI agents and applications is rapidly maturing with new open-source tools for local inference, multi-API routing, and robust state/memory management.",
-    "Leading companies are demonstrating strong business growth and expanding global presence, while also focusing on critical aspects like data privacy, ethical AI, and educational integration across various sectors."
+    "Structure and Implementation of New Practical English Textbooks Driven by Artificial Intelligence",
+    "MasterControl Seventeen Every Time",
+    "Speculative Macro Commit for Faster Tool-Using Agents"
   ],
   "agents": [
     {
-      "title": "Perplexity Releases Hybrid Compute on Mac for Private AI",
-      "summary": "Perplexity introduces Hybrid Compute for Mac, enabling cloud agents to orchestrate tasks with local models, ensuring sensitive enterprise data remains on-device for enhanced privacy and security.",
-      "link": "https://www.marktechpost.com/2026/09/01/perplexity-releases-hybrid-compute-on-mac-cloud-agents-orchestrate-down-to-a-local-model-gated-on-device/",
-      "source": "MarkTechPost"
+      "title": "Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory",
+      "summary": "arXiv:2609.03340v1 Announce Type: new \nAbstract: Distributed LLM-agent teams can read the latest shared facts and still act on an obsolete plan. A pla...",
+      "link": "https://arxiv.org/abs/2609.03340",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "AQuA: Agentic Framework for Autonomous Factor Discovery in Finance",
-      "summary": "Researchers introduce AQuA, a two-part agentic framework for autonomous factor discovery and model development in quantitative finance, designed to prevent self-corruption and enhance reliability in agent-driven research.",
-      "link": "https://www.marktechpost.com/2026/09/01/aqua-a-two-part-agentic-framework-for-autonomous-factor-discovery/",
-      "source": "MarkTechPost"
+      "title": "Dude: A Dual-Detection Multi-Agent System for Paper-Code Discrepancy Detection",
+      "summary": "arXiv:2609.03416v1 Announce Type: new \nAbstract: LLM-empowered paper-code discrepancy detection has received growing concern since the scaling of rese...",
+      "link": "https://arxiv.org/abs/2609.03416",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Belief-Calibrated Optimization with Explicit World Models for Agents",
-      "summary": "Belief-Calibrated Optimization (BCO) is a new method where agents maintain and revise an explicit 'world model' document to guide iterative source code edits, significantly improving optimization performance across diverse agent tasks by making implicit beliefs explicit.",
-      "link": "https://arxiv.org/abs/2609.01861",
+      "title": "DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents",
+      "summary": "arXiv:2609.03423v1 Announce Type: new \nAbstract: Full-duplex voice agents must continuously decide when to listen, backchannel, interrupt, handle spee...",
+      "link": "https://arxiv.org/abs/2609.03423",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "Anthropic Releases Claude Fable 5.1 and Claude Mythos 5.1 with Cheaper Cache Reads",
-      "summary": "Anthropic's new Claude models, Fable 5.1 and Mythos 5.1, demonstrate significant improvements in science benchmarks (52.6% on Terminal-Bench-Science) and reduce cache read costs by 75%, offering a 1M token context window.",
-      "link": "https://www.marktechpost.com/2026/09/01/anthropic-releases-claude-fable-5-1-and-claude-mythos-5-1-52-6-on-terminal-bench-science-and-75-cheaper-cache-reads/",
-      "source": "MarkTechPost"
+      "title": "Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation",
+      "summary": "arXiv:2609.03407v1 Announce Type: new \nAbstract: People increasingly turn to large language models (LLMs) for everyday advice, making ethically charge...",
+      "link": "https://arxiv.org/abs/2609.03407",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Google DeepMind Releases Gemini 3.8 Flash and Flash Cyber",
-      "summary": "Google DeepMind unveils Gemini 3.8 Flash and a cybersecurity-focused Flash Cyber variant, both based on the same core intelligence but with distinct safety mitigations, offering specialized capabilities for general and vetted defense applications.",
-      "link": "https://www.marktechpost.com/2026/09/02/google-deepmind-releases-gemini-3-8-flash-and-gemini-3-8-flash-cyber-one-core-model-two-access-envelopes/",
-      "source": "MarkTechPost"
+      "title": "AutoGraphForge: Towards Automated Graph Theory Discovery",
+      "summary": "arXiv:2609.03478v1 Announce Type: new \nAbstract: We report on our ongoing project to develop a computational pipeline, AutoGraphForge, for an automate...",
+      "link": "https://arxiv.org/abs/2609.03478",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Meta Releases Muse Voice Transcribe: Real-Time ASR, Diarization, Endpointing in One Model",
-      "summary": "Meta Superintelligence Labs introduces Muse Voice Transcribe, a single autoregressive model that integrates streaming ASR, speaker diarization, and endpointing into one system, significantly reducing latency and failure modes in voice applications.",
-      "link": "https://www.marktechpost.com/2026/09/01/meta-superintelligence-labs-releases-muse-voice-transcribe-one-real-time-model-for-streaming-asr-diarization-and-endpointing/",
-      "source": "MarkTechPost"
+      "title": "GrowPage: On-Demand KV Budgeting for Efficient LLM Reasoning Serving",
+      "summary": "arXiv:2609.03494v1 Announce Type: new \nAbstract: Long-output reasoning has made the key--value (KV) cache a critical memory bottleneck for efficient L...",
+      "link": "https://arxiv.org/abs/2609.03494",
+      "source": "arXiv cs.AI"
     }
   ],
   "tools": [
     {
-      "title": "Perplexity Open Sources Lily: Rust + Metal Inference Engine for Apple Silicon",
-      "summary": "Perplexity has open-sourced Lily, a high-performance local inference engine built in Rust with custom Metal kernels, significantly improving prefill and decode throughput for Qwen models on Apple Silicon.",
-      "link": "https://www.marktechpost.com/2026/09/02/perplexity-open-sources-lily-a-rust-metal-inference-engine-for-qwen3-6-35b-a3b-on-apple-silicon/",
-      "source": "MarkTechPost"
+      "title": "Proactive cyber defense for governments and enterprises",
+      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Qwen Developers Open-Sources zg: Local-First Search Unifying ripgrep, BM25, Vector Search",
-      "summary": "Qwen Developers released zg (zvec-grep), a local-first search layer that unifies ripgrep, BM25, and vector search under a single interface, enabling agents to seamlessly navigate from natural language queries to exact line spans.",
-      "link": "https://www.marktechpost.com/2026/09/02/qwen-developers-open-sources-zg-zvec-grep-a-local-first-search-layer-unifying-ripgrep-bm25-and-vector-search/",
-      "source": "MarkTechPost"
+      "title": "5 ways AI Mode in Search helps you enjoy the real world",
+      "summary": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert ticke...",
+      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "NVIDIA Releases Switchyard: Rust Proxy for LLM API Routing and Translation",
-      "summary": "NVIDIA introduced Switchyard, an Apache-2.0 Rust proxy and library that routes and translates LLM traffic across OpenAI and Anthropic APIs, allowing clients to run against various LLM providers with a unified interface.",
-      "link": "https://www.marktechpost.com/2026/09/02/nvidia-releases-switchyard-rust-proxy-llm-traffic-openai-anthropic-api-translation/",
-      "source": "MarkTechPost"
+      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "summary": "No description available.",
+      "link": "https://huggingface.co/blog/webgpu-kernels",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "Anthropic Introduces Enterprise Frontier Safeguards (EFS) for Data Privacy",
-      "summary": "Anthropic announced Enterprise Frontier Safeguards (EFS), an architecture designed for zero-data-retention privacy, allowing enterprises to store AI monitoring data in their own cloud while retaining automated misuse detection.",
-      "link": "https://www.marktechpost.com/2026/09/02/anthropic-enterprise-frontier-safeguards-efs/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "OpenAI: ChatGPT Ads Reaches $1 Billion Annualized Revenue Run Rate",
-      "summary": "OpenAI's ChatGPT Ads has achieved a significant milestone, reaching $1 billion in annualized revenue run rate and expanding globally, signaling strong commercial success and broader access to AI capabilities.",
-      "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the fi...",
+      "link": "https://openai.com/index/gilbert-tobin",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI: ChatGPT Connects to Healthcare Data for Clinicians",
-      "summary": "ChatGPT now securely connects to trusted healthcare data, enabling clinicians to access patient context, medical research, and other industry sources, enhancing clinical workflows and information retrieval.",
-      "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "source": "OpenAI News"
+      "title": "The latest AI news we announced in August 2026",
+      "summary": "Here are Google’s latest AI updates from August 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "source": "Google AI Blog"
+    },
+    {
+      "title": "3 new ways to plan and book travel in Search",
+      "summary": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
+      "link": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Benchmarking LLMs for Statistical Problem Formulation with StatFormBench",
-      "summary": "A new benchmark, StatFormBench, is introduced to evaluate LLMs' ability to classify statistical problems and identify relevant variables from informal goals and diverse data, addressing a crucial upstream step in data science work.",
-      "link": "https://arxiv.org/abs/2609.01982",
+      "title": "Structure and Implementation of New Practical English Textbooks Driven by Artificial Intelligence",
+      "summary": "arXiv:2609.02981v1 Announce Type: new \nAbstract: Artificial intelligence is changing the form of applied English materials from fixed paper sequences ...",
+      "link": "https://arxiv.org/abs/2609.02981",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Kaggle's AI Agents Intensive Recap: 353,000 Learners Build Next-Gen AI",
-      "summary": "A recap of Kaggle’s AI Agents Intensive with Google highlights a massive no-cost coding course where over 350,000 learners participated in building and deploying advanced AI agents, fostering a new generation of AI developers.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-      "source": "Google AI Blog"
+      "title": "MasterControl Seventeen Every Time",
+      "summary": "arXiv:2609.03209v1 Announce Type: new \nAbstract: We study a governed approach to enterprise analytics: a language model interprets the question, while...",
+      "link": "https://arxiv.org/abs/2609.03209",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Induction and Inquiry via Probabilistic Reasoning over Language and Code",
-      "summary": "Researchers present a computational model that combines LLM-guided Bayesian learning with language and code representations, effectively reproducing human inductive learning and active inquiry behavior with efficiency and flexibility.",
-      "link": "https://arxiv.org/abs/2609.01815",
+      "title": "Speculative Macro Commit for Faster Tool-Using Agents",
+      "summary": "arXiv:2609.03236v1 Announce Type: new \nAbstract: Tool-using LLM agents spend wall-clock time not only on model inference but also in serial action--ob...",
+      "link": "https://arxiv.org/abs/2609.03236",
       "source": "arXiv cs.AI"
     }
   ]
