@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-09-04T16:47:33.885Z",
+  "lastUpdated": "2026-09-05T12:00:00Z",
   "highlights": [
-    "Structure and Implementation of New Practical English Textbooks Driven by Artificial Intelligence",
-    "MasterControl Seventeen Every Time",
-    "Speculative Macro Commit for Faster Tool-Using Agents"
+    "The official launch of OpenAI's GPT-6 Astra, featuring a 1.05M context and designed heavily for computer use rather than just chat, marks a major inflection point toward highly autonomous enterprise execution.",
+    "Open-source orchestration is trending toward localized, collaborative compute setups, highlighted by NVIDIA's PAIR for distributing local inference and Perplexity's Lily engine optimizing Qwen on Apple Silicon.",
+    "Major agentic infrastructure is maturing rapidly with Anthropic releasing production-ready templates for transactional systems, and researchers developing advanced protocols for task conflicts and speculative executions."
   ],
   "agents": [
     {
-      "title": "Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory",
-      "summary": "arXiv:2609.03340v1 Announce Type: new \nAbstract: Distributed LLM-agent teams can read the latest shared facts and still act on an obsolete plan. A pla...",
-      "link": "https://arxiv.org/abs/2609.03340",
-      "source": "arXiv cs.AI"
+      "title": "Anthropic Released Claude Commerce Agents Blueprint",
+      "summary": "Anthropic has open-sourced an Apache-2.0 reference blueprint detailing the scaffolding, tool layers, approval gates, and evaluation suites needed to deploy commerce and merchant agents.",
+      "link": "https://www.marktechpost.com/2026/09/03/anthropic-released-claude-commerce-agents-an-apache-2-0-blueprint-for-shopping-and-merchant-agents-across-retail-travel-telecom-and-entertainment/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Dude: A Dual-Detection Multi-Agent System for Paper-Code Discrepancy Detection",
-      "summary": "arXiv:2609.03416v1 Announce Type: new \nAbstract: LLM-empowered paper-code discrepancy detection has received growing concern since the scaling of rese...",
-      "link": "https://arxiv.org/abs/2609.03416",
-      "source": "arXiv cs.AI"
+      "title": "Google Launches Agentic Video Understanding for Gemini Flash",
+      "summary": "Gemini Flash models can now actively navigate video files to load only the specific segments required for a prompt, rather than ingesting entire clips, cutting token usage by up to 88%.",
+      "link": "https://www.marktechpost.com/2026/09/04/google-agentic-video-understanding-gemini-flash-models/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents",
-      "summary": "arXiv:2609.03423v1 Announce Type: new \nAbstract: Full-duplex voice agents must continuously decide when to listen, backchannel, interrupt, handle spee...",
-      "link": "https://arxiv.org/abs/2609.03423",
+      "title": "Speculative Macro Commit for Faster Tool-Using Agents",
+      "summary": "This novel runtime mechanism leverages a smaller speculative drafter model to continuously predict and execute action chains, reducing agent latency by up to 44.9% while matching overall accuracy.",
+      "link": "https://arxiv.org/abs/2609.03236",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation",
-      "summary": "arXiv:2609.03407v1 Announce Type: new \nAbstract: People increasingly turn to large language models (LLMs) for everyday advice, making ethically charge...",
-      "link": "https://arxiv.org/abs/2609.03407",
-      "source": "arXiv cs.AI"
+      "title": "OpenAI Releases GPT-6 Astra with 1.05M Context Window",
+      "summary": "Positioned as a computer-use flagship, GPT-6 Astra introduces a massive 1.05M-token context window, replaces standard context compaction with searchable notes, and is the first model restricted under a 'Critical' cybersecurity threshold.",
+      "link": "https://openai.com/index/gpt-6-astra",
+      "source": "OpenAI News"
     },
     {
-      "title": "AutoGraphForge: Towards Automated Graph Theory Discovery",
-      "summary": "arXiv:2609.03478v1 Announce Type: new \nAbstract: We report on our ongoing project to develop a computational pipeline, AutoGraphForge, for an automate...",
-      "link": "https://arxiv.org/abs/2609.03478",
-      "source": "arXiv cs.AI"
+      "title": "Meta AI Releases Muse Spark 1.3 Coding Model",
+      "summary": "The updated agentic coding model optimizes resource usage, executing tasks with approximately 20% fewer tool calls and 25% fewer tokens than the previous 1.2 version.",
+      "link": "https://www.marktechpost.com/2026/09/03/meta-ai-released-muse-spark-1-3-an-agentic-coding-model-that-uses-20-fewer-tool-calls-and-25-fewer-tokens-than-muse-spark-1-2/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "GrowPage: On-Demand KV Budgeting for Efficient LLM Reasoning Serving",
-      "summary": "arXiv:2609.03494v1 Announce Type: new \nAbstract: Long-output reasoning has made the key--value (KV) cache a critical memory bottleneck for efficient L...",
+      "title": "GrowPage: On-Demand KV Budgeting for Servicing Long-Output LLMs",
+      "summary": "This framework dynamically budget Key-Value cache capacities during runtime execution, enabling efficient serves to scale page sizes up and down as reasoning attention evolves.",
       "link": "https://arxiv.org/abs/2609.03494",
       "source": "arXiv cs.AI"
     }
   ],
   "tools": [
     {
-      "title": "Proactive cyber defense for governments and enterprises",
-      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-      "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "source": "Google AI Blog"
+      "title": "NVIDIA Releases Personal AI Router (PAIR)",
+      "summary": "An open-source virtual inference router that proxies existing Ollama and LM Studio endpoints to seamlessly distribute local AI requests across home networks, including RTX and Mac nodes.",
+      "link": "https://www.marktechpost.com/2026/09/04/nvidia-releases-personal-ai-router-pair-an-open-source-virtual-inference-router-that-distributes-local-ai-requests-across-rtx-dgx-spark-and-mac-nodes/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "5 ways AI Mode in Search helps you enjoy the real world",
-      "summary": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert ticke...",
-      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
-      "source": "Google AI Blog"
+      "title": "Perplexity Open Sources Lily Local Inference Engine",
+      "summary": "Written in Rust with customized Metal kernels, Lily is built specifically to accelerate local Qwen model inference on Apple Silicon, surpassing MLX-LM's decode throughput.",
+      "link": "https://www.marktechpost.com/2026/09/02/perplexity-open-sources-lily-a-rust-metal-inference-engine-for-qwen3-6-35b-a3b-on-apple-silicon/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "summary": "No description available.",
-      "link": "https://huggingface.co/blog/webgpu-kernels",
-      "source": "Hugging Face Blog"
+      "title": "Qwen Developers Open-Sources zg (zvec-grep)",
+      "summary": "An Apache-2.0 local-first search layer that unifies ripgrep, BM25, and vector search under a single interface, making it easier for agents to query local documents precisely.",
+      "link": "https://www.marktechpost.com/2026/09/02/qwen-developers-open-sources-zg-zvec-grep-a-local-first-search-layer-unifying-ripgrep-bm25-and-vector-search/",
+      "source": "MarkTechPost"
     }
   ],
   "companies": [
     {
-      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the fi...",
-      "link": "https://openai.com/index/gilbert-tobin",
+      "title": "OpenAI Daybreak for Frontline Defenders $1B Commitment",
+      "summary": "OpenAI has pledged $1 billion to provide cyber AI technologies, hands-on training, and localized technical support to strengthen cybersecurity posture for essential public services.",
+      "link": "https://openai.com/index/daybreak-for-frontline-defenders",
       "source": "OpenAI News"
     },
     {
-      "title": "The latest AI news we announced in August 2026",
-      "summary": "Here are Google’s latest AI updates from August 2026",
-      "link": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "title": "Google Expands Gemini API Managed Agents Capabilities",
+      "summary": "Google has updated its Managed Agents offering within the Gemini API, adding support for Gemini 3.6 Flash and advanced hooks for robust production management.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
       "source": "Google AI Blog"
     },
     {
-      "title": "3 new ways to plan and book travel in Search",
-      "summary": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
-      "link": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
-      "source": "Google AI Blog"
+      "title": "OpenAI Integrates EHR and Healthcare Data Feeds into ChatGPT",
+      "summary": "Healthcare organizations can now securely link Electronic Health Record (EHR) feeds directly to ChatGPT, providing clinicians with instant patient and institutional context.",
+      "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Structure and Implementation of New Practical English Textbooks Driven by Artificial Intelligence",
-      "summary": "arXiv:2609.02981v1 Announce Type: new \nAbstract: Artificial intelligence is changing the form of applied English materials from fixed paper sequences ...",
-      "link": "https://arxiv.org/abs/2609.02981",
-      "source": "arXiv cs.AI"
+      "title": "Google Kaggle AI Agents Intensive Course",
+      "summary": "Google and Kaggle concluded a massive AI agents intensive course designed to guide developers through building, measuring, and deploying real-world agent frameworks.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "MasterControl Seventeen Every Time",
-      "summary": "arXiv:2609.03209v1 Announce Type: new \nAbstract: We study a governed approach to enterprise analytics: a language model interprets the question, while...",
-      "link": "https://arxiv.org/abs/2609.03209",
-      "source": "arXiv cs.AI"
+      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+      "summary": "A comprehensive developer guide detailing how to build and orchestrate complex, multi-step agent pipelines using the latest Gradio workflow primitives.",
+      "link": "https://huggingface.co/blog/gradio-workflow-guide",
+      "source": "Hugging Face Blog"
     },
     {
-      "title": "Speculative Macro Commit for Faster Tool-Using Agents",
-      "summary": "arXiv:2609.03236v1 Announce Type: new \nAbstract: Tool-using LLM agents spend wall-clock time not only on model inference but also in serial action--ob...",
-      "link": "https://arxiv.org/abs/2609.03236",
-      "source": "arXiv cs.AI"
+      "title": "Funes: Give Your Coding Agents a Memory You Own",
+      "summary": "An educational guide and framework on implementing a self-hosted, private database layer to serve as persistent memory for custom coding assistant systems.",
+      "link": "https://huggingface.co/blog/funes",
+      "source": "Hugging Face Blog"
     }
   ]
 }
