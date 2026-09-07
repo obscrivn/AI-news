@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-09-06T16:02:39.284Z",
+  "lastUpdated": "2026-09-07T12:00:00.000000",
   "highlights": [
-    "UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents",
-    "Perplexity Details Its GPU Embedding Stack: How Ivy, Tulip and ROSE Serve pplx-embed",
-    "GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI"
+    "OpenAI launched GPT-6 Astra, their most advanced model to date, demonstrating state-of-the-art capabilities across computer use, coding, and cybersecurity, alongside new safety benchmarks.",
+    "Multiple initiatives are simplifying AI development and deployment, including Adaption Labs' dataset generation from task descriptions and NVIDIA's open-source router for distributed local AI inference.",
+    "The field of AI agents is seeing significant progress in evaluation and ethical considerations with new platforms like CUA-Lite and benchmarks such as HarvestBench, while novel architectures like Iris-pro push search agent capabilities."
   ],
   "agents": [
     {
-      "title": "GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI",
-      "summary": "We look at Project HydraFusion, GitHub's research preview that treats workflow selection as an optimization problem rather than a model picker. We bre...",
-      "link": "https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/",
+      "title": "UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents",
+      "summary": "UC Berkeley researchers released CUA-Lite, an open platform that unifies sandboxes, data, evaluation, and reinforcement learning for computer-use agents, streamlining development and reducing environmental overhead with efficient Docker containers.",
+      "link": "https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/",
       "source": "MarkTechPost"
     },
     {
-      "title": "NVIDIA Releases Personal AI Router (PAIR): An Open Source Virtual Inference Router that Distributes Local AI Requests Across RTX, DGX Spark, and Mac Nodes",
-      "summary": "We look at NVIDIA Personal AI Router (PAIR), an open source virtual inference router that spreads local AI requests across the machines already on a h...",
-      "link": "https://www.marktechpost.com/2026/09/04/nvidia-releases-personal-ai-router-pair-an-open-source-virtual-inference-router-that-distributes-local-ai-requests-across-rtx-dgx-spark-and-mac-nodes/",
-      "source": "MarkTechPost"
+      "title": "Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation",
+      "summary": "Harbor Adapters introduces a unified evaluation infrastructure for agentic benchmarks, coupled with Harbor-Index, a curated meta-dataset of 82 challenging tasks, providing open-source tools for more reliable and comprehensive language-model agent assessment.",
+      "link": "https://arxiv.org/abs/2609.04298",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Anthropic Released Claude Commerce Agents: An Apache-2.0 Blueprint for Shopping and Merchant Agents Across Retail, Travel, Telecom and Entertainment",
-      "summary": "Most teams building a shopping assistant or agent rebuild the same scaffolding: an agent loop, a tool layer over the catalog, an approval gate, and an...",
-      "link": "https://www.marktechpost.com/2026/09/03/anthropic-released-claude-commerce-agents-an-apache-2-0-blueprint-for-shopping-and-merchant-agents-across-retail-travel-telecom-and-entertainment/",
-      "source": "MarkTechPost"
+      "title": "HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
+      "summary": "HarvestBench is a novel farm simulation benchmark that quantitatively measures LLM agents' willingness to incur costs to avoid negative side effects, specifically harming living creatures, providing critical insights into ethical decision-making and value alignment.",
+      "link": "https://arxiv.org/abs/2609.04444",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "Perplexity Details Its GPU Embedding Stack: How Ivy, Tulip and ROSE Serve pplx-embed",
-      "summary": "Retrieval quality in an AI search product is bounded by two things: how good the embedding model is, and how cheaply you can run it across an index. T...",
-      "link": "https://www.marktechpost.com/2026/09/05/perplexity-details-its-gpu-embedding-stack-how-ivy-tulip-and-rose-serve-pplx-embed/",
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "summary": "OpenAI unveiled GPT-6 Astra, their most intelligent and aligned model, featuring state-of-the-art capabilities across computer use, coding, cybersecurity, and scientific applications, setting new benchmarks for frontier AI.",
+      "link": "https://openai.com/index/gpt-6-astra",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "IFM Releases K2 Horizon: Six Apache 2.0 Models From 0.9B to 375B",
+      "summary": "IFM (MBZUAI) launched K2 Horizon, a comprehensive suite of six Apache 2.0 licensed foundation models ranging from 0.9B to a massive 375B parameters, openly releasing the models along with their pre-training corpus.",
+      "link": "https://www.marktechpost.com/2026/09/06/ifm-releases-k2-horizon-six-apache-2-0-models-from-0-9b-to-375b/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Nous Research Adds One-Click Local Model Setup to Hermes Desktop",
-      "summary": "Nous Research has collapsed local model setup into a single click in Hermes Desktop. The app reads your hardware, fit-checks the catalog against your ...",
-      "link": "https://www.marktechpost.com/2026/09/05/nous-research-hermes-desktop-one-click-local-model-setup/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Google Launches Agentic Video Understanding for Gemini Flash Models, Cutting Video Tokens by Up to 88%",
-      "summary": "Gemini now navigates video instead of ingesting it at 1 FPS, loading only the segments a prompt needs.\nThe post Google Launches Agentic Video Understa...",
-      "link": "https://www.marktechpost.com/2026/09/04/google-agentic-video-understanding-gemini-flash-models/",
-      "source": "MarkTechPost"
+      "title": "Iris: Climbing to the Search Frontier",
+      "summary": "Iris-mini and Iris-pro are new 35B and 397B parameter search agents, developed with an innovative SFT-RL climbing procedure, achieving state-of-the-art results among open-source search agents across multiple complex web navigation and QA benchmarks.",
+      "link": "https://arxiv.org/abs/2609.04304",
+      "source": "arXiv cs.AI"
     }
   ],
   "tools": [
     {
-      "title": "Proactive cyber defense for governments and enterprises",
-      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-      "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "source": "Google AI Blog"
+      "title": "Adaption Labs Introduces ‘Invent a Dataset’: Training Data Generated From a Task Description, Not a Seed Corpus",
+      "summary": "Adaption Labs released 'Invent a Dataset', an API that automates the generation of structured, training-ready datasets directly from a task description, eliminating the labor-intensive requirements of seed corpora, schema design, or manual labeling.",
+      "link": "https://www.marktechpost.com/2026/09/04/datasets-invent-api-training-data-without-labeling-adaptive-data-autoscientist/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "5 ways AI Mode in Search helps you enjoy the real world",
-      "summary": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert ticke...",
-      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
-      "source": "Google AI Blog"
+      "title": "NVIDIA Releases Personal AI Router (PAIR): An Open Source Virtual Inference Router that Distributes Local AI Requests Across RTX, DGX Spark, and Mac Nodes",
+      "summary": "NVIDIA introduced Personal AI Router (PAIR), an open-source virtual inference router designed to distribute local AI requests across a network of diverse devices (RTX, DGX Spark, Mac), enabling efficient multi-device AI serving without modifying agent harnesses.",
+      "link": "https://www.marktechpost.com/2026/09/04/nvidia-releases-personal-ai-router-pair-an-open-source-virtual-inference-router-that-distributes-local-ai-requests-across-rtx-dgx-spark-and-mac-nodes/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "summary": "No description available.",
-      "link": "https://huggingface.co/blog/webgpu-kernels",
-      "source": "Hugging Face Blog"
+      "title": "GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI",
+      "summary": "GitHub unveiled Project HydraFusion, a research preview that orchestrates multiple models at runtime, dynamically building optimized workflows per coding task in Copilot CLI by intelligently routing requests across various execution patterns.",
+      "link": "https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/",
+      "source": "MarkTechPost"
     }
   ],
   "companies": [
     {
-      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the fi...",
-      "link": "https://openai.com/index/gilbert-tobin",
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "summary": "ChatGPT now offers secure connectivity to trusted healthcare data, including Electronic Health Records (EHR) and other industry sources, enabling clinicians to access patient context, medical research, and enhance workflows with improved security.",
+      "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
       "source": "OpenAI News"
     },
     {
-      "title": "The latest AI news we announced in August 2026",
-      "summary": "Here are Google’s latest AI updates from August 2026",
-      "link": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-      "source": "Google AI Blog"
+      "title": "Corporate Language Model (CLM): Transforming Tacit and Fragmented Enterprise Knowledge into a Sovereign, Auditable, and Executable Corporate Intelligence Layer",
+      "summary": "This paper introduces the Corporate Language Model (CLM), a framework for enterprises to transform structured, unstructured, and tacit knowledge into an ontology-grounded, sovereign, and auditable corporate intelligence layer, enabling governed reasoning and execution.",
+      "link": "https://arxiv.org/abs/2609.04377",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "3 new ways to plan and book travel in Search",
-      "summary": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
-      "link": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "summary": "Google launched the Fairwind Program, providing limited access to its advanced cyber defense tools for governments and trusted partners, bolstering proactive security measures for critical infrastructure and enterprise environments.",
+      "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
       "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents",
-      "summary": "Training and benchmarking a computer-use agent needs four things — agents, environments, traces, and a framework to evaluate and train them — and all ...",
-      "link": "https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/",
-      "source": "MarkTechPost"
+      "title": "Inside our 353,000-person vibe coding course",
+      "summary": "Kaggle’s AI Agents Intensive, a no-cost course by Google, successfully brought together over 353,000 learners to build and deploy the next generation of AI agents, showcasing a massive global upskilling initiative.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Adaption Labs Introduces ‘Invent a Dataset’: Training Data Generated From a Task Description, Not a Seed Corpus",
-      "summary": "Adaption Labs has released Invent a Dataset, which generates a structured, training-ready dataset from a description of the behavior you want a model ...",
-      "link": "https://www.marktechpost.com/2026/09/04/datasets-invent-api-training-data-without-labeling-adaptive-data-autoscientist/",
-      "source": "MarkTechPost"
+      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+      "summary": "This guide provides a practical approach to efficiently fine-tuning a 350M model for superior structured outputs in just 100 GRPO steps, offering developers a rapid method for model optimization and performance improvement.",
+      "link": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "source": "Hugging Face Blog"
     },
     {
-      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential s...",
-      "link": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "source": "OpenAI News"
+      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "summary": "A comprehensive guide on training and fine-tuning multi-vector embedding models using Sentence Transformers, equipping developers to create more nuanced and effective text representations for advanced retrieval and semantic search applications.",
+      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "source": "Hugging Face Blog"
     }
   ]
 }
