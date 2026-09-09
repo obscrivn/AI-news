@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-09-08T12:00:00Z",
+  "lastUpdated": "2026-09-09T12:00:00Z",
   "highlights": [
-    "The AI agent landscape is maturing rapidly with new tools for optimizing research experiments and standardizing computer-use agent development, promising significant efficiency gains.",
-    "Open-source models continue to push boundaries, featuring performant on-device solutions like OpenBMB's MiniCPM5-2B and comprehensive model fleets from IFM, making advanced AI more accessible to developers.",
-    "Developer tooling is improving accessibility for local AI deployment and efficient on-device processing, exemplified by one-click setups and WebGPU kernels, alongside specialized tools for robotics data engines."
+    "OpenAI has launched GPT-6 Astra, its new frontier model with state-of-the-art capabilities across diverse domains, setting a new benchmark for AI intelligence and safety.",
+    "A major scientific breakthrough by OpenAI reveals an AI-generated solution to the Navier–Stokes Millennium Prize Problem, complete with a formal proof in Lean, demonstrating advanced AI reasoning.",
+    "Meta introduced Muse, a personal AI agent featuring a novel architecture with a dedicated secure cloud computer per user, enabling persistent actions and enhancing privacy for autonomous agent development."
   ],
   "agents": [
     {
-      "title": "Meta FAIR Introduces AI Research Preference Models (RPMs)",
-      "summary": "Meta FAIR introduced AI Research Preference Models (RPMs), enabling LLM judges to rank unexecuted ML experiments, reducing GPU hours and accelerating research timelines by roughly 37%.",
-      "link": "https://www.marktechpost.com/2026/09/06/meta-fair-introduces-ai-research-preference-models-rpms-ranking-ml-experiments-before-spending-gpu-hours/",
+      "title": "Meta Introduces Muse, a Personal AI Agent That Runs on Its Own Dedicated Secure Cloud Computer",
+      "summary": "Meta's Muse is a personal AI agent capable of autonomous actions (e.g., sending emails, booking travel) that persists beyond app interaction, running on a dedicated secure cloud computer per user. This novel architecture prioritizes privacy and continuous operation, enabling developers to envision more powerful and secure personal assistant applications.",
+      "link": "https://www.marktechpost.com/2026/09/08/meta-introduces-muse-a-personal-ai-agent-that-runs-on-its-own-dedicated-secure-cloud-computer/",
       "source": "MarkTechPost"
     },
     {
-      "title": "UC Berkeley Researchers Release CUA-Lite: Open Platform for Computer-Use Agents",
-      "summary": "UC Berkeley researchers released CUA-Lite, an open platform that unifies sandboxes, data, evaluation, and RL for computer-use agents, streamlining development with lightweight Docker containers.",
-      "link": "https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/",
-      "source": "MarkTechPost"
+      "title": "SCAFFOLD: Self-Improving Web Agents via Recursive Parametric Skill Abstraction",
+      "summary": "SCAFFOLD is a self-improving framework for visual web agents that induces and recursively organizes parametric skills from successful trajectories, then distills these abstractions back into model weights. This framework significantly boosts success rates by 11.1-17.2 points over baselines and enables monotonic gains in agent performance.",
+      "link": "https://arxiv.org/abs/2609.05511",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration",
-      "summary": "GitHub's Project HydraFusion introduces runtime multi-model orchestration for Copilot CLI, optimizing workflow selection for coding tasks through patterns like Single, Cascade, and Critique to enhance efficiency.",
-      "link": "https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/",
-      "source": "MarkTechPost"
+      "title": "AutoFyn Technical Report: Non-Parametric Expert Iteration for Long-Horizon Agents",
+      "summary": "AutoFyn is an agent harness that iteratively adapts a frozen model for long-horizon tasks by updating persistent state from verified reward signals, rather than model weights. It demonstrated superior performance in complex domains like olympiad mathematics, data science, and cybersecurity, enabling robust development of advanced agents.",
+      "link": "https://arxiv.org/abs/2609.05446",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "OpenBMB Releases MiniCPM5-2B: On-Device Dense Model with Strong Benchmarks",
-      "summary": "OpenBMB released MiniCPM5-2B, a 2.52B dense causal language model optimized for on-device deployment, achieving an average score of 53.9 across 34 benchmarks with strong performance in tool use and long-context retrieval, available under Apache 2.0.",
-      "link": "https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/",
-      "source": "MarkTechPost"
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "summary": "OpenAI has released GPT-6 Astra, its most intelligent and aligned model, featuring state-of-the-art capabilities across computer use, coding, cybersecurity, and science. This frontier model sets new benchmarks for AI performance and safety, offering enhanced foundational intelligence for diverse applications.",
+      "link": "https://openai.com/index/gpt-6-astra",
+      "source": "OpenAI News"
     },
     {
-      "title": "IFM Releases K2 Horizon: Six Apache 2.0 Models From 0.9B to 375B",
-      "summary": "The Institute of Foundation Models (IFM) unveiled K2 Horizon, a fleet of six Apache 2.0 licensed models ranging from 0.9B to 375B parameters, alongside their pre-training corpus, offering a comprehensive suite for various applications.",
-      "link": "https://www.marktechpost.com/2026/09/06/ifm-releases-k2-horizon-six-apache-2-0-models-from-0-9b-to-375b/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Reducto Releases r-1: Single Pass Document Parsing Model",
-      "summary": "Reducto's r-1 is a single-pass document parsing model that integrates OCR, layout detection, and grounding, reducing errors by 20% and significantly cutting costs to 1 cent per page compared to multi-stage pipelines.",
+      "title": "Reducto Releases r-1: A Single Pass Document Parsing Model That Cuts Errors 20% at 1 Cent Per Page",
+      "summary": "Reducto's r-1 is a new single-pass document parsing model that integrates OCR, layout detection, tables, and formatting, reducing errors by 20% and costing only 1 cent per page. This significantly improves efficiency and accuracy for document processing workflows, providing a cost-effective alternative to multi-stage pipelines.",
       "link": "https://www.marktechpost.com/2026/09/07/reducto-releases-r-1-a-single-pass-document-parsing-model-that-cuts-errors-20-at-1-cent-per-page/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device",
+      "summary": "OpenBMB's MiniCPM5-2B is a compact 2.52B parameter dense causal language model designed for on-device deployment, outperforming larger models like Qwen3.5-4B on various benchmarks, especially in tool use, coding agents, and long-context retrieval. Its Apache 2.0 license and compatibility with popular inference frameworks make it ideal for efficient, deployable AI.",
+      "link": "https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Nous Research Adds One-Click Local Model Setup to Hermes Desktop",
-      "summary": "Nous Research integrated one-click local model setup into Hermes Desktop, simplifying the deployment of LLMs by automatically fit-checking hardware, selecting optimal models, and configuring llama.cpp for local execution.",
-      "link": "https://www.marktechpost.com/2026/09/05/nous-research-hermes-desktop-one-click-local-model-setup/",
+      "title": "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
+      "summary": "NVIDIA has introduced CUDA Rust, enabling developers to write compile-time-safe GPU kernels using Rust with two open-source projects, cuda-oxide and cutile-rs. This initiative significantly enhances safety and productivity for high-performance GPU programming.",
+      "link": "https://www.marktechpost.com/2026/09/08/nvidia-announces-cuda-rust-with-cuda-oxide-simt-and-cutile-rs-tile-for-compile-time-safe-gpu-kernels/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Hugging Face Introduces @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "summary": "Hugging Face released `@huggingface/kernels`, a collection of over 200 WebGPU kernels designed for efficient local AI processing, enabling developers to build performant on-device AI applications.",
+      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "summary": "Hugging Face has launched `@huggingface/kernels`, a collection of over 200 WebGPU kernels designed for local AI inference directly in the browser. This toolkit empowers developers to build and deploy performant, client-side AI applications without server-side dependencies.",
       "link": "https://huggingface.co/blog/webgpu-kernels",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "Axis Robotics Releases AXIS: Browser-Based Data Engine for Robot Manipulation",
-      "summary": "Axis Robotics launched AXIS, a browser-based data engine providing 207 robot manipulation tasks and 50,129 verified trajectories, accelerating robot learning by moving demonstration collection to the web with backend GPU processing.",
-      "link": "https://www.marktechpost.com/2026/09/07/axis-robotics-releases-axis-a-browser-based-data-engine-with-207-robot-manipulation-tasks-and-50129-trajectories/",
+      "title": "Google DeepMind Releases AlphaGenome Atlas With Precomputed Molecular Effect Predictions and AVI Scores for 9 Billion Human DNA Variants",
+      "summary": "Google DeepMind's AlphaGenome Atlas provides precomputed molecular effect predictions and AVI scores for 9 billion human DNA variants, mapping every single-letter change in the human genome with an impact score. This resource acts as a critical tool for researchers and developers in genomics and drug discovery, accelerating variant analysis.",
+      "link": "https://www.marktechpost.com/2026/09/08/google-deepmind-releases-alphagenome-atlas-with-precomputed-molecular-effect-predictions-and-avi-scores-for-9-billion-human-dna-variants/",
       "source": "MarkTechPost"
     }
   ],
   "companies": [
     {
-      "title": "Google AI Blog: Proactive cyber defense for governments and enterprises (Fairwind Program)",
-      "summary": "Google introduced the Fairwind Program, offering limited access to its advanced AI-powered cyber defense tools for governments and trusted partners, strengthening enterprise security.",
-      "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "source": "Google AI Blog"
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "summary": "OpenAI has released GPT-6 Astra, its most intelligent and aligned model, solidifying its position at the forefront of AI development. This flagship model pushes boundaries across computer use, coding, cybersecurity, and science, offering advanced capabilities for global industries.",
+      "link": "https://openai.com/index/gpt-6-astra",
+      "source": "OpenAI News"
     },
     {
-      "title": "Google AI Blog: AMIE, research medical AI system, demonstrates real-time clinical video consultation",
-      "summary": "Google's AMIE, a research medical AI system, demonstrated real-time clinical video consultation capabilities in simulated studies, showcasing significant potential for AI in healthcare diagnostics and support.",
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "summary": "OpenAI has committed $1 billion to 'Daybreak for Frontline Defenders,' expanding access to frontier cyber AI, training, and support for essential services. This initiative underscores OpenAI's strategic focus on applying advanced AI for critical societal infrastructure and security.",
+      "link": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+      "summary": "Google has unveiled AMIE, a research medical AI system capable of real-time clinical video consultations in simulated settings. This advancement highlights Google's significant progress and investment in developing AI for high-stakes healthcare applications, promising improved diagnostic and consultation tools.",
       "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
       "source": "Google AI Blog"
-    },
-    {
-      "title": "GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration",
-      "summary": "GitHub's Project HydraFusion is a research preview for runtime multi-model orchestration within Copilot CLI, optimizing coding workflows by dynamically selecting execution patterns (Single, Cascade, Critique) for specific tasks.",
-      "link": "https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/",
-      "source": "MarkTechPost"
     }
   ],
   "learning": [
     {
-      "title": "Google AI Blog: Inside our 353,000-person vibe coding course",
-      "summary": "Google and Kaggle hosted a no-cost AI Agents Intensive, a massive coding course engaging 353,000 learners to build and deploy the next generation of AI agents, providing extensive upskilling.",
+      "title": "Inside our 353,000-person vibe coding course",
+      "summary": "Google and Kaggle co-hosted a massive, free 'AI Agents Intensive' coding course, engaging over 353,000 learners to build and deploy the next generation of AI agents. This initiative provides invaluable upskilling opportunities for a vast developer community.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
       "source": "Google AI Blog"
     },
     {
-      "title": "Hugging Face Blog: Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-      "summary": "This Hugging Face guide provides insights and techniques for training and fine-tuning multi-vector embedding models using Sentence Transformers, crucial for advanced retrieval and semantic search applications.",
-      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "source": "Hugging Face Blog"
+      "title": "SciLitBench: Benchmark and Design Principles for LLM-Powered Systematic Literature Reviews",
+      "summary": "SciLitBench is a new multi-stage benchmark for LLM-powered systematic literature reviews, providing crucial insights into LLM reliability for screening and data extraction. It identifies practical boundaries and offers design principles, making it essential for builders developing AI-assisted research tools.",
+      "link": "https://arxiv.org/abs/2609.05505",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Hugging Face Blog: Wire It, Run It, Deploy It: AI Workflows in Gradio",
-      "summary": "A Hugging Face blog post offers a comprehensive guide to building, running, and deploying AI workflows efficiently using Gradio, empowering developers to create interactive AI applications rapidly.",
-      "link": "https://huggingface.co/blog/gradio-workflow-guide",
-      "source": "Hugging Face Blog"
+      "title": "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
+      "summary": "This research introduces MERIT, a cost-aware benchmark and harness to evaluate the marginal utility of long-term memory in tool-using LLM agents. It provides critical insights into when and how memory impacts agent performance and cost, guiding developers in designing more effective and economical agent architectures.",
+      "link": "https://arxiv.org/abs/2609.05441",
+      "source": "arXiv cs.AI"
     }
   ]
 }
