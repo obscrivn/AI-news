@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-09-09T12:00:00Z",
+  "lastUpdated": "2026-09-10T18:00:00Z",
   "highlights": [
-    "OpenAI has launched GPT-6 Astra, its new frontier model with state-of-the-art capabilities across diverse domains, setting a new benchmark for AI intelligence and safety.",
-    "A major scientific breakthrough by OpenAI reveals an AI-generated solution to the Navier–Stokes Millennium Prize Problem, complete with a formal proof in Lean, demonstrating advanced AI reasoning.",
-    "Meta introduced Muse, a personal AI agent featuring a novel architecture with a dedicated secure cloud computer per user, enabling persistent actions and enhancing privacy for autonomous agent development."
+    "Frontier models are rapidly advancing with OpenAI's GPT-6 Astra targeting business intelligence and DeepSeek-V4.1-Flash pushing multimodal capabilities with massive 1M-token contexts and efficient KV caches.",
+    "The AI agent ecosystem is diversifying, featuring Meta's new personal AI agent Muse, Google's open-source Mantis toolkit for AI-driven vulnerability patching, and LandingAI's advanced document extraction agents.",
+    "Key developer tools are emerging for lower-level control and broader accessibility, including NVIDIA's CUDA Rust for compile-time-safe GPU kernels and Hugging Face's WebGPU kernels for local AI, alongside breakthroughs in AI-assisted scientific discovery."
   ],
   "agents": [
     {
-      "title": "Meta Introduces Muse, a Personal AI Agent That Runs on Its Own Dedicated Secure Cloud Computer",
-      "summary": "Meta's Muse is a personal AI agent capable of autonomous actions (e.g., sending emails, booking travel) that persists beyond app interaction, running on a dedicated secure cloud computer per user. This novel architecture prioritizes privacy and continuous operation, enabling developers to envision more powerful and secure personal assistant applications.",
+      "title": "Meta Introduces Muse, a Personal AI Agent",
+      "summary": "Meta has launched Muse, a personal AI agent designed to perform complex actions like sending emails, booking travel, and negotiating bills, running on its own dedicated secure cloud computer for enhanced privacy and autonomy.",
       "link": "https://www.marktechpost.com/2026/09/08/meta-introduces-muse-a-personal-ai-agent-that-runs-on-its-own-dedicated-secure-cloud-computer/",
       "source": "MarkTechPost"
     },
     {
-      "title": "SCAFFOLD: Self-Improving Web Agents via Recursive Parametric Skill Abstraction",
-      "summary": "SCAFFOLD is a self-improving framework for visual web agents that induces and recursively organizes parametric skills from successful trajectories, then distills these abstractions back into model weights. This framework significantly boosts success rates by 11.1-17.2 points over baselines and enables monotonic gains in agent performance.",
-      "link": "https://arxiv.org/abs/2609.05511",
-      "source": "arXiv cs.AI"
+      "title": "Google Open-Sources Mantis: Toolkit for Coding Agents",
+      "summary": "Google has open-sourced Mantis, a modular, stack-agnostic toolkit for AI coding agents to find, reproduce, and patch software vulnerabilities, covering the entire security review lifecycle.",
+      "link": "https://www.marktechpost.com/2026/09/09/google-open-sources-mantis-a-modular-skills-toolkit-that-lets-coding-agents-find-reproduce-and-patch-vulnerabilities/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "AutoFyn Technical Report: Non-Parametric Expert Iteration for Long-Horizon Agents",
-      "summary": "AutoFyn is an agent harness that iteratively adapts a frozen model for long-horizon tasks by updating persistent state from verified reward signals, rather than model weights. It demonstrated superior performance in complex domains like olympiad mathematics, data science, and cybersecurity, enabling robust development of advanced agents.",
-      "link": "https://arxiv.org/abs/2609.05446",
-      "source": "arXiv cs.AI"
+      "title": "LandingAI Releases Agentic Document Extraction Gen2",
+      "summary": "LandingAI has released Agentic Document Extraction Gen2, a rebuilt document processing stack leveraging the DPT-3 model family for improved parsing accuracy, confidence scoring, and output-character based billing, reducing errors by 20%.",
+      "link": "https://www.marktechpost.com/2026/09/09/landingai-releases-agentic-document-extraction-gen2-with-dpt-3-pro-and-dpt-3-verity/",
+      "source": "MarkTechPost"
     }
   ],
   "models": [
     {
-      "title": "GPT-6 Astra: A new generation of intelligence",
-      "summary": "OpenAI has released GPT-6 Astra, its most intelligent and aligned model, featuring state-of-the-art capabilities across computer use, coding, cybersecurity, and science. This frontier model sets new benchmarks for AI performance and safety, offering enhanced foundational intelligence for diverse applications.",
-      "link": "https://openai.com/index/gpt-6-astra",
+      "title": "OpenAI Introduces GPT-6 Astra for Business Intelligence",
+      "summary": "OpenAI announced GPT-6 Astra, their most capable model yet for business applications, featuring advanced reasoning, enhanced computer usage, and superior judgment for writing and design tasks.",
+      "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
       "source": "OpenAI News"
     },
     {
-      "title": "Reducto Releases r-1: A Single Pass Document Parsing Model That Cuts Errors 20% at 1 Cent Per Page",
-      "summary": "Reducto's r-1 is a new single-pass document parsing model that integrates OCR, layout detection, tables, and formatting, reducing errors by 20% and costing only 1 cent per page. This significantly improves efficiency and accuracy for document processing workflows, providing a cost-effective alternative to multi-stage pipelines.",
-      "link": "https://www.marktechpost.com/2026/09/07/reducto-releases-r-1-a-single-pass-document-parsing-model-that-cuts-errors-20-at-1-cent-per-page/",
+      "title": "DeepSeek AI Releases DeepSeek-V4.1-Flash with 1M Context",
+      "summary": "DeepSeek AI launched DeepSeek-V4.1-Flash, a multimodal Mixture-of-Experts model with 552B parameters, a 1M-token context window, and FP4 KV Cache, designed to address memory strain in long-horizon LLM applications.",
+      "link": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse/",
       "source": "MarkTechPost"
     },
     {
-      "title": "OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device",
-      "summary": "OpenBMB's MiniCPM5-2B is a compact 2.52B parameter dense causal language model designed for on-device deployment, outperforming larger models like Qwen3.5-4B on various benchmarks, especially in tool use, coding agents, and long-context retrieval. Its Apache 2.0 license and compatibility with popular inference frameworks make it ideal for efficient, deployable AI.",
+      "title": "OpenBMB Releases MiniCPM5-2B for On-Device AI",
+      "summary": "OpenBMB unveiled MiniCPM5-2B, a 2.52B parameter dense causal language model with a 131,072 token context window, averaging 53.9 across 34 benchmarks and optimized to run efficiently on edge devices under an Apache 2.0 license.",
       "link": "https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
-      "summary": "NVIDIA has introduced CUDA Rust, enabling developers to write compile-time-safe GPU kernels using Rust with two open-source projects, cuda-oxide and cutile-rs. This initiative significantly enhances safety and productivity for high-performance GPU programming.",
+      "title": "NVIDIA Announces CUDA Rust for GPU Kernels",
+      "summary": "NVIDIA introduced CUDA Rust, making Rust a first-class language for GPU kernels with two open-source projects, cuda-oxide (SIMT) and cutile-rs (Tile), to enable compile-time-safe and efficient GPU programming.",
       "link": "https://www.marktechpost.com/2026/09/08/nvidia-announces-cuda-rust-with-cuda-oxide-simt-and-cutile-rs-tile-for-compile-time-safe-gpu-kernels/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "summary": "Hugging Face has launched `@huggingface/kernels`, a collection of over 200 WebGPU kernels designed for local AI inference directly in the browser. This toolkit empowers developers to build and deploy performant, client-side AI applications without server-side dependencies.",
+      "title": "Hugging Face Introduces @huggingface/kernels for Local AI",
+      "summary": "Hugging Face launched @huggingface/kernels, a new library providing over 200 WebGPU Kernels, enabling developers to run and optimize AI models efficiently directly within web browsers for local inference.",
       "link": "https://huggingface.co/blog/webgpu-kernels",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "Google DeepMind Releases AlphaGenome Atlas With Precomputed Molecular Effect Predictions and AVI Scores for 9 Billion Human DNA Variants",
-      "summary": "Google DeepMind's AlphaGenome Atlas provides precomputed molecular effect predictions and AVI scores for 9 billion human DNA variants, mapping every single-letter change in the human genome with an impact score. This resource acts as a critical tool for researchers and developers in genomics and drug discovery, accelerating variant analysis.",
-      "link": "https://www.marktechpost.com/2026/09/08/google-deepmind-releases-alphagenome-atlas-with-precomputed-molecular-effect-predictions-and-avi-scores-for-9-billion-human-dna-variants/",
-      "source": "MarkTechPost"
+      "title": "Google Pics: AI Image Creation and Editing in Workspace",
+      "summary": "Google released Google Pics, an AI-powered image creation and editing tool built on their Nano Banana model, now available within Google Workspace to streamline visual content workflows.",
+      "link": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "source": "Google AI Blog"
     }
   ],
   "companies": [
     {
-      "title": "GPT-6 Astra: A new generation of intelligence",
-      "summary": "OpenAI has released GPT-6 Astra, its most intelligent and aligned model, solidifying its position at the forefront of AI development. This flagship model pushes boundaries across computer use, coding, cybersecurity, and science, offering advanced capabilities for global industries.",
-      "link": "https://openai.com/index/gpt-6-astra",
+      "title": "OpenAI Expands AI Access for US Governments",
+      "summary": "OpenAI and GSA are offering eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and enhanced cyber defense support to broaden AI access and security.",
+      "link": "https://openai.com/index/expanding-ai-access-us-government",
       "source": "OpenAI News"
     },
     {
-      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "summary": "OpenAI has committed $1 billion to 'Daybreak for Frontline Defenders,' expanding access to frontier cyber AI, training, and support for essential services. This initiative underscores OpenAI's strategic focus on applying advanced AI for critical societal infrastructure and security.",
-      "link": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "title": "OpenAI Calls for Urgent AI Policy Action",
+      "summary": "OpenAI's Chris Lehane emphasizes the critical need for stronger safety evidence, shared standards, and durable policy action to govern increasingly capable AI while the policy window remains open.",
+      "link": "https://openai.com/index/ai-policy-window",
       "source": "OpenAI News"
     },
     {
-      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
-      "summary": "Google has unveiled AMIE, a research medical AI system capable of real-time clinical video consultations in simulated settings. This advancement highlights Google's significant progress and investment in developing AI for high-stakes healthcare applications, promising improved diagnostic and consultation tools.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
-      "source": "Google AI Blog"
+      "title": "Meta Introduces Muse, a Personal AI Agent",
+      "summary": "Meta has launched Muse, a personal AI agent designed to perform complex actions like sending emails, booking travel, and negotiating bills, running on its own dedicated secure cloud computer for enhanced privacy and autonomy.",
+      "link": "https://www.marktechpost.com/2026/09/08/meta-introduces-muse-a-personal-ai-agent-that-runs-on-its-own-dedicated-secure-cloud-computer/",
+      "source": "MarkTechPost"
     }
   ],
   "learning": [
     {
-      "title": "Inside our 353,000-person vibe coding course",
-      "summary": "Google and Kaggle co-hosted a massive, free 'AI Agents Intensive' coding course, engaging over 353,000 learners to build and deploy the next generation of AI agents. This initiative provides invaluable upskilling opportunities for a vast developer community.",
+      "title": "OpenAI Shares AI-Generated Solution to Navier–Stokes Problem",
+      "summary": "OpenAI announced an AI-generated solution to the Navier–Stokes Millennium Prize Problem, providing a detailed write-up and a formal proof in Lean, marking a significant scientific and mathematical achievement.",
+      "link": "https://openai.com/index/navier-stokes-solution",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Kaggle’s AI Agents Intensive Course Recap",
+      "summary": "Google and Kaggle concluded a massive, no-cost AI Agents Intensive course, engaging 353,000 learners in building and deploying the next generation of AI agents, fostering widespread skill development.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
       "source": "Google AI Blog"
     },
     {
-      "title": "SciLitBench: Benchmark and Design Principles for LLM-Powered Systematic Literature Reviews",
-      "summary": "SciLitBench is a new multi-stage benchmark for LLM-powered systematic literature reviews, providing crucial insights into LLM reliability for screening and data extraction. It identifies practical boundaries and offers design principles, making it essential for builders developing AI-assisted research tools.",
-      "link": "https://arxiv.org/abs/2609.05505",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
-      "summary": "This research introduces MERIT, a cost-aware benchmark and harness to evaluate the marginal utility of long-term memory in tool-using LLM agents. It provides critical insights into when and how memory impacts agent performance and cost, guiding developers in designing more effective and economical agent architectures.",
-      "link": "https://arxiv.org/abs/2609.05441",
-      "source": "arXiv cs.AI"
+      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio Guide",
+      "summary": "Hugging Face published a comprehensive guide on building, running, and deploying AI workflows within Gradio, offering practical insights for developers to streamline their AI application development process.",
+      "link": "https://huggingface.co/blog/gradio-workflow-guide",
+      "source": "Hugging Face Blog"
     }
   ]
 }
