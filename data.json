@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2026-09-11T09:30:00Z",
+  "lastUpdated": "2026-09-14T15:00:00Z",
   "highlights": [
-    "OpenAI unveiled a suite of enterprise-focused AI solutions, including the powerful GPT-6 Astra, a new Agents API for streamlined cloud agent deployment, and specialized ChatGPT offerings for financial services and data analysis.",
-    "Significant advancements in AI agent capabilities emerged, with new frameworks (Google ToolGrad, OpenDiscoveryTrace), open-source toolkits (Google Mantis), and architectural improvements (Sakana AI's Fugu models, arXiv research on subagents and tool menus) making agents more robust, auditable, and efficient.",
-    "Model efficiency and accessibility continue to be a priority, highlighted by DeepSeek AI's 1M-context model, Cohere's open-weight translation MoE, breakthrough 4-bit quantization surpassing full-precision models, and tools like Redis LangCache drastically cutting LLM API costs."
+    "OpenAI has launched GPT-6 Astra, its next-generation reasoning model featuring computer use and advanced workflows, instantly adopted by industry flagships like Perplexity and Cognition's Devin.",
+    "The developer stack for AI agents is maturing rapidly with the release of OpenAI's managed Agents API, tail-risk scheduling algorithms, and automated environment-probing memory curation.",
+    "Open-source and local execution frameworks hit major milestones, highlighted by Nvidia's IMO Gold-winning Nemotron recipe and Hugging Face's launch of over 200 high-performance WebGPU kernels."
   ],
   "agents": [
     {
-      "title": "OpenAI Launches the Agents API in Public Beta",
-      "summary": "OpenAI has released its Agents API in public beta, providing developers with a managed service to build and deploy cloud agents using the robust Codex harness, enabling more reliable and scalable agentic applications.",
-      "link": "https://www.marktechpost.com/2026/09/10/openai-launches-the-agents-api-in-public-beta-putting-the-codex-harness-behind-one-api-call/",
-      "source": "MarkTechPost"
+      "title": "Introducing the OpenAI Agents API",
+      "summary": "A fully managed service powered by the Codex harness designed to handle complex orchestration, tool invocation, and long-running sessions for cloud-deployed agents.",
+      "link": "https://openai.com/index/introducing-the-agents-api",
+      "source": "OpenAI News"
     },
     {
-      "title": "Google Open-Sources Mantis: Modular Toolkit for Coding Agents",
-      "summary": "Google has open-sourced Mantis, a stack-agnostic toolkit enabling AI coding agents to autonomously find, reproduce, patch, and score software vulnerabilities, offering a significant boost for secure software development.",
-      "link": "https://www.marktechpost.com/2026/09/09/google-open-sources-mantis-a-modular-skills-toolkit-that-lets-coding-agents-find-reproduce-and-patch-vulnerabilities/",
-      "source": "MarkTechPost"
+      "title": "Grounding Agent Memory via Environment-Probing Curation",
+      "summary": "A deployment-compatible methodology that equips post-task curator agents with read-only tools to verify and scope candidate memories, slashing token costs up to 50% and doubling pass rates on complex tasks.",
+      "link": "https://arxiv.org/abs/2609.11060",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Sakana AI Launches Fugu Max and Fugu Ultra v2 for Multi-Agent Orchestration",
-      "summary": "Sakana AI introduced Fugu Max and Fugu Ultra v2, models built for cheaper and stronger multi-agent orchestration, routing tasks efficiently to specialized models and achieving high performance in complex agentic tasks.",
-      "link": "https://www.marktechpost.com/2026/09/10/sakana-ai-launches-fugu-max-and-fugu-ultra-v2-for-cheaper-stronger-multi-agent-orchestration/",
-      "source": "MarkTechPost"
+      "title": "Decoupling Readiness from Release for Tail-Aware Agentic Scheduling",
+      "summary": "A run-time scheduling optimization utilizing Conditional Value-at-Risk (CVaR) calculations to dynamically prioritize model turns, achieving up to 3.5x speedups in high-contention environments.",
+      "link": "https://arxiv.org/abs/2609.10964",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
       "title": "GPT-6 Astra: Next Generation Intelligence for Work",
-      "summary": "OpenAI introduced GPT-6 Astra, its most capable model to date designed for business applications, featuring advanced reasoning, computer use capabilities, and enhanced judgment for writing and design tasks.",
+      "summary": "OpenAI's latest flagship model engineered for enterprise workflows, offering significant advancements in programmatic reasoning, direct computer control, and structural layout design.",
       "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
       "source": "OpenAI News"
     },
     {
-      "title": "DeepSeek-V4.1-Flash with 1M Context and FP4 KV Cache",
-      "summary": "DeepSeek AI released DeepSeek-V4.1-Flash, a multimodal Mixture-of-Experts model boasting a 1M-token context window and optimized with FP4 KV Cache and cross-layer attention reuse for efficient long-horizon agent workloads.",
-      "link": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse/",
-      "source": "MarkTechPost"
+      "title": "Training Nemotron for Olympiad Mathematics (IMO Gold)",
+      "summary": "An open recipe and release of two specialized Nemotron 3 Ultra checkpoints, which secured gold-medal performance at the 2026 IMO using an entirely natural-language test-time search and refinement pipeline.",
+      "link": "https://arxiv.org/abs/2609.10712",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Cohere Releases North Small Translate: 218B MoE Translation Model",
-      "summary": "Cohere launched North Small Translate, a 218B Mixture-of-Experts model tailored for machine translation across 50 languages, achieving an 83.6 WMT26 score and available for non-commercial use.",
-      "link": "https://www.marktechpost.com/2026/09/10/cohere-releases-north-small-translate-a-218b-moe-translation-model-that-scores-83-6-on-wmt26-across-50-languages/",
-      "source": "MarkTechPost"
+      "title": "IBM Releases SOTA Granite Time Series PatchTST-FM-r2 Model",
+      "summary": "A state-of-the-art, commercially-friendly foundational model designed specifically for complex multidimensional time series forecasting and anomaly detection.",
+      "link": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "source": "Hugging Face Blog"
     }
   ],
   "tools": [
     {
-      "title": "Redis LangCache: Semantic Cache Cuts LLM API Costs by 90%",
-      "summary": "Redis LangCache is a new managed semantic caching service that can reduce LLM API costs by up to 90% and accelerate cache hits by up to 15x, significantly boosting efficiency and cost-effectiveness for production LLM applications.",
-      "link": "https://www.marktechpost.com/2026/09/10/meet-redis-langcache-a-managed-semantic-cache-that-cuts-llm-api-costs-by-up-to-90-and-returns-cache-hits-up-to-15x-faster/",
-      "source": "MarkTechPost"
+      "title": "Introducing GPT-Live-1 API for Duplex Voice Experiences",
+      "summary": "An API integration enabling natural, full-duplex conversational voice bots, complete with custom voice profiles, telephony protocol support, and robust instruction-following capabilities.",
+      "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "source": "OpenAI News"
     },
     {
-      "title": "Google Research Releases ToolGrad for High-Quality Tool-Use Data Generation",
-      "summary": "Google Research's ToolGrad is an open-source framework that inverts tool-use dataset generation, achieving a 99.8% pass rate on ToolBench by creating verified API chains first, crucial for training robust tool-using models.",
-      "link": "https://www.marktechpost.com/2026/09/10/google-research-releases-toolgrad-answer-first-framework-hits-99-8-pass-rate-for-tool-use-data-generation/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Hugging Face Introduces @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "summary": "Hugging Face launched @huggingface/kernels, a library offering over 200 WebGPU-accelerated kernels, enabling developers to efficiently run local AI models in browsers or on devices with enhanced performance.",
+      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "summary": "A developer toolkit containing over 200 optimized WebGPU kernels, allowing builders to run client-side, hardware-accelerated AI models directly in web browsers.",
       "link": "https://huggingface.co/blog/webgpu-kernels",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+      "summary": "A new orchestration guide and pipeline engine built into Gradio that lets developers visually construct, execute, and scale multi-model AI workflows easily.",
+      "link": "https://huggingface.co/blog/gradio-workflow-guide",
       "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Launches Agents API and GPT-6 Astra for Enterprise",
-      "summary": "OpenAI made a significant push into the enterprise market with the public beta of its Agents API for cloud agent deployment and the release of GPT-6 Astra, its most capable model for business applications.",
-      "link": "https://openai.com/index/introducing-the-agents-api",
+      "title": "OpenAI Scales Habitat Storage Engine to 1 Billion Users",
+      "summary": "An architectural deep-dive into how OpenAI transformed Habitat from a Python library into a globally distributed storage engine serving 22M requests per second.",
+      "link": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Introduces ChatGPT for Financial Services and Data Agent for ChatGPT Work",
-      "summary": "OpenAI expanded its offerings with ChatGPT for Financial Services, combining built-in financial data with GPT-6 Astra, and a Data agent for ChatGPT Work, enabling businesses to connect data, uncover insights, and build dashboards using natural language.",
-      "link": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "title": "Cognition Integrates GPT-6 Astra to Power Autonomous Testing in Devin",
+      "summary": "Cognition has leveraged OpenAI’s GPT-6 Astra to enhance Devin’s capacity to run comprehensive, self-directed testing pipelines, reducing engineering code review overhead.",
+      "link": "https://openai.com/index/cognition-devin-testing-with-astra",
       "source": "OpenAI News"
     },
     {
-      "title": "Google Introduces Google Pics and Sheets Canvas in Workspace",
-      "summary": "Google enhanced Workspace with new AI tools, including Google Pics for easy image creation and editing, and Sheets canvas to transform spreadsheet data into interactive dashboards, making productivity more AI-driven.",
-      "link": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-      "source": "Google AI Blog"
+      "title": "OpenAI Expands US Public Sector Support with GSA Partnership",
+      "summary": "A strategic initiative offering federal, state, and local governments zero-dollar license fees, a 50% discount on API usage, and advanced cyber defense tools.",
+      "link": "https://openai.com/index/expanding-ai-access-us-government",
+      "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Kaggle’s AI Agents Intensive with Google Trains 353,000 Learners",
-      "summary": "Kaggle, in partnership with Google, hosted a massive no-cost course focused on building and deploying AI agents, bringing together over 353,000 learners to upskill in this rapidly evolving field.",
+      "title": "Kaggle & Google AI Agents Intensive Course Recap",
+      "summary": "A comprehensive open educational syllabus focused on the architectural patterns, practical tooling, and production deployment strategies for modern AI agents.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
       "source": "Google AI Blog"
     },
     {
-      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow Guide",
-      "summary": "A comprehensive guide from Hugging Face demonstrates how to rebuild the popular AUTOMATIC1111 Stable Diffusion interface using Gradio Workflow, offering practical insights for developers creating custom AI applications.",
-      "link": "https://huggingface.co/blog/gradio-workflow-1111",
+      "title": "Fine-Tuning a 350M Model for Structured Outputs in 100 GRPO Steps",
+      "summary": "A step-by-step practical guide utilizing TRL (Transformer Reinforcement Learning) to optimize small models for precise structural parsing without sacrificing general reasoning.",
+      "link": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "Give Your Coding Agents a Memory You Own (Hugging Face Blog)",
-      "summary": "Hugging Face published a practical guide for developers to implement and manage custom memory systems for their coding agents, crucial for building more effective and long-horizon agentic applications.",
-      "link": "https://huggingface.co/blog/funes",
+      "title": "Training and Fine-Tuning Multi-Vector Embedding Models",
+      "summary": "A deep technical tutorial on building next-generation search systems by training multi-vector encoders with the Sentence Transformers framework.",
+      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
       "source": "Hugging Face Blog"
     }
   ]
