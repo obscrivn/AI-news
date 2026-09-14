@@ -1,108 +1,108 @@
 {
   "lastUpdated": "2026-09-14T12:00:00Z",
   "highlights": [
-    "OpenAI launched GPT-6 Astra, its most capable model for business, alongside new APIs for agents and real-time voice, significantly advancing enterprise AI integration.",
-    "Significant developments in AI agents are emerging, with AWS introducing an open-source inbox for background agents and Google Research releasing a framework for high-quality tool-use data generation.",
-    "The AI model landscape is expanding with specialized and cost-efficient solutions, including Cognition's SWE-2 coding model, Cohere's North Small Translate for multilingual tasks, and Sakana AI's Fugu models for multi-agent orchestration."
+    "OpenAI launched its flagship GPT-6 Astra model and a new Agents API, significantly advancing enterprise-grade AI and enabling developers to build sophisticated cloud agents.",
+    "NVIDIA open-sourced OSMO, a Kubernetes-native orchestrator for physical AI and robotics, while AWS introduced Pizza Bot, an open-source inbox for background AI agents, providing crucial tools for AI development.",
+    "Major AI leaders including Anthropic, OpenAI, xAI, and Microsoft have aligned on a 'Pace the Frontier' plan, underscoring a collective industry focus on responsible AI development and safety protocols."
   ],
   "agents": [
     {
-      "title": "Introducing the Agents API",
-      "summary": "OpenAI has launched the Agents API, a managed service powered by the Codex harness, enabling developers to build and deploy cloud agents with orchestration, long-running sessions, and robust tool use capabilities.",
-      "link": "https://openai.com/index/introducing-the-agents-api",
-      "source": "OpenAI News"
-    },
-    {
       "title": "AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents",
-      "summary": "AWS released Pizza Bot, an open-source, self-hosted inbox for AI agents built on DeepAgents and LangGraph, offering persistent task state, MCP integrations, configurable approvals, and scheduled workflows across multiple model providers.",
+      "summary": "AWS has released Pizza Bot, an open-source, self-hosted inbox built on DeepAgents and LangGraph, providing persistent task state, configurable approvals, and scheduled workflows for background AI agents across multiple model providers.",
       "link": "https://www.marktechpost.com/2026/09/13/aws-introduces-pizza-bot-an-open-source-inbox-for-background-ai-agents/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Google Research Releases ToolGrad: Answer-First Framework Hits 99.8% Pass Rate for Tool-Use Data Generation",
-      "summary": "Google Research unveiled ToolGrad, a framework that generates high-quality tool-use datasets by creating verified API chains first, achieving a 99.8% pass rate on ToolBench and enabling strong fine-tuning results with minimal samples.",
-      "link": "https://www.marktechpost.com/2026/09/10/google-research-releases-toolgrad-answer-first-framework-hits-99-8%25-pass-rate-for-tool-use-data-generation/",
+      "title": "GTA: Graph Theory Agent and Benchmark for Algorithmic Graph Reasoning with LLMs",
+      "summary": "Researchers introduced the Graph Theory Agent (GTA) and GT Bench, a benchmark with 24 graph problems, demonstrating that GTA significantly improves LLM performance on algorithmic graph reasoning by pairing a preference-trained representation selector with plan-and-decompose scaffolding.",
+      "link": "https://arxiv.org/abs/2609.12265",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "Can LLMs Engineer Their Own Agent Harness? ByteDance Seed’s HarnessDev Says Only 34 of 64 Changes Generalize",
+      "summary": "ByteDance Seed introduced HarnessDev, a benchmark evaluating LLMs' ability to engineer their own agent harnesses, revealing that while self-built harnesses can match human references on some tasks, only a limited number of evolutionary changes generalize to held-out tasks.",
+      "link": "https://www.marktechpost.com/2026/09/11/can-llms-engineer-their-own-agent-harness-bytedance-seeds-harnessdev-says-only-34-of-64-changes-generalize/",
       "source": "MarkTechPost"
     }
   ],
   "models": [
     {
       "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "summary": "OpenAI introduced GPT-6 Astra, their most capable model designed for business, featuring advanced reasoning, enhanced computer use, and superior judgment for writing and design tasks.",
+      "summary": "OpenAI introduced GPT-6 Astra, its most capable model to date for business, featuring advanced reasoning, computer use, and enhanced writing and design judgment, aimed at expanding the scope of work achievable with AI.",
       "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
       "source": "OpenAI News"
     },
     {
       "title": "Cognition Releases SWE-2: A Kimi K3 Post-Trained Coding Model That Matches Fable 5.1 on FrontierCode at 64% Lower Cost",
-      "summary": "Cognition released SWE-2, a powerful coding model post-trained with reinforcement learning from Kimi K3, achieving performance comparable to Fable 5.1 on FrontierCode at significantly reduced costs (64% lower).",
+      "summary": "Cognition, creator of the Devin coding agent, launched SWE-2, a new coding model post-trained with reinforcement learning from Kimi K3, achieving performance comparable to Fable 5.1 on FrontierCode at a 64% lower cost, making it highly efficient for software development tasks.",
       "link": "https://www.marktechpost.com/2026/09/12/cognition-releases-swe-2-a-kimi-k3-post-trained-coding-model-that-matches-fable-5-1-on-frontiercode-at-64-lower-cost/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Cohere Releases North Small Translate: A 218B MoE Translation Model That Scores 83.6 on WMT26 Across 50 Languages",
-      "summary": "Cohere launched North Small Translate, an open-weight Mixture-of-Experts model for machine translation across 50 languages, demonstrating strong performance (83.6 on WMT26) with efficient parameter usage.",
-      "link": "https://www.marktechpost.com/2026/09/10/cohere-releases-north-small-translate-a-218b-moe-translation-model-that-scores-83-6-on-wmt26-across-50-languages/",
-      "source": "MarkTechPost"
+      "title": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
+      "summary": "Researchers released Occamy-1.0, an open, cost-efficient 35B parameter co-work model derived from Qwen3.6-35B-A3B, demonstrating strong performance across agentic benchmarks and remaining competitive with substantially larger frontier systems on several tasks, making it ideal for practical co-work agents.",
+      "link": "https://arxiv.org/abs/2609.11977",
+      "source": "arXiv cs.AI"
     }
   ],
   "tools": [
     {
-      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-      "summary": "OpenAI introduced GPT‑Live‑1 in the API, enabling developers to create natural, full-duplex voice conversations with stronger instruction following, custom voices, and integrated telephony support.",
-      "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "title": "Introducing the Agents API",
+      "summary": "OpenAI launched the Agents API, a managed service powered by the Codex harness, enabling developers to easily build and deploy cloud agents with robust orchestration, long-running sessions, and integrated tool use, streamlining agent development workflows.",
+      "link": "https://openai.com/index/introducing-the-agents-api",
       "source": "OpenAI News"
     },
     {
-      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "summary": "Hugging Face launched `@huggingface/kernels`, a collection of over 200 WebGPU kernels, designed to enable efficient local AI execution directly within web browsers, unlocking new possibilities for client-side model inference.",
-      "link": "https://huggingface.co/blog/webgpu-kernels",
-      "source": "Hugging Face Blog"
+      "title": "NVIDIA Open-Sources OSMO: One YAML Orchestrates Physical AI Training, Simulation, and Robot Testing",
+      "summary": "NVIDIA open-sourced OSMO, its Kubernetes-native workflow orchestrator, allowing robotics teams to define and route physical AI training, simulation, and hardware-in-the-loop tasks to appropriate compute tiers using a single YAML file, simplifying complex infrastructure management.",
+      "link": "https://www.marktechpost.com/2026/09/14/nvidia-open-sources-osmo-one-yaml-orchestrates-physical-ai-training-simulation-and-robot-testing/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Anthropic Adds Plugin Evals to Claude Code: 6 Grader Types, a No-Plugin Baseline, and a CI Gate for Skills",
-      "summary": "Anthropic released a new plugin evaluation workflow for Claude Code, providing developers with six grader types, a no-plugin baseline, and a CI gate to robustly measure plugin effectiveness and skill triggering.",
-      "link": "https://www.marktechpost.com/2026/09/11/anthropic-adds-plugin-evals-to-claude-code-6-grader-types-a-no-plugin-baseline-and-a-ci-gate-for-skills/",
-      "source": "MarkTechPost"
+      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "summary": "Hugging Face introduced `@huggingface/kernels`, a new library offering over 200 WebGPU kernels, designed to accelerate local AI inference and development by enabling performant GPU computations directly in web browsers, enhancing accessibility for client-side AI.",
+      "link": "https://huggingface.co/blog/webgpu-kernels",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "Introducing ChatGPT for Financial Services",
-      "summary": "OpenAI launched ChatGPT for Financial Services, combining built-in financial data with GPT-6 Astra capabilities to enhance research, modeling, and client-ready material generation for the finance sector.",
-      "link": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "source": "OpenAI News"
+      "title": "Anthropic’s 3-Step ‘Pace the Frontier’ Plan Wins OpenAI, xAI and Microsoft Support: Is It Too Late to Slow AI Down?",
+      "summary": "Anthropic's 'Pace the Frontier' plan for AI safety, triggered by a notable agent incident, gained rapid endorsement from major AI leaders including OpenAI, xAI, and Microsoft, signaling a concerted industry effort towards responsible AI development and policy.",
+      "link": "https://www.marktechpost.com/2026/09/13/anthropics-3-step-pace-the-frontier-plan-wins-openai-xai-and-microsoft-support-is-it-too-late-to-slow-ai-down/",
+      "source": "MarkTechPost"
     },
     {
       "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "summary": "OpenAI, in partnership with GSA, is offering eligible U.S. government entities $0 license fees, 50% off usage, and expanded cyber defense support to increase AI adoption and security in the public sector.",
+      "summary": "OpenAI, in partnership with the GSA, announced a program to offer eligible US government entities zero license fees, 50% off usage, and enhanced cyber defense support, significantly broadening AI access and security for public sector applications.",
       "link": "https://openai.com/index/expanding-ai-access-us-government",
       "source": "OpenAI News"
     },
     {
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "summary": "Perplexity is leveraging OpenAI's GPT-6 Astra to manage its end-to-end systems, including communications, software changes, and production monitoring, leading to less human intervention compared to previous models.",
-      "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "title": "Introducing ChatGPT for Financial Services",
+      "summary": "OpenAI launched ChatGPT for Financial Services, a specialized offering combining built-in financial data with GPT-6 Astra's capabilities to support research, modeling, and client-ready material generation, providing tailored AI solutions for the finance industry.",
+      "link": "https://openai.com/index/introducing-chatgpt-financial-services",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Inside our 353,000-person vibe coding course",
-      "summary": "Kaggle's AI Agents Intensive, in collaboration with Google, offered a free course to 353,000 learners, guiding them to build and deploy advanced AI agents, highlighting a major push in accessible AI upskilling.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-      "source": "Google AI Blog"
+      "title": "Context Engineering Inside the Harness: 4 Mechanisms That Beat Context Overflow and Goal Loss on Long-Horizon Tasks",
+      "summary": "This article details four key mechanisms within the agent harness layer (as used by leading frameworks like LangChain Deep Agents) to prevent context overflow and goal loss in long-horizon AI tasks, offering crucial insights for building robust shallow agents.",
+      "link": "https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks/",
+      "source": "MarkTechPost"
     },
     {
       "title": "Implementation of Machine Learning Workflows with NVIDIA cuML, RAPIDS, GPU Benchmarking, Explainability, Clustering, and Model Inference",
-      "summary": "This practical tutorial provides a guide to building and accelerating machine learning workflows using NVIDIA cuML and RAPIDS, covering GPU setup, zero-code acceleration, performance benchmarking, and model explainability with GPU-accelerated SHAP.",
+      "summary": "This practical tutorial demonstrates how to build and accelerate machine learning workflows using NVIDIA cuML and RAPIDS, covering GPU environment setup, zero-code scikit-learn acceleration, performance benchmarking, and model explainability with GPU-accelerated SHAP.",
       "link": "https://www.marktechpost.com/2026/09/12/implementation-of-machine-learning-workflows-with-nvidia-cuml-rapids-gpu-benchmarking-explainability-clustering-and-model-inference/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-      "summary": "This guide explains how to train and finetune multi-vector embedding models using Sentence Transformers, providing practical steps for developers to enhance semantic search and retrieval applications.",
-      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "source": "Hugging Face Blog"
+      "title": "Hierarchical NeRF with JAX3D for Volumetric Rendering, Novel-View Synthesis, and 3D Reconstruction",
+      "summary": "This tutorial demonstrates building an end-to-end hierarchical Neural Radiance Field (NeRF) for volumetric rendering, novel-view synthesis, and 3D reconstruction using JAX, Flax, Optax, and jax3d, offering a deep dive into advanced 3D vision techniques.",
+      "link": "https://www.marktechpost.com/2026/09/13/hierarchical-nerf-with-jax3d-for-volumetric-rendering-novel-view-synthesis-and-3D-reconstruction/",
+      "source": "MarkTechPost"
     }
   ]
 }
