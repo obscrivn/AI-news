@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2026-09-14T12:00:00Z",
+  "lastUpdated": "2024-05-14T12:00:00Z",
   "highlights": [
-    "OpenAI launched its flagship GPT-6 Astra model and a new Agents API, significantly advancing enterprise-grade AI and enabling developers to build sophisticated cloud agents.",
-    "NVIDIA open-sourced OSMO, a Kubernetes-native orchestrator for physical AI and robotics, while AWS introduced Pizza Bot, an open-source inbox for background AI agents, providing crucial tools for AI development.",
-    "Major AI leaders including Anthropic, OpenAI, xAI, and Microsoft have aligned on a 'Pace the Frontier' plan, underscoring a collective industry focus on responsible AI development and safety protocols."
+    "AI agent development is rapidly advancing, with new open-source tools enabling easy deployment of public-facing agents and advanced research pushing into self-adaptive physical and long-horizon clinical applications.",
+    "Foundation models continue to evolve with OpenAI's release of the enterprise-focused GPT-6 Astra and the emergence of highly efficient, fully open models like ZGCM-1 for specialized domains like math and agentic search.",
+    "The industry is seeing a dual focus on both accelerating AI deployment through new developer tools and APIs (e.g., OpenAI's Agents API, NVIDIA's OSMO) and establishing collaborative governance frameworks for responsible AI development."
   ],
   "agents": [
     {
-      "title": "AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents",
-      "summary": "AWS has released Pizza Bot, an open-source, self-hosted inbox built on DeepAgents and LangGraph, providing persistent task state, configurable approvals, and scheduled workflows for background AI agents across multiple model providers.",
-      "link": "https://www.marktechpost.com/2026/09/13/aws-introduces-pizza-bot-an-open-source-inbox-for-background-ai-agents/",
+      "title": "Agent-net Open Sources Webagent: Turns Any Website into a Guarded AI Agent",
+      "summary": "Agent-net released Webagent, an open-source Go harness that allows businesses to quickly deploy public-facing AI agents from their websites, facilitating agent-to-agent communication without complex orchestration code.",
+      "link": "https://www.marktechpost.com/2026/09/14/agent-net-open-sources-webagent-a-go-harness-that-turns-any-website-into-a-guarded-ai-agent/",
       "source": "MarkTechPost"
     },
     {
-      "title": "GTA: Graph Theory Agent and Benchmark for Algorithmic Graph Reasoning with LLMs",
-      "summary": "Researchers introduced the Graph Theory Agent (GTA) and GT Bench, a benchmark with 24 graph problems, demonstrating that GTA significantly improves LLM performance on algorithmic graph reasoning by pairing a preference-trained representation selector with plan-and-decompose scaffolding.",
-      "link": "https://arxiv.org/abs/2609.12265",
+      "title": "Asclepius: An Adaptive Harness for Long-Horizon Clinical Agents",
+      "summary": "Asclepius is an adaptive agent scaffolding with a self-evolving harness designed for long-horizon clinical tasks, significantly improving critical-action correctness and timeliness in demanding environments by addressing specific failure modes.",
+      "link": "https://arxiv.org/abs/2609.13543",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Can LLMs Engineer Their Own Agent Harness? ByteDance Seed’s HarnessDev Says Only 34 of 64 Changes Generalize",
-      "summary": "ByteDance Seed introduced HarnessDev, a benchmark evaluating LLMs' ability to engineer their own agent harnesses, revealing that while self-built harnesses can match human references on some tasks, only a limited number of evolutionary changes generalize to held-out tasks.",
-      "link": "https://www.marktechpost.com/2026/09/11/can-llms-engineer-their-own-agent-harness-bytedance-seeds-harnessdev-says-only-34-of-64-changes-generalize/",
-      "source": "MarkTechPost"
+      "title": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
+      "summary": "This research explores a multi-agent framework enabling zero-shot LLM agents to autonomously manage long-term physical tasks like agricultural operations, demonstrating superior adaptability to environmental changes compared to traditional RL agents.",
+      "link": "https://arxiv.org/abs/2609.13436",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
       "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "summary": "OpenAI introduced GPT-6 Astra, its most capable model to date for business, featuring advanced reasoning, computer use, and enhanced writing and design judgment, aimed at expanding the scope of work achievable with AI.",
+      "summary": "OpenAI introduced GPT-6 Astra, its most capable model designed for business applications, featuring advanced reasoning, computer use capabilities, and enhanced writing and design judgment to boost enterprise productivity.",
       "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
       "source": "OpenAI News"
     },
     {
-      "title": "Cognition Releases SWE-2: A Kimi K3 Post-Trained Coding Model That Matches Fable 5.1 on FrontierCode at 64% Lower Cost",
-      "summary": "Cognition, creator of the Devin coding agent, launched SWE-2, a new coding model post-trained with reinforcement learning from Kimi K3, achieving performance comparable to Fable 5.1 on FrontierCode at a 64% lower cost, making it highly efficient for software development tasks.",
-      "link": "https://www.marktechpost.com/2026/09/12/cognition-releases-swe-2-a-kimi-k3-post-trained-coding-model-that-matches-fable-5-1-on-frontiercode-at-64-lower-cost/",
-      "source": "MarkTechPost"
+      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+      "summary": "ZGCM-1 is a new, fully open 7B dense foundation model trained for exceptional efficiency, demonstrating competitive performance with frontier models orders of magnitude larger in mathematical reasoning and agentic search suites.",
+      "link": "https://arxiv.org/abs/2609.13356",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
-      "summary": "Researchers released Occamy-1.0, an open, cost-efficient 35B parameter co-work model derived from Qwen3.6-35B-A3B, demonstrating strong performance across agentic benchmarks and remaining competitive with substantially larger frontier systems on several tasks, making it ideal for practical co-work agents.",
-      "link": "https://arxiv.org/abs/2609.11977",
-      "source": "arXiv cs.AI"
+      "title": "Sakana AI Researchers Introduce PC-ALM, a Layer-Local Alternative to Backpropagation That Trains 1000-Layer Networks",
+      "summary": "Sakana AI researchers developed PC-ALM, a layer-local alternative to backpropagation that recovers exact gradients in linear networks and successfully trains 1000-layer residual MLPs, offering a new approach to deep network scalability.",
+      "link": "https://www.marktechpost.com/2026/09/14/sakana-ai-researchers-introduce-pc-alm-a-layer-local-alternative-to-backpropagation-that-trains-1000-layer-networks/",
+      "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
       "title": "Introducing the Agents API",
-      "summary": "OpenAI launched the Agents API, a managed service powered by the Codex harness, enabling developers to easily build and deploy cloud agents with robust orchestration, long-running sessions, and integrated tool use, streamlining agent development workflows.",
+      "summary": "OpenAI launched the Agents API, a managed service powered by the Codex harness, enabling developers to build and deploy cloud agents with robust orchestration, long-running sessions, and advanced tool-use capabilities.",
       "link": "https://openai.com/index/introducing-the-agents-api",
       "source": "OpenAI News"
     },
     {
       "title": "NVIDIA Open-Sources OSMO: One YAML Orchestrates Physical AI Training, Simulation, and Robot Testing",
-      "summary": "NVIDIA open-sourced OSMO, its Kubernetes-native workflow orchestrator, allowing robotics teams to define and route physical AI training, simulation, and hardware-in-the-loop tasks to appropriate compute tiers using a single YAML file, simplifying complex infrastructure management.",
+      "summary": "NVIDIA open-sourced OSMO, a Kubernetes-native workflow orchestrator for robotics teams, allowing definition of training, simulation, and hardware-in-the-loop tasks in a single YAML file and routing them to appropriate compute tiers.",
       "link": "https://www.marktechpost.com/2026/09/14/nvidia-open-sources-osmo-one-yaml-orchestrates-physical-ai-training-simulation-and-robot-testing/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "summary": "Hugging Face introduced `@huggingface/kernels`, a new library offering over 200 WebGPU kernels, designed to accelerate local AI inference and development by enabling performant GPU computations directly in web browsers, enhancing accessibility for client-side AI.",
-      "link": "https://huggingface.co/blog/webgpu-kernels",
-      "source": "Hugging Face Blog"
+      "title": "Now everyone can put data to work with the Data agent in ChatGPT Work",
+      "summary": "OpenAI introduced the Data agent in ChatGPT Work, enabling users to connect company data, uncover insights, and build interactive dashboards using natural language, democratizing data analysis for businesses.",
+      "link": "https://openai.com/index/put-data-to-work",
+      "source": "OpenAI News"
     }
   ],
   "companies": [
     {
-      "title": "Anthropic’s 3-Step ‘Pace the Frontier’ Plan Wins OpenAI, xAI and Microsoft Support: Is It Too Late to Slow AI Down?",
-      "summary": "Anthropic's 'Pace the Frontier' plan for AI safety, triggered by a notable agent incident, gained rapid endorsement from major AI leaders including OpenAI, xAI, and Microsoft, signaling a concerted industry effort towards responsible AI development and policy.",
+      "title": "Anthropic’s 3-Step ‘Pace the Frontier’ Plan Wins OpenAI, xAI and Microsoft Support",
+      "summary": "Anthropic's proposed 'Pace the Frontier' plan for slowing AI development gained support from OpenAI, xAI, and Microsoft, signaling a unified industry effort to address AI safety and risks following a major incident.",
       "link": "https://www.marktechpost.com/2026/09/13/anthropics-3-step-pace-the-frontier-plan-wins-openai-xai-and-microsoft-support-is-it-too-late-to-slow-ai-down/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "summary": "OpenAI, in partnership with the GSA, announced a program to offer eligible US government entities zero license fees, 50% off usage, and enhanced cyber defense support, significantly broadening AI access and security for public sector applications.",
-      "link": "https://openai.com/index/expanding-ai-access-us-government",
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "summary": "OpenAI released GPT-6 Astra, its most capable model yet for business applications, emphasizing advanced reasoning, computer use, and improved judgment for writing and design tasks, aiming to significantly enhance enterprise productivity.",
+      "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
       "source": "OpenAI News"
     },
     {
       "title": "Introducing ChatGPT for Financial Services",
-      "summary": "OpenAI launched ChatGPT for Financial Services, a specialized offering combining built-in financial data with GPT-6 Astra's capabilities to support research, modeling, and client-ready material generation, providing tailored AI solutions for the finance industry.",
+      "summary": "OpenAI launched ChatGPT for Financial Services, a specialized offering combining built-in financial data with GPT-6 Astra capabilities for advanced research, modeling, and creation of client-ready materials for the finance industry.",
       "link": "https://openai.com/index/introducing-chatgpt-financial-services",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Context Engineering Inside the Harness: 4 Mechanisms That Beat Context Overflow and Goal Loss on Long-Horizon Tasks",
-      "summary": "This article details four key mechanisms within the agent harness layer (as used by leading frameworks like LangChain Deep Agents) to prevent context overflow and goal loss in long-horizon AI tasks, offering crucial insights for building robust shallow agents.",
-      "link": "https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Implementation of Machine Learning Workflows with NVIDIA cuML, RAPIDS, GPU Benchmarking, Explainability, Clustering, and Model Inference",
-      "summary": "This practical tutorial demonstrates how to build and accelerate machine learning workflows using NVIDIA cuML and RAPIDS, covering GPU environment setup, zero-code scikit-learn acceleration, performance benchmarking, and model explainability with GPU-accelerated SHAP.",
-      "link": "https://www.marktechpost.com/2026/09/12/implementation-of-machine-learning-workflows-with-nvidia-cuml-rapids-gpu-benchmarking-explainability-clustering-and-model-inference/",
-      "source": "MarkTechPost"
+      "title": "DevFest is back: Build, Secure, and Scale in the Agentic AI Era",
+      "summary": "Google announced the return of DevFest 2026, a series of global developer events aimed at helping the community build, secure, and scale applications specifically for the burgeoning agentic AI era.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "source": "Google AI Blog"
     },
     {
       "title": "Hierarchical NeRF with JAX3D for Volumetric Rendering, Novel-View Synthesis, and 3D Reconstruction",
-      "summary": "This tutorial demonstrates building an end-to-end hierarchical Neural Radiance Field (NeRF) for volumetric rendering, novel-view synthesis, and 3D reconstruction using JAX, Flax, Optax, and jax3d, offering a deep dive into advanced 3D vision techniques.",
-      "link": "https://www.marktechpost.com/2026/09/13/hierarchical-nerf-with-jax3d-for-volumetric-rendering-novel-view-synthesis-and-3D-reconstruction/",
+      "summary": "This tutorial provides an end-to-end guide on building a hierarchical Neural Radiance Field (NeRF) using JAX, Flax, Optax, and jax3d for volumetric rendering, novel-view synthesis, and 3D reconstruction, establishing the forward rendering process.",
+      "link": "https://www.marktechpost.com/2026/09/13/hierarchical-nerf-with-jax3d-for-volumetric-rendering-novel-view-synthesis-and-3d-reconstruction/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and Recovery",
+      "summary": "This article provides a practitioner's map detailing the distinctions between agent harnesses, agent frameworks, and MCPs in a modern agent stack, clarifying responsibilities for loop management, state, tools, permissions, and recovery.",
+      "link": "https://www.marktechpost.com/2026/09/14/agent-harness-vs-agent-framework-vs-mcp-which-layer-owns-the-loop-state-tools-permissions-and-recovery/",
       "source": "MarkTechPost"
     }
   ]
