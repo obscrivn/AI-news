@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2024-05-14T12:00:00Z",
+  "lastUpdated": "2024-07-30T12:00:00Z",
   "highlights": [
-    "AI agent development is rapidly advancing, with new open-source tools enabling easy deployment of public-facing agents and advanced research pushing into self-adaptive physical and long-horizon clinical applications.",
-    "Foundation models continue to evolve with OpenAI's release of the enterprise-focused GPT-6 Astra and the emergence of highly efficient, fully open models like ZGCM-1 for specialized domains like math and agentic search.",
-    "The industry is seeing a dual focus on both accelerating AI deployment through new developer tools and APIs (e.g., OpenAI's Agents API, NVIDIA's OSMO) and establishing collaborative governance frameworks for responsible AI development."
+    "OpenAI has significantly expanded its enterprise and developer offerings, launching the Agents API, specialized ChatGPT for Financial Services, and revealing new AI-powered advertising models, alongside the powerful GPT-6 Astra for business applications.",
+    "The AI agent ecosystem is rapidly maturing with new tools and research focused on real-world deployment challenges, including open-source harnesses for web agents, adaptive frameworks for clinical AI, and advanced techniques for diagnosing agent failures and optimizing token efficiency.",
+    "Innovation in foundation models continues with highly efficient, open-source models like ZGCM-1 for math and agentic search, and specialized tabular models like TabPFN-3.5 demonstrating state-of-the-art performance, pushing the boundaries of what compact and domain-specific AI can achieve."
   ],
   "agents": [
     {
-      "title": "Agent-net Open Sources Webagent: Turns Any Website into a Guarded AI Agent",
-      "summary": "Agent-net released Webagent, an open-source Go harness that allows businesses to quickly deploy public-facing AI agents from their websites, facilitating agent-to-agent communication without complex orchestration code.",
+      "title": "Google Releases Gemini 3.8 Live and 3.8 Live Extended Thinking for Production Grade Voice Agents",
+      "summary": "Google introduced Gemini 3.8 Live and Extended Thinking models, enabling production-grade voice agents that process live visuals, switch languages, and execute tools dynamically, offering real-time conversational AI.",
+      "link": "https://www.marktechpost.com/2026/09/15/google-releases-gemini-3-8-live-and-3-8-live-extended-thinking-for-production-grade-voice-agents/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Agent-net Open Sources Webagent: A Go Harness That Turns Any Website into a Guarded AI Agent",
+      "summary": "Agent-net released Webagent, an open-source Go harness that allows businesses to transform any website into a public-facing, guarded AI agent capable of interacting with other agents. This simplifies agent creation by replacing orchestration code with configuration.",
       "link": "https://www.marktechpost.com/2026/09/14/agent-net-open-sources-webagent-a-go-harness-that-turns-any-website-into-a-guarded-ai-agent/",
       "source": "MarkTechPost"
     },
     {
       "title": "Asclepius: An Adaptive Harness for Long-Horizon Clinical Agents",
-      "summary": "Asclepius is an adaptive agent scaffolding with a self-evolving harness designed for long-horizon clinical tasks, significantly improving critical-action correctness and timeliness in demanding environments by addressing specific failure modes.",
+      "summary": "Asclepius is an adaptive agent scaffolding designed to manage long-horizon clinical tasks, using a self-evolving harness and subagents to significantly improve critical-action correctness and timeliness for clinical AI applications.",
       "link": "https://arxiv.org/abs/2609.13543",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
-      "summary": "This research explores a multi-agent framework enabling zero-shot LLM agents to autonomously manage long-term physical tasks like agricultural operations, demonstrating superior adaptability to environmental changes compared to traditional RL agents.",
-      "link": "https://arxiv.org/abs/2609.13436",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
       "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "summary": "OpenAI introduced GPT-6 Astra, its most capable model designed for business applications, featuring advanced reasoning, computer use capabilities, and enhanced writing and design judgment to boost enterprise productivity.",
+      "summary": "OpenAI announced GPT-6 Astra, their most capable business-focused model, featuring advanced reasoning, computer use, and superior writing and design judgment to enhance enterprise applications.",
       "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
       "source": "OpenAI News"
     },
     {
       "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
-      "summary": "ZGCM-1 is a new, fully open 7B dense foundation model trained for exceptional efficiency, demonstrating competitive performance with frontier models orders of magnitude larger in mathematical reasoning and agentic search suites.",
+      "summary": "ZGCM-1 is a fully open, 7B dense foundation model trained for math and agentic search, achieving competitive performance against much larger frontier models with significant efficiency improvements.",
       "link": "https://arxiv.org/abs/2609.13356",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Sakana AI Researchers Introduce PC-ALM, a Layer-Local Alternative to Backpropagation That Trains 1000-Layer Networks",
-      "summary": "Sakana AI researchers developed PC-ALM, a layer-local alternative to backpropagation that recovers exact gradients in linear networks and successfully trains 1000-layer residual MLPs, offering a new approach to deep network scalability.",
-      "link": "https://www.marktechpost.com/2026/09/14/sakana-ai-researchers-introduce-pc-alm-a-layer-local-alternative-to-backpropagation-that-trains-1000-layer-networks/",
+      "title": "Prior Labs Releases TabPFN-3.5: A Tabular Foundation Model That Beats the Winning Otto Kaggle Solution With Default Settings",
+      "summary": "Prior Labs introduced TabPFN-3.5, a tabular foundation model trained solely on synthetic data, demonstrating superior performance by surpassing the winning Otto Kaggle solution with out-of-the-box settings.",
+      "link": "https://www.marktechpost.com/2026/09/15/prior-labs-releases-tabpfn-3-5-a-tabular-foundation-model-that-beats-the-winning-otto-kaggle-solution-with-default-settings/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
       "title": "Introducing the Agents API",
-      "summary": "OpenAI launched the Agents API, a managed service powered by the Codex harness, enabling developers to build and deploy cloud agents with robust orchestration, long-running sessions, and advanced tool-use capabilities.",
+      "summary": "OpenAI unveiled the Agents API, a managed service powered by the Codex harness, enabling developers to build and deploy robust cloud agents with built-in orchestration, long-running sessions, and tool use.",
       "link": "https://openai.com/index/introducing-the-agents-api",
       "source": "OpenAI News"
     },
     {
       "title": "NVIDIA Open-Sources OSMO: One YAML Orchestrates Physical AI Training, Simulation, and Robot Testing",
-      "summary": "NVIDIA open-sourced OSMO, a Kubernetes-native workflow orchestrator for robotics teams, allowing definition of training, simulation, and hardware-in-the-loop tasks in a single YAML file and routing them to appropriate compute tiers.",
+      "summary": "NVIDIA open-sourced OSMO, a Kubernetes-native workflow orchestrator, streamlining the definition and execution of physical AI tasks, including training, simulation, and hardware-in-the-loop testing, via a single YAML file.",
       "link": "https://www.marktechpost.com/2026/09/14/nvidia-open-sources-osmo-one-yaml-orchestrates-physical-ai-training-simulation-and-robot-testing/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Now everyone can put data to work with the Data agent in ChatGPT Work",
-      "summary": "OpenAI introduced the Data agent in ChatGPT Work, enabling users to connect company data, uncover insights, and build interactive dashboards using natural language, democratizing data analysis for businesses.",
-      "link": "https://openai.com/index/put-data-to-work",
-      "source": "OpenAI News"
+      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "summary": "Hugging Face introduced `@huggingface/kernels`, a collection of over 200 WebGPU kernels, empowering developers to run performant AI computations directly within web browsers for local AI applications.",
+      "link": "https://huggingface.co/blog/webgpu-kernels",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "Anthropic’s 3-Step ‘Pace the Frontier’ Plan Wins OpenAI, xAI and Microsoft Support",
-      "summary": "Anthropic's proposed 'Pace the Frontier' plan for slowing AI development gained support from OpenAI, xAI, and Microsoft, signaling a unified industry effort to address AI safety and risks following a major incident.",
-      "link": "https://www.marktechpost.com/2026/09/13/anthropics-3-step-pace-the-frontier-plan-wins-openai-xai-and-microsoft-support-is-it-too-late-to-slow-ai-down/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "summary": "OpenAI released GPT-6 Astra, its most capable model yet for business applications, emphasizing advanced reasoning, computer use, and improved judgment for writing and design tasks, aiming to significantly enhance enterprise productivity.",
-      "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "title": "Reimagining advertising with AI",
+      "summary": "OpenAI is exploring new AI-powered advertising experiences, including Sponsored Agents and tools for marketers, signaling a strategic move into AI-driven monetization and market expansion.",
+      "link": "https://openai.com/index/reimagining-advertising-with-ai",
       "source": "OpenAI News"
     },
     {
       "title": "Introducing ChatGPT for Financial Services",
-      "summary": "OpenAI launched ChatGPT for Financial Services, a specialized offering combining built-in financial data with GPT-6 Astra capabilities for advanced research, modeling, and creation of client-ready materials for the finance industry.",
+      "summary": "OpenAI launched ChatGPT for Financial Services, a specialized offering combining built-in financial data with GPT-6 Astra for enhanced research, modeling, and client material generation tailored for the finance industry.",
       "link": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "summary": "Perplexity is leveraging OpenAI's GPT-6 Astra model for critical end-to-end systems, including communications, software changes, and production monitoring, highlighting Astra's reliability and capability for complex operational tasks.",
+      "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "DevFest is back: Build, Secure, and Scale in the Agentic AI Era",
-      "summary": "Google announced the return of DevFest 2026, a series of global developer events aimed at helping the community build, secure, and scale applications specifically for the burgeoning agentic AI era.",
+      "title": "Inside NVIDIA’s cuDNN Graph API: Fusion, Autotuning, and Plan Reuse with cuDNN Frontend",
+      "summary": "This practical tutorial provides deep learning developers with guidance on leveraging NVIDIA’s cuDNN Frontend Graph API to build custom kernel fusions, optimize computations, and validate results against PyTorch.",
+      "link": "https://www.marktechpost.com/2026/09/15/inside-nvidias-cudnn-graph-api-fusion-autotuning-and-plan-reuse-with-cudnn-frontend/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "DevFest is back",
+      "summary": "DevFest 2026 is returning with over 800 global events, offering developers an opportunity to connect, build, secure, and scale solutions in the evolving agentic AI era.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
       "source": "Google AI Blog"
     },
     {
-      "title": "Hierarchical NeRF with JAX3D for Volumetric Rendering, Novel-View Synthesis, and 3D Reconstruction",
-      "summary": "This tutorial provides an end-to-end guide on building a hierarchical Neural Radiance Field (NeRF) using JAX, Flax, Optax, and jax3d for volumetric rendering, novel-view synthesis, and 3D reconstruction, establishing the forward rendering process.",
-      "link": "https://www.marktechpost.com/2026/09/13/hierarchical-nerf-with-jax3d-for-volumetric-rendering-novel-view-synthesis-and-3d-reconstruction/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and Recovery",
-      "summary": "This article provides a practitioner's map detailing the distinctions between agent harnesses, agent frameworks, and MCPs in a modern agent stack, clarifying responsibilities for loop management, state, tools, permissions, and recovery.",
-      "link": "https://www.marktechpost.com/2026/09/14/agent-harness-vs-agent-framework-vs-mcp-which-layer-owns-the-loop-state-tools-permissions-and-recovery/",
-      "source": "MarkTechPost"
+      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "summary": "A comprehensive guide on training and fine-tuning multi-vector embedding models using Sentence Transformers, providing practical steps for developers to enhance their natural language processing applications.",
+      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "source": "Hugging Face Blog"
     }
   ]
 }
