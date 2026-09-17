@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2024-07-30T12:00:00Z",
+  "lastUpdated": "2024-05-18T10:30:00Z",
   "highlights": [
-    "OpenAI has significantly expanded its enterprise and developer offerings, launching the Agents API, specialized ChatGPT for Financial Services, and revealing new AI-powered advertising models, alongside the powerful GPT-6 Astra for business applications.",
-    "The AI agent ecosystem is rapidly maturing with new tools and research focused on real-world deployment challenges, including open-source harnesses for web agents, adaptive frameworks for clinical AI, and advanced techniques for diagnosing agent failures and optimizing token efficiency.",
-    "Innovation in foundation models continues with highly efficient, open-source models like ZGCM-1 for math and agentic search, and specialized tabular models like TabPFN-3.5 demonstrating state-of-the-art performance, pushing the boundaries of what compact and domain-specific AI can achieve."
+    "Major AI players are diversifying their offerings, with OpenAI expanding into financial services and advertising, while Google advances real-time voice agent capabilities.",
+    "The focus on agentic AI continues to intensify, marked by new APIs for cloud agent development, frameworks for self-evolving agents, and tools to transform research papers into active AI entities.",
+    "Significant progress in model efficiency and specialized applications is evident, with new tabular foundation models setting performance benchmarks and faster retrieval systems emerging, alongside robust frameworks for synthetic data generation and transparent model governance."
   ],
   "agents": [
     {
-      "title": "Google Releases Gemini 3.8 Live and 3.8 Live Extended Thinking for Production Grade Voice Agents",
-      "summary": "Google introduced Gemini 3.8 Live and Extended Thinking models, enabling production-grade voice agents that process live visuals, switch languages, and execute tools dynamically, offering real-time conversational AI.",
+      "title": "Google Releases Gemini 3.8 Live for Production Grade Voice Agents",
+      "summary": "Google has released Gemini 3.8 Live, its most advanced live dialogue models, capable of executing tools, processing visual inputs, and switching languages mid-conversation for production-grade voice agents. These models, available via API, set a new standard for natural and functional conversational AI.",
       "link": "https://www.marktechpost.com/2026/09/15/google-releases-gemini-3-8-live-and-3-8-live-extended-thinking-for-production-grade-voice-agents/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Agent-net Open Sources Webagent: A Go Harness That Turns Any Website into a Guarded AI Agent",
-      "summary": "Agent-net released Webagent, an open-source Go harness that allows businesses to transform any website into a public-facing, guarded AI agent capable of interacting with other agents. This simplifies agent creation by replacing orchestration code with configuration.",
-      "link": "https://www.marktechpost.com/2026/09/14/agent-net-open-sources-webagent-a-go-harness-that-turns-any-website-into-a-guarded-ai-agent/",
+      "title": "Stanford Releases Paper2Agent: Turning Research Papers Into AI Agents",
+      "summary": "Stanford researchers introduced Paper2Agent, a novel system published in Nature that converts research papers into validated AI agents capable of reproducing experimental results and running on new data. This innovation dramatically streamlines the practical application and validation of scientific findings in AI.",
+      "link": "https://www.marktechpost.com/2026/09/16/stanford-researchers-release-paper2agent-turning-research-papers-into-ai-agents-that-reproduce-results-and-run-on-new-data/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Asclepius: An Adaptive Harness for Long-Horizon Clinical Agents",
-      "summary": "Asclepius is an adaptive agent scaffolding designed to manage long-horizon clinical tasks, using a self-evolving harness and subagents to significantly improve critical-action correctness and timeliness for clinical AI applications.",
-      "link": "https://arxiv.org/abs/2609.13543",
+      "title": "EvolveTrade: Self-Evolving LLM Trading Agents with Policy Refinement",
+      "summary": "EvolveTrade, a new framework, enables LLM trading agents to self-evolve their tool-use policies based on accumulated decision traces and portfolio feedback, without modifying the backbone LLM. This allows agents to adapt to changing market regimes, improving Sharpe Ratio and Cumulative Return over static policy baselines.",
+      "link": "https://arxiv.org/abs/2609.17632",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "summary": "OpenAI announced GPT-6 Astra, their most capable business-focused model, featuring advanced reasoning, computer use, and superior writing and design judgment to enhance enterprise applications.",
-      "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "source": "OpenAI News"
+      "title": "Google Research Introduces Retrieve-for-Train (R4T): 12-20× Faster Diffusion Retriever",
+      "summary": "Google Research unveiled Retrieve-for-Train (R4T), an RL-compiled diffusion retriever that generates all retrieval directions in a single pass, achieving 12x to 20x faster query fan-out. This framework trains a language model with RL to synthesize data for a 53.9M-parameter diffusion retriever, offering significant speed improvements for search systems.",
+      "link": "https://www.marktechpost.com/2026/09/16/google-research-introduces-retrieve-for-train-r4t-an-rl-compiled-diffusion-retriever-for-12x-to-20x-faster-query-fan-out/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
-      "summary": "ZGCM-1 is a fully open, 7B dense foundation model trained for math and agentic search, achieving competitive performance against much larger frontier models with significant efficiency improvements.",
-      "link": "https://arxiv.org/abs/2609.13356",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Prior Labs Releases TabPFN-3.5: A Tabular Foundation Model That Beats the Winning Otto Kaggle Solution With Default Settings",
-      "summary": "Prior Labs introduced TabPFN-3.5, a tabular foundation model trained solely on synthetic data, demonstrating superior performance by surpassing the winning Otto Kaggle solution with out-of-the-box settings.",
+      "title": "Prior Labs Releases TabPFN-3.5: Tabular Foundation Model Beats Kaggle Winner",
+      "summary": "Prior Labs introduced TabPFN-3.5, a tabular foundation model trained solely on synthetic data, which remarkably outperforms the winning solution of the Otto Kaggle competition using default settings. This marks a significant leap in high-performance, out-of-the-box tabular data modeling.",
       "link": "https://www.marktechpost.com/2026/09/15/prior-labs-releases-tabpfn-3-5-a-tabular-foundation-model-that-beats-the-winning-otto-kaggle-solution-with-default-settings/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Nums AI Releases Causilo: Top Tabular Foundation Model on TabArena",
+      "summary": "Nums AI released Causilo, a pretrained tabular foundation model for classification and regression with a scikit-learn interface, achieving the top TabArena Elo among single models. Its Apache-2.0 licensed code makes it a compelling open-source option for tabular data tasks.",
+      "link": "https://www.marktechpost.com/2026/09/15/nums-ai-releases-causilo-a-tabular-foundation-model-that-tops-tabarena-among-single-models/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Introducing the Agents API",
-      "summary": "OpenAI unveiled the Agents API, a managed service powered by the Codex harness, enabling developers to build and deploy robust cloud agents with built-in orchestration, long-running sessions, and tool use.",
+      "title": "OpenAI Introduces the Agents API for Cloud Agent Development",
+      "summary": "OpenAI has launched the Agents API, a managed service powered by the Codex harness, enabling developers to build and deploy cloud agents with robust orchestration, long-running session management, and integrated tool use. This simplifies the creation of complex, intelligent automation solutions.",
       "link": "https://openai.com/index/introducing-the-agents-api",
       "source": "OpenAI News"
     },
     {
-      "title": "NVIDIA Open-Sources OSMO: One YAML Orchestrates Physical AI Training, Simulation, and Robot Testing",
-      "summary": "NVIDIA open-sourced OSMO, a Kubernetes-native workflow orchestrator, streamlining the definition and execution of physical AI tasks, including training, simulation, and hardware-in-the-loop testing, via a single YAML file.",
-      "link": "https://www.marktechpost.com/2026/09/14/nvidia-open-sources-osmo-one-yaml-orchestrates-physical-ai-training-simulation-and-robot-testing/",
-      "source": "MarkTechPost"
+      "title": "NeMo Data Designer: Extensible Framework for Multimodal Synthetic Data Generation",
+      "summary": "NeMo Data Designer (NDD) is an open-source, extensible framework for multimodal synthetic data generation, offering a declarative configuration format for diverse data types including text, code, images, and embeddings. NDD features a preview-and-revision loop and flexible plugin system, crucial for iterative dataset refinement.",
+      "link": "https://arxiv.org/abs/2609.17699",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "summary": "Hugging Face introduced `@huggingface/kernels`, a collection of over 200 WebGPU kernels, empowering developers to run performant AI computations directly within web browsers for local AI applications.",
+      "title": "Hugging Face Releases 200+ WebGPU Kernels for Local AI",
+      "summary": "Hugging Face introduced @huggingface/kernels, a collection of over 200 WebGPU kernels designed to enable efficient, local AI inference directly in web browsers. This release empowers developers to run powerful AI models client-side, reducing latency and reliance on cloud resources.",
       "link": "https://huggingface.co/blog/webgpu-kernels",
       "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "Reimagining advertising with AI",
-      "summary": "OpenAI is exploring new AI-powered advertising experiences, including Sponsored Agents and tools for marketers, signaling a strategic move into AI-driven monetization and market expansion.",
+      "title": "OpenAI Shares Framework for Model Misalignment Disclosure",
+      "summary": "OpenAI has released a comprehensive framework for tracking, investigating, and disclosing instances of model misalignment, accompanied by six initial reports of unexpected or concerning model behaviors. This initiative aims to foster greater transparency and safety in AI development.",
+      "link": "https://openai.com/index/model-misalignment-reporting-framework",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "OpenAI Reimagines Advertising with New AI-Powered Experiences",
+      "summary": "OpenAI is exploring new AI-powered advertising experiences, including Sponsored Agents and dedicated tools for marketers, alongside integrations with HubSpot and Shopify. This move signals a strategic expansion into the advertising technology sector, leveraging generative AI for novel campaigns.",
       "link": "https://openai.com/index/reimagining-advertising-with-ai",
       "source": "OpenAI News"
     },
     {
-      "title": "Introducing ChatGPT for Financial Services",
-      "summary": "OpenAI launched ChatGPT for Financial Services, a specialized offering combining built-in financial data with GPT-6 Astra for enhanced research, modeling, and client material generation tailored for the finance industry.",
+      "title": "OpenAI Introduces ChatGPT for Financial Services",
+      "summary": "OpenAI launched ChatGPT for Financial Services, a specialized offering combining built-in financial data with GPT-6 Astra capabilities for advanced research, modeling, and client-ready material generation. This vertical solution targets critical needs within the financial industry.",
       "link": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "summary": "Perplexity is leveraging OpenAI's GPT-6 Astra model for critical end-to-end systems, including communications, software changes, and production monitoring, highlighting Astra's reliability and capability for complex operational tasks.",
-      "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Inside NVIDIA’s cuDNN Graph API: Fusion, Autotuning, and Plan Reuse with cuDNN Frontend",
-      "summary": "This practical tutorial provides deep learning developers with guidance on leveraging NVIDIA’s cuDNN Frontend Graph API to build custom kernel fusions, optimize computations, and validate results against PyTorch.",
+      "title": "NVIDIA Tutorial: Inside cuDNN Graph API for Deep Learning Optimization",
+      "summary": "NVIDIA offers a practical tutorial on leveraging its cuDNN Frontend Graph API to build custom kernel fusions, configure autotuning, and optimize deep learning computations. This guide is crucial for developers seeking to enhance performance directly below framework abstractions.",
       "link": "https://www.marktechpost.com/2026/09/15/inside-nvidias-cudnn-graph-api-fusion-autotuning-and-plan-reuse-with-cudnn-frontend/",
       "source": "MarkTechPost"
     },
     {
-      "title": "DevFest is back",
-      "summary": "DevFest 2026 is returning with over 800 global events, offering developers an opportunity to connect, build, secure, and scale solutions in the evolving agentic AI era.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "source": "Google AI Blog"
+      "title": "OpenAI and AARP Partner for AI Workshops for Older Adults",
+      "summary": "OpenAI and AARP are partnering to host free, hands-on ChatGPT workshops for 1,000 older adults across 10 U.S. cities, aiming to build practical and safe AI skills for everyday life. This initiative promotes AI literacy and accessibility across demographics.",
+      "link": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "source": "OpenAI News"
     },
     {
-      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-      "summary": "A comprehensive guide on training and fine-tuning multi-vector embedding models using Sentence Transformers, providing practical steps for developers to enhance their natural language processing applications.",
-      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "source": "Hugging Face Blog"
+      "title": "Google Announces Return of DevFest 2026 for Agentic AI Era",
+      "summary": "Google announced the return of DevFest 2026, offering over 800 global events focused on building, securing, and scaling solutions in the agentic AI era. This festival provides a significant opportunity for developers to connect, learn, and innovate with cutting-edge AI technologies.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "source": "Google AI Blog"
     }
   ]
 }
