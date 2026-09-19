@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-09-18T12:00:00Z",
+  "lastUpdated": "2026-09-19T16:19:41.088Z",
   "highlights": [
-    "The AI industry is rapidly advancing agentic capabilities, with major players like Salesforce introducing enterprise-grade orchestration tools and new architectures emerging for long-horizon, persistent AI agents.",
-    "Significant model breakthroughs include Alibaba's new 1M-context omni-modal model and novel datasets improving efficiency for specialized LLMs, alongside innovative methods for enhancing LLM output quality through iterative verification.",
-    "Developer tooling sees major open-source contributions from Microsoft for GPU AI workloads on Kubernetes and Hugging Face for local WebGPU inference, while OpenAI is strategically expanding specialized ChatGPT platforms for high-value sectors like legal and financial services."
+    "Linkup Research Releases SPARSEUP: A 149M-Parameter Open-Source Sparse Embedding Model",
+    "Meta Launches Muse for Mac: A Personal AI Agent That Works Across Your Files, Mail, Messages, Calendar and Notes",
+    "GGUF vs GPTQ vs AWQ vs EXL2: LLM Model Formats Explained (2026)"
   ],
   "agents": [
     {
-      "title": "Salesforce Agentforce: Bridging Enterprise AI Gap to Battle-Tested Orchestration",
-      "summary": "Salesforce Agentforce provides production-grade tooling for autonomous agents, moving enterprise AI development from prototyping to reliable, scalable operations with features like synthetic stress-testing and dynamic UIs.",
-      "link": "https://www.marktechpost.com/2026/09/18/salesforce-agentforce-bridging-the-enterprise-ai-gap-from-vibe-coding-to-battle-tested-orchestration/",
+      "title": "Meta Launches Muse for Mac: A Personal AI Agent That Works Across Your Files, Mail, Messages, Calendar and Notes",
+      "summary": "Meta has released Muse for Mac, the first version of Muse that can complete things on a user’s computer. The agent works with local files and native a...",
+      "link": "https://www.marktechpost.com/2026/09/19/meta-launches-muse-for-mac/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Architecture for Long-Horizon Agents: Levels, Ticks, and Cascaded Intelligence",
-      "summary": "A new hierarchical architecture enables AI agents to run continuously for extended periods (days/weeks) without forgetting, managing context, and escalating tasks to more capable models as needed, providing a critical substrate for continual learning.",
-      "link": "https://arxiv.org/abs/2609.19519",
-      "source": "arXiv cs.AI"
+      "title": "Best Open-Source Agent Harnesses for Local LLMs in 2026",
+      "summary": "Which open-source harness works with Ollama, LM Studio, or llama.cpp? 11 verified picks with licenses and setup rules.\nThe post Best Open-Source Agent...",
+      "link": "https://www.marktechpost.com/2026/09/18/best-open-source-agent-harnesses-for-local-llms-in-2026/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Stanford Researchers Release Paper2Agent: Turning Research Papers Into AI Agents",
-      "summary": "Stanford researchers introduce Paper2Agent, a system that converts scientific papers into validated AI agents capable of reproducing results and running experiments on new data, achieving 91.2% accuracy across 74 papers.",
-      "link": "https://www.marktechpost.com/2026/09/16/stanford-researchers-release-paper2agent-turning-research-papers-into-ai-agents-that-reproduce-results-and-run-on-new-data/",
+      "title": "Salesforce Agentforce: Bridging the Enterprise AI Gap from ‘Vibe Coding’ to Battle-Tested Orchestration",
+      "summary": "Building an AI prototype is easy, but operating autonomous agents at scale requires production-grade tooling. Salesforce Agentforce bridges the gap fr...",
+      "link": "https://www.marktechpost.com/2026/09/18/salesforce-agentforce-bridging-the-enterprise-ai-gap-from-vibe-coding-to-battle-tested-orchestration/",
       "source": "MarkTechPost"
     }
   ],
   "models": [
     {
-      "title": "Alibaba Qwen Releases Qwen3.8-Omni-Flash: 1M-Context Omni-Modal Model with Agentic Audio-Video Understanding",
-      "summary": "Alibaba's new Qwen3.8-Omni-Flash is a 1M-context omni-modal model featuring advanced audio and video understanding, task planning, and tool use, demonstrating significant token reduction (45.7%) on multimodal benchmarks.",
-      "link": "https://www.marktechpost.com/2026/09/18/alibaba-qwen-releases-qwen3-8-omni-flash/",
+      "title": "Linkup Research Releases SPARSEUP: A 149M-Parameter Open-Source Sparse Embedding Model",
+      "summary": "Linkup Research has released SPARSEUP, an open-source sparse embedding model built on a 149M-parameter ModernBERT backbone. It scores 56.4 nDCG@10 on ...",
+      "link": "https://www.marktechpost.com/2026/09/19/linkup-research-releases-sparseup/",
       "source": "MarkTechPost"
     },
     {
-      "title": "QVAC Genesis III: Large-Scale Open Synthetic STEM Corpus for Efficient LLM Pre-Training",
-      "summary": "QVAC Genesis III is a 191.43B-token, STEM-focused synthetic dataset designed to efficiently pre-train smaller language models for edge AI, boosting performance on STEM benchmarks by up to +28.57% for 1.7B-parameter models.",
-      "link": "https://arxiv.org/abs/2609.19513",
-      "source": "arXiv cs.AI"
+      "title": "SpaceXAI Releases Grok Voice Transcribe 2.0: A Speech-to-Text API Claiming 2x Accuracy Over 1.0 at $0.10 per Hour",
+      "summary": "SpaceXAI has released Grok Voice Transcribe 2.0, its newest speech-to-text model for batch and streaming audio. The company says it is twice as accura...",
+      "link": "https://www.marktechpost.com/2026/09/18/spacexai-releases-grok-voice-transcribe-2-0/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "LLM-as-an-Improver: Turning Verification into Better Candidates",
-      "summary": "Introducing Verify-Repair-Reselect (VRR), a novel approach that leverages verification feedback to iteratively generate and reselect improved LLM-generated candidates, enhancing output quality even when initial candidates are flawed.",
-      "link": "https://arxiv.org/abs/2609.19515",
-      "source": "arXiv cs.AI"
+      "title": "Jina AI Releases jina-ocr-v1: A 3.4B MoE Document Parser With Built-In Speculative Decoding for Low-Budget GPUs",
+      "summary": "Jina AI has released jina-ocr-v1, a visual document parser that converts PDFs, scans, tables, charts and invoices into Markdown. The model has 3.4B to...",
+      "link": "https://www.marktechpost.com/2026/09/18/jina-ai-releases-jina-ocr-v1-a-3-4b-moe-document-parser-with-built-in-speculative-decoding-for-low-budget-gpus/",
+      "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Microsoft Open-Sources TauGrid: A Kubernetes-Native Stack for GPU AI Workloads",
-      "summary": "Microsoft's AKS team has open-sourced TauGrid, a Helm-installable Kubernetes stack that streamlines GPU AI workload deployment by integrating Kueue, KubeRay, and GPU monitoring for efficient resource orchestration.",
-      "link": "https://www.marktechpost.com/2026/09/17/microsoft-open-sources-taugrid-a-kubernetes-native-stack-for-gpu-ai-workloads/",
-      "source": "MarkTechPost"
+      "title": "Co-creating the future of fashion with Google",
+      "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Anthropic Launches Claude Code Projects in Beta: Parallel Cloud Sessions",
-      "summary": "Anthropic redesigned Claude Code Projects to offer parallel, persistent cloud coding sessions, allowing developers to define work, and Claude coordinates tasks across separate branches, enabling continuous execution even after closing the laptop.",
-      "link": "https://www.marktechpost.com/2026/09/17/anthropic-launches-claude-code-projects-in-beta-parallel-cloud-sessions-that-keep-running-after-you-close-your-laptop/",
-      "source": "MarkTechPost"
+      "title": "Proactive cyber defense for governments and enterprises",
+      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "source": "Google AI Blog"
     },
     {
       "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "summary": "Hugging Face released `@huggingface/kernels`, a collection of over 200 WebGPU kernels, designed to accelerate local AI inference directly in the browser, significantly improving performance for on-device applications.",
+      "summary": "No description available.",
       "link": "https://huggingface.co/blog/webgpu-kernels",
       "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Introduces Astra for Law",
-      "summary": "OpenAI has launched Astra for Law, bringing frontier AI intelligence, custom firm workflows, connected legal data sources, and legal-grade controls to support confidential client work within the legal sector.",
+      "title": "Microsoft Open-Sources TauGrid: A Kubernetes-Native Stack for GPU AI Workloads",
+      "summary": "Microsoft's AKS engineering team open-sourced TauGrid on August 28, 2026, packaging the tau CLI, Kueue queueing, KubeRay orchestration, GPU node healt...",
+      "link": "https://www.marktechpost.com/2026/09/17/microsoft-open-sources-taugrid-a-kubernetes-native-stack-for-gpu-ai-workloads/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "link": "https://openai.com/index/australian-youth-safety-blueprint",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Introducing Astra for Law",
+      "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential cl...",
       "link": "https://openai.com/index/astra-for-law",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Introducing ChatGPT for Financial Services",
-      "summary": "OpenAI introduces ChatGPT for Financial Services, a specialized offering combining built-in financial data with GPT-6 Astra to empower professionals with advanced tools for research, modeling, and client-ready material generation.",
-      "link": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "OpenAI Releases Model Misalignment Disclosure Framework",
-      "summary": "OpenAI has published a framework for transparently tracking, investigating, and disclosing model misalignment incidents, accompanied by six initial reports on unexpected or concerning behaviors from RL training.",
-      "link": "https://openai.com/index/model-misalignment-reporting-framework",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "OpenAI Helping Older Adults Use AI in Everyday Life",
-      "summary": "OpenAI, in partnership with AARP, is providing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities, aiming to build practical and safe AI skills for everyday use.",
-      "link": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "title": "GGUF vs GPTQ vs AWQ vs EXL2: LLM Model Formats Explained (2026)",
+      "summary": "GGUF, GPTQ, AWQ, EXL2, and EXL3 solve the same problem in different ways. This guide separates file containers from quantization methods. It explains ...",
+      "link": "https://www.marktechpost.com/2026/09/18/gguf-vs-gptq-vs-awq-vs-exl2-llm-model-formats-explained-2026/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "How to connect AI usage to business value",
+      "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcome...",
+      "link": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
       "source": "OpenAI News"
     },
     {
-      "title": "DevFest is back to build, secure, and scale in the agentic AI era",
-      "summary": "Google announces the return of DevFest 2026, featuring over 800 global events for developers to connect, learn, and collaborate on building, securing, and scaling applications in the emerging agentic AI era.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-      "summary": "Hugging Face provides a comprehensive guide for developers on training and fine-tuning multi-vector embedding models using the Sentence Transformers library, enabling more nuanced and powerful information retrieval and representation learning.",
-      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "source": "Hugging Face Blog"
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests p...",
+      "link": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "source": "OpenAI News"
     }
   ]
 }
