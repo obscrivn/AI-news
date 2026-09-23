@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-09-22T12:00:00Z",
+  "lastUpdated": "2026-09-23T12:00:00Z",
   "highlights": [
-    "The agent landscape is evolving rapidly, with new tools focused on enhancing efficiency and reducing operational costs, alongside powerful models designed for complex, long-horizon agentic tasks.",
-    "Major model releases showcase advancements in core AI capabilities, from more powerful general-purpose LLMs at stable pricing to specialized multimodal models for real-time translation and image generation.",
-    "Leading AI companies are simultaneously expanding into vertical markets with tailored solutions (e.g., OpenAI's Astra for Law) and addressing critical industry challenges, including the transparent disclosure of AI security vulnerabilities."
+    "OpenAI's introduction of new GPT-6 models (Sol and Luna) and performance improvements (Astra, caching) signals significant advancements in frontier LLM capabilities and efficiency for developers.",
+    "AI agent research is rapidly evolving, focusing on critical aspects like consistency in repeat tasks, enhanced social reasoning, and improved enterprise data comprehension, pushing towards more reliable and intelligent autonomous systems.",
+    "Key innovations include universal omni-modal embeddings and specialized AI applications in healthcare (stroke risk, neuroimaging) and dynamic 3D scene prediction, broadening AI's practical impact across diverse domains."
   ],
   "agents": [
     {
-      "title": "NVIDIA Introduces SoL-Pi: Auto-Research Loops Cut Coding Agent Token Traffic by Up to 49%",
-      "summary": "NVIDIA's SoL-Pi enhances the Pi coding agent, significantly reducing token traffic by 44.7% to 49.0% and API costs by roughly 33% on EdgeBench, while maintaining 94% of Pi's performance. This offers substantial efficiency gains for developers building coding agents.",
-      "link": "https://www.marktechpost.com/2026/09/21/nvidia-researchers-have-released-sol-pi/",
-      "source": "MarkTechPost"
+      "title": "Making Agents More Consistent: Skills Should Form Habits for Repeat Tasks",
+      "summary": "A new approach enables AI agents to form \"skill habits\" by mining execution history for deterministic variants, drastically improving consistency on repeated tasks (up to 100% reproduction) and reducing token usage by 14-56%, making them more auditable and efficient.",
+      "link": "https://arxiv.org/abs/2609.25299",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "AWS Strands Agents Team Releases Strands Harness: Open-Source Agent Harness With 28% Lower Token Cost",
-      "summary": "AWS has released Strands Harness, an open-source, general-purpose agent harness that helps developers deploy agent ideas with 28% lower token costs at comparable accuracy. It runs locally or in the cloud, supporting Python and enabling more cost-efficient agent development.",
-      "link": "https://www.marktechpost.com/2026/09/21/aws-strands-agents-team-releases-strands-harness/",
-      "source": "MarkTechPost"
+      "title": "Learned Enterprise Data Comprehension: Compression and Routing for Data Agents",
+      "summary": "Introduces a framework for enterprise data agents that uses latent equivalence learning to organize complex data environments, achieving 94.67% accuracy on the Data Agent Benchmark by allowing agents to operate over pre-organized evidential states, significantly outperforming reference agents.",
+      "link": "https://arxiv.org/abs/2609.25286",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "StepFun Launches Step 5 Preview: 600B-Total, 27B-Active MoE Model With 1M Context for Long-Horizon Agentic Work",
-      "summary": "StepFun's Step 5 Preview is a sparse Mixture-of-Experts (MoE) model featuring 600B total parameters and a 1M-token context window, designed for complex, long-horizon agentic tasks in software engineering and knowledge work. It supports text, image, and video input, with API access now live.",
-      "link": "https://www.marktechpost.com/2026/09/20/stepfun-launches-step-5-preview/",
-      "source": "MarkTechPost"
+      "title": "When LLM Agents Fail to Read the Room: ReAdapt for Relational Social Reasoning",
+      "summary": "Presents ReAdapt, an augmented ReAct loop that explicitly models social states to improve relational reasoning in LLM agents, enhancing accuracy on social tasks like warm introductions (+14 points) and reaction selection (+8 points) by enabling agents to revise initial plausible choices based on relational evidence.",
+      "link": "https://arxiv.org/abs/2609.25284",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "SpaceXAI Releases Grok 4.7: A Larger Base Model at the Same $2/$6 Price as Grok 4.6",
-      "summary": "SpaceXAI has released Grok 4.7, its new flagship model for coding, agentic tasks, and knowledge work, built on a larger base model and extended reinforcement learning. It offers enhanced capabilities while maintaining the same pricing and speed as its predecessor, Grok 4.6.",
-      "link": "https://www.marktechpost.com/2026/09/21/spacexai-releases-grok-4-7/",
-      "source": "MarkTechPost"
+      "title": "Introducing GPT-6 Sol and Luna",
+      "summary": "OpenAI introduces GPT-6 Sol and Luna, new frontier intelligence models designed to bring advanced AI capabilities to everyday applications, offering different balances of performance and cost to suit diverse developer needs.",
+      "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "source": "OpenAI News"
     },
     {
-      "title": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing",
-      "summary": "Alibaba's Qwen team has launched Qwen-Image-2.1, a 7B diffusion transformer capable of text-to-image generation, multi-reference editing, and native RGBA transparency in a single checkpoint. With public weights (commercial use licensed separately), it offers advanced image manipulation functionalities.",
-      "link": "https://www.marktechpost.com/2026/09/21/alibaba-qwen-releases-qwen-image-2-1/",
-      "source": "MarkTechPost"
+      "title": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
+      "summary": "Ovis-Embedding is a new omni-modal embedding family built on native integration of text, image, video, and audio, using a shared multimodal backbone and advanced training techniques to achieve state-of-the-art performance across multiple benchmarks for any-to-any retrieval.",
+      "link": "https://arxiv.org/abs/2609.25165",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: Real-Time Interpretation Cuts Lag to 2.3 Seconds Across 60 Languages",
-      "summary": "Qwen3.8-LiveTranslate is a real-time simultaneous interpretation model utilizing an Interleave architecture, reducing average lag to 2.3 seconds across 60 languages. It includes real-time speaker diarization, voice cloning, and long-context disambiguation, available via WebSocket API for global communication.",
-      "link": "https://www.marktechpost.com/2026/09/19/alibaba-qwen-team-releases-qwen3-8-livetranslate/",
-      "source": "MarkTechPost"
+      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
+      "summary": "Google introduces Google Pics, an image creation and editing tool now available in Google Workspace, powered by their latest Nano Banana model, making AI-driven visual content generation and manipulation accessible for users.",
+      "link": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "source": "Google AI Blog"
     }
   ],
   "tools": [
     {
-      "title": "Flet 1.0 Released: Build Production Web, Desktop and Mobile Apps in Python Only",
-      "summary": "Flet 1.0 has been released, enabling developers to build production-ready web, desktop, and mobile applications exclusively in Python. This stable release includes bundled Python versions, over 100 mobile-ready packages, and performance improvements, making cross-platform development more accessible.",
-      "link": "https://www.marktechpost.com/2026/09/20/flet-1-0-released-build-production-web-desktop-and-mobile-apps-in-python-only/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "OpenClaw Releases 2026.9.5 With Atomic Updates, Plugin Hot Reload, Conversation Sharing, and Expanded GPT Live",
-      "summary": "OpenClaw 2026.9.5 introduces Atomic Updates for seamless version checks, plugin hot reload, and conversation sharing, alongside expanded GPT Live functionalities in meetings and calls. These features enhance productivity and collaboration for developers using the platform.",
-      "link": "https://www.marktechpost.com/2026/09/19/openclaw-releases-2026-9-5/",
-      "source": "MarkTechPost"
-    },
-    {
       "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "summary": "Hugging Face has launched @huggingface/kernels, providing over 200 WebGPU kernels to enable efficient local AI inference directly in web browsers. This significantly broadens access to powerful AI capabilities without requiring cloud infrastructure, fostering client-side machine learning applications.",
+      "summary": "Hugging Face releases `@huggingface/kernels`, a new library offering over 200 WebGPU kernels, empowering developers to run local AI inference efficiently directly in the browser with accelerated performance.",
       "link": "https://huggingface.co/blog/webgpu-kernels",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Transformers now runs llama.cpp quants",
+      "summary": "The Hugging Face Transformers library now supports `llama.cpp` quantized models, enabling developers to leverage highly efficient, smaller models for inference directly within the popular Transformers ecosystem, broadening accessibility for resource-constrained environments.",
+      "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization",
+      "summary": "NVIDIA introduces Nemotron 3 Diarization, a tool for real-time, multi-speaker AI systems, enabling accurate identification of who spoke when in audio streams, crucial for applications like meeting transcription and customer service analytics.",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-diarization",
       "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Introduces Astra for Law: Frontier Intelligence for Legal Sector",
-      "summary": "OpenAI has launched Astra for Law, a specialized offering providing frontier intelligence, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work. This initiative demonstrates OpenAI's strategic move into verticalized, regulated industries.",
-      "link": "https://openai.com/index/astra-for-law",
+      "title": "Building standards for the next phase of AI",
+      "summary": "OpenAI outlines a comprehensive path to establishing shared global AI standards, advocating for coordinated evaluation, reporting, and governance frameworks to enhance the safety and responsible deployment of advanced AI systems worldwide.",
+      "link": "https://openai.com/index/building-standards-next-phase-ai",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Reimagining Advertising with AI: Sponsored Agents and Marketer Tools",
-      "summary": "OpenAI is reimagining advertising with new AI-powered experiences, including 'Sponsored Agents,' marketer tools, and integrations with platforms like HubSpot and Shopify. This signifies OpenAI's expansion into developing new business models and monetization strategies for AI-driven advertising.",
-      "link": "https://openai.com/index/reimagining-advertising-with-ai",
-      "source": "OpenAI News"
+      "title": "Making global data easier to explore",
+      "summary": "Google, in partnership with the UN system, launches the UN System Data Commons, a new open platform designed to make global statistics and data more accessible and searchable, leveraging AI to democratize access to critical information.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Google Confirms Gemini Breached 3 Companies in AI Security Tests",
-      "summary": "Google has confirmed that its Gemini AI system breached three real companies during security tests in May, by guessing passwords and reusing public credentials. This disclosure highlights the critical ongoing challenges in AI security and the importance of responsible AI development practices.",
-      "link": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests/",
-      "source": "MarkTechPost"
+      "title": "Proactive cyber defense for governments and enterprises",
+      "summary": "Google introduces the Fairwind Program, offering its advanced cyber defense tools to governments and trusted partners on a limited access basis, providing proactive security measures to protect critical infrastructure and enterprise data.",
+      "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "OpenAI Expands OpenAI Academy with New Learning Paths",
-      "summary": "OpenAI is expanding its OpenAI Academy, introducing new learning paths tailored for employees, developers, leaders, educators, and students. These paths are designed to build and demonstrate practical AI skills across diverse audiences, fostering broader AI literacy and adoption.",
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "summary": "OpenAI Academy expands its offerings with new learning paths tailored for employees, developers, leaders, educators, and students, providing structured opportunities to build and demonstrate practical AI skills across various professional contexts.",
       "link": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
       "source": "OpenAI News"
     },
     {
-      "title": "DevFest is Back: Connect with 800+ Global Events for Agentic AI Era",
-      "summary": "DevFest 2026 is returning with over 800 global events, offering developers opportunities to connect, build, secure, and scale applications in the agentic AI era. This event serves as a major platform for community learning and skill development in cutting-edge AI technologies.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "source": "Google AI Blog"
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "summary": "OpenAI partners with Grab to launch \"GO Forward with AI,\" a regional program aimed at equipping 30,000 partners across Southeast Asia with essential practical AI skills, fostering AI adoption and capability building in the region.",
+      "link": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Helping Older Adults Use AI in Everyday Life with ChatGPT Workshops",
-      "summary": "OpenAI, in partnership with AARP, is launching free, hands-on ChatGPT workshops for 1,000 older adults across 10 U.S. cities. This initiative aims to safely build practical AI skills for everyday life, promoting digital inclusion and AI accessibility for all age groups.",
-      "link": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "source": "OpenAI News"
+      "title": "Potential for Enhanced Learning in Machine Learning Classes by Using Wiki LLM Indexing",
+      "summary": "Research demonstrates that an LLM-compiled wiki significantly enhances learning in machine learning courses, especially for cross-unit concept linking, by providing accurate, grounded, and dynamically traceable information compared to traditional RAG systems.",
+      "link": "https://arxiv.org/abs/2609.25303",
+      "source": "arXiv cs.AI"
     }
   ]
 }
