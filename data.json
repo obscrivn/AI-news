@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-09-23T12:00:00Z",
+  "lastUpdated": "2026-09-24T12:00:00Z",
   "highlights": [
-    "OpenAI's introduction of new GPT-6 models (Sol and Luna) and performance improvements (Astra, caching) signals significant advancements in frontier LLM capabilities and efficiency for developers.",
-    "AI agent research is rapidly evolving, focusing on critical aspects like consistency in repeat tasks, enhanced social reasoning, and improved enterprise data comprehension, pushing towards more reliable and intelligent autonomous systems.",
-    "Key innovations include universal omni-modal embeddings and specialized AI applications in healthcare (stroke risk, neuroimaging) and dynamic 3D scene prediction, broadening AI's practical impact across diverse domains."
+    "Major AI developers are aggressively cutting model costs while simultaneously boosting performance and introducing new models, democratizing access to frontier intelligence for builders.",
+    "Significant progress in AI agents focuses on enhancing consistency, efficiency through token/cost reduction, and improving sophisticated reasoning capabilities for social interactions and enterprise data comprehension.",
+    "New open-source tools and specialized models are emerging, empowering developers with advanced features for multi-modal embeddings, rapid agent action scoring, and real-time audio diarization."
   ],
   "agents": [
     {
-      "title": "Making Agents More Consistent: Skills Should Form Habits for Repeat Tasks",
-      "summary": "A new approach enables AI agents to form \"skill habits\" by mining execution history for deterministic variants, drastically improving consistency on repeated tasks (up to 100% reproduction) and reducing token usage by 14-56%, making them more auditable and efficient.",
+      "title": "Agents More Consistent: Skills Should Form Habits for Repeat Tasks",
+      "summary": "This research introduces skill habit formation for agents, drastically improving consistency for repeat tasks, reducing token usage by 14-56%, and providing auditable execution traces.",
       "link": "https://arxiv.org/abs/2609.25299",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Learned Enterprise Data Comprehension: Compression and Routing for Data Agents",
-      "summary": "Introduces a framework for enterprise data agents that uses latent equivalence learning to organize complex data environments, achieving 94.67% accuracy on the Data Agent Benchmark by allowing agents to operate over pre-organized evidential states, significantly outperforming reference agents.",
-      "link": "https://arxiv.org/abs/2609.25286",
-      "source": "arXiv cs.AI"
+      "title": "Contrastive-LM Releases CLM-8B: Open System One Model Scores Agent Actions Up to 9× Faster Than Jev",
+      "summary": "Contrastive-LM launched CLM-8B, an open System One model that scores candidate agent actions up to 9x faster than TypeSafe's Jev, significantly improving efficiency for deep reasoning tasks.",
+      "link": "https://www.marktechpost.com/2026/09/23/contrastive-lm-releases-clm-8b-an-open-system-one-model-that-scores-agent-actions-up-to-9x-faster-than-jev/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "When LLM Agents Fail to Read the Room: ReAdapt for Relational Social Reasoning",
-      "summary": "Presents ReAdapt, an augmented ReAct loop that explicitly models social states to improve relational reasoning in LLM agents, enhancing accuracy on social tasks like warm introductions (+14 points) and reaction selection (+8 points) by enabling agents to revise initial plausible choices based on relational evidence.",
+      "title": "ReAdapt for Relational Social Reasoning: When LLM Agents Fail to Read the Room",
+      "summary": "ReAdapt enhances LLM agents' relational social reasoning by integrating an explicit structured social state into the ReAct loop, improving decision-making in complex social contexts by revising initial hypotheses.",
       "link": "https://arxiv.org/abs/2609.25284",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
+      "title": "Anthropic Releases Claude Opus 5.5: Fable 5.1-Level Performance at 40% Lower Running Cost Than Opus 5",
+      "summary": "Anthropic released Claude Opus 5.5, a new model achieving Fable 5.1-level performance with 40% lower running costs than Opus 5, notably leading in agentic coding benchmarks.",
+      "link": "https://www.marktechpost.com/2026/09/22/anthropic-claude-opus-5-5-release/",
+      "source": "MarkTechPost"
+    },
+    {
       "title": "Introducing GPT-6 Sol and Luna",
-      "summary": "OpenAI introduces GPT-6 Sol and Luna, new frontier intelligence models designed to bring advanced AI capabilities to everyday applications, offering different balances of performance and cost to suit diverse developer needs.",
+      "summary": "OpenAI introduced GPT-6 Sol and Luna, two new models offering frontier intelligence with varied capability and cost balances, making advanced AI more accessible for everyday applications.",
       "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
       "source": "OpenAI News"
     },
     {
-      "title": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
-      "summary": "Ovis-Embedding is a new omni-modal embedding family built on native integration of text, image, video, and audio, using a shared multimodal backbone and advanced training techniques to achieve state-of-the-art performance across multiple benchmarks for any-to-any retrieval.",
-      "link": "https://arxiv.org/abs/2609.25165",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
-      "summary": "Google introduces Google Pics, an image creation and editing tool now available in Google Workspace, powered by their latest Nano Banana model, making AI-driven visual content generation and manipulation accessible for users.",
-      "link": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-      "source": "Google AI Blog"
+      "title": "Google Releases Gemini 3.8 Flash TTS and Flash-Lite TTS With Prompt-Based Voice Design",
+      "summary": "Google launched Gemini 3.8 Flash TTS and Flash-Lite TTS, new text-to-speech models offering prompt-based voice design across 100+ languages and a cost-effective lite version for high-volume applications.",
+      "link": "https://www.marktechpost.com/2026/09/23/google-releases-gemini-3-8-flash-tts-and-flash-lite-tts-with-prompt-based-voice-design/",
+      "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "summary": "Hugging Face releases `@huggingface/kernels`, a new library offering over 200 WebGPU kernels, empowering developers to run local AI inference efficiently directly in the browser with accelerated performance.",
-      "link": "https://huggingface.co/blog/webgpu-kernels",
-      "source": "Hugging Face Blog"
+      "title": "Nokia Open-Sources AnyJev: A Training-Free Layer That Turns Any Open LLM Into a Calibrated Decision Model",
+      "summary": "Nokia open-sourced AnyJev, a training-free Python library that converts any open LLM into a calibrated decision model for fixed-set answer selection, easily deployable via PyPI.",
+      "link": "https://www.marktechpost.com/2026/09/23/nokia-open-sources-anyjev-a-training-free-layer-that-turns-any-open-llm-into-a-calibrated-decision-model/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Better prompt caching for GPT-6",
+      "summary": "GPT-6 now features improved prompt caching with higher cache hit rates, new diagnostics, and explicit controls, significantly reducing latency and costs for developers using the API.",
+      "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "source": "OpenAI News"
     },
     {
       "title": "Transformers now runs llama.cpp quants",
-      "summary": "The Hugging Face Transformers library now supports `llama.cpp` quantized models, enabling developers to leverage highly efficient, smaller models for inference directly within the popular Transformers ecosystem, broadening accessibility for resource-constrained environments.",
+      "summary": "The Hugging Face Transformers library now supports `llama.cpp` quantizations, enabling developers to run highly efficient quantized LLMs directly within the framework for optimized inference.",
       "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "source": "Hugging Face Blog"
-    },
-    {
-      "title": "Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization",
-      "summary": "NVIDIA introduces Nemotron 3 Diarization, a tool for real-time, multi-speaker AI systems, enabling accurate identification of who spoke when in audio streams, crucial for applications like meeting transcription and customer service analytics.",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-diarization",
       "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "Building standards for the next phase of AI",
-      "summary": "OpenAI outlines a comprehensive path to establishing shared global AI standards, advocating for coordinated evaluation, reporting, and governance frameworks to enhance the safety and responsible deployment of advanced AI systems worldwide.",
-      "link": "https://openai.com/index/building-standards-next-phase-ai",
+      "title": "OpenAI Releases GPT-6 Sol and Luna: 50% Cheaper API Pricing and Benchmarks",
+      "summary": "OpenAI introduced GPT-6 Sol and Luna models with up to 50% cheaper API pricing than GPT-6 Astra, coupled with improved prompt caching for long-running agents.",
+      "link": "https://www.marktechpost.com/2026/09/22/openai-releases-gpt-6-sol-and-luna-50-cheaper-api-pricing-and-benchmarks/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "summary": "Harvey is leveraging OpenAI's GPT-6 Astra to produce more structured and context-aware legal documents, empowering lawyers to focus on strategy by automating complex drafting tasks.",
+      "link": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
       "source": "OpenAI News"
     },
     {
-      "title": "Making global data easier to explore",
-      "summary": "Google, in partnership with the UN system, launches the UN System Data Commons, a new open platform designed to make global statistics and data more accessible and searchable, leveraging AI to democratize access to critical information.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "Proactive cyber defense for governments and enterprises",
-      "summary": "Google introduces the Fairwind Program, offering its advanced cyber defense tools to governments and trusted partners on a limited access basis, providing proactive security measures to protect critical infrastructure and enterprise data.",
-      "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "source": "Google AI Blog"
+      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+      "summary": "Airbnb is expanding access to GPT-6 Astra and OpenAI's frontier models for its engineering teams, aiming to accelerate bug resolution, system design, and overall product shipping speed.",
+      "link": "https://openai.com/index/airbnb-gpt-6-astra",
+      "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Expanding OpenAI Academy with new learning paths",
-      "summary": "OpenAI Academy expands its offerings with new learning paths tailored for employees, developers, leaders, educators, and students, providing structured opportunities to build and demonstrate practical AI skills across various professional contexts.",
-      "link": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-      "source": "OpenAI News"
-    },
-    {
       "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-      "summary": "OpenAI partners with Grab to launch \"GO Forward with AI,\" a regional program aimed at equipping 30,000 partners across Southeast Asia with essential practical AI skills, fostering AI adoption and capability building in the region.",
+      "summary": "OpenAI and Grab launched 'GO Forward with AI,' a regional program to equip 30,000 partners across Southeast Asia with practical AI skills, fostering broader AI adoption and capability development.",
       "link": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
       "source": "OpenAI News"
     },
     {
-      "title": "Potential for Enhanced Learning in Machine Learning Classes by Using Wiki LLM Indexing",
-      "summary": "Research demonstrates that an LLM-compiled wiki significantly enhances learning in machine learning courses, especially for cross-unit concept linking, by providing accurate, grounded, and dynamically traceable information compared to traditional RAG systems.",
-      "link": "https://arxiv.org/abs/2609.25303",
-      "source": "arXiv cs.AI"
+      "title": "DevFest is back",
+      "summary": "DevFest 2026 is returning with over 800 global events, offering developers opportunities to build, secure, and scale solutions effectively in the agentic AI era.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "source": "Google AI Blog"
+    },
+    {
+      "title": "A Coding Guide to TypeSafe AI Jev: Typed Decisions, Calibrated Confidence, and Speculative Fan-Out with a System One Model",
+      "summary": "This tutorial provides a complete coding guide to TypeSafe AI's Jev, a System One model, covering its Python SDK, primitive question types, speculative fan-out, and production workflow implementation.",
+      "link": "https://www.marktechpost.com/2026/09/23/a-coding-guide-to-typesafe-ai-jev/",
+      "source": "MarkTechPost"
     }
   ]
 }
