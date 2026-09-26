@@ -1,106 +1,106 @@
 {
-  "lastUpdated": "2026-09-25T17:00:00Z",
+  "lastUpdated": "2026-09-26T12:00:00Z",
   "highlights": [
-    "The AI landscape is rapidly maturing with significant releases of both frontier models for general tasks and specialized open-weight models designed for specific, high-value applications like security, decision-making, and voice generation.",
-    "Agentic AI systems are seeing pivotal advancements, including novel frameworks for automating complex scientific and financial tasks, and critical tools for improving agent reliability and ensuring secure, governed access to enterprise toolsets.",
-    "Major AI companies are intensifying global expansion, enterprise adoption, and developer enablement, exemplified by new market entries, deep integrations with leading businesses, and large-scale educational initiatives aimed at widespread AI skill development."
+    "AI agent technology is rapidly advancing, with new APIs enabling deep research and self-correcting agents improving reliability in real-world applications.",
+    "Significant strides in model efficiency and specialized applications are evident through faster vision-language models and the release of open-weight models for robot control and critical decision-making.",
+    "Major AI companies like OpenAI and Google continue to expand their market reach, introduce new model tiers, and foster global developer communities through strategic partnerships and educational initiatives."
   ],
   "agents": [
     {
-      "title": "BaseCamp: Agentic AI for DNA Sequencing Pipelines",
-      "summary": "BaseCamp is a new agentic AI framework designed to automate the decision layer of DNA sequencing pipelines, leveraging specialized LLMs to select and configure bioinformatics tools while maintaining reproducibility and human oversight.",
-      "link": "https://arxiv.org/abs/2609.28557",
-      "source": "arXiv cs.AI"
+      "title": "Exa Launches Agent Ultra: Subagent Swarm API for Deep Research",
+      "summary": "Exa's new Agent Ultra API coordinates subagents across thousands of sources for superior list building and entity enrichment, outperforming leading models like Opus 5.5 and GPT-6 Astra on research benchmarks.",
+      "link": "https://www.marktechpost.com/2026/09/26/exa-launches-agent-ultra-a-subagent-swarm-deep-research-api-built-for-exhaustive-list-building/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "META: Agent Memory for Financial Decision-Making",
-      "summary": "META (Memory Enhanced Trading Agent) introduces an RAG-like episodic memory augmented multi-agent framework for financial decision-making, integrating specialized indicator agents and a Decision Agent to fuse reports and adaptively reweight signals based on past trading experiences.",
-      "link": "https://arxiv.org/abs/2609.28771",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Perplexity Agent Improves with Hint-Guided Self-Distillation",
-      "summary": "Perplexity Research has developed a post-training study that trains its computer agent on real user sessions, including failures, using hint-guided self-distillation to reduce tool-call failures by a statistically significant 21.2%.",
+      "title": "Perplexity Trains Computer Agent on Real Mistakes with Self-Distillation",
+      "summary": "Perplexity improved its Computer Agent by training on real user sessions, including failures, using a novel hint-guided self-distillation method that significantly reduced tool-call failures by 21.2%.",
       "link": "https://www.marktechpost.com/2026/09/25/perplexity-trains-its-computer-agent-on-real-mistakes-with-hint-guided-self-distillation/",
       "source": "MarkTechPost"
+    },
+    {
+      "title": "Ringg's AI Agents Resolve 65% of Customer Calls with OpenAI Models",
+      "summary": "Ringg leverages OpenAI's GPT-5.6 to power multilingual AI agents, effectively resolving up to 65% of customer calls across various channels at 90% less cost compared to GPT-4.1.",
+      "link": "https://openai.com/index/ringg",
+      "source": "OpenAI News"
     }
   ],
   "models": [
     {
-      "title": "OpenAI Introduces GPT-6 Sol and Luna",
-      "summary": "OpenAI has released GPT-6 Sol and Luna, two new frontier models that offer developers different balances of capability and cost, bringing advanced intelligence to a wider range of everyday applications.",
+      "title": "Liquid AI Releases LFM2.5-VL-3B-DSpark: 3.13x Faster Vision-Language Model with Speculative Decoding",
+      "summary": "Liquid AI's new LFM2.5-VL-3B-DSpark model integrates speculative decoding, achieving up to 3.13x faster decoding for vision-language tasks with identical output quality, and is supported in popular inference frameworks like llama.cpp.",
+      "link": "https://www.marktechpost.com/2026/09/25/liquid-ai-releases-lfm2-5-vl-3b-dspark-speculative-decoding-for-vision-language-models-with-up-to-3-13x-faster-decoding/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "OpenAI Introduces GPT-6 Sol and Luna for Frontier Intelligence",
+      "summary": "OpenAI has released GPT-6 Sol and Luna, two new frontier models offering varying balances of capability and cost to bring advanced intelligence to a wider range of everyday applications.",
       "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
       "source": "OpenAI News"
     },
     {
-      "title": "Google Releases Gemini 3.8 Flash TTS and Flash-Lite TTS",
-      "summary": "Google has launched Gemini 3.8 Flash TTS and Flash-Lite TTS, new text-to-speech models accessible via the Gemini API, featuring prompt-based voice design across 100+ languages and excelling in voice design benchmarks.",
-      "link": "https://www.marktechpost.com/2026/09/23/google-releases-gemini-3-8-flash-tts-and-flash-lite-tts-with-prompt-based-voice-design/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Fastino Releases GLiNER2.5-Decide: CPU-Runnable Decision Model",
-      "summary": "Fastino Labs has unveiled GLiNER2.5-Decide, a 340M-parameter open-weight decision model capable of running on CPU, designed to handle critical judgment calls within agent pipelines like routing, triage, and tool selection with structured outputs and confidence scores.",
-      "link": "https://www.marktechpost.com/2026/09/24/fastino-releases-gliner2-5-decide-a-340m-open-weight-decision-model-that-runs-on-cpu/",
+      "title": "Black Forest Labs Releases FLUX 3 Action: 7B Open-Weights World Action Model for Robotics",
+      "summary": "Black Forest Labs launched FLUX 3 Action, a 7B open-weights World Action Model (WAM) for robot control, which interprets camera frames and robot state to predict future actions and video, topping the RoboLab-120 benchmark.",
+      "link": "https://www.marktechpost.com/2026/09/24/black-forest-labs-releases-flux-3-action-a-7b-open-weights-world-action-model-that-tops-robolab-120/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Nokia Open-Sources AnyJev: LLM to Decision Model Layer",
-      "summary": "Nokia has open-sourced AnyJev, a Python library that allows developers to convert any open LLM into a calibrated decision model without additional training, ideal for tasks requiring selection from fixed answer sets.",
-      "link": "https://www.marktechpost.com/2026/09/23/nokia-open-sources-anyjev-a-training-free-layer-that-turns-any-open-llm-into-a-calibrated-decision-model/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Hugging Face Transformers Supports Llama.cpp Quants",
-      "summary": "The Hugging Face Transformers library now integrates llama.cpp quantized models, enabling developers to leverage highly efficient and performant models directly within their existing workflows for enhanced deployment flexibility.",
+      "title": "Hugging Face Transformers Library Now Runs llama.cpp Quants",
+      "summary": "The Hugging Face Transformers library now directly supports `llama.cpp` quantized models, significantly expanding efficiency options for developers deploying LLMs on various hardware.",
       "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "GPT-6 Improves Prompt Caching for Latency & Cost Reduction",
-      "summary": "GPT-6 now features improved prompt caching capabilities, offering higher cache hit rates, new diagnostics, and explicit controls to significantly reduce latency and operational costs for developers utilizing the API.",
+      "title": "Better Prompt Caching for GPT-6 Reduces Latency and Costs",
+      "summary": "GPT-6 now features improved prompt caching with higher hit rates, new diagnostics, and explicit controls, enabling developers to reduce latency and operational costs for API calls.",
       "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
       "source": "OpenAI News"
+    },
+    {
+      "title": "AugLy for End-to-End Multimodal Data Augmentation and Adversarial Robustness Benchmark",
+      "summary": "AugLy provides a comprehensive framework for multimodal data augmentation and adversarial robustness benchmarking across images, text, audio, and PyTorch datasets, crucial for developing robust AI systems.",
+      "link": "https://www.marktechpost.com/2026/09/26/end-to-end-multimodal-data-augmentation-and-adversarial-robustness-benchmark-with-augly-for-images-text-audio-and-pytorch/",
+      "source": "MarkTechPost"
     }
   ],
   "companies": [
     {
-      "title": "Airbnb Widens Access to GPT-6 Astra for Engineering",
-      "summary": "Airbnb is expanding access to OpenAI's GPT-6 Astra and other frontier models to its engineering teams, empowering them to accelerate bug resolution, optimize system design, and expedite product development.",
-      "link": "https://openai.com/index/airbnb-gpt-6-astra",
+      "title": "OpenAI Introduces GPT-6 Sol and Luna and Demonstrates Broad Enterprise Impact",
+      "summary": "OpenAI announced GPT-6 Sol and Luna, new frontier models designed to balance capability and cost, alongside various enterprise successes demonstrating their models' impact across industries from fleet management to legal and media.",
+      "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
       "source": "OpenAI News"
     },
     {
-      "title": "ChatGPT Ads Expands to Southeast Asia and Taiwan",
-      "summary": "OpenAI is expanding ChatGPT Ads to Southeast Asia and Taiwan, offering businesses in over 60 countries new opportunities to reach audiences and monetize through their platform.",
-      "link": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Google Beam Expands with New Regions and Partners",
-      "summary": "Google Beam is expanding its reach to five new countries and partnering with Industrious, indicating a significant growth in Google's AI infrastructure services and ecosystem.",
+      "title": "Google Expands Global AI Reach with Beam Program and UN Data Commons Platform",
+      "summary": "Google is expanding its Beam program to five new countries and partnered with the UN to launch the UN System Data Commons, making global statistics more accessible and searchable, demonstrating a commitment to global AI infrastructure and public good.",
       "link": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
       "source": "Google AI Blog"
+    },
+    {
+      "title": "Hugging Face Welcomes oMLX Creator Jun Kim to Support MLX Community",
+      "summary": "Hugging Face has brought on Jun Kim, the creator of oMLX, to bolster support for the MLX community, signaling a strategic investment in open-source machine learning frameworks and developer enablement.",
+      "link": "https://huggingface.co/blog/omlx",
+      "source": "Hugging Face Blog"
     }
   ],
   "learning": [
     {
-      "title": "Coding Guide to TypeSafe AI Jev for Structured Decisions",
-      "summary": "This comprehensive coding guide for TypeSafe AI's Jev provides developers with practical steps to implement typed decisions, calibrated confidence, and speculative fan-out for building robust System One model-powered agent workflows.",
+      "title": "Coding Guide to TypeSafe AI Jev: Typed Decisions and Speculative Fan-Out with System One Models",
+      "summary": "This guide offers a complete tutorial for TypeSafe AI's Jev, a System One model, detailing its Python SDK for structured judgments, speculative fan-out, and confidence-gated routing in production AI workflows.",
       "link": "https://www.marktechpost.com/2026/09/23/a-coding-guide-to-typesafe-ai-jev/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Grab and OpenAI Launch AI Skills Program in Southeast Asia",
-      "summary": "OpenAI and Grab have partnered to launch 'GO Forward with AI,' a regional program aimed at equipping 30,000 partners across Southeast Asia with essential practical AI skills, fostering a robust AI-ready workforce.",
+      "title": "Grab and OpenAI Launch 'GO Forward with AI' to Upskill Southeast Asia",
+      "summary": "OpenAI and Grab have partnered to launch 'GO Forward with AI,' a regional program aimed at equipping 30,000 partners across Southeast Asia with practical AI skills, fostering local AI talent.",
       "link": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
       "source": "OpenAI News"
     },
     {
-      "title": "DevFest 2026 Returns with Agentic AI Focus",
-      "summary": "Google's DevFest 2026 is back, offering over 800 global events focused on helping developers build, secure, and scale applications in the rapidly evolving agentic AI era, providing invaluable learning and networking opportunities.",
+      "title": "DevFest 2026 Returns to Focus on Agentic AI Development",
+      "summary": "Google's DevFest 2026 returns with over 800 global events, providing developers with opportunities to connect, build, secure, and scale their projects, with a strong focus on the emerging agentic AI era.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
       "source": "Google AI Blog"
     }
