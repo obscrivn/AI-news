@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-09-26T12:00:00Z",
+  "lastUpdated": "2026-09-25T23:59:59Z",
   "highlights": [
-    "AI agent technology is rapidly advancing, with new APIs enabling deep research and self-correcting agents improving reliability in real-world applications.",
-    "Significant strides in model efficiency and specialized applications are evident through faster vision-language models and the release of open-weight models for robot control and critical decision-making.",
-    "Major AI companies like OpenAI and Google continue to expand their market reach, introduce new model tiers, and foster global developer communities through strategic partnerships and educational initiatives."
+    "OpenAI's latest GPT-6 models, including Astra, Sol, and Luna, are driving significant enterprise efficiency gains and expanding capabilities with balanced cost options for builders.",
+    "The AI industry demonstrates a strong commitment to practical skills development and responsible AI, with new training programs and robust safety benchmarks emerging to foster ethical innovation.",
+    "Advancements in developer tools and infrastructure, such as improved prompt caching, accelerated robotics simulation, and efficient LLM quantization, are enhancing builder productivity and model performance."
   ],
   "agents": [
     {
-      "title": "Exa Launches Agent Ultra: Subagent Swarm API for Deep Research",
-      "summary": "Exa's new Agent Ultra API coordinates subagents across thousands of sources for superior list building and entity enrichment, outperforming leading models like Opus 5.5 and GPT-6 Astra on research benchmarks.",
-      "link": "https://www.marktechpost.com/2026/09/26/exa-launches-agent-ultra-a-subagent-swarm-deep-research-api-built-for-exhaustive-list-building/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Perplexity Trains Computer Agent on Real Mistakes with Self-Distillation",
-      "summary": "Perplexity improved its Computer Agent by training on real user sessions, including failures, using a novel hint-guided self-distillation method that significantly reduced tool-call failures by 21.2%.",
-      "link": "https://www.marktechpost.com/2026/09/25/perplexity-trains-its-computer-agent-on-real-mistakes-with-hint-guided-self-distillation/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Ringg's AI Agents Resolve 65% of Customer Calls with OpenAI Models",
-      "summary": "Ringg leverages OpenAI's GPT-5.6 to power multilingual AI agents, effectively resolving up to 65% of customer calls across various channels at 90% less cost compared to GPT-4.1.",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "summary": "Ringg leverages OpenAI's GPT-5.6 to power multilingual customer service agents across various channels, achieving up to 65% call resolution and 90% cost reduction compared to previous models, demonstrating significant operational efficiency.",
       "link": "https://openai.com/index/ringg",
       "source": "OpenAI News"
+    },
+    {
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "summary": "This article from IBM Research explores the crucial challenge of ensuring consistency in AI agent performance, highlighting the need for robust evaluation methods beyond single successful runs to build reliable agentic systems.",
+      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Give Your Coding Agents a Memory You Own",
+      "summary": "This development focuses on equipping coding agents with persistent, owned memory, enabling them to retain context and learn from past interactions for more efficient and customized performance in complex development workflows.",
+      "link": "https://huggingface.co/blog/funes",
+      "source": "Hugging Face Blog"
     }
   ],
   "models": [
     {
-      "title": "Liquid AI Releases LFM2.5-VL-3B-DSpark: 3.13x Faster Vision-Language Model with Speculative Decoding",
-      "summary": "Liquid AI's new LFM2.5-VL-3B-DSpark model integrates speculative decoding, achieving up to 3.13x faster decoding for vision-language tasks with identical output quality, and is supported in popular inference frameworks like llama.cpp.",
-      "link": "https://www.marktechpost.com/2026/09/25/liquid-ai-releases-lfm2-5-vl-3b-dspark-speculative-decoding-for-vision-language-models-with-up-to-3-13x-faster-decoding/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "OpenAI Introduces GPT-6 Sol and Luna for Frontier Intelligence",
-      "summary": "OpenAI has released GPT-6 Sol and Luna, two new frontier models offering varying balances of capability and cost to bring advanced intelligence to a wider range of everyday applications.",
+      "title": "Introducing GPT-6 Sol and Luna",
+      "summary": "OpenAI has launched GPT-6 Sol and Luna, two new frontier models designed to bring advanced intelligence to everyday tasks, offering developers flexible choices with different balances of capability and cost for diverse applications.",
       "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
       "source": "OpenAI News"
     },
     {
-      "title": "Black Forest Labs Releases FLUX 3 Action: 7B Open-Weights World Action Model for Robotics",
-      "summary": "Black Forest Labs launched FLUX 3 Action, a 7B open-weights World Action Model (WAM) for robot control, which interprets camera frames and robot state to predict future actions and video, topping the RoboLab-120 benchmark.",
-      "link": "https://www.marktechpost.com/2026/09/24/black-forest-labs-releases-flux-3-action-a-7b-open-weights-world-action-model-that-tops-robolab-120/",
-      "source": "MarkTechPost"
+      "title": "Introducing MentalHealthBench",
+      "summary": "OpenAI introduces MentalHealthBench, an expert-informed benchmark to rigorously evaluate AI responses in realistic mental health conversations, ensuring helpfulness and safety for models deployed in sensitive applications.",
+      "link": "https://openai.com/index/introducing-mentalhealthbench",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "summary": "H Company unveils NeoMME, an efficient multimodal-native and multilingual encoder designed to process diverse data types and languages simultaneously, offering improved performance and broader applicability for global AI solutions.",
+      "link": "https://huggingface.co/blog/Hcompany/neomme",
+      "source": "Hugging Face Blog"
     }
   ],
   "tools": [
     {
-      "title": "Hugging Face Transformers Library Now Runs llama.cpp Quants",
-      "summary": "The Hugging Face Transformers library now directly supports `llama.cpp` quantized models, significantly expanding efficiency options for developers deploying LLMs on various hardware.",
-      "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "source": "Hugging Face Blog"
-    },
-    {
-      "title": "Better Prompt Caching for GPT-6 Reduces Latency and Costs",
-      "summary": "GPT-6 now features improved prompt caching with higher hit rates, new diagnostics, and explicit controls, enabling developers to reduce latency and operational costs for API calls.",
+      "title": "Better prompt caching for GPT-6",
+      "summary": "OpenAI has enhanced prompt caching for GPT-6, providing developers with higher cache hit rates, new diagnostics, and explicit controls to significantly reduce latency and operational costs for repetitive LLM interactions.",
       "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
       "source": "OpenAI News"
     },
     {
-      "title": "AugLy for End-to-End Multimodal Data Augmentation and Adversarial Robustness Benchmark",
-      "summary": "AugLy provides a comprehensive framework for multimodal data augmentation and adversarial robustness benchmarking across images, text, audio, and PyTorch datasets, crucial for developing robust AI systems.",
-      "link": "https://www.marktechpost.com/2026/09/26/end-to-end-multimodal-data-augmentation-and-adversarial-robustness-benchmark-with-augly-for-images-text-audio-and-pytorch/",
-      "source": "MarkTechPost"
+      "title": "Transformers now runs llama.cpp quants",
+      "summary": "The Hugging Face Transformers library now supports llama.cpp quantization, enabling developers to run highly optimized and efficient versions of large language models directly within the popular framework for reduced memory footprint and faster inference.",
+      "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+      "summary": "This guide demonstrates how to leverage NVIDIA Warp and MjWarp to dramatically accelerate robotics simulation and learning workflows, offering builders powerful tools for faster iteration and more complex robotic system development.",
+      "link": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Introduces GPT-6 Sol and Luna and Demonstrates Broad Enterprise Impact",
-      "summary": "OpenAI announced GPT-6 Sol and Luna, new frontier models designed to balance capability and cost, alongside various enterprise successes demonstrating their models' impact across industries from fleet management to legal and media.",
-      "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "summary": "Proaction significantly improved fleet management operations by integrating OpenAI's Codex, GPT-Live-1, and GPT-6 Astra, leading to a 60% sales increase and saving over 75 hours in development and operational time.",
+      "link": "https://openai.com/index/proaction",
       "source": "OpenAI News"
     },
     {
-      "title": "Google Expands Global AI Reach with Beam Program and UN Data Commons Platform",
-      "summary": "Google is expanding its Beam program to five new countries and partnered with the UN to launch the UN System Data Commons, making global statistics more accessible and searchable, demonstrating a commitment to global AI infrastructure and public good.",
-      "link": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
-      "source": "Google AI Blog"
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "summary": "Harvey, a legal tech firm, is leveraging OpenAI's GPT-6 Astra to generate more structured and context-aware legal documents, empowering lawyers to concentrate on strategic tasks by streamlining the drafting process.",
+      "link": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "source": "OpenAI News"
     },
     {
-      "title": "Hugging Face Welcomes oMLX Creator Jun Kim to Support MLX Community",
-      "summary": "Hugging Face has brought on Jun Kim, the creator of oMLX, to bolster support for the MLX community, signaling a strategic investment in open-source machine learning frameworks and developer enablement.",
-      "link": "https://huggingface.co/blog/omlx",
-      "source": "Hugging Face Blog"
+      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+      "summary": "Airbnb is expanding internal access to GPT-6 Astra and other OpenAI frontier models, enabling engineering teams to accelerate bug resolution, improve system design, and ship products faster across their development cycles.",
+      "link": "https://openai.com/index/airbnb-gpt-6-astra",
+      "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Coding Guide to TypeSafe AI Jev: Typed Decisions and Speculative Fan-Out with System One Models",
-      "summary": "This guide offers a complete tutorial for TypeSafe AI's Jev, a System One model, detailing its Python SDK for structured judgments, speculative fan-out, and confidence-gated routing in production AI workflows.",
-      "link": "https://www.marktechpost.com/2026/09/23/a-coding-guide-to-typesafe-ai-jev/",
-      "source": "MarkTechPost"
+      "title": "DevFest is back",
+      "summary": "DevFest 2026 returns with over 800 global events, offering developers an opportunity to connect, build, secure, and scale applications in the agentic AI era through practical workshops and community engagement.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Grab and OpenAI Launch 'GO Forward with AI' to Upskill Southeast Asia",
-      "summary": "OpenAI and Grab have partnered to launch 'GO Forward with AI,' a regional program aimed at equipping 30,000 partners across Southeast Asia with practical AI skills, fostering local AI talent.",
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "summary": "OpenAI and Grab are collaborating on 'GO Forward with AI,' a regional program aiming to equip 30,000 partners across Southeast Asia with practical AI skills, fostering a new generation of AI-literate professionals.",
       "link": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
       "source": "OpenAI News"
     },
     {
-      "title": "DevFest 2026 Returns to Focus on Agentic AI Development",
-      "summary": "Google's DevFest 2026 returns with over 800 global events, providing developers with opportunities to connect, build, secure, and scale their projects, with a strong focus on the emerging agentic AI era.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "source": "Google AI Blog"
+      "title": "Two years of OpenAI Academy",
+      "summary": "OpenAI celebrates two years of its Academy, emphasizing its continued commitment to bringing essential AI skills to diverse communities and expanding access to high-quality AI education for aspiring builders.",
+      "link": "https://openai.com/index/two-years-of-openai-academy",
+      "source": "OpenAI News"
     }
   ]
 }
