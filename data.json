@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-09-25T23:59:59Z",
+  "lastUpdated": "2026-09-28T20:01:17.383Z",
   "highlights": [
-    "OpenAI's latest GPT-6 models, including Astra, Sol, and Luna, are driving significant enterprise efficiency gains and expanding capabilities with balanced cost options for builders.",
-    "The AI industry demonstrates a strong commitment to practical skills development and responsible AI, with new training programs and robust safety benchmarks emerging to foster ethical innovation.",
-    "Advancements in developer tools and infrastructure, such as improved prompt caching, accelerated robotics simulation, and efficient LLM quantization, are enhancing builder productivity and model performance."
+    "NVIDIA Launches Open Agent Safety Platform: OpenShell Sandboxes Agents on Vera CPUs While Sentry on BlueField-4 Quarantines Them in Milliseconds",
+    "Fireworks AI Releases Ember-1: A Post-Trained Kimi K3 That Uses About 40% Fewer Tokens",
+    "20 Agentic Use Cases of TypeSafe AI’s Jev"
   ],
   "agents": [
     {
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "summary": "Ringg leverages OpenAI's GPT-5.6 to power multilingual customer service agents across various channels, achieving up to 65% call resolution and 90% cost reduction compared to previous models, demonstrating significant operational efficiency.",
-      "link": "https://openai.com/index/ringg",
-      "source": "OpenAI News"
+      "title": "NVIDIA Launches Open Agent Safety Platform: OpenShell Sandboxes Agents on Vera CPUs While Sentry on BlueField-4 Quarantines Them in Milliseconds",
+      "summary": "NVIDIA has launched the Open Agent Safety Platform, an open reference design that enforces AI agent safety outside the agent itself. OpenShell, an Apa...",
+      "link": "https://www.marktechpost.com/2026/09/28/nvidia-launches-open-agent-safety-platform/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Your Agent Aced the Task. Will It Do It Again?",
-      "summary": "This article from IBM Research explores the crucial challenge of ensuring consistency in AI agent performance, highlighting the need for robust evaluation methods beyond single successful runs to build reliable agentic systems.",
-      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-      "source": "Hugging Face Blog"
+      "title": "AI Coding Agents for Enterprise: IP Indemnity, Data Residency and 500-Seat Cost Compared",
+      "summary": "We read the contracts behind GitHub Copilot, AWS Kiro, Cursor, Devin and Windsurf. Copilot and Kiro offer uncapped indemnity on generated code. Cognit...",
+      "link": "https://www.marktechpost.com/2026/09/26/ai-coding-agents-for-enterprise-ip-indemnity-data-residency-and-500-seat-cost-compared/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Give Your Coding Agents a Memory You Own",
-      "summary": "This development focuses on equipping coding agents with persistent, owned memory, enabling them to retain context and learn from past interactions for more efficient and customized performance in complex development workflows.",
-      "link": "https://huggingface.co/blog/funes",
-      "source": "Hugging Face Blog"
+      "title": "Exa Launches Agent Ultra: A Subagent Swarm Deep Research API Built for Exhaustive List Building",
+      "summary": "Exa has released Agent Ultra, the highest effort mode of its Exa Agent API. It coordinates subagents across thousands of sources for list building and...",
+      "link": "https://www.marktechpost.com/2026/09/26/exa-launches-agent-ultra-a-subagent-swarm-deep-research-api-built-for-exhaustive-list-building/",
+      "source": "MarkTechPost"
     }
   ],
   "models": [
     {
-      "title": "Introducing GPT-6 Sol and Luna",
-      "summary": "OpenAI has launched GPT-6 Sol and Luna, two new frontier models designed to bring advanced intelligence to everyday tasks, offering developers flexible choices with different balances of capability and cost for diverse applications.",
-      "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "source": "OpenAI News"
+      "title": "20 Agentic Use Cases of TypeSafe AI’s Jev",
+      "summary": "TypeSafe AI's Jev skips text generation and returns typed decisions with calibrated probabilities. Input costs $0.042 per million tokens and output is...",
+      "link": "https://www.marktechpost.com/2026/09/27/20-agentic-use-cases-of-typesafe-ais-jev/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Introducing MentalHealthBench",
-      "summary": "OpenAI introduces MentalHealthBench, an expert-informed benchmark to rigorously evaluate AI responses in realistic mental health conversations, ensuring helpfulness and safety for models deployed in sensitive applications.",
-      "link": "https://openai.com/index/introducing-mentalhealthbench",
-      "source": "OpenAI News"
+      "title": "Google Research Introduces an AI Video Co-Director: 4 Agentic Frameworks for Coherent, Minutes-Long Video Generation",
+      "summary": "Google Research has introduced an AI video co-director for long-form video generation. The suite of 4 agentic frameworks turns short clips into cohere...",
+      "link": "https://www.marktechpost.com/2026/09/27/google-research-introduces-an-ai-video-co-director-4-agentic-frameworks-for-coherent-minutes-long-video-generation/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-      "summary": "H Company unveils NeoMME, an efficient multimodal-native and multilingual encoder designed to process diverse data types and languages simultaneously, offering improved performance and broader applicability for global AI solutions.",
-      "link": "https://huggingface.co/blog/Hcompany/neomme",
-      "source": "Hugging Face Blog"
+      "title": "Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English",
+      "summary": "Sarvam AI's Saaras V4 is a speech-to-text model covering all 22 Indian languages plus global English. It pairs an audio encoder with a 3B hybrid state...",
+      "link": "https://www.marktechpost.com/2026/09/26/sarvam-ai-releases-saaras-v4-a-speech-to-text-model-for-all-22-indian-languages-and-global-english/",
+      "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Better prompt caching for GPT-6",
-      "summary": "OpenAI has enhanced prompt caching for GPT-6, providing developers with higher cache hit rates, new diagnostics, and explicit controls to significantly reduce latency and operational costs for repetitive LLM interactions.",
-      "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "source": "OpenAI News"
+      "title": "Fireworks AI Releases Ember-1: A Post-Trained Kimi K3 That Uses About 40% Fewer Tokens",
+      "summary": "Fireworks AI has released Ember-1, a post-trained Kimi K3 that learns to produce shorter reasoning traces instead of lowering reasoning effort. Firewo...",
+      "link": "https://www.marktechpost.com/2026/09/28/fireworks-ai-releases-ember-1-a-post-trained-kimi-k3-that-uses-about-40-fewer-tokens/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Transformers now runs llama.cpp quants",
-      "summary": "The Hugging Face Transformers library now supports llama.cpp quantization, enabling developers to run highly optimized and efficient versions of large language models directly within the popular framework for reduced memory footprint and faster inference.",
-      "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "source": "Hugging Face Blog"
+      "title": "Co-creating the future of fashion with Google",
+      "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
-      "summary": "This guide demonstrates how to leverage NVIDIA Warp and MjWarp to dramatically accelerate robotics simulation and learning workflows, offering builders powerful tools for faster iteration and more complex robotic system development.",
-      "link": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
-      "source": "Hugging Face Blog"
+      "title": "Proactive cyber defense for governments and enterprises",
+      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "source": "Google AI Blog"
     }
   ],
   "companies": [
     {
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "summary": "Proaction significantly improved fleet management operations by integrating OpenAI's Codex, GPT-Live-1, and GPT-6 Astra, leading to a 60% sales increase and saving over 75 hours in development and operational time.",
-      "link": "https://openai.com/index/proaction",
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engine...",
+      "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
       "source": "OpenAI News"
     },
     {
-      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "summary": "Harvey, a legal tech firm, is leveraging OpenAI's GPT-6 Astra to generate more structured and context-aware legal documents, empowering lawyers to concentrate on strategic tasks by streamlining the drafting process.",
-      "link": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "title": "Two years of OpenAI Academy",
+      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "link": "https://openai.com/index/two-years-of-openai-academy",
       "source": "OpenAI News"
     },
     {
-      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-      "summary": "Airbnb is expanding internal access to GPT-6 Astra and other OpenAI frontier models, enabling engineering teams to accelerate bug resolution, improve system design, and ship products faster across their development cycles.",
-      "link": "https://openai.com/index/airbnb-gpt-6-astra",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "DevFest is back",
-      "summary": "DevFest 2026 returns with over 800 global events, offering developers an opportunity to connect, build, secure, and scale applications in the agentic AI era through practical workshops and community engagement.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "source": "Google AI Blog"
+      "title": "A Coding Guide to Google Research’s MSEB: Writing Sound Encoders to the Benchmark Contract and Scoring Them Across Classification, Clustering, Retrieval and Segmentation",
+      "summary": "A comprehensive coding tutorial on Google Research's Massive Sound Embedding Benchmark (MSEB), demonstrating how to implement custom sound encoders, d...",
+      "link": "https://www.marktechpost.com/2026/09/26/a-coding-guide-to-google-researchs-mseb-writing-sound-encoders-to-the-benchmark-contract-and-scoring-them-across-classification-clustering-retrieval-and-segmentation/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-      "summary": "OpenAI and Grab are collaborating on 'GO Forward with AI,' a regional program aiming to equip 30,000 partners across Southeast Asia with practical AI skills, fostering a new generation of AI-literate professionals.",
-      "link": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-      "source": "OpenAI News"
+      "title": "Supersonic Labs Releases Julia 1: A 144.3M-Parameter Open Decision Model That Runs on a CPU",
+      "summary": "Supersonic Labs has released Julia 1, a 144.3M-parameter decision model built on mmBERT-small. It takes context, a question, and 2 to 20 options, then...",
+      "link": "https://www.marktechpost.com/2026/09/26/supersonic-labs-releases-julia-1-a-144-3m-parameter-open-decision-model-that-runs-on-a-cpu/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Two years of OpenAI Academy",
-      "summary": "OpenAI celebrates two years of its Academy, emphasizing its continued commitment to bringing essential AI skills to diverse communities and expanding access to high-quality AI education for aspiring builders.",
-      "link": "https://openai.com/index/two-years-of-openai-academy",
-      "source": "OpenAI News"
+      "title": "Spectral Feedback for Test-Time Alignment of Protein Diffusion Models",
+      "summary": "arXiv:2609.30456v1 Announce Type: new \nAbstract: Reward maximization alignment methods for discrete diffusion models have primarily focused on steerin...",
+      "link": "https://arxiv.org/abs/2609.30456",
+      "source": "arXiv cs.AI"
     }
   ]
 }
