@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2026-09-28T20:01:17.383Z",
+  "lastUpdated": "2026-09-29T17:48:10Z",
   "highlights": [
-    "NVIDIA Launches Open Agent Safety Platform: OpenShell Sandboxes Agents on Vera CPUs While Sentry on BlueField-4 Quarantines Them in Milliseconds",
-    "Fireworks AI Releases Ember-1: A Post-Trained Kimi K3 That Uses About 40% Fewer Tokens",
-    "20 Agentic Use Cases of TypeSafe AI’s Jev"
+    "Frontier AI models are advancing rapidly, with OpenAI's GPT-6.1 Sol and Anthropic's Claude Sonnet 5.5 delivering significant performance gains and cost efficiencies, making powerful AI more accessible for diverse applications.",
+    "The AI agent ecosystem is maturing, highlighted by Google Research's open-source RRSI for self-improving agents and NVIDIA's Open Agent Safety Platform, providing crucial frameworks for developing and securely deploying autonomous AI.",
+    "Multi-modal AI continues to expand its practical applications, exemplified by H Company's Holo4 enabling agents to interact across desktop and web, and Alibaba's Qwen-Audio-3.1-Realtime delivering advanced full-duplex voice interactions."
   ],
   "agents": [
     {
-      "title": "NVIDIA Launches Open Agent Safety Platform: OpenShell Sandboxes Agents on Vera CPUs While Sentry on BlueField-4 Quarantines Them in Milliseconds",
-      "summary": "NVIDIA has launched the Open Agent Safety Platform, an open reference design that enforces AI agent safety outside the agent itself. OpenShell, an Apa...",
-      "link": "https://www.marktechpost.com/2026/09/28/nvidia-launches-open-agent-safety-platform/",
+      "title": "Google Research Open-Sources RRSI: AI Agents That Improve Their Own Harness Without Overfitting",
+      "summary": "Google open-sourced RRSI, a framework enabling LLM agents to autonomously optimize their prompts, tools, and memory without altering model weights, leading to improved, generalized performance across new tasks. Builders can leverage this for more robust and adaptive agent systems.",
+      "link": "https://www.marktechpost.com/2026/09/29/google-research-open-sources-rrsi-ai-agents-that-improve-their-own-harness-without-overfitting/",
       "source": "MarkTechPost"
     },
     {
-      "title": "AI Coding Agents for Enterprise: IP Indemnity, Data Residency and 500-Seat Cost Compared",
-      "summary": "We read the contracts behind GitHub Copilot, AWS Kiro, Cursor, Devin and Windsurf. Copilot and Kiro offer uncapped indemnity on generated code. Cognit...",
-      "link": "https://www.marktechpost.com/2026/09/26/ai-coding-agents-for-enterprise-ip-indemnity-data-residency-and-500-seat-cost-compared/",
+      "title": "H Company Releases Holo4: Open-Weight Computer-Use Models That Click, Code and Call Tools Across Desktop, Web, Android and APIs",
+      "summary": "H Company launched Holo4, an open-weight family of generalist models that allow AI agents to directly control computers by clicking, typing, generating code, and calling APIs across desktop, web, and mobile, significantly expanding autonomous interaction capabilities for developers.",
+      "link": "https://www.marktechpost.com/2026/09/29/h-company-releases-holo4-open-weight-computer-use-models-that-click-code-and-call-tools-across-desktop-web-android-and-apis/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Exa Launches Agent Ultra: A Subagent Swarm Deep Research API Built for Exhaustive List Building",
-      "summary": "Exa has released Agent Ultra, the highest effort mode of its Exa Agent API. It coordinates subagents across thousands of sources for list building and...",
-      "link": "https://www.marktechpost.com/2026/09/26/exa-launches-agent-ultra-a-subagent-swarm-deep-research-api-built-for-exhaustive-list-building/",
-      "source": "MarkTechPost"
+      "title": "Introducing dots",
+      "summary": "OpenAI introduced \"dots,\" proactive AI assistants designed to manage complex projects and routine tasks autonomously, offering a new product category for intelligent automation where users maintain control while AI drives progress.",
+      "link": "https://openai.com/index/introducing-dots",
+      "source": "OpenAI News"
     }
   ],
   "models": [
     {
-      "title": "20 Agentic Use Cases of TypeSafe AI’s Jev",
-      "summary": "TypeSafe AI's Jev skips text generation and returns typed decisions with calibrated probabilities. Input costs $0.042 per million tokens and output is...",
-      "link": "https://www.marktechpost.com/2026/09/27/20-agentic-use-cases-of-typesafe-ais-jev/",
+      "title": "Introducing GPT-6.1 Sol",
+      "summary": "OpenAI released GPT-6.1 Sol, offering near-Astra level intelligence for coding, computer use, and professional workflows at one-fifth the API token price, enabling developers to build highly capable applications more cost-effectively.",
+      "link": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Anthropic Releases Claude Sonnet 5.5: 70.6% on Terminal-Bench 4.0 at the Same $2/$10 Price",
+      "summary": "Anthropic's Claude Sonnet 5.5 delivers 30%+ faster output and enhanced performance on benchmarks, maintaining its competitive pricing, allowing builders to achieve up to 30% lower cost per task with increased efficiency for demanding applications.",
+      "link": "https://www.marktechpost.com/2026/09/28/anthropic-releases-claude-sonnet-5-5-70-6-on-terminal-bench-4-0-at-the-same-2-10-price/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Google Research Introduces an AI Video Co-Director: 4 Agentic Frameworks for Coherent, Minutes-Long Video Generation",
-      "summary": "Google Research has introduced an AI video co-director for long-form video generation. The suite of 4 agentic frameworks turns short clips into cohere...",
-      "link": "https://www.marktechpost.com/2026/09/27/google-research-introduces-an-ai-video-co-director-4-agentic-frameworks-for-coherent-minutes-long-video-generation/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English",
-      "summary": "Sarvam AI's Saaras V4 is a speech-to-text model covering all 22 Indian languages plus global English. It pairs an audio encoder with a 3B hybrid state...",
-      "link": "https://www.marktechpost.com/2026/09/26/sarvam-ai-releases-saaras-v4-a-speech-to-text-model-for-all-22-indian-languages-and-global-english/",
+      "title": "Alibaba Qwen Releases Qwen-Audio-3.1-Realtime: A Full-Duplex Voice Model Trained to Think, Act, and Decide When to Speak",
+      "summary": "Alibaba's Qwen team released Qwen-Audio-3.1-Realtime, a full-duplex voice model capable of reasoning, tool invocation, and autonomous speech timing, dramatically improving task success and reducing irrelevant replies for real-time conversational AI.",
+      "link": "https://www.marktechpost.com/2026/09/28/alibaba-qwen-releases-qwen-audio-3-1-realtime-a-full-duplex-voice-model-trained-to-think-act-and-decide-when-to-speak/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Fireworks AI Releases Ember-1: A Post-Trained Kimi K3 That Uses About 40% Fewer Tokens",
-      "summary": "Fireworks AI has released Ember-1, a post-trained Kimi K3 that learns to produce shorter reasoning traces instead of lowering reasoning effort. Firewo...",
-      "link": "https://www.marktechpost.com/2026/09/28/fireworks-ai-releases-ember-1-a-post-trained-kimi-k3-that-uses-about-40-fewer-tokens/",
+      "title": "NVIDIA Launches Open Agent Safety Platform",
+      "summary": "NVIDIA introduced the Open Agent Safety Platform, an open reference design featuring OpenShell for policy-based agent sandboxing and Sentry for millisecond-speed quarantine, providing critical infrastructure for secure and robust AI agent deployments.",
+      "link": "https://www.marktechpost.com/2026/09/28/nvidia-lunches-open-agent-safety-platform/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Co-creating the future of fashion with Google",
-      "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-      "source": "Google AI Blog"
+      "title": "DevDay 2026 Recap",
+      "summary": "OpenAI's DevDay 2026 recap highlights over 20 announcements, including new GPT-6 Astra capabilities, advanced APIs, and security features, providing a broad suite of enhanced tools and platforms for developers to innovate on AI.",
+      "link": "https://openai.com/index/devday-2026-recap",
+      "source": "OpenAI News"
     },
     {
-      "title": "Proactive cyber defense for governments and enterprises",
-      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-      "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "source": "Google AI Blog"
+      "title": "Improving Medical Calculation of LLMs with Embedded Coding",
+      "summary": "The MedCode framework enhances LLMs' medical calculation accuracy by 20-30 percentage points by training them to generate executable code for arithmetic operations, offering a critical tool for developers building reliable AI in high-stakes healthcare applications.",
+      "link": "https://arxiv.org/abs/2609.31908",
+      "source": "arXiv cs.AI"
     }
   ],
   "companies": [
     {
-      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engine...",
-      "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "title": "Introducing GPT-6.1 Sol",
+      "summary": "OpenAI's launch of GPT-6.1 Sol signifies a strategic move to offer near-Astra intelligence at significantly reduced costs, democratizing access to powerful AI for a wider range of enterprise and developer applications.",
+      "link": "https://openai.com/index/introducing-gpt-6-1-sol",
       "source": "OpenAI News"
     },
     {
-      "title": "Two years of OpenAI Academy",
-      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-      "link": "https://openai.com/index/two-years-of-openai-academy",
+      "title": "DevDay 2026 Recap",
+      "summary": "OpenAI's DevDay 2026 showcased over 20 major announcements, including GPT-6 Astra and expansive updates to its ecosystem of APIs, security, and developer tools, cementing its leadership and fostering broader innovation across the AI community.",
+      "link": "https://openai.com/index/devday-2026-recap",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
-      "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "source": "OpenAI News"
+      "title": "Nebius Opens 2026 Physical AI Awards: Five $150K Compute Credit Prizes",
+      "summary": "Nebius, in collaboration with NVIDIA, launched the 2026 Physical AI Awards, offering five startups $150,000 in compute credits, promotion, and mentorship, demonstrating a significant investment in fostering innovation within the physical AI sector.",
+      "link": "https://www.marktechpost.com/2026/09/29/nebius-opens-2026-physical-ai-awards-five-150k-compute-prizes/",
+      "source": "MarkTechPost"
     }
   ],
   "learning": [
     {
-      "title": "A Coding Guide to Google Research’s MSEB: Writing Sound Encoders to the Benchmark Contract and Scoring Them Across Classification, Clustering, Retrieval and Segmentation",
-      "summary": "A comprehensive coding tutorial on Google Research's Massive Sound Embedding Benchmark (MSEB), demonstrating how to implement custom sound encoders, d...",
-      "link": "https://www.marktechpost.com/2026/09/26/a-coding-guide-to-google-researchs-mseb-writing-sound-encoders-to-the-benchmark-contract-and-scoring-them-across-classification-clustering-retrieval-and-segmentation/",
-      "source": "MarkTechPost"
+      "title": "Two years of OpenAI Academy",
+      "summary": "Celebrating two years, OpenAI Academy expands its global reach to deliver essential AI skills, underscoring OpenAI's commitment to empowering more communities with the knowledge and capabilities to build in the AI era.",
+      "link": "https://openai.com/index/two-years-of-openai-academy",
+      "source": "OpenAI News"
     },
     {
-      "title": "Supersonic Labs Releases Julia 1: A 144.3M-Parameter Open Decision Model That Runs on a CPU",
-      "summary": "Supersonic Labs has released Julia 1, a 144.3M-parameter decision model built on mmBERT-small. It takes context, a question, and 2 to 20 options, then...",
-      "link": "https://www.marktechpost.com/2026/09/26/supersonic-labs-releases-julia-1-a-144-3m-parameter-open-decision-model-that-runs-on-a-cpu/",
-      "source": "MarkTechPost"
+      "title": "DevFest is back",
+      "summary": "DevFest 2026 returns with over 800 global events, providing developers with opportunities to connect, build, secure, and scale solutions, with a strong focus on the evolving \"agentic AI era\" to foster practical skills and community development.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Spectral Feedback for Test-Time Alignment of Protein Diffusion Models",
-      "summary": "arXiv:2609.30456v1 Announce Type: new \nAbstract: Reward maximization alignment methods for discrete diffusion models have primarily focused on steerin...",
-      "link": "https://arxiv.org/abs/2609.30456",
+      "title": "Working with AI: A Design Framework for Human-AI Collaboration",
+      "summary": "This white paper introduces a practical framework for designing effective human-AI collaboration in industrial settings, offering guidelines for organizations to successfully integrate AI, enhance productivity, and ensure human-centered adoption.",
+      "link": "https://arxiv.org/abs/2609.31793",
       "source": "arXiv cs.AI"
     }
   ]
