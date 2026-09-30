@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2026-09-29T17:48:10Z",
+  "lastUpdated": "2026-09-30T18:18:31.670Z",
   "highlights": [
-    "Frontier AI models are advancing rapidly, with OpenAI's GPT-6.1 Sol and Anthropic's Claude Sonnet 5.5 delivering significant performance gains and cost efficiencies, making powerful AI more accessible for diverse applications.",
-    "The AI agent ecosystem is maturing, highlighted by Google Research's open-source RRSI for self-improving agents and NVIDIA's Open Agent Safety Platform, providing crucial frameworks for developing and securely deploying autonomous AI.",
-    "Multi-modal AI continues to expand its practical applications, exemplified by H Company's Holo4 enabling agents to interact across desktop and web, and Alibaba's Qwen-Audio-3.1-Realtime delivering advanced full-duplex voice interactions."
+    "Perplexity Introduces Photon: A Rust-Based Retrieval Engine That Cuts p99 Latency From 800 ms to 65 ms",
+    "NVIDIA Researchers Introduce Physis-Lang: Self-Evolving Physical Language That Lifts Cosmos 3 Past Veo 3.1 on Physics Benchmarks",
+    "One Bad Prompt Took Down a Company’s Salesforce: RSA’s Jim Taylor on Agent ID and Taming the 4,000 Shadow AI Agents Hiding in Your Enterprise"
   ],
   "agents": [
     {
+      "title": "One Bad Prompt Took Down a Company’s Salesforce: RSA’s Jim Taylor on Agent ID and Taming the 4,000 Shadow AI Agents Hiding in Your Enterprise",
+      "summary": "RSA launched Agent ID at The AI Conference in San Francisco. It's an agentic identity security platform for finance, government, healthcare, and criti...",
+      "link": "https://www.marktechpost.com/2026/09/29/rsa-launches-agent-id-to-discover-secure-and-govern-ai-agents-in-regulated-industries/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "OpenAI Launches dots: Always-On GPT-6 Astra Agents That Work From Their Own Cloud Computers",
+      "summary": "OpenAI just introduced dots at their DevDay today. Dots are persistent AI agents powered by GPT-6 Astra. Each dot gets its own cloud computer and brow...",
+      "link": "https://www.marktechpost.com/2026/09/29/openai-launches-dots-always-on-gpt-6-astra-agents-that-work-from-their-own-cloud-computers/",
+      "source": "MarkTechPost"
+    },
+    {
       "title": "Google Research Open-Sources RRSI: AI Agents That Improve Their Own Harness Without Overfitting",
-      "summary": "Google open-sourced RRSI, a framework enabling LLM agents to autonomously optimize their prompts, tools, and memory without altering model weights, leading to improved, generalized performance across new tasks. Builders can leverage this for more robust and adaptive agent systems.",
+      "summary": "Google Cloud AI Research has open-sourced RRSI, a framework that lets LLM agents rewrite their own prompts, tools and memory while model weights stay ...",
       "link": "https://www.marktechpost.com/2026/09/29/google-research-open-sources-rrsi-ai-agents-that-improve-their-own-harness-without-overfitting/",
       "source": "MarkTechPost"
-    },
-    {
-      "title": "H Company Releases Holo4: Open-Weight Computer-Use Models That Click, Code and Call Tools Across Desktop, Web, Android and APIs",
-      "summary": "H Company launched Holo4, an open-weight family of generalist models that allow AI agents to directly control computers by clicking, typing, generating code, and calling APIs across desktop, web, and mobile, significantly expanding autonomous interaction capabilities for developers.",
-      "link": "https://www.marktechpost.com/2026/09/29/h-company-releases-holo4-open-weight-computer-use-models-that-click-code-and-call-tools-across-desktop-web-android-and-apis/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Introducing dots",
-      "summary": "OpenAI introduced \"dots,\" proactive AI assistants designed to manage complex projects and routine tasks autonomously, offering a new product category for intelligent automation where users maintain control while AI drives progress.",
-      "link": "https://openai.com/index/introducing-dots",
-      "source": "OpenAI News"
     }
   ],
   "models": [
     {
-      "title": "Introducing GPT-6.1 Sol",
-      "summary": "OpenAI released GPT-6.1 Sol, offering near-Astra level intelligence for coding, computer use, and professional workflows at one-fifth the API token price, enabling developers to build highly capable applications more cost-effectively.",
-      "link": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "source": "OpenAI News"
+      "title": "NVIDIA Researchers Introduce Physis-Lang: Self-Evolving Physical Language That Lifts Cosmos 3 Past Veo 3.1 on Physics Benchmarks",
+      "summary": "Video world models can render convincing clips that still break physics. Butter spreads like paint. Balls pass through walls. A team from NVIDIA, MIT ...",
+      "link": "https://www.marktechpost.com/2026/09/30/nvidia-researchers-introduce-physis-lang-self-evolving-physical-language-that-lifts-cosmos-3-past-veo-3-1-on-physics-benchmarks/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Anthropic Releases Claude Sonnet 5.5: 70.6% on Terminal-Bench 4.0 at the Same $2/$10 Price",
-      "summary": "Anthropic's Claude Sonnet 5.5 delivers 30%+ faster output and enhanced performance on benchmarks, maintaining its competitive pricing, allowing builders to achieve up to 30% lower cost per task with increased efficiency for demanding applications.",
-      "link": "https://www.marktechpost.com/2026/09/28/anthropic-releases-claude-sonnet-5-5-70-6-on-terminal-bench-4-0-at-the-same-2-10-price/",
+      "title": "Liquid AI Releases d1: A Decision Model That Returns Calibrated Probabilities With Zero Output Tokens",
+      "summary": "Liquid AI has released d1, a decision model built for structured choices instead of text generation. You give it context and a set of typed questions....",
+      "link": "https://www.marktechpost.com/2026/09/29/liquid-ai-releases-d1-a-decision-model-that-returns-calibrated-probabilities-with-zero-output-tokens/",
       "source": "MarkTechPost"
     },
     {
       "title": "Alibaba Qwen Releases Qwen-Audio-3.1-Realtime: A Full-Duplex Voice Model Trained to Think, Act, and Decide When to Speak",
-      "summary": "Alibaba's Qwen team released Qwen-Audio-3.1-Realtime, a full-duplex voice model capable of reasoning, tool invocation, and autonomous speech timing, dramatically improving task success and reducing irrelevant replies for real-time conversational AI.",
+      "summary": "Alibaba's Qwen team released Qwen-Audio-3.1-Realtime, a full-duplex voice model trained to reason, call tools and decide when to speak. On a τ-Voice a...",
       "link": "https://www.marktechpost.com/2026/09/28/alibaba-qwen-releases-qwen-audio-3-1-realtime-a-full-duplex-voice-model-trained-to-think-act-and-decide-when-to-speak/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "NVIDIA Launches Open Agent Safety Platform",
-      "summary": "NVIDIA introduced the Open Agent Safety Platform, an open reference design featuring OpenShell for policy-based agent sandboxing and Sentry for millisecond-speed quarantine, providing critical infrastructure for secure and robust AI agent deployments.",
-      "link": "https://www.marktechpost.com/2026/09/28/nvidia-lunches-open-agent-safety-platform/",
+      "title": "Perplexity Introduces Photon: A Rust-Based Retrieval Engine That Cuts p99 Latency From 800 ms to 65 ms",
+      "summary": "Perplexity has released Photon, an in-house retrieval and ranking engine written in Rust. It replaces an open-source engine Perplexity had forked for ...",
+      "link": "https://www.marktechpost.com/2026/09/30/perplexity-introduces-photon-a-rust-based-retrieval-engine-that-cuts-p99-latency-from-800-ms-to-65-ms/",
       "source": "MarkTechPost"
     },
     {
-      "title": "DevDay 2026 Recap",
-      "summary": "OpenAI's DevDay 2026 recap highlights over 20 announcements, including new GPT-6 Astra capabilities, advanced APIs, and security features, providing a broad suite of enhanced tools and platforms for developers to innovate on AI.",
-      "link": "https://openai.com/index/devday-2026-recap",
-      "source": "OpenAI News"
+      "title": "Co-creating the future of fashion with Google",
+      "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Improving Medical Calculation of LLMs with Embedded Coding",
-      "summary": "The MedCode framework enhances LLMs' medical calculation accuracy by 20-30 percentage points by training them to generate executable code for arithmetic operations, offering a critical tool for developers building reliable AI in high-stakes healthcare applications.",
-      "link": "https://arxiv.org/abs/2609.31908",
-      "source": "arXiv cs.AI"
+      "title": "Proactive cyber defense for governments and enterprises",
+      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "source": "Google AI Blog"
     }
   ],
   "companies": [
     {
-      "title": "Introducing GPT-6.1 Sol",
-      "summary": "OpenAI's launch of GPT-6.1 Sol signifies a strategic move to offer near-Astra intelligence at significantly reduced costs, democratizing access to powerful AI for a wider range of enterprise and developer applications.",
-      "link": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "DevDay 2026 Recap",
-      "summary": "OpenAI's DevDay 2026 showcased over 20 major announcements, including GPT-6 Astra and expansive updates to its ecosystem of APIs, security, and developer tools, cementing its leadership and fostering broader innovation across the AI community.",
-      "link": "https://openai.com/index/devday-2026-recap",
-      "source": "OpenAI News"
-    },
-    {
       "title": "Nebius Opens 2026 Physical AI Awards: Five $150K Compute Credit Prizes",
-      "summary": "Nebius, in collaboration with NVIDIA, launched the 2026 Physical AI Awards, offering five startups $150,000 in compute credits, promotion, and mentorship, demonstrating a significant investment in fostering innovation within the physical AI sector.",
+      "summary": "Nebius and NVIDIA are running the 2026 Physical AI Awards for startups with products in the field. Five category winners each get $150,000 in compute ...",
       "link": "https://www.marktechpost.com/2026/09/29/nebius-opens-2026-physical-ai-awards-five-150k-compute-prizes/",
       "source": "MarkTechPost"
+    },
+    {
+      "title": "How we will do better for Australia",
+      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber ...",
+      "link": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engine...",
+      "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Two years of OpenAI Academy",
-      "summary": "Celebrating two years, OpenAI Academy expands its global reach to deliver essential AI skills, underscoring OpenAI's commitment to empowering more communities with the knowledge and capabilities to build in the AI era.",
-      "link": "https://openai.com/index/two-years-of-openai-academy",
-      "source": "OpenAI News"
+      "title": "OpenAI-HuggingFace: A Reproduction & Lessons for Alignment Testing",
+      "summary": "arXiv:2609.35799v1 Announce Type: new \nAbstract: In July 2026, OpenAI's agents coordinated over channels outside their intended environment to breach ...",
+      "link": "https://arxiv.org/abs/2609.35799",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "DevFest is back",
-      "summary": "DevFest 2026 returns with over 800 global events, providing developers with opportunities to connect, build, secure, and scale solutions, with a strong focus on the evolving \"agentic AI era\" to foster practical skills and community development.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "source": "Google AI Blog"
+      "title": "Neurosymbolic Routing for Reliable Reasoning on Resource-Constrained Edge Devices",
+      "summary": "arXiv:2609.35833v1 Announce Type: new \nAbstract: Running a language model on edge hardware provides private and low-latency reasoning without a networ...",
+      "link": "https://arxiv.org/abs/2609.35833",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Working with AI: A Design Framework for Human-AI Collaboration",
-      "summary": "This white paper introduces a practical framework for designing effective human-AI collaboration in industrial settings, offering guidelines for organizations to successfully integrate AI, enhance productivity, and ensure human-centered adoption.",
-      "link": "https://arxiv.org/abs/2609.31793",
+      "title": "Is Human-Readable Text Necessary for Effective LLM Fine-Tuning?",
+      "summary": "arXiv:2609.35868v1 Announce Type: new \nAbstract: Is human readability necessary for effective fine-tuning of large language models? We investigate whe...",
+      "link": "https://arxiv.org/abs/2609.35868",
       "source": "arXiv cs.AI"
     }
   ]
