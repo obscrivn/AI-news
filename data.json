@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-09-30T18:18:31.670Z",
+  "lastUpdated": "2026-10-01T18:00:00Z",
   "highlights": [
-    "Perplexity Introduces Photon: A Rust-Based Retrieval Engine That Cuts p99 Latency From 800 ms to 65 ms",
-    "NVIDIA Researchers Introduce Physis-Lang: Self-Evolving Physical Language That Lifts Cosmos 3 Past Veo 3.1 on Physics Benchmarks",
-    "One Bad Prompt Took Down a Company’s Salesforce: RSA’s Jim Taylor on Agent ID and Taming the 4,000 Shadow AI Agents Hiding in Your Enterprise"
+    "Major LLM advancements from OpenAI and Google are driving performance and cost-efficiency, exemplified by OpenAI's GPT-6.1 Sol and Google DeepMind's Gemini 4 Argon with expansive token contexts.",
+    "The AI agent landscape is rapidly evolving with OpenAI's launch of persistent 'dots' agents, alongside critical research into self-improving and multi-objective agents, complemented by new enterprise security solutions like RSA's Agent ID.",
+    "Foundational AI infrastructure and developer tools are seeing significant enhancements, including Perplexity's high-performance Photon retrieval engine and Hugging Face's integration of efficient LLM quantization via `llama.cpp`."
   ],
   "agents": [
     {
-      "title": "One Bad Prompt Took Down a Company’s Salesforce: RSA’s Jim Taylor on Agent ID and Taming the 4,000 Shadow AI Agents Hiding in Your Enterprise",
-      "summary": "RSA launched Agent ID at The AI Conference in San Francisco. It's an agentic identity security platform for finance, government, healthcare, and criti...",
-      "link": "https://www.marktechpost.com/2026/09/29/rsa-launches-agent-id-to-discover-secure-and-govern-ai-agents-in-regulated-industries/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "OpenAI Launches dots: Always-On GPT-6 Astra Agents That Work From Their Own Cloud Computers",
-      "summary": "OpenAI just introduced dots at their DevDay today. Dots are persistent AI agents powered by GPT-6 Astra. Each dot gets its own cloud computer and brow...",
+      "title": "OpenAI Launches dots: Always-On GPT-6 Astra Agents",
+      "summary": "OpenAI has introduced 'dots', persistent AI agents powered by GPT-6 Astra, each with its own cloud computer and browser access to over 4,000 apps, enabling autonomous, continuous workflow automation.",
       "link": "https://www.marktechpost.com/2026/09/29/openai-launches-dots-always-on-gpt-6-astra-agents-that-work-from-their-own-cloud-computers/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Google Research Open-Sources RRSI: AI Agents That Improve Their Own Harness Without Overfitting",
-      "summary": "Google Cloud AI Research has open-sourced RRSI, a framework that lets LLM agents rewrite their own prompts, tools and memory while model weights stay ...",
-      "link": "https://www.marktechpost.com/2026/09/29/google-research-open-sources-rrsi-ai-agents-that-improve-their-own-harness-without-overfitting/",
-      "source": "MarkTechPost"
+      "title": "AREX-2: Advancing Self-Improving LLM Agents",
+      "summary": "This research introduces AREX-2, a framework that significantly enhances LLM agents' ability to iteratively refine solutions through long-horizon reflective tasks, demonstrating strong performance and transferability across complex domains.",
+      "link": "https://arxiv.org/abs/2609.38288",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "Self-Evolving Harness with Agent as Optimizer",
+      "summary": "A new framework allows an AI agent to act as its own optimizer, directly editing its operational 'harness' across diverse tasks, leading to recursive self-improvement and enhanced generalization capabilities.",
+      "link": "https://arxiv.org/abs/2609.38372",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "NVIDIA Researchers Introduce Physis-Lang: Self-Evolving Physical Language That Lifts Cosmos 3 Past Veo 3.1 on Physics Benchmarks",
-      "summary": "Video world models can render convincing clips that still break physics. Butter spreads like paint. Balls pass through walls. A team from NVIDIA, MIT ...",
-      "link": "https://www.marktechpost.com/2026/09/30/nvidia-researchers-introduce-physis-lang-self-evolving-physical-language-that-lifts-cosmos-3-past-veo-3-1-on-physics-benchmarks/",
+      "title": "Google DeepMind Unveils Gemini 4 Argon with 1M Output Tokens",
+      "summary": "Google DeepMind has unveiled Gemini 4 Argon, a new LLM topping benchmarks with 1M output tokens, designed for coding, knowledge work, and cyber defense, positioning it as a strong competitor to other frontier models.",
+      "link": "https://www.marktechpost.com/2026/09/30/google-deepmind-unveils-gemini-4-argon-with-1m-output-tokens-for-coding-knowledge-work-and-cyber-defense/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Liquid AI Releases d1: A Decision Model That Returns Calibrated Probabilities With Zero Output Tokens",
-      "summary": "Liquid AI has released d1, a decision model built for structured choices instead of text generation. You give it context and a set of typed questions....",
-      "link": "https://www.marktechpost.com/2026/09/29/liquid-ai-releases-d1-a-decision-model-that-returns-calibrated-probabilities-with-zero-output-tokens/",
+      "title": "OpenAI Releases GPT-6.1 Sol: Near-Astra Performance, 1/5th Price",
+      "summary": "OpenAI's GPT-6.1 Sol offers near-Astra level intelligence for agentic coding and professional tasks at one-fifth of Astra's token price, making high-performance AI more accessible and cost-efficient for builders via API.",
+      "link": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Alibaba Qwen Releases Qwen-Audio-3.1-Realtime: A Full-Duplex Voice Model Trained to Think, Act, and Decide When to Speak",
-      "summary": "Alibaba's Qwen team released Qwen-Audio-3.1-Realtime, a full-duplex voice model trained to reason, call tools and decide when to speak. On a τ-Voice a...",
-      "link": "https://www.marktechpost.com/2026/09/28/alibaba-qwen-releases-qwen-audio-3-1-realtime-a-full-duplex-voice-model-trained-to-think-act-and-decide-when-to-speak/",
+      "title": "Cohere Releases Embed 5: Multimodal Embedding Models for Enterprise",
+      "summary": "Cohere has launched Embed 5, a new family of embedding models (Pro and Fast tiers) for enterprise search, RAG, and agentic retrieval, supporting text, images, and fused text-image inputs with optimized quality or latency/cost.",
+      "link": "https://www.marktechpost.com/2026/10/01/cohere-releases-embed-5/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Perplexity Introduces Photon: A Rust-Based Retrieval Engine That Cuts p99 Latency From 800 ms to 65 ms",
-      "summary": "Perplexity has released Photon, an in-house retrieval and ranking engine written in Rust. It replaces an open-source engine Perplexity had forked for ...",
+      "title": "Perplexity Introduces Photon: Rust-Based Retrieval Engine Cuts Latency",
+      "summary": "Perplexity has released Photon, an in-house Rust-based retrieval and ranking engine that dramatically cuts p99 latency from 800 ms to 65 ms, significantly enhancing real-time AI search capabilities.",
       "link": "https://www.marktechpost.com/2026/09/30/perplexity-introduces-photon-a-rust-based-retrieval-engine-that-cuts-p99-latency-from-800-ms-to-65-ms/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Co-creating the future of fashion with Google",
-      "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-      "source": "Google AI Blog"
+      "title": "Open TTS Leaderboard for Scalable Multilingual Evaluation",
+      "summary": "The new Open TTS Leaderboard provides scalable evaluation for multilingual Text-to-Speech and voice cloning, offering crucial benchmarks and reproducibility for developers advancing these technologies.",
+      "link": "https://huggingface.co/blog/open-tts-leaderboard",
+      "source": "Hugging Face Blog"
     },
     {
-      "title": "Proactive cyber defense for governments and enterprises",
-      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-      "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "source": "Google AI Blog"
+      "title": "Hugging Face Transformers Now Runs llama.cpp Quants",
+      "summary": "The Hugging Face Transformers library now supports `llama.cpp` quantizations, enabling developers to efficiently deploy large language models with improved inference performance and reduced memory footprint.",
+      "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "Nebius Opens 2026 Physical AI Awards: Five $150K Compute Credit Prizes",
-      "summary": "Nebius and NVIDIA are running the 2026 Physical AI Awards for startups with products in the field. Five category winners each get $150,000 in compute ...",
-      "link": "https://www.marktechpost.com/2026/09/29/nebius-opens-2026-physical-ai-awards-five-150k-compute-prizes/",
+      "title": "RSA Launches Agent ID for AI Agent Security in Regulated Industries",
+      "summary": "RSA introduced Agent ID, an agentic identity security platform designed for regulated industries (finance, government, healthcare) to discover, secure, and govern AI agents, addressing critical enterprise adoption challenges.",
+      "link": "https://www.marktechpost.com/2026/09/29/rsa-launches-agent-id-to-discover-secure-and-govern-ai-agents-in-regulated-industries/",
       "source": "MarkTechPost"
     },
     {
-      "title": "How we will do better for Australia",
-      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber ...",
-      "link": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "source": "OpenAI News"
+      "title": "Google DeepMind Unveils Gemini 4 Argon",
+      "summary": "Google DeepMind's unveiling of Gemini 4 Argon, a new powerful LLM with 1M output tokens for advanced applications, signifies a major competitive move in frontier AI development and its strategic market positioning.",
+      "link": "https://www.marktechpost.com/2026/09/30/google-deepmind-unveils-gemini-4-argon-with-1m-output-tokens-for-coding-knowledge-work-and-cyber-defense/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engine...",
-      "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "title": "OpenAI Disrupts Coordinated Model-Distillation Campaign",
+      "summary": "OpenAI successfully disrupted a campaign aimed at extracting protected model reasoning, demonstrating its proactive stance on intellectual property and strengthening defenses against adversarial model distillation for its commercial offerings.",
+      "link": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "OpenAI-HuggingFace: A Reproduction & Lessons for Alignment Testing",
-      "summary": "arXiv:2609.35799v1 Announce Type: new \nAbstract: In July 2026, OpenAI's agents coordinated over channels outside their intended environment to breach ...",
-      "link": "https://arxiv.org/abs/2609.35799",
-      "source": "arXiv cs.AI"
+      "title": "OpenAI Partners with SBDC to Help Small Businesses Adopt AI",
+      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, facilitating broader AI adoption and skill development across various industries.",
+      "link": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "source": "OpenAI News"
     },
     {
-      "title": "Neurosymbolic Routing for Reliable Reasoning on Resource-Constrained Edge Devices",
-      "summary": "arXiv:2609.35833v1 Announce Type: new \nAbstract: Running a language model on edge hardware provides private and low-latency reasoning without a networ...",
-      "link": "https://arxiv.org/abs/2609.35833",
-      "source": "arXiv cs.AI"
+      "title": "Google DevFest 2026 Focuses on Agentic AI Era",
+      "summary": "Google's global developer event, DevFest 2026, returns with a strong focus on building, securing, and scaling solutions in the agentic AI era, offering valuable learning opportunities and community engagement for developers.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Is Human-Readable Text Necessary for Effective LLM Fine-Tuning?",
-      "summary": "arXiv:2609.35868v1 Announce Type: new \nAbstract: Is human readability necessary for effective fine-tuning of large language models? We investigate whe...",
-      "link": "https://arxiv.org/abs/2609.35868",
-      "source": "arXiv cs.AI"
+      "title": "OpenAI Academy Celebrates Two Years of Bringing AI Skills to Communities",
+      "summary": "Marking its two-year anniversary, OpenAI Academy reaffirms its commitment to expanding AI skills and education to more communities, highlighting ongoing efforts in making AI knowledge accessible.",
+      "link": "https://openai.com/index/two-years-of-openai-academy",
+      "source": "OpenAI News"
     }
   ]
 }
