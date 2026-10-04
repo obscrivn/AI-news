@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-10-02T18:00:00Z",
+  "lastUpdated": "2026-10-04T12:00:00Z",
   "highlights": [
-    "OpenAI has officially entered the GPT-6 era with the debut of the high-performance GPT-6.1 Sol, bringing advanced coding and computer-use intelligence to production at an 80% cost reduction compared to Astra.",
-    "The landscape is shifting towards fully autonomous operations, driven by OpenAI's proactive 'dots' assistants and Holo4, an open framework designed to power generalist computer-use agents.",
-    "Open-source developer tooling receives a massive efficiency upgrade with Hugging Face Transformers natively integrating llama.cpp quants, lowering the hardware barrier for deploying local LLMs."
+    "OpenAI and Aleph Alpha introduce powerful new models, GPT-6.1 Sol and Kolibri, pushing the boundaries of intelligence and efficiency while Microsoft achieves a new benchmark in real-time speech-to-text.",
+    "The agentic AI landscape is rapidly evolving with OpenAI's 'dots' proactive assistants, DeepSeek's open-source agent harness desktop apps, and NVIDIA's DGX Spark for local agent development.",
+    "Enterprises gain critical new capabilities through Google's privacy-preserving federated learning in TEEs, IBM's self-hosted agentic software platform, and Prime Intellect's serverless inference for frontier models."
   ],
   "agents": [
     {
-      "title": "Introducing dots",
-      "summary": "OpenAI has launched 'dots', a system of proactive assistant agents capable of managing long-term, multi-step projects autonomously while keeping human operators securely in the loop.",
+      "title": "Introducing dots: OpenAI's Proactive AI Assistants",
+      "summary": "OpenAI has launched 'dots', proactive AI assistants designed to autonomously manage complex projects and daily tasks, empowering users to maintain control while work progresses seamlessly.",
       "link": "https://openai.com/index/introducing-dots",
       "source": "OpenAI News"
     },
     {
-      "title": "Holo4: Powering Generalist Computer-Use Agents",
-      "summary": "Hcompany introduced Holo4, an open-source model suite engineered specifically to power generalist agents capable of executing complex workflows across desktop operating systems.",
-      "link": "https://huggingface.co/blog/Hcompany/holo4",
-      "source": "Hugging Face Blog"
+      "title": "DeepSeek Harness v0.2 Brings Official Desktop Apps to Its Open-Source Agent Harness",
+      "summary": "DeepSeek has released official macOS and Windows desktop applications for its MIT-licensed DeepSeek Harness v0.2, enhancing agent development with a plugin manager, file/code review, scheduled automation, and support for OpenAI-compatible models.",
+      "link": "https://www.marktechpost.com/2026/10/03/deepseek-harness-v0-2-brings-official-desktop-apps-to-its-open-source-agent-harness/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Source-Aware Verification for MCP Agents",
-      "summary": "Multiverse Computing released a framework focused on ensuring Model Context Protocol (MCP) agents verify external source reliability rather than just factual accuracy, mitigating critical hallucination risks.",
-      "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "title": "Holo4: Powering Generalist Computer-Use Agents",
+      "summary": "Holo4 is introduced as a new model specifically designed to power generalist computer-use agents, marking a significant step towards more versatile and capable AI assistants that can interact with various digital environments.",
+      "link": "https://huggingface.co/blog/Hcompany/holo4",
       "source": "Hugging Face Blog"
     }
   ],
   "models": [
     {
-      "title": "Introducing GPT-6.1 Sol",
-      "summary": "OpenAI released GPT-6.1 Sol, offering near-Astra tier capabilities in programming, digital interaction, and professional tasks at a fraction of the cost—priced at one-fifth of Astra's standard API rates.",
+      "title": "Introducing GPT-6.1 Sol: Near-Astra Intelligence at Reduced Cost",
+      "summary": "OpenAI unveils GPT-6.1 Sol, a new frontier model offering intelligence close to Astra for coding, computer use, and professional tasks, at one-fifth the standard API input and output token prices of Astra.",
       "link": "https://openai.com/index/introducing-gpt-6-1-sol",
       "source": "OpenAI News"
     },
     {
-      "title": "Open-sourcing AstaBrief",
-      "summary": "AllenAI has open-sourced AstaBrief, a highly optimized, fast report-generation model tailored for low-latency summarization and analytical reporting tasks.",
-      "link": "https://huggingface.co/blog/allenai/astabrief",
-      "source": "Hugging Face Blog"
+      "title": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
+      "summary": "Aleph Alpha has launched Kolibri, a 78.1B-parameter English-German Mixture-of-Experts (MoE) model that activates only 3.46B parameters per token, featuring a 1M-token context and Apache 2.0 FP8 weights runnable on a single B200 or H200 GPU.",
+      "link": "https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier",
-      "summary": "NVIDIA introduced Kumo Tabular, a highly efficient architecture optimized for structured tabular prediction, substantially outperforming traditional GBDT models on massive enterprise datasets.",
-      "link": "https://huggingface.co/blog/nvidia/kumo-tabular",
-      "source": "Hugging Face Blog"
+      "title": "Microsoft AI Releases MAI-Transcribe-2-Streaming: #1 Real-Time Speech-to-Text Model",
+      "summary": "Microsoft AI has launched MAI-Transcribe-2-Streaming, its inaugural real-time speech-to-text model, which ranks #1 on Artificial Analysis AA-WER Streaming with a 2.5% WER, supports 60 languages with continuous detection, and is available in public preview.",
+      "link": "https://www.marktechpost.com/2026/10/02/microsoft-ai-releases-mai-transcribe-2-streaming-1-real-time-speech-to-text-model-on-artificial-analysis/",
+      "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "summary": "ServiceNow AI open-sourced AutoSynthData, an automated pipeline that helps enterprise developers easily generate highly realistic, tailored synthetic training data for fine-tuning workflow agents.",
-      "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "source": "Hugging Face Blog"
+      "title": "NVIDIA Announces DGX Spark 64GB: A 1-PetaFLOP Grace Blackwell Desktop for Local AI",
+      "summary": "NVIDIA has introduced a new 64GB configuration of its DGX Spark, a GB10-powered desktop AI system from multiple vendors, providing developers with 1 PetaFLOP for local AI agents, fine-tuning, and inference, with clustering capabilities for expanded memory.",
+      "link": "https://www.marktechpost.com/2026/10/02/nvidia-announces-dgx-spark-64gb-a-1-petaflop-grace-blackwell-desktop-for-local-ai-agents-fine-tuning-and-inference/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Transformers Now Runs llama.cpp Quants",
-      "summary": "Hugging Face Transformers now features native support for executing highly compressed llama.cpp GGUF files directly, significantly simplifying CPU/GPU mixed-hardware local deployment.",
+      "title": "Prime Intellect Launches Prime Inference: Serverless and Reserved Serving for Frontier Open Models",
+      "summary": "Prime Intellect has introduced Prime Inference, an OpenAI-compatible platform offering serverless and reserved serving for frontier open models on NVIDIA Blackwell, utilizing technologies like Dynamo, vLLM, and NVFP4 KV compression for high-performance inference.",
+      "link": "https://www.marktechpost.com/2026/10/02/prime-intellect-l%d0%b0unches-prime-inference-serverless-and-reserved-serving-for-frontier-open-models/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Transformers Now Runs Llama.cpp Quants",
+      "summary": "The Hugging Face Transformers library now supports running llama.cpp quantized models, significantly enhancing efficiency and accessibility for developers working with Llama models and extending the utility of a widely used machine learning library.",
       "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "source": "Hugging Face Blog"
-    },
-    {
-      "title": "Open TTS Leaderboard",
-      "summary": "Hugging Face launched the Open TTS Leaderboard, a scalable benchmark designed for testing multilingual text-to-speech engines and voice cloning models on realism and consistency.",
-      "link": "https://huggingface.co/blog/open-tts-leaderboard",
       "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "Chatham Scales Capital Markets Expertise",
-      "summary": "Chatham Financial integrated Codex and GPT-5.6 into their proprietary infrastructure, dramatically shrinking trade validation processes from 30 minutes down to under 4 minutes.",
-      "link": "https://openai.com/index/chatham-financial",
-      "source": "OpenAI News"
+      "title": "Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy",
+      "summary": "Google Research has developed a federated learning system that shifts gradient computation into attested server-side TEEs, enabling Gboard to train with externally verifiable differential privacy for features like next-word prediction, ensuring enhanced user data security.",
+      "link": "https://www.marktechpost.com/2026/10/04/google-research-moves-federated-learning-into-tees-gboard-now-trains-with-externally-verifiable-differential-privacy/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Basis Completes Tax Workbooks 2x Faster",
-      "summary": "Tax automation platform Basis demonstrated the real-world utility of GPT-6 Astra by utilizing its advanced contextual memory to complete complex 50-tab tax workbooks twice as fast as previous state-of-the-art models.",
-      "link": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "source": "OpenAI News"
+      "title": "IBM Brings Bob to Self-Hosted and Air-Gapped Environments: Agentic Software Development Without Moving Your Code",
+      "summary": "IBM has made its agentic software development platform, IBM Bob, generally available for self-hosted and air-gapped environments, allowing enterprises to run it on-premises or in private clouds, integrating with various models while ensuring full data isolation.",
+      "link": "https://www.marktechpost.com/2026/10/02/ibm-brings-bob-to-self-hosted-and-air-gapped-environments/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Albertsons Reimagines Retail Workflows",
-      "summary": "Retail giant Albertsons Companies deployed ChatGPT Enterprise and the OpenAI API across corporate operations, optimizing internal knowledge discovery and customer grocery experiences.",
-      "link": "https://openai.com/index/albertsons-reimagining-retail",
+      "title": "Disrupting a Coordinated Model-Distillation Campaign",
+      "summary": "OpenAI details how it successfully disrupted a campaign aimed at extracting protected model reasoning and outlines measures being taken to strengthen defenses against adversarial distillation, reinforcing the security and integrity of its AI models.",
+      "link": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
       "title": "A Model Guide for the GPT-6 Family",
-      "summary": "A comprehensive production guide for startups outlining how to choose GPT-6 variants, balance reasoning parameters, orchestrate API tool calls, and ready applications for scale.",
+      "summary": "OpenAI provides a comprehensive guide for startups on effectively utilizing GPT-6 models, covering crucial topics such as model selection, reasoning effort tuning, prompt engineering, skill enhancement, tool coordination, and preparing workflows for production.",
       "link": "https://openai.com/index/practical-guide-building-gpt-6",
       "source": "OpenAI News"
     },
     {
-      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-      "summary": "An in-depth tutorial demonstrating how to completely reconstruct the popular AUTOMATIC1111 diffusion UI using the modern, modular Gradio Workflow design patterns.",
-      "link": "https://huggingface.co/blog/gradio-workflow-1111",
-      "source": "Hugging Face Blog"
+      "title": "DevFest is Back: Build, Secure, and Scale in the Agentic AI Era",
+      "summary": "DevFest 2026 returns with over 800 global events, offering developers opportunities to connect, learn, and collaborate on building, securing, and scaling applications within the rapidly evolving agentic AI era.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Helping Small Businesses Put AI to Work",
-      "summary": "OpenAI has partnered with America’s SBDC to launch a localized educational syllabus and hands-on workshops targeted at helping small startups adopt generative AI tools effectively.",
-      "link": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "source": "OpenAI News"
+      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "summary": "A guide demonstrating how to rebuild the popular AUTOMATIC1111 tool using Gradio Workflow, offering developers a new approach to enhance and customize their Stable Diffusion UI experience.",
+      "link": "https://huggingface.co/blog/gradio-workflow-1111",
+      "source": "Hugging Face Blog"
     }
   ]
 }
