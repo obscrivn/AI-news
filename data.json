@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-10-04T12:00:00Z",
+  "lastUpdated": "2026-10-05T21:00:34.255Z",
   "highlights": [
-    "OpenAI and Aleph Alpha introduce powerful new models, GPT-6.1 Sol and Kolibri, pushing the boundaries of intelligence and efficiency while Microsoft achieves a new benchmark in real-time speech-to-text.",
-    "The agentic AI landscape is rapidly evolving with OpenAI's 'dots' proactive assistants, DeepSeek's open-source agent harness desktop apps, and NVIDIA's DGX Spark for local agent development.",
-    "Enterprises gain critical new capabilities through Google's privacy-preserving federated learning in TEEs, IBM's self-hosted agentic software platform, and Prime Intellect's serverless inference for frontier models."
+    "Yandex Introduces Sona: A Single Generative Recommender That Replaces Entire Recommendation Cascade",
+    "The Story of Qwen: Alibaba’s AI Models From 7B to 2.4T",
+    "Can an Open Model Do Security Research? Cantina’s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks"
   ],
   "agents": [
     {
-      "title": "Introducing dots: OpenAI's Proactive AI Assistants",
-      "summary": "OpenAI has launched 'dots', proactive AI assistants designed to autonomously manage complex projects and daily tasks, empowering users to maintain control while work progresses seamlessly.",
-      "link": "https://openai.com/index/introducing-dots",
-      "source": "OpenAI News"
+      "title": "GPT-6 Astra vs GPT-6.1 Sol vs Gemini 4 Argon vs Claude Fable 5.1: Which Frontier Model Fits Which Job",
+      "summary": "Astra leads computer use, Argon leads legal and finance work, and Sol wins on price for coding agents.\nThe post GPT-6 Astra vs GPT-6.1 Sol vs Gemini 4...",
+      "link": "https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job/",
+      "source": "MarkTechPost"
     },
     {
       "title": "DeepSeek Harness v0.2 Brings Official Desktop Apps to Its Open-Source Agent Harness",
-      "summary": "DeepSeek has released official macOS and Windows desktop applications for its MIT-licensed DeepSeek Harness v0.2, enhancing agent development with a plugin manager, file/code review, scheduled automation, and support for OpenAI-compatible models.",
+      "summary": "DeepSeek has released official macOS and Windows desktop apps for DeepSeek Harness v0.2, its MIT-licensed agent harness. The preview adds a plugin man...",
       "link": "https://www.marktechpost.com/2026/10/03/deepseek-harness-v0-2-brings-official-desktop-apps-to-its-open-source-agent-harness/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Holo4: Powering Generalist Computer-Use Agents",
-      "summary": "Holo4 is introduced as a new model specifically designed to power generalist computer-use agents, marking a significant step towards more versatile and capable AI assistants that can interact with various digital environments.",
-      "link": "https://huggingface.co/blog/Hcompany/holo4",
-      "source": "Hugging Face Blog"
+      "title": "Meta, OpenAI and Uber Just Taught AI Agents to Talk First. What About When to Stay Quiet?",
+      "summary": "TL;DR: Meta’s Muse, OpenAI’s Dots and Uber’s driver assistant share one bet: the agent speaks first. That moves the hard problem from what to answer t...",
+      "link": "https://www.marktechpost.com/2026/10/03/meta-openai-and-uber-just-taught-ai-agents-to-talk-first-what-about-when-to-stay-quiet/",
+      "source": "MarkTechPost"
     }
   ],
   "models": [
     {
-      "title": "Introducing GPT-6.1 Sol: Near-Astra Intelligence at Reduced Cost",
-      "summary": "OpenAI unveils GPT-6.1 Sol, a new frontier model offering intelligence close to Astra for coding, computer use, and professional tasks, at one-fifth the standard API input and output token prices of Astra.",
-      "link": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
-      "summary": "Aleph Alpha has launched Kolibri, a 78.1B-parameter English-German Mixture-of-Experts (MoE) model that activates only 3.46B parameters per token, featuring a 1M-token context and Apache 2.0 FP8 weights runnable on a single B200 or H200 GPU.",
-      "link": "https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/",
+      "title": "Yandex Introduces Sona: A Single Generative Recommender That Replaces Entire Recommendation Cascade",
+      "summary": "One transformer ran candidate generation and ranking in Yandex Music's A/B test without hand-engineered features, lifting likes 11.42%.\nThe post Yande...",
+      "link": "https://www.marktechpost.com/2026/10/05/yandex-introduces-sona-a-single-generative-recommender-that-replaces-entire-recommendation-cascade/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Microsoft AI Releases MAI-Transcribe-2-Streaming: #1 Real-Time Speech-to-Text Model",
-      "summary": "Microsoft AI has launched MAI-Transcribe-2-Streaming, its inaugural real-time speech-to-text model, which ranks #1 on Artificial Analysis AA-WER Streaming with a 2.5% WER, supports 60 languages with continuous detection, and is available in public preview.",
-      "link": "https://www.marktechpost.com/2026/10/02/microsoft-ai-releases-mai-transcribe-2-streaming-1-real-time-speech-to-text-model-on-artificial-analysis/",
+      "title": "The Story of Qwen: Alibaba’s AI Models From 7B to 2.4T",
+      "summary": "Alibaba's Qwen went from an invite-only chatbot in April 2023 to a 2.4-trillion-parameter open-weight model in August 2026. This is the full story, re...",
+      "link": "https://www.marktechpost.com/2026/10/04/the-story-of-qwen-alibabas-ai-models-from-7b-to-2-4t/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
+      "summary": "Aleph Alpha has released Kolibri, a 78.1B-parameter English-German Mixture-of-Experts model that activates only 3.46B parameters per token. It has a 1...",
+      "link": "https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "NVIDIA Announces DGX Spark 64GB: A 1-PetaFLOP Grace Blackwell Desktop for Local AI",
-      "summary": "NVIDIA has introduced a new 64GB configuration of its DGX Spark, a GB10-powered desktop AI system from multiple vendors, providing developers with 1 PetaFLOP for local AI agents, fine-tuning, and inference, with clustering capabilities for expanded memory.",
-      "link": "https://www.marktechpost.com/2026/10/02/nvidia-announces-dgx-spark-64gb-a-1-petaflop-grace-blackwell-desktop-for-local-ai-agents-fine-tuning-and-inference/",
-      "source": "MarkTechPost"
+      "title": "Building advertising for the way people use AI",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "link": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "source": "OpenAI News"
     },
     {
-      "title": "Prime Intellect Launches Prime Inference: Serverless and Reserved Serving for Frontier Open Models",
-      "summary": "Prime Intellect has introduced Prime Inference, an OpenAI-compatible platform offering serverless and reserved serving for frontier open models on NVIDIA Blackwell, utilizing technologies like Dynamo, vLLM, and NVFP4 KV compression for high-performance inference.",
-      "link": "https://www.marktechpost.com/2026/10/02/prime-intellect-l%d0%b0unches-prime-inference-serverless-and-reserved-serving-for-frontier-open-models/",
-      "source": "MarkTechPost"
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+      "link": "https://openai.com/index/albertsons-reimagining-retail",
+      "source": "OpenAI News"
     },
     {
-      "title": "Transformers Now Runs Llama.cpp Quants",
-      "summary": "The Hugging Face Transformers library now supports running llama.cpp quantized models, significantly enhancing efficiency and accessibility for developers working with Llama models and extending the utility of a widely used machine learning library.",
-      "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "source": "Hugging Face Blog"
+      "title": "Co-creating the future of fashion with Google",
+      "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "source": "Google AI Blog"
     }
   ],
   "companies": [
     {
-      "title": "Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy",
-      "summary": "Google Research has developed a federated learning system that shifts gradient computation into attested server-side TEEs, enabling Gboard to train with externally verifiable differential privacy for features like next-word prediction, ensuring enhanced user data security.",
-      "link": "https://www.marktechpost.com/2026/10/04/google-research-moves-federated-learning-into-tees-gboard-now-trains-with-externally-verifiable-differential-privacy/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "IBM Brings Bob to Self-Hosted and Air-Gapped Environments: Agentic Software Development Without Moving Your Code",
-      "summary": "IBM has made its agentic software development platform, IBM Bob, generally available for self-hosted and air-gapped environments, allowing enterprises to run it on-premises or in private clouds, integrating with various models while ensuring full data isolation.",
-      "link": "https://www.marktechpost.com/2026/10/02/ibm-brings-bob-to-self-hosted-and-air-gapped-environments/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Disrupting a Coordinated Model-Distillation Campaign",
-      "summary": "OpenAI details how it successfully disrupted a campaign aimed at extracting protected model reasoning and outlines measures being taken to strengthen defenses against adversarial distillation, reinforcing the security and integrity of its AI models.",
-      "link": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "title": "How we will do better for Australia",
+      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber ...",
+      "link": "https://openai.com/index/how-we-will-do-better-for-australia",
       "source": "OpenAI News"
+    },
+    {
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engine...",
+      "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "The latest AI news we announced in September 2026",
+      "summary": "Here are Google’s latest AI updates from September 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "A Model Guide for the GPT-6 Family",
-      "summary": "OpenAI provides a comprehensive guide for startups on effectively utilizing GPT-6 models, covering crucial topics such as model selection, reasoning effort tuning, prompt engineering, skill enhancement, tool coordination, and preparing workflows for production.",
-      "link": "https://openai.com/index/practical-guide-building-gpt-6",
-      "source": "OpenAI News"
+      "title": "Can an Open Model Do Security Research? Cantina’s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks",
+      "summary": "Cantina Security, with Yeta Labs, has released apex-flash-1, an open-weights model trained specifically for vulnerability research. It is a reinforcem...",
+      "link": "https://www.marktechpost.com/2026/10/04/can-an-open-model-do-security-research-cantinas-apex-flash-1-solves-40-of-60-held-out-bug-tasks/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "DevFest is Back: Build, Secure, and Scale in the Agentic AI Era",
-      "summary": "DevFest 2026 returns with over 800 global events, offering developers opportunities to connect, learn, and collaborate on building, securing, and scaling applications within the rapidly evolving agentic AI era.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "source": "Google AI Blog"
+      "title": "Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy",
+      "summary": "Google Research has unveiled a federated learning system that moves gradient computation from phones into attested server-side TEEs. Access policies a...",
+      "link": "https://www.marktechpost.com/2026/10/04/google-research-moves-federated-learning-into-tees-gboard-now-trains-with-externally-verifiable-differential-privacy/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-      "summary": "A guide demonstrating how to rebuild the popular AUTOMATIC1111 tool using Gradio Workflow, offering developers a new approach to enhance and customize their Stable Diffusion UI experience.",
-      "link": "https://huggingface.co/blog/gradio-workflow-1111",
-      "source": "Hugging Face Blog"
+      "title": "Inside NVIDIA’s IsaacTeleop: From Hand and Controller Tracking to Robot Actions with the Graph-Based Retargeting Engine",
+      "summary": "Learn how NVIDIA IsaacTeleop turns XR hand tracking and motion controller input into robot commands using a pure Python retargeting engine and NumPy.\n...",
+      "link": "https://www.marktechpost.com/2026/10/03/inside-nvidias-isaacteleop-from-hand-and-controller-tracking-to-robot-actions-with-the-graph-based-retargeting-engine/",
+      "source": "MarkTechPost"
     }
   ]
 }
