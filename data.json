@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-10-07T18:30:00Z",
+  "lastUpdated": "2026-10-08T18:00:00Z",
   "highlights": [
-    "Leading AI labs are rapidly deploying new multimodal models, including Mistral's 1.05T parameter MoE and OpenAI's GPT-6 with intelligent UI, pushing the boundaries of capability and accessibility.",
-    "Significant advancements are being made in AI agent reliability and trustworthiness, with new methods for auditing black-box LLM agents, enhancing coding agent performance, and benchmarking self-evolving skill packages.",
-    "The AI ecosystem is maturing through crucial developer tools, such as a CLI for integrating open models with proprietary environments and open-sourcing production-grade solutions for complex optimization, alongside major enterprise partnerships and new monetization strategies like advertising in ChatGPT."
+    "Enterprise AI has pivoted heavily toward agentic orchestration, with specialized frameworks like NVIDIA's PivotOPD and Humanize targeting error recovery and multi-agent consensus to guarantee deterministic execution.",
+    "A major shift toward cost-efficiency and on-device optimization is underway, highlighted by Anthropic's Claude Haiku 5.5 pricing input at an ultra-low $0.10/M tokens and Liquid AI's zero-output-token decision models.",
+    "Real-time resource optimization tools are maturing, featuring live LLM inference auction marketplaces and adaptive reasoning-enabled guardrail models like AdaGuard."
   ],
   "agents": [
     {
-      "title": "Teaching Agents to Code Reliably",
-      "summary": "This research outlines a framework for improving autonomous coding agents by enhancing location and edit diversity, alongside refined verification, leading to substantial gains in pass rates and reduced false acceptance on coding benchmarks.",
-      "link": "https://arxiv.org/abs/2610.03984",
+      "title": "NVIDIA PivotOPD Teaches Multi-Turn AI Agents to Recover From Pivotal Mistakes",
+      "summary": "This framework introduces an on-policy distillation method that specifically trains multi-turn LLM agents to detect early mistakes and recover from them, substantially outperforming 13 baselines on agent benchmarks.",
+      "link": "https://www.marktechpost.com/2026/10/08/nvidia-pivotopd-teaches-multi-turn-ai-agents-to-recover-from-pivotal-mistakes/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Humanize: Judgement Engineering for Agentic Coding",
+      "summary": "A multi-agent orchestration workflow built around mechanically enforced gates between planning and review phases, enabling developer loops to self-correct and achieve flawless scores on rigorous science and math olympiad benchmarks.",
+      "link": "https://arxiv.org/abs/2610.08900",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Proxy Confidence: Auditing Black-Box LLM Agents with a Surrogate's Log-Probabilities",
-      "summary": "A novel, training-free method uses a low-cost open-weight surrogate model to audit black-box LLM agents for silent errors in tool calls and code, significantly improving error detection and decision-making accuracy without internal access.",
-      "link": "https://arxiv.org/abs/2610.03894",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "SkillScriptBench: Benchmarking Self-Evolution of Executable Agent Skill Packages Beyond Markdown",
-      "summary": "Introduces SkillScriptBench, a 350-task benchmark for evaluating agent skill self-evolution, alongside AST-Guided Skill Revision, which substantially improves script and documentation repair success and consistency across LLM agents.",
-      "link": "https://arxiv.org/abs/2610.04008",
+      "title": "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station",
+      "summary": "By augmenting agents with a Supervisor mechanism and periodic Meta Reflection, the Station environment allows LLM teams to autonomously rediscover over 62% of criteria from recent top-tier scientific papers without web access.",
+      "link": "https://arxiv.org/abs/2610.08927",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "Mistral AI Releases Mistral Large 4 (Le Chonk): A 1.05T Parameter Multimodal MoE Model",
-      "summary": "Mistral AI has launched Mistral Large 4, a 1.05 trillion parameter Mixture of Experts (MoE) model with native image input and a 1 million token context window, now live via API with open weights expected soon, pushing multimodal capabilities.",
-      "link": "https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe/",
+      "title": "JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents",
+      "summary": "An Apache 2.0-licensed, 12B mixture-of-experts model designed specifically for software engineering tasks, boosting its SWE-bench Verified score from 2.0% to 47.0% through target repository reinforcement learning.",
+      "link": "https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents/",
       "source": "MarkTechPost"
     },
     {
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "summary": "OpenAI is rolling out GPT-6 globally within ChatGPT, featuring an Intelligent UI that delivers faster responses with integrated visuals and interactive experiences, making advanced AI more intuitive and broadly accessible.",
-      "link": "https://openai.com/index/gpt-6-for-everyone",
-      "source": "OpenAI News"
+      "title": "Liquid AI Releases Open-Weight d1-3B and d1-omni-600M: Multimodal Decision Models With Zero Output Tokens",
+      "summary": "These open-weight decision models process complex text, image, and audio inputs to return calibrated, typed answers in a single forward pass without generating costly, slow text output tokens, making them perfect for real-time edge processing.",
+      "link": "https://www.marktechpost.com/2026/10/07/liquid-ai-releases-open-weight-d1-3b-and-d1-omni-600m-multimodal-decision-models-with-zero-output-tokens/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Liquid AI Releases Open-Weight d1-3B and d1-omni-600M: Multimodal Decision Models With Zero Output Tokens",
-      "summary": "Liquid AI has released Open d1, open-weight multimodal decision models (d1-3B, d1-omni-600M) that process text, images, or audio to return calibrated, typed answers in a single pass with zero output tokens, enabling real-time, low-latency decisions.",
-      "link": "https://www.marktechpost.com/2026/10/07/liquid-ai-releases-open-weight-d1-3b-and-d1-omni-600m-multimodal-decision-models-with-zero-output-tokens/",
+      "title": "Anthropic Releases Claude Haiku 5.5: A Small Model With 1M Context",
+      "summary": "Haiku 5.5 delivers high-speed performance across a massive 1-million token context window at a highly disruptive price point of $0.10 per million input tokens, excelling at OSWorld benchmarks.",
+      "link": "https://www.marktechpost.com/2026/10/07/anthropic-releases-claude-haiku-5-5-a-small-model-with-1m-context-priced-at-0-10-per-million-input-tokens/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Meet Together Link: A Free CLI That Runs Open Models Inside Claude Code, Codex, and OpenCode",
-      "summary": "Together AI has released Together Link, a free, MIT-licensed CLI that enables developers to connect popular proprietary AI code environments (like Claude Code, Codex) to open-source models, offering significant cost savings and flexibility.",
-      "link": "https://www.marktechpost.com/2026/10/05/meet-together-link-a-free-cli-that-runs-open-models-like-kimi-k3-and-glm-5-3-inside-claude-code-codex-and-opencode/",
+      "title": "Architect Launches Liquid Inference, a Real-Time Auction for LLM Inference",
+      "summary": "A dynamic LLM router that functions as a live auction where providers compete to fulfill developer prompts, reducing operational costs through automated lowest-offer matching with a simple base URL swap.",
+      "link": "https://www.marktechpost.com/2026/10/08/architect-launches-liquid-inference-a-real-time-auction-for-llm-inference/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Meta AI Open-Sources Rebalancer: A C++ Assignment Solver That Runs About 40 Million Placement Problems a Day",
-      "summary": "Meta has open-sourced Rebalancer, a high-performance C++ and Python library for solving complex assignment problems, battle-tested for over nine years in Meta's production, handling 40 million placements daily.",
+      "title": "Meta AI Open-Sources Rebalancer: A C++ Assignment Solver",
+      "summary": "An Apache 2.0-licensed library optimized for distributing massive traffic, shards, and server allocations, handling millions of complex linear and mixed-integer programming problems daily.",
       "link": "https://www.marktechpost.com/2026/10/06/meta-ai-open-sources-rebalancer-a-c-assignment-solver-that-runs-about-40-million-placement-problems-a-day/",
       "source": "MarkTechPost"
     },
     {
-      "title": "ROAR: Unifying Runs across Heterogeneous AI-Driven Research Systems",
-      "summary": "ROAR introduces new infrastructure to unify and analyze outputs from diverse AI-driven research systems, providing a relational schema and parsing layer to aggregate and compare experimental runs for large-scale R&D insights and reproducibility.",
-      "link": "https://arxiv.org/abs/2610.03966",
+      "title": "AdaGuard: Enhancing Safety and Policy Compliance with Reasoning-Enabled LLM-As-A-Judge Guardrails",
+      "summary": "A GRPO-trained, runtime adaptive safety engine that dynamically switches between fast classification and explainable reasoning-on-demand, saving significant latency costs while matching the safety performance of frontier models.",
+      "link": "https://arxiv.org/abs/2610.08923",
       "source": "arXiv cs.AI"
     }
   ],
   "companies": [
     {
-      "title": "Building advertising for the way people use AI",
-      "summary": "OpenAI is introducing new visual ad formats within ChatGPT and expanding measurement tools and brand suitability partnerships, signaling a significant move to monetize its conversational AI platform for advertisers.",
-      "link": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "title": "GPT-6 and Intelligent UI for Everyone",
+      "summary": "OpenAI has rolled out GPT-6 with a native Intelligent UI that delivers visual, interactive components, moving standard chat interactions into dynamic workspaces users can explore directly.",
+      "link": "https://openai.com/index/gpt-6-for-everyone",
       "source": "OpenAI News"
     },
     {
-      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "summary": "Atlassian and OpenAI are deepening their collaboration to integrate frontier AI models with enterprise knowledge bases, empowering teams to streamline planning, building, and delivery of work across Atlassian products.",
+      "title": "Atlassian and OpenAI Expand Partnership to Turn Enterprise Knowledge into Action",
+      "summary": "An expanded collaboration integrating OpenAI's frontier models natively with enterprise knowledge bases to automate product management, planning, and task delivery across product suites.",
       "link": "https://openai.com/index/atlassian-partnership",
       "source": "OpenAI News"
     },
     {
-      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "summary": "Radisson Hotel Group has partnered with Accenture to develop a ChatGPT plugin, enabling travelers to use OpenAI technology for finding, comparing, and booking hotels directly within their trip planning process.",
-      "link": "https://openai.com/index/radisson",
+      "title": "How Jump Trading is Scaling Quant Research with ChatGPT",
+      "summary": "The quantitative trading firm outlines how they scaled automated financial analysis pipelines using longer-running multi-source LLM workflows paired with robust human evaluation loops.",
+      "link": "https://openai.com/index/jump-trading",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "A Developer’s Guide to Laya: Zero-Shot Decisions and Calibration",
-      "summary": "This comprehensive guide provides developers with practical steps to implement typed decisions, fit custom temperatures, and build reliable abstention gates using Laya, an open-source zero-shot decision engine.",
-      "link": "https://www.marktechpost.com/2026/10/06/a-developers-guide-to-laya-zero-shot-decisions-and-calibration/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "A model guide for the GPT-6 family",
-      "summary": "OpenAI has published a practical guide for startups on effectively choosing, tuning, and improving prompts and skills for GPT-6 models, as well as coordinating tools and preparing AI workflows for production environments.",
+      "title": "A Model Guide for the GPT-6 Family",
+      "summary": "A practical guide for startups and developers on how to choose appropriate model tiers, adjust reasoning efforts, refine prompt instructions, and structure tool coordination for high-throughput production.",
       "link": "https://openai.com/index/practical-guide-building-gpt-6",
       "source": "OpenAI News"
     },
     {
-      "title": "Helping teens learn, plan, and shape the future of AI",
-      "summary": "OpenAI is launching a College Planner within ChatGPT for Teens, alongside new flashcards and quizzes, and forming a teen AI council, providing educational tools and fostering AI literacy among young users.",
-      "link": "https://openai.com/index/teens-learn-and-plan",
-      "source": "OpenAI News"
+      "title": "A Developer’s Guide to Laya: Zero-Shot Decisions and Calibration",
+      "summary": "A step-by-step programming tutorial explaining how to leverage the open-source Laya engine to build typed decisions, fit custom temperatures, and construct robust system abstention gates.",
+      "link": "https://www.marktechpost.com/2026/10/06/a-developers-guide-to-laya-zero-shot-decisions-and-calibration/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Google DevFest 2026: Build, Secure, and Scale in the Agentic AI Era",
+      "summary": "Google's developer community event series returns with active labs and workshops geared towards security, optimization, and scaling multi-agent networks.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "source": "Google AI Blog"
     }
   ]
 }
