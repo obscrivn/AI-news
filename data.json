@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-10-15T14:30:00Z",
+  "lastUpdated": "2026-10-16T17:11:49.175Z",
   "highlights": [
-    "Agentic AI development is rapidly advancing with new frameworks enabling self-improvement, continual learning, and robust evaluation, significantly boosting agent reliability and performance.",
-    "Frontier models are pushing boundaries with multimodal capabilities, vastly extended context windows, and open-weight releases, empowering developers with more powerful and accessible AI.",
-    "Critical infrastructure and optimization tools for AI deployment are emerging, alongside specialized benchmarks, streamlining the development and scaling of sophisticated AI systems."
+    "Liquid AI Releases d1-ultra: A Multimodal Decision Model That Scores 65 on the AA Decision Index",
+    "Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context",
+    "NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model"
   ],
   "agents": [
     {
-      "title": "CopilotKit Releases CLiF: Continual Learning Platform for Agents",
-      "summary": "CopilotKit introduced CLiF, a platform that transforms agent traces and user interactions into valuable data for skill acquisition, evaluation, and fine-tuning, directly addressing the challenge of deploying robust AI agents at scale.",
-      "link": "https://www.marktechpost.com/2026/10/15/copilotkit-releases-clif-a-continual-learning-platform-that-turns-agent-traces-and-user-actions-into-skills-evals-and-fine-tuning-data/",
+      "title": "NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model",
+      "summary": "NVIDIA released Nemotron 3.5 Super VL, an open 120B-parameter multimodal MoE model with 12B active parameters, 1M-token context and NVFP4 weights that...",
+      "link": "https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/",
       "source": "MarkTechPost"
     },
     {
-      "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
-      "summary": "ClawLoop offers a framework for self-improving LLM-based agents in harness environments, enabling them to iteratively synthesize tasks, train, and diagnose performance without relying on external teacher models, leading to consistent gains on benchmarks.",
-      "link": "https://arxiv.org/abs/2610.14118",
-      "source": "arXiv cs.AI"
+      "title": "Meet Grok Voice 3.0: SpaceXAI Voice Agent Model Ranks #1 on Artificial Analysis",
+      "summary": "SpaceXAI just released Grok Voice 3.0. Grok Voice 3.0 is a SpaceXAI speech-to-speech model that listens, reasons, calls tools and speaks. It now ranks...",
+      "link": "https://www.marktechpost.com/2026/10/14/meet-grok-voice-3-0-spacexai-voice-agent-model-ranks-1-on-artificial-analysis/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Harness^2: Recursive Agent Harnessing for an Open World",
-      "summary": "Harness^2 introduces a recursive agent harnessing framework that refines task-specific harnesses and updates a continual improvement harness, allowing agents to self-improve and adapt to novel open-world tasks without ground-truth verifiers.",
-      "link": "https://arxiv.org/abs/2610.14224",
+      "title": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
+      "summary": "arXiv:2610.20675v1 Announce Type: new \nAbstract: Agents pair reasoning models with harnesses that organize model calls, execute tools, load skill inst...",
+      "link": "https://arxiv.org/abs/2610.20675",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "Google Releases Gemini 4 Argon API With 1M Token Output Limit",
-      "summary": "Google has made Gemini 4 Argon generally available, a sparse MoE model offering an unprecedented 1M token output limit via API, AI Studio, and the Gemini app, setting a new standard for long-form content generation and complex task execution.",
-      "link": "https://www.marktechpost.com/2026/10/13/google-gemini-4-argon-api-release/",
+      "title": "Liquid AI Releases d1-ultra: A Multimodal Decision Model That Scores 65 on the AA Decision Index",
+      "summary": "Liquid AI released d1-ultra, a text and image decision model that returns calibrated probabilities in 1 forward pass. It scores 65 on the Artificial A...",
+      "link": "https://www.marktechpost.com/2026/10/15/liquid-ai-d1-ultra-decision-model/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It",
-      "summary": "Meta released Muse Wonder and Muse Wonder Full, new 1M-context agent models. Muse Wonder offers competitive pricing on the Meta Model API, while Wonder Full leads in deep software engineering benchmarks, providing powerful options for agent development.",
-      "link": "https://www.marktechpost.com/2026/10/13/meta-muse-wonder-muse-wonder-full-release/",
+      "title": "Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context",
+      "summary": "Meta released Muse Spark Open, an 816B-parameter open-weight MoE model with 42B active parameters and a 1M-token context. It leads open models on MCP-...",
+      "link": "https://www.marktechpost.com/2026/10/15/meta-muse-spark-open-816b-open-weight-model/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Welcome Muse Spark Open: Open-Weight Frontier Multimodal Mixture-of-Experts Model from Meta",
-      "summary": "Meta introduced Muse Spark Open, an open-weight frontier multimodal mixture-of-experts model, providing the open-source community with access to advanced capabilities for multimodal AI development and research.",
-      "link": "https://huggingface.co/blog/meta-muse-spark-open",
-      "source": "Hugging Face Blog"
+      "title": "TypeSafe AI Releases Jev 1.14 With Images, Box Type and 262k Context",
+      "summary": "TypeSafe AI released Jev 1.14 under the jev-preview alias. The System One model adds experimental image input, a Box bounding-box type and an opt-in 2...",
+      "link": "https://www.marktechpost.com/2026/10/14/typesafe-ai-jev-1-14-images-box-long-context/",
+      "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "9 Best AI Gateways in 2026: Bifrost, Portkey, LiteLLM, Kong and 5 More Ranked",
-      "summary": "MarkTechPost published a comprehensive ranking of nine leading AI gateways, comparing solutions like Bifrost, Portkey, and LiteLLM across critical factors such as latency, pricing, licensing, and deployment, offering builders crucial insights for infrastructure decisions.",
-      "link": "https://www.marktechpost.com/2026/10/14/best-ai-gateways-2026/",
-      "source": "MarkTechPost"
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "link": "https://openai.com/index/sullivan-cromwell",
+      "source": "OpenAI News"
     },
     {
-      "title": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference",
-      "summary": "Echo introduces a 4-bit all-reduce method for LLM training and inference that controls accumulated errors, significantly accelerating communication (up to 2.09x faster) and improving throughput while maintaining model quality, without requiring specialized hardware.",
-      "link": "https://arxiv.org/abs/2610.14277",
-      "source": "arXiv cs.AI"
+      "title": "Co-creating the future of fashion with Google",
+      "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
-      "summary": "LHTB 2.0 expands to 77 tasks across 13 domains, offering a hardened and process-aware testbed for evaluating agents over extended workflows (up to three hours) with dense progress ladders, providing a more granular and realistic assessment of sustained agent performance.",
-      "link": "https://arxiv.org/abs/2610.14146",
-      "source": "arXiv cs.AI"
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "summary": "No description available.",
+      "link": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "Google Releases Gemini 4 Argon API With 1M Token Output Limit",
-      "summary": "Google has made its frontier Gemini 4 Argon model widely available through its API, AI Studio, and the Gemini app, empowering developers, enterprises, and scientists with its advanced capabilities and a significant 1M token output limit.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "source": "Google AI Blog"
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "link": "https://openai.com/index/sentinelone",
+      "source": "OpenAI News"
     },
     {
-      "title": "Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It",
-      "summary": "Meta's release of Muse Wonder and Muse Wonder Full provides new 1M-context agent models, signaling a significant push into advanced agentic AI capabilities for both general use and specialized tasks like software engineering.",
-      "link": "https://www.marktechpost.com/2026/10/13/meta-muse-wonder-muse-wonder-full-release/",
-      "source": "MarkTechPost"
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "link": "https://openai.com/index/block-ai-powered-security",
+      "source": "OpenAI News"
     },
     {
-      "title": "openKylin Outlines Its Vision for Reimagining Linux in the AI Era at Open Source Summit Europe 2026",
-      "summary": "openKylin unveiled its strategic vision to transition Linux from resource management to intent management in the AI era, introducing KART (a unified AI runtime) and AI-enhanced core desktop features in openKylin 3.0, setting a new direction for open-source OS in AI.",
-      "link": "https://www.marktechpost.com/2026/10/15/openkylin-outlines-its-vision-for-reimagining-linux-in-the-ai-era-at-open-source-summit-europe-2026/",
-      "source": "MarkTechPost"
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversigh...",
+      "link": "https://openai.com/index/sophos",
+      "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Teaching Students to Think and Learn Through Questions",
-      "summary": "OpenAI highlights how its AI tools, including Study Mode, can help teachers foster active, step-by-step learning, promoting deeper understanding through question-based engagement in educational settings.",
-      "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "source": "OpenAI News"
+      "title": "CopilotKit Releases CLiF: A Continual Learning Platform That Turns Agent Traces and User Actions into Skills, Evals, and Fine-Tuning Data",
+      "summary": "Introduction Teams shipping AI agents at scale keep running into the same pattern. Even agents built on top-tier models like Fable and Astra struggle ...",
+      "link": "https://www.marktechpost.com/2026/10/15/copilotkit-releases-clif-a-continual-learning-platform-that-turns-agent-traces-and-user-actions-into-skills-evals-and-fine-tuning-data/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Helping Teens Learn, Plan, and Shape the Future of AI",
-      "summary": "OpenAI is rolling out College Planner and new learning features like flashcards and quizzes within ChatGPT for Teens, alongside a teen AI council, to support students in their educational planning and engagement with AI's future.",
-      "link": "https://openai.com/index/teens-learn-and-plan",
-      "source": "OpenAI News"
+      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+      "summary": "arXiv:2610.20665v1 Announce Type: new \nAbstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls t...",
+      "link": "https://arxiv.org/abs/2610.20665",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "DevFest is back",
-      "summary": "Google announced the return of DevFest 2026, a global event with over 800 local gatherings, offering developers opportunities to learn, build, secure, and scale solutions in the agentic AI era.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "source": "Google AI Blog"
+      "title": "Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion",
+      "summary": "arXiv:2610.20669v1 Announce Type: new \nAbstract: Reward-guided discrete diffusion enables test-time alignment with downstream objectives, but applying...",
+      "link": "https://arxiv.org/abs/2610.20669",
+      "source": "arXiv cs.AI"
     }
   ]
 }
