@@ -1,108 +1,102 @@
 {
-  "lastUpdated": "2026-10-16T17:11:49.175Z",
+  "lastUpdated": "2026-10-17T12:00:00Z",
   "highlights": [
-    "Liquid AI Releases d1-ultra: A Multimodal Decision Model That Scores 65 on the AA Decision Index",
-    "Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context",
-    "NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model"
+    "The AI landscape is seeing rapid advancements in open-weight Mixture-of-Experts (MoE) models, offering greater scale and context windows for diverse applications, including long-horizon agentic work.",
+    "Significant progress is being made in AI agent robustness, with new open-source sandboxing tools and runtime amendment frameworks emerging to enhance security, reliability, and continuous learning capabilities.",
+    "Major AI platforms like Google and OpenAI are expanding their enterprise adoption strategies, delivering frontier models and specialized support, particularly for academic research and complex industry solutions."
   ],
   "agents": [
     {
-      "title": "NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model",
-      "summary": "NVIDIA released Nemotron 3.5 Super VL, an open 120B-parameter multimodal MoE model with 12B active parameters, 1M-token context and NVFP4 weights that...",
-      "link": "https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/",
+      "title": "Perplexity Open-Sources SPACE Sandbox for AI Agents",
+      "summary": "Perplexity has open-sourced SPACE, a production-tested Firecracker microVM sandbox designed for AI agents, offering robust isolation and controlled execution environments for developers building agent-based systems.",
+      "link": "https://www.marktechpost.com/2026/10/16/perplexity-open-sources-space-firecracker-microvm-sandbox-ai-agents/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Meet Grok Voice 3.0: SpaceXAI Voice Agent Model Ranks #1 on Artificial Analysis",
-      "summary": "SpaceXAI just released Grok Voice 3.0. Grok Voice 3.0 is a SpaceXAI speech-to-speech model that listens, reasons, calls tools and speaks. It now ranks...",
-      "link": "https://www.marktechpost.com/2026/10/14/meet-grok-voice-3-0-spacexai-voice-agent-model-ranks-1-on-artificial-analysis/",
+      "title": "CopilotKit Releases CLiF: Continual Learning Platform for Agents",
+      "summary": "CopilotKit launched CLiF, a platform enabling AI agents to continually learn by transforming agent traces and user actions into reusable skills, evaluations, and fine-tuning data, crucial for scaling complex agentic workflows.",
+      "link": "https://www.marktechpost.com/2026/10/15/copilotkit-releases-clif-a-continual-learning-platform-that-turns-agent-traces-and-user-actions-into-skills-evals-and-fine-tuning-data/",
       "source": "MarkTechPost"
     },
     {
-      "title": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
-      "summary": "arXiv:2610.20675v1 Announce Type: new \nAbstract: Agents pair reasoning models with harnesses that organize model calls, execute tools, load skill inst...",
-      "link": "https://arxiv.org/abs/2610.20675",
+      "title": "ARIA: Runtime Inspection and Amendment for Multi-Agent Systems",
+      "summary": "ARIA is a new framework that enables learning when and how to repair ongoing multi-agent executions, addressing critical reliability challenges by turning execution-verified repairs into reusable, learned intervention policies for complex MAS.",
+      "link": "https://arxiv.org/abs/2610.20780",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "Liquid AI Releases d1-ultra: A Multimodal Decision Model That Scores 65 on the AA Decision Index",
-      "summary": "Liquid AI released d1-ultra, a text and image decision model that returns calibrated probabilities in 1 forward pass. It scores 65 on the Artificial A...",
-      "link": "https://www.marktechpost.com/2026/10/15/liquid-ai-d1-ultra-decision-model/",
-      "source": "MarkTechPost"
+      "title": "Google Introduces Gemini 4 Argon: Frontier Model for Hard Problems",
+      "summary": "Google has released Gemini 4 Argon, its latest frontier model, providing developers, enterprises, scientists, and consumers with advanced capabilities to solve their most challenging problems.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context",
-      "summary": "Meta released Muse Spark Open, an 816B-parameter open-weight MoE model with 42B active parameters and a 1M-token context. It leads open models on MCP-...",
+      "title": "Meta Releases Muse Spark Open: 816B Open-Weight MoE with 1M Context",
+      "summary": "Meta introduced Muse Spark Open, an 816B-parameter open-weight Mixture-of-Experts (MoE) model featuring 42B active parameters and a 1M-token context, designed to lead open models in performance and efficiency.",
       "link": "https://www.marktechpost.com/2026/10/15/meta-muse-spark-open-816b-open-weight-model/",
       "source": "MarkTechPost"
     },
     {
-      "title": "TypeSafe AI Releases Jev 1.14 With Images, Box Type and 262k Context",
-      "summary": "TypeSafe AI released Jev 1.14 under the jev-preview alias. The System One model adds experimental image input, a Box bounding-box type and an opt-in 2...",
-      "link": "https://www.marktechpost.com/2026/10/14/typesafe-ai-jev-1-14-images-box-long-context/",
+      "title": "StepFun Releases Step 5 Preview Open Weights: 600B MoE, 1M Context",
+      "summary": "StepFun launched Step 5 Preview as open weights, a sparse Mixture-of-Experts model with 600B total parameters, 27B active, and up to 1M tokens of context, specifically built for long-horizon agentic work.",
+      "link": "https://www.marktechpost.com/2026/10/16/stepfun-releases-step-5-preview-open-weights-600b-moe-27b-active-1m-context/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-      "link": "https://openai.com/index/sullivan-cromwell",
-      "source": "OpenAI News"
+      "title": "Temporal Specification Guidance for Text-to-Video Generation",
+      "summary": "A new training-free, inference-time framework called Temporal Specification Guidance (TSG) uses formal Temporal Logic to turn explicit requirements into executable objectives, enhancing control over video generation during sampling.",
+      "link": "https://arxiv.org/abs/2610.20822",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Co-creating the future of fashion with Google",
-      "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
-      "summary": "No description available.",
-      "link": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "summary": "Hugging Face announced AutoSynthData, a tool designed to generate high-quality synthetic training data for enterprise AI agents, streamlining development and improving agent performance in business environments.",
+      "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
       "source": "Hugging Face Blog"
+    },
+    {
+      "title": "AlphaDiana: Measurement System for Agents in Verifiable Reasoning Tasks",
+      "summary": "AlphaDiana provides a modular measurement system for AI agents, enabling detailed analysis of their performance, behavior, and resource usage in verifiable reasoning tasks, crucial for diagnosing failures and improving agent design.",
+      "link": "https://arxiv.org/abs/2610.20675",
+      "source": "arXiv cs.AI"
     }
   ],
   "companies": [
     {
-      "title": "SentinelOne cuts malware analysis from weeks to hours",
-      "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
-      "link": "https://openai.com/index/sentinelone",
+      "title": "OpenAI Brings GPT-Rosalind to Academic Research Labs",
+      "summary": "OpenAI is introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and associated tools, aimed at significantly advancing life sciences research.",
+      "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
       "source": "OpenAI News"
     },
     {
-      "title": "How Block is building AI-powered security with OpenAI technology",
-      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-      "link": "https://openai.com/index/block-ai-powered-security",
-      "source": "OpenAI News"
+      "title": "Google Beam Expands with New Regions, Partners, and Customers",
+      "summary": "Google's Beam platform is expanding its reach to five new countries and forming new partnerships, demonstrating significant growth in its services and infrastructure for AI and technology solutions.",
+      "link": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversigh...",
-      "link": "https://openai.com/index/sophos",
+      "title": "Itaú Builds Generative AI for Entire Customer Base with OpenAI",
+      "summary": "Itaú, a leading financial institution, is implementing a comprehensive AI-first strategy by deploying generative AI solutions like 'ia.i' and 'IARA' across its customer base, even in Brazil's highly regulated banking sector.",
+      "link": "https://openai.com/index/itau-generative-ai",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "CopilotKit Releases CLiF: A Continual Learning Platform That Turns Agent Traces and User Actions into Skills, Evals, and Fine-Tuning Data",
-      "summary": "Introduction Teams shipping AI agents at scale keep running into the same pattern. Even agents built on top-tier models like Fable and Astra struggle ...",
-      "link": "https://www.marktechpost.com/2026/10/15/copilotkit-releases-clif-a-continual-learning-platform-that-turns-agent-traces-and-user-actions-into-skills-evals-and-fine-tuning-data/",
-      "source": "MarkTechPost"
+      "title": "OpenAI Supports Teaching Students to Think and Learn Through Questions",
+      "summary": "OpenAI is promoting 'AI for Educators' and 'Study Mode' to help teachers support active, step-by-step learning by enabling students to think and learn effectively through question-based interactions.",
+      "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "source": "OpenAI News"
     },
     {
-      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
-      "summary": "arXiv:2610.20665v1 Announce Type: new \nAbstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls t...",
-      "link": "https://arxiv.org/abs/2610.20665",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion",
-      "summary": "arXiv:2610.20669v1 Announce Type: new \nAbstract: Reward-guided discrete diffusion enables test-time alignment with downstream objectives, but applying...",
-      "link": "https://arxiv.org/abs/2610.20669",
-      "source": "arXiv cs.AI"
+      "title": "DevFest 2026 is Back for Agentic AI Era Development",
+      "summary": "Google announced the return of DevFest 2026, a global series of over 800 events designed to help developers connect, build, secure, and scale their solutions, particularly in the evolving agentic AI era.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "source": "Google AI Blog"
     }
   ]
 }
