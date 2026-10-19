@@ -1,86 +1,86 @@
 {
-  "lastUpdated": "2023-10-27T17:00:00Z",
+  "lastUpdated": "2026-10-19T12:00:00Z",
   "highlights": [
-    "The AI landscape is witnessing a significant push towards agentic AI, with major players like Google and Perplexity open-sourcing agent frameworks and sandboxes, and market analysis indicating increased adoption in enterprises.",
-    "New frontier models, including Meta's Muse Spark Open (816B MoE), Google's Gemini 4 Argon, and StepFun's Step 5 Preview (600B MoE), are expanding capabilities with larger parameters, extended context windows, and open-weight access, making powerful AI more accessible for development.",
-    "Developer tools are evolving to support specialized AI applications, from Voxel51 3.0 unifying multimodal data for physical AI to NVIDIA's Structured Data Models simplifying zero-training tabular predictions, alongside initiatives like AutoSynthData for enterprise agent data generation."
+    "Frontier models continue to advance with major releases from Google (Gemini 4 Argon), Meta (Muse Spark Open MoE), and MiniMax (M3.1 Flash MoE), emphasizing multimodal capabilities, open-weight accessibility, and competitive pricing for large agentic models.",
+    "The tooling landscape for AI agents and GPU orchestration is rapidly maturing, marked by NVIDIA open-sourcing Run:ai for Kubernetes GPU management and Google releasing Harness2 for recursive agent performance enhancement.",
+    "Practical applications and efficiency gains for AI are increasingly evident, from Stack Overflow's agent plugin tripling signups to new tutorials enabling zero-training tabular predictions, highlighting tangible value for builders and enterprises."
   ],
   "agents": [
     {
-      "title": "Google Open-Sources Harness2, a Recursive Agent Harnessing Framework",
-      "summary": "Google Research's Apache-2.0 open-source Harness2 framework allows dynamic rewriting of an agent's harness during testing, enabling significant performance gains (e.g., 11.5 points on WorkBuddy-Bench for GLM-5) without model weight updates, accelerating agent development and refinement.",
-      "link": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/",
-      "source": "MarkTechPost"
+      "title": "Amp Puts AI Agents to Work Beyond Code with OpenAI Models",
+      "summary": "Amp demonstrates how it leverages OpenAI's advanced models (GPT-6 Astra, Ultrafast, GPT-Live-1) to significantly expand the capabilities of AI agents beyond traditional coding tasks, enabling new frontiers for agentic applications.",
+      "link": "https://openai.com/index/amp-beyond-coding",
+      "source": "OpenAI News"
     },
     {
-      "title": "Perplexity Open-Sources SPACE, a Firecracker MicroVM Sandbox for AI Agents",
-      "summary": "Perplexity has open-sourced SPACE, its production-tested Firecracker microVM sandbox for AI agents, providing isolated, secure environments to execute agent tasks. This is crucial for builders needing robust control over agent credentials and outbound traffic in production coding or browsing agents.",
-      "link": "https://www.marktechpost.com/2026/10/16/perplexity-open-sources-space-firecracker-microvm-sandbox-ai-agents/",
-      "source": "MarkTechPost"
+      "title": "Third Moment Research Runs 10,000 Agents for 36+ Hours",
+      "summary": "Third Moment Research utilizes OpenAI's GPT-6 Astra and GPT-6.1 Sol to build agents capable of sustained focus and improvement over days, showcasing advancements in scalable, long-duration agentic operations for complex tasks like cybersecurity.",
+      "link": "https://openai.com/index/third-moment-research",
+      "source": "OpenAI News"
     },
     {
-      "title": "Holo4: powering generalist computer-use agents",
-      "summary": "Holo4 introduces a new system specifically designed to power generalist computer-use agents, advancing the capability for AI to autonomously interact with and operate across diverse digital environments, enabling a broader range of automated workflows.",
-      "link": "https://huggingface.co/blog/Hcompany/holo4",
+      "title": "Run Fast, Private Agents On-Device with LFM2.5-24B-A2B",
+      "summary": "Liquid AI released LFM2.5-24B-A2B, a model enabling rapid, private, on-device AI agents. This development is crucial for applications requiring high privacy and low latency, moving agentic AI closer to edge deployments.",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
       "source": "Hugging Face Blog"
     }
   ],
   "models": [
     {
-      "title": "Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context",
-      "summary": "Meta's open-weight Muse Spark Open is an 816B-parameter Mixture-of-Experts (MoE) model with 42B active parameters and a 1M-token context, setting a new benchmark for multimodal capabilities in open models and being efficient enough to run on M5 Ultra Mac Studios.",
-      "link": "https://www.marktechpost.com/2026/10/15/meta-muse-spark-open-816b-open-weight-model/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "summary": "Google has launched Gemini 4 Argon, a new frontier model offering advanced capabilities for developers, enterprises, and scientists to tackle complex problems. This model provides scalable intelligence for a wide range of demanding AI applications.",
+      "title": "Gemini 4 Argon: Built to Solve Your Hardest Problems",
+      "summary": "Google introduced Gemini 4 Argon, their latest frontier model, offering advanced capabilities to developers, enterprises, scientists, and consumers for tackling highly complex challenges.",
       "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
       "source": "Google AI Blog"
     },
     {
-      "title": "StepFun Releases Step 5 Preview Open Weights: 600B MoE, 27B Active, 1M Context",
-      "summary": "StepFun's Step 5 Preview is an open-weight, sparse Mixture-of-Experts (MoE) model featuring 600B total parameters, 27B active per token, and a 1M-token context, engineered for long-horizon agentic work and offering high performance and efficiency for complex, multi-step tasks.",
-      "link": "https://www.marktechpost.com/2026/10/16/stepfun-releases-step-5-preview-open-weights-600b-moe-27b-active-1m-context/",
+      "title": "Welcome Muse Spark Open: Open-Weight Multimodal MoE from Meta",
+      "summary": "Meta has released Muse Spark Open, an open-weight, multimodal Mixture-of-Experts (MoE) frontier model. This provides builders with a powerful, customizable, and scalable foundation for advanced multimodal AI applications.",
+      "link": "https://huggingface.co/blog/meta-muse-spark-open",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "MiniMax Just Launched M3.1 Flash: 428B MoE Agentic Model at $0.15/M Input",
+      "summary": "MiniMax launched M3.1 Flash, a 428B MoE model with 23B active parameters and a 1M-token context window. Priced competitively at $0.15/M input tokens, it offers a powerful agentic foundation for high-scale applications.",
+      "link": "https://www.marktechpost.com/2026/10/19/minimax-m3-1-flash-release/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Meet Voxel51 3.0: A Unified Multimodal Data Platform for Physical AI",
-      "summary": "Voxel51 3.0 offers a unified platform for physical AI teams to search, curate, annotate, and evaluate multimodal sensor data, integrating a Voxel51 Agent with 45+ MCP tools, dataset versioning, and a free tier to accelerate MLOps for robotics and IoT.",
-      "link": "https://www.marktechpost.com/2026/10/17/voxel51-3-0-physical-ai-data-platform/",
+      "title": "NVIDIA Open Sources Run:ai Under Apache 2.0 for Kubernetes GPU Orchestration",
+      "summary": "NVIDIA has open-sourced its Run:ai GPU orchestration platform under Apache 2.0, providing developers with advanced tools for managing and fractionalizing GPU resources in Kubernetes environments, including KAI Scheduler and CUDA 13.4 support.",
+      "link": "https://www.marktechpost.com/2026/10/18/nvidia-runai-open-source-gpu-orchestration-kubernetes/",
       "source": "MarkTechPost"
     },
     {
-      "title": "How to Make Zero-Training Tabular Predictions with NVIDIA Structured Data Models",
-      "summary": "NVIDIA's new Structured Data Models library provides a PyTorch interface for instant, zero-training tabular predictions by leveraging pretrained foundation models like TabICLv2 and KumoTabular, enabling rapid deployment of AI insights from structured data.",
-      "link": "https://www.marktechpost.com/2026/10/17/how-to-make-zero-training-tabular-predictions-with-nvidia-structured-data-models/",
+      "title": "Google Open-Sources Harness2, a Recursive Agent Harnessing Framework",
+      "summary": "Google Research open-sourced Harness2, an Apache-2.0 framework designed to dynamically rewrite an agent's harness during testing. This significantly boosts agent performance, exemplified by an 11.5-point lift on GLM-5 for WorkBuddy-Bench without model weight updates.",
+      "link": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/",
       "source": "MarkTechPost"
     },
     {
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "summary": "AutoSynthData facilitates the generation of high-quality synthetic training data specifically for enterprise agents, addressing the challenge of data scarcity and enabling developers to more effectively build, test, and deploy robust AI agents in business environments.",
-      "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "title": "TorchNeuron: Running HF Models on AWS Trainium Is Easier Than Ever",
+      "summary": "Hugging Face announced TorchNeuron, simplifying the deployment and optimization of Hugging Face models on AWS Trainium hardware. This streamlines the process for developers leveraging AWS for high-performance AI inference and training.",
+      "link": "https://huggingface.co/blog/hf-torchneuron",
       "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "The EU’s next chapter in AI is agentic",
-      "summary": "OpenAI analysis reveals rapid growth in agentic AI adoption across EU enterprises and small businesses, signifying a strategic shift towards AI agents as a key driver for unlocking significant economic value and shaping the future of AI in the European market.",
-      "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "summary": "Stack Overflow for Agents has seen substantial growth, tripling signups and achieving up to 10x agent creation growth, demonstrating the strong demand and immediate utility of integrating AI agent capabilities via a ChatGPT plugin for developers.",
+      "title": "Stack Overflow for Agents Triples Signups with ChatGPT Plugin",
+      "summary": "Stack Overflow for Agents leveraged a ChatGPT plugin to achieve significant growth, tripling signups and driving up to 10x growth in agent creation, demonstrating the power of ecosystem integrations for accelerating AI agent development.",
       "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
       "source": "OpenAI News"
     },
     {
-      "title": "Google Beam expands with new regions, partners, and customers",
-      "summary": "Google Beam is expanding its global footprint with new regions and partnerships, making Google's scalable AI infrastructure and services more accessible to a broader range of enterprises and developers, fostering wider AI adoption.",
+      "title": "Bringing GPT-Rosalind to Academic Research Labs",
+      "summary": "OpenAI introduced the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and associated tools. This initiative aims to accelerate life sciences research by democratizing access to powerful AI capabilities.",
+      "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Google Beam Expands with New Regions, Partners, and Customers",
+      "summary": "Google's Beam initiative is expanding into five new countries and forming partnerships, signaling significant growth and increased accessibility for its service. This indicates wider adoption and potential for new AI-powered applications across more regions.",
       "link": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
       "source": "Google AI Blog"
     }
@@ -88,21 +88,21 @@
   "learning": [
     {
       "title": "How to Make Zero-Training Tabular Predictions with NVIDIA Structured Data Models",
-      "summary": "This tutorial guides developers on implementing NVIDIA’s new Structured Data Models library, enabling them to make zero-training tabular predictions using pretrained foundation models via a single PyTorch interface, a practical skill for data-driven AI applications.",
+      "summary": "This tutorial guides developers on implementing NVIDIA’s new Structured Data Models library, enabling zero-training tabular predictions using pretrained foundation models like TabICLv2 and KumoTabular via a PyTorch interface.",
       "link": "https://www.marktechpost.com/2026/10/17/how-to-make-zero-training-tabular-predictions-with-nvidia-structured-data-models/",
       "source": "MarkTechPost"
     },
     {
-      "title": "DevFest is back",
-      "summary": "Google announces DevFest 2026, a global event series (800+ events) empowering developers to learn, build, secure, and scale solutions in the agentic AI era, offering critical upskilling and networking opportunities.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "Teaching students to think and learn through questions",
-      "summary": "OpenAI showcases \"Study Mode\" and AI for Educators, now available in Brazilian Portuguese, as tools that support active, step-by-step learning and foster critical thinking by guiding students through questions, promoting effective AI-powered educational approaches.",
+      "title": "Teaching Students to Think and Learn Through Questions",
+      "summary": "This educational initiative promotes active, step-by-step learning using AI for Educators in Brazilian Portuguese and features Study Mode, highlighting methods to support students in developing critical thinking skills through AI-powered questioning.",
       "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
       "source": "OpenAI News"
+    },
+    {
+      "title": "DevFest is Back: Build, Secure, and Scale in the Agentic AI Era",
+      "summary": "DevFest 2026 is announced, inviting developers to connect with over 800 global events focused on building, securing, and scaling applications in the agentic AI era. This provides a key learning and networking opportunity for the developer community.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "source": "Google AI Blog"
     }
   ]
 }
