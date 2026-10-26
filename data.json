@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-10-25T15:00:00Z",
+  "lastUpdated": "2026-10-26T19:03:26.474Z",
   "highlights": [
-    "Groundbreaking advancements in LLM performance are emerging, with new techniques like TokenGate drastically speeding up long-context prefill and reducing memory usage.",
-    "The AI agent landscape is rapidly evolving, marked by the release of scalable multi-agent orchestration frameworks and critical OS-level sandboxing for enhanced agent security.",
-    "Frontier models continue to push boundaries with massive context windows and open-source small language models are being optimized for efficient local and edge deployments."
+    "Nace AI Releases Drex for Search for AI Agents: 92.05% on BrowseComp-Plus With 12.6 Search Calls",
+    "Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang",
+    "Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model"
   ],
   "agents": [
     {
-      "title": "Microsoft Open-Sources Agensh: Multi-Agent Harness for 1,024 Agents",
-      "summary": "Microsoft Research has open-sourced Agensh, a decentralized multi-agent harness that enables self-organizing workers to scale from 1 to 1,024 agents, sharing resources and findings without a central orchestrator. This empowers developers to build highly scalable and collaborative AI systems.",
+      "title": "Nace AI Releases Drex for Search for AI Agents: 92.05% on BrowseComp-Plus With 12.6 Search Calls",
+      "summary": "Nace AI has released Drex for Search, bringing its Drex decision models to document search for AI agents. Nace reports 92.05% on BrowseComp-Plus with ...",
+      "link": "https://www.marktechpost.com/2026/10/26/nace-ai-releases-drex-for-search-for-ai-agents/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang",
+      "summary": "Tsinghua researchers released AKV, an SGLang-based serving system for cache engineering. LLM agents drop and reposition KV cache instead of summarizin...",
+      "link": "https://www.marktechpost.com/2026/10/26/tsinghua-akv-kv-cache-engineering-llm-agents/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents",
+      "summary": "Microsoft Research open-sourced Agensh, a multi-agent harness with no central orchestrator. Self-organizing workers share a Git repo, chat and a findi...",
       "link": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/",
       "source": "MarkTechPost"
-    },
-    {
-      "title": "Anthropic Open-Sources sandbox-runtime for OS-Level AI Agent Sandboxing",
-      "summary": "Anthropic has released sandbox-runtime (srt), an open-source, OS-level sandbox designed to restrict file and network access for AI agents, servers, and CLI tools without relying on containers. This provides a robust security layer for deploying agents, especially for sensitive operations like those behind Claude Code.",
-      "link": "https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "OpenAI Uses Thousands of AI Agents to Uncover Leads in Biological Data",
-      "summary": "OpenAI, PerturbAI, and Scripps Research leveraged distributed AI agents to analyze vast biological datasets, successfully uncovering promising research leads from millions of brain cells. This demonstrates the immense potential of large-scale agentic systems for accelerating scientific discovery and complex data analysis.",
-      "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "source": "OpenAI News"
     }
   ],
   "models": [
     {
-      "title": "Moonshot AI Releases Kimi K3.1 Pro: 2.8T MoE Model with 1M Context",
-      "summary": "Moonshot AI has launched Kimi K3.1 Pro, a Mixture-of-Experts (MoE) model featuring 2.8 trillion total parameters and 104 billion active parameters, offering an impressive 1-million-token context window. This frontier model provides advanced capabilities for handling extensive textual information, with open weights planned for release soon.",
-      "link": "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/",
+      "title": "Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time",
+      "summary": "Hugging Face released Carbon-X, an open 14.8B DNA language model built on Qwen3-14B. It reads raw DNA in chat, answers in English, and averages 66.7% ...",
+      "link": "https://www.marktechpost.com/2026/10/25/hugging-face-carbon-x-14b-dna-language-model/",
       "source": "MarkTechPost"
     },
-    {
-      "title": "Stanford/UC Berkeley Introduce TokenGate: Faster Long-Context LLM Prefill",
-      "summary": "Researchers from Stanford and UC Berkeley unveiled TokenGate, a learned token pruning module that significantly accelerates long-context LLM prefill times by up to 11.3x and reduces peak memory usage by 1.5x to 3.4x without sacrificing accuracy. This innovation is crucial for efficient and cost-effective deployment of LLMs with large context windows.",
-      "link": "https://www.marktechpost.com/2026/10/25/stanford-berkeley-tokengate-learned-token-pruning-llm-prefill/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: Open SLM for Local AI",
-      "summary": "NVIDIA has released Nemotron 3.5 Bolt E4B 4GB, an open small language model optimized for local execution on devices like RTX and Jetson with approximately 4GB VRAM. This model is ideal for developers building local voice assistants, game characters, and robots, enabling on-device AI experiences.",
-      "link": "https://www.marktechpost.com/2026/10/23/nvidia-nemotron-3-5-bolt-e4b-4gb/",
-      "source": "MarkTechPost"
-    }
-  ],
-  "tools": [
     {
       "title": "Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner",
-      "summary": "Anthropic has introduced OSS Scanner, a free and opt-in vulnerability scanner that utilizes their strongest models, including Claude Mythos, to secure critical open-source projects. This tool offers rapid vulnerability detection, empowering open-source maintainers to enhance code security efficiently.",
+      "summary": "Anthropic has launched OSS Scanner, a free, opt-in vulnerability scanner for critical open-source projects. The Anthropic OSS Scanner runs the company...",
       "link": "https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner/",
       "source": "MarkTechPost"
     },
     {
-      "title": "OpenAI Introduces Decisions API for Responsive Applications",
-      "summary": "OpenAI has launched the Decisions API, designed to provide fast, focused, and low-cost AI decisions for various applications. This new API enables developers to integrate quick AI-powered judgments into their systems, enhancing responsiveness and user experience.",
+      "title": "Patronizing and Condescending Language Detection in English and Mandarin",
+      "summary": "arXiv:2610.31808v1 Announce Type: new \nAbstract: Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes...",
+      "link": "https://arxiv.org/abs/2610.31808",
+      "source": "arXiv cs.AI"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
+      "summary": "arXiv:2610.31701v1 Announce Type: new \nAbstract: Enterprise customer journeys are shaped not only by product experiences and marketing, but also by re...",
+      "link": "https://arxiv.org/abs/2610.31701",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "Build more responsive apps with the Decisions API",
+      "summary": "Fast, focused, low-cost decisions for any application.",
       "link": "https://openai.com/index/decisions-api",
       "source": "OpenAI News"
     },
     {
-      "title": "Hugging Face Announces Native TPU Support with TorchTPU Integration",
-      "summary": "Hugging Face has deepened its integration with Google Cloud, announcing native support for TPUs through TorchTPU, making it easier than ever to run Hugging Face models on Google's specialized AI accelerators. This simplifies high-performance model training and inference for developers leveraging TPUs.",
-      "link": "https://huggingface.co/blog/hf-torchtpu",
-      "source": "Hugging Face Blog"
+      "title": "Co-creating the future of fashion with Google",
+      "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "source": "Google AI Blog"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Models Now Available on Google Cloud Marketplace",
-      "summary": "OpenAI and Google Cloud have partnered to bring OpenAI's frontier models and Codex workflows to Gemini’s Model Garden, accessible via Google Cloud Marketplace. This collaboration significantly broadens access for enterprises and developers to integrate advanced OpenAI capabilities within their Google Cloud environments.",
-      "link": "https://openai.com/index/openai-models-google-cloud",
+      "title": "ChatGPT’s expanding world of work",
+      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over t...",
+      "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
       "source": "OpenAI News"
     },
     {
-      "title": "Uber Rolls Out ChatGPT Work to Over 30,000 Employees with OpenAI",
-      "summary": "Uber is integrating ChatGPT Work across its organization, providing over 30,000 employees with AI assistance for research, data analysis, presentation creation, and complex workflow automation. This substantial adoption highlights the growing enterprise utility and impact of conversational AI tools on productivity.",
-      "link": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher eng...",
+      "link": "https://openai.com/index/fanatics-streamline-fan-experience",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Details Scaling Online Storage for 1 Billion ChatGPT Users",
-      "summary": "OpenAI provided insights into how it rapidly scaled its Habitat online storage system using reliable multi-tenancy, global caching, and Azure Cosmos DB to serve over 1 billion ChatGPT users, achieving 12x faster reads. This technical deep dive offers valuable lessons for builders on achieving massive scale in AI-driven services.",
-      "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital e...",
+      "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Guide to Stateful Agentic Engineering Copilots with Letta",
-      "summary": "A comprehensive guide explores building stateful engineering copilots using Letta, covering advanced agentic memory, archival vector retrieval, multi-agent shared state, custom tools, and portable workflows. This resource equips developers to create sophisticated, context-aware AI agents for engineering tasks.",
-      "link": "https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/",
+      "title": "Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model",
+      "summary": "Nanbeige LLM Lab released Nanbeige4.3-33B, a 33B dense Apache 2.0 model with 512K context. It reports 80.9 on Terminal-Bench 2.1 and will teach the up...",
+      "link": "https://www.marktechpost.com/2026/10/25/nanbeige-releases-nanbeige4-3-33b-open-agentic-coding-model/",
       "source": "MarkTechPost"
     },
     {
       "title": "How to Run Underdog Saluki 27B: 2-Bit Qwen3.8-27B Tool-Calling Guide",
-      "summary": "This detailed coding guide demonstrates how to run Underdog Saluki 27B, a 2-bit quantized Qwen3.8-27B model, focusing on ISTA's GSQ-RCO quantization, GGUF headers, memory usage, and BFCL tool-calling performance in llama.cpp. It provides practical steps for deploying and optimizing specific LLMs for tool-calling applications.",
+      "summary": "Explore a complete coding guide comparing Underdog Saluki 27B with ISTA's GSQ-RCO quantization, examining GGUF headers, memory usage, and BFCL tool-ca...",
       "link": "https://www.marktechpost.com/2026/10/24/underdog-saluki-27b-coding-guide-llama-cpp/",
       "source": "MarkTechPost"
     },
     {
-      "title": "DevFest 2026 Returns with Global Events for Agentic AI Era",
-      "summary": "DevFest 2026 is back with over 800 global events, offering developers opportunities to connect, learn, and build in the rapidly evolving agentic AI era. This initiative provides crucial resources and community support for those looking to develop, secure, and scale AI applications.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "source": "Google AI Blog"
+      "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+      "summary": "arXiv:2610.31789v1 Announce Type: new \nAbstract: Scientific computing increasingly relies on large language model-based agents for performance enginee...",
+      "link": "https://arxiv.org/abs/2610.31789",
+      "source": "arXiv cs.AI"
     }
   ]
 }
