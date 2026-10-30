@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-10-29T18:00:00Z",
+  "lastUpdated": "2026-10-30T18:00:00Z",
   "highlights": [
-    "Major AI labs like Google DeepMind and NVIDIA are releasing highly specialized and open-weight models, advancing capabilities in cyber defense, coding, and multilingual transcription, while also fostering broader community access.",
-    "The AI agent ecosystem is rapidly maturing with new open-source frameworks enabling flexible skill integration and recursive self-improvement, alongside critical infrastructure tools like a vector index that dramatically shrinks RAG memory footprint.",
-    "Strategic partnerships between OpenAI and enterprise giants like ServiceNow and Oracle are expanding AI agent integration across core business workflows, signaling significant industry adoption and the evolving role of AI in enterprise."
+    "The AI model landscape is rapidly expanding with domain-specific frontier models like Google's Gemini 4 Carbon for cyber defense and Samaya AI's cost-efficient Sterling for finance, alongside open-source advancements in multi-lingual speech transcription.",
+    "Significant progress in AI agent development focuses on building robust and reliable systems, including new frameworks for adaptable agent training, automated web environments, and critical insights into ensuring intent alignment in sensitive applications like smart contract synthesis.",
+    "Major AI players are solidifying enterprise adoption through key partnerships with industry giants like ServiceNow and Oracle, while also addressing critical ethical and data governance issues for AI model training."
   ],
   "agents": [
     {
-      "title": "Infini-AI-Lab Releases Hermit: Open-Source Harness Adapter for AI Agents",
-      "summary": "Infini-AI-Lab has open-sourced Hermit, an Apache-2.0 harness adapter framework that allows AI agents to learn new instructions, skills, memory, and tools from task feedback without altering the agent’s core model or harness, enabling flexible and efficient agent development.",
-      "link": "https://www.marktechpost.com/2026/10/29/infini-ai-lab-hermit-harness-adapter-framework/",
+      "title": "Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost",
+      "summary": "Samaya AI released Sterling, a financial research agent model (based on Nemotron 3.5 Lightning) that significantly outperforms Claude Fable 5.1 on financial benchmarks at an 11x lower cost, enabling highly efficient and accurate financial analysis for builders.",
+      "link": "https://www.marktechpost.com/2026/10/30/samaya-sterling-post-trained-finance-research-model-frontierfinance/",
       "source": "MarkTechPost"
     },
     {
-      "title": "The Trinity: Capability-Driven Recursive Self-Improvement for Multimodal Agents",
-      "summary": "This research introduces 'The Trinity,' a framework for multimodal agents to achieve recursive self-improvement by coupling world generation with harness evolution, enabling agents to learn and evolve reusable capability modules autonomously and generalize across diverse tasks.",
-      "link": "https://arxiv.org/abs/2610.36077",
+      "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
+      "summary": "WebAnything is a fully automated framework that reconstructs source-grounded, reusable web environments from real URLs, providing scalable and diverse executable settings for training and evaluating AI agents without manual per-site engineering.",
+      "link": "https://arxiv.org/abs/2610.37786",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "MiniMax Open-Sources MCode Stack: 15 Agent Skills for Coding",
-      "summary": "MiniMax has open-sourced MCode Stack, an MIT-licensed repository featuring 15 practical agent skills and checklists that its MiniMax Code team uses daily for tasks like code review, subagent splits, and managing long-running commands, offering valuable resources for developer agents.",
-      "link": "https://www.marktechpost.com/2026/10/28/minimax-open-sources-mcode-stack-agent-skills/",
-      "source": "MarkTechPost"
+      "title": "Measuring Where Intent Gets Lost in Agentic Smart Contract Synthesis",
+      "summary": "This research introduces an execution-based evaluation and an elicitation-first architecture for AI-written smart contracts, crucially identifying where intent is lost and proposing methods to ensure desired behavior in critical, immutable applications.",
+      "link": "https://arxiv.org/abs/2610.37830",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "Google DeepMind Introduces Gemini 4 Carbon: Top Model for Cyber Defense and Coding",
-      "summary": "Google DeepMind unveiled Gemini 4 Carbon, a frontier model scoring high on AI benchmarks (59 on Artificial Analysis Intelligence Index, 88.2% on SEC-bench Pro) and optimized for cyber defense and coding, with initial access for vetted cyber defenders at tiered token pricing.",
+      "title": "Google DeepMind Introduces Gemini 4 Carbon, Its Top Model for Cyber Defense and Coding",
+      "summary": "Google DeepMind introduced Gemini 4 Carbon, a frontier model excelling in cyber defense and coding, offering high performance for vetted cyber defenders and developers at competitive token costs for specialized applications.",
       "link": "https://www.marktechpost.com/2026/10/28/google-deepmind-gemini-4-carbon-frontier-model/",
       "source": "MarkTechPost"
     },
     {
-      "title": "NVIDIA Releases Nemotron 3.5 Transcribe: Open 30B MoE for 40-Language Transcription",
-      "summary": "NVIDIA has released Nemotron 3.5 Transcribe, an open-weights 30B Mixture-of-Experts (MoE) speech LLM with ~4.3B active parameters that transcribes 40 languages, adds speaker labels and word timestamps, and achieves a 4.71% mean WER on English Open ASR Leaderboard.",
+      "title": "NVIDIA Releases Nemotron 3.5 Transcribe: An Open 30B MoE Model for 40-Language Transcription with ~4B Active Parameters",
+      "summary": "NVIDIA released Nemotron 3.5 Transcribe, an open 30B MoE model with ~4B active parameters, providing high-accuracy, 40-language speech transcription with speaker labels and word timestamps, ideal for building advanced voice applications.",
       "link": "https://www.marktechpost.com/2026/10/28/nvidia-nemotron-3-5-transcribe-open-speech-llm/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Liquid AI Releases LFM3: 6 Open-Weight 2B-Class Multimodal Models",
-      "summary": "Liquid AI has launched LFM3, a collection of six open-weight, 2B-class multimodal models for text, vision, audio, omni-modal, and decision tasks. LFM3-1.7B, featuring a tri-hybrid backbone and 256K context window, fits in approximately 1 GB at 4-bit, making advanced multimodal AI more accessible.",
-      "link": "https://www.marktechpost.com/2026/10/27/liquid-ai-lfm3-open-weight-2b-multimodal-models/",
-      "source": "MarkTechPost"
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "summary": "Hugging Face announced the availability of Mistral Large 4, a significant new model from Mistral AI, making a powerful general-purpose LLM accessible for various applications and research on the Hugging Face platform.",
+      "link": "https://huggingface.co/blog/mistral-large4",
+      "source": "Hugging Face Blog"
     }
   ],
   "tools": [
     {
-      "title": "LEANN: Open-Source Vector Index Shrinks RAG Index from 201 GB to 6 GB",
-      "summary": "UC Berkeley's LEANN is an open-source vector index that drastically reduces the memory footprint for RAG indices, shrinking a 60M-chunk index from 201 GB to just 6 GB while maintaining HNSW accuracy at 90% recall, significantly improving cost-efficiency for large-scale RAG deployments.",
-      "link": "https://www.marktechpost.com/2026/10/27/leann-vector-index-mlsys-2026/",
+      "title": "Prime Intellect Releases Prime Mega MoE: Trainable Fused MoE Kernel, 3.11x Faster Forward Pass",
+      "summary": "Prime Intellect released Prime Mega MoE, a trainable fused MoE kernel that dramatically accelerates the backward pass for MoE model training, improving forward pass speed by 3.11x and overall training efficiency for large-scale models.",
+      "link": "https://www.marktechpost.com/2026/10/29/prime-intellect-prime-mega-moe-fused-moe-kernel-training/",
       "source": "MarkTechPost"
     },
     {
-      "title": "AssemblyAI Ships AssemblyAI-TTS-1: $15 per 1M Character Text-to-Speech API for Voice Agents",
-      "summary": "AssemblyAI has released AssemblyAI-TTS-1, a new Text-to-Speech API designed for voice agents, priced at $15 per 1 million characters. It offers unlimited concurrency without a contract and supports six languages at launch, providing a scalable and affordable solution for voice AI development.",
-      "link": "https://www.marktechpost.com/2026/10/29/assemblyai-tts-1-text-to-speech-api-voice-agents/",
+      "title": "Infini-AI-Lab Releases Hermit, an Open-Source Harness Adapter Framework for AI Agents",
+      "summary": "Infini-AI-Lab launched Hermit, an open-source Apache-2.0 harness adapter framework that allows AI agents to learn instructions, skills, memory, and tools from task feedback by training an external layer, enhancing agent adaptability without modifying the core model.",
+      "link": "https://www.marktechpost.com/2026/10/29/infini-ai-lab-hermit-harness-adapter-framework/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Apple Platforms",
-      "summary": "Hugging Face announced AnySpeechRecognizer and AnyDecisionModel, new open models optimized for Apple platforms, providing developers with readily available, open-source solutions for integrating speech recognition and decision-making capabilities into local and mobile AI applications.",
-      "link": "https://huggingface.co/blog/anydecisionmodel",
+      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "summary": "Hugging Face announced native support for TorchTPU, enabling developers to leverage Google's Tensor Processing Units directly on the platform for highly efficient training and inference of deep learning models, particularly for large-scale AI research and deployment.",
+      "link": "https://huggingface.co/blog/hf-torchtpu",
       "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI and ServiceNow Expand Partnership Across Enterprise Workflows",
-      "summary": "OpenAI and ServiceNow are expanding their partnership to integrate OpenAI models and agents into ServiceNow platforms, and ServiceNow workflows into ChatGPT and Codex, significantly broadening AI capabilities and adoption within enterprise environments.",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "summary": "OpenAI and ServiceNow expanded their partnership to integrate OpenAI models and agents deeply into ServiceNow workflows, streamlining enterprise processes and bringing advanced AI capabilities to a broader business audience.",
       "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Expands Partnership with Oracle to Bring Its Apps to ChatGPT",
-      "summary": "OpenAI and Oracle are expanding their collaboration to integrate Oracle's business applications and AI agents directly into ChatGPT, and to power new Oracle AI offerings, reinforcing the trend of AI embedding deeper into critical enterprise software stacks.",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "summary": "OpenAI expanded its partnership with Oracle, aiming to integrate Oracle's business applications and AI agents into ChatGPT while powering new Oracle offerings, significantly broadening the reach and utility of OpenAI's models across the enterprise ecosystem.",
       "link": "https://openai.com/index/oracle-apps-in-chatgpt",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Publishes Updated Model Spec for Capable and Beneficial AI",
-      "summary": "OpenAI has published an updated Model Spec outlining five core values that will guide the development of more capable AI systems towards sound judgment, human agency, and faithfulness to human intent, setting a new standard for responsible AI deployment.",
-      "link": "https://openai.com/index/updated-model-spec",
+      "title": "Making it easier for websites to express AI training preferences",
+      "summary": "OpenAI introduced a shared `robots.txt` signal to allow website operators to express their AI training preferences, setting a crucial precedent for data governance and giving publishers more control over how their content is used by participating AI providers.",
+      "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Google’s Newest AI Quest: Mapping the Human Brain for AI Literacy",
-      "summary": "Google has launched 'Polar Peaks,' its latest AI Quest lesson focused on neuroscience and mapping the human brain, offering an educational opportunity for individuals to learn AI literacy through engaging, scientific exploration.",
+      "title": "Our newest AI Quest: Mapping the human brain",
+      "summary": "Google launched \"Mapping the human brain,\" its newest AI Quest lesson on neuroscience, offering an accessible educational opportunity for individuals to enhance their AI literacy through practical applications.",
       "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
       "source": "Google AI Blog"
     },
     {
-      "title": "Counting the Bandages: On Measuring the Time That AI Saves",
-      "summary": "This paper presents a framework for rigorously measuring the actual time saved by AI assistance, contrasting stopwatch metrics with a 'ledger view' that accounts for defects, and provides empirical findings on AI's impact on developer productivity, offering critical insights for AI deployment analysis.",
-      "link": "https://arxiv.org/abs/2610.35942",
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "summary": "OpenFrontiers is a new cross-disciplinary resource and benchmark designed to evaluate and measure LLM agents' capabilities in solving research-level problems and scientific rediscovery, providing a critical tool for advancing AI research and education.",
+      "link": "https://arxiv.org/abs/2610.37739",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "Why and How to Do Science When AI Is Better at It: A Framework for Human Understanding",
-      "summary": "This paper proposes a framework for human scientists to navigate research in an era where AI can outperform them, focusing on the indispensable aims of durable human understanding and direction, providing guidance for preserving human agency and explainability in AI-augmented scientific endeavors.",
-      "link": "https://arxiv.org/abs/2610.36116",
-      "source": "arXiv cs.AI"
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "summary": "Hugging Face announced Project ProtoStar, an initiative focused on making publicly funded scientific data AI-ready, facilitating greater accessibility for AI research, development, and learning within the scientific community.",
+      "link": "https://huggingface.co/blog/announcing-project-protostar",
+      "source": "Hugging Face Blog"
     }
   ]
 }
