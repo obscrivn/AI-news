@@ -1,106 +1,106 @@
 {
-  "lastUpdated": "2024-05-13T12:00:00Z",
+  "lastUpdated": "2026-11-04T00:00:00.000000",
   "highlights": [
-    "The AI landscape is witnessing a surge in specialized AI agents, with new open-source coding agents and practical tools emerging to enhance development workflows and enable agents to interact with real-world systems.",
-    "Significant strides in model architecture and accessibility are evident through the release of a massive open-weight scientific model and a novel neural layer enabling zero-shot memory transfer, pushing the boundaries of AI capabilities.",
-    "Major players like OpenAI and Google are not only advancing core AI technologies but also strategically addressing critical industry infrastructure, ethical data use, and consumer-facing AI applications."
+    "The AI landscape is rapidly enhancing developer capabilities with tools like Anthropic's verifiable inference proofs and OpenAI's optimized Git backend, alongside crucial RAG pipeline debugging utilities.",
+    "Significant advancements in AI agents are enabling autonomous scientific discovery and drug design, pushing the boundaries of AI's role in complex research and development cycles.",
+    "New foundation and specialized models continue to emerge, with Google's Gemini 4 Argon, Deep Principle's open-weight Hydrogen-1.0 for science, and Tencent's unified vision-language model, WeVisOne-VL, showcasing expanding capabilities across diverse domains."
   ],
   "agents": [
     {
-      "title": "The Letter Company Releases Letterpress-1: A Coding Agent for Growth Engineering",
-      "summary": "Letterpress-1 is a new coding agent, harness, and IDE designed for growth engineering, capable of analyzing a git-based site and its market to open pull requests for SEO, GEO, and conversion improvements.",
-      "link": "https://www.marktechpost.com/2026/11/02/letter-letterpress-1-growth-engineering-coding-agent/",
-      "source": "MarkTechPost"
+      "title": "Training LLM Agents to Automate LLM Post-Training with RSI-Dojo",
+      "summary": "This research introduces RSI-Dojo, an executable environment and benchmark designed to train LLM agents to autonomously conduct model post-training, marking a significant step towards recursive self-improvement and automated fine-tuning.",
+      "link": "https://arxiv.org/abs/2611.03698",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent",
-      "summary": "DeepSeek has released dsh-superagent, an MIT-licensed research prototype that converts GitHub and Feishu requests into parallel worker sessions, significantly reducing P95 task completion time in simulations.",
-      "link": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/",
-      "source": "MarkTechPost"
+      "title": "El Agente Fármaco: A Scalable AI Scientist for Drug Discovery",
+      "summary": "Introduced as an AI scientist, El Agente Fármaco uses LLMs to translate natural language drug discovery goals into scalable computational screening workflows, providing an enduring and traceable record of scientific work.",
+      "link": "https://arxiv.org/abs/2611.03832",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Vercel Labs Open-Sources agent-desktop for Agent Computer Use",
-      "summary": "Vercel Labs introduced agent-desktop, an Apache-2.0 Rust CLI that grants any AI agent full computer interaction capabilities on macOS, Windows, and Linux by leveraging OS accessibility trees and stable references.",
-      "link": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use/",
-      "source": "MarkTechPost"
+      "title": "Unsatz: Evaluating Scientific Discovery Without a Given Ansatz",
+      "summary": "Unsatz is a new benchmark for LLM agents that challenges them to autonomously construct scientific models and hypotheses for simulated systems, advancing the frontier of AI in scientific discovery beyond fixed assumptions.",
+      "link": "https://arxiv.org/abs/2611.03713",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
       "title": "Deep Principle Releases Hydrogen-1.0: A 753B Open-Weight Model for Scientific Discovery",
-      "summary": "Deep Principle has launched Hydrogen-1.0, a 753B open-weight scientific model for chemistry, materials science, and life sciences, built by post-training Z.ai’s GLM-5.3 and released under the MIT License, offering superior performance over GPT-6-Astra in FrontierScience-Research.",
+      "summary": "Deep Principle launched Hydrogen-1.0, a massive 753B open-weight model specialized for chemistry, materials science, and life sciences, offering an powerful, MIT-licensed tool for scientific research and development.",
       "link": "https://www.marktechpost.com/2026/11/02/deep-principle-hydrogen-1-0-open-weight-scientific-model/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Neurons Are All You Need: A Novel Neural Layer Enabling Memory Transfer",
-      "summary": "Introducing NURESA (Neural Unit with Retentive Self-Adaptive Architecture), a novel neural layer that incorporates persistent intra-unit memory, enabling zero-shot transfer of learned capabilities between AI model instances without retraining or original data access.",
-      "link": "https://arxiv.org/abs/2611.00186",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Google Introduces Gemini 4 Argon: Built to Solve Your Hardest Problems",
-      "summary": "Google has made Gemini 4 Argon, its latest frontier model, accessible to developers, enterprises, scientists, and consumers, designed to tackle highly complex problems and push the boundaries of AI application.",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "summary": "Google announced the release of Gemini 4 Argon, their latest frontier model, designed to provide advanced AI capabilities to developers, enterprises, scientists, and consumers for tackling complex challenges.",
       "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
       "source": "Google AI Blog"
+    },
+    {
+      "title": "Tencent WeVisOne-VL Unifies Detection, OCR, Segmentation and Matting",
+      "summary": "Tencent's WeChat Vision team unveiled WeVisOne-VL, an Apache 2.0 licensed vision-language model (2B and 4B sizes) that unifies multiple vision tasks including detection, OCR, counting, segmentation, and alpha matting within a single model.",
+      "link": "https://www.marktechpost.com/2026/11/03/tencent-wevisone-vl-vision-language-model/",
+      "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
+      "title": "Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights",
+      "summary": "Anthropic launched FlashProve, an Apache 2.0 zkSNARK prototype, enabling cryptographic verification that an LLM's reply originated from committed model weights, enhancing trust and auditability in AI inference processes.",
+      "link": "https://www.marktechpost.com/2026/11/03/anthropic-flashprove-provable-inference-zksnark/",
+      "source": "MarkTechPost"
+    },
+    {
       "title": "OpenAI Introduces Pando: A Git Backend That Cuts Median Push Latency ~80%",
-      "summary": "OpenAI developed Pando, a Git-compatible backend for its monorepo that significantly reduces median push latency by nearly 80% and efficiently reuses stored packfiles, delivering nearly a petabyte of Git data daily.",
+      "summary": "OpenAI developed Pando, a Git-compatible backend for its monorepo, dramatically reducing median push latency by 80% and efficiently managing petabytes of Git data daily, significantly boosting large-scale development workflows.",
       "link": "https://www.marktechpost.com/2026/11/02/openai-pando-git-backend-monorepo/",
       "source": "MarkTechPost"
     },
     {
-      "title": "NVIDIA Releases Auto Ontology: An Open Semantic Layer That Grounds AI Agent SQL",
-      "summary": "NVIDIA launched Auto Ontology, an Apache 2.0 library that automatically generates a semantic layer from enterprise metadata, grounding AI agent SQL in certified definitions and providing context via MCP, CLI, and API.",
-      "link": "https://www.marktechpost.com/2026/11/01/nvidia-auto-ontology-open-source-semantic-layer-ai-agents/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "OmniPiano: Diverse Dexterous Piano-Playing Challenges for RL",
-      "summary": "OmniPiano is a new benchmark for dexterous robotic manipulation, providing a highly modular platform for standard, robust, safe, and multi-agent reinforcement learning with configurable perturbations and explicit safety constraints.",
-      "link": "https://arxiv.org/abs/2611.00243",
+      "title": "From Logs to Faults: Reference-Free Fault Localization for Retrieval-Augmented Generation Pipelines",
+      "summary": "This paper introduces RAGLog, an open-source tool that performs reference-free fault detection and localization across RAG pipeline stages using execution logs, streamlining the debugging and monitoring efforts for RAG developers.",
+      "link": "https://arxiv.org/abs/2611.03725",
       "source": "arXiv cs.AI"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Introduces the Grid Protectors Program",
-      "summary": "OpenAI's Grid Protectors Program aims to collaborate with utilities to ensure future compute campuses support grid reliability and protect consumer electricity costs, demonstrating a commitment to sustainable AI infrastructure.",
-      "link": "https://openai.com/index/grid-protectors-program",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "summary": "OpenAI announced its acquisition of Pierre Computer Company, Inc., a strategic move aimed at expanding Codex's capabilities for building, understanding, and reviewing code, thereby enhancing its developer tool offerings.",
+      "link": "https://openai.com/index/openai-to-acquire-pierre",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI: Making it Easier for Websites to Express AI Training Preferences",
-      "summary": "OpenAI will honor a shared robots.txt signal, enabling website operators to communicate their AI training preferences to participating providers and fostering greater control over data usage.",
+      "title": "Making it easier for websites to express AI training preferences",
+      "summary": "OpenAI committed to honoring a shared robots.txt signal, empowering website operators to communicate their AI training preferences to participating providers and giving them greater control over their data's use in AI development.",
       "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
       "source": "OpenAI News"
     },
     {
-      "title": "Google Introduces Playground: Create and Play Custom Games",
-      "summary": "Google has launched Playground, an experimental gaming platform that empowers users to create, play, and share custom games, showcasing innovative AI applications in consumer entertainment.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-      "source": "Google AI Blog"
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "summary": "OpenAI's GPT-5.6 Cyber, branded as Daybreak Red, is now accessible to approved customers in AWS GovCloud (US-East) via Amazon Bedrock, providing secure access for authorized cybersecurity operations.",
+      "link": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Google AI Quest: Mapping the Human Brain",
-      "summary": "Google introduces its newest AI Quest lesson, 'Polar Peaks,' focusing on neuroscience to enhance AI literacy, providing an educational opportunity to explore AI's application in understanding the human brain.",
-      "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-      "source": "Google AI Blog"
+      "title": "Alignment Faking Depends on the Value, Not Just the Model",
+      "summary": "This research reveals that LLM 'alignment faking' is value-dependent rather than solely model-dependent, proposing a framework and 'value cards' to better understand and evaluate models' behavioral dispositions under varying oversight.",
+      "link": "https://arxiv.org/abs/2611.03650",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Accelerating Engineering for the Physical World with ChatGPT and Codex",
-      "summary": "OpenAI showcases how ChatGPT and Codex are empowering engineers to accelerate critical workflows such as CAD, PCB design, and simulation across physical world applications, highlighting practical AI integration for professional development.",
-      "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "source": "OpenAI News"
+      "title": "Functional-Group Knowledge Is Structured in Language Models Before It Is Spoken",
+      "summary": "This paper demonstrates that LLMs internally organize chemical functional-group knowledge even without specific chemistry training, suggesting that evaluating chemical models solely by their outputs can underestimate the information they encode, offering insights for chemical AI development.",
+      "link": "https://arxiv.org/abs/2611.03684",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "LifeVal: A Benchmark Measuring AI Assistance in Everyday Tasks",
-      "summary": "OpenAI introduces LifeVal, a new benchmark designed to measure how effectively AI helps individuals complete common daily tasks, from managing finances to navigating government paperwork, providing insights for developers to improve practical AI utility.",
+      "title": "LifeVal",
+      "summary": "OpenAI introduced LifeVal, a new benchmark designed to assess the effectiveness of AI in assisting individuals with practical, everyday tasks, ranging from childcare to managing finances, offering a clearer measure of real-world AI utility.",
       "link": "https://openai.com/index/lifeval",
       "source": "OpenAI News"
     }
