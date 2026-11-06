@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-11-05T20:00:00Z",
+  "lastUpdated": "2026-11-06T17:30:00Z",
   "highlights": [
-    "Major AI players are pushing the boundaries of multimodal generation and agentic capabilities, with OpenAI launching faster image generation with GIFs and SVG, and Google introducing cost-effective video generation with Gemini Omni 1.2 Flash.",
-    "Significant advancements in agent intelligence and reliability are emerging, including new frameworks for operational control, resource orchestration, and provably safe multi-agent planning, alongside a new cybersecurity agent from OpenAI.",
-    "Efficiency in AI inference and development tooling is a key focus, with releases like Together Compiler for faster inference, OpenAI's Pando Git backend for scaling large monorepos, and Anthropic's FlashProve enhancing AI output trustworthiness."
+    "Major players like Google and OpenAI are rapidly advancing multimodal generation with new video and image models, emphasizing speed, cost-effectiveness, and expanded output formats like GIFs and SVG.",
+    "The AI agent landscape is evolving with specialized applications, robust evaluation methodologies, and frameworks for enhancing domain-specific LLM agent performance and safety.",
+    "Deployment and optimization of AI models are seeing significant tooling improvements, including agent-driven inference compilers, solutions for reproducible inference, and highly optimized hardware kernels."
   ],
   "agents": [
     {
-      "title": "OpenAI Launches GPT‑6 Cyber: Aligned Cybersecurity Agents",
-      "summary": "OpenAI has released GPT-6 Cyber, a new frontier model specifically trained to find exploitable vulnerabilities and develop fixes within authorized scopes, advancing AI's role in proactive cybersecurity defense.",
+      "title": "OpenAI Introduces GPT-6 Cyber for Aligned Cybersecurity Agents",
+      "summary": "OpenAI has released GPT-6 Cyber, a specialized cybersecurity model designed to find exploitable vulnerabilities and develop fixes while adhering to authorized scopes, advancing aligned agent capabilities.",
       "link": "https://openai.com/index/introducing-gpt-6-cyber",
       "source": "OpenAI News"
     },
     {
-      "title": "Agent Harness Awareness: Verified Telemetry for Operational Control in Tool-Using Agents",
-      "summary": "This research introduces Agent Harness Awareness, a trust-separated design enabling tool-using agents to leverage verified host telemetry for improved operational control, significantly reducing policy regret and increasing task completion success.",
-      "link": "https://arxiv.org/abs/2611.05391",
+      "title": "Closed-Loop Agent Evaluation Framework for Deployed AI Agents",
+      "summary": "A new closed-loop evaluation method for deployed AI agents enables layered performance measurement, self-calibration, and auditing, ensuring agents perform as intended and facilitating continuous improvement.",
+      "link": "https://arxiv.org/abs/2611.07051",
       "source": "arXiv cs.AI"
     },
     {
-      "title": "SlackBench: Benchmarking Agents on Collaborative Projects in Real Code Repositories",
-      "summary": "SlackBench is a new benchmark for evaluating AI agents on complex, real-world collaborative engineering and research workflows, testing their ability to reason over workplace communication and evolving code repositories.",
-      "link": "https://arxiv.org/abs/2611.05512",
+      "title": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for LLM Agents",
+      "summary": "The KDASO framework offers continuous evolution and execution-aligned refinement of skill libraries for LLMs in tasks like liability adjudication, improving performance, transferability, and scalability for domain-specific AI agents.",
+      "link": "https://arxiv.org/abs/2611.06972",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "OpenAI Launches GPT-Image-2.6 Flare and Sunburst: Adds GIFs, SVG Export and 6-Second API Generation",
-      "summary": "OpenAI's Images 2.6 introduces GPT-Image-2.6 Flare and Sunburst API models, offering image generation in as little as 6 seconds, GIF output, SVG export, and markup editing capabilities, significantly enhancing multimodal creation for developers.",
+      "title": "Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07/Second",
+      "summary": "Google's Gemini Omni 1.2 Flash model offers native 15-second AI video generation and editing with multi-turn conversational capabilities, significantly reducing costs by 30% to $0.07 per second for 720p video.",
+      "link": "https://www.marktechpost.com/2026/11/05/google-gemini-omni-1-2-flash-15-second-video/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "OpenAI Launches GPT-Image-2.6 Flare and Sunburst with GIFs, SVG Export, and 6-Second API Generation",
+      "summary": "OpenAI's new Images 2.6 and GPT-Image-2.6 Flare/Sunburst API models deliver significantly faster image generation (as little as 6 seconds), introduce GIF output and SVG export, and offer enhanced editing controls.",
       "link": "https://www.marktechpost.com/2026/11/04/openai-gpt-image-2-6-flare-sunburst/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Gemini Omni 1.2 Flash: Fast and Cost-Effective Video Generation with Longer Clips",
-      "summary": "Google's Gemini Omni 1.2 Flash model brings native 15-second video generation and editing capabilities with stronger consistency and 30% lower pricing, making advanced video AI more accessible and efficient for builders.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "Ricursive AI Releases Ripple-65B Preview: 65B Dense Open-Weight Model Scores 80.5 on Terminal-Bench 2.1",
-      "summary": "Ricursive Intelligence has released Ripple-65B Preview, a 65B dense open-weight LLM under Apache 2.0, demonstrating strong performance on Terminal-Bench 2.1, outperforming much larger open models.",
-      "link": "https://www.marktechpost.com/2026/11/04/ricursive-ripple-65b-preview-open-weight-model/",
+      "title": "Thinking Machines Releases Inkling 2 Small, a 594B MoE with 17B Active Parameters",
+      "summary": "Thinking Machines Lab unveiled Inkling 2 Small, a substantial 594B-parameter Mixture-of-Experts (MoE) model with 17B active parameters, demonstrating high performance on the Artificial Analysis Intelligence Index with Apache 2.0 weights planned.",
+      "link": "https://www.marktechpost.com/2026/11/05/thinking-machines-inkling-2-small-release/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
       "title": "Together AI Releases Together Compiler: Agents Make Inference Up to 2.6x Faster",
-      "summary": "Together AI's Together Compiler, an agent-driven loop, continually re-optimizes the inference forward pass as traffic shifts, boosting inference performance by up to 2.6x TPS for AI models.",
+      "summary": "Together AI introduced its 'Together Compiler,' an agent-driven system that continuously optimizes the inference forward pass as traffic shifts, achieving up to 2.6x faster inference (TPS) compared to leading configurations.",
       "link": "https://www.marktechpost.com/2026/11/05/together-ai-together-compiler-continual-compilation-ai-inference/",
       "source": "MarkTechPost"
     },
     {
-      "title": "OpenAI Introduces Pando: A Git Backend That Cuts Median Push Latency ~80%",
-      "summary": "OpenAI developed Pando, a Git-compatible backend for monorepos, which significantly cuts median push latency by nearly 80%, enabling more efficient development workflows for large-scale codebases.",
-      "link": "https://www.marktechpost.com/2026/11/02/openai-pando-git-backend-monorepo/",
-      "source": "MarkTechPost"
+      "title": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
+      "summary": "BlockLock provides a novel approach to reproducible LLM inference by fixing the numerical path for protected requests, significantly reducing latency by over 50% and improving throughput by more than 115% compared to existing solutions.",
+      "link": "https://arxiv.org/abs/2611.06977",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights",
-      "summary": "Anthropic's FlashProve is an Apache 2.0 zkSNARK prototype that cryptographically proves an LLM reply originated from committed model weights without revealing them, enhancing trust and verifiability in AI inference.",
-      "link": "https://www.marktechpost.com/2026/11/03/anthropic-flashprove-provable-inference-zksnark/",
+      "title": "Zyphra ZYFA: FP8 FlashAttention for AMD MI355X, Up to 1.76x Faster",
+      "summary": "Zyphra has released ZYFA, open-source FP8 and BF16 prefill attention kernels for AMD Instinct MI355X, delivering 1.16-1.76x faster performance than AMD’s AITER with significantly lower error rates.",
+      "link": "https://www.marktechpost.com/2026/11/06/zyphra-zyfa-fp8-flashattention-amd-mi355x/",
       "source": "MarkTechPost"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "summary": "OpenAI announced the acquisition of Pierre Computer Company, Inc., aimed at expanding Codex's tools for building, understanding, and reviewing code, signifying a strategic move to strengthen its developer offerings.",
+      "title": "OpenAI to Acquire Pierre Computer Company, Expanding Codex’s Capabilities",
+      "summary": "OpenAI announced its acquisition of Pierre Computer Company, aiming to enhance Codex's tools for building, understanding, and reviewing code, signifying a strategic expansion in code-related AI development.",
       "link": "https://openai.com/index/openai-to-acquire-pierre",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI's Autonomous Pipeline Patches 948 Linux Kernel Vulnerabilities",
-      "summary": "OpenAI developed an autonomous pipeline that successfully identified, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel, demonstrating significant progress in AI-driven security automation.",
-      "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "title": "OpenAI Sets New Standard for Responsible AI Infrastructure with National Community Compact",
+      "summary": "OpenAI introduced its National Community Compact and Compute Campus Policy Blueprint to guide responsible AI infrastructure development, focusing on protecting local resources, job creation, and sustainable growth.",
+      "link": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Sets New Standard for Responsible AI Infrastructure with Community Compact and Policy Blueprint",
-      "summary": "OpenAI introduced its National Community Compact and Compute Campus Policy Blueprint, outlining a commitment to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-      "link": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "title": "OpenAI Partners with Hacktron to Find Vulnerabilities in Its Systems",
+      "summary": "OpenAI is collaborating with Hacktron to identify vulnerabilities, test third-party integrations, and fortify its defenses with frontier AI, underscoring its commitment to system security and robustness.",
+      "link": "https://openai.com/index/partnering-with-hacktron",
       "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Iterated Creation, Grading, and Revision of Data Science Projects by Language Models",
-      "summary": "This research explores how agentic AI models can iteratively create, grade, and revise data science projects, demonstrating significant improvements with feedback loops and offering insights into AI-assisted automation of data science workflows.",
-      "link": "https://arxiv.org/abs/2611.05548",
-      "source": "arXiv cs.AI"
+      "title": "Australian Universities Creating AI-Native Graduates with OpenAI Partnership",
+      "summary": "Australian universities are partnering with OpenAI to integrate ChatGPT into teaching and learning, preparing students for an AI-enabled workforce by expanding access and embedding AI literacy into curricula.",
+      "link": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "source": "OpenAI News"
     },
     {
-      "title": "Can Large Language Models Review the Scientific Literature? A Test Against a 102-Article Benchmark",
-      "summary": "A comprehensive evaluation highlights LLMs' potential to assist with scientific literature discovery and interpretation, while emphasizing the continued necessity of expert human judgment for critical synthesis and evaluation.",
-      "link": "https://arxiv.org/abs/2611.05459",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Google AI Quest: Mapping the Human Brain",
-      "summary": "Google has released a new AI Quest lesson titled 'Polar Peaks' focused on neuroscience, offering an interactive learning opportunity to enhance AI literacy through the exploration of mapping the human brain.",
+      "title": "Google AI Quest: Mapping the Human Brain for AI Literacy",
+      "summary": "Google's latest AI Quest, titled 'Polar Peaks,' offers an accessible lesson on neuroscience to enhance AI literacy, guiding learners through mapping the human brain with AI concepts.",
       "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
       "source": "Google AI Blog"
+    },
+    {
+      "title": "CWE-bench v2: Enhanced Benchmark for Secure AI Development",
+      "summary": "Hugging Face announced CWE-bench v2, an updated benchmark with increased coverage, quality, and transparency, serving as a critical resource for learning and improving AI models' ability to detect and mitigate code vulnerabilities.",
+      "link": "https://huggingface.co/blog/cwe-bench",
+      "source": "Hugging Face Blog"
     }
   ]
 }
