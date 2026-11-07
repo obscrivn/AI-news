@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2026-11-06T17:30:00Z",
+  "lastUpdated": "2026-11-07T12:00:00Z",
   "highlights": [
-    "Major players like Google and OpenAI are rapidly advancing multimodal generation with new video and image models, emphasizing speed, cost-effectiveness, and expanded output formats like GIFs and SVG.",
-    "The AI agent landscape is evolving with specialized applications, robust evaluation methodologies, and frameworks for enhancing domain-specific LLM agent performance and safety.",
-    "Deployment and optimization of AI models are seeing significant tooling improvements, including agent-driven inference compilers, solutions for reproducible inference, and highly optimized hardware kernels."
+    "Major AI developers, Google and OpenAI, are rapidly advancing multimodal capabilities with new, faster, and more cost-effective models for video and image generation, featuring advanced editing and API controls.",
+    "The LLM deployment and optimization ecosystem is maturing with new open-source inference control planes for Kubernetes, hardware-specific acceleration kernels, and agent-driven compilation techniques delivering significant performance gains.",
+    "AI agents are demonstrating increasing sophistication in critical domains, from autonomously patching Linux kernel vulnerabilities and enhancing cybersecurity with specialized models to being benchmarked for complex scientific wet-lab tasks."
   ],
   "agents": [
     {
-      "title": "OpenAI Introduces GPT-6 Cyber for Aligned Cybersecurity Agents",
-      "summary": "OpenAI has released GPT-6 Cyber, a specialized cybersecurity model designed to find exploitable vulnerabilities and develop fixes while adhering to authorized scopes, advancing aligned agent capabilities.",
+      "title": "OpenAI Launches GPT‑6 Cyber: Aligned Cybersecurity Agents",
+      "summary": "OpenAI introduces GPT-6 Cyber, a specialized cybersecurity model designed to autonomously find exploitable vulnerabilities and develop fixes while operating within authorized scope, enhancing secure AI deployment.",
       "link": "https://openai.com/index/introducing-gpt-6-cyber",
       "source": "OpenAI News"
     },
     {
-      "title": "Closed-Loop Agent Evaluation Framework for Deployed AI Agents",
-      "summary": "A new closed-loop evaluation method for deployed AI agents enables layered performance measurement, self-calibration, and auditing, ensuring agents perform as intended and facilitating continuous improvement.",
-      "link": "https://arxiv.org/abs/2611.07051",
-      "source": "arXiv cs.AI"
+      "title": "OpenAI Introduces BioBasicsBench for Wet-Lab Science Agents",
+      "summary": "OpenAI released BioBasicsBench, a new 100-task benchmark to evaluate AI agents' ability to interpret raw experimental data and perform tasks in wet-lab science, pushing AI capabilities in scientific research.",
+      "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "source": "OpenAI News"
     },
     {
-      "title": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for LLM Agents",
-      "summary": "The KDASO framework offers continuous evolution and execution-aligned refinement of skill libraries for LLMs in tasks like liability adjudication, improving performance, transferability, and scalability for domain-specific AI agents.",
-      "link": "https://arxiv.org/abs/2611.06972",
-      "source": "arXiv cs.AI"
+      "title": "OpenAI's Autonomous Pipeline Patches 948 Linux Kernel Vulnerabilities",
+      "summary": "OpenAI developed an autonomous pipeline that successfully identified, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel, demonstrating significant AI capability in automated security.",
+      "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "source": "OpenAI News"
     }
   ],
   "models": [
     {
       "title": "Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07/Second",
-      "summary": "Google's Gemini Omni 1.2 Flash model offers native 15-second AI video generation and editing with multi-turn conversational capabilities, significantly reducing costs by 30% to $0.07 per second for 720p video.",
+      "summary": "Google launched Gemini Omni 1.2 Flash, a new video generation and editing model offering native 15-second clips, multi-turn conversational editing, and a 30% price reduction, making high-quality video creation more accessible and cost-effective.",
       "link": "https://www.marktechpost.com/2026/11/05/google-gemini-omni-1-2-flash-15-second-video/",
       "source": "MarkTechPost"
     },
     {
-      "title": "OpenAI Launches GPT-Image-2.6 Flare and Sunburst with GIFs, SVG Export, and 6-Second API Generation",
-      "summary": "OpenAI's new Images 2.6 and GPT-Image-2.6 Flare/Sunburst API models deliver significantly faster image generation (as little as 6 seconds), introduce GIF output and SVG export, and offer enhanced editing controls.",
+      "title": "OpenAI Launches GPT-Image-2.6 Flare and Sunburst: Adds GIFs, SVG Export & 6-Second API Generation",
+      "summary": "OpenAI released Images 2.6 and its API models, Flare and Sunburst, delivering image generation in as little as 6 seconds, new GIF and SVG export capabilities, and enhanced API controls for dynamic creative workflows.",
       "link": "https://www.marktechpost.com/2026/11/04/openai-gpt-image-2-6-flare-sunburst/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Thinking Machines Releases Inkling 2 Small, a 594B MoE with 17B Active Parameters",
-      "summary": "Thinking Machines Lab unveiled Inkling 2 Small, a substantial 594B-parameter Mixture-of-Experts (MoE) model with 17B active parameters, demonstrating high performance on the Artificial Analysis Intelligence Index with Apache 2.0 weights planned.",
-      "link": "https://www.marktechpost.com/2026/11/05/thinking-machines-inkling-2-small-release/",
-      "source": "MarkTechPost"
+      "title": "Google AI Blog: Gemini 4 Argon, a New Frontier Model",
+      "summary": "Google announced Gemini 4 Argon, its latest frontier model, providing developers, enterprises, scientists, and consumers access to advanced AI capabilities designed for solving complex challenges.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source": "Google AI Blog"
     }
   ],
   "tools": [
     {
+      "title": "Buoyant Releases Kinference: Open Source Inference Control Plane for Kubernetes and vLLM",
+      "summary": "Buoyant unveiled Kinference, an open-source inference control plane for vLLM on Kubernetes, providing declarative routing policies, KV-cache-aware load balancing, and per-tenant metrics, cutting median TTFT by 95%.",
+      "link": "https://www.marktechpost.com/2026/11/07/buoyant-kinference-open-source-inference-control-plane-kubernetes-vllm/",
+      "source": "MarkTechPost"
+    },
+    {
       "title": "Together AI Releases Together Compiler: Agents Make Inference Up to 2.6x Faster",
-      "summary": "Together AI introduced its 'Together Compiler,' an agent-driven system that continuously optimizes the inference forward pass as traffic shifts, achieving up to 2.6x faster inference (TPS) compared to leading configurations.",
+      "summary": "Together AI introduced Together Compiler, an agent-driven system that continuously optimizes the inference forward pass, achieving up to 2.6x faster throughput on LLM inference by adapting to shifting traffic patterns.",
       "link": "https://www.marktechpost.com/2026/11/05/together-ai-together-compiler-continual-compilation-ai-inference/",
       "source": "MarkTechPost"
     },
     {
-      "title": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
-      "summary": "BlockLock provides a novel approach to reproducible LLM inference by fixing the numerical path for protected requests, significantly reducing latency by over 50% and improving throughput by more than 115% compared to existing solutions.",
-      "link": "https://arxiv.org/abs/2611.06977",
-      "source": "arXiv cs.AI"
-    },
-    {
       "title": "Zyphra ZYFA: FP8 FlashAttention for AMD MI355X, Up to 1.76x Faster",
-      "summary": "Zyphra has released ZYFA, open-source FP8 and BF16 prefill attention kernels for AMD Instinct MI355X, delivering 1.16-1.76x faster performance than AMD’s AITER with significantly lower error rates.",
+      "summary": "Zyphra released ZYFA, open-source FP8 and BF16 prefill attention kernels optimized for AMD Instinct MI355X, delivering up to 1.76x faster performance on real model activations with significantly lower error rates.",
       "link": "https://www.marktechpost.com/2026/11/06/zyphra-zyfa-fp8-flashattention-amd-mi355x/",
       "source": "MarkTechPost"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI to Acquire Pierre Computer Company, Expanding Codex’s Capabilities",
-      "summary": "OpenAI announced its acquisition of Pierre Computer Company, aiming to enhance Codex's tools for building, understanding, and reviewing code, signifying a strategic expansion in code-related AI development.",
+      "title": "OpenAI to Acquire Pierre Computer Company, Inc.",
+      "summary": "OpenAI announced the acquisition of Pierre Computer Company, Inc., a strategic move to expand Codex's capabilities for building, understanding, and reviewing code, enhancing its developer ecosystem.",
       "link": "https://openai.com/index/openai-to-acquire-pierre",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Sets New Standard for Responsible AI Infrastructure with National Community Compact",
-      "summary": "OpenAI introduced its National Community Compact and Compute Campus Policy Blueprint to guide responsible AI infrastructure development, focusing on protecting local resources, job creation, and sustainable growth.",
-      "link": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "title": "OpenAI's Daybreak Red (GPT-5.6 Cyber) Now in AWS GovCloud (US-East)",
+      "summary": "OpenAI's Daybreak Red, which includes GPT-5.6 Cyber, is now available to authorized customers in AWS GovCloud (US-East) via Amazon Bedrock, extending secure and specialized AI capabilities for government and highly regulated sectors.",
+      "link": "https://openai.com/index/daybreak-red-aws-govcloud",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Partners with Hacktron to Find Vulnerabilities in Its Systems",
-      "summary": "OpenAI is collaborating with Hacktron to identify vulnerabilities, test third-party integrations, and fortify its defenses with frontier AI, underscoring its commitment to system security and robustness.",
-      "link": "https://openai.com/index/partnering-with-hacktron",
-      "source": "OpenAI News"
+      "title": "Google Beam Expands with New Regions, Partners, and Customers",
+      "summary": "Google announced the expansion of Google Beam to five new countries and a partnership with Industrious, significantly extending its network and reach for AI compute and services.",
+      "link": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Australian Universities Creating AI-Native Graduates with OpenAI Partnership",
-      "summary": "Australian universities are partnering with OpenAI to integrate ChatGPT into teaching and learning, preparing students for an AI-enabled workforce by expanding access and embedding AI literacy into curricula.",
+      "title": "Australian Universities Creating AI-Native Graduates with ChatGPT Integration",
+      "summary": "Australian universities are actively integrating AI, including expanded access to ChatGPT, into their teaching and learning curricula to prepare students for the evolving AI-enabled workforce.",
       "link": "https://openai.com/index/australian-universities-ai-native-graduates",
       "source": "OpenAI News"
     },
     {
-      "title": "Google AI Quest: Mapping the Human Brain for AI Literacy",
-      "summary": "Google's latest AI Quest, titled 'Polar Peaks,' offers an accessible lesson on neuroscience to enhance AI literacy, guiding learners through mapping the human brain with AI concepts.",
+      "title": "Google AI Quest: Mapping the Human Brain with 'Polar Peaks' Lesson",
+      "summary": "Google launched 'Polar Peaks,' its latest AI Quest lesson focused on neuroscience and mapping the human brain, offering an interactive way to learn AI literacy and scientific applications.",
       "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
       "source": "Google AI Blog"
     },
     {
-      "title": "CWE-bench v2: Enhanced Benchmark for Secure AI Development",
-      "summary": "Hugging Face announced CWE-bench v2, an updated benchmark with increased coverage, quality, and transparency, serving as a critical resource for learning and improving AI models' ability to detect and mitigate code vulnerabilities.",
-      "link": "https://huggingface.co/blog/cwe-bench",
+      "title": "Hugging Face Guide: Check Model Compatibility with AWS Trainium",
+      "summary": "Hugging Face provides a guide and resources for developers to determine if their models are compatible with AWS Trainium, facilitating efficient deployment and utilization of specialized AI hardware on AWS.",
+      "link": "https://huggingface.co/blog/torch-neuronx-model-support",
       "source": "Hugging Face Blog"
     }
   ]
