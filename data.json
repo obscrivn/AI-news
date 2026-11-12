@@ -1,106 +1,106 @@
 {
-  "lastUpdated": "2026-11-12T12:00:00Z",
+  "lastUpdated": "2026-11-12T23:59:59Z",
   "highlights": [
-    "The AI landscape sees significant advancements in specialized models and agentic systems, with new open-source world models and on-device voice agents offering unprecedented capabilities for physical AI and real-time interaction.",
-    "Hardware innovations continue to push the boundaries, exemplified by Google's new TPUs designed for long-context agents and confidential inference, alongside a growing ecosystem of developer tools for agent management and multimodal decision-making.",
-    "Major tech companies are strategically expanding enterprise AI adoption, integrating foundational models into critical sectors like healthcare and enhancing platform accessibility through partnerships and marketplace availability, while also focusing on AI literacy initiatives."
+    "Major tech giants are deeply integrating AI into core products, with Google upgrading Search with Gemini 4 Hydrogen and launching Gemini for healthcare, while OpenAI simplifies enterprise access to ChatGPT via AWS Marketplace.",
+    "The landscape for AI agents is rapidly advancing, featuring AWS's release of an AI-built local emulator, Cogent and OpenAI's partnership on cyber defense agents, and CodeRabbit scaling software development with AI-generated code.",
+    "New powerful models and tools empower builders: Anthropic introduces Claude Fable/Mythos 5.2 with varied safeguards, Google launches the Gemini Decisions API for multimodal inputs, and Hugging Face integrates LLMON for structured LLM interaction."
   ],
   "agents": [
     {
-      "title": "Agent Architecture Cost-Success Trade-offs: A Controlled Evaluation across Enterprise-Style SOPs",
-      "summary": "This research provides crucial insights into selecting optimal agent architectures for enterprise standard operating procedures, revealing that the 'best' choice is SOP-dependent and that added architectural complexity must justify its cost with significant task success gains. It emphasizes that implementation quality often outweighs the single- vs multi-agent decision, guiding builders toward efficient agent deployment.",
-      "link": "https://arxiv.org/abs/2611.12953",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Embodied Science Agents: Making Embodied Experimental Design Learnable",
-      "summary": "Introduces Embodied Science Agents (ESA) that unify digital intelligence with physical embodiment to autonomously conduct scientific discovery in self-driving laboratories. ESA enables cognitive, experimental, and embodied learnability, demonstrated by achieving near-complete decolourisation in wastewater treatment experiments, paving the way for advanced scientific automation.",
-      "link": "https://arxiv.org/abs/2611.12958",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Baidu’s ERNIE Evolve Automated Research System Beats NanoChat and NanoGPT Records",
-      "summary": "Baidu's ERNIE Evolve is an automated research system capable of editing code, running experiments, and integrating only verified gains, which has significantly sped up ERNIE-5.5-Flash inference and surpassed public benchmarks on NanoChat and NanoGPT. This demonstrates a major leap in autonomous AI-driven development and optimization.",
-      "link": "https://www.marktechpost.com/2026/11/09/baidu-ernie-evolve-automated-research-system/",
+      "title": "AWS Releases AI-Built Local AWS API Emulator",
+      "summary": "AWS launched AWS Emulator, a free, CC0-licensed local emulator for over 200 AWS APIs, entirely coded by autonomous AI agents, enabling rapid offline development and testing of cloud applications.",
+      "link": "https://www.marktechpost.com/2026/11/12/aws-emulator-local-aws-api-emulator-ai-agents/",
       "source": "MarkTechPost"
+    },
+    {
+      "title": "Cogent & OpenAI Partner on Enterprise Cyber Defense Agents",
+      "summary": "Cogent, in partnership with OpenAI, is developing \"cyber defense factories\" that use AI agents combined with enterprise context to automatically remediate vulnerabilities, significantly strengthening corporate security.",
+      "link": "https://openai.com/index/cogent-security",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "CodeRabbit Scales Software Development with AI-Generated Code",
+      "summary": "CodeRabbit leverages OpenAI models, including Codex, to govern and trust AI-generated code, enabling engineering teams to scale agentic software development and ship products 20 times faster.",
+      "link": "https://openai.com/index/coderabbit-codex-daybreak",
+      "source": "OpenAI News"
     }
   ],
   "models": [
     {
-      "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards",
-      "summary": "Anthropic released Claude Fable 5.2 and Mythos 5.2, a single model offering two safeguard levels, featuring 49.1% on FrontierCode 2.0, competitive pricing at $8/$40 per million tokens, and a substantial 1M-token context window. This provides builders with a powerful, versatile LLM tailored for diverse enterprise applications with customizable safety profiles.",
+      "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2 with Varying Safeguards",
+      "summary": "Anthropic released Claude Fable 5.2 and Mythos 5.2, a powerful new model with two safeguard levels and a 1M-token context window, offering flexibility for developers needing different safety thresholds.",
       "link": "https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Meta Releases Muse Ember, a 1M-Context Model for High-Volume Agent Work",
-      "summary": "Meta Muse Ember is a new compact model designed for high-volume agent tasks such as tool calls, coding subtasks, and document parsing, offering performance comparable to Claude Haiku 5.5 at approximately one-third of the cost per task. Its 1M-token context window makes it highly efficient for complex agentic workflows, enabling cost-effective deployment.",
-      "link": "https://www.marktechpost.com/2026/11/09/meta-muse-ember-small-agent-model/",
+      "title": "Google Launches Gemini Decisions API for Multimodal Decisions",
+      "summary": "Google introduced the Gemini Decisions API, powered by Gemini Decision 1, offering fast, calibrated multimodal decision-making for text, images, audio, video, and PDFs, providing probabilistic answers for complex questions.",
+      "link": "https://www.marktechpost.com/2026/11/11/google-gemini-decisions-api-gemini-decision-1/",
       "source": "MarkTechPost"
     },
     {
-      "title": "MBZUAI’s IFM Releases PAN 2, an Open 29B World Model for Physical AI",
-      "summary": "MBZUAI's Institute of Foundation Models released PAN 2, an open 29B world model that combines an LLM planner with a diffusion transformer to simulate up to 20 seconds of physical action outcomes as video. This Apache 2.0 licensed model significantly advances physical AI and robotics, offering a foundation for complex simulation and control.",
+      "title": "MBZUAI Releases PAN 2: Open-Source 29B World Model for Physical AI",
+      "summary": "MBZUAI's IFM released PAN 2, an Apache 2.0 open world model that combines an LLM planner with a 29B diffusion transformer to simulate up to 20 seconds of action outcomes as video, advancing physical AI.",
       "link": "https://www.marktechpost.com/2026/11/10/ifm-pan-2-open-world-model/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Google Unveils TPU 8i Max and TPU 8tx: A Dual-Chip TPU and a Confidential TPU",
-      "summary": "Google introduced TPU 8i Max, packing two TPU 8i chips for long-context agents, and TPU 8tx, which adds hardware confidential inference. These additions to the eighth-generation TPU lineup represent significant advancements in AI acceleration and secure processing for demanding, privacy-sensitive workloads.",
-      "link": "https://www.marktechpost.com/2026/11/09/google-tpu-8i-max-tpu-8tx/",
+      "title": "Google Launches Gemini Decisions API for Multimodal Decisions",
+      "summary": "Google introduced the Gemini Decisions API, powered by Gemini Decision 1, offering fast, calibrated multimodal decision-making for text, images, audio, video, and PDFs, providing probabilistic answers for complex questions.",
+      "link": "https://www.marktechpost.com/2026/11/11/google-gemini-decisions-api-gemini-decision-1/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "summary": "Google launched the Gemini Decisions API, powered by its state-of-the-art Gemini Decision model, to enable developers to integrate fast, calibrated multimodal decision-making capabilities into their applications. This API facilitates sophisticated real-time choices based on diverse data inputs, accelerating development of intelligent systems.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "source": "Google AI Blog"
+      "title": "LLMON: New LLM-Native Markup Language in Granite 4.1 Models",
+      "summary": "LLMON, an LLM-native markup language, is now integrated into IBM's Granite 4.1 3B and 8B models, providing developers with a standardized and structured way to interact with and extract information from LLMs.",
+      "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "source": "Hugging Face Blog"
     },
     {
-      "title": "Reason Machines Open-Sources Aspen, a Git Server Built for AI Agents",
-      "summary": "Reason Machines has open-sourced Aspen, a self-hosted Git server specifically designed for AI agents, following OpenAI’s Pando design. It demonstrated robust performance by sustaining 567 pushes per second on a single 8-core server, providing a critical piece of infrastructure for managing and versioning agent-generated code and data.",
-      "link": "https://www.marktechpost.com/2026/11/09/reason-machines-aspen-open-source-git-server-ai-agents/",
-      "source": "MarkTechPost"
+      "title": "Dharma Field Extractor: Structured Data from Any Document",
+      "summary": "Dharma AI's Field Extractor processes any document type, automatically identifying and structuring key information into JSON output, significantly streamlining data extraction and workflow automation.",
+      "link": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "Google Cloud launches Gemini for healthcare.",
-      "summary": "Google Cloud has launched Gemini for Healthcare, a specialized offering designed to unify clinical data and automate healthcare workflows, aiming to reduce administrative burnout and enhance efficiency in the medical sector. This vertical solution demonstrates AI's growing impact on industry-specific challenges.",
+      "title": "Google Search Upgrades with Gemini 4 Hydrogen Integration",
+      "summary": "Google Search has been globally upgraded with Gemini 4 Hydrogen, promising more helpful, visual, and intuitive responses, demonstrating Google's commitment to integrating advanced AI into its core user experiences.",
+      "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "source": "Google AI Blog"
+    },
+    {
+      "title": "Google Cloud Launches Gemini for Healthcare to Automate Workflows",
+      "summary": "Google Cloud launched Gemini for healthcare, an industry-specific AI solution designed to unify clinical data and automate administrative workflows, aiming to reduce burnout and enhance operational efficiency in medical settings.",
       "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
       "source": "Google AI Blog"
     },
     {
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "summary": "ChatGPT Enterprise is now accessible through AWS Marketplace, simplifying the procurement process for organizations by leveraging their existing AWS purchasing and billing relationships. This expansion enhances enterprise adoption and integration for large-scale AI deployment, making it easier for businesses to access advanced LLM capabilities.",
-      "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/",
+      "title": "ChatGPT Enterprise Now Available in AWS Marketplace",
+      "summary": "OpenAI has made ChatGPT Enterprise available through AWS Marketplace, simplifying procurement for businesses by leveraging existing AWS billing relationships and facilitating broader enterprise-scale adoption of advanced AI.",
+      "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
       "source": "OpenAI News"
-    },
-    {
-      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-      "summary": "Google and Adobe are deepening their partnership to integrate creative and productivity tools, enabling users to edit PDFs directly in Google Drive and leverage Adobe AI capabilities within Gemini. This strategic integration streamlines workflows and enhances generative AI access across popular platforms.",
-      "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Helping caregivers use AI in everyday life",
-      "summary": "OpenAI Academy is launching free, hands-on ChatGPT workshops in five U.S. cities, specifically tailored to help caregivers build practical AI skills for everyday life. This initiative aims to bridge the AI literacy gap for a crucial demographic, empowering them with new tools.",
-      "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life/",
+      "title": "Hugging Face Guide to Fine-Tuning 3D Generation Models",
+      "summary": "Hugging Face published a definitive guide for fine-tuning 3D generation models, providing comprehensive instructions and best practices for developers looking to customize and optimize these models for specific creative or industrial applications.",
+      "link": "https://huggingface.co/blog/3d-lora-finetuning",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "OpenAI Academy Offers ChatGPT Workshops for Caregivers",
+      "summary": "OpenAI Academy is providing free, hands-on ChatGPT workshops in five U.S. cities, empowering caregivers with practical AI skills to streamline daily tasks and enhance personal efficiency.",
+      "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
       "source": "OpenAI News"
     },
     {
-      "title": "ChatGPT Plus for veterans and servicemembers",
-      "summary": "OpenAI is offering a free year of ChatGPT Plus to over 20,000 veterans and transitioning service members, providing them with advanced AI tools to prepare for civilian careers and enhance their upskilling opportunities. This program supports workforce development and AI adoption for a vital community.",
-      "link": "https://openai.com/index/chatgpt-plus-for-veterans/",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Our newest AI Quest: Mapping the human brain",
-      "summary": "Google has released its latest AI Quest, 'Polar Peaks,' an educational lesson focused on neuroscience and mapping the human brain, designed to improve AI literacy through engaging content. This offers an accessible learning path for understanding complex AI applications in scientific fields.",
+      "title": "Google AI Quest: \"Polar Peaks\" on Mapping the Human Brain",
+      "summary": "Google's AI Quests program introduced \"Polar Peaks,\" a new educational lesson focused on neuroscience and AI's role in mapping the human brain, offering insights into advanced AI literacy and scientific applications.",
       "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
       "source": "Google AI Blog"
     }
