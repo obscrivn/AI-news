@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-11-12T23:59:59Z",
+  "lastUpdated": "2026-11-13T18:00:00Z",
   "highlights": [
-    "Major tech giants are deeply integrating AI into core products, with Google upgrading Search with Gemini 4 Hydrogen and launching Gemini for healthcare, while OpenAI simplifies enterprise access to ChatGPT via AWS Marketplace.",
-    "The landscape for AI agents is rapidly advancing, featuring AWS's release of an AI-built local emulator, Cogent and OpenAI's partnership on cyber defense agents, and CodeRabbit scaling software development with AI-generated code.",
-    "New powerful models and tools empower builders: Anthropic introduces Claude Fable/Mythos 5.2 with varied safeguards, Google launches the Gemini Decisions API for multimodal inputs, and Hugging Face integrates LLMON for structured LLM interaction."
+    "AI agent capabilities are expanding with new self-hostable frameworks and transactional wallets, alongside critical research into agent reliability and error handling to inform more robust designs.",
+    "Frontier models are pushing performance boundaries with Google's Gemini 4 Hydrogen offering 2.5x speedups, Liquid AI's LiquidCodec enabling ultra-fast audio processing, and Perplexity enhancing open-weight decision models with span extraction.",
+    "Developer tools are seeing significant advancements in AI inference optimization, with Google's TPU Sync dramatically reducing KV cache transfer latency and Together Compiler boosting throughput for diverse AI workloads."
   ],
   "agents": [
     {
-      "title": "AWS Releases AI-Built Local AWS API Emulator",
-      "summary": "AWS launched AWS Emulator, a free, CC0-licensed local emulator for over 200 AWS APIs, entirely coded by autonomous AI agents, enabling rapid offline development and testing of cloud applications.",
+      "title": "CopilotKit Releases OpenBot 1.0: Self-Hostable AI Coworker with Governance",
+      "summary": "CopilotKit launched OpenBot 1.0, an MIT-licensed, self-hostable AI coworker workspace providing built-in governance and audit trails, enabling companies to integrate their own agents and models securely.",
+      "link": "https://www.marktechpost.com/2026/11/12/copilotkit-openbot-1-0-open-source-ai-coworker/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "AWS Releases AI-Built AWS Emulator for Local API Development",
+      "summary": "AWS introduced AWS Emulator, a free, CC0-licensed local emulator for over 200 AWS APIs, entirely built by autonomous AI agents, significantly accelerating development and testing for AWS users.",
       "link": "https://www.marktechpost.com/2026/11/12/aws-emulator-local-aws-api-emulator-ai-agents/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Cogent & OpenAI Partner on Enterprise Cyber Defense Agents",
-      "summary": "Cogent, in partnership with OpenAI, is developing \"cyber defense factories\" that use AI agents combined with enterprise context to automatically remediate vulnerabilities, significantly strengthening corporate security.",
-      "link": "https://openai.com/index/cogent-security",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "CodeRabbit Scales Software Development with AI-Generated Code",
-      "summary": "CodeRabbit leverages OpenAI models, including Codex, to govern and trust AI-generated code, enabling engineering teams to scale agentic software development and ship products 20 times faster.",
-      "link": "https://openai.com/index/coderabbit-codex-daybreak",
-      "source": "OpenAI News"
+      "title": "Research: Cleaning Agent History Can Hurt If World Retains Errors",
+      "summary": "New research reveals that superficially cleaning an AI agent's history without addressing underlying world state errors can actually degrade recovery rates, emphasizing the need for robust error handling in agent design.",
+      "link": "https://arxiv.org/abs/2611.14654",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2 with Varying Safeguards",
-      "summary": "Anthropic released Claude Fable 5.2 and Mythos 5.2, a powerful new model with two safeguard levels and a 1M-token context window, offering flexibility for developers needing different safety thresholds.",
-      "link": "https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release/",
+      "title": "Google Releases Gemini 4 Hydrogen: 2.5x Faster Agentic Model",
+      "summary": "Google launched Gemini 4 Hydrogen, a rapid agentic model featuring a 1M-token window and 4 thinking levels, demonstrating 2.5 times faster performance than its predecessor, Gemini 3.8 Flash.",
+      "link": "https://www.marktechpost.com/2026/11/13/google-gemini-4-hydrogen/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Google Launches Gemini Decisions API for Multimodal Decisions",
-      "summary": "Google introduced the Gemini Decisions API, powered by Gemini Decision 1, offering fast, calibrated multimodal decision-making for text, images, audio, video, and PDFs, providing probabilistic answers for complex questions.",
-      "link": "https://www.marktechpost.com/2026/11/11/google-gemini-decisions-api-gemini-decision-1/",
+      "title": "Liquid AI Introduces LiquidCodec: 74M-Parameter Streaming Audio Codec",
+      "summary": "Liquid AI released LiquidCodec, an efficient 74M-parameter streaming audio codec capable of encoding audio 361 times faster than real-time on a single CPU, enabling high-performance audio applications.",
+      "link": "https://www.marktechpost.com/2026/11/12/liquid-ai-liquidcodec-streaming-audio-codec/",
       "source": "MarkTechPost"
     },
     {
-      "title": "MBZUAI Releases PAN 2: Open-Source 29B World Model for Physical AI",
-      "summary": "MBZUAI's IFM released PAN 2, an Apache 2.0 open world model that combines an LLM planner with a 29B diffusion transformer to simulate up to 20 seconds of action outcomes as video, advancing physical AI.",
-      "link": "https://www.marktechpost.com/2026/11/10/ifm-pan-2-open-world-model/",
+      "title": "Perplexity Decider v1.3: Open-Weight Decision Models with Span Extraction",
+      "summary": "Perplexity's Decider v1.3 and Flash v1.3 are open-weight decision models now featuring 'Locate' for span extraction, achieving 91.6% mean accuracy on query-classification tasks by returning probabilities instead of text.",
+      "link": "https://www.marktechpost.com/2026/11/13/perplexity-decider-v1-3-open-weight-decision-models-locate/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Google Launches Gemini Decisions API for Multimodal Decisions",
-      "summary": "Google introduced the Gemini Decisions API, powered by Gemini Decision 1, offering fast, calibrated multimodal decision-making for text, images, audio, video, and PDFs, providing probabilistic answers for complex questions.",
-      "link": "https://www.marktechpost.com/2026/11/11/google-gemini-decisions-api-gemini-decision-1/",
+      "title": "Google Releases TPU Sync: Open-Source KV Cache Transfer Library",
+      "summary": "Google introduced TPU Sync, an open-source C++ library for moving KV caches and weights efficiently across TPU HBM, host DRAM, storage, and network, reducing KV transfer latency by over 90% for large MoE models.",
+      "link": "https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library/",
       "source": "MarkTechPost"
     },
     {
-      "title": "LLMON: New LLM-Native Markup Language in Granite 4.1 Models",
-      "summary": "LLMON, an LLM-native markup language, is now integrated into IBM's Granite 4.1 3B and 8B models, providing developers with a standardized and structured way to interact with and extract information from LLMs.",
-      "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "source": "Hugging Face Blog"
+      "title": "Together Compiler: Continual Compilation for AI Inference Optimization",
+      "summary": "Together AI unveiled \"Together Compiler,\" a novel continual agent loop designed for AI inference optimization, which significantly boosts TPS by up to 2.6x on frontier models across various hardware platforms.",
+      "link": "https://arxiv.org/abs/2611.14681",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Dharma Field Extractor: Structured Data from Any Document",
-      "summary": "Dharma AI's Field Extractor processes any document type, automatically identifying and structuring key information into JSON output, significantly streamlining data extraction and workflow automation.",
-      "link": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-      "source": "Hugging Face Blog"
+      "title": "Google Launches Gemini Decisions API for Calibrated Multimodal Decisions",
+      "summary": "Google launched the Gemini Decisions API, powered by Gemini Decision 1, offering calibrated probabilities for up to 1,000 multimodal questions (text, image, audio, video, PDF) at $0.10 per 1M input tokens.",
+      "link": "https://www.marktechpost.com/2026/11/11/google-gemini-decisions-api-gemini-decision-1/",
+      "source": "MarkTechPost"
     }
   ],
   "companies": [
     {
-      "title": "Google Search Upgrades with Gemini 4 Hydrogen Integration",
-      "summary": "Google Search has been globally upgraded with Gemini 4 Hydrogen, promising more helpful, visual, and intuitive responses, demonstrating Google's commitment to integrating advanced AI into its core user experiences.",
-      "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "Google Cloud Launches Gemini for Healthcare to Automate Workflows",
-      "summary": "Google Cloud launched Gemini for healthcare, an industry-specific AI solution designed to unify clinical data and automate administrative workflows, aiming to reduce burnout and enhance operational efficiency in medical settings.",
-      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-      "source": "Google AI Blog"
+      "title": "OpenAI Introduces ChatGPT Wallet for Agent-Initiated Purchases",
+      "summary": "OpenAI launched ChatGPT Wallet, providing a secure method for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval, enhancing agent utility and monetization potential.",
+      "link": "https://openai.com/index/introducing-chatgpt-wallet",
+      "source": "OpenAI News"
     },
     {
       "title": "ChatGPT Enterprise Now Available in AWS Marketplace",
-      "summary": "OpenAI has made ChatGPT Enterprise available through AWS Marketplace, simplifying procurement for businesses by leveraging existing AWS billing relationships and facilitating broader enterprise-scale adoption of advanced AI.",
+      "summary": "ChatGPT Enterprise is now accessible through AWS Marketplace, simplifying procurement for organizations by leveraging existing AWS purchasing and billing relationships.",
       "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
       "source": "OpenAI News"
+    },
+    {
+      "title": "Google Cloud Launches Gemini for Healthcare Solutions",
+      "summary": "Google Cloud announced Gemini for healthcare, designed to unify clinical data and automate workflows, aiming to reduce administrative burnout and enhance healthcare operations with AI.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Hugging Face Guide to Fine-Tuning 3D Generation Models",
-      "summary": "Hugging Face published a definitive guide for fine-tuning 3D generation models, providing comprehensive instructions and best practices for developers looking to customize and optimize these models for specific creative or industrial applications.",
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models Released",
+      "summary": "A comprehensive guide on fine-tuning 3D generation models has been published, offering crucial insights for developers and researchers working on advanced 3D content creation.",
       "link": "https://huggingface.co/blog/3d-lora-finetuning",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "OpenAI Academy Offers ChatGPT Workshops for Caregivers",
-      "summary": "OpenAI Academy is providing free, hands-on ChatGPT workshops in five U.S. cities, empowering caregivers with practical AI skills to streamline daily tasks and enhance personal efficiency.",
-      "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "source": "OpenAI News"
+      "title": "Guide: Build Robot Pick-and-Place Simulation with SimReady Assets",
+      "summary": "A new guide demonstrates how to build robot pick-and-place simulations using SimReady Assets, providing practical steps for developers engaging in robotics and simulation projects.",
+      "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "source": "Hugging Face Blog"
     },
     {
-      "title": "Google AI Quest: \"Polar Peaks\" on Mapping the Human Brain",
-      "summary": "Google's AI Quests program introduced \"Polar Peaks,\" a new educational lesson focused on neuroscience and AI's role in mapping the human brain, offering insights into advanced AI literacy and scientific applications.",
-      "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-      "source": "Google AI Blog"
+      "title": "OpenAI Academy Offers Free AI Workshops for Caregivers",
+      "summary": "OpenAI Academy is conducting free, hands-on ChatGPT workshops in five U.S. cities to equip caregivers with practical AI skills for everyday life, promoting AI literacy and utility in the community.",
+      "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "source": "OpenAI News"
     }
   ]
 }
