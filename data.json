@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-11-16T15:30:00Z",
+  "lastUpdated": "2024-05-15T10:00:00Z",
   "highlights": [
-    "Frontier models are scaling with advanced architectures and multimodal capabilities, enhancing efficiency and extending context windows for complex tasks.",
-    "Major tech players are deploying LLM agents for practical applications, from automated code testing and healthcare workflows to real-world tasks, improving productivity and safety.",
-    "New developer tools and strategic partnerships are making advanced AI more accessible and performant, particularly for optimizing LLM inference and building agentic UIs."
+    "Frontier AI models continue to advance rapidly, with OpenAI launching GPT-6.2 Astra and Sol, Alibaba introducing the massive Qwen4-Max, and Liquid AI debuting omnimodal decision models, significantly boosting capabilities across various applications.",
+    "The ecosystem for building and deploying AI is maturing, marked by NVIDIA open-sourcing tools for GPU Kubernetes infrastructure, SpecRelay optimizing edge-cloud LLM inference, and new research enhancing the robustness and ethical considerations of AI agents.",
+    "Major tech players are doubling down on practical AI integration, exemplified by Google upgrading its Search with Gemini 4 Hydrogen and launching a dedicated Gemini for healthcare, alongside Sarvam's initiative to offer India-hosted inference for open models."
   ],
   "agents": [
     {
-      "title": "OpenAI: More ways to move care forward with ChatGPT for Healthcare",
-      "summary": "OpenAI introduces computer-use agents, improved clinical answers, and new healthcare plugins for ChatGPT, enabling seamless integration across healthcare software to automate real-world tasks.",
+      "title": "Video-as-Experience: Learning Computer Use via Audio-Visual Understanding",
+      "summary": "This research introduces VEX, a framework enabling computer-use agents to learn tasks from audio-visual tutorials and self-verify, achieving a 22% task success increase and demonstrating significant advances in autonomous agent capabilities.",
+      "link": "https://arxiv.org/abs/2611.18747",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "summary": "OpenAI introduces new computer-use agents, improved clinical answers, and healthcare plugins for ChatGPT, enabling automation and enhanced workflows across healthcare software to perform real-world tasks.",
       "link": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
       "source": "OpenAI News"
     },
     {
-      "title": "Meet Meta’s JiTTests: LLM-Generated Tests Designed to Fail Before Risky Code Lands",
-      "summary": "Meta's JiTTests, an LLM-powered system, is now in production, generating tests designed to proactively identify and fail risky code diffs, preventing privacy and security vulnerabilities before deployment.",
-      "link": "https://www.marktechpost.com/2026/11/16/meta-jittests-llm-catching-tests-privacy-bugs/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Hark Releases Handoff², a 2x Faster Computer-Use Agent for Hark Pro",
-      "summary": "Hark's Handoff² computer-use agent for Hark Pro is now 2x faster, completing 82% of internal web tasks and learning to batch actions via latency-penalized reinforcement learning for enhanced efficiency.",
-      "link": "https://www.marktechpost.com/2026/11/16/hark-handoff-2-computer-use-agent-2x-faster/",
-      "source": "MarkTechPost"
+      "title": "Ask Precisely, Assume Wisely: Interactive Evaluation of Ambiguity Resolution in Large Language Models",
+      "summary": "This framework evaluates LLM ambiguity resolution through a preference-grounded simulated user, revealing trade-offs in clarification-seeking versus assumption-making and demonstrating a 7.65% error rate reduction with optimized prompts, crucial for reliable human-AI interaction.",
+      "link": "https://arxiv.org/abs/2611.18905",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "summary": "OpenAI has released GPT-6.2 Astra and Sol, new flagship models that deliver improved professional outputs, coding, computer use, and efficiency at lower costs across ChatGPT Work, Codex, and the API.",
+      "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "source": "OpenAI News"
+    },
+    {
       "title": "Alibaba Releases Qwen4-Max: 2.4T MoE, 71B Active, 1M Context",
-      "summary": "Alibaba has launched Qwen4-Max, a proprietary 2.4T MoE model with 71B active parameters, native vision, and a 1M-token context window, significantly reducing task costs for enterprises.",
+      "summary": "Alibaba launched Qwen4-Max, a proprietary 2.4T-parameter Mixture-of-Experts model featuring 71B active parameters, native vision, and a 1M-token context, significantly reducing task costs for enterprise applications.",
       "link": "https://www.marktechpost.com/2026/11/16/alibaba-qwen4-max-release/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "summary": "Google has released Gemini 4 Argon, a new frontier model designed for developers, enterprises, scientists, and consumers, offering advanced capabilities to tackle complex challenges.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "summary": "Gemini Omni 1.2 Flash is now available, featuring native 15-second video generation and editing, enhanced consistency, and a 30% cost reduction, making multimodal video AI more accessible and efficient.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "source": "Google AI Blog"
+      "title": "Liquid AI Releases d1.2 and d1.2-ultra: Omnimodal Decision Models That Top the AA Decision Index",
+      "summary": "Liquid AI introduced d1.2 and d1.2-ultra, omnimodal decision models capable of processing text, images, and audio to provide calibrated probabilities with zero output tokens, setting new benchmarks in AI decision-making.",
+      "link": "https://www.marktechpost.com/2026/11/17/liquid-ai-d1-2-omnimodal-decision-models/",
+      "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents",
-      "summary": "Vercel Labs launched its UI SDK, an Apache-2.0 beta library offering over 50 UI behaviors for coding agents, enabling developers to build accessible components for various frontend frameworks and control UI directly.",
-      "link": "https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors/",
+      "title": "SpecRelay: Amortize or Avoid the Round Trip in Edge-Cloud Speculative Decoding",
+      "summary": "SpecRelay is an LLM inference system designed for edge-cloud deployments that amortizes and avoids network round trips in speculative decoding, improving decoding throughput by up to 50% and increasing efficiency for real-time applications.",
+      "link": "https://arxiv.org/abs/2611.18963",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "NVIDIA Open-Sources NVKE and NVKR for Managed Kubernetes on GPU Infrastructure",
+      "summary": "NVIDIA has open-sourced NVIDIA Kubernetes Engine (NVKE) and NVIDIA Kubernetes Recipes (NVKR, both Apache 2.0), enabling AI factories to run managed Kubernetes services directly on their bare-metal GPU servers, simplifying infrastructure management.",
+      "link": "https://www.marktechpost.com/2026/11/17/nvidia-nvke-nvkr-managed-kubernetes-gpu/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy",
-      "summary": "Cmpnd introduced dspy-wsp, a DSPy optimizer that brings weight-space programming to LLMs, allowing a frontier LLM to iteratively edit and test a smaller model's weights without gradients, at a low cost per run.",
-      "link": "https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs",
-      "summary": "Google open-sourced TPU Sync, a C++ library designed to optimize KV cache and weight transfers across TPU HBM, host DRAM, storage, and network, achieving over 90% lower latency for large MoE models.",
-      "link": "https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library/",
+      "title": "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs",
+      "summary": "Stanford researchers open-sourced Memorilla, a memory system that compresses document collections into few memory tokens for frozen LLMs, achieving high accuracy with significantly fewer tokens and enhancing long-context processing efficiency.",
+      "link": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens/",
       "source": "MarkTechPost"
     }
   ],
   "companies": [
     {
-      "title": "Broadening access to AI for scientists",
-      "summary": "OpenAI is expanding its ChatGPT for Academic Researchers program, offering free access to frontier models for 200,000 scientists globally to accelerate scientific discovery.",
-      "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "source": "OpenAI News"
-    },
-    {
       "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "summary": "Google is integrating Gemini 4 Hydrogen into Google Search globally, promising more helpful, visual, and intuitive search responses for users worldwide.",
+      "summary": "Google is integrating Gemini 4 Hydrogen into Google Search globally, providing users with more helpful, visual, and intuitive responses, marking a significant evolution in its flagship product's AI capabilities.",
       "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
       "source": "Google AI Blog"
     },
     {
-      "title": "Adobe’s creative and productivity tools closer to your everyday Google apps",
-      "summary": "Google and Adobe are partnering to integrate creative and productivity tools, allowing users to edit PDFs in Drive and leverage Adobe AI capabilities within Gemini, enhancing workflow efficiency.",
-      "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "summary": "Google Cloud has launched Gemini for healthcare, a specialized solution designed to unify clinical data and automate workflows, aiming to reduce administrative burnout and improve efficiency for healthcare teams.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
       "source": "Google AI Blog"
+    },
+    {
+      "title": "Sarvam Launches Sarvam Token Factory: Bringing India-Hosted Inference to 8 Open Models",
+      "summary": "Sarvam Token Factory is now public, offering India-hosted inference for eight open models, including Sarvam 105B and Gemma 4 31B, accessible via an OpenAI-compatible API, democratizing regional AI access.",
+      "link": "https://www.marktechpost.com/2026/11/17/sarvam-token-factory-india-inference-platform/",
+      "source": "MarkTechPost"
     }
   ],
   "learning": [
     {
-      "title": "The King’s Trust and OpenAI launch £1m partnership",
-      "summary": "The King’s Trust and OpenAI have partnered with a £1M initiative to equip up to 25,000 young people across the UK with practical AI skills for workforce readiness.",
-      "link": "https://openai.com/index/the-kings-trust-and-openai",
-      "source": "OpenAI News"
+      "title": "Clearing Up the Confusion on AI Data Retention: Two Standard Designs Explained",
+      "summary": "This guide clarifies AI data retention for developers, explaining two standard API designs for managing data deletion and offering six checks to ensure compliance and robust data privacy practices in AI applications.",
+      "link": "https://www.marktechpost.com/2026/11/17/zero-data-retention-ai-apis-explained/",
+      "source": "MarkTechPost"
     },
     {
       "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-      "summary": "Hugging Face released a definitive guide for fine-tuning 3D generation models, offering practical steps and insights for developers looking to customize and optimize their 3D AI workflows.",
+      "summary": "Hugging Face released a comprehensive guide for fine-tuning 3D generation models, providing essential knowledge and techniques for developers working with emerging 3D AI applications and asset creation.",
       "link": "https://huggingface.co/blog/3d-lora-finetuning",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "summary": "Hugging Face provides a guide to building robot pick-and-place simulations using SimReady Assets, offering hands-on learning for developers in robotics and simulation.",
-      "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "source": "Hugging Face Blog"
+      "title": "Broadening access to AI for scientists",
+      "summary": "OpenAI is expanding its ChatGPT for Academic Researchers program, offering 200,000 scientists worldwide free access to its frontier models, significantly lowering barriers to AI-driven scientific discovery and education.",
+      "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "source": "OpenAI News"
     }
   ]
 }
