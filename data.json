@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-11-18T19:50:00Z",
+  "lastUpdated": "2026-11-19T20:00:00Z",
   "highlights": [
-    "Major AI providers are accelerating innovation with new model releases and strategic integrations; OpenAI's GPT-6.2 Astra features a 20% API price drop, while Google is leveraging Gemini 4 Hydrogen for an upgraded Search experience.",
-    "The 'agentic AI' ecosystem is rapidly maturing, with advancements like Anthropic's Claude gaining complex tool-chaining capabilities, Perplexity introducing multi-agent systems for enhanced problem-solving, and foundational research proposing architectures for a truly portable Agent-Native Web.",
-    "Significant developments in AI infrastructure and model self-improvement are emerging, highlighted by NVIDIA open-sourcing tools for managed Kubernetes on GPU infrastructure and groundbreaking research into language models capable of rewriting their own weights without traditional retraining."
+    "The AI landscape is seeing rapid advancements in agentic systems, with significant progress in multi-agent coordination, tool-use chaining, and stable recursive self-improvement frameworks.",
+    "Major AI developers like OpenAI and Google DeepMind are releasing more powerful and cost-effective frontier models, featuring expanded context windows, multimodal video generation, and enhanced coding capabilities.",
+    "The ecosystem for AI builders is maturing with new developer tools, including orchestrator APIs for seamless multi-LLM integration, efficient tool retrieval for agents, and robust local inference solutions."
   ],
   "agents": [
     {
-      "title": "Perplexity Computer Adds Multiagent with Cross-Checking",
-      "summary": "Perplexity has enhanced its Computer feature with a Multiagent system, allowing a lead agent to coordinate up to 16 AI agents across various models to share findings and cross-check work, significantly improving complex task execution.",
+      "title": "Perplexity Computer Adds Multiagent: Up to 16 AI Agents That Cross-Check Work",
+      "summary": "Perplexity now allows up to 16 AI agents to collaborate on tasks within Computer, leveraging multiple foundation models to cross-check work and enhance reliability in complex problem-solving.",
       "link": "https://www.marktechpost.com/2026/11/17/perplexity-computer-multiagent-effort-level/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Anthropic Adds Code Mode to Claude for Chained JavaScript Tool Calls",
-      "summary": "Anthropic's Claude Code v2.1.323 now features an experimental Code Mode, enabling Claude to write JavaScript that chains Bash, Read, and Edit calls in a single step, enhancing its ability to interact programmatically and keep talking during long commands.",
+      "title": "Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript",
+      "summary": "Anthropic's new Code Mode for Claude Code enables the model to write JavaScript that chains Bash, Read, and Edit calls in a single step, significantly enhancing its autonomous tool-use and scripting capabilities.",
       "link": "https://www.marktechpost.com/2026/11/17/anthropic-claude-code-code-mode-javascript-tool-calls/",
       "source": "MarkTechPost"
     },
     {
-      "title": "WebAgents Unbundles Agent Creation, Hosting, and Execution for Agent-Native Web",
-      "summary": "A new framework, WebAgents, unbundles the lifecycle of AI agents by using signed agent.pkg files for portable workflows, skills, and resource requirements, allowing user-controlled models and tools to bind at runtime, fostering a secure and interoperable Agentic Web.",
-      "link": "https://arxiv.org/abs/2611.21978",
+      "title": "GUARD: Stabilizing Recursive Self-Improvement with Regret Guidance",
+      "summary": "A new framework, GUARD, introduces a method for stable, reference-free continual evolution of AI agent harnesses, using directional regret to prevent regressions and optimize token usage during self-improvement.",
+      "link": "https://arxiv.org/abs/2611.23476",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "OpenAI Releases GPT-6.2 Astra and Sol with 20% Cheaper Astra API",
-      "summary": "OpenAI has launched GPT-6.2 Astra and Sol, delivering improved professional outputs, coding, and computer usage, with Astra's API price reduced by 20% to $8/$40 per million tokens, making frontier AI more accessible and efficient for developers.",
+      "title": "Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index",
+      "summary": "Google's new Gemini 4 Neon model boasts a 1M token context window and ranks #1 on the AA Coding Agent Index, offering superior performance for complex coding tasks at competitive pricing.",
+      "link": "https://www.marktechpost.com/2026/11/18/google-gemini-4-neon-release/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "summary": "OpenAI has released GPT-6.2 Astra and Sol, delivering improved professional outputs, coding, and computer interaction across ChatGPT Work and the API, with Astra's API costs reduced by 20%.",
       "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
       "source": "OpenAI News"
     },
     {
-      "title": "Language Models Can Rewrite Their Own Weights for Self-Improvement",
-      "summary": "Groundbreaking research shows a 27B language model can diagnose failures and edit its own weights without gradients or traditional training, leading to persistent accuracy gains on unseen problems and even repairing damaged copies, suggesting a new paradigm for model improvement through 'conversation' rather than training runs.",
-      "link": "https://arxiv.org/abs/2611.21885",
-      "source": "arXiv cs.AI"
-    },
-    {
-      "title": "Liquid AI Releases d1.2 and d1.2-ultra Omnimodal Decision Models",
-      "summary": "Liquid AI has introduced d1.2 and d1.2-ultra, new omnimodal decision models that process text, images, and audio to return calibrated probabilities with zero output tokens, topping the AA Decision Index and offering enhanced decision-making capabilities.",
-      "link": "https://www.marktechpost.com/2026/11/17/liquid-ai-d1-2-omnimodal-decision-models/",
-      "source": "MarkTechPost"
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "summary": "Google introduced Gemini Omni 1.2 Flash, featuring native 15-second video generation and editing with enhanced consistency, alongside a 30% reduction in pricing for builders.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "source": "Google AI Blog"
     }
   ],
   "tools": [
     {
-      "title": "NVIDIA Open-Sources NVKE and NVKR for Managed Kubernetes on GPU Infrastructure",
-      "summary": "NVIDIA has open-sourced NVIDIA Kubernetes Engine (NVKE) and NVIDIA Kubernetes Recipes (NVKR) under Apache 2.0, enabling AI factories to run managed Kubernetes services on their own bare-metal GPU servers, simplifying infrastructure management for AI workloads.",
-      "link": "https://www.marktechpost.com/2026/11/17/nvidia-nvke-nvkr-managed-kubernetes-gpu/",
+      "title": "Perplexity Launches Orchestrator API for Failover and Model Routing",
+      "summary": "Perplexity's new Orchestrator API offers a unified endpoint to manage and route requests across major LLMs (OpenAI, Anthropic, Google, xAI) and open-weight models, providing failover, unified billing, and intelligent routing.",
+      "link": "https://www.marktechpost.com/2026/11/19/perplexity-orchestrator-api-failover-model-routing/",
       "source": "MarkTechPost"
     },
     {
-      "title": "llama.cpp v1.0.0 Released, Strengthening Local AI Ecosystem",
-      "summary": "llama.cpp has released its v1.0.0, establishing a stronger foundation for the local AI ecosystem by enhancing the capability to run large language models efficiently on consumer hardware, a crucial development for accessible and private AI applications.",
-      "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "source": "Hugging Face Blog"
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "summary": "Google has launched Tool Retrieval in the Gemini API, enabling AI agents to access hundreds of tools more efficiently by significantly reducing token usage during complex tool-use scenarios.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Google Launches Gemini Decisions API for Fast Multimodal Decisions",
-      "summary": "Google has introduced the Gemini Decisions API, powered by its state-of-the-art Gemini Decision model, designed to deliver fast, calibrated multimodal decisions, providing developers with a powerful new tool for integrating advanced decision-making into their applications.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "source": "Google AI Blog"
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "summary": "The release of llama.cpp v1.0.0 provides a more robust and accessible foundation for running open-source large language models locally, enhancing capabilities for on-device and resource-constrained AI development.",
+      "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "OpenAI Releases GPT-6.2 Astra and Sol and Cuts Astra API Price by 20%",
-      "summary": "OpenAI's launch of GPT-6.2 Astra and Sol, alongside a 20% reduction in Astra's API pricing, reinforces its market position by offering enhanced, more cost-effective frontier models for various applications including ChatGPT Work, Codex, and API integrations.",
-      "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "source": "OpenAI News"
+      "title": "Google Cloud launches Gemini for healthcare",
+      "summary": "Google Cloud has introduced Gemini for healthcare, a specialized offering designed to unify clinical data and automate workflows, aiming to reduce administrative burden and improve efficiency in the medical sector.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Google Search Gets Major Upgrade with Gemini 4 Hydrogen",
-      "summary": "Google is globally upgrading its Search product with Gemini 4 Hydrogen, promising more helpful, visual, and intuitive responses, showcasing the integration of frontier AI models into core consumer services and advancing search intelligence.",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "summary": "Google is integrating Gemini 4 Hydrogen into its Search platform globally, promising users more helpful, visual, and intuitive search responses powered by advanced AI.",
       "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
       "source": "Google AI Blog"
     },
     {
-      "title": "Google and Adobe Partner to Integrate Creative & Productivity Tools",
-      "summary": "Google and Adobe are deepening their partnership by integrating Adobe's creative and productivity tools, including Adobe AI, directly into Google apps and Gemini, streamlining workflows and expanding AI-powered capabilities for users across both ecosystems.",
-      "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-      "source": "Google AI Blog"
+      "title": "Broadening access to AI for scientists",
+      "summary": "OpenAI is expanding its ChatGPT for Academic Researchers program, offering free access to its frontier models for 200,000 researchers worldwide to accelerate scientific discovery and collaboration.",
+      "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "source": "OpenAI News"
     }
   ],
   "learning": [
     {
-      "title": "Guide Explains AI Data Retention: Two Standard API Designs",
-      "summary": "A new guide clarifies the complexities of AI data retention by explaining two standard API designs, outlining who manages data deletion in each, and offering six critical checks for developers to ensure compliance and privacy in their AI applications.",
-      "link": "https://www.marktechpost.com/2026/11/17/zero-data-retention-ai-apis-explained/",
+      "title": "Not If, But How: Responding to Security Incidents in the Age of AI Attackers",
+      "summary": "This guide provides a critical 4-pillar incident response playbook, informed by 6 months of incidents, to help organizations counter the growing threat of AI-powered attackers on AI infrastructure.",
+      "link": "https://www.marktechpost.com/2026/11/19/ai-security-incident-response-playbook-2026/",
       "source": "MarkTechPost"
     },
     {
-      "title": "SkillBuffBench: New Benchmark for Agent Skill Evaluation",
-      "summary": "SkillBuffBench introduces a new benchmark and evaluation protocol to measure the contribution of agent skills across various harnesses, models, skill access modes, and memory configurations, providing crucial insights for developers building and optimizing AI agents.",
-      "link": "https://arxiv.org/abs/2611.22017",
-      "source": "arXiv cs.AI"
+      "title": "Our newest AI Quest: Mapping the human brain",
+      "summary": "Google has released a new 'AI Quest' lesson called 'Polar Peaks,' offering an engaging educational pathway for AI literacy through the lens of neuroscience.",
+      "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "OpenAI Broadens Free Access to Frontier AI for 200,000 Scientists",
-      "summary": "OpenAI is expanding its ChatGPT for Academic Researchers program to offer 200,000 scientists worldwide free access to its frontier models, democratizing advanced AI tools for scientific discovery and fostering global research innovation.",
-      "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "source": "OpenAI News"
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "summary": "Hugging Face has published a comprehensive guide for fine-tuning 3D generation models, providing essential knowledge and practical steps for developers working in this emerging field.",
+      "link": "https://huggingface.co/blog/3d-lora-finetuning",
+      "source": "Hugging Face Blog"
     }
   ]
 }
