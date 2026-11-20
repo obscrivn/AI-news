@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-11-19T20:00:00Z",
+  "lastUpdated": "2026-11-20T17:42:29Z",
   "highlights": [
-    "The AI landscape is seeing rapid advancements in agentic systems, with significant progress in multi-agent coordination, tool-use chaining, and stable recursive self-improvement frameworks.",
-    "Major AI developers like OpenAI and Google DeepMind are releasing more powerful and cost-effective frontier models, featuring expanded context windows, multimodal video generation, and enhanced coding capabilities.",
-    "The ecosystem for AI builders is maturing with new developer tools, including orchestrator APIs for seamless multi-LLM integration, efficient tool retrieval for agents, and robust local inference solutions."
+    "The AI landscape is seeing a surge in highly capable agentic models, particularly in coding and complex decision-making, coupled with advanced benchmarks for real-world performance evaluation.",
+    "Significant progress in model efficiency and accessibility is evident, with new open-weight models and practical tools designed for faster inference and deployment on resource-constrained environments.",
+    "Key platform providers like Google and Perplexity are enhancing developer capabilities through robust APIs, multi-model orchestration, and strategic enterprise integrations, streamlining AI development workflows."
   ],
   "agents": [
     {
-      "title": "Perplexity Computer Adds Multiagent: Up to 16 AI Agents That Cross-Check Work",
-      "summary": "Perplexity now allows up to 16 AI agents to collaborate on tasks within Computer, leveraging multiple foundation models to cross-check work and enhance reliability in complex problem-solving.",
-      "link": "https://www.marktechpost.com/2026/11/17/perplexity-computer-multiagent-effort-level/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript",
-      "summary": "Anthropic's new Code Mode for Claude Code enables the model to write JavaScript that chains Bash, Read, and Edit calls in a single step, significantly enhancing its autonomous tool-use and scripting capabilities.",
-      "link": "https://www.marktechpost.com/2026/11/17/anthropic-claude-code-code-mode-javascript-tool-calls/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "GUARD: Stabilizing Recursive Self-Improvement with Regret Guidance",
-      "summary": "A new framework, GUARD, introduces a method for stable, reference-free continual evolution of AI agent harnesses, using directional regret to prevent regressions and optimize token usage during self-improvement.",
-      "link": "https://arxiv.org/abs/2611.23476",
-      "source": "arXiv cs.AI"
-    }
-  ],
-  "models": [
-    {
       "title": "Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index",
-      "summary": "Google's new Gemini 4 Neon model boasts a 1M token context window and ranks #1 on the AA Coding Agent Index, offering superior performance for complex coding tasks at competitive pricing.",
+      "summary": "Google has launched Gemini 4 Neon, a 1M-context model priced competitively, which has achieved the #1 ranking on the AA Coding Agent Index, offering superior performance for complex code generation and problem-solving.",
       "link": "https://www.marktechpost.com/2026/11/18/google-gemini-4-neon-release/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Introducing GPT-6.2 Astra and Sol",
-      "summary": "OpenAI has released GPT-6.2 Astra and Sol, delivering improved professional outputs, coding, and computer interaction across ChatGPT Work and the API, with Astra's API costs reduced by 20%.",
-      "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "source": "OpenAI News"
+      "title": "RadixArk Ships DaisyRose-27B, a 27B Agentic Coding Model Trained With Reinforcement Learning Only",
+      "summary": "RadixArk unveiled DaisyRose-27B, an Apache 2.0 agentic coding model trained purely with reinforcement learning, significantly boosting Terminal Bench 4.1 pass@1 to 12.0 and capable of running on a single GPU.",
+      "link": "https://www.marktechpost.com/2026/11/20/radixark-daisyrose-27b-agentic-model/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "summary": "Google introduced Gemini Omni 1.2 Flash, featuring native 15-second video generation and editing with enhanced consistency, alongside a 30% reduction in pricing for builders.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "source": "Google AI Blog"
+      "title": "SID AI Releases SID-2 Agentic Search Model With 0.720 NDCG Swarm Mode",
+      "summary": "SID AI introduced SID-2, an agentic search model trained with reinforcement learning, achieving 0.720 NDCG in a 12-agent Swarm Mode, surpassing GPT-6 Astra on SID’s benchmark for advanced search capabilities.",
+      "link": "https://www.marktechpost.com/2026/11/17/sid-ai-sid-2-agentic-search-swarm/",
+      "source": "MarkTechPost"
+    }
+  ],
+  "models": [
+    {
+      "title": "NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model with 14 checkpoints at 3B/8B",
+      "summary": "NVIDIA has released Nemotron-Labs-Sigma, offering 14 open 3B and 8B continuous diffusion language model checkpoints that denoise text in a 16-D embedding space, enabling up to 4.20x faster decoding than autoregressive methods.",
+      "link": "https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "New LoRA Adapter Lifts Qwen3.8 Coding Success From 39% to 65%",
+      "summary": "Hugging Face released Qwen3.8-27B-pi-adapted, an Apache-2.0 LoRA adapter trained with reinforcement learning, which significantly boosts coding success rates on SWE-bench Pro and Terminal-Bench for the pi coding agent.",
+      "link": "https://www.marktechpost.com/2026/11/18/hugging-face-qwen3-8-27b-pi-adapted-lora/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "summary": "Hugging Face announced Inkling 2 Mini, a new model designed to deliver cutting-edge performance for local AI setups, enabling developers to run advanced models efficiently on their own hardware.",
+      "link": "https://huggingface.co/blog/inkling2mini",
+      "source": "Hugging Face Blog"
     }
   ],
   "tools": [
     {
       "title": "Perplexity Launches Orchestrator API for Failover and Model Routing",
-      "summary": "Perplexity's new Orchestrator API offers a unified endpoint to manage and route requests across major LLMs (OpenAI, Anthropic, Google, xAI) and open-weight models, providing failover, unified billing, and intelligent routing.",
+      "summary": "Perplexity introduced its Orchestrator API, providing a single endpoint for accessing models from OpenAI, Anthropic, Google, xAI, and open-weight options, featuring same-model provider failover, unified billing, and intelligent request routing.",
       "link": "https://www.marktechpost.com/2026/11/19/perplexity-orchestrator-api-failover-model-routing/",
       "source": "MarkTechPost"
     },
     {
       "title": "Introducing Tool Retrieval in the Gemini API",
-      "summary": "Google has launched Tool Retrieval in the Gemini API, enabling AI agents to access hundreds of tools more efficiently by significantly reducing token usage during complex tool-use scenarios.",
+      "summary": "Google has launched Tool Retrieval in the Gemini API, now in preview, allowing developers to give their AI agents access to hundreds of tools more efficiently while consuming fewer tokens.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
       "source": "Google AI Blog"
     },
     {
-      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "summary": "The release of llama.cpp v1.0.0 provides a more robust and accessible foundation for running open-source large language models locally, enhancing capabilities for on-device and resource-constrained AI development.",
-      "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "summary": "Hugging Face released harness adapters, enabling developers to fine-tune and optimize their preferred models for specific harnesses, significantly improving performance and reducing operational costs.",
+      "link": "https://huggingface.co/blog/harness-adapters-at-scale",
       "source": "Hugging Face Blog"
     }
   ],
   "companies": [
     {
-      "title": "Google Cloud launches Gemini for healthcare",
-      "summary": "Google Cloud has introduced Gemini for healthcare, a specialized offering designed to unify clinical data and automate workflows, aiming to reduce administrative burden and improve efficiency in the medical sector.",
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "summary": "Google Cloud has launched Gemini for healthcare, aiming to unify clinical data and automate workflows, thereby reducing administrative burnout and enhancing efficiency in the medical sector.",
       "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
       "source": "Google AI Blog"
     },
     {
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "summary": "Google is integrating Gemini 4 Hydrogen into its Search platform globally, promising users more helpful, visual, and intuitive search responses powered by advanced AI.",
-      "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "source": "Google AI Blog"
+      "title": "Combatting adversarial distillation",
+      "summary": "OpenAI detailed its layered approach to combatting adversarial distillation, combining model training, safeguards, detection, and enforcement to protect against unauthorized capability extraction from its AI models.",
+      "link": "https://openai.com/index/combatting-adversarial-distillation",
+      "source": "OpenAI News"
     },
     {
-      "title": "Broadening access to AI for scientists",
-      "summary": "OpenAI is expanding its ChatGPT for Academic Researchers program, offering free access to its frontier models for 200,000 researchers worldwide to accelerate scientific discovery and collaboration.",
-      "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "source": "OpenAI News"
+      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "summary": "Hugging Face and OpenRouter have partnered to simplify the deployment and running of open-weight AI models, increasing accessibility for developers and researchers leveraging community models.",
+      "link": "https://huggingface.co/blog/openrouter",
+      "source": "Hugging Face Blog"
     }
   ],
   "learning": [
     {
       "title": "Not If, But How: Responding to Security Incidents in the Age of AI Attackers",
-      "summary": "This guide provides a critical 4-pillar incident response playbook, informed by 6 months of incidents, to help organizations counter the growing threat of AI-powered attackers on AI infrastructure.",
+      "summary": "This guide provides a 4-pillar incident response playbook for AI infrastructure, reviewing recent incidents and demonstrating practical application through case studies from Fireworks AI and Klue, crucial for securing AI systems.",
       "link": "https://www.marktechpost.com/2026/11/19/ai-security-incident-response-playbook-2026/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Our newest AI Quest: Mapping the human brain",
-      "summary": "Google has released a new 'AI Quest' lesson called 'Polar Peaks,' offering an engaging educational pathway for AI literacy through the lens of neuroscience.",
-      "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-      "source": "Google AI Blog"
-    },
-    {
       "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-      "summary": "Hugging Face has published a comprehensive guide for fine-tuning 3D generation models, providing essential knowledge and practical steps for developers working in this emerging field.",
+      "summary": "Hugging Face released a comprehensive guide for fine-tuning 3D generation models, offering detailed instructions and best practices for developers working with advanced 3D content creation.",
       "link": "https://huggingface.co/blog/3d-lora-finetuning",
       "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Research acceleration: The jagged frontier",
+      "summary": "OpenAI explores how coding agents are accelerating AI research, analyzing their performance across various tasks, identifying areas of unevenness, and discussing the implications for recursive self-improvement in AI development.",
+      "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "source": "OpenAI News"
     }
   ]
 }
