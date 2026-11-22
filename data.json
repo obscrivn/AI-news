@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-11-21T12:00:00Z",
+  "lastUpdated": "2026-11-22T20:00:00Z",
   "highlights": [
-    "The AI agent landscape is rapidly advancing with specialized coding agents, enhanced voice models, and advanced tool retrieval capabilities enabling more sophisticated automated workflows.",
-    "New open-weight models are pushing the boundaries of local inference and specialized tasks, including compact MoE models running on consumer hardware and innovative decision-making models.",
-    "Key infrastructure for AI deployment is maturing, with new orchestration APIs simplifying multi-model management and strategic partnerships aimed at making open-weight models more accessible for developers."
+    "Agent ecosystem infrastructure advanced sharply as Google introduced dynamic Tool Retrieval to cut API overhead while OpenAI launched GPT-Live-1.1 with low-cost standby WebRTC streaming.",
+    "Local model capabilities saw breakthroughs with Thinking Machines' 26B Inkling 2 Mini running on 32GB RAM Mac devices and RadixArk's RL-only DaisyRose-27B doubling coding benchmark performance.",
+    "Hardware engineering and formal verification tools gained traction with Columbia/CertiK's TensorLean uncovering critical bugs in FlashAttention and OpenAI models directly optimizing RISC-V silicon designs."
   ],
   "agents": [
     {
-      "title": "OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost",
-      "summary": "OpenAI released GPT-Live-1.1, a full-duplex voice model improving multilingual accents and transcription for voice agents, significantly reducing idle API costs to $0.02 per minute.",
+      "title": "NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor",
+      "summary": "NVIDIA launched a 2B vision-language-action model designed for real-time autonomous driving trajectory planning and explanations with low 160-190ms latency on DRIVE AGX Thor.",
+      "link": "https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min",
+      "summary": "OpenAI released GPT-Live-1.1 featuring improved multilingual transcription and a novel WebRTC standby mode that slashes idle monitoring costs by 60%.",
       "link": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode/",
       "source": "MarkTechPost"
     },
     {
       "title": "RadixArk Ships DaisyRose-27B: RL-Only Agentic Coding Model",
-      "summary": "RadixArk introduced DaisyRose-27B, an Apache 2.0 agentic coding model trained solely with reinforcement learning, achieving over double the Terminal Bench 4.1 pass@1 score and running on a single GPU.",
+      "summary": "An open Apache 2.0 27B coding agent post-trained purely with reinforcement learning that doubles Terminal Bench 4.1 performance and runs on a single GPU.",
       "link": "https://www.marktechpost.com/2026/11/20/radixark-daisyrose-27b-agentic-model/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 Coding Agent",
-      "summary": "Google released Gemini 4 Neon, a powerful 1M-context model priced competitively, which scores 61 on the AA Intelligence Index and ranks #1 on AA’s Coding Agent Index.",
-      "link": "https://www.marktechpost.com/2026/11/18/google-gemini-4-neon-release/",
       "source": "MarkTechPost"
     }
   ],
   "models": [
     {
-      "title": "Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac",
-      "summary": "Thinking Machines launched Inkling 2 Mini, a 26.4B-parameter looped MoE transformer with 3.4B active parameters, optimized to run on a 32GB Mac and achieving 79.2% on SWE-bench Verified.",
+      "title": "Thinking Machines Releases Inkling 2 Mini: 26B Looped MoE for Local Hardware",
+      "summary": "Inkling 2 Mini packs 26.4B parameters (3.4B active) into a looped MoE architecture scoring 79.2% on SWE-bench Verified while running locally on 32GB Macs.",
       "link": "https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index",
-      "summary": "Baseten unveiled bison-1 and groundhog-1, open-weight decision models based on Gemma 4, supporting 128k context and image input, with bison-1 scoring 76 on the AA Decision Index v2.1.",
-      "link": "https://www.marktechpost.com/2026/11/20/baseten-bison-1-groundhog-1-gemma-4-decision-models/",
+      "title": "NVIDIA Releases Nemotron-Labs-Sigma Continuous Diffusion Language Models",
+      "summary": "NVIDIA open-sourced 14 continuous diffusion language model checkpoints (3B and 8B) that denoise in latent space to achieve up to 4.2x faster decoding than standard autoregressive LLMs.",
+      "link": "https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model/",
       "source": "MarkTechPost"
     },
     {
-      "title": "NVIDIA AI Releases Nemotron-Labs-Sigma: Continuous Diffusion Language Model",
-      "summary": "NVIDIA AI introduced Nemotron-Labs-Sigma, a series of 14 open 3B and 8B continuous diffusion language model checkpoints that denoise text in an embedding space and offer up to 4.20x faster decoding than autoregressive methods.",
-      "link": "https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model/",
+      "title": "Baseten Ships Bison-1 and Groundhog-1 Decision Models",
+      "summary": "Built on Gemma 4, these open-weight 128k-context decision models support multimodal inputs and top the AA Decision Index v2.1 benchmark for autonomous action selection.",
+      "link": "https://www.marktechpost.com/2026/11/20/baseten-bison-1-groundhog-1-gemma-4-decision-models/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Perplexity Launches Orchestrator API for Failover and Model Routing",
-      "summary": "Perplexity introduced its Orchestrator API, providing a single endpoint for OpenAI, Anthropic, Google, xAI, and open-weight models, featuring same-model provider failover, unified billing, and an auto-router.",
-      "link": "https://www.marktechpost.com/2026/11/19/perplexity-orchestrator-api-failover-model-routing/",
+      "title": "Google AI Previews Tool Retrieval in the Gemini API",
+      "summary": "Allows developer agents to hold hundreds of tools in reserve and dynamically retrieve only necessary parameter schemas on-demand within a single request, drastically reducing prompt token count.",
+      "link": "https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Introducing Tool Retrieval in the Gemini API",
-      "summary": "Google's Gemini API now features Tool Retrieval in preview, allowing agents to access hundreds of tools with significantly fewer tokens, enhancing agentic capabilities and efficiency.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-      "source": "Google AI Blog"
+      "title": "Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels",
+      "summary": "A PTX-level formal verification system using Lean that successfully proved 83 production GPU kernels correct and surfaced 38 bugs in libraries like FlashAttention and DeepGEMM.",
+      "link": "https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "summary": "llama.cpp reached version 1.0.0, establishing a more robust and stable foundation for the local AI ecosystem, crucial for developers building and running large language models on personal hardware.",
-      "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "source": "Hugging Face Blog"
+      "title": "Inside the Codex Sandbox: Secure Local Execution Environment",
+      "summary": "OpenAI detailed the sandboxing architecture powering Codex, enabling local CLI commands to execute safely under granular user-controlled filesystem and network boundary rules.",
+      "link": "https://openai.com/index/inside-the-codex-sandbox",
+      "source": "OpenAI News"
     }
   ],
   "companies": [
     {
-      "title": "Google Cloud launches Gemini for healthcare",
-      "summary": "Google Cloud introduced Gemini for healthcare, designed to unify clinical data and automate workflows, aiming to reduce administrative burnout and enhance efficiency in the medical sector.",
-      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-      "source": "Google AI Blog"
+      "title": "Hebbia Tests OpenAI GPT-6 Astra for Financial Research",
+      "summary": "Hebbia integrated prerelease evaluations of GPT-6 Astra into financial research workflows, recording major performance gains in citation precision, source retrieval, and synthesis quality.",
+      "link": "https://openai.com/business/customer-stories/hebbia",
+      "source": "OpenAI News"
     },
     {
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "summary": "Google announced the global integration of Gemini 4 Hydrogen into Google Search, promising more helpful, visual, and intuitive responses for users worldwide.",
-      "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "source": "Google AI Blog"
+      "title": "OpenAI Models Optimize Jalapeño Silicon and RISC-V Chip Designs",
+      "summary": "OpenAI demonstrated successful AI-assisted hardware design by using specialized models to optimize physical circuits in Jalapeño silicon and improve RISC-V core structures.",
+      "link": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "source": "OpenAI News"
     },
     {
-      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
-      "summary": "Hugging Face and OpenRouter announced a partnership focused on simplifying the deployment and accessibility of open-weight models, fostering broader adoption within the AI community.",
-      "link": "https://huggingface.co/blog/openrouter",
-      "source": "Hugging Face Blog"
+      "title": "Google and Adobe Integrate Creative and AI Tools Across Drive and Gemini",
+      "summary": "Google announced an expanded partnership with Adobe to embed Adobe AI editing tools directly into Google Workspace applications and the Gemini assistant ecosystem.",
+      "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "Not If, But How: Responding to Security Incidents in the Age of AI Attackers",
-      "summary": "A comprehensive guide providing a 4-pillar incident response playbook to address the increasing frequency of AI-powered attacks on AI infrastructure, featuring practical examples from industry leaders.",
-      "link": "https://www.marktechpost.com/2026/11/19/ai-security-incident-response-playbook-2026/",
-      "source": "MarkTechPost"
-    },
-    {
       "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-      "summary": "Hugging Face published a definitive guide for fine-tuning 3D generation models, offering essential knowledge and techniques for developers working with advanced generative AI applications.",
+      "summary": "A step-by-step developer guide covering data preparation, LoRA training configurations, and performance optimization for custom 3D mesh generation pipelines.",
       "link": "https://huggingface.co/blog/3d-lora-finetuning",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "Our newest AI Quest: Mapping the human brain",
-      "summary": "Google's latest AI Quest, \"Polar Peaks,\" offers an engaging lesson on neuroscience, aimed at improving AI literacy by exploring how AI can be used to map the human brain.",
-      "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-      "source": "Google AI Blog"
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "summary": "A hands-on technical tutorial using NVIDIA SimReady assets within Hugging Face workflows to simulate robotic manipulation and pick-and-place routines.",
+      "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Deploying Daybreak Red: Security Investigation Reference Architecture",
+      "summary": "A practical guide and reference implementation showing engineering teams how to deploy supervised AI security investigation pipelines with granular audit controls.",
+      "link": "https://openai.com/business/learn/deploying-daybreak-red",
+      "source": "OpenAI News"
     }
   ]
 }
