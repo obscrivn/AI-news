@@ -1,106 +1,106 @@
 {
-  "lastUpdated": "2026-11-22T20:00:00Z",
+  "lastUpdated": "2026-11-24T00:00:00Z",
   "highlights": [
-    "Agent ecosystem infrastructure advanced sharply as Google introduced dynamic Tool Retrieval to cut API overhead while OpenAI launched GPT-Live-1.1 with low-cost standby WebRTC streaming.",
-    "Local model capabilities saw breakthroughs with Thinking Machines' 26B Inkling 2 Mini running on 32GB RAM Mac devices and RadixArk's RL-only DaisyRose-27B doubling coding benchmark performance.",
-    "Hardware engineering and formal verification tools gained traction with Columbia/CertiK's TensorLean uncovering critical bugs in FlashAttention and OpenAI models directly optimizing RISC-V silicon designs."
+    "AI agents are rapidly maturing, specializing in critical workflows such as software development, scientific research, and complex engineering tasks, with a focus on practical application and self-improvement capabilities.",
+    "Leading AI companies are deeply integrating advanced multimodal models into their flagship products and expanding enterprise solutions, enhancing accessibility and industry-specific capabilities in areas like search, healthcare, and financial reporting.",
+    "Significant progress in AI infrastructure and model efficiency is enabling more powerful and accessible deployments, including tools for fine-grained GPU control, efficient local model inference, and robust evaluation frameworks for agent development."
   ],
   "agents": [
     {
-      "title": "NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor",
-      "summary": "NVIDIA launched a 2B vision-language-action model designed for real-time autonomous driving trajectory planning and explanations with low 160-190ms latency on DRIVE AGX Thor.",
-      "link": "https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor/",
+      "title": "Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes",
+      "summary": "Anthropic's Claude Ship, featuring Code Review (GA) and PR Steward/Claude Approvals (beta), automates GitHub pull request reviews, fixes, and approvals, directly streamlining developer workflows and improving code quality.",
+      "link": "https://www.marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents/",
       "source": "MarkTechPost"
     },
     {
-      "title": "OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min",
-      "summary": "OpenAI released GPT-Live-1.1 featuring improved multilingual transcription and a novel WebRTC standby mode that slashes idle monitoring costs by 60%.",
-      "link": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode/",
-      "source": "MarkTechPost"
+      "title": "ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization",
+      "summary": "ChatAtom is a multi-agent LLM system that translates natural language requests into full molecular dynamics workflows, automating script generation, execution, visualization, and analysis for materials design and discovery.",
+      "link": "https://arxiv.org/abs/2611.26782",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "RadixArk Ships DaisyRose-27B: RL-Only Agentic Coding Model",
-      "summary": "An open Apache 2.0 27B coding agent post-trained purely with reinforcement learning that doubles Terminal Bench 4.1 performance and runs on a single GPU.",
-      "link": "https://www.marktechpost.com/2026/11/20/radixark-daisyrose-27b-agentic-model/",
-      "source": "MarkTechPost"
+      "title": "Self-Evolving Beyond Human-Crafted Experience for EDA Scripting",
+      "summary": "ZhuLong-SE is an execution-grounded LLM agent that learns reusable knowledge from past task traces for Electronic Design Automation (EDA) scripting, significantly boosting pass rates on complex benchmarks by self-evolution.",
+      "link": "https://arxiv.org/abs/2611.26912",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "Thinking Machines Releases Inkling 2 Mini: 26B Looped MoE for Local Hardware",
-      "summary": "Inkling 2 Mini packs 26.4B parameters (3.4B active) into a looped MoE architecture scoring 79.2% on SWE-bench Verified while running locally on 32GB Macs.",
+      "title": "Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice",
+      "summary": "Z.ai released GLM-5.4, a 750B-scale Loop Transformer designed for deeper reasoning by running 28 GLM-5 layers twice, with planned API access and open weights after safety evaluations.",
+      "link": "https://www.marktechpost.com/2026/11/23/zai-glm-5-4-loop-transformer/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor",
+      "summary": "NVIDIA introduced Alpamayo 2 Edge, a 2B-class reasoning Vision-Language-Action model that plans and explains driving trajectories on DRIVE AGX Thor with low latency, enabling advanced autonomous vehicle capabilities.",
+      "link": "https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac",
+      "summary": "Thinking Machines launched Inkling 2 Mini, a 26.4B-parameter looped Mixture-of-Experts (MoE) transformer that runs efficiently on consumer hardware like a 32GB Mac, offering high performance for local setups.",
       "link": "https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "NVIDIA Releases Nemotron-Labs-Sigma Continuous Diffusion Language Models",
-      "summary": "NVIDIA open-sourced 14 continuous diffusion language model checkpoints (3B and 8B) that denoise in latent space to achieve up to 4.2x faster decoding than standard autoregressive LLMs.",
-      "link": "https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Baseten Ships Bison-1 and Groundhog-1 Decision Models",
-      "summary": "Built on Gemma 4, these open-weight 128k-context decision models support multimodal inputs and top the AA Decision Index v2.1 benchmark for autonomous action selection.",
-      "link": "https://www.marktechpost.com/2026/11/20/baseten-bison-1-groundhog-1-gemma-4-decision-models/",
       "source": "MarkTechPost"
     }
   ],
   "tools": [
     {
-      "title": "Google AI Previews Tool Retrieval in the Gemini API",
-      "summary": "Allows developer agents to hold hundreds of tools in reserve and dynamically retrieve only necessary parameter schemas on-demand within a single request, drastically reducing prompt token count.",
+      "title": "Meta TLX Brings Warp-Group GPU Control to Triton on Hopper, Blackwell, AMD",
+      "summary": "Meta's Triton Low-Level Extensions (TLX) provide warp-group, barrier, TMA, and cluster control to Python Triton kernels, optimizing GPU performance for demanding LLM workloads on NVIDIA and AMD architectures.",
+      "link": "https://www.marktechpost.com/2026/11/23/meta-tlx-triton-low-level-extensions/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries",
+      "summary": "Google has launched Tool Retrieval in the Gemini API, enabling agents to efficiently manage and load parameters for hundreds of tools on demand, optimizing token usage and expanding agent capabilities.",
       "link": "https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels",
-      "summary": "A PTX-level formal verification system using Lean that successfully proved 83 production GPU kernels correct and surfaced 38 bugs in libraries like FlashAttention and DeepGEMM.",
-      "link": "https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Inside the Codex Sandbox: Secure Local Execution Environment",
-      "summary": "OpenAI detailed the sandboxing architecture powering Codex, enabling local CLI commands to execute safely under granular user-controlled filesystem and network boundary rules.",
-      "link": "https://openai.com/index/inside-the-codex-sandbox",
-      "source": "OpenAI News"
+      "title": "TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator",
+      "summary": "TOUMAII provides a large-scale 4.5M preference pair dataset and a synthetic data generation pipeline to train robust tool-calling models using Direct Preference Optimization (DPO), addressing a critical data scarcity.",
+      "link": "https://arxiv.org/abs/2611.26722",
+      "source": "arXiv cs.AI"
     }
   ],
   "companies": [
     {
-      "title": "Hebbia Tests OpenAI GPT-6 Astra for Financial Research",
-      "summary": "Hebbia integrated prerelease evaluations of GPT-6 Astra into financial research workflows, recording major performance gains in citation precision, source retrieval, and synthesis quality.",
-      "link": "https://openai.com/business/customer-stories/hebbia",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "summary": "OpenAI and Cisco have partnered to release Shirudo, an open-source runtime for Linux, designed to enhance the protection of running systems while rolling out patches, improving security for enterprise deployments.",
+      "link": "https://openai.com/index/introducing-shirudo",
       "source": "OpenAI News"
     },
     {
-      "title": "OpenAI Models Optimize Jalapeño Silicon and RISC-V Chip Designs",
-      "summary": "OpenAI demonstrated successful AI-assisted hardware design by using specialized models to optimize physical circuits in Jalapeño silicon and improve RISC-V core structures.",
-      "link": "https://openai.com/index/advancing-chip-design-with-our-models",
-      "source": "OpenAI News"
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "summary": "Google is integrating Gemini 4 Hydrogen globally into Google Search, promising more helpful, visual, and intuitive responses, marking a significant advancement in search engine capabilities powered by AI.",
+      "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "source": "Google AI Blog"
     },
     {
-      "title": "Google and Adobe Integrate Creative and AI Tools Across Drive and Gemini",
-      "summary": "Google announced an expanded partnership with Adobe to embed Adobe AI editing tools directly into Google Workspace applications and the Gemini assistant ecosystem.",
-      "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "title": "Google Cloud launches Gemini for healthcare",
+      "summary": "Google Cloud has launched Gemini for healthcare, aiming to unify clinical data and automate workflows, thereby reducing administrative burnout and enhancing operational efficiency in the healthcare sector.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
       "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
-      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-      "summary": "A step-by-step developer guide covering data preparation, LoRA training configurations, and performance optimization for custom 3D mesh generation pipelines.",
-      "link": "https://huggingface.co/blog/3d-lora-finetuning",
+      "title": "How to build and maintain an agentic evaluation",
+      "summary": "This guide from Hugging Face provides essential insights into building and maintaining robust evaluation methodologies for AI agents, critical for ensuring reliability and performance in development.",
+      "link": "https://huggingface.co/blog/agentic-evals",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "summary": "A hands-on technical tutorial using NVIDIA SimReady assets within Hugging Face workflows to simulate robotic manipulation and pick-and-place routines.",
-      "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "source": "Hugging Face Blog"
+      "title": "27 Cybersecurity Terms to Prepare You for the Age of AI",
+      "summary": "This article provides a crucial glossary of 27 cybersecurity terms, helping builders and professionals understand the evolving vocabulary and risks associated with AI-enabled threats and defenses.",
+      "link": "https://www.marktechpost.com/2026/11/23/27-ai-cybersecurity-terms/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Deploying Daybreak Red: Security Investigation Reference Architecture",
-      "summary": "A practical guide and reference implementation showing engineering teams how to deploy supervised AI security investigation pipelines with granular audit controls.",
+      "title": "Deploying Daybreak Red",
+      "summary": "This guide offers a reference architecture for deploying Daybreak Red, focusing on supervised security investigations with safety controls, setup, and monitoring, crucial for secure AI system integration.",
       "link": "https://openai.com/business/learn/deploying-daybreak-red",
       "source": "OpenAI News"
     }
