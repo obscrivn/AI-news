@@ -1,107 +1,107 @@
 {
-  "lastUpdated": "2026-11-24T18:00:00Z",
+  "lastUpdated": "2026-11-25T12:00:00Z",
   "highlights": [
-    "AI agents are rapidly expanding into critical enterprise and developer workflows, demonstrated by new open-source security runtimes and advanced tools for automated code review.",
-    "Foundational model capabilities continue to break new ground, with GPT-6 demonstrating intrinsic protein design, Z.ai releasing a 750B loop transformer, and Google enhancing real-time video generation.",
-    "The developer ecosystem is being fortified with crucial tools like efficient tool retrieval for large agent libraries and low-level GPU control, enabling builders to create more robust and performant AI applications."
+    "Autonomous agent deployment is moving deeper into core infrastructure, highlighted by OpenAI/Cisco's Shirudo runtime defense and Anthropic's Claude Ship for PR stewardship.",
+    "Model scaling is embracing looping architectures and domain-specific post-training, showcased by Z.ai's 750B GLM-5.4 Loop Transformer and ByteDance's Laminar async RL framework.",
+    "Hardware and compiler controls are unlocking dramatic edge and datacenter gains, from Meta's TLX Triton extensions on Blackwell/AMD to AI-designed hardware architectures like Architect Labs' Frostbite CPU."
   ],
   "agents": [
     {
-      "title": "OpenAI and Cisco Releases Shirudo: Open-Source Linux Runtime for Agent-Based System Defense",
-      "summary": "OpenAI and Cisco released Shirudo, a BSD-licensed eBPF runtime for Linux, allowing AI agents to deploy signed 'shields' that block exploit paths on running systems, ensuring continuous defense without requiring system downtime for patching.",
-      "link": "https://www.marktechpost.com/2026/11/24/openai-cisco-shirudo-ebpf-linux-runtime/",
-      "source": "MarkTechPost"
-    },
-    {
       "title": "Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes",
-      "summary": "Anthropic's Claude Ship bundles Code Review, PR Steward, and Claude Approvals into an agent suite designed to review, fix, and approve GitHub pull requests, significantly streamlining development workflows with automated assistance.",
+      "summary": "Anthropic released Claude Ship, bundling automated code review, PR stewardship, and approvals directly into GitHub workflows to autonomously review, patch, and manage code reviews.",
       "link": "https://www.marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents/",
       "source": "MarkTechPost"
     },
     {
-      "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
-      "summary": "AutoPILOT introduces a novel agent harness enabling multimodal foundation models to send primitive actions, initiate open-loop macros, or write closed-loop controllers, significantly improving real-time success rates in dynamic environments like video games by decoupling action generation from model inference frequency.",
-      "link": "https://arxiv.org/abs/2611.28202",
+      "title": "OpenAI and Cisco Release Shirudo for Real-Time Runtime Defense",
+      "summary": "Shirudo is a BSD-licensed eBPF Linux runtime allowing security agents to synthesize signed shields that block active exploit paths in real time without downtime while patches are prepared.",
+      "link": "https://www.marktechpost.com/2026/11/24/openai-cisco-shirudo-ebpf-linux-runtime/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "SpatialCraft Enables Frozen MLLMs to Self-Evolve Spatial Reasoning Skills",
+      "summary": "SpatialCraft introduces an experience-and-skill orchestration framework that allows stateless MLLM agents to learn optimal multi-step tool calls from past interaction history without updating weights.",
+      "link": "https://arxiv.org/abs/2611.31475",
       "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "GPT-6 Models Demonstrate Intrinsic Protein-Design Capabilities",
-      "summary": "OpenAI's GPT-6 models have showcased the ability to intrinsically design protein structures and sequences, with lab tests confirming evidence of binding across five distinct targets, marking a significant advance in AI for scientific discovery.",
-      "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-      "source": "OpenAI News"
-    },
-    {
-      "title": "Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice",
-      "summary": "Z.ai released GLM-5.4, a 750B-scale Loop Transformer model designed for deeper reasoning by running its 28 GLM-5 layers twice, with plans for API access and open weights after comprehensive safety evaluations.",
+      "title": "Z AI Releases GLM-5.4: A 750B Loop Transformer Architecture",
+      "summary": "GLM-5.4 is a flagship 750B parameter Loop Transformer that executes 28 GLM-5 layers twice per forward pass, providing significantly deeper reasoning capabilities before open-weights release.",
       "link": "https://www.marktechpost.com/2026/11/23/zai-glm-5-4-loop-transformer/",
       "source": "MarkTechPost"
     },
     {
-      "title": "Gemini Omni 1.2 Flash: Fast and Cost-Effective with Longer Clips",
-      "summary": "Google introduces Gemini Omni 1.2 Flash, a new model offering native 15-second video generation and editing capabilities with stronger consistency, all at a 30% lower pricing point, enabling more accessible and advanced multimodal applications.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "source": "Google AI Blog"
+      "title": "NVIDIA Releases Alpamayo 2 Edge Reasoning VLA for DRIVE Thor",
+      "summary": "NVIDIA launched Alpamayo 2 Edge, a 2B vision-language-action reasoning model designed for DRIVE AGX Thor that plans and explains driving trajectories at 160-190ms latency.",
+      "link": "https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "GPT-6 Models Demonstrate Intrinsic Protein-Design Capabilities",
+      "summary": "OpenAI highlighted GPT-6's native reasoning and code generation capabilities for designing functional protein structures and sequences, validated by wet-lab binding tests.",
+      "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "source": "OpenAI News"
     }
   ],
   "tools": [
     {
-      "title": "OpenAI and Cisco Introduce Shirudo: Open-Source Linux Runtime for System Defense",
-      "summary": "OpenAI and Cisco have jointly released Shirudo, an open-source eBPF runtime for Linux, enabling AI agents to construct and deploy 'shields' that proactively block exploit paths on live systems, ensuring protection without disrupting operations during patch deployment.",
-      "link": "https://openai.com/index/introducing-shirudo",
-      "source": "OpenAI News"
+      "title": "ByteDance Open-Sources Laminar Asynchronous RL Post-Training Framework",
+      "summary": "Laminar decouples rollout, training, and weight synchronization for RL, boosting Qwen3-Coder-30B-A3B to 52.2% on SWE-bench Verified through asynchronous RL training.",
+      "link": "https://www.marktechpost.com/2026/11/24/bytedance-seed-laminar-async-rl-post-training-framework/",
+      "source": "MarkTechPost"
     },
     {
-      "title": "Introducing Tool Retrieval in the Gemini API for Large Tool Libraries",
-      "summary": "Google AI has launched Tool Retrieval in preview for the Gemini API, enabling developers to equip agents with vast tool libraries and load parameter schemas only when needed, significantly reducing token usage and complexity for sophisticated agentic applications.",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "Meta TLX Brings Warp-Group GPU Control to Triton on Hopper, Blackwell, AMD",
-      "summary": "Meta introduced TLX (Triton Low-Level Extensions), which provides developers with granular warp-group, barrier, TMA, and cluster control within Python Triton kernels, optimizing high-performance AI workloads on NVIDIA Hopper, Blackwell, and AMD MI350 GPUs.",
+      "title": "Meta TLX Brings Warp-Group GPU Control to Triton Kernels",
+      "summary": "Meta introduced TLX, extending Triton with fine-grained warp-group, barrier, TMA, and cluster control targeting Hopper, Blackwell, and AMD MI350 architectures.",
       "link": "https://www.marktechpost.com/2026/11/23/meta-tlx-triton-low-level-extensions/",
       "source": "MarkTechPost"
+    },
+    {
+      "title": "Google Releases Tool Retrieval Preview in the Gemini API",
+      "summary": "The Gemini API introduced Tool Retrieval, enabling developers to expose hundreds of capabilities to agents dynamically while drastically cutting prompt token usage.",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "source": "Google AI Blog"
     }
   ],
   "companies": [
     {
-      "title": "Google Cloud Launches Gemini for Healthcare",
-      "summary": "Google Cloud has launched Gemini for healthcare, a specialized AI offering designed to unify clinical data and automate complex workflows, aiming to reduce administrative burden and enhance efficiency across healthcare organizations.",
-      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "title": "Architect Labs Unveils Frostbite: AI-Designed Interaction Net CPU",
+      "summary": "Architect Labs taped out Frostbite, an AI-designed 7nm CPU running interaction nets in hardware that demonstrates a 4.59x performance-per-watt advantage over standard in-order cores.",
+      "link": "https://www.marktechpost.com/2026/11/23/architect-labs-frostbite-ai-designed-cpu-interaction-nets/",
+      "source": "MarkTechPost"
+    },
+    {
+      "title": "Google and Adobe Announce Deep Creative & Workspace AI Integrations",
+      "summary": "Google and Adobe partnered to bring native Adobe creative and PDF tools into Google Drive and embed Adobe generative capabilities inside the Gemini app.",
+      "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
       "source": "Google AI Blog"
     },
     {
-      "title": "Google Search Gets a Major Upgrade with Gemini 4 Hydrogen",
-      "summary": "Google is integrating Gemini 4 Hydrogen globally into Google Search, promising to deliver more helpful, visual, and intuitive search responses, marking a significant evolution in its flagship consumer product.",
-      "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "OpenAI and Cisco Introduce Shirudo",
-      "summary": "OpenAI and Cisco have collaborated to introduce Shirudo, an open-source Linux runtime designed to enhance system security by allowing AI agents to quickly deploy defensive shields against exploits, enabling proactive threat response while patches are being prepared.",
-      "link": "https://openai.com/index/introducing-shirudo",
-      "source": "OpenAI News"
+      "title": "Hugging Face Partners with OpenRouter for Open-Weight Model Hosting",
+      "summary": "Hugging Face and OpenRouter joined forces to provide seamless one-click serverless deployment and API routing for open-weight models across global inference providers.",
+      "link": "https://huggingface.co/blog/openrouter",
+      "source": "Hugging Face Blog"
     }
   ],
   "learning": [
     {
-      "title": "How to Build and Maintain an Agentic Evaluation",
-      "summary": "A new guide from Hugging Face Blog provides comprehensive insights into the crucial process of building and maintaining agentic evaluations, offering essential knowledge for developers looking to ensure the robustness and reliability of their AI agents.",
+      "title": "Building and Maintaining Agentic Evaluation Pipelines",
+      "summary": "A comprehensive guide on establishing robust continuous evaluation suites specifically designed to stress-test autonomous LLM agents across complex multi-step trajectories.",
       "link": "https://huggingface.co/blog/agentic-evals",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "27 Cybersecurity Terms to Prepare You for the Age of AI",
-      "summary": "MarkTechPost offers an informative guide on 27 essential cybersecurity terms, equipping readers with updated vocabulary to navigate the evolving landscape where AI plays a dual role in both perpetrating and defending against sophisticated cyber threats.",
-      "link": "https://www.marktechpost.com/2026/11/23/27-ai-cybersecurity-terms/",
-      "source": "MarkTechPost"
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "summary": "A practical technical guide covering dataset preparation, LoRA configurations, and optimization strategies for custom fine-tuning of 3D generative diffusion models.",
+      "link": "https://huggingface.co/blog/3d-lora-finetuning",
+      "source": "Hugging Face Blog"
     },
     {
-      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-      "summary": "Hugging Face Blog released a comprehensive fine-tuning guide for 3D generation models, providing builders with the knowledge and steps needed to customize and enhance these advanced creative AI systems for specific applications and better performance.",
-      "link": "https://huggingface.co/blog/3d-lora-finetuning",
+      "title": "Microduck Obstacle Avoidance: Sim2Real Workflow with Isaac Lab & Newton",
+      "summary": "A step-by-step hands-on guide demonstrating robotics simulation-to-reality transfer using NVIDIA Isaac Lab and Newton physics environments for obstacle avoidance.",
+      "link": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
       "source": "Hugging Face Blog"
     }
   ]
