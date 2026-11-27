@@ -1,108 +1,108 @@
 {
-  "lastUpdated": "2026-11-26T12:00:00Z",
+  "lastUpdated": "2026-11-27T12:00:00Z",
   "highlights": [
-    "The AI agent ecosystem is rapidly expanding, with new open-source security runtimes, developer-centric PR review agents, and sophisticated recommendation systems demonstrating increasing real-world utility.",
-    "Major model advancements are pushing the boundaries of AI capabilities, featuring new architectures for deeper reasoning, multimodal video generation, and breakthrough applications like intrinsic protein design.",
-    "Industry leaders are forging strategic partnerships and launching vertical-specific AI solutions, significantly integrating advanced AI capabilities into sectors like healthcare and enterprise software."
+    "OpenAI's GPT-6 models are demonstrating groundbreaking capabilities in protein design, signaling a major advance for scientific applications of AI in biotechnology.",
+    "Major platforms like Google Search are integrating advanced Gemini models, while Google Cloud is extending Gemini into specialized verticals like healthcare, showcasing broad commercialization and impact across industries.",
+    "The AI ecosystem is rapidly advancing in practical deployments, with new tools emerging for multi-model governance, agentic workflow optimization, and enhanced safety features for critical applications."
   ],
   "agents": [
     {
       "title": "Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes",
-      "summary": "Anthropic's Claude Ship, bundling Code Review, PR Steward, and Claude Approvals, enables AI agents to automate GitHub pull request reviews, fixes, and approvals, significantly accelerating development workflows.",
+      "summary": "Anthropic's Claude Ship introduces a suite of AI agents, including Code Review (GA) and beta PR Steward/Claude Approvals, designed to automate and enhance GitHub pull request reviews and fixes for developers.",
       "link": "https://www.marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents/",
       "source": "MarkTechPost"
     },
     {
-      "title": "OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime",
-      "summary": "OpenAI and Cisco introduced Shirudo, an open-source eBPF runtime for Linux, enabling AI agents to write and deploy 'shields' that block exploit paths on running systems, ensuring continuous operation during patch rollouts.",
-      "link": "https://www.marktechpost.com/2026/11/24/openai-cisco-shirudo-ebpf-linux-runtime/",
-      "source": "MarkTechPost"
+      "title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
+      "summary": "This research introduces 'partial routing,' an approach allowing a lead AI model to delegate suitable subtasks to cheaper worker models based on past performance, significantly improving mean task performance and reducing costs for agentic workflows.",
+      "link": "https://arxiv.org/abs/2611.33402",
+      "source": "arXiv cs.AI"
     },
     {
-      "title": "Meet Facebook’s Your Algorithm: How Meta Turns Plain-Language Preferences Into Ranking",
-      "summary": "Meta's Your Algorithm showcases how LLMs can transform user-expressed plain-language interests into sophisticated ranking signals for Facebook's Feed and Reels, utilizing validation, multiple retrieval sources, and a fine-tuned reranker.",
-      "link": "https://www.marktechpost.com/2026/11/24/meta-facebook-your-algorithm-llm-recommendations/",
-      "source": "MarkTechPost"
+      "title": "Learning to Reason in Real-Time",
+      "summary": "This paper introduces Real-Time Reasoning Training (RRT) techniques, enabling AI agents to balance reasoning depth with responsiveness in dynamic, real-world environments, showing substantial performance gains over baselines under time pressure.",
+      "link": "https://arxiv.org/abs/2611.33513",
+      "source": "arXiv cs.AI"
     }
   ],
   "models": [
     {
-      "title": "Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice",
-      "summary": "Z.ai released GLM-5.4, a 750B-scale Loop Transformer model that re-runs 28 layers twice for enhanced reasoning, promising deeper insights and planned open weights after safety evaluations.",
-      "link": "https://www.marktechpost.com/2026/11/23/zai-glm-5-4-loop-transformer/",
-      "source": "MarkTechPost"
-    },
-    {
       "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "summary": "OpenAI's GPT-6 models have showcased intrinsic capabilities in designing protein structures and sequences through reasoning and code generation, with lab tests confirming binding across five targets, indicating a leap in AI for biotechnology.",
+      "summary": "OpenAI's GPT-6 models now exhibit intrinsic capabilities for designing protein structures and sequences, using reasoning and code, with lab tests confirming binding evidence across five targets, marking a significant leap for biotechnology.",
       "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
       "source": "OpenAI News"
     },
     {
+      "title": "Tencent Open-Sources DFly2: Speculative Decoding That Reuses the Target’s Sparse KV Cache",
+      "summary": "Tencent open-sourced DFly2, a speculative decoding drafter for sparse-attention LLMs, which reuses the target's KV cache to avoid additional memory and boosts 64K serving throughput by up to 81%.",
+      "link": "https://www.marktechpost.com/2026/11/26/tencent-dfly2-speculative-decoding-sparse-models/",
+      "source": "MarkTechPost"
+    },
+    {
       "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "summary": "Google introduced Gemini Omni 1.2 Flash, a new multimodal model featuring native 15-second video generation and editing capabilities, improved consistency, and a 30% cost reduction, enhancing developer access to advanced video AI.",
+      "summary": "Google introduces Gemini Omni 1.2 Flash, a new model iteration that offers native 15-second video generation and editing capabilities with stronger consistency, all at a 30% lower price point, making advanced multimodal tasks more accessible.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
       "source": "Google AI Blog"
     }
   ],
   "tools": [
     {
-      "title": "ByteDance Researchers Open-Sources Laminar, an Async Reinforcement Learning RL Post-Training Framework",
-      "summary": "ByteDance Seed and HKU researchers open-sourced Laminar, an asynchronous RL post-training framework that decouples rollout, training, and weight synchronization, demonstrating significant performance boosts for models like Qwen3-Coder-30B-A3B.",
-      "link": "https://www.marktechpost.com/2026/11/24/bytedance-seed-laminar-async-rl-post-training-framework/",
+      "title": "OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime",
+      "summary": "OpenAI and Cisco released Shirudo, an open-source, BSD-licensed eBPF runtime for Linux, enabling AI agents to write 'shields' that block exploit paths on running systems without downtime while patches are developed and deployed.",
+      "link": "https://www.marktechpost.com/2026/11/24/openai-cisco-shirudo-ebpf-linux-runtime/",
       "source": "MarkTechPost"
     },
     {
       "title": "Introducing Tool Retrieval in the Gemini API",
-      "summary": "Google launched Tool Retrieval in the Gemini API (preview), allowing developers to grant agents access to hundreds of tools while consuming fewer tokens, streamlining the creation of powerful, resource-efficient AI applications.",
+      "summary": "Google introduced Tool Retrieval in the Gemini API, allowing developers to give their agents access to hundreds of tools while using fewer tokens, significantly enhancing agent capabilities and efficiency.",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
       "source": "Google AI Blog"
     },
     {
-      "title": "Meta TLX Brings Warp-Group GPU Control to Triton on Hopper, Blackwell, AMD",
-      "summary": "Meta detailed TLX (Triton Low-Level Extensions), providing Python Triton kernels with fine-grained warp-group, barrier, TMA, and cluster control, enabling optimized performance for LLM and ads workloads on NVIDIA Hopper, Blackwell, and AMD MI350 GPUs.",
-      "link": "https://www.marktechpost.com/2026/11/23/meta-tlx-triton-low-level-extensions/",
+      "title": "nexos.ai AI Adoption Platform puts 200+ models behind one AI Gateway, with budget limits and governance built in",
+      "summary": "nexos.ai launched an AI Adoption Platform that provides a single AI Gateway for over 200 models, incorporating built-in budget limits and governance, simplifying multi-model deployment and management for enterprises.",
+      "link": "https://www.marktechpost.com/2026/11/26/nexos-ai-ai-gateway-200-models-governance/",
       "source": "MarkTechPost"
     }
   ],
   "companies": [
     {
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "summary": "Google Search has been upgraded globally with Gemini 4 Hydrogen, promising more helpful, visual, and intuitive responses, marking a significant evolution in Google's core product.",
+      "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "source": "Google AI Blog"
+    },
+    {
       "title": "Google Cloud launches Gemini for healthcare.",
-      "summary": "Google Cloud introduced Gemini for healthcare, a new initiative designed to unify clinical data and automate workflows, aiming to reduce administrative burnout and enhance efficiency across the healthcare sector.",
+      "summary": "Google Cloud launched Gemini for healthcare, a specialized AI solution designed to unify clinical data and automate workflows, aiming to reduce administrative burnout and improve efficiency in the healthcare sector.",
       "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
       "source": "Google AI Blog"
     },
     {
       "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-      "summary": "Google and Adobe are deepening their partnership by integrating creative and productivity tools, allowing users to edit PDFs directly in Google Drive and leverage Adobe AI capabilities within the Gemini ecosystem, enhancing cross-platform workflows.",
+      "summary": "Google and Adobe announced a deeper partnership, integrating creative and productivity tools by enabling PDF editing in Google Drive and incorporating Adobe AI capabilities directly into Gemini, enhancing user workflows across platforms.",
       "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-      "source": "Google AI Blog"
-    },
-    {
-      "title": "How Gemini is changing the game for Golden State's organization and fans.",
-      "summary": "Google Gemini partnered with the Golden State Warriors to enhance fan experiences and streamline business operations for the Warriors, Valkyries, and Chase Center, showcasing real-world AI application in sports and entertainment.",
-      "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
       "source": "Google AI Blog"
     }
   ],
   "learning": [
     {
+      "title": "Context Scaling: A New Frontier of AI Scaling",
+      "summary": "This paper introduces 'context scaling' as a critical new dimension for AI system development, focusing on improving the acquisition, representation, and delivery of deployment state to models, emphasizing the model-infrastructure pair as the unit of analysis.",
+      "link": "https://arxiv.org/abs/2611.33160",
+      "source": "arXiv cs.AI"
+    },
+    {
+      "title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
+      "summary": "Researchers introduced AutoformBench, a benchmark of 341 Lean 4 formalization tasks from advanced mathematical sources, designed to evaluate AI systems' ability to construct missing definitions and infrastructure for machine-checked proofs, beyond isolated theorem proving.",
+      "link": "https://arxiv.org/abs/2611.33165",
+      "source": "arXiv cs.AI"
+    },
+    {
       "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
-      "summary": "This Hugging Face Blog post provides a comprehensive guide on the methodologies for building, training, and evaluating complex multi-agent AI systems, offering essential insights for developers exploring agentic architectures.",
+      "summary": "Hugging Face provides a comprehensive guide on building, training, and evaluating multi-agent systems, offering practical insights and methodologies for developers working with complex AI collaborations.",
       "link": "https://huggingface.co/blog/training-swarms",
       "source": "Hugging Face Blog"
-    },
-    {
-      "title": "27 Cybersecurity Terms to Prepare You for the Age of AI",
-      "summary": "IBM's essential guide outlines 27 critical cybersecurity terms, equipping professionals with the necessary vocabulary to understand and navigate the evolving landscape where AI plays a dual role in both security and breaches.",
-      "link": "https://www.marktechpost.com/2026/11/23/27-ai-cybersecurity-terms/",
-      "source": "MarkTechPost"
-    },
-    {
-      "title": "Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost",
-      "summary": "This article provides a comparative analysis of leading personal AI agents like Hermes Agent, OpenClaw, and Gemini Spark, evaluating them on key criteria such as memory, security defaults, and real-world costs, offering insights for consumers and developers.",
-      "link": "https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026/",
-      "source": "MarkTechPost"
     }
   ]
 }
